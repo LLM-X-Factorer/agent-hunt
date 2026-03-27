@@ -137,3 +137,26 @@ class SkillPair(BaseModel):
 class CooccurrenceResult(BaseModel):
     top_pairs: list[SkillPair]
     total_jobs_analyzed: int
+
+
+# --- Industry ---
+
+
+class IndustrySkillCount(BaseModel):
+    skill_id: str
+    count: int
+
+
+class IndustrySummary(BaseModel):
+    industry: str
+    job_count: int
+    domestic_count: int
+    international_count: int
+    avg_salary: int | None
+    top_skills: list[IndustrySkillCount]
+
+
+class IndustrySalary(BaseModel):
+    industry: str
+    job_count: int
+    avg_salary: int

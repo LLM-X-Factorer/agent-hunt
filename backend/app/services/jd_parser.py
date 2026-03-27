@@ -27,6 +27,11 @@ SYSTEM_PROMPT = """\
 5. preferred_skills 包含"加分项"、"优先"、"nice to have"的技能
 6. market 根据公司所在地和语言判断：中国大陆公司为 "domestic"，其他为 "international"
 7. company_size: "startup"(< 50 人), "mid"(50-500), "large"(500-5000), "enterprise"(> 5000)
+8. industry: 根据公司业务和岗位内容判断所属行业，必须从以下选项中选择：
+   "internet"(互联网/SaaS/软件), "finance"(金融/银行/保险), "healthcare"(医疗/生物/制药),
+   "manufacturing"(制造/工业/硬件), "retail"(零售/电商), "education"(教育/培训),
+   "media"(媒体/内容/游戏), "consulting"(咨询/企业服务), "automotive"(汽车/自动驾驶),
+   "energy"(能源/环保), "telecom"(通信/运营商), "government"(政府/公共事业), "other"
 
 严格输出以下 JSON，不要添加任何额外文字：
 {
@@ -35,6 +40,7 @@ SYSTEM_PROMPT = """\
   "company_size": "startup | mid | large | enterprise | null",
   "location": "string | null",
   "market": "domestic | international",
+  "industry": "internet | finance | healthcare | manufacturing | retail | education | media | consulting | automotive | energy | telecom | government | other | null",
   "work_mode": "onsite | remote | hybrid | null",
   "salary_min_rmb": "int | null",
   "salary_max_rmb": "int | null",
@@ -85,6 +91,7 @@ async def parse_job_by_id(db: AsyncSession, job_id) -> Job:
         job.company_size = parsed.company_size
         job.location = parsed.location
         job.market = parsed.market
+        job.industry = parsed.industry
         job.work_mode = parsed.work_mode
         job.salary_min = parsed.salary_min_rmb
         job.salary_max = parsed.salary_max_rmb

@@ -28,20 +28,23 @@ EXPERIENCE_BRACKETS = [
 ]
 
 
-async def _fetch_parsed_jobs(db: AsyncSession, market=None, platform_id=None):
+async def _fetch_parsed_jobs(db: AsyncSession, market=None, platform_id=None, industry=None):
     query = select(Job).where(Job.parse_status == "parsed")
     if market:
         query = query.where(Job.market == market)
     if platform_id:
         query = query.where(Job.platform_id == platform_id)
+    if industry:
+        query = query.where(Job.industry == industry)
     result = await db.execute(query)
     return result.scalars().all()
 
 
 async def salary_distribution(
-    db: AsyncSession, market: str | None = None, platform_id: str | None = None
+    db: AsyncSession, market: str | None = None, platform_id: str | None = None,
+    industry: str | None = None,
 ) -> dict:
-    jobs = await _fetch_parsed_jobs(db, market, platform_id)
+    jobs = await _fetch_parsed_jobs(db, market, platform_id, industry)
     salaries = [
         (j.salary_min + j.salary_max) // 2
         for j in jobs
@@ -65,9 +68,10 @@ async def salary_distribution(
 
 
 async def salary_by_skill(
-    db: AsyncSession, top_n: int = 20, market: str | None = None
+    db: AsyncSession, top_n: int = 20, market: str | None = None,
+    industry: str | None = None,
 ) -> list[dict]:
-    jobs = await _fetch_parsed_jobs(db, market)
+    jobs = await _fetch_parsed_jobs(db, market, industry=industry)
 
     skill_salaries: dict[str, list[int]] = defaultdict(list)
     for job in jobs:
@@ -152,4 +156,26 @@ async def salary_by_platform(db: AsyncSession) -> list[dict]:
         })
 
     result.sort(key=lambda x: x["avg_salary"], reverse=True)
+    return result
+
+
+async def salary_by_industry(db: AsyncSession) -> list[dict]:
+    jobs = await _fetch_parsed_jobs(db)
+
+    industry_sals: dict[str, list[int]] = defaultdict(list)
+    for job in jobs:
+        if job.salary_min is None or job.salary_max is None or not job.industry:
+            continue
+        avg_sal = (job.salary_min + job.salary_max) // 2
+        industry_sals[job.industry].append(avg_sal)
+
+    result = []
+    for ind, sals in industry_sals.items():
+        result.append({
+            "industry": ind,
+            "job_count": len(sals),
+            "avg_salary": int(sum(sals) / len(sals)),
+        })
+
+    result.sort(key=lambda x: x["job_count"], reverse=True)
     return result

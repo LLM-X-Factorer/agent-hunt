@@ -1,0 +1,55 @@
+{
+  "_description": "Search keyword matrix for multi-industry AI job collection. Each entry has platform targets and keywords.",
+  "categories": [
+    {
+      "name": "AI Agent 核心",
+      "keywords": ["AI Agent Engineer", "AI Agent", "LLM Engineer", "AI Engineer", "Agentic AI", "GenAI Engineer"],
+      "platforms": ["linkedin", "indeed", "liepin", "boss_zhipin"]
+    },
+    {
+      "name": "大模型应用",
+      "keywords": ["大模型工程师", "大模型", "LLM应用", "AIGC", "Prompt Engineer"],
+      "platforms": ["liepin", "boss_zhipin", "lagou"]
+    },
+    {
+      "name": "AI + 金融",
+      "keywords": ["AI 金融", "智能风控", "量化AI", "金融大模型", "AI fintech"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin", "indeed"]
+    },
+    {
+      "name": "AI + 医疗",
+      "keywords": ["AI 医疗", "医疗AI", "AI drug discovery", "AI healthcare", "智慧医疗"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin", "indeed"]
+    },
+    {
+      "name": "AI + 制造",
+      "keywords": ["智能制造", "AI 制造", "工业AI", "AI manufacturing", "数字孪生"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin"]
+    },
+    {
+      "name": "AI + 汽车",
+      "keywords": ["自动驾驶", "智能座舱", "AI automotive", "autonomous driving"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin", "indeed"]
+    },
+    {
+      "name": "AI + 教育",
+      "keywords": ["AI 教育", "智能教育", "AI education", "AI tutor"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin"]
+    },
+    {
+      "name": "AI + 零售/电商",
+      "keywords": ["智能客服", "AI 电商", "AI 推荐", "AI retail", "智能营销"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin"]
+    },
+    {
+      "name": "AI 产品/运营",
+      "keywords": ["AI产品经理", "AIGC运营", "AI Product Manager", "AI产品"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin"]
+    },
+    {
+      "name": "数字化转型",
+      "keywords": ["数字化转型", "AI转型", "企业AI", "digital transformation AI"],
+      "platforms": ["liepin", "boss_zhipin", "linkedin"]
+    }
+  ]
+}

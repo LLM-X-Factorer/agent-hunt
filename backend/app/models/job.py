@@ -33,6 +33,9 @@ class Job(Base):
     market: Mapped[str | None] = mapped_column(
         String(20), nullable=True, index=True
     )  # "domestic" | "international"
+    industry: Mapped[str | None] = mapped_column(
+        String(50), nullable=True, index=True
+    )
     work_mode: Mapped[str | None] = mapped_column(
         String(10), nullable=True
     )  # "onsite" | "remote" | "hybrid"

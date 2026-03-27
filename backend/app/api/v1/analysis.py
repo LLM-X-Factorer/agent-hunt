@@ -8,15 +8,23 @@ from app.schemas.analysis import (
     CooccurrenceResult,
     CrossMarketSkills,
     ExperienceSalary,
+    IndustrySalary,
+    IndustrySummary,
     MarketOverview,
     PlatformSalary,
     SalaryDistribution,
     SkillGap,
     SkillSalary,
 )
-from app.services.cross_market import market_overview, skill_gap_analysis, top_skills_by_market
+from app.services.cross_market import (
+    industry_overview,
+    market_overview,
+    skill_gap_analysis,
+    top_skills_by_market,
+)
 from app.services.market_analyzer import (
     salary_by_experience,
+    salary_by_industry,
     salary_by_platform,
     salary_by_skill,
     salary_distribution,
@@ -30,9 +38,10 @@ router = APIRouter(prefix="/analysis", tags=["analysis"])
 async def salary_distribution_endpoint(
     market: str | None = None,
     platform_id: str | None = None,
+    industry: str | None = None,
     db: AsyncSession = Depends(get_db),
 ):
-    return await salary_distribution(db, market, platform_id)
+    return await salary_distribution(db, market, platform_id, industry)
 
 
 @router.get("/salary/by-skill", response_model=list[SkillSalary])
@@ -86,3 +95,13 @@ async def cooccurrence(
     db: AsyncSession = Depends(get_db),
 ):
     return await skill_cooccurrence(db, top_n, min_cooccurrence, market)
+
+
+@router.get("/industry/overview", response_model=list[IndustrySummary])
+async def industry_overview_endpoint(db: AsyncSession = Depends(get_db)):
+    return await industry_overview(db)
+
+
+@router.get("/industry/salary", response_model=list[IndustrySalary])
+async def industry_salary_endpoint(db: AsyncSession = Depends(get_db)):
+    return await salary_by_industry(db)

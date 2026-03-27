@@ -47,6 +47,7 @@ class JobBrief(BaseModel):
     company_name: str | None
     location: str | None
     market: str | None
+    industry: str | None
     salary_min: int | None
     salary_max: int | None
     salary_currency: str | None
@@ -71,6 +72,7 @@ class JobDetail(BaseModel):
     company_size: str | None
     location: str | None
     market: str | None
+    industry: str | None
     work_mode: str | None
 
     salary_min: int | None
@@ -131,6 +133,7 @@ class ParsedJD(BaseModel):
     company_size: str | None = None
     location: str | None = None
     market: str | None = None
+    industry: str | None = None
     work_mode: str | None = None
     salary_min_rmb: int | None = None
     salary_max_rmb: int | None = None

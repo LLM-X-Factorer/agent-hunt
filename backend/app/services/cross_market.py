@@ -148,3 +148,46 @@ async def skill_gap_analysis(
 ) -> list[dict]:
     data = await top_skills_by_market(db)
     return [g for g in data["skill_gaps"] if g["domestic_count"] + g["international_count"] >= min_count]
+
+
+async def industry_overview(db: AsyncSession) -> list[dict]:
+    result = await db.execute(
+        select(Job).where(Job.parse_status == "parsed", Job.industry.isnot(None))
+    )
+    jobs = result.scalars().all()
+
+    by_industry: dict[str, list] = defaultdict(list)
+    for j in jobs:
+        by_industry[j.industry].append(j)
+
+    summaries = []
+    for ind, ind_jobs in by_industry.items():
+        salaries = [
+            (j.salary_min + j.salary_max) // 2
+            for j in ind_jobs
+            if j.salary_min and j.salary_max
+        ]
+        domestic = sum(1 for j in ind_jobs if j.market == "domestic")
+        international = len(ind_jobs) - domestic
+
+        # Top skills in this industry
+        from app.services.skill_extractor import extractor
+        skill_counts: dict[str, int] = defaultdict(int)
+        for j in ind_jobs:
+            for raw in (j.required_skills or []) + (j.preferred_skills or []):
+                sid = extractor.normalize(raw)
+                if sid:
+                    skill_counts[sid] += 1
+        top_skills = sorted(skill_counts.items(), key=lambda x: x[1], reverse=True)[:5]
+
+        summaries.append({
+            "industry": ind,
+            "job_count": len(ind_jobs),
+            "domestic_count": domestic,
+            "international_count": international,
+            "avg_salary": int(sum(salaries) / len(salaries)) if salaries else None,
+            "top_skills": [{"skill_id": s, "count": c} for s, c in top_skills],
+        })
+
+    summaries.sort(key=lambda x: x["job_count"], reverse=True)
+    return summaries
