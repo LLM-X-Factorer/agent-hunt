@@ -1,0 +1,856 @@
+{
+  "llm": {
+    "skill_name": "Large Language Models",
+    "jobs": [
+      {
+        "title": "AI Agent 工程师",
+        "company": "纵深视觉科技有限责任公司",
+        "location": "南京-建邺区",
+        "market": "国内",
+        "salary": "¥15k-25k/月",
+        "skills": [
+          "Python",
+          "AI Agent Development",
+          "LangChain",
+          "LlamaIndex",
+          "AutoGen",
+          "LLM",
+          "GPT-4o",
+          "Claude"
+        ],
+        "snippet": "AI Agent 工程师【南京-建邺区】15-25k1年以上统招本科纵深视觉科技有限责任公司人工智能A轮1-49人刘女士·人力资源负责人当前在线\n\n职位介绍\n                1.负责公司业务场景下 AI Agent 的设计、开发与落地，重点解决产品咨询、产线管理或客户服务等场景的自动化问题。\n2.基于大语言模型，使用主流框架搭建 Agent 的核心能力（记忆、工具调用、多智能体协作）。\n3.负责 AI Agent 与公司内部系统及外部工具的集成调试。\n4.监控 Agent 的运行效果，通过数据分析持续优化提示词、工作流与决策逻辑，提升任务完成率。\n\n任职资格：\n1.本科及以上学"
+      },
+      {
+        "title": "AI LLM Engineer (LLM / Agent / RAG)",
+        "company": "光速动力",
+        "location": "Shenzhen, Nanshan District, Science Park",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "LLM",
+          "Agent",
+          "RAG"
+        ],
+        "snippet": "AI大模型工程师（LLM / Agent / RAG）25-50K·13薪1-3年本科光速动力 深圳·南山区·科技园"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  },
+  "python": {
+    "skill_name": "Python",
+    "jobs": [
+      {
+        "title": "AI Agent 工程师",
+        "company": "纵深视觉科技有限责任公司",
+        "location": "南京-建邺区",
+        "market": "国内",
+        "salary": "¥15k-25k/月",
+        "skills": [
+          "Python",
+          "AI Agent Development",
+          "LangChain",
+          "LlamaIndex",
+          "AutoGen",
+          "LLM",
+          "GPT-4o",
+          "Claude"
+        ],
+        "snippet": "AI Agent 工程师【南京-建邺区】15-25k1年以上统招本科纵深视觉科技有限责任公司人工智能A轮1-49人刘女士·人力资源负责人当前在线\n\n职位介绍\n                1.负责公司业务场景下 AI Agent 的设计、开发与落地，重点解决产品咨询、产线管理或客户服务等场景的自动化问题。\n2.基于大语言模型，使用主流框架搭建 Agent 的核心能力（记忆、工具调用、多智能体协作）。\n3.负责 AI Agent 与公司内部系统及外部工具的集成调试。\n4.监控 Agent 的运行效果，通过数据分析持续优化提示词、工作流与决策逻辑，提升任务完成率。\n\n任职资格：\n1.本科及以上学"
+      },
+      {
+        "title": "Python AI Engineer",
+        "company": "上海睿沃信息科技有限公司",
+        "location": "上海-浦东新区",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "Python",
+          "AI"
+        ],
+        "snippet": "Python AI Engineer  ( Python AI工程师)【上海-浦东新区】25-50k经验不限本科上海睿沃信息科技有限公司计算机软件融资未公开100-499人张女士·猎头顾问53分钟前在线"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  },
+  "agent_architecture": {
+    "skill_name": "Agent Architecture",
+    "jobs": [
+      {
+        "title": "AI Agent Product Manager",
+        "company": "Marie Dalgar Daily Chemical",
+        "location": "Shanghai, Minhang District",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "ToB Product Management",
+          "LLM Application Development",
+          "AI Agent Development",
+          "Conversational AI",
+          "Enterprise SaaS",
+          "RAG",
+          "Function Calling",
+          "Workflow Management"
+        ],
+        "snippet": "AI Agent 产品经理【上海-闵行区】25-50k3年以上本科玛丽黛佳日化500-999人张女士·人力资源经理4小时前在线\n\n职位介绍\n                岗位职责：\n1.负责大美妆企业级 AI Agent 产品从 0→1 规划、需求分析、功能设计与全生命周期管理。\n2.深度理解 B 端客户业务场景，输出可落地的 AI 智能体解决方案，包括任务自动化、流程执行、多轮交互、知识库问答等。\n3.负责 AI Agent 核心能力设计：意图理解、上下文管理、工具调用、RAG 接入、反思规划、多 Agent 协同等。\n4.输出高质量 PRD、原型、流程设计、业务规则与验收标准，推动研发、"
+      },
+      {
+        "title": "AI Agent 工程师",
+        "company": "纵深视觉科技有限责任公司",
+        "location": "南京-建邺区",
+        "market": "国内",
+        "salary": "¥15k-25k/月",
+        "skills": [
+          "Python",
+          "AI Agent Development",
+          "LangChain",
+          "LlamaIndex",
+          "AutoGen",
+          "LLM",
+          "GPT-4o",
+          "Claude"
+        ],
+        "snippet": "AI Agent 工程师【南京-建邺区】15-25k1年以上统招本科纵深视觉科技有限责任公司人工智能A轮1-49人刘女士·人力资源负责人当前在线\n\n职位介绍\n                1.负责公司业务场景下 AI Agent 的设计、开发与落地，重点解决产品咨询、产线管理或客户服务等场景的自动化问题。\n2.基于大语言模型，使用主流框架搭建 Agent 的核心能力（记忆、工具调用、多智能体协作）。\n3.负责 AI Agent 与公司内部系统及外部工具的集成调试。\n4.监控 Agent 的运行效果，通过数据分析持续优化提示词、工作流与决策逻辑，提升任务完成率。\n\n任职资格：\n1.本科及以上学"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  },
+  "java": {
+    "skill_name": "Java",
+    "jobs": [
+      {
+        "title": "AI Agent应用工程师",
+        "company": "合滨智能医疗器械",
+        "location": "合肥",
+        "market": "国内",
+        "salary": "¥15k-30k/月",
+        "skills": [
+          "Java",
+          "Python",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "MongoDB",
+          "RESTful API",
+          "GraphQL API"
+        ],
+        "snippet": "ai agent应用工程师【合肥】15-30k·13薪经验不限本科合滨智能医疗器械A轮50-99人施女士·hr当前在线\n\n职位介绍\n                【岗位职责】\n1.负责AI Agent核心业务的全流程开发：参与平台从架构设计、工程实现到部署上线的全链路工作，确保系统的敏捷迭代与稳定运行。\n2.主导AI能力的工程化落地：将RAG（检索增强生成）、Prompt工程、向量化技术与实际业务场景结合，打通大模型与外部工具、企业数据的调用链路。\n3.探索AI驱动的开发范式：在开发过程中，率先实践并沉淀AI编程的最佳方案，利用AI工具完成代码生成、重构、测试及文档编写，提升团队整体效能。\n"
+      },
+      {
+        "title": "AI Agent平台研发工程师",
+        "company": "上汽云计算中心",
+        "location": "上海",
+        "market": "国内",
+        "salary": "¥30k-60k/月",
+        "skills": [
+          "AI Agent平台框架研发",
+          "Agent应用开发",
+          "数据结构",
+          "算法",
+          "计算机网络",
+          "操作系统",
+          "编码习惯",
+          "代码质量意识"
+        ],
+        "snippet": "AI Agent平台研发工程师【上海-杨浦区】30-60k2-4年硕士上汽云计算中心整车制造战略融资100-499人荣女士·人力资源伙伴(HRBP)当前在线\n\n职位介绍\n                一、基础要求\n1，学历：硕士及以上学历，计算机科学与技术、软件工程、人工智能、电子信息工程等相关专业，硕士及以上学历优先。\n2，经验：2-4年AI相关研发工作经验，必须具备AI Agent平台框架研发或Agent应用开发经验；有大模型应用开发、智能平台研发经验者优先，有行业场景Agent应用落地经验者加分。\n3，基础能力：具备扎实的计算机基础知识，精通数据结构、算法、计算机网络、操作系统，具备良"
+      },
+      {
+        "title": "Solutions Engineer Intern - Computer Science or related major",
+        "company": "Checkmarx",
+        "location": "Dallas, Texas, United States",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "C#",
+          "Java",
+          "PHP",
+          "REST API",
+          "JSON",
+          "LLM API"
+        ],
+        "snippet": "title: Solutions Engineer Intern - Computer Science or related major\ncompany: Checkmarx\njob_type: fulltime\n\nCheckmarx is the leader in agentic application security, delivering enterprise\\-grade protection while helping organizations lower engineering costs and accelerate development velocity. The Ch"
+      }
+    ]
+  },
+  "generative_ai": {
+    "skill_name": "Generative AI",
+    "jobs": [
+      {
+        "title": "MarTech营销技术专家",
+        "company": "合肥影炬创新技术",
+        "location": "合肥",
+        "market": "国内",
+        "salary": "¥12k-18k/月",
+        "skills": [
+          "Python",
+          "JavaScript",
+          "API Design",
+          "Scripting",
+          "CDP",
+          "DMP",
+          "Marketing Automation",
+          "HubSpot"
+        ],
+        "snippet": "MarTech营销技术专家JD(J11415)【合肥-高新区】急聘12-18k3年以上统招本科合肥影炬创新技术电子/半导体/集成电路100-499人梁女士1小时前在线广告\n\n职位介绍\n                职责描述：\n1. 营销技术战略与规划\n  - 深入理解市场业务目标与用户旅程，规划并制定CDP、AI营销自动化、AIGC及AI Agent智能体的技术发展路线图。\n  - 作为市场部与技术中台/研发部门/外部团队的核心接口，精准转译业务需求为技术方案与产品定义，确保技术投资与营销战略对齐。\n2. 关键平台与智能产品管理\n  - CDP与数据智能：主导CDP平台的选型、定制开发与持续"
+      },
+      {
+        "title": "AI产品经理",
+        "company": "龙品",
+        "location": "深圳",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "Generative AI",
+          "Cross-border E-commerce"
+        ],
+        "snippet": "AI产品经理（AIGC/跨境电商方向）25-50K3-5年本科龙品 深圳·龙岗区·坂田"
+      },
+      {
+        "title": "Corporate AI Engineer (Agent Whisperer)",
+        "company": "Bluestaq",
+        "location": "Colorado, USA",
+        "market": "国际",
+        "salary": "¥66k-102k/月",
+        "skills": [
+          "AI/ML Engineering",
+          "MLOps",
+          "Python",
+          "LLM Frameworks",
+          "RAG",
+          "Agentic Systems",
+          "Prompt Engineering",
+          "AWS"
+        ],
+        "snippet": "title: Corporate AI Engineer (Agent Whisperer)\ncompany: Bluestaq\njob_type: fulltime\n\n**About Bluestaq**\n At Bluestaq, we build secure data platforms that matter for space missions, national defense, healthcare systems, and commercial innovation. Founded in 2018, we've become a leader in enterprise s"
+      }
+    ]
+  },
+  "aws": {
+    "skill_name": "AWS",
+    "jobs": [
+      {
+        "title": "AI应用算法工程师",
+        "company": "万兴科技",
+        "location": "长沙-岳麓区",
+        "market": "国内",
+        "salary": "¥26k-66k/月",
+        "skills": [
+          "Python",
+          "TypeScript",
+          "Go",
+          "LLM",
+          "OpenAI API"
+        ],
+        "snippet": "AI应用算法工程师【长沙-岳麓区】急聘20-50k·16薪2年以上统招本科万兴科技计算机软件创业板上市1000-2000人曾先生·HR1小时前在线广告\n\n职位介绍\n                智能Agent应用开发：\n负责基于大语言模型（LLM）的智能Agent产品设计与开发，包括任务规划、上下文管理、多模态交互、插件调用等核心模块。\n系统架构设计与实现：\n参与Agent平台的整体架构设计，负责前后端模块的集成与性能优化，确保系统的可扩展性与高可用性。\n模型与API集成：\n深入理解并调用主流AI模型（如OpenAI、Anthropic、Claude、Gemini等）的API，实现智能对话、"
+      },
+      {
+        "title": "AI Agent全栈开发工程师",
+        "company": "某南京在线社交/媒体公司",
+        "location": "北京",
+        "market": "国内",
+        "salary": "¥60k-90k/月",
+        "skills": [
+          "Full-stack Development",
+          "Go",
+          "Node.js",
+          "AI Agent Architecture",
+          "LLM",
+          "Multimodal Models",
+          "Microservices",
+          "Docker"
+        ],
+        "snippet": "AI Agent全栈开发工程师【北京】60-90k3-5年学历不限某南京在线社交/媒体公司在线社交/媒体B轮100-499人黄女士·猎头顾问当前在线\n\n职位介绍\n                【岗位职责】\n- 设计和实现面向内容创作的 AI Agent 系统，支持超级智能体和垂直领域专家 Agent。\n- 独立完成 AI Agent 功能开发，包括任务调度、上下文管理、内容压缩、知识检索、模型调用和工具集成。\n- 持续关注前沿 AI 模型能力，将新模型快速应用到 Agent 系统中。\n- 优化系统性能和生成质量，确保 Agent 高效、可靠和可扩展。\n- 参与 Agent 工具生态建设，实现"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  },
+  "sql": {
+    "skill_name": "SQL",
+    "jobs": [
+      {
+        "title": "AI Agent应用工程师",
+        "company": "合滨智能医疗器械",
+        "location": "合肥",
+        "market": "国内",
+        "salary": "¥15k-30k/月",
+        "skills": [
+          "Java",
+          "Python",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "MongoDB",
+          "RESTful API",
+          "GraphQL API"
+        ],
+        "snippet": "ai agent应用工程师【合肥】15-30k·13薪经验不限本科合滨智能医疗器械A轮50-99人施女士·hr当前在线\n\n职位介绍\n                【岗位职责】\n1.负责AI Agent核心业务的全流程开发：参与平台从架构设计、工程实现到部署上线的全链路工作，确保系统的敏捷迭代与稳定运行。\n2.主导AI能力的工程化落地：将RAG（检索增强生成）、Prompt工程、向量化技术与实际业务场景结合，打通大模型与外部工具、企业数据的调用链路。\n3.探索AI驱动的开发范式：在开发过程中，率先实践并沉淀AI编程的最佳方案，利用AI工具完成代码生成、重构、测试及文档编写，提升团队整体效能。\n"
+      },
+      {
+        "title": "AI Agent工程师",
+        "company": "百思特管理咨询集团",
+        "location": "深圳",
+        "market": "国内",
+        "salary": "¥16k-35k/月",
+        "skills": [
+          "LLM",
+          "Agent",
+          "RAG",
+          "Dialogue Systems",
+          "Cursor",
+          "Claude Code",
+          "Prompt Engineering",
+          "AI Tools"
+        ],
+        "snippet": "AI Agent工程师【深圳-南山区】16-35k2-5年大专百思特管理咨询集团专业技术服务其他100-499人周女士·招聘HR4小时前在线\n\n职位介绍\n                岗位职责：\n 1.\t产品开发：根据公司的产品规划和业务需求，完成AI Agent产品的前后端代码开发；\n2.\t多端实现：基于AI Agent技术栈，实现Web/PC/Mobile各项功能；\n3.\t测试交付：独立完成产品测试，确保产品稳定运行；\n4.\t问题解决：快速定位并解决技术问题，优化产品性能；\n5.\t团队协作：与团队成员协作解决业务问题并每日汇报。\n\n任职要求：\n 1、2-5年开发经验，必须有AI项目经验（"
+      },
+      {
+        "title": "AI Agent Engineer",
+        "company": "Prodigal",
+        "location": "USA",
+        "market": "国际",
+        "salary": "¥90k-108k/月",
+        "skills": [
+          "Python",
+          "ML Frameworks",
+          "Large-scale Data Processing",
+          "Analytical Skills",
+          "Problem Solving",
+          "Communication Skills",
+          "Prompt Engineering",
+          "Few-shot Learning"
+        ],
+        "snippet": "title: AI Agent Engineer\ncompany: Prodigal\njob_type: fulltime\nsalary: 150000 - 180000 / yearly\n\nAt Prodigal, we’re reshaping the future of consumer finance. Founded in 2018 by IITB alumni, our journey began with one bold mission: to eradicate the inefficiencies and confusion that have plagued the le"
+      }
+    ]
+  },
+  "azure": {
+    "skill_name": "Azure",
+    "jobs": [
+      {
+        "title": "AI应用算法工程师",
+        "company": "万兴科技",
+        "location": "长沙-岳麓区",
+        "market": "国内",
+        "salary": "¥26k-66k/月",
+        "skills": [
+          "Python",
+          "TypeScript",
+          "Go",
+          "LLM",
+          "OpenAI API"
+        ],
+        "snippet": "AI应用算法工程师【长沙-岳麓区】急聘20-50k·16薪2年以上统招本科万兴科技计算机软件创业板上市1000-2000人曾先生·HR1小时前在线广告\n\n职位介绍\n                智能Agent应用开发：\n负责基于大语言模型（LLM）的智能Agent产品设计与开发，包括任务规划、上下文管理、多模态交互、插件调用等核心模块。\n系统架构设计与实现：\n参与Agent平台的整体架构设计，负责前后端模块的集成与性能优化，确保系统的可扩展性与高可用性。\n模型与API集成：\n深入理解并调用主流AI模型（如OpenAI、Anthropic、Claude、Gemini等）的API，实现智能对话、"
+      },
+      {
+        "title": "AI Agent全栈开发工程师",
+        "company": "某南京在线社交/媒体公司",
+        "location": "北京",
+        "market": "国内",
+        "salary": "¥60k-90k/月",
+        "skills": [
+          "Full-stack Development",
+          "Go",
+          "Node.js",
+          "AI Agent Architecture",
+          "LLM",
+          "Multimodal Models",
+          "Microservices",
+          "Docker"
+        ],
+        "snippet": "AI Agent全栈开发工程师【北京】60-90k3-5年学历不限某南京在线社交/媒体公司在线社交/媒体B轮100-499人黄女士·猎头顾问当前在线\n\n职位介绍\n                【岗位职责】\n- 设计和实现面向内容创作的 AI Agent 系统，支持超级智能体和垂直领域专家 Agent。\n- 独立完成 AI Agent 功能开发，包括任务调度、上下文管理、内容压缩、知识检索、模型调用和工具集成。\n- 持续关注前沿 AI 模型能力，将新模型快速应用到 Agent 系统中。\n- 优化系统性能和生成质量，确保 Agent 高效、可靠和可扩展。\n- 参与 Agent 工具生态建设，实现"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  },
+  "gcp": {
+    "skill_name": "Google Cloud",
+    "jobs": [
+      {
+        "title": "AI应用算法工程师",
+        "company": "万兴科技",
+        "location": "长沙-岳麓区",
+        "market": "国内",
+        "salary": "¥26k-66k/月",
+        "skills": [
+          "Python",
+          "TypeScript",
+          "Go",
+          "LLM",
+          "OpenAI API"
+        ],
+        "snippet": "AI应用算法工程师【长沙-岳麓区】急聘20-50k·16薪2年以上统招本科万兴科技计算机软件创业板上市1000-2000人曾先生·HR1小时前在线广告\n\n职位介绍\n                智能Agent应用开发：\n负责基于大语言模型（LLM）的智能Agent产品设计与开发，包括任务规划、上下文管理、多模态交互、插件调用等核心模块。\n系统架构设计与实现：\n参与Agent平台的整体架构设计，负责前后端模块的集成与性能优化，确保系统的可扩展性与高可用性。\n模型与API集成：\n深入理解并调用主流AI模型（如OpenAI、Anthropic、Claude、Gemini等）的API，实现智能对话、"
+      },
+      {
+        "title": "AI Agent全栈开发工程师",
+        "company": "某南京在线社交/媒体公司",
+        "location": "北京",
+        "market": "国内",
+        "salary": "¥60k-90k/月",
+        "skills": [
+          "Full-stack Development",
+          "Go",
+          "Node.js",
+          "AI Agent Architecture",
+          "LLM",
+          "Multimodal Models",
+          "Microservices",
+          "Docker"
+        ],
+        "snippet": "AI Agent全栈开发工程师【北京】60-90k3-5年学历不限某南京在线社交/媒体公司在线社交/媒体B轮100-499人黄女士·猎头顾问当前在线\n\n职位介绍\n                【岗位职责】\n- 设计和实现面向内容创作的 AI Agent 系统，支持超级智能体和垂直领域专家 Agent。\n- 独立完成 AI Agent 功能开发，包括任务调度、上下文管理、内容压缩、知识检索、模型调用和工具集成。\n- 持续关注前沿 AI 模型能力，将新模型快速应用到 Agent 系统中。\n- 优化系统性能和生成质量，确保 Agent 高效、可靠和可扩展。\n- 参与 Agent 工具生态建设，实现"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  },
+  "rag": {
+    "skill_name": "Retrieval-Augmented Generation",
+    "jobs": [
+      {
+        "title": "AI Agent Product Manager",
+        "company": "Marie Dalgar Daily Chemical",
+        "location": "Shanghai, Minhang District",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "ToB Product Management",
+          "LLM Application Development",
+          "AI Agent Development",
+          "Conversational AI",
+          "Enterprise SaaS",
+          "RAG",
+          "Function Calling",
+          "Workflow Management"
+        ],
+        "snippet": "AI Agent 产品经理【上海-闵行区】25-50k3年以上本科玛丽黛佳日化500-999人张女士·人力资源经理4小时前在线\n\n职位介绍\n                岗位职责：\n1.负责大美妆企业级 AI Agent 产品从 0→1 规划、需求分析、功能设计与全生命周期管理。\n2.深度理解 B 端客户业务场景，输出可落地的 AI 智能体解决方案，包括任务自动化、流程执行、多轮交互、知识库问答等。\n3.负责 AI Agent 核心能力设计：意图理解、上下文管理、工具调用、RAG 接入、反思规划、多 Agent 协同等。\n4.输出高质量 PRD、原型、流程设计、业务规则与验收标准，推动研发、"
+      },
+      {
+        "title": "AI LLM Engineer (LLM / Agent / RAG)",
+        "company": "光速动力",
+        "location": "Shenzhen, Nanshan District, Science Park",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "LLM",
+          "Agent",
+          "RAG"
+        ],
+        "snippet": "AI大模型工程师（LLM / Agent / RAG）25-50K·13薪1-3年本科光速动力 深圳·南山区·科技园"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  },
+  "prompt_engineering": {
+    "skill_name": "Prompt Engineering",
+    "jobs": [
+      {
+        "title": "AI Agent Product Manager",
+        "company": "Marie Dalgar Daily Chemical",
+        "location": "Shanghai, Minhang District",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "ToB Product Management",
+          "LLM Application Development",
+          "AI Agent Development",
+          "Conversational AI",
+          "Enterprise SaaS",
+          "RAG",
+          "Function Calling",
+          "Workflow Management"
+        ],
+        "snippet": "AI Agent 产品经理【上海-闵行区】25-50k3年以上本科玛丽黛佳日化500-999人张女士·人力资源经理4小时前在线\n\n职位介绍\n                岗位职责：\n1.负责大美妆企业级 AI Agent 产品从 0→1 规划、需求分析、功能设计与全生命周期管理。\n2.深度理解 B 端客户业务场景，输出可落地的 AI 智能体解决方案，包括任务自动化、流程执行、多轮交互、知识库问答等。\n3.负责 AI Agent 核心能力设计：意图理解、上下文管理、工具调用、RAG 接入、反思规划、多 Agent 协同等。\n4.输出高质量 PRD、原型、流程设计、业务规则与验收标准，推动研发、"
+      },
+      {
+        "title": "AI Agent应用工程师",
+        "company": "合滨智能医疗器械",
+        "location": "合肥",
+        "market": "国内",
+        "salary": "¥15k-30k/月",
+        "skills": [
+          "Java",
+          "Python",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "MongoDB",
+          "RESTful API",
+          "GraphQL API"
+        ],
+        "snippet": "ai agent应用工程师【合肥】15-30k·13薪经验不限本科合滨智能医疗器械A轮50-99人施女士·hr当前在线\n\n职位介绍\n                【岗位职责】\n1.负责AI Agent核心业务的全流程开发：参与平台从架构设计、工程实现到部署上线的全链路工作，确保系统的敏捷迭代与稳定运行。\n2.主导AI能力的工程化落地：将RAG（检索增强生成）、Prompt工程、向量化技术与实际业务场景结合，打通大模型与外部工具、企业数据的调用链路。\n3.探索AI驱动的开发范式：在开发过程中，率先实践并沉淀AI编程的最佳方案，利用AI工具完成代码生成、重构、测试及文档编写，提升团队整体效能。\n"
+      },
+      {
+        "title": "AI Agent Engineer, Internal Operations",
+        "company": "Punt",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "AI Automation",
+          "n8n",
+          "Make",
+          "LangChain",
+          "Prompt Engineering",
+          "RAG",
+          "Tool Calling",
+          "Agent Memory"
+        ],
+        "snippet": "title: AI Agent Engineer, Internal Operations\ncompany: Punt\njob_type: fulltime\n\nChanced and Punt are two fast\\-growing social casino brands on a mission to build the most engaging, player\\-first gaming experience in North America. We move fast, operate lean, and are actively expanding into predictio"
+      }
+    ]
+  },
+  "react": {
+    "skill_name": "React",
+    "jobs": [
+      {
+        "title": "AI前端开发工程师（Agent）",
+        "company": "青岛伟达智慧科技有限公司",
+        "location": "武汉-江夏区",
+        "market": "国内",
+        "salary": "¥20k-35k/月",
+        "skills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Vue",
+          "System Architecture Design",
+          "State Management"
+        ],
+        "snippet": "AI前端开发工程师（Agent）(J41356)【武汉-江夏区】20-35k3-5年本科青岛伟达智慧科技有限公司计算机软件100-499人徐女士·人事行政当前在线\n\n职位介绍\n                职责描述：\n1.负责电视端 AI Agent 应用的设计与开发。\n2. 基于大模型构建TV 智能助手、内容推荐/理解、系统控制等Agent。\n3. 参与Agent 在低算力设备上的工程化落地（延迟、内存、稳定性优化）。\n4.与产品、算法、后端团队协作，推进 AI 应用从 PoC 到正式上线。\n任职要求：\n1.本科及以上学习， 熟练掌握 HTML / CSS / JavaScript / T"
+      },
+      {
+        "title": "AI Agent工程师",
+        "company": "百思特管理咨询集团",
+        "location": "深圳",
+        "market": "国内",
+        "salary": "¥16k-35k/月",
+        "skills": [
+          "LLM",
+          "Agent",
+          "RAG",
+          "Dialogue Systems",
+          "Cursor",
+          "Claude Code",
+          "Prompt Engineering",
+          "AI Tools"
+        ],
+        "snippet": "AI Agent工程师【深圳-南山区】16-35k2-5年大专百思特管理咨询集团专业技术服务其他100-499人周女士·招聘HR4小时前在线\n\n职位介绍\n                岗位职责：\n 1.\t产品开发：根据公司的产品规划和业务需求，完成AI Agent产品的前后端代码开发；\n2.\t多端实现：基于AI Agent技术栈，实现Web/PC/Mobile各项功能；\n3.\t测试交付：独立完成产品测试，确保产品稳定运行；\n4.\t问题解决：快速定位并解决技术问题，优化产品性能；\n5.\t团队协作：与团队成员协作解决业务问题并每日汇报。\n\n任职要求：\n 1、2-5年开发经验，必须有AI项目经验（"
+      },
+      {
+        "title": "Director of Engineering - AIDD Product Engineering",
+        "company": "Genentech",
+        "location": "California",
+        "market": "国际",
+        "salary": "¥121k-225k/月",
+        "skills": [
+          "Full-stack Development",
+          "Enterprise Software",
+          "Front-end Development",
+          "React",
+          "Angular",
+          "UI/UX Design",
+          "Team Leadership",
+          "Mentoring"
+        ],
+        "snippet": "title: Director of Engineering - AIDD Product Engineering\ncompany: Genentech\njob_type: fulltime\nsalary: 201200 - 373600 / yearly\n\nTHE POSITION\nA healthier future. It’s what drives us to innovate. To continuously advance science and ensure everyone has access to the healthcare they need today and for"
+      }
+    ]
+  },
+  "golang": {
+    "skill_name": "Go",
+    "jobs": [
+      {
+        "title": "AI Agent平台研发工程师",
+        "company": "上汽云计算中心",
+        "location": "上海",
+        "market": "国内",
+        "salary": "¥30k-60k/月",
+        "skills": [
+          "AI Agent平台框架研发",
+          "Agent应用开发",
+          "数据结构",
+          "算法",
+          "计算机网络",
+          "操作系统",
+          "编码习惯",
+          "代码质量意识"
+        ],
+        "snippet": "AI Agent平台研发工程师【上海-杨浦区】30-60k2-4年硕士上汽云计算中心整车制造战略融资100-499人荣女士·人力资源伙伴(HRBP)当前在线\n\n职位介绍\n                一、基础要求\n1，学历：硕士及以上学历，计算机科学与技术、软件工程、人工智能、电子信息工程等相关专业，硕士及以上学历优先。\n2，经验：2-4年AI相关研发工作经验，必须具备AI Agent平台框架研发或Agent应用开发经验；有大模型应用开发、智能平台研发经验者优先，有行业场景Agent应用落地经验者加分。\n3，基础能力：具备扎实的计算机基础知识，精通数据结构、算法、计算机网络、操作系统，具备良"
+      },
+      {
+        "title": "工业AI Agent架构师",
+        "company": "某国内计算机软件公司",
+        "location": "昆明",
+        "market": "国内",
+        "salary": "¥20k-30k/月",
+        "skills": [
+          "Dify",
+          "Coze",
+          "LangChain",
+          "LLM",
+          "Fine-tuning",
+          "Python",
+          "Data Structures",
+          "Software Engineering Principles"
+        ],
+        "snippet": "工业AI Agent架构师（Dify/LangChain/大模型微调）【昆明】20-30k1-3年学历不限某国内计算机软件公司计算机软件融资未公开100-499人倪女士·猎头顾问当前在线\n\n职位介绍\n                【岗位职责】\n工业Agent架构设计：负责工业TOA平台智能化升级，设计并落地基于大模型的工业Agent，构建高效、可扩展的Agent工作流。\n低代码/无代码平台应用：熟练运用 Dify、Coze、LangChain 等框架，将复杂的工业逻辑转化为可视化的Agent流程，实现自然语言交互与自动化控制的闭环。\nAI辅助开发与提效：使用 Claude Code/Copi"
+      },
+      {
+        "title": "Infrastructure Software Engineer",
+        "company": "Mechanical Orchard",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Software Engineering",
+          "XP Practices",
+          "Pair Programming",
+          "Test-Driven Development",
+          "Strategic Thinking",
+          "Technical Skills",
+          "Attention to Detail",
+          "Quick Learner"
+        ],
+        "snippet": "title: Infrastructure Software Engineer\ncompany: Mechanical Orchard\njob_type: fulltime\n\n**Mechanical Orchard builds Imogen**, a modernization platform for rewriting the most critical and complex business applications—the systems that quietly run the world as we know it—so they can continue operating"
+      }
+    ]
+  },
+  "langchain": {
+    "skill_name": "LangChain",
+    "jobs": [
+      {
+        "title": "AI Agent 工程师",
+        "company": "纵深视觉科技有限责任公司",
+        "location": "南京-建邺区",
+        "market": "国内",
+        "salary": "¥15k-25k/月",
+        "skills": [
+          "Python",
+          "AI Agent Development",
+          "LangChain",
+          "LlamaIndex",
+          "AutoGen",
+          "LLM",
+          "GPT-4o",
+          "Claude"
+        ],
+        "snippet": "AI Agent 工程师【南京-建邺区】15-25k1年以上统招本科纵深视觉科技有限责任公司人工智能A轮1-49人刘女士·人力资源负责人当前在线\n\n职位介绍\n                1.负责公司业务场景下 AI Agent 的设计、开发与落地，重点解决产品咨询、产线管理或客户服务等场景的自动化问题。\n2.基于大语言模型，使用主流框架搭建 Agent 的核心能力（记忆、工具调用、多智能体协作）。\n3.负责 AI Agent 与公司内部系统及外部工具的集成调试。\n4.监控 Agent 的运行效果，通过数据分析持续优化提示词、工作流与决策逻辑，提升任务完成率。\n\n任职资格：\n1.本科及以上学"
+      },
+      {
+        "title": "AI Agent应用工程师",
+        "company": "合滨智能医疗器械",
+        "location": "合肥",
+        "market": "国内",
+        "salary": "¥15k-30k/月",
+        "skills": [
+          "Java",
+          "Python",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "MongoDB",
+          "RESTful API",
+          "GraphQL API"
+        ],
+        "snippet": "ai agent应用工程师【合肥】15-30k·13薪经验不限本科合滨智能医疗器械A轮50-99人施女士·hr当前在线\n\n职位介绍\n                【岗位职责】\n1.负责AI Agent核心业务的全流程开发：参与平台从架构设计、工程实现到部署上线的全链路工作，确保系统的敏捷迭代与稳定运行。\n2.主导AI能力的工程化落地：将RAG（检索增强生成）、Prompt工程、向量化技术与实际业务场景结合，打通大模型与外部工具、企业数据的调用链路。\n3.探索AI驱动的开发范式：在开发过程中，率先实践并沉淀AI编程的最佳方案，利用AI工具完成代码生成、重构、测试及文档编写，提升团队整体效能。\n"
+      },
+      {
+        "title": "AI Agent Engineer, Internal Operations",
+        "company": "Punt",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "AI Automation",
+          "n8n",
+          "Make",
+          "LangChain",
+          "Prompt Engineering",
+          "RAG",
+          "Tool Calling",
+          "Agent Memory"
+        ],
+        "snippet": "title: AI Agent Engineer, Internal Operations\ncompany: Punt\njob_type: fulltime\n\nChanced and Punt are two fast\\-growing social casino brands on a mission to build the most engaging, player\\-first gaming experience in North America. We move fast, operate lean, and are actively expanding into predictio"
+      }
+    ]
+  },
+  "git": {
+    "skill_name": "Git",
+    "jobs": [
+      {
+        "title": "工业AI Agent架构师",
+        "company": "某国内计算机软件公司",
+        "location": "昆明",
+        "market": "国内",
+        "salary": "¥20k-30k/月",
+        "skills": [
+          "Dify",
+          "Coze",
+          "LangChain",
+          "LLM",
+          "Fine-tuning",
+          "Python",
+          "Data Structures",
+          "Software Engineering Principles"
+        ],
+        "snippet": "工业AI Agent架构师（Dify/LangChain/大模型微调）【昆明】20-30k1-3年学历不限某国内计算机软件公司计算机软件融资未公开100-499人倪女士·猎头顾问当前在线\n\n职位介绍\n                【岗位职责】\n工业Agent架构设计：负责工业TOA平台智能化升级，设计并落地基于大模型的工业Agent，构建高效、可扩展的Agent工作流。\n低代码/无代码平台应用：熟练运用 Dify、Coze、LangChain 等框架，将复杂的工业逻辑转化为可视化的Agent流程，实现自然语言交互与自动化控制的闭环。\nAI辅助开发与提效：使用 Claude Code/Copi"
+      },
+      {
+        "title": "C++开发工程师（AI Agent方向）",
+        "company": "上海创景科技",
+        "location": "上海-浦东新区",
+        "market": "国内",
+        "salary": "¥15k-35k/月",
+        "skills": [
+          "C++",
+          "C++11",
+          "C++14",
+          "C++17",
+          "Data Structures",
+          "Algorithms",
+          "Object-Oriented Design",
+          "Qt"
+        ],
+        "snippet": "C++开发工程师（AI Agent方向）【上海-浦东新区】15-35k1-3年本科上海创景科技IT服务100-499人侯先生·人事专员当前在线\n\n职位介绍\n                一、岗位职责：\n1.根据产品需求，使用C++及Qt框架开发桌面端AI Agent应用，实现智能交互、自动化任务等核心功能；\n2.负责AI模型的集成与调用，包括大语言模型（LLM）API接入、本地模型推理、Prompt工程设计与优化；\n3.参与AI Agent系统的架构设计，结合LangChain等框架构建智能体能力；\n4.维护现有项目功能，持续优化性能和用户体验；\n5.配合测试团队完成单元测试、集成测试，及时"
+      },
+      {
+        "title": "AI Engineer",
+        "company": "Global Connect Technologies",
+        "location": "未知",
+        "market": "国际",
+        "salary": "面议",
+        "skills": [
+          "Python",
+          "C#",
+          "AI agents",
+          "Multi-agent systems",
+          "Agentic frameworks",
+          "LLM",
+          "NLP",
+          "RAG"
+        ],
+        "snippet": "title: AI Engineer\ncompany: Global Connect Technologies\njob_type: fulltime\n\n**Job Summary** \n\n\n\n\n We are seeking a highly skilled\n **AI Engineer** \n to design, develop, and deploy scalable\n **AI agents and multi\\-agent systems** \n . The ideal candidate will have strong expertise in\n **Python or C\\#*"
+      }
+    ]
+  }
+}

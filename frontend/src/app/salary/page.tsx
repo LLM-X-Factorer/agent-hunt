@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { api, type SalaryDistribution, type SkillSalary, type ExperienceSalary, type PlatformSalary } from "@/lib/api";
+import { InsightCard } from "@/components/insight-card";
 import { SalaryCharts } from "./charts";
 
 export default function SalaryPage() {
@@ -9,6 +10,7 @@ export default function SalaryPage() {
   const [bySkill, setBySkill] = useState<SkillSalary[]>([]);
   const [byExperience, setByExperience] = useState<ExperienceSalary[]>([]);
   const [byPlatform, setByPlatform] = useState<PlatformSalary[]>([]);
+  const [insight, setInsight] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -17,11 +19,13 @@ export default function SalaryPage() {
       api.salaryBySkill(),
       api.salaryByExperience(),
       api.salaryByPlatform(),
-    ]).then(([d, s, e, p]) => {
+      api.insights(),
+    ]).then(([d, s, e, p, ins]) => {
       setDistribution(d);
       setBySkill(s);
       setByExperience(e);
       setByPlatform(p);
+      setInsight(ins.salary_insight || "");
       setLoading(false);
     });
   }, []);
@@ -34,6 +38,7 @@ export default function SalaryPage() {
         <h1 className="text-2xl font-bold">薪资分析</h1>
         <p className="text-gray-500 mt-1">基于 {distribution.total_jobs_with_salary} 条有薪资数据的 JD</p>
       </div>
+      {insight && <InsightCard text={insight} />}
       <SalaryCharts distribution={distribution} bySkill={bySkill} byExperience={byExperience} byPlatform={byPlatform} />
     </div>
   );

@@ -1,0 +1,251 @@
+[
+  {
+    "id": "python_to_agent",
+    "title": "Python 后端工程师 → AI Agent 工程师",
+    "subtitle": "利用现有Python后端优势，快速转型AI Agent开发。",
+    "target_audience": "熟悉Python后端开发，希望进入AI Agent领域。",
+    "assumed_skills": [
+      "Python",
+      "SQL",
+      "Backend Development",
+      "API Design",
+      "Data Structures"
+    ],
+    "target_role": "AI Agent 工程师",
+    "duration": "3-6个月",
+    "steps": [
+      {
+        "order": 1,
+        "title": "深入理解大模型基础",
+        "description": "掌握大型语言模型（LLM）的基本原理、能力边界及在不同场景下的应用潜力。",
+        "skills": [
+          "Large Language Models",
+          "Generative AI"
+        ],
+        "resources_hint": "官方文档、在线课程（Coursera, Udacity）、学术论文"
+      },
+      {
+        "order": 2,
+        "title": "Agent 架构与框架",
+        "description": "学习AI Agent的设计模式、核心组件，并熟练使用主流Agent开发框架如LangChain、LlamaIndex。",
+        "skills": [
+          "Agent Architecture",
+          "LangChain",
+          "LlamaIndex"
+        ],
+        "resources_hint": "框架官方文档、GitHub项目、实战教程"
+      },
+      {
+        "order": 3,
+        "title": "RAG与数据处理",
+        "description": "掌握检索增强生成（RAG）技术，优化Agent的知识检索能力，并学习非结构化数据处理。",
+        "skills": [
+          "Retrieval-Augmented Generation",
+          "Vector Databases",
+          "Data Preprocessing"
+        ],
+        "resources_hint": "相关论文、开源项目、向量数据库教程"
+      },
+      {
+        "order": 4,
+        "title": "实战项目与部署",
+        "description": "构建端到端AI Agent应用，熟悉云平台部署流程（如AWS、Azure）和性能优化策略。",
+        "skills": [
+          "Cloud Deployment (AWS/Azure/GCP)",
+          "API Integration",
+          "System Design"
+        ],
+        "resources_hint": "云平台文档、Kaggle项目、开源Agent项目"
+      }
+    ],
+    "key_advice": "专注于Agent核心技术与Python生态的结合，多参与开源项目实践，快速积累经验。"
+  },
+  {
+    "id": "frontend_to_fullstack_agent",
+    "title": "前端工程师 → AI Agent 全栈工程师",
+    "subtitle": "结合前端交互优势，掌握AI Agent后端开发，成为全栈人才。",
+    "target_audience": "熟悉前端开发（React/Vue），希望拓展后端和AI Agent技能。",
+    "assumed_skills": [
+      "JavaScript",
+      "React/Vue",
+      "HTML",
+      "CSS",
+      "API Consumption"
+    ],
+    "target_role": "AI Agent 全栈工程师",
+    "duration": "6-12个月",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python基础与后端入门",
+        "description": "系统学习Python编程语言，掌握Web框架（如Flask/Django）和RESTful API开发。",
+        "skills": [
+          "Python",
+          "Flask/Django",
+          "RESTful API"
+        ],
+        "resources_hint": "Python官方教程、Web框架文档、在线编程练习"
+      },
+      {
+        "order": 2,
+        "title": "大模型与生成式AI",
+        "description": "理解LLM工作原理，学习调用大模型API，掌握生成式AI在应用中的集成。",
+        "skills": [
+          "Large Language Models",
+          "Generative AI",
+          "API Integration"
+        ],
+        "resources_hint": "OpenAI/Anthropic API文档、相关在线课程"
+      },
+      {
+        "order": 3,
+        "title": "Agent 架构与实践",
+        "description": "学习AI Agent设计理念，熟悉主流Agent框架，并尝试构建简单的Agent应用。",
+        "skills": [
+          "Agent Architecture",
+          "LangChain/LlamaIndex Basics"
+        ],
+        "resources_hint": "框架入门教程、社区博客、小型实战项目"
+      },
+      {
+        "order": 4,
+        "title": "全栈Agent项目",
+        "description": "结合前端技能，独立开发并部署一个完整的AI Agent应用，注重用户体验和前后端协作。",
+        "skills": [
+          "Full-stack Development",
+          "Cloud Deployment",
+          "UI/UX for AI"
+        ],
+        "resources_hint": "全栈项目教程、GitHub开源项目、个人作品集构建"
+      }
+    ],
+    "key_advice": "利用前端优势，专注于构建用户友好的AI Agent应用，注重前后端协作与用户体验。"
+  },
+  {
+    "id": "newgrad_to_agent_entry",
+    "title": "应届生 → AI Agent 工程师入门",
+    "subtitle": "为计算机相关专业应届生量身定制，系统学习AI Agent核心技能。",
+    "target_audience": "计算机科学或相关专业应届毕业生，对AI Agent有浓厚兴趣。",
+    "assumed_skills": [
+      "Programming Basics (Python/Java)",
+      "Data Structures & Algorithms",
+      "Basic Math/Statistics"
+    ],
+    "target_role": "初级 AI Agent 工程师",
+    "duration": "6-12个月",
+    "steps": [
+      {
+        "order": 1,
+        "title": "Python编程与数据科学基础",
+        "description": "扎实Python编程基础，学习数据处理库（Pandas, NumPy）和机器学习基础知识。",
+        "skills": [
+          "Python",
+          "Pandas",
+          "NumPy",
+          "Machine Learning Basics"
+        ],
+        "resources_hint": "Python编程入门、Scikit-learn教程、Kaggle新手赛"
+      },
+      {
+        "order": 2,
+        "title": "大模型与生成式AI原理",
+        "description": "深入理解LLM工作机制、Transformer架构及生成式AI的应用场景和技术挑战。",
+        "skills": [
+          "Large Language Models",
+          "Generative AI",
+          "Deep Learning Basics"
+        ],
+        "resources_hint": "吴恩达深度学习课程、Hugging Face Transformers库、相关论文"
+      },
+      {
+        "order": 3,
+        "title": "Agent 架构与开发框架",
+        "description": "学习AI Agent的设计模式、主流开发框架（LangChain/LlamaIndex）及检索增强生成（RAG）技术。",
+        "skills": [
+          "Agent Architecture",
+          "LangChain",
+          "LlamaIndex",
+          "Retrieval-Augmented Generation"
+        ],
+        "resources_hint": "框架官方文档、实战项目、社区教程"
+      },
+      {
+        "order": 4,
+        "title": "项目实践与云平台",
+        "description": "参与实际Agent项目开发，熟悉云平台部署（AWS/Azure/GCP）和版本控制（Git）等工程实践。",
+        "skills": [
+          "Project Management",
+          "Git",
+          "Cloud Basics",
+          "API Integration"
+        ],
+        "resources_hint": "GitHub开源项目、云平台免费课程、实习机会"
+      }
+    ],
+    "key_advice": "理论与实践并重，多参与项目和实习，构建个人作品集，积极参与技术社区。"
+  },
+  {
+    "id": "domestic_to_international_agent",
+    "title": "国内工程师 → 出海/国际岗位",
+    "subtitle": "针对国内AI Agent工程师，补齐国际市场所需技能，提升全球竞争力。",
+    "target_audience": "有国内AI Agent开发经验，希望转战国际市场或出海企业。",
+    "assumed_skills": [
+      "Large Language Models",
+      "Agent Architecture",
+      "Python/Java",
+      "Retrieval-Augmented Generation",
+      "Project Experience"
+    ],
+    "target_role": "国际 AI Agent 工程师",
+    "duration": "4-8个月",
+    "steps": [
+      {
+        "order": 1,
+        "title": "强化国际主流云平台技能",
+        "description": "深入学习AWS、Azure、Google Cloud等国际主流云平台的AI/ML服务和部署实践。",
+        "skills": [
+          "AWS",
+          "Azure",
+          "Google Cloud",
+          "Cloud Deployment",
+          "Cloud Security"
+        ],
+        "resources_hint": "官方认证课程（如AWS Certified ML Specialty）、云平台文档"
+      },
+      {
+        "order": 2,
+        "title": "拓展国际化Agent应用",
+        "description": "关注多语言、跨文化Agent设计，了解国际数据隐私法规（如GDPR）和合规性要求。",
+        "skills": [
+          "Multilingual LLMs",
+          "Internationalization (i18n)",
+          "Data Privacy (GDPR)"
+        ],
+        "resources_hint": "国际化AI项目、相关法规文档、跨文化设计指南"
+      },
+      {
+        "order": 3,
+        "title": "提升英语沟通与技术文档能力",
+        "description": "练习技术英语，熟悉国际团队协作模式，掌握英文技术文档编写规范。",
+        "skills": [
+          "Technical English",
+          "Cross-cultural Communication",
+          "Documentation Best Practices"
+        ],
+        "resources_hint": "英文技术博客、在线口语练习、国际会议演讲"
+      },
+      {
+        "order": 4,
+        "title": "参与国际开源项目与社区",
+        "description": "积极贡献国际开源Agent项目，拓展人脉，了解全球AI Agent领域的前沿动态和最佳实践。",
+        "skills": [
+          "Open Source Contribution",
+          "Networking",
+          "Global Trends"
+        ],
+        "resources_hint": "GitHub国际热门项目、Reddit/Discord技术社区、LinkedIn"
+      }
+    ],
+    "key_advice": "积极拥抱国际化技术栈和工作文化，持续提升英语沟通能力，构建全球视野和人脉。"
+  }
+]

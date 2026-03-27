@@ -24,6 +24,7 @@ const NAV_ITEMS = [
   { href: "/skills", label: "技能图谱" },
   { href: "/salary", label: "薪资分析" },
   { href: "/gaps", label: "市场差异" },
+  { href: "/insights", label: "岗位画像" },
 ];
 
 export default function RootLayout({

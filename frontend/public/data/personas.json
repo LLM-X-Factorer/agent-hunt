@@ -1,0 +1,62 @@
+[
+  {
+    "id": "domestic_typical",
+    "title": "国内 AI Agent 工程师（典型）",
+    "subtitle": "专注于大模型应用与Agent架构实现的本土技术专家。",
+    "market": "国内",
+    "core_skills": [
+      "Large Language Models",
+      "Agent Architecture",
+      "Python",
+      "Retrieval-Augmented Generation",
+      "Java"
+    ],
+    "salary_range": "¥30,000 - ¥50,000/月",
+    "experience": "3-5年相关AI/软件开发经验，有大模型项目落地经验优先。",
+    "education": "计算机科学、人工智能或相关专业硕士及以上学历。",
+    "company_types": "互联网大厂、AI创业公司、金融科技公司、智能硬件企业。",
+    "work_mode": "办公室全职，部分公司支持混合办公。",
+    "day_in_life": "日常工作包括Agent系统设计、模型集成与优化、RAG策略开发、Python/Java代码实现及测试。常与产品经理、算法工程师协作，解决实际业务问题。",
+    "key_insight": "国内市场对Agent架构和RAG技术落地能力需求旺盛，强调实际项目经验和跨团队协作。"
+  },
+  {
+    "id": "international_typical",
+    "title": "国际 AI Agent 工程师（典型）",
+    "subtitle": "具备全球视野，精通前沿AI技术和云平台部署的国际化人才。",
+    "market": "国际",
+    "core_skills": [
+      "Python",
+      "Generative AI",
+      "Large Language Models",
+      "Java",
+      "AWS"
+    ],
+    "salary_range": "¥100,000 - ¥150,000/月",
+    "experience": "5-8年AI/软件工程经验，有大规模分布式系统和云平台部署经验。",
+    "education": "计算机科学、人工智能或相关专业硕士及以上学历，博士优先。",
+    "company_types": "硅谷科技巨头、国际AI独角兽、大型跨国企业研发中心。",
+    "work_mode": "办公室全职或混合办公，强调全球团队协作。",
+    "day_in_life": "负责Agent系统的前沿研究、原型开发、基于AWS等云平台的部署与优化。参与国际开源社区，与全球团队成员进行技术交流，推动产品创新。",
+    "key_insight": "国际市场更注重Generative AI和云平台部署能力，对前沿技术研究和全球协作能力要求更高。"
+  },
+  {
+    "id": "remote_emerging",
+    "title": "远程 AI Agent 工程师（新兴）",
+    "subtitle": "灵活高效，通过远程协作驱动Agent技术创新的全球化贡献者。",
+    "market": "远程",
+    "core_skills": [
+      "Python",
+      "Large Language Models",
+      "Agent Architecture",
+      "Generative AI",
+      "Cloud Platforms (e.g., AWS/Azure/GCP)"
+    ],
+    "salary_range": "¥80,000 - ¥130,000/月",
+    "experience": "4-7年AI/软件开发经验，具备优秀的远程协作和自我管理能力。",
+    "education": "计算机科学或相关专业本科及以上学历，注重实际项目能力。",
+    "company_types": "全球远程优先公司、AI初创企业、开源项目贡献者、自由职业者平台。",
+    "work_mode": "完全远程，跨时区协作，高度依赖在线沟通工具。",
+    "day_in_life": "远程参与Agent项目的设计与开发，通过Slack、Zoom等工具与团队沟通。独立完成代码编写、测试与部署，并积极参与异步文档协作和代码评审。",
+    "key_insight": "远程岗位对工程师的自我驱动力、沟通效率和跨文化协作能力有更高要求，薪资水平受雇主所在地影响较大。"
+  }
+]

@@ -144,4 +144,59 @@ export const api = {
     fetchAPI<CooccurrenceResult>("/analysis/cooccurrence?top_n=10", "cooccurrence.json"),
   jobCount: () =>
     fetchAPI<JobListResponse>("/jobs?page_size=1", "job-count.json"),
+  insights: () => fetchStatic<Record<string, string>>("insights.json"),
+  jobSamples: () => fetchStatic<Record<string, JobSampleGroup>>("job-samples.json"),
+  personas: () => fetchStatic<Persona[]>("personas.json"),
+  learningPaths: () => fetchStatic<LearningPath[]>("learning-paths.json"),
 };
+
+// Insight types
+export interface JobSample {
+  title: string;
+  company: string;
+  location: string;
+  market: string;
+  salary: string;
+  skills: string[];
+  snippet: string;
+}
+
+export interface JobSampleGroup {
+  skill_name: string;
+  jobs: JobSample[];
+}
+
+export interface Persona {
+  id: string;
+  title: string;
+  subtitle: string;
+  market: string;
+  core_skills: string[];
+  salary_range: string;
+  experience: string;
+  education: string;
+  company_types: string;
+  work_mode: string;
+  day_in_life: string;
+  key_insight: string;
+}
+
+export interface LearningStep {
+  order: number;
+  title: string;
+  description: string;
+  skills: string[];
+  resources_hint: string;
+}
+
+export interface LearningPath {
+  id: string;
+  title: string;
+  subtitle: string;
+  target_audience: string;
+  assumed_skills: string[];
+  target_role: string;
+  duration: string;
+  steps: LearningStep[];
+  key_advice: string;
+}

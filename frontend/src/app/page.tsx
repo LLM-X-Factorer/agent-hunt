@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { api, type Skill, type CooccurrenceResult, type MarketOverview, type JobListResponse } from "@/lib/api";
 import { skillLabel } from "@/lib/labels";
+import { InsightCard } from "@/components/insight-card";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 
@@ -11,6 +12,7 @@ export default function Dashboard() {
   const [skills, setSkills] = useState<Skill[]>([]);
   const [cooccurrence, setCooccurrence] = useState<CooccurrenceResult | null>(null);
   const [jobData, setJobData] = useState<JobListResponse | null>(null);
+  const [insight, setInsight] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -19,11 +21,13 @@ export default function Dashboard() {
       api.skills(),
       api.cooccurrence(),
       api.jobCount(),
-    ]).then(([o, s, c, j]) => {
+      api.insights(),
+    ]).then(([o, s, c, j, ins]) => {
       setOverview(o);
       setSkills(s);
       setCooccurrence(c);
       setJobData(j);
+      setInsight(ins.dashboard_insight || "");
       setLoading(false);
     });
   }, []);
@@ -44,6 +48,8 @@ export default function Dashboard() {
           共 {jobData.total} 条 JD，覆盖国内 {dom.total_jobs} 条 + 国际 {intl.total_jobs} 条
         </p>
       </div>
+
+      {insight && <InsightCard text={insight} />}
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard title="JD 总量" value={jobData.total} sub={`${dom.total_jobs} 国内 + ${intl.total_jobs} 国际`} />

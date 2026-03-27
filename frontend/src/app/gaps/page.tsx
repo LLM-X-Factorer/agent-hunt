@@ -3,18 +3,21 @@
 import { useEffect, useState } from "react";
 import { api, type MarketOverview, type SkillGap } from "@/lib/api";
 import { skillLabel } from "@/lib/labels";
+import { InsightCard } from "@/components/insight-card";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { GapChart } from "./chart";
 
 export default function GapsPage() {
   const [overview, setOverview] = useState<MarketOverview | null>(null);
   const [gaps, setGaps] = useState<SkillGap[]>([]);
+  const [insight, setInsight] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    Promise.all([api.crossMarketOverview(), api.skillGaps()]).then(([o, g]) => {
+    Promise.all([api.crossMarketOverview(), api.skillGaps(), api.insights()]).then(([o, g, ins]) => {
       setOverview(o);
       setGaps(g);
+      setInsight(ins.gaps_insight || "");
       setLoading(false);
     });
   }, []);
@@ -32,6 +35,8 @@ export default function GapsPage() {
           对比国内（{dom.total_jobs} 条）与国际（{intl.total_jobs} 条）AI Agent 岗位需求
         </p>
       </div>
+
+      {insight && <InsightCard text={insight} />}
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <MarketCard title="国内市场" data={dom} color="red" />
