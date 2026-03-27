@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { api, type Skill, type CooccurrenceResult, type MarketOverview, type JobListResponse } from "@/lib/api";
+import { skillLabel } from "@/lib/labels";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 
@@ -16,7 +17,7 @@ export default function Dashboard() {
     Promise.all([
       api.crossMarketOverview(),
       api.skills(),
-      api.cooccurrence(10),
+      api.cooccurrence(),
       api.jobCount(),
     ]).then(([o, s, c, j]) => {
       setOverview(o);
@@ -75,7 +76,7 @@ export default function Dashboard() {
                   <span className="text-sm text-gray-400 w-5">{i + 1}</span>
                   <div className="flex-1">
                     <div className="flex justify-between text-sm">
-                      <span className="font-medium">{s.canonical_name}</span>
+                      <span className="font-medium">{skillLabel(s.canonical_name)}</span>
                       <span className="text-gray-500">{s.total_count}</span>
                     </div>
                     <div className="mt-1 flex h-2 rounded-full overflow-hidden bg-gray-100">
@@ -101,7 +102,7 @@ export default function Dashboard() {
             <div className="space-y-2">
               {cooccurrence.top_pairs.map((p) => (
                 <div key={`${p.skill_a}-${p.skill_b}`} className="flex justify-between text-sm py-1.5 border-b last:border-0">
-                  <span>{p.skill_a_name} <span className="text-gray-400">+</span> {p.skill_b_name}</span>
+                  <span>{skillLabel(p.skill_a_name)} <span className="text-gray-400">+</span> {skillLabel(p.skill_b_name)}</span>
                   <span className="text-gray-500 tabular-nums">
                     {p.cooccurrence_count}次
                     <span className="text-xs ml-1 text-gray-400">J={p.jaccard_index.toFixed(2)}</span>

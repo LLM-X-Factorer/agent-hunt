@@ -4,10 +4,11 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine,
 } from "recharts";
 import type { SkillGap } from "@/lib/api";
+import { skillLabel } from "@/lib/labels";
 
 export function GapChart({ gaps }: { gaps: SkillGap[] }) {
   const data = gaps.map((g) => ({
-    name: g.canonical_name,
+    name: skillLabel(g.canonical_name),
     国内: g.domestic_pct,
     国际: -g.international_pct,
   }));

@@ -14,7 +14,7 @@ export default function SalaryPage() {
   useEffect(() => {
     Promise.all([
       api.salaryDistribution(),
-      api.salaryBySkill(15),
+      api.salaryBySkill(),
       api.salaryByExperience(),
       api.salaryByPlatform(),
     ]).then(([d, s, e, p]) => {

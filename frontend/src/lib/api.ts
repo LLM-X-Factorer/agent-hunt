@@ -1,12 +1,21 @@
-const API_BASE =
-  typeof window !== "undefined"
-    ? (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1")
-    : (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1");
+// Static mode: read from /data/*.json (pre-exported from backend API)
+// To switch to live API, set NEXT_PUBLIC_API_URL env var
 
-async function fetchAPI<T>(path: string): Promise<T> {
-  const res = await fetch(`${API_BASE}${path}`, { cache: "no-store" });
-  if (!res.ok) throw new Error(`API error: ${res.status}`);
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
+async function fetchStatic<T>(filename: string): Promise<T> {
+  const res = await fetch(`/data/${filename}`);
+  if (!res.ok) throw new Error(`Failed to load ${filename}: ${res.status}`);
   return res.json();
+}
+
+async function fetchAPI<T>(path: string, staticFile: string): Promise<T> {
+  if (API_URL) {
+    const res = await fetch(`${API_URL}${path}`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`API error: ${res.status}`);
+    return res.json();
+  }
+  return fetchStatic<T>(staticFile);
 }
 
 // Types
@@ -113,25 +122,26 @@ export interface JobListResponse {
   page_size: number;
 }
 
-// API functions
+// API functions — static file fallback when no API_URL
 export const api = {
-  skills: () => fetchAPI<Skill[]>("/skills?sort_by=total_count"),
-  salaryDistribution: (market?: string) =>
-    fetchAPI<SalaryDistribution>(
-      `/analysis/salary/distribution${market ? `?market=${market}` : ""}`
-    ),
-  salaryBySkill: (topN = 20) =>
-    fetchAPI<SkillSalary[]>(`/analysis/salary/by-skill?top_n=${topN}`),
-  salaryByExperience: (market?: string) =>
-    fetchAPI<ExperienceSalary[]>(
-      `/analysis/salary/by-experience${market ? `?market=${market}` : ""}`
-    ),
-  salaryByPlatform: () => fetchAPI<PlatformSalary[]>("/analysis/salary/by-platform"),
-  crossMarketOverview: () => fetchAPI<MarketOverview>("/analysis/cross-market/overview"),
-  crossMarketSkills: (topN = 20) =>
-    fetchAPI<CrossMarketSkills>(`/analysis/cross-market/skills?top_n=${topN}`),
-  skillGaps: () => fetchAPI<SkillGap[]>("/analysis/cross-market/skill-gaps"),
-  cooccurrence: (topN = 20) =>
-    fetchAPI<CooccurrenceResult>(`/analysis/cooccurrence?top_n=${topN}`),
-  jobCount: () => fetchAPI<JobListResponse>("/jobs?page_size=1"),
+  skills: () =>
+    fetchAPI<Skill[]>("/skills?sort_by=total_count", "skills.json"),
+  salaryDistribution: () =>
+    fetchAPI<SalaryDistribution>("/analysis/salary/distribution", "salary-distribution.json"),
+  salaryBySkill: () =>
+    fetchAPI<SkillSalary[]>("/analysis/salary/by-skill?top_n=15", "salary-by-skill.json"),
+  salaryByExperience: () =>
+    fetchAPI<ExperienceSalary[]>("/analysis/salary/by-experience", "salary-by-experience.json"),
+  salaryByPlatform: () =>
+    fetchAPI<PlatformSalary[]>("/analysis/salary/by-platform", "salary-by-platform.json"),
+  crossMarketOverview: () =>
+    fetchAPI<MarketOverview>("/analysis/cross-market/overview", "cross-market-overview.json"),
+  crossMarketSkills: () =>
+    fetchAPI<CrossMarketSkills>("/analysis/cross-market/skills?top_n=20", "cross-market-skills.json"),
+  skillGaps: () =>
+    fetchAPI<SkillGap[]>("/analysis/cross-market/skill-gaps", "skill-gaps.json"),
+  cooccurrence: () =>
+    fetchAPI<CooccurrenceResult>("/analysis/cooccurrence?top_n=10", "cooccurrence.json"),
+  jobCount: () =>
+    fetchAPI<JobListResponse>("/jobs?page_size=1", "job-count.json"),
 };

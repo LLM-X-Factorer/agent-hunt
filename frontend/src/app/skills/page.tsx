@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { api, type Skill } from "@/lib/api";
+import { skillLabel } from "@/lib/labels";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SkillChart } from "./chart";
 
@@ -55,7 +56,7 @@ export default function SkillsPage() {
                 <div className="space-y-2">
                   {catSkills.map((s) => (
                     <div key={s.id} className="flex justify-between text-sm py-1 border-b last:border-0">
-                      <span>{s.canonical_name}</span>
+                      <span>{skillLabel(s.canonical_name)}</span>
                       <span className="tabular-nums text-gray-500">
                         <span className="text-red-500">{s.domestic_count}</span>
                         {" / "}

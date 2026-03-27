@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { api, type MarketOverview, type SkillGap } from "@/lib/api";
+import { skillLabel } from "@/lib/labels";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { GapChart } from "./chart";
 
@@ -63,7 +64,7 @@ export default function GapsPage() {
               <tbody>
                 {gaps.map((g) => (
                   <tr key={g.skill_id} className="border-b last:border-0">
-                    <td className="py-2 pr-4 font-medium">{g.canonical_name}</td>
+                    <td className="py-2 pr-4 font-medium">{skillLabel(g.canonical_name)}</td>
                     <td className="py-2 pr-4 text-right text-red-600">{g.domestic_pct}%</td>
                     <td className="py-2 pr-4 text-right text-blue-600">{g.international_pct}%</td>
                     <td className="py-2 pr-4 text-right font-mono">{g.gap.toFixed(1)}</td>

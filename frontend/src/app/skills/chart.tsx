@@ -4,10 +4,11 @@ import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from "recharts";
 import type { Skill } from "@/lib/api";
+import { skillLabel } from "@/lib/labels";
 
 export function SkillChart({ skills }: { skills: Skill[] }) {
   const data = skills.map((s) => ({
-    name: s.canonical_name,
+    name: skillLabel(s.canonical_name),
     国内: s.domestic_count,
     国际: s.international_count,
   }));
