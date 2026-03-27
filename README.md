@@ -79,6 +79,11 @@ agent-hunt/
 │   ├── alembic/                # 数据库迁移
 │   ├── tests/                  # pytest + pytest-asyncio
 │   └── pyproject.toml
+├── frontend/                   # Next.js 前端（已部署到 Cloudflare Pages）
+│   ├── src/app/                # 页面（总览、技能图谱、薪资分析、市场差异、岗位画像）
+│   ├── src/components/         # UI 组件（shadcn/ui + InsightCard）
+│   ├── src/lib/                # API 客户端 + 标签映射
+│   └── public/data/            # 预导出的静态 JSON 数据
 ├── extension/                  # Chrome 浏览器插件（占位，待实现）
 │   ├── content_scripts/        # 各平台 JD 提取脚本
 │   └── popup/                  # 插件弹窗 UI
@@ -199,14 +204,16 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 ## 项目状态
 
-积极开发中 — Phase 2 跨市场分析引擎已完成
+积极开发中 — Phase 3 前端已上线，正在功能增强
+
+**在线体验：https://agent-hunt.pages.dev**
 
 | Phase | 内容 | 状态 |
 |---|---|---|
 | 1 | 数据采集管道 + 国际/国内平台采集器 | **已完成** ✅ |
 | 2 | 跨市场分析引擎（技能归一化、薪资对标、差异分析） | **已完成** ✅ |
-| 3 | 前端 + 数据可视化（Next.js Dashboard） | 待开始 |
-| 4 | 产品化（Chrome 扩展、用户系统、学习路径） | 待开始 |
+| 3 | 前端 + 数据可视化 + AI 洞察 + 岗位画像 | **已完成** ✅ |
+| 4 | 持续增强（aliases 扩展、数据扩充、Chrome 扩展） | 进行中 |
 
 ### Phase 1 完成总结
 
@@ -250,6 +257,17 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 **技能共现分析 ✅**
 - [x] 技能共现矩阵 + Top pairs（含 Jaccard 系数归一化）
+
+### Phase 3 完成总结
+
+**前端 Dashboard ✅** （Next.js 16 + Tailwind + shadcn/ui + Recharts）
+- [x] 5 个页面：总览、技能图谱、薪资分析、市场差异、岗位画像
+- [x] 中文界面 + Cloudflare Pages 静态部署
+- [x] Gemini AI 生成的市场洞察（每页顶部）
+- [x] JD 样本展示（点击技能查看真实 JD 摘要）
+- [x] 3 个岗位画像（国内/国际/远程）
+- [x] 4 条学习路径推荐（Python 转型、前端转型、应届生、出海）
+- [x] 静态数据生成脚本（`scripts/generate_insights.py`）
 
 ## Contributing
 

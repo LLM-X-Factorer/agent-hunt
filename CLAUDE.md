@@ -65,5 +65,13 @@ docs/                # Technical docs
 - ruff, line-length 100, target Python 3.11
 - pytest asyncio_mode = "auto"
 
+## Frontend
+- Next.js 16 + Tailwind + shadcn/ui + Recharts
+- 静态导出 (`output: "export"`) 部署到 Cloudflare Pages
+- 无后端依赖：所有数据预导出为 `frontend/public/data/*.json`
+- 数据更新流程：`python scripts/generate_insights.py` → `npm run build` → `wrangler pages deploy out`
+- Gemini 生成的 AI 洞察（InsightCard 组件）放在每个页面顶部
+- 5 个页面：总览、技能图谱、薪资分析、市场差异、岗位画像（含学习路径）
+
 ## Current Status
-Phase 1 + 2 完成。5 平台采集器跑通，334 条 JD 解析完成。跨市场分析引擎已实现（技能归一化、薪资分析、国内外对比、技能共现）。下一步 Phase 3 前端可视化。
+Phase 1-3 完成。5 平台采集器，522 条 JD，67 个技能。前端已部署到 Cloudflare Pages（agent-hunt.pages.dev），含 AI 洞察、JD 样本、岗位画像、学习路径。
