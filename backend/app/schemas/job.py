@@ -26,6 +26,15 @@ class JobImportBatchRequest(BaseModel):
     jobs: list[JobImportRequest] = Field(..., min_length=1, max_length=100)
 
 
+class CollectRequest(BaseModel):
+    """Request to trigger collection from a platform."""
+
+    platform_id: str = Field(..., examples=["linkedin"])
+    keyword: str = Field(..., examples=["AI Agent Engineer"])
+    max_pages: int = Field(5, ge=1, le=20)
+    auto_parse: bool = Field(True)
+
+
 # --- Response schemas ---
 
 
@@ -88,6 +97,17 @@ class JobImportResponse(BaseModel):
 
     imported: int
     skipped: int  # duplicates
+    job_ids: list[uuid.UUID]
+
+
+class CollectResponse(BaseModel):
+    """Response after collecting and optionally parsing jobs."""
+
+    collected: int
+    imported: int
+    skipped: int
+    parsed: int
+    failed: int
     job_ids: list[uuid.UUID]
 
 

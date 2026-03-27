@@ -65,30 +65,24 @@ Agent Hunt 解决的问题：**用真实 JD 数据，消除信息差**。
 
 ```
 agent-hunt/
-├── backend/                    # FastAPI 后端
+├── backend/                    # FastAPI 后端（已实现）
 │   ├── app/
-│   │   ├── api/v1/             # REST API 路由
-│   │   ├── collectors/         # 多平台数据采集器（策略模式）
-│   │   ├── models/             # SQLAlchemy 数据模型
+│   │   ├── api/v1/             # REST API 路由（jobs, platforms, skills, analysis）
+│   │   ├── collectors/         # 多平台数据采集器（策略模式 + 注册表）
+│   │   ├── models/             # SQLAlchemy 数据模型（Job, Platform, Skill）
 │   │   ├── schemas/            # Pydantic 请求/响应 schema
 │   │   ├── services/           # 业务逻辑（JD解析、技能提取、跨市场分析）
 │   │   ├── tasks/              # Celery 异步任务
-│   │   ├── config.py           # pydantic-settings 配置
-│   │   └── database.py         # 异步数据库引擎
+│   │   ├── config.py           # pydantic-settings 配置（AH_ 前缀）
+│   │   ├── database.py         # 异步数据库引擎（asyncpg）
+│   │   └── main.py             # FastAPI 入口（启动时自动加载种子数据）
 │   ├── alembic/                # 数据库迁移
-│   ├── tests/
+│   ├── tests/                  # pytest + pytest-asyncio
 │   └── pyproject.toml
-├── frontend/                   # Next.js 前端
-│   └── src/
-│       ├── app/                # 页面（Dashboard、JD列表、技能图谱、跨市场对比、学习路径）
-│       ├── components/         # UI + 图表 + 布局组件
-│       ├── lib/                # API 客户端 + 工具函数
-│       └── stores/             # Zustand 状态管理
-├── extension/                  # Chrome 浏览器插件
+├── extension/                  # Chrome 浏览器插件（占位，待实现）
 │   ├── content_scripts/        # 各平台 JD 提取脚本
 │   └── popup/                  # 插件弹窗 UI
 ├── data/                       # 种子数据
-│   ├── sample_jds/             # JD 样本（domestic/ + international/）
 │   ├── seed_platforms.json     # 10 个平台元数据
 │   ├── seed_skills.json        # 50 个核心 AI 技能（中英双语别名）
 │   └── skill_aliases.json      # 技能同义词映射表（100+ 条）
@@ -136,6 +130,7 @@ uvicorn app.main:app --reload
 GET  /health                          — 健康检查
 POST /api/v1/jobs/import              — 导入单条 JD
 POST /api/v1/jobs/import/batch        — 批量导入（最多 100 条）
+POST /api/v1/jobs/collect             — 触发平台采集（采集 → 导入 → 自动解析）
 GET  /api/v1/jobs                     — 职位列表（分页 + 按平台/市场/状态筛选）
 GET  /api/v1/jobs/{id}                — 职位详情
 POST /api/v1/jobs/{id}/parse          — 触发 Gemini 结构化解析
@@ -184,41 +179,38 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 ## 项目状态
 
-积极开发中 — Phase 1 进行中
+积极开发中 — Phase 1 数据采集已完成，准备进入跨市场分析
 
 | Phase | 内容 | 状态 |
 |---|---|---|
-| 1 | 最小闭环（手动导入 → LLM 解析 → API） | **进行中** |
-| 2 | **国内平台爬虫（核心优先级）** + Chrome 扩展 | 待开始 |
-| 3 | 国际平台采集（JobSpy 集成）+ 跨市场分析引擎 | 待开始 |
-| 4 | 前端完善 + 数据可视化 | 待开始 |
-| 5 | 产品化（用户系统、匹配评分、导出） | 待开始 |
+| 1 | 数据采集管道 + 国际/国内平台采集器 | **已完成** ✅ |
+| 2 | 跨市场分析引擎（技能归一化、薪资对标、差异分析） | 待开始 |
+| 3 | 前端 + 数据可视化（Next.js Dashboard） | 待开始 |
+| 4 | 产品化（Chrome 扩展、用户系统、学习路径） | 待开始 |
 
-### Phase 1 详细进度
+### Phase 1 完成总结
 
-- [x] 项目骨架初始化（全目录结构 + 占位文件）
-- [x] Docker Compose（PostgreSQL 16 + pgvector + Redis 7）
-- [x] 数据模型（Platform / Job / Skill）+ Alembic 首次迁移
-- [x] 种子数据（50 技能 + 100+ 别名映射）
+**基础设施 ✅**
+- [x] 项目骨架 + Docker Compose（PostgreSQL 16 + pgvector + Redis 7）
+- [x] 数据模型（Platform / Job / Skill）+ Alembic 迁移
+- [x] 种子数据（50 技能 + 100+ 别名映射 + 10 个平台元数据）
 - [x] 配置管理（pydantic-settings + .env.example）
-- [x] LLM 方案确定（Gemini API）+ 数据采集策略调研
 - [x] 手动导入服务（JSON 导入 + 去重）
 - [x] JD 解析服务（Gemini API 中英双语结构化解析）
-- [x] API 端点（import / list / detail / parse / platforms）
-- [x] 平台种子数据（10 个平台）+ 启动时自动加载
-- [ ] 前端最简 JD 详情页
-- [ ] 种子 JD 数据（国内 20 条 + 国际 15 条）
+- [x] REST API（import / collect / list / detail / parse / batch-parse / platforms）
+- [x] BaseCollector 抽象类 + CollectorRegistry 注册表
+- [x] 采集 API 端点（`POST /api/v1/jobs/collect`，采集 → 导入 → 自动解析）
+- [x] 批量解析端点（`POST /api/v1/jobs/parse/batch`）
 
-### Phase 2 预览：国内爬虫攻坚
+**国际平台 ✅**
+- [x] JobSpy 集成（LinkedIn / Indeed 采集器）— 105+ 条
 
-- [ ] BaseCollector 抽象类 + CollectorRegistry 注册表
-- [ ] Boss直聘 Playwright 采集器（Cookie 持久化 + 薪资字体解密）
-- [ ] 猎聘 Playwright 采集器（动态参数处理）
-- [ ] 拉勾 Playwright 采集器（POST API 模拟）
-- [ ] Chrome 扩展 v1（三个国内平台页面 JD 提取）
-- [ ] 代理 IP 池 + Cookie 池基础设施
-- [ ] Boss直聘移动端 API 验证（探索性）
-- [ ] Celery 任务调度（定时采集 + 去重）
+**国内平台 ✅**
+- [x] 猎聘 Playwright 采集器（无需登录，单页 42 条含 JD 详情）
+- [x] Boss直聘 Playwright 采集器（Cookie + 薪资字体解密）
+- [x] 拉勾 Playwright 采集器（Cookie + 滑块验证绕过）
+- [x] Cookie 导出工具（`scripts/export_cookies.py`）
+- [x] 全部 334 条 JD 已 Gemini 结构化解析（0 失败）
 
 ## Contributing
 

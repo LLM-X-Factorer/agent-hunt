@@ -1,9 +1,17 @@
 # Application configuration via environment variables.
+from pathlib import Path
+
 from pydantic_settings import BaseSettings
+
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 
 
 class Settings(BaseSettings):
-    model_config = {"env_prefix": "AH_", "env_file": ".env", "env_file_encoding": "utf-8"}
+    model_config = {
+        "env_prefix": "AH_",
+        "env_file": str(_PROJECT_ROOT / ".env"),
+        "env_file_encoding": "utf-8",
+    }
 
     # --- Database ---
     postgres_user: str = "agent_hunt"

@@ -1,6 +1,8 @@
-# Job API endpoints — import, list, detail, and parse trigger.
+# Job API endpoints — import, list, detail, parse, and collect.
 from __future__ import annotations
 
+import asyncio
+import logging
 import uuid
 
 from fastapi import APIRouter, Depends, HTTPException, Query
@@ -8,9 +10,12 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.collectors.manual_import import import_jobs
+from app.collectors.registry import get_collector
 from app.database import get_db
 from app.models.job import Job
 from app.schemas.job import (
+    CollectRequest,
+    CollectResponse,
     JobBrief,
     JobDetail,
     JobImportBatchRequest,
@@ -19,6 +24,8 @@ from app.schemas.job import (
     JobListResponse,
 )
 from app.services.jd_parser import parse_job_by_id
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter(prefix="/jobs", tags=["jobs"])
 
@@ -33,6 +40,47 @@ async def import_single(req: JobImportRequest, db: AsyncSession = Depends(get_db
 async def import_batch(req: JobImportBatchRequest, db: AsyncSession = Depends(get_db)):
     """Import multiple raw JDs at once (max 100)."""
     return await import_jobs(db, req.jobs)
+
+
+@router.post("/collect", response_model=CollectResponse)
+async def collect_jobs(req: CollectRequest, db: AsyncSession = Depends(get_db)):
+    """Collect jobs from a platform, import to DB, and optionally auto-parse."""
+    try:
+        collector = get_collector(req.platform_id)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+    collected_jobs = await collector.collect(req.keyword, req.max_pages)
+    if not collected_jobs:
+        return CollectResponse(
+            collected=0, imported=0, skipped=0, parsed=0, failed=0, job_ids=[]
+        )
+
+    import_result = await import_jobs(db, collected_jobs)
+
+    parsed = 0
+    failed = 0
+    if req.auto_parse and import_result.job_ids:
+        for job_id in import_result.job_ids:
+            try:
+                job = await parse_job_by_id(db, job_id)
+                if job.parse_status == "parsed":
+                    parsed += 1
+                else:
+                    failed += 1
+            except Exception:
+                logger.exception("Parse failed for job %s", job_id)
+                failed += 1
+            await asyncio.sleep(1)  # Gemini API rate limit
+
+    return CollectResponse(
+        collected=len(collected_jobs),
+        imported=import_result.imported,
+        skipped=import_result.skipped,
+        parsed=parsed,
+        failed=failed,
+        job_ids=import_result.job_ids,
+    )
 
 
 @router.get("", response_model=JobListResponse)
@@ -81,6 +129,41 @@ async def get_job(job_id: uuid.UUID, db: AsyncSession = Depends(get_db)):
     if job is None:
         raise HTTPException(status_code=404, detail="Job not found")
     return JobDetail.model_validate(job)
+
+
+@router.post("/parse/batch")
+async def batch_parse(
+    limit: int = Query(50, ge=1, le=500),
+    db: AsyncSession = Depends(get_db),
+):
+    """Parse all pending jobs in batch. Returns progress counts."""
+    result = await db.execute(
+        select(Job.id).where(Job.parse_status == "pending").limit(limit)
+    )
+    pending_ids = [row[0] for row in result.all()]
+
+    if not pending_ids:
+        return {"total_pending": 0, "parsed": 0, "failed": 0}
+
+    parsed = 0
+    failed = 0
+    for job_id in pending_ids:
+        try:
+            job = await parse_job_by_id(db, job_id)
+            if job.parse_status == "parsed":
+                parsed += 1
+            else:
+                failed += 1
+        except Exception:
+            logger.exception("Batch parse failed for %s", job_id)
+            failed += 1
+        await asyncio.sleep(1.5)
+
+    return {
+        "total_pending": len(pending_ids),
+        "parsed": parsed,
+        "failed": failed,
+    }
 
 
 @router.post("/{job_id}/parse", response_model=JobDetail)
