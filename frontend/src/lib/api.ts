@@ -144,11 +144,36 @@ export const api = {
     fetchAPI<CooccurrenceResult>("/analysis/cooccurrence?top_n=10", "cooccurrence.json"),
   jobCount: () =>
     fetchAPI<JobListResponse>("/jobs?page_size=1", "job-count.json"),
+  industryOverview: () =>
+    fetchAPI<IndustrySummary[]>("/analysis/industry/overview", "industry-overview.json"),
+  industrySalary: () =>
+    fetchAPI<IndustrySalary[]>("/analysis/industry/salary", "industry-salary.json"),
   insights: () => fetchStatic<Record<string, string>>("insights.json"),
   jobSamples: () => fetchStatic<Record<string, JobSampleGroup>>("job-samples.json"),
   personas: () => fetchStatic<Persona[]>("personas.json"),
   learningPaths: () => fetchStatic<LearningPath[]>("learning-paths.json"),
 };
+
+// Industry types
+export interface IndustrySkillCount {
+  skill_id: string;
+  count: number;
+}
+
+export interface IndustrySummary {
+  industry: string;
+  job_count: number;
+  domestic_count: number;
+  international_count: number;
+  avg_salary: number | null;
+  top_skills: IndustrySkillCount[];
+}
+
+export interface IndustrySalary {
+  industry: string;
+  job_count: number;
+  avg_salary: number;
+}
 
 // Insight types
 export interface JobSample {

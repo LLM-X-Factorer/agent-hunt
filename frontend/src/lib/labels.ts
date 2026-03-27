@@ -44,6 +44,27 @@ export const SKILL_ZH: Record<string, string> = {
   "Multimodal AI": "多模态 AI",
 };
 
+// 行业中文映射
+export const INDUSTRY_ZH: Record<string, string> = {
+  internet: "互联网/SaaS",
+  finance: "金融",
+  healthcare: "医疗健康",
+  manufacturing: "制造/工业",
+  retail: "零售/电商",
+  education: "教育",
+  media: "媒体/内容",
+  consulting: "咨询/服务",
+  automotive: "汽车/自动驾驶",
+  energy: "能源",
+  telecom: "通信",
+  government: "政府/公共",
+  other: "其他",
+};
+
+export function industryLabel(id: string): string {
+  return INDUSTRY_ZH[id] || id;
+}
+
 export function skillLabel(name: string): string {
   return SKILL_ZH[name] || name;
 }
