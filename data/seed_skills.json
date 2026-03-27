@@ -348,5 +348,152 @@
     "category": "tool",
     "subcategory": "data_infra",
     "aliases": [{"name": "redis", "lang": "en"}]
+  },
+  {
+    "id": "java",
+    "canonical_name": "Java",
+    "category": "language",
+    "subcategory": null,
+    "aliases": [{"name": "java", "lang": "en"}]
+  },
+  {
+    "id": "cpp",
+    "canonical_name": "C++",
+    "category": "language",
+    "subcategory": null,
+    "aliases": [{"name": "c++", "lang": "en"}, {"name": "cpp", "lang": "en"}]
+  },
+  {
+    "id": "csharp",
+    "canonical_name": "C#",
+    "category": "language",
+    "subcategory": null,
+    "aliases": [{"name": "c#", "lang": "en"}, {"name": "csharp", "lang": "en"}]
+  },
+  {
+    "id": "sql",
+    "canonical_name": "SQL",
+    "category": "language",
+    "subcategory": null,
+    "aliases": [{"name": "sql", "lang": "en"}, {"name": "mysql", "lang": "en"}, {"name": "postgresql", "lang": "en"}]
+  },
+  {
+    "id": "machine_learning",
+    "canonical_name": "Machine Learning",
+    "category": "concept",
+    "subcategory": "ml",
+    "aliases": [{"name": "machine learning", "lang": "en"}, {"name": "ml", "lang": "en"}, {"name": "机器学习", "lang": "zh"}]
+  },
+  {
+    "id": "deep_learning",
+    "canonical_name": "Deep Learning",
+    "category": "concept",
+    "subcategory": "ml",
+    "aliases": [{"name": "deep learning", "lang": "en"}, {"name": "深度学习", "lang": "zh"}]
+  },
+  {
+    "id": "reinforcement_learning",
+    "canonical_name": "Reinforcement Learning",
+    "category": "concept",
+    "subcategory": "ml",
+    "aliases": [{"name": "reinforcement learning", "lang": "en"}, {"name": "rl", "lang": "en"}, {"name": "强化学习", "lang": "zh"}]
+  },
+  {
+    "id": "computer_vision",
+    "canonical_name": "Computer Vision",
+    "category": "concept",
+    "subcategory": "ml",
+    "aliases": [{"name": "computer vision", "lang": "en"}, {"name": "cv", "lang": "en"}, {"name": "计算机视觉", "lang": "zh"}]
+  },
+  {
+    "id": "generative_ai",
+    "canonical_name": "Generative AI",
+    "category": "concept",
+    "subcategory": "core_ai",
+    "aliases": [{"name": "generative ai", "lang": "en"}, {"name": "genai", "lang": "en"}, {"name": "生成式AI", "lang": "zh"}]
+  },
+  {
+    "id": "git",
+    "canonical_name": "Git",
+    "category": "tool",
+    "subcategory": "devops",
+    "aliases": [{"name": "git", "lang": "en"}, {"name": "github", "lang": "en"}, {"name": "gitlab", "lang": "en"}]
+  },
+  {
+    "id": "devops",
+    "canonical_name": "DevOps",
+    "category": "concept",
+    "subcategory": "devops",
+    "aliases": [{"name": "devops", "lang": "en"}, {"name": "运维", "lang": "zh"}]
+  },
+  {
+    "id": "distributed_systems",
+    "canonical_name": "Distributed Systems",
+    "category": "concept",
+    "subcategory": "infrastructure",
+    "aliases": [{"name": "distributed systems", "lang": "en"}, {"name": "分布式系统", "lang": "zh"}, {"name": "分布式", "lang": "zh"}]
+  },
+  {
+    "id": "microservices",
+    "canonical_name": "Microservices",
+    "category": "concept",
+    "subcategory": "infrastructure",
+    "aliases": [{"name": "microservices", "lang": "en"}, {"name": "微服务", "lang": "zh"}]
+  },
+  {
+    "id": "nodejs",
+    "canonical_name": "Node.js",
+    "category": "framework",
+    "subcategory": "web",
+    "aliases": [{"name": "nodejs", "lang": "en"}, {"name": "node.js", "lang": "en"}, {"name": "node", "lang": "en"}]
+  },
+  {
+    "id": "vue",
+    "canonical_name": "Vue.js",
+    "category": "framework",
+    "subcategory": "web",
+    "aliases": [{"name": "vue", "lang": "en"}, {"name": "vuejs", "lang": "en"}, {"name": "vue.js", "lang": "en"}]
+  },
+  {
+    "id": "spring",
+    "canonical_name": "Spring",
+    "category": "framework",
+    "subcategory": "web",
+    "aliases": [{"name": "spring", "lang": "en"}, {"name": "spring boot", "lang": "en"}, {"name": "springboot", "lang": "en"}]
+  },
+  {
+    "id": "flask",
+    "canonical_name": "Flask",
+    "category": "framework",
+    "subcategory": "web",
+    "aliases": [{"name": "flask", "lang": "en"}, {"name": "django", "lang": "en"}]
+  },
+  {
+    "id": "data_analysis",
+    "canonical_name": "Data Analysis",
+    "category": "concept",
+    "subcategory": "data",
+    "aliases": [{"name": "data analysis", "lang": "en"}, {"name": "数据分析", "lang": "zh"}, {"name": "data science", "lang": "en"}]
+  },
+  {
+    "id": "agile",
+    "canonical_name": "Agile",
+    "category": "concept",
+    "subcategory": "methodology",
+    "aliases": [{"name": "agile", "lang": "en"}, {"name": "scrum", "lang": "en"}, {"name": "敏捷开发", "lang": "zh"}]
+  },
+  {
+    "id": "multimodal_ai",
+    "canonical_name": "Multimodal AI",
+    "category": "concept",
+    "subcategory": "core_ai",
+    "aliases": [{"name": "multimodal ai", "lang": "en"}, {"name": "multimodal", "lang": "en"}, {"name": "多模态", "lang": "zh"}]
+  },
+  {
+    "id": "gemini_api",
+    "canonical_name": "Gemini API",
+    "category": "tool",
+    "subcategory": "llm_provider",
+    "aliases": [{"name": "gemini", "lang": "en"}, {"name": "gemini api", "lang": "en"}]
   }
 ]
