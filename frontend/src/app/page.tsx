@@ -1,14 +1,35 @@
-import { api } from "@/lib/api";
+"use client";
+
+import { useEffect, useState } from "react";
+import { api, type Skill, type CooccurrenceResult, type MarketOverview, type JobListResponse } from "@/lib/api";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 
-export default async function Dashboard() {
-  const [overview, skills, cooccurrence, jobData] = await Promise.all([
-    api.crossMarketOverview(),
-    api.skills(),
-    api.cooccurrence(10),
-    api.jobCount(),
-  ]);
+export default function Dashboard() {
+  const [overview, setOverview] = useState<MarketOverview | null>(null);
+  const [skills, setSkills] = useState<Skill[]>([]);
+  const [cooccurrence, setCooccurrence] = useState<CooccurrenceResult | null>(null);
+  const [jobData, setJobData] = useState<JobListResponse | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    Promise.all([
+      api.crossMarketOverview(),
+      api.skills(),
+      api.cooccurrence(10),
+      api.jobCount(),
+    ]).then(([o, s, c, j]) => {
+      setOverview(o);
+      setSkills(s);
+      setCooccurrence(c);
+      setJobData(j);
+      setLoading(false);
+    });
+  }, []);
+
+  if (loading || !overview || !jobData || !cooccurrence) {
+    return <div className="text-center py-20 text-gray-400">加载中...</div>;
+  }
 
   const topSkills = skills.filter((s) => s.total_count > 0).slice(0, 10);
   const dom = overview.domestic;
@@ -17,42 +38,35 @@ export default async function Dashboard() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-bold">AI Agent Job Market Dashboard</h1>
+        <h1 className="text-2xl font-bold">AI Agent 岗位市场总览</h1>
         <p className="text-gray-500 mt-1">
-          {jobData.total} JDs across {dom.total_jobs + intl.total_jobs} parsed,
-          covering domestic and international markets
+          共 {jobData.total} 条 JD，覆盖国内 {dom.total_jobs} 条 + 国际 {intl.total_jobs} 条
         </p>
       </div>
 
-      {/* Market Overview Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <StatCard title="JD 总量" value={jobData.total} sub={`${dom.total_jobs} 国内 + ${intl.total_jobs} 国际`} />
         <StatCard
-          title="Total JDs"
-          value={jobData.total}
-          sub={`${dom.total_jobs} domestic + ${intl.total_jobs} international`}
-        />
-        <StatCard
-          title="Domestic Avg Salary"
+          title="国内平均月薪"
           value={`¥${((dom.avg_salary || 0) / 1000).toFixed(0)}k`}
-          sub={`Median ¥${((dom.median_salary || 0) / 1000).toFixed(0)}k/mo`}
+          sub={`中位数 ¥${((dom.median_salary || 0) / 1000).toFixed(0)}k/月`}
         />
         <StatCard
-          title="International Avg Salary"
+          title="国际平均月薪"
           value={`¥${((intl.avg_salary || 0) / 1000).toFixed(0)}k`}
-          sub={`Median ¥${((intl.median_salary || 0) / 1000).toFixed(0)}k/mo (RMB equiv.)`}
+          sub={`中位数 ¥${((intl.median_salary || 0) / 1000).toFixed(0)}k/月（折合人民币）`}
         />
         <StatCard
-          title="Skills Tracked"
+          title="追踪技能数"
           value={skills.filter((s) => s.total_count > 0).length}
-          sub={`${skills.length} total in taxonomy`}
+          sub={`技能库共 ${skills.length} 个`}
         />
       </div>
 
-      {/* Top Skills */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Top 10 Skills</CardTitle>
+            <CardTitle className="text-base">Top 10 热门技能</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-3">
@@ -65,29 +79,15 @@ export default async function Dashboard() {
                       <span className="text-gray-500">{s.total_count}</span>
                     </div>
                     <div className="mt-1 flex h-2 rounded-full overflow-hidden bg-gray-100">
-                      <div
-                        className="bg-red-400"
-                        style={{
-                          width: `${(s.domestic_count / s.total_count) * 100}%`,
-                        }}
-                      />
-                      <div
-                        className="bg-blue-400"
-                        style={{
-                          width: `${(s.international_count / s.total_count) * 100}%`,
-                        }}
-                      />
+                      <div className="bg-red-400" style={{ width: `${(s.domestic_count / s.total_count) * 100}%` }} />
+                      <div className="bg-blue-400" style={{ width: `${(s.international_count / s.total_count) * 100}%` }} />
                     </div>
                   </div>
                 </div>
               ))}
               <div className="flex gap-4 text-xs text-gray-400 pt-2">
-                <span className="flex items-center gap-1">
-                  <span className="w-3 h-2 bg-red-400 rounded" /> Domestic
-                </span>
-                <span className="flex items-center gap-1">
-                  <span className="w-3 h-2 bg-blue-400 rounded" /> International
-                </span>
+                <span className="flex items-center gap-1"><span className="w-3 h-2 bg-red-400 rounded" /> 国内</span>
+                <span className="flex items-center gap-1"><span className="w-3 h-2 bg-blue-400 rounded" /> 国际</span>
               </div>
             </div>
           </CardContent>
@@ -95,67 +95,37 @@ export default async function Dashboard() {
 
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Top Skill Pairs (Co-occurrence)</CardTitle>
+            <CardTitle className="text-base">技能共现 Top 10</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-2">
-              {cooccurrence.top_pairs.map((p, i) => (
-                <div
-                  key={`${p.skill_a}-${p.skill_b}`}
-                  className="flex justify-between text-sm py-1.5 border-b last:border-0"
-                >
-                  <span>
-                    {p.skill_a_name}{" "}
-                    <span className="text-gray-400">+</span>{" "}
-                    {p.skill_b_name}
-                  </span>
+              {cooccurrence.top_pairs.map((p) => (
+                <div key={`${p.skill_a}-${p.skill_b}`} className="flex justify-between text-sm py-1.5 border-b last:border-0">
+                  <span>{p.skill_a_name} <span className="text-gray-400">+</span> {p.skill_b_name}</span>
                   <span className="text-gray-500 tabular-nums">
-                    {p.cooccurrence_count}x
-                    <span className="text-xs ml-1 text-gray-400">
-                      J={p.jaccard_index.toFixed(2)}
-                    </span>
+                    {p.cooccurrence_count}次
+                    <span className="text-xs ml-1 text-gray-400">J={p.jaccard_index.toFixed(2)}</span>
                   </span>
                 </div>
               ))}
             </div>
             <p className="text-xs text-gray-400 mt-3">
-              Based on {cooccurrence.total_jobs_analyzed} jobs. J = Jaccard similarity.
+              基于 {cooccurrence.total_jobs_analyzed} 条 JD 分析，J = Jaccard 相似系数
             </p>
           </CardContent>
         </Card>
       </div>
 
-      {/* Quick Links */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <QuickLink
-          href="/skills"
-          title="Skill Rankings"
-          desc="Full skill ranking with domestic vs international breakdown"
-        />
-        <QuickLink
-          href="/salary"
-          title="Salary Analysis"
-          desc="Distribution, by skill, by experience, by platform"
-        />
-        <QuickLink
-          href="/gaps"
-          title="Market Gaps"
-          desc="Which skills dominate in which market"
-        />
+        <QuickLink href="/skills" title="技能图谱" desc="完整技能排名，国内外对比视图" />
+        <QuickLink href="/salary" title="薪资分析" desc="分布直方图，按技能/经验/平台切分" />
+        <QuickLink href="/gaps" title="市场差异" desc="哪些技能在哪个市场更受欢迎" />
       </div>
     </div>
   );
 }
 
-function StatCard({
-  title,
-  value,
-  sub,
-}: {
-  title: string;
-  value: string | number;
-  sub: string;
-}) {
+function StatCard({ title, value, sub }: { title: string; value: string | number; sub: string }) {
   return (
     <Card>
       <CardContent className="pt-6">
@@ -167,15 +137,7 @@ function StatCard({
   );
 }
 
-function QuickLink({
-  href,
-  title,
-  desc,
-}: {
-  href: string;
-  title: string;
-  desc: string;
-}) {
+function QuickLink({ href, title, desc }: { href: string; title: string; desc: string }) {
   return (
     <Link href={href}>
       <Card className="hover:border-gray-300 transition-colors cursor-pointer h-full">

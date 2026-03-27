@@ -1,22 +1,15 @@
 "use client";
 
 import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  Legend,
-  ResponsiveContainer,
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from "recharts";
 import type { Skill } from "@/lib/api";
 
 export function SkillChart({ skills }: { skills: Skill[] }) {
   const data = skills.map((s) => ({
     name: s.canonical_name,
-    domestic: s.domestic_count,
-    international: s.international_count,
+    国内: s.domestic_count,
+    国际: s.international_count,
   }));
 
   return (
@@ -27,8 +20,8 @@ export function SkillChart({ skills }: { skills: Skill[] }) {
         <YAxis dataKey="name" type="category" tick={{ fontSize: 12 }} width={120} />
         <Tooltip />
         <Legend />
-        <Bar dataKey="domestic" fill="#f87171" name="Domestic" />
-        <Bar dataKey="international" fill="#60a5fa" name="International" />
+        <Bar dataKey="国内" fill="#f87171" />
+        <Bar dataKey="国际" fill="#60a5fa" />
       </BarChart>
     </ResponsiveContainer>
   );

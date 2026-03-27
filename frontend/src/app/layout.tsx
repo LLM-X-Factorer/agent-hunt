@@ -14,16 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Agent Hunt — AI Agent Job Market Analysis",
+  title: "Agent Hunt — AI Agent 岗位市场分析",
   description:
-    "Cross-market analysis of AI Agent engineer job requirements across domestic and international platforms",
+    "跨市场分析 AI Agent 工程师岗位需求，覆盖国内外主流招聘平台",
 };
 
 const NAV_ITEMS = [
-  { href: "/", label: "Dashboard" },
-  { href: "/skills", label: "Skills" },
-  { href: "/salary", label: "Salary" },
-  { href: "/gaps", label: "Market Gaps" },
+  { href: "/", label: "总览" },
+  { href: "/skills", label: "技能图谱" },
+  { href: "/salary", label: "薪资分析" },
+  { href: "/gaps", label: "市场差异" },
 ];
 
 export default function RootLayout({
@@ -58,6 +58,9 @@ export default function RootLayout({
         <main className="flex-1 max-w-7xl mx-auto w-full px-4 py-6">
           {children}
         </main>
+        <footer className="border-t bg-white py-4 text-center text-xs text-gray-400">
+          Agent Hunt — 用数据洞察 AI Agent 工程师市场
+        </footer>
       </body>
     </html>
   );
