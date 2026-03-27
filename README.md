@@ -127,15 +127,35 @@ uvicorn app.main:app --reload
 ### API 端点
 
 ```
-GET  /health                          — 健康检查
-POST /api/v1/jobs/import              — 导入单条 JD
-POST /api/v1/jobs/import/batch        — 批量导入（最多 100 条）
-POST /api/v1/jobs/collect             — 触发平台采集（采集 → 导入 → 自动解析）
-GET  /api/v1/jobs                     — 职位列表（分页 + 按平台/市场/状态筛选）
-GET  /api/v1/jobs/{id}                — 职位详情
-POST /api/v1/jobs/{id}/parse          — 触发 Gemini 结构化解析
-GET  /api/v1/platforms                — 平台列表
-GET  /api/v1/platforms/{id}           — 平台详情
+GET  /health                              — 健康检查
+
+# Jobs
+POST /api/v1/jobs/import                  — 导入单条 JD
+POST /api/v1/jobs/import/batch            — 批量导入（最多 100 条）
+POST /api/v1/jobs/collect                 — 触发平台采集（采集 → 导入 → 自动解析）
+POST /api/v1/jobs/parse/batch             — 批量 Gemini 解析
+GET  /api/v1/jobs                         — 职位列表（分页 + 筛选）
+GET  /api/v1/jobs/{id}                    — 职位详情
+POST /api/v1/jobs/{id}/parse              — 单条解析
+
+# Skills
+GET  /api/v1/skills                       — 技能列表（含国内/国际计数）
+POST /api/v1/skills/normalize             — 触发技能归一化（采集新数据后运行）
+GET  /api/v1/skills/unmatched             — 未匹配的原始技能（用于扩展 aliases）
+
+# Analysis
+GET  /api/v1/analysis/salary/distribution — 薪资分布直方图
+GET  /api/v1/analysis/salary/by-skill     — 各技能关联薪资
+GET  /api/v1/analysis/salary/by-experience — 按经验分段薪资
+GET  /api/v1/analysis/salary/by-platform  — 按平台薪资
+GET  /api/v1/analysis/cross-market/overview   — 国内 vs 国际总览
+GET  /api/v1/analysis/cross-market/skills     — 各市场 Top 技能
+GET  /api/v1/analysis/cross-market/skill-gaps — 技能需求差异排名
+GET  /api/v1/analysis/cooccurrence            — 技能共现分析
+
+# Platforms
+GET  /api/v1/platforms                    — 平台列表
+GET  /api/v1/platforms/{id}               — 平台详情
 ```
 
 ## 数据采集策略
@@ -179,12 +199,12 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 ## 项目状态
 
-积极开发中 — Phase 1 数据采集已完成，准备进入跨市场分析
+积极开发中 — Phase 2 跨市场分析引擎已完成
 
 | Phase | 内容 | 状态 |
 |---|---|---|
 | 1 | 数据采集管道 + 国际/国内平台采集器 | **已完成** ✅ |
-| 2 | 跨市场分析引擎（技能归一化、薪资对标、差异分析） | 待开始 |
+| 2 | 跨市场分析引擎（技能归一化、薪资对标、差异分析） | **已完成** ✅ |
 | 3 | 前端 + 数据可视化（Next.js Dashboard） | 待开始 |
 | 4 | 产品化（Chrome 扩展、用户系统、学习路径） | 待开始 |
 
@@ -211,6 +231,25 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 - [x] 拉勾 Playwright 采集器（Cookie + 滑块验证绕过）
 - [x] Cookie 导出工具（`scripts/export_cookies.py`）
 - [x] 全部 334 条 JD 已 Gemini 结构化解析（0 失败）
+
+### Phase 2 完成总结
+
+**技能归一化 ✅**
+- [x] SkillExtractor（`skill_aliases.json` 100+ 条映射 → 43 个标准技能）
+- [x] 归一化端点 `POST /skills/normalize` + 未匹配技能查看 `GET /skills/unmatched`
+
+**薪资分析 ✅**
+- [x] 薪资分布直方图（按市场/平台筛选）
+- [x] 按技能关联薪资（哪些技能薪资最高）
+- [x] 按经验/平台分段薪资
+
+**跨市场对比 ✅**
+- [x] 国内 vs 国际总览（薪资、工作模式、学历、经验分布）
+- [x] 各市场 Top N 技能排名
+- [x] 技能需求差异排名（skill gap analysis）
+
+**技能共现分析 ✅**
+- [x] 技能共现矩阵 + Top pairs（含 Jaccard 系数归一化）
 
 ## Contributing
 

@@ -52,6 +52,9 @@ docs/                # Technical docs
   - Liepin: Playwright headless, no login needed, `.job-card-pc-container` selector
   - Boss直聘/拉勾: need Cookie file (`data/boss_cookies.json` / `data/lagou_cookies.json`)
   - Cookie export: `python scripts/export_cookies.py <platform_id>`
+- **Analysis**: Python in-memory aggregation (data < 1000 rows, no need for complex SQL)
+  - Skill normalization: `skill_aliases.json` lookup, updates Skill.domestic/international_count
+  - Must `POST /skills/normalize` after new data before analysis endpoints are accurate
 
 ## Database Models
 - **platforms** — 招聘平台元数据 (id is string slug like "boss-zhipin")
@@ -63,4 +66,4 @@ docs/                # Technical docs
 - pytest asyncio_mode = "auto"
 
 ## Current Status
-Phase 1 完成。5 个平台采集器全部跑通（LinkedIn、Indeed、猎聘、Boss直聘、拉勾），334 条 JD 全部 Gemini 解析完成，0 失败。下一步进入 Phase 2 跨市场分析。
+Phase 1 + 2 完成。5 平台采集器跑通，334 条 JD 解析完成。跨市场分析引擎已实现（技能归一化、薪资分析、国内外对比、技能共现）。下一步 Phase 3 前端可视化。
