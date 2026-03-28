@@ -1,63 +1,62 @@
 [
   {
     "id": "domestic_typical",
-    "title": "国内 AI Agent 工程师（典型）",
-    "subtitle": "专注于大模型应用与Agent架构实现的本土技术专家。",
+    "title": "国内 AI Agent 工程师",
+    "subtitle": "专注于大模型应用与Agent架构的本土创新者",
     "market": "国内",
     "core_skills": [
       "Large Language Models",
       "Agent Architecture",
       "Python",
       "Retrieval-Augmented Generation",
-      "Java"
+      "Prompt Engineering"
     ],
     "salary_range": "¥25,000 - ¥50,000/月",
-    "experience": "3-5年相关开发经验",
-    "education": "本科及以上学历，计算机或相关专业",
-    "company_types": "互联网大厂、AI创业公司、金融科技公司",
-    "work_mode": "办公室全职",
-    "day_in_life": "日常参与Agent系统设计与开发，调试LLM接口，优化RAG流程，与产品团队紧密协作，确保Agent功能符合业务需求。关注前沿技术，解决实际应用中的挑战。",
-    "key_insight": "国内市场对Agent架构和RAG技术有强烈需求，Python和Java是主流开发语言，薪资水平适中。"
+    "experience": "3-5年相关经验",
+    "education": "本科及以上学历",
+    "company_types": "大型互联网公司、AI创业公司、科技巨头研发部门",
+    "work_mode": "全职，现场办公为主",
+    "day_in_life": "上午参与Agent系统设计评审，下午与算法团队协作优化RAG模型，处理Prompt工程任务，确保大模型在特定业务场景下的高效应用。晚上可能进行代码调试或学习最新Agent架构论文，以适应快速变化的市场需求。",
+    "key_insight": "国内市场对Agent工程师的需求旺盛，强调快速迭代和在特定业务场景下的实际应用能力。"
   },
   {
     "id": "international_typical",
-    "title": "国际 AI Agent 工程师（典型）",
-    "subtitle": "全球视野下的AI Agent构建者，精通云服务与生成式AI。",
+    "title": "国际 AI Agent 工程师",
+    "subtitle": "全球视野下的生成式AI与云平台专家",
     "market": "国际",
     "core_skills": [
       "Python",
       "Large Language Models",
       "Generative AI",
-      "AWS",
-      "Java"
+      "SQL",
+      "AWS"
     ],
-    "salary_range": "¥90,000 - ¥150,000/月",
-    "experience": "5年以上AI/ML开发经验，具备大型系统设计能力",
-    "education": "硕士及以上学历，计算机科学、人工智能等相关专业优先",
-    "company_types": "全球科技巨头、顶尖AI实验室、硅谷初创公司",
-    "work_mode": "办公室全职或混合办公",
-    "day_in_life": "负责设计和实现基于LLM的Agent系统，利用AWS等云平台部署和管理AI服务。与跨国团队协作，探索前沿生成式AI应用，确保系统的高可用性和可扩展性。",
-    "key_insight": "国际市场更强调云平台技能和生成式AI的广泛应用，薪资水平显著高于国内，对高级人才需求旺盛。"
+    "salary_range": "¥80,000 - ¥150,000/月 (折合人民币)",
+    "experience": "4-7年相关经验",
+    "education": "硕士或博士学历优先，本科需有突出项目经验",
+    "company_types": "全球科技公司、AI研究实验室、SaaS服务提供商、金融科技公司",
+    "work_mode": "全职，现场或混合办公",
+    "day_in_life": "Start with a stand-up meeting with a global team, then deep dive into developing scalable Agent services on AWS, integrating with SQL databases. Spend time researching new Generative AI techniques and contributing to open-source projects, ensuring robust and secure deployments.",
+    "key_insight": "国际市场薪资水平较高，对工程师的系统设计能力、云平台经验和前沿技术研究能力有更高要求。"
   },
   {
     "id": "remote_emerging",
-    "title": "远程 AI Agent 工程师（新兴）",
-    "subtitle": "灵活高效的全球化AI Agent贡献者，注重协作与独立解决问题能力。",
+    "title": "远程 AI Agent 工程师",
+    "subtitle": "跨地域协作，驱动未来AI应用开发的自由职业者/远程团队成员",
     "market": "远程",
     "core_skills": [
       "Python",
       "Large Language Models",
       "Generative AI",
       "Agent Architecture",
-      "Cloud Platforms (e.g., AWS/Azure/GCP)",
-      "Communication & Collaboration Tools"
+      "Cloud Platforms (AWS/Azure/GCP)"
     ],
-    "salary_range": "¥70,000 - ¥130,000/月",
-    "experience": "3-7年AI/ML开发经验，具备远程协作项目经验",
-    "education": "本科及以上学历，计算机或相关专业",
-    "company_types": "全球远程优先公司、分布式AI团队、自由职业平台",
-    "work_mode": "完全远程",
-    "day_in_life": "在家中或共享办公空间，通过视频会议与全球团队沟通，独立完成Agent模块开发、模型集成与测试。注重代码质量和文档，灵活安排工作时间，确保项目按时交付。",
-    "key_insight": "远程工作模式日益普及，要求工程师具备更强的自我管理、跨文化沟通和独立解决问题的能力，薪资介于国内与国际之间。"
+    "salary_range": "¥50,000 - ¥100,000/月",
+    "experience": "4-7年相关经验，具备独立项目管理能力",
+    "education": "本科及以上学历，注重项目经验和作品集",
+    "company_types": "分布式AI创业公司、全球远程优先公司、技术咨询公司、自由职业平台",
+    "work_mode": "全职或兼职，完全远程办公",
+    "day_in_life": "独立规划并执行Agent项目开发任务，通过Slack/Teams与全球团队异步沟通进展。参与代码审查，撰写技术文档，并持续学习最新的LLM和Agent技术。工作时间灵活，注重结果交付和自我驱动。",
+    "key_insight": "远程工作模式为AI Agent工程师提供了更大的灵活性和全球机会，但对个人自律性、沟通能力和技术广度要求更高。"
   }
 ]
