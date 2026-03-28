@@ -80,7 +80,7 @@ docs/                # Technical docs
   3. `cd frontend && npm run build`
   4. `npx wrangler pages deploy out --project-name agent-hunt`
 - Gemini 生成的 AI 洞察（InsightCard 组件）放在每个页面顶部
-- 7 个页面：总览、技能图谱、薪资分析、市场差异、行业分析、岗位画像（含学习路径）
+- 8 个页面：总览、洞察报告、技能图谱、薪资分析、市场差异、行业分析、岗位画像（含学习路径）
 
 ## Current Status
-Phase 1-3 完成 + 行业维度扩展。5 平台采集器，521 条 JD（499 已解析含行业标签），67 个技能，12 个行业。前端 7 个页面已部署到 agent-hunt.pages.dev。
+Phase 1-4 完成 + 洞察报告。5 平台采集器，2370 条 JD（1542 已解析），68 个技能，13 个行业。前端 8 页已部署到 agent-hunt.pages.dev。含 AI 生成的市场洞察报告（全景概览、行业深度、跨界求职指南、趋势判断）。
