@@ -1,0 +1,807 @@
+{
+  "total_jobs": 570,
+  "domestic_total": 389,
+  "international_total": 181,
+  "domestic_avg_salary": 35699,
+  "international_avg_salary": 109524,
+  "industries": {
+    "internet": {
+      "total": 259,
+      "domestic": 182,
+      "international": 77,
+      "avg_salary": 59556,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 100
+        },
+        {
+          "id": "agent_architecture",
+          "count": 59
+        },
+        {
+          "id": "python",
+          "count": 58
+        },
+        {
+          "id": "java",
+          "count": 25
+        },
+        {
+          "id": "rag",
+          "count": 25
+        },
+        {
+          "id": "langchain",
+          "count": 23
+        },
+        {
+          "id": "machine_learning",
+          "count": 22
+        },
+        {
+          "id": "aws",
+          "count": 22
+        }
+      ],
+      "sample_titles": [
+        "AI Platform Security Engineer",
+        "全栈工程师— 科学智能体",
+        "AI Product Manager (LLM/AIGC Applications)",
+        "Sr. Manager, Applied Science, Sponsored Products and Brands",
+        "AI Engineer (Development & Algorithm) Intern",
+        "Product Manager (AI LLM)",
+        "Python Agentic AI/ML Engineer",
+        "ML Engineer",
+        "Head of AI",
+        "AI Engineer, Entry Level"
+      ],
+      "unique_companies": 185
+    },
+    "consulting": {
+      "total": 71,
+      "domestic": 35,
+      "international": 36,
+      "avg_salary": 53444,
+      "top_skills": [
+        {
+          "id": "python",
+          "count": 31
+        },
+        {
+          "id": "sql",
+          "count": 24
+        },
+        {
+          "id": "java",
+          "count": 23
+        },
+        {
+          "id": "golang",
+          "count": 23
+        },
+        {
+          "id": "azure",
+          "count": 22
+        },
+        {
+          "id": "git",
+          "count": 22
+        },
+        {
+          "id": "aws",
+          "count": 21
+        },
+        {
+          "id": "gcp",
+          "count": 21
+        }
+      ],
+      "sample_titles": [
+        "AI Sales",
+        "AI LLM Algorithm Engineer",
+        "Perception LLM Engineer",
+        "AI 高级工程师（Senior AI Engineer）",
+        "AI Engineer/AI Agent Engineer",
+        "Asst Chief Engineer",
+        "AI Engineer - AI/ML/LLM/GenAI",
+        "AI工程师",
+        "AI知识库与智能体开发专家",
+        "Data Scientist with Agentic AI Consultant"
+      ],
+      "unique_companies": 40
+    },
+    "finance": {
+      "total": 70,
+      "domestic": 48,
+      "international": 22,
+      "avg_salary": 54565,
+      "top_skills": [
+        {
+          "id": "python",
+          "count": 14
+        },
+        {
+          "id": "llm",
+          "count": 12
+        },
+        {
+          "id": "data_analysis",
+          "count": 8
+        },
+        {
+          "id": "sql",
+          "count": 8
+        },
+        {
+          "id": "rag",
+          "count": 5
+        },
+        {
+          "id": "agent_architecture",
+          "count": 5
+        },
+        {
+          "id": "prompt_engineering",
+          "count": 5
+        },
+        {
+          "id": "reinforcement_learning",
+          "count": 5
+        }
+      ],
+      "sample_titles": [
+        "AI智能金融销售",
+        "算法工程师-智能风控",
+        "交易风控岗",
+        "产品负责人",
+        "CTO/CIO/技术VP",
+        "AI Research Intern",
+        "Lead Product Manager - Gen AI Platform",
+        "Application Security Engineer",
+        "AI产品经理",
+        "供应链金融贸易经理"
+      ],
+      "unique_companies": 56
+    },
+    "manufacturing": {
+      "total": 56,
+      "domestic": 41,
+      "international": 15,
+      "avg_salary": 43876,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 19
+        },
+        {
+          "id": "python",
+          "count": 7
+        },
+        {
+          "id": "prompt_engineering",
+          "count": 4
+        },
+        {
+          "id": "agent_architecture",
+          "count": 3
+        },
+        {
+          "id": "computer_vision",
+          "count": 3
+        },
+        {
+          "id": "rag",
+          "count": 3
+        },
+        {
+          "id": "generative_ai",
+          "count": 2
+        },
+        {
+          "id": "mlops",
+          "count": 2
+        }
+      ],
+      "sample_titles": [
+        "资深 AI 工程师（工业应用）Senior AI Engineer (Industrial Applications)",
+        "AI Application Architect (AI Agent)",
+        "智能体项目经理",
+        "AI 应用研发工程师",
+        "AI Engineer Software",
+        "灵巧手AI高级应用工程师",
+        "Low-code AI Engineer (RAG Application)",
+        "AI Content Engineer",
+        "AI工程师",
+        "智能Hi-Fi音响创新战略"
+      ],
+      "unique_companies": 42
+    },
+    "healthcare": {
+      "total": 28,
+      "domestic": 17,
+      "international": 11,
+      "avg_salary": 60096,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 16
+        },
+        {
+          "id": "python",
+          "count": 8
+        },
+        {
+          "id": "agent_architecture",
+          "count": 7
+        },
+        {
+          "id": "prompt_engineering",
+          "count": 5
+        },
+        {
+          "id": "sql",
+          "count": 5
+        },
+        {
+          "id": "generative_ai",
+          "count": 4
+        },
+        {
+          "id": "azure",
+          "count": 4
+        },
+        {
+          "id": "gcp",
+          "count": 4
+        }
+      ],
+      "sample_titles": [
+        "LLM AI Engineer (Healthcare/Life Science AI Direction)",
+        "Product Owner - Federal Health Systems",
+        "Data Scientist (Agentic AI)",
+        "仓储物流经理",
+        "AI Medical LLM Engineer (Python)",
+        "LLM Application Development Engineer (Biomedical Agent Direction)",
+        "Director of Engineering - AIDD Product Engineering",
+        "Python Backend Senior Developer (LLM, Pharma)",
+        "Associate Director Product-AI Platform",
+        "LLM算法实习生（医疗大模型方向）"
+      ],
+      "unique_companies": 25
+    },
+    "automotive": {
+      "total": 19,
+      "domestic": 16,
+      "international": 3,
+      "avg_salary": 47016,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 4
+        },
+        {
+          "id": "python",
+          "count": 3
+        },
+        {
+          "id": "agent_architecture",
+          "count": 3
+        },
+        {
+          "id": "prompt_engineering",
+          "count": 2
+        },
+        {
+          "id": "machine_learning",
+          "count": 2
+        },
+        {
+          "id": "cpp",
+          "count": 2
+        },
+        {
+          "id": "aws",
+          "count": 2
+        },
+        {
+          "id": "distributed_systems",
+          "count": 2
+        }
+      ],
+      "sample_titles": [
+        "AI Agent平台研发工程师",
+        "机器人资深LLM工程师 Agent方向/VLA方向",
+        "Multimodal LLM Algorithm Engineer",
+        "AI Integration Engineer(AI集成工程师)",
+        "AI Product Manager (Agent)",
+        "AI助理工程师 / AI Associate Engineer",
+        "LLM Engineer",
+        "Software Engineer II",
+        "Machine Learning/Computer Vision Engineer",
+        "Agent Developer"
+      ],
+      "unique_companies": 18
+    },
+    "retail": {
+      "total": 18,
+      "domestic": 18,
+      "international": 0,
+      "avg_salary": 18666,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 2
+        },
+        {
+          "id": "agent_architecture",
+          "count": 1
+        },
+        {
+          "id": "rag",
+          "count": 1
+        },
+        {
+          "id": "function_calling",
+          "count": 1
+        },
+        {
+          "id": "prompt_engineering",
+          "count": 1
+        },
+        {
+          "id": "vector_database",
+          "count": 1
+        }
+      ],
+      "sample_titles": [
+        "AIGC设计师（服装方向）",
+        "AI Agent 产品经理",
+        "会计",
+        "Financial AI Quantitative Analyst",
+        "行政专员",
+        "行政经理/主管/办公室主任",
+        "AIGC Artist / Cross-border E-commerce Graphic Designer",
+        "办公室主任",
+        "行政前台接待",
+        "AI工程师"
+      ],
+      "unique_companies": 17
+    },
+    "media": {
+      "total": 14,
+      "domestic": 4,
+      "international": 10,
+      "avg_salary": 106622,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 6
+        },
+        {
+          "id": "tensorflow",
+          "count": 6
+        },
+        {
+          "id": "reinforcement_learning",
+          "count": 5
+        },
+        {
+          "id": "cpp",
+          "count": 5
+        },
+        {
+          "id": "machine_learning",
+          "count": 5
+        },
+        {
+          "id": "deep_learning",
+          "count": 4
+        },
+        {
+          "id": "java",
+          "count": 4
+        },
+        {
+          "id": "pytorch",
+          "count": 3
+        }
+      ],
+      "sample_titles": [
+        "Sr. MLE, Prime Video - Personalization and Discovery",
+        "Principal Machine Learning Engineer - Unpublished R&D Product",
+        "AI产品策划（LLM记忆与交互方向）",
+        "LLM Algorithm Engineer",
+        "AI Agent Engineer, Internal Operations",
+        "Sr. Applied Scientist, Prime Video - Personalization and Discovery Science",
+        "Machine Learning Engineer (L4/L5) - Emerging Game Technologies",
+        "AI应用架构师",
+        "Machine Learning Engineer II - Unpublished R&D Product",
+        "AI Agent全栈开发工程师"
+      ],
+      "unique_companies": 8
+    },
+    "other": {
+      "total": 13,
+      "domestic": 11,
+      "international": 2,
+      "avg_salary": 21741,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 2
+        },
+        {
+          "id": "prompt_engineering",
+          "count": 1
+        },
+        {
+          "id": "data_analysis",
+          "count": 1
+        },
+        {
+          "id": "agent_architecture",
+          "count": 1
+        },
+        {
+          "id": "java",
+          "count": 1
+        }
+      ],
+      "sample_titles": [
+        "AIT (AI Business Transformation) Senior Specialist/Supervisor",
+        "前台收银",
+        "AI全栈工程师 / AI Agent 架构师",
+        "Engineer – All Positions, OTB",
+        "Newgrad Engineering Role (Various)",
+        "Java工程师",
+        "Data Analyst - LLM agentic AI",
+        "AI工程师（Agent）",
+        "药店店长",
+        "AIT（AI业务改造）高级专员/主管"
+      ],
+      "unique_companies": 11
+    },
+    "education": {
+      "total": 7,
+      "domestic": 6,
+      "international": 1,
+      "avg_salary": 32166,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 4
+        },
+        {
+          "id": "machine_learning",
+          "count": 2
+        },
+        {
+          "id": "python",
+          "count": 2
+        },
+        {
+          "id": "agent_architecture",
+          "count": 1
+        },
+        {
+          "id": "generative_ai",
+          "count": 1
+        },
+        {
+          "id": "java",
+          "count": 1
+        },
+        {
+          "id": "tensorflow",
+          "count": 1
+        },
+        {
+          "id": "pytorch",
+          "count": 1
+        }
+      ],
+      "sample_titles": [
+        "AI Instructor – Artificial Intelligence & Generative AI",
+        "AI Agent Product Manager",
+        "LLM算法专家",
+        "LLM Algorithm Engineer",
+        "AI工程师",
+        "AI + 财经商业讲师"
+      ],
+      "unique_companies": 7
+    },
+    "energy": {
+      "total": 6,
+      "domestic": 3,
+      "international": 3,
+      "avg_salary": 49921,
+      "top_skills": [
+        {
+          "id": "agent_architecture",
+          "count": 3
+        },
+        {
+          "id": "data_analysis",
+          "count": 1
+        },
+        {
+          "id": "prompt_engineering",
+          "count": 1
+        },
+        {
+          "id": "function_calling",
+          "count": 1
+        },
+        {
+          "id": "python",
+          "count": 1
+        },
+        {
+          "id": "machine_learning",
+          "count": 1
+        },
+        {
+          "id": "deep_learning",
+          "count": 1
+        },
+        {
+          "id": "pytorch",
+          "count": 1
+        }
+      ],
+      "sample_titles": [
+        "AI Agent 工程师",
+        "Engineer (All Levels)",
+        "Junior Data Scientist – Energy AI & Optimization",
+        "AI Agent Application",
+        "Thermofluids Engineer",
+        "SHVS AI Agent & Backend Engineer"
+      ],
+      "unique_companies": 6
+    },
+    "telecom": {
+      "total": 5,
+      "domestic": 5,
+      "international": 0,
+      "avg_salary": 27613,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 4
+        },
+        {
+          "id": "react",
+          "count": 2
+        },
+        {
+          "id": "langchain",
+          "count": 1
+        },
+        {
+          "id": "llamaindex",
+          "count": 1
+        },
+        {
+          "id": "autogen",
+          "count": 1
+        },
+        {
+          "id": "function_calling",
+          "count": 1
+        },
+        {
+          "id": "rag",
+          "count": 1
+        },
+        {
+          "id": "multimodal_ai",
+          "count": 1
+        }
+      ],
+      "sample_titles": [
+        "高级前端开发工程师（Flutter / AI 智能体方向）",
+        "AI Agent Development Engineer",
+        "Senior AI LLM Engineer",
+        "AI LLM Engineer (Intern)",
+        "NLP LLM Algorithm Engineer"
+      ],
+      "unique_companies": 5
+    },
+    "government": {
+      "total": 3,
+      "domestic": 2,
+      "international": 1,
+      "avg_salary": 37500,
+      "top_skills": [
+        {
+          "id": "llm",
+          "count": 2
+        }
+      ],
+      "sample_titles": [
+        "工业软件产业发展 AI for Engineering专家（LLM方向）",
+        "LLM Engineer (Domestic Computing Power Experience)",
+        "Engineering"
+      ],
+      "unique_companies": 3
+    }
+  },
+  "top_skills_global": [
+    {
+      "name": "Large Language Models",
+      "id": "llm",
+      "total": 187,
+      "domestic": 135,
+      "international": 52
+    },
+    {
+      "name": "Python",
+      "id": "python",
+      "total": 128,
+      "domestic": 37,
+      "international": 91
+    },
+    {
+      "name": "Agent Architecture",
+      "id": "agent_architecture",
+      "total": 89,
+      "domestic": 60,
+      "international": 29
+    },
+    {
+      "name": "Java",
+      "id": "java",
+      "total": 61,
+      "domestic": 17,
+      "international": 44
+    },
+    {
+      "name": "Generative AI",
+      "id": "generative_ai",
+      "total": 53,
+      "domestic": 1,
+      "international": 52
+    },
+    {
+      "name": "SQL",
+      "id": "sql",
+      "total": 53,
+      "domestic": 13,
+      "international": 40
+    },
+    {
+      "name": "Prompt Engineering",
+      "id": "prompt_engineering",
+      "total": 47,
+      "domestic": 19,
+      "international": 28
+    },
+    {
+      "name": "AWS",
+      "id": "aws",
+      "total": 47,
+      "domestic": 2,
+      "international": 45
+    },
+    {
+      "name": "Azure",
+      "id": "azure",
+      "total": 44,
+      "domestic": 2,
+      "international": 42
+    },
+    {
+      "name": "Google Cloud",
+      "id": "gcp",
+      "total": 43,
+      "domestic": 2,
+      "international": 41
+    },
+    {
+      "name": "Retrieval-Augmented Generation",
+      "id": "rag",
+      "total": 43,
+      "domestic": 22,
+      "international": 21
+    },
+    {
+      "name": "Machine Learning",
+      "id": "machine_learning",
+      "total": 41,
+      "domestic": 7,
+      "international": 34
+    },
+    {
+      "name": "React",
+      "id": "react",
+      "total": 37,
+      "domestic": 8,
+      "international": 29
+    },
+    {
+      "name": "LangChain",
+      "id": "langchain",
+      "total": 34,
+      "domestic": 14,
+      "international": 20
+    },
+    {
+      "name": "Go",
+      "id": "golang",
+      "total": 34,
+      "domestic": 9,
+      "international": 25
+    },
+    {
+      "name": "Git",
+      "id": "git",
+      "total": 31,
+      "domestic": 3,
+      "international": 28
+    },
+    {
+      "name": "C#",
+      "id": "csharp",
+      "total": 27,
+      "domestic": 0,
+      "international": 27
+    },
+    {
+      "name": "Microservices",
+      "id": "microservices",
+      "total": 25,
+      "domestic": 4,
+      "international": 21
+    },
+    {
+      "name": "Node.js",
+      "id": "nodejs",
+      "total": 25,
+      "domestic": 3,
+      "international": 22
+    },
+    {
+      "name": "Vector Database",
+      "id": "vector_database",
+      "total": 24,
+      "domestic": 6,
+      "international": 18
+    },
+    {
+      "name": "CI/CD",
+      "id": "ci_cd",
+      "total": 24,
+      "domestic": 3,
+      "international": 21
+    },
+    {
+      "name": "C++",
+      "id": "cpp",
+      "total": 22,
+      "domestic": 4,
+      "international": 18
+    },
+    {
+      "name": "Data Analysis",
+      "id": "data_analysis",
+      "total": 21,
+      "domestic": 10,
+      "international": 11
+    },
+    {
+      "name": "Kubernetes",
+      "id": "kubernetes",
+      "total": 20,
+      "domestic": 6,
+      "international": 14
+    },
+    {
+      "name": "PyTorch",
+      "id": "pytorch",
+      "total": 20,
+      "domestic": 3,
+      "international": 17
+    }
+  ]
+}

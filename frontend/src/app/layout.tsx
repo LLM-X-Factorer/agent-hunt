@@ -21,6 +21,7 @@ export const metadata: Metadata = {
 
 const NAV_ITEMS = [
   { href: "/", label: "总览" },
+  { href: "/report", label: "洞察报告" },
   { href: "/skills", label: "技能图谱" },
   { href: "/salary", label: "薪资分析" },
   { href: "/gaps", label: "市场差异" },
