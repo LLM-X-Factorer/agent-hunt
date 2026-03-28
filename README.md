@@ -1,19 +1,21 @@
 # Agent Hunt
 
-> 用数据告诉你，AI Agent 工程师到底需要什么 — 国内外全平台覆盖，跨市场对比分析。
+> 用数据告诉你，AI 岗位到底需要什么 — 国内外全平台覆盖，跨市场 × 跨行业对比分析。
+
+**在线体验：https://agent-hunt.pages.dev**
 
 ## 这是什么
 
-Agent Hunt 采集国内外 10+ 主流招聘平台的 AI Agent 工程师 JD，通过 LLM 进行结构化解析，生成**技能图谱**、**跨市场对比**和**个性化学习路径**。
+Agent Hunt 采集国内外主流招聘平台的 AI 相关岗位 JD，通过 Gemini API 进行结构化解析（含行业分类），生成**技能图谱**、**跨市场对比**、**行业 AI 渗透分析**和**个性化学习路径**。
 
-不靠猜，靠数据。不看单一市场，看全球。
+不靠猜，靠数据。不看单一市场，看全球。不看单一行业，看全景。
 
 ## 为什么需要这个
 
-AI Agent 工程师是 2025-2026 年最火的岗位之一，但：
-- 国内和国际市场对这个岗位的定义差异巨大
-- 不同平台的 JD 质量参差不齐，信息分散
-- 求职者不知道该学什么，培训机构不知道该教什么
+AI 正在渗透每一个行业，但：
+- 国内和国际市场对 AI 岗位的定义差异巨大
+- 传统行业（金融、医疗、制造、汽车）的 AI 交叉岗位正在快速增长，但信息分散
+- 求职者不知道该学什么，不知道哪个行业的 AI 机会最大
 
 Agent Hunt 解决的问题：**用真实 JD 数据，消除信息差**。
 
@@ -56,7 +58,7 @@ Agent Hunt 解决的问题：**用真实 JD 数据，消除信息差**。
 | 层 | 技术 |
 |---|---|
 | 后端 | Python 3.11 · FastAPI · SQLAlchemy 2.0 (async) · Celery |
-| 前端 | Next.js 14 · Tailwind · shadcn/ui · Recharts |
+| 前端 | Next.js 16 · Tailwind · shadcn/ui · Recharts · Cloudflare Pages |
 | AI | Gemini API (gemini-2.5-flash) · pgvector · 多语言技能归一化 |
 | 数据采集 | Playwright · Chrome Extension · 策略模式 + 注册表模式 |
 | 基础设施 | PostgreSQL 16 · Redis 7 · Docker Compose |
@@ -87,10 +89,11 @@ agent-hunt/
 ├── extension/                  # Chrome 浏览器插件（占位，待实现）
 │   ├── content_scripts/        # 各平台 JD 提取脚本
 │   └── popup/                  # 插件弹窗 UI
-├── data/                       # 种子数据
+├── data/                       # 种子数据 + 配置
 │   ├── seed_platforms.json     # 10 个平台元数据
-│   ├── seed_skills.json        # 50 个核心 AI 技能（中英双语别名）
-│   └── skill_aliases.json      # 技能同义词映射表（100+ 条）
+│   ├── seed_skills.json        # 62 个 AI 技能（中英双语别名）
+│   ├── skill_aliases.json      # 技能同义词映射表（180+ 条）
+│   └── search_keywords.json    # 跨行业采集关键词矩阵（50+ 关键词）
 ├── docs/
 │   └── domestic-scraping-strategy.md  # 国内平台爬虫技术方案
 ├── docker-compose.yml          # PostgreSQL 16 (pgvector) + Redis 7
@@ -112,19 +115,20 @@ git clone <repo-url>
 cd agent-hunt
 
 # 1. 启动基础设施
-cp .env.example .env
-# 编辑 .env 填入你的 Gemini API Key
+cp .env.example .env          # 填入 Gemini API Key
 docker compose up -d
 
 # 2. 安装后端依赖
-cd backend
-pip install -e ".[dev]"
+cd backend && uv venv --python 3.11 .venv && uv pip install -e ".[dev]"
 
 # 3. 运行数据库迁移
-alembic upgrade head
+.venv/bin/alembic upgrade head
 
 # 4. 启动后端（自动加载种子平台和技能数据）
-uvicorn app.main:app --reload
+.venv/bin/uvicorn app.main:app --reload
+
+# 5. 前端（可选，已部署到 Cloudflare Pages）
+cd ../frontend && npm install && npm run dev
 ```
 
 启动后访问 http://localhost:8000/docs 查看 Swagger API 文档。
@@ -157,6 +161,8 @@ GET  /api/v1/analysis/cross-market/overview   — 国内 vs 国际总览
 GET  /api/v1/analysis/cross-market/skills     — 各市场 Top 技能
 GET  /api/v1/analysis/cross-market/skill-gaps — 技能需求差异排名
 GET  /api/v1/analysis/cooccurrence            — 技能共现分析
+GET  /api/v1/analysis/industry/overview       — 行业 AI 渗透总览
+GET  /api/v1/analysis/industry/salary         — 各行业 AI 岗位薪资
 
 # Platforms
 GET  /api/v1/platforms                    — 平台列表
@@ -204,16 +210,17 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 ## 项目状态
 
-积极开发中 — Phase 3 前端已上线，正在功能增强
+积极开发中 — v0.4 已上线，行业维度扩展完成
 
 **在线体验：https://agent-hunt.pages.dev**
 
 | Phase | 内容 | 状态 |
 |---|---|---|
-| 1 | 数据采集管道 + 国际/国内平台采集器 | **已完成** ✅ |
-| 2 | 跨市场分析引擎（技能归一化、薪资对标、差异分析） | **已完成** ✅ |
-| 3 | 前端 + 数据可视化 + AI 洞察 + 岗位画像 | **已完成** ✅ |
-| 4 | 持续增强（aliases 扩展、数据扩充、Chrome 扩展） | 进行中 |
+| 1 | 数据采集管道 + 5 平台采集器（LinkedIn/Indeed/猎聘/Boss直聘/拉勾） | **已完成** ✅ |
+| 2 | 跨市场分析引擎（技能归一化、薪资分析、技能共现） | **已完成** ✅ |
+| 3 | 前端 7 页 + AI 洞察 + 岗位画像 + 学习路径 | **已完成** ✅ |
+| 4 | 行业维度扩展（12 行业分类 + 关键词矩阵 + 行业分析页面） | **已完成** ✅ |
+| 5 | 持续增强（aliases 扩展、数据扩充、Chrome 扩展、用户系统） | 待开始 |
 
 ### Phase 1 完成总结
 
@@ -237,12 +244,12 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 - [x] Boss直聘 Playwright 采集器（Cookie + 薪资字体解密）
 - [x] 拉勾 Playwright 采集器（Cookie + 滑块验证绕过）
 - [x] Cookie 导出工具（`scripts/export_cookies.py`）
-- [x] 全部 334 条 JD 已 Gemini 结构化解析（0 失败）
+- [x] 全部 JD 已 Gemini 结构化解析（含行业分类）
 
 ### Phase 2 完成总结
 
 **技能归一化 ✅**
-- [x] SkillExtractor（`skill_aliases.json` 100+ 条映射 → 43 个标准技能）
+- [x] SkillExtractor（`skill_aliases.json` 180+ 条映射 → 67 个标准技能）
 - [x] 归一化端点 `POST /skills/normalize` + 未匹配技能查看 `GET /skills/unmatched`
 
 **薪资分析 ✅**
@@ -268,6 +275,17 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 - [x] 3 个岗位画像（国内/国际/远程）
 - [x] 4 条学习路径推荐（Python 转型、前端转型、应届生、出海）
 - [x] 静态数据生成脚本（`scripts/generate_insights.py`）
+
+### Phase 4 完成总结
+
+**行业维度扩展 ✅**
+- [x] Job 模型新增 `industry` 字段 + Alembic 迁移 002
+- [x] Gemini 解析自动识别 12 个行业（互联网/金融/医疗/制造/汽车/零售/教育/媒体/咨询/能源/通信/政府）
+- [x] 499 条 JD 重新解析并标注行业
+- [x] 行业分析 API 端点（`/analysis/industry/overview`、`/analysis/industry/salary`）
+- [x] 前端行业分析页面（行业岗位分布图 + 薪资对比 + 行业卡片）
+- [x] 跨行业采集关键词矩阵（`data/search_keywords.json`，50+ 关键词 × 10 分类）
+- [x] 批量采集脚本（`scripts/batch_collect.py`）
 
 ## Contributing
 

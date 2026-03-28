@@ -1,7 +1,7 @@
 # Agent Hunt — Development Guide
 
 ## Project Overview
-AI Agent 工程师岗位数据分析平台。采集国内外招聘平台 JD，通过 Gemini API 解析，生成技能图谱和跨市场对比。
+AI 职业市场全景分析平台。采集国内外招聘平台 JD，通过 Gemini API 解析（含行业分类），生成技能图谱、跨市场对比、行业 AI 渗透分析和个性化学习路径。
 
 ## Quick Start
 ```bash
@@ -31,10 +31,13 @@ backend/
     config.py        # pydantic-settings, env prefix: AH_
     database.py      # Async engine + session factory
     main.py          # FastAPI app with lifespan (auto seeds on startup)
-  alembic/           # DB migrations
+  alembic/           # DB migrations (001_initial + 002_add_industry)
+  scripts/           # Utility scripts (export_cookies, generate_insights, batch_collect)
   tests/
-data/                # Seed data (platforms, skills, aliases)
-extension/           # Chrome extension (placeholder)
+frontend/            # Next.js 16 + Tailwind + shadcn/ui + Recharts
+  src/app/           # Pages (dashboard, skills, salary, gaps, industry, insights)
+  public/data/       # Pre-exported static JSON data
+data/                # Seed data (platforms, skills, aliases, search_keywords)
 docs/                # Technical docs
 ```
 
@@ -55,10 +58,12 @@ docs/                # Technical docs
 - **Analysis**: Python in-memory aggregation (data < 1000 rows, no need for complex SQL)
   - Skill normalization: `skill_aliases.json` lookup, updates Skill.domestic/international_count
   - Must `POST /skills/normalize` after new data before analysis endpoints are accurate
+  - Industry analysis: `/analysis/industry/overview`, `/analysis/industry/salary`
+- **Batch collection**: `data/search_keywords.json` defines keyword matrix, `scripts/batch_collect.py` automates
 
 ## Database Models
 - **platforms** — 招聘平台元数据 (id is string slug like "boss-zhipin")
-- **jobs** — JD 原始文本 + LLM 解析后结构化字段
+- **jobs** — JD 原始文本 + LLM 解析后结构化字段（含 `industry` 行业分类）
 - **skills** — 技能分类，JSONB aliases 支持多语言别名
 
 ## Code Style
@@ -69,9 +74,13 @@ docs/                # Technical docs
 - Next.js 16 + Tailwind + shadcn/ui + Recharts
 - 静态导出 (`output: "export"`) 部署到 Cloudflare Pages
 - 无后端依赖：所有数据预导出为 `frontend/public/data/*.json`
-- 数据更新流程：`python scripts/generate_insights.py` → `npm run build` → `wrangler pages deploy out`
+- 数据更新流程：
+  1. 后端导出 API 数据到 `frontend/public/data/`
+  2. `python scripts/generate_insights.py` 生成 AI 洞察
+  3. `cd frontend && npm run build`
+  4. `npx wrangler pages deploy out --project-name agent-hunt`
 - Gemini 生成的 AI 洞察（InsightCard 组件）放在每个页面顶部
-- 5 个页面：总览、技能图谱、薪资分析、市场差异、岗位画像（含学习路径）
+- 7 个页面：总览、技能图谱、薪资分析、市场差异、行业分析、岗位画像（含学习路径）
 
 ## Current Status
-Phase 1-3 完成。5 平台采集器，522 条 JD，67 个技能。前端已部署到 Cloudflare Pages（agent-hunt.pages.dev），含 AI 洞察、JD 样本、岗位画像、学习路径。
+Phase 1-3 完成 + 行业维度扩展。5 平台采集器，521 条 JD（499 已解析含行业标签），67 个技能，12 个行业。前端 7 个页面已部署到 agent-hunt.pages.dev。
