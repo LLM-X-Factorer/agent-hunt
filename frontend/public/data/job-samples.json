@@ -213,63 +213,6 @@
       }
     ]
   },
-  "java": {
-    "skill_name": "Java",
-    "jobs": [
-      {
-        "title": "AI Agent平台研发工程师",
-        "company": "上汽云计算中心",
-        "location": "上海-杨浦区",
-        "market": "国内",
-        "salary": "¥30k-60k/月",
-        "skills": [
-          "AI Agent platform development",
-          "Agent application development",
-          "Data Structures",
-          "Algorithms",
-          "Computer Networks",
-          "Operating Systems",
-          "Coding best practices",
-          "Dify"
-        ],
-        "snippet": "AI Agent平台研发工程师【上海-杨浦区】30-60k2-4年硕士上汽云计算中心整车制造战略融资100-499人荣女士·人力资源伙伴(HRBP)当前在线\n\n职位介绍\n                一、基础要求\n1，学历：硕士及以上学历，计算机科学与技术、软件工程、人工智能、电子信息工程等相关专业，硕士及以上学历优先。\n2，经验：2-4年AI相关研发工作经验，必须具备AI Agent平台框架研发或Agent应用开发经验；有大模型应用开发、智能平台研发经验者优先，有行业场景Agent应用落地经验者加分。\n3，基础能力：具备扎实的计算机基础知识，精通数据结构、算法、计算机网络、操作系统，具备良"
-      },
-      {
-        "title": "AI Agent Application Engineer",
-        "company": "合滨智能医疗器械",
-        "location": "合肥",
-        "market": "国内",
-        "salary": "¥15k-30k/月",
-        "skills": [
-          "Java",
-          "Python",
-          "Database Design",
-          "PostgreSQL",
-          "MySQL",
-          "Redis",
-          "MongoDB",
-          "RESTful API"
-        ],
-        "snippet": "ai agent应用工程师【合肥】15-30k·13薪经验不限本科合滨智能医疗器械A轮50-99人施女士·hr当前在线\n\n职位介绍\n                【岗位职责】\n1.负责AI Agent核心业务的全流程开发：参与平台从架构设计、工程实现到部署上线的全链路工作，确保系统的敏捷迭代与稳定运行。\n2.主导AI能力的工程化落地：将RAG（检索增强生成）、Prompt工程、向量化技术与实际业务场景结合，打通大模型与外部工具、企业数据的调用链路。\n3.探索AI驱动的开发范式：在开发过程中，率先实践并沉淀AI编程的最佳方案，利用AI工具完成代码生成、重构、测试及文档编写，提升团队整体效能。\n"
-      },
-      {
-        "title": "ML Engineer",
-        "company": "Microsoft",
-        "location": "USA",
-        "market": "国际",
-        "salary": "¥60k-130k/月",
-        "skills": [
-          "C",
-          "C++",
-          "C#",
-          "Java",
-          "JavaScript",
-          "Python"
-        ],
-        "snippet": "title: ML Engineer\ncompany: Microsoft\njob_type: fulltime\n\n**Overview**\n You’ll help build core generative AI and multimodal capabilities that power customer\\-facing AI services at global scale. In this role, you’ll combine software engineering with applied ML expertise to design, ship, and operate p"
-      }
-    ]
-  },
   "generative_ai": {
     "skill_name": "Generative AI",
     "jobs": [
@@ -386,6 +329,63 @@
       }
     ]
   },
+  "java": {
+    "skill_name": "Java",
+    "jobs": [
+      {
+        "title": "AI Agent平台研发工程师",
+        "company": "上汽云计算中心",
+        "location": "上海-杨浦区",
+        "market": "国内",
+        "salary": "¥30k-60k/月",
+        "skills": [
+          "AI Agent platform development",
+          "Agent application development",
+          "Data Structures",
+          "Algorithms",
+          "Computer Networks",
+          "Operating Systems",
+          "Coding best practices",
+          "Dify"
+        ],
+        "snippet": "AI Agent平台研发工程师【上海-杨浦区】30-60k2-4年硕士上汽云计算中心整车制造战略融资100-499人荣女士·人力资源伙伴(HRBP)当前在线\n\n职位介绍\n                一、基础要求\n1，学历：硕士及以上学历，计算机科学与技术、软件工程、人工智能、电子信息工程等相关专业，硕士及以上学历优先。\n2，经验：2-4年AI相关研发工作经验，必须具备AI Agent平台框架研发或Agent应用开发经验；有大模型应用开发、智能平台研发经验者优先，有行业场景Agent应用落地经验者加分。\n3，基础能力：具备扎实的计算机基础知识，精通数据结构、算法、计算机网络、操作系统，具备良"
+      },
+      {
+        "title": "AI Agent Application Engineer",
+        "company": "合滨智能医疗器械",
+        "location": "合肥",
+        "market": "国内",
+        "salary": "¥15k-30k/月",
+        "skills": [
+          "Java",
+          "Python",
+          "Database Design",
+          "PostgreSQL",
+          "MySQL",
+          "Redis",
+          "MongoDB",
+          "RESTful API"
+        ],
+        "snippet": "ai agent应用工程师【合肥】15-30k·13薪经验不限本科合滨智能医疗器械A轮50-99人施女士·hr当前在线\n\n职位介绍\n                【岗位职责】\n1.负责AI Agent核心业务的全流程开发：参与平台从架构设计、工程实现到部署上线的全链路工作，确保系统的敏捷迭代与稳定运行。\n2.主导AI能力的工程化落地：将RAG（检索增强生成）、Prompt工程、向量化技术与实际业务场景结合，打通大模型与外部工具、企业数据的调用链路。\n3.探索AI驱动的开发范式：在开发过程中，率先实践并沉淀AI编程的最佳方案，利用AI工具完成代码生成、重构、测试及文档编写，提升团队整体效能。\n"
+      },
+      {
+        "title": "ML Engineer",
+        "company": "Microsoft",
+        "location": "USA",
+        "market": "国际",
+        "salary": "¥60k-130k/月",
+        "skills": [
+          "C",
+          "C++",
+          "C#",
+          "Java",
+          "JavaScript",
+          "Python"
+        ],
+        "snippet": "title: ML Engineer\ncompany: Microsoft\njob_type: fulltime\n\n**Overview**\n You’ll help build core generative AI and multimodal capabilities that power customer\\-facing AI services at global scale. In this role, you’ll combine software engineering with applied ML expertise to design, ship, and operate p"
+      }
+    ]
+  },
   "machine_learning": {
     "skill_name": "Machine Learning",
     "jobs": [
@@ -443,6 +443,60 @@
       }
     ]
   },
+  "data_analysis": {
+    "skill_name": "Data Analysis",
+    "jobs": [
+      {
+        "title": "AI Agent 产品经理",
+        "company": "阿里云智能",
+        "location": "杭州",
+        "market": "国内",
+        "salary": "¥30k-60k/月",
+        "skills": [
+          "AI Product Design",
+          "User Experience Design",
+          "Agent Scenario Evaluation",
+          "LLM Evaluation",
+          "Model Selection",
+          "Data-driven Product Management",
+          "Data Analysis",
+          "Collaboration"
+        ],
+        "snippet": "阿里云智能-AI Agent 产品经理-杭州【杭州-西湖区】30-60k·16薪3-10年统招本科阿里云IT服务融资未公开10000人以上吴女士·Hr当前在线\n\n职位介绍\n                职位描述\n我们正在打造面向下一代开发者与知识工作者的 AI 原生产品，覆盖 Vibe Coding（AI 驱动的自然语言编程）与 AI 协同办公两大场景。\n\n将负责\n● AI产品设计：从用户视角出发，主导 AI Coding 产品的体验设计与持续优化，推动需求从洞察到上线的全流程闭环\n● Agent 场景评测与梳理：与研发团队深度协作，梳理 Agent 相关应用场景，拆解 AI 对话流程中的关"
+      },
+      {
+        "title": "Data Analyst - LLM agentic AI",
+        "company": "深圳市万邑通信息科技有限公司",
+        "location": "深圳-宝安区",
+        "market": "国内",
+        "salary": "¥25k-50k/月",
+        "skills": [
+          "Data Analysis",
+          "LLM",
+          "Agentic AI"
+        ],
+        "snippet": "Data Analyst - LLM agentic AI【深圳-宝安区】25-50k5-10年本科深圳市万邑通信息科技有限公司货运/物流/仓储不需要融资100-499人曹先生·招聘负责人49分钟前在线"
+      },
+      {
+        "title": "Data Acquisition Engineer",
+        "company": "ABAKA AI",
+        "location": "Silicon Valley, USA",
+        "market": "国际",
+        "salary": "¥66k-96k/月",
+        "skills": [
+          "Engineering",
+          "Data Analysis",
+          "Scripting",
+          "Automation",
+          "System Design",
+          "Project Management",
+          "Tool Development",
+          "Pipeline Development"
+        ],
+        "snippet": "title: Data Acquisition Engineer\ncompany: ABAKA AI\nsalary: 110000 - 160000 / yearly\n\n**About Abaka AI**\nAbaka AI is built on one mission: to be the world's most trusted data partner for AI companies. More than 1,000 industry leaders across Generative AI, Embodied AI, and Automotive AI rely on us to "
+      }
+    ]
+  },
   "aws": {
     "skill_name": "AWS",
     "jobs": [
@@ -496,60 +550,6 @@
           "Problem Solving"
         ],
         "snippet": "title: Senior Machine Learning Scientist, Payments\ncompany: Expedia Group\njob_type: fulltime\nsalary: 173000 - 299000 / yearly\n\nExpedia Group brands power global travel for everyone, everywhere. We design cutting\\-edge tech to make travel smoother and more memorable, and we create groundbreaking solu"
-      }
-    ]
-  },
-  "data_analysis": {
-    "skill_name": "Data Analysis",
-    "jobs": [
-      {
-        "title": "AI Agent 产品经理",
-        "company": "阿里云智能",
-        "location": "杭州",
-        "market": "国内",
-        "salary": "¥30k-60k/月",
-        "skills": [
-          "AI Product Design",
-          "User Experience Design",
-          "Agent Scenario Evaluation",
-          "LLM Evaluation",
-          "Model Selection",
-          "Data-driven Product Management",
-          "Data Analysis",
-          "Collaboration"
-        ],
-        "snippet": "阿里云智能-AI Agent 产品经理-杭州【杭州-西湖区】30-60k·16薪3-10年统招本科阿里云IT服务融资未公开10000人以上吴女士·Hr当前在线\n\n职位介绍\n                职位描述\n我们正在打造面向下一代开发者与知识工作者的 AI 原生产品，覆盖 Vibe Coding（AI 驱动的自然语言编程）与 AI 协同办公两大场景。\n\n将负责\n● AI产品设计：从用户视角出发，主导 AI Coding 产品的体验设计与持续优化，推动需求从洞察到上线的全流程闭环\n● Agent 场景评测与梳理：与研发团队深度协作，梳理 Agent 相关应用场景，拆解 AI 对话流程中的关"
-      },
-      {
-        "title": "Data Analyst - LLM agentic AI",
-        "company": "深圳市万邑通信息科技有限公司",
-        "location": "深圳-宝安区",
-        "market": "国内",
-        "salary": "¥25k-50k/月",
-        "skills": [
-          "Data Analysis",
-          "LLM",
-          "Agentic AI"
-        ],
-        "snippet": "Data Analyst - LLM agentic AI【深圳-宝安区】25-50k5-10年本科深圳市万邑通信息科技有限公司货运/物流/仓储不需要融资100-499人曹先生·招聘负责人49分钟前在线"
-      },
-      {
-        "title": "Data Acquisition Engineer",
-        "company": "ABAKA AI",
-        "location": "Silicon Valley, USA",
-        "market": "国际",
-        "salary": "¥66k-96k/月",
-        "skills": [
-          "Engineering",
-          "Data Analysis",
-          "Scripting",
-          "Automation",
-          "System Design",
-          "Project Management",
-          "Tool Development",
-          "Pipeline Development"
-        ],
-        "snippet": "title: Data Acquisition Engineer\ncompany: ABAKA AI\nsalary: 110000 - 160000 / yearly\n\n**About Abaka AI**\nAbaka AI is built on one mission: to be the world's most trusted data partner for AI companies. More than 1,000 industry leaders across Generative AI, Embodied AI, and Automotive AI rely on us to "
       }
     ]
   },
@@ -724,67 +724,8 @@
       }
     ]
   },
-  "react": {
-    "skill_name": "React",
-    "jobs": [
-      {
-        "title": "AI Agent 应用开发工程师",
-        "company": "探迹科技",
-        "location": "广州-海珠区",
-        "market": "国内",
-        "salary": "¥20k-50k/月",
-        "skills": [
-          "Python",
-          "FastAPI",
-          "Transformer",
-          "GPT",
-          "Llama",
-          "LangChain",
-          "LlamaIndex",
-          "AutoGen"
-        ],
-        "snippet": "AI Agent 应用开发工程师【广州-海珠区】20-50k·14薪3-5年统招本科探迹科技互联网C轮2000-5000人何女士·HR2小时前在线\n\n职位介绍\n                【工作职责】\n1、Agent架构设计与开发: 负责AI Agent的核心架构设计,开发具备推理、规划、记忆和工具使用能力的智能体系统。\n2、LLM集成与应用: 深入研究并实践各类大型语言模型,基于业务需求进行模型选型、集成和性能优化,熟练运用检索增强生成(RAG)、ReAct等关键技术。\n3、工具与框架应用: 熟练运用LangChain、LlamaIndex、AutoGen等主流Agent开发框架,构建稳"
-      },
-      {
-        "title": "AI 团队 Leader - Agent 方向",
-        "company": "某知名公司",
-        "location": "武汉",
-        "market": "国内",
-        "salary": "¥53k-73k/月",
-        "skills": [
-          "Team Management",
-          "LLM",
-          "Python",
-          "FastAPI",
-          "Flask",
-          "PyTorch",
-          "Docker",
-          "Product Management"
-        ],
-        "snippet": "AI 团队 Leader - Agent 方向【武汉】40-55k·16薪5-10年统招本科某知名公司人力资源服务50-99人乔先生·猎头顾问23分钟前在线\n\n职位介绍\n                一、核心职责：\n1. 团队管理与人才建设\n•负责团队的日常管理、技术指导与人才培养，建立高效、自驱的技术团队文化。\n•制定团队的技术成长路径，通过 Code Review、技术分享等方式提升团队整体技术水平。\n2. 产品战略与全栈落地 (Product + Tech)\n•兼具产品经理视角：深度参与产品定义，不仅关注技术实现，更需关注商业价值。能将模糊的业务需求转化为清晰的 Agent 产品功能和"
-      },
-      {
-        "title": "Director of Engineering - AIDD Product Engineering",
-        "company": "Genentech",
-        "location": "California, USA",
-        "market": "国际",
-        "salary": "¥121k-225k/月",
-        "skills": [
-          "Full-stack Development",
-          "React",
-          "Angular",
-          "Team Leadership",
-          "Mentoring",
-          "Python",
-          "SQL",
-          "Serverless"
-        ],
-        "snippet": "title: Director of Engineering - AIDD Product Engineering\ncompany: Genentech\njob_type: fulltime\nsalary: 201200 - 373600 / yearly\n\nTHE POSITION\nA healthier future. It’s what drives us to innovate. To continuously advance science and ensure everyone has access to the healthcare they need today and for"
-      }
-    ]
-  },
-  "langchain": {
-    "skill_name": "LangChain",
+  "cpp": {
+    "skill_name": "C++",
     "jobs": [
       {
         "title": "AI Agent 应用工程师",
@@ -805,40 +746,94 @@
         "snippet": "AI Agent 应用工程师【北京】30-50k3-5年硕士某北京互联网上市公司互联网已上市1000-2000人盛先生·猎头顾问4分钟前在线\n\n职位介绍\n                岗位职责：\n1. 负责设计和开发基于 AI Agent 的智能系统，提升工具链的内部研发和外部客户支持效率；\n2. 开发地平线工具链定制化智能助手，辅助研发进行代码补全、缺陷定位、日志分析、自动化测试用例、API 手册生成，显著提升工具链的开发效率与质量；\n3. 构建智能支持 Agent，能够精准理解客户在工具使用中的问题（如模型转换失败、精度不达标、性能不达预期），提供即时诊断、步骤指导、知识推荐，并高效协同"
       },
       {
-        "title": "AI Agent Application Engineer",
-        "company": "合滨智能医疗器械",
-        "location": "合肥",
+        "title": "AI Engineer / FAE Engineer",
+        "company": "软通动力",
+        "location": "杭州",
         "market": "国内",
-        "salary": "¥15k-30k/月",
+        "salary": "¥10k-20k/月",
         "skills": [
-          "Java",
           "Python",
-          "Database Design",
-          "PostgreSQL",
-          "MySQL",
-          "Redis",
-          "MongoDB",
-          "RESTful API"
+          "C++",
+          "AI"
         ],
-        "snippet": "ai agent应用工程师【合肥】15-30k·13薪经验不限本科合滨智能医疗器械A轮50-99人施女士·hr当前在线\n\n职位介绍\n                【岗位职责】\n1.负责AI Agent核心业务的全流程开发：参与平台从架构设计、工程实现到部署上线的全链路工作，确保系统的敏捷迭代与稳定运行。\n2.主导AI能力的工程化落地：将RAG（检索增强生成）、Prompt工程、向量化技术与实际业务场景结合，打通大模型与外部工具、企业数据的调用链路。\n3.探索AI驱动的开发范式：在开发过程中，率先实践并沉淀AI编程的最佳方案，利用AI工具完成代码生成、重构、测试及文档编写，提升团队整体效能。\n"
+        "snippet": "人工智能/AI工程师/python/c++/FAE工程师（杭州/线上面试）【杭州-滨江区】10-20k1年以上统招本科软通动力互联网10000人以上黄女士·招聘顾问当前在线"
       },
       {
-        "title": "Associate Director Product-AI Platform",
-        "company": "Innovaccer",
-        "location": "San Francisco, CA",
+        "title": "Software Engineer",
+        "company": "Cisco",
+        "location": "Milpitas, CA",
         "market": "国际",
-        "salary": "面议",
+        "salary": "¥88k-167k/月",
         "skills": [
-          "Product Management",
-          "AI/ML Product Management",
-          "Intelligent Automation",
-          "B2B Healthcare",
-          "LLM",
-          "Prompt Engineering",
-          "RAG",
-          "Confidence Scoring"
+          "Linux",
+          "C",
+          "C++",
+          "Python",
+          "System Programming",
+          "Networking Protocols (L2/L3)",
+          "Switching",
+          "Routing"
         ],
-        "snippet": "title: Associate Director Product-AI Platform\ncompany: Innovaccer\n\n**About the Role**\n\n  \n\nWe are looking for an entrepreneurial product leader as an **Associate Director Product (AI Platform)** who can chart out and drive product strategy to scale out our abilities to reach and serve millions of us"
+        "snippet": "title: Software Engineer\ncompany: Cisco\njob_type: fulltime\nsalary: 146700 - 277600 / yearly\n\n**The application window is expected to close on:** 04/27/2026Job posting may be removed earlier if the position is filled or if a sufficient number of applications are received.\n  \n  \n\nThis is a Hybrid role"
+      }
+    ]
+  },
+  "pytorch": {
+    "skill_name": "PyTorch",
+    "jobs": [
+      {
+        "title": "AI工程师",
+        "company": "好老师教育科技有限公司",
+        "location": "重庆-南岸区",
+        "market": "国内",
+        "salary": "¥15k-20k/月",
+        "skills": [
+          "Python",
+          "Java",
+          "TensorFlow",
+          "PyTorch",
+          "LLM",
+          "Machine Learning",
+          "Deep Learning",
+          "Dify"
+        ],
+        "snippet": "AI工程师+周末双休+年终奖【重庆-南岸区】急聘15-20k2年以上硕士好老师教育科技有限公司培训服务融资未公开2000-5000人潘女士·招聘负责人22小时前在线广告\n\n职位介绍\n                职位详情：该岗位部门隶属于好老师教育集团合作的科技事业部，主要负责教育AI科技业务。\n\n工作职责：\n1、设计、开发和实现基于人工智能技术的教育培训产品和服务，包括但不限于在线学习平台、智能辅导系统、学习分析工具、学习内容推荐、学习过程监测、学习结果评估等；\n2、与教育专家合作，通过大模型等技术，优化现有的教育培训课程与内容生产方式，提高课程质量、用户体验与内容生产效率；\n3、负责产品"
+      },
+      {
+        "title": "AI 团队 Leader - Agent 方向",
+        "company": "某知名公司",
+        "location": "武汉",
+        "market": "国内",
+        "salary": "¥53k-73k/月",
+        "skills": [
+          "Team Management",
+          "LLM",
+          "Python",
+          "FastAPI",
+          "Flask",
+          "PyTorch",
+          "Docker",
+          "Product Management"
+        ],
+        "snippet": "AI 团队 Leader - Agent 方向【武汉】40-55k·16薪5-10年统招本科某知名公司人力资源服务50-99人乔先生·猎头顾问23分钟前在线\n\n职位介绍\n                一、核心职责：\n1. 团队管理与人才建设\n•负责团队的日常管理、技术指导与人才培养，建立高效、自驱的技术团队文化。\n•制定团队的技术成长路径，通过 Code Review、技术分享等方式提升团队整体技术水平。\n2. 产品战略与全栈落地 (Product + Tech)\n•兼具产品经理视角：深度参与产品定义，不仅关注技术实现，更需关注商业价值。能将模糊的业务需求转化为清晰的 Agent 产品功能和"
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "Focus Financial Partners",
+        "location": "St. Louis, MO, Boston, MA or New York, NY",
+        "market": "国际",
+        "salary": "¥84k-108k/月",
+        "skills": [
+          "Python",
+          "TensorFlow",
+          "PyTorch",
+          "scikit-learn",
+          "Pandas",
+          "Spark",
+          "Dask",
+          "Docker"
+        ],
+        "snippet": "title: Machine Learning Engineer\ncompany: Focus Financial Partners\njob_type: fulltime\n\n**Position Summary**\n We are seeking a skilled Machine Learning Engineer with approximately three years of hands\\-on experience designing, deploying, and maintaining production\\-grade machine learning systems. In "
       }
     ]
   }
