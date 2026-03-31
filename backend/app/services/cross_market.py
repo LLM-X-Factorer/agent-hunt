@@ -150,10 +150,13 @@ async def skill_gap_analysis(
     return [g for g in data["skill_gaps"] if g["domestic_count"] + g["international_count"] >= min_count]
 
 
-async def industry_overview(db: AsyncSession) -> list[dict]:
-    result = await db.execute(
-        select(Job).where(Job.parse_status == "parsed", Job.industry.isnot(None))
-    )
+async def industry_overview(
+    db: AsyncSession, market: str | None = None,
+) -> list[dict]:
+    query = select(Job).where(Job.parse_status == "parsed", Job.industry.isnot(None))
+    if market:
+        query = query.where(Job.market == market)
+    result = await db.execute(query)
     jobs = result.scalars().all()
 
     by_industry: dict[str, list] = defaultdict(list)

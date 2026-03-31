@@ -98,8 +98,11 @@ async def cooccurrence(
 
 
 @router.get("/industry/overview", response_model=list[IndustrySummary])
-async def industry_overview_endpoint(db: AsyncSession = Depends(get_db)):
-    return await industry_overview(db)
+async def industry_overview_endpoint(
+    market: str | None = None,
+    db: AsyncSession = Depends(get_db),
+):
+    return await industry_overview(db, market)
 
 
 @router.get("/industry/salary", response_model=list[IndustrySalary])

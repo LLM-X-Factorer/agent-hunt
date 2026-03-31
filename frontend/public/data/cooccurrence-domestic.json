@@ -1,0 +1,245 @@
+{
+  "top_pairs": [
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "llm",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 38,
+      "jaccard_index": 0.447
+    },
+    {
+      "skill_a": "llm",
+      "skill_b": "python",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 22,
+      "jaccard_index": 0.239
+    },
+    {
+      "skill_a": "llm",
+      "skill_b": "rag",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Retrieval-Augmented Generation",
+      "cooccurrence_count": 18,
+      "jaccard_index": 0.217
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "python",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 15,
+      "jaccard_index": 0.234
+    },
+    {
+      "skill_a": "langchain",
+      "skill_b": "python",
+      "skill_a_name": "LangChain",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 13,
+      "jaccard_index": 0.361
+    },
+    {
+      "skill_a": "java",
+      "skill_b": "python",
+      "skill_a_name": "Java",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 12,
+      "jaccard_index": 0.316
+    },
+    {
+      "skill_a": "java",
+      "skill_b": "llm",
+      "skill_a_name": "Java",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 12,
+      "jaccard_index": 0.146
+    },
+    {
+      "skill_a": "python",
+      "skill_b": "rag",
+      "skill_a_name": "Python",
+      "skill_b_name": "Retrieval-Augmented Generation",
+      "cooccurrence_count": 12,
+      "jaccard_index": 0.267
+    },
+    {
+      "skill_a": "python",
+      "skill_b": "sql",
+      "skill_a_name": "Python",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 12,
+      "jaccard_index": 0.316
+    },
+    {
+      "skill_a": "langchain",
+      "skill_b": "llm",
+      "skill_a_name": "LangChain",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.134
+    },
+    {
+      "skill_a": "prompt_engineering",
+      "skill_b": "python",
+      "skill_a_name": "Prompt Engineering",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.256
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "rag",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "Retrieval-Augmented Generation",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.2
+    },
+    {
+      "skill_a": "llm",
+      "skill_b": "multimodal_ai",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Multimodal AI",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.139
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "langchain",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "LangChain",
+      "cooccurrence_count": 10,
+      "jaccard_index": 0.208
+    },
+    {
+      "skill_a": "autogen",
+      "skill_b": "langchain",
+      "skill_a_name": "AutoGen",
+      "skill_b_name": "LangChain",
+      "cooccurrence_count": 10,
+      "jaccard_index": 0.714
+    },
+    {
+      "skill_a": "autogen",
+      "skill_b": "python",
+      "skill_a_name": "AutoGen",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 10,
+      "jaccard_index": 0.286
+    },
+    {
+      "skill_a": "langchain",
+      "skill_b": "rag",
+      "skill_a_name": "LangChain",
+      "skill_b_name": "Retrieval-Augmented Generation",
+      "cooccurrence_count": 10,
+      "jaccard_index": 0.385
+    },
+    {
+      "skill_a": "llm",
+      "skill_b": "prompt_engineering",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Prompt Engineering",
+      "cooccurrence_count": 10,
+      "jaccard_index": 0.114
+    },
+    {
+      "skill_a": "prompt_engineering",
+      "skill_b": "rag",
+      "skill_a_name": "Prompt Engineering",
+      "skill_b_name": "Retrieval-Augmented Generation",
+      "cooccurrence_count": 10,
+      "jaccard_index": 0.323
+    },
+    {
+      "skill_a": "autogen",
+      "skill_b": "llm",
+      "skill_a_name": "AutoGen",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 8,
+      "jaccard_index": 0.099
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "prompt_engineering",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "Prompt Engineering",
+      "cooccurrence_count": 8,
+      "jaccard_index": 0.145
+    },
+    {
+      "skill_a": "data_analysis",
+      "skill_b": "llm",
+      "skill_a_name": "Data Analysis",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 8,
+      "jaccard_index": 0.095
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "autogen",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "AutoGen",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.149
+    },
+    {
+      "skill_a": "golang",
+      "skill_b": "python",
+      "skill_a_name": "Go",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.189
+    },
+    {
+      "skill_a": "prompt_engineering",
+      "skill_b": "sql",
+      "skill_a_name": "Prompt Engineering",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.259
+    },
+    {
+      "skill_a": "python",
+      "skill_b": "react",
+      "skill_a_name": "Python",
+      "skill_b_name": "React",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.194
+    },
+    {
+      "skill_a": "rag",
+      "skill_b": "react",
+      "skill_a_name": "Retrieval-Augmented Generation",
+      "skill_b_name": "React",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.304
+    },
+    {
+      "skill_a": "function_calling",
+      "skill_b": "llm",
+      "skill_a_name": "Function Calling",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.086
+    },
+    {
+      "skill_a": "data_analysis",
+      "skill_b": "sql",
+      "skill_a_name": "Data Analysis",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.333
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "sql",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 7,
+      "jaccard_index": 0.135
+    }
+  ],
+  "total_jobs_analyzed": 102
+}

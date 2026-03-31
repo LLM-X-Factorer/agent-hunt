@@ -1,0 +1,245 @@
+{
+  "top_pairs": [
+    {
+      "skill_a": "python",
+      "skill_b": "sql",
+      "skill_a_name": "Python",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 64,
+      "jaccard_index": 0.35
+    },
+    {
+      "skill_a": "llm",
+      "skill_b": "python",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 62,
+      "jaccard_index": 0.313
+    },
+    {
+      "skill_a": "java",
+      "skill_b": "python",
+      "skill_a_name": "Java",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 59,
+      "jaccard_index": 0.353
+    },
+    {
+      "skill_a": "machine_learning",
+      "skill_b": "python",
+      "skill_a_name": "Machine Learning",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 54,
+      "jaccard_index": 0.287
+    },
+    {
+      "skill_a": "azure",
+      "skill_b": "gcp",
+      "skill_a_name": "Azure",
+      "skill_b_name": "Google Cloud",
+      "cooccurrence_count": 54,
+      "jaccard_index": 0.885
+    },
+    {
+      "skill_a": "aws",
+      "skill_b": "azure",
+      "skill_a_name": "AWS",
+      "skill_b_name": "Azure",
+      "cooccurrence_count": 53,
+      "jaccard_index": 0.662
+    },
+    {
+      "skill_a": "aws",
+      "skill_b": "gcp",
+      "skill_a_name": "AWS",
+      "skill_b_name": "Google Cloud",
+      "cooccurrence_count": 53,
+      "jaccard_index": 0.671
+    },
+    {
+      "skill_a": "aws",
+      "skill_b": "python",
+      "skill_a_name": "AWS",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 52,
+      "jaccard_index": 0.277
+    },
+    {
+      "skill_a": "azure",
+      "skill_b": "python",
+      "skill_a_name": "Azure",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 46,
+      "jaccard_index": 0.26
+    },
+    {
+      "skill_a": "gcp",
+      "skill_b": "python",
+      "skill_a_name": "Google Cloud",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 44,
+      "jaccard_index": 0.247
+    },
+    {
+      "skill_a": "generative_ai",
+      "skill_b": "python",
+      "skill_a_name": "Generative AI",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 42,
+      "jaccard_index": 0.215
+    },
+    {
+      "skill_a": "python",
+      "skill_b": "pytorch",
+      "skill_a_name": "Python",
+      "skill_b_name": "PyTorch",
+      "cooccurrence_count": 40,
+      "jaccard_index": 0.235
+    },
+    {
+      "skill_a": "cpp",
+      "skill_b": "python",
+      "skill_a_name": "C++",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 39,
+      "jaccard_index": 0.234
+    },
+    {
+      "skill_a": "csharp",
+      "skill_b": "python",
+      "skill_a_name": "C#",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 36,
+      "jaccard_index": 0.218
+    },
+    {
+      "skill_a": "git",
+      "skill_b": "python",
+      "skill_a_name": "Git",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 34,
+      "jaccard_index": 0.205
+    },
+    {
+      "skill_a": "aws",
+      "skill_b": "sql",
+      "skill_a_name": "AWS",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 34,
+      "jaccard_index": 0.276
+    },
+    {
+      "skill_a": "csharp",
+      "skill_b": "java",
+      "skill_a_name": "C#",
+      "skill_b_name": "Java",
+      "cooccurrence_count": 33,
+      "jaccard_index": 0.516
+    },
+    {
+      "skill_a": "aws",
+      "skill_b": "generative_ai",
+      "skill_a_name": "AWS",
+      "skill_b_name": "Generative AI",
+      "cooccurrence_count": 33,
+      "jaccard_index": 0.289
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "prompt_engineering",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "Prompt Engineering",
+      "cooccurrence_count": 29,
+      "jaccard_index": 0.337
+    },
+    {
+      "skill_a": "aws",
+      "skill_b": "llm",
+      "skill_a_name": "AWS",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 29,
+      "jaccard_index": 0.206
+    },
+    {
+      "skill_a": "azure",
+      "skill_b": "sql",
+      "skill_a_name": "Azure",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 29,
+      "jaccard_index": 0.261
+    },
+    {
+      "skill_a": "gcp",
+      "skill_b": "sql",
+      "skill_a_name": "Google Cloud",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 29,
+      "jaccard_index": 0.264
+    },
+    {
+      "skill_a": "aws",
+      "skill_b": "react",
+      "skill_a_name": "AWS",
+      "skill_b_name": "React",
+      "cooccurrence_count": 29,
+      "jaccard_index": 0.341
+    },
+    {
+      "skill_a": "llm",
+      "skill_b": "machine_learning",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Machine Learning",
+      "cooccurrence_count": 28,
+      "jaccard_index": 0.194
+    },
+    {
+      "skill_a": "python",
+      "skill_b": "react",
+      "skill_a_name": "Python",
+      "skill_b_name": "React",
+      "cooccurrence_count": 28,
+      "jaccard_index": 0.159
+    },
+    {
+      "skill_a": "python",
+      "skill_b": "tensorflow",
+      "skill_a_name": "Python",
+      "skill_b_name": "TensorFlow",
+      "cooccurrence_count": 28,
+      "jaccard_index": 0.167
+    },
+    {
+      "skill_a": "pytorch",
+      "skill_b": "tensorflow",
+      "skill_a_name": "PyTorch",
+      "skill_b_name": "TensorFlow",
+      "cooccurrence_count": 28,
+      "jaccard_index": 0.583
+    },
+    {
+      "skill_a": "git",
+      "skill_b": "sql",
+      "skill_a_name": "Git",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 28,
+      "jaccard_index": 0.315
+    },
+    {
+      "skill_a": "nodejs",
+      "skill_b": "react",
+      "skill_a_name": "Node.js",
+      "skill_b_name": "React",
+      "cooccurrence_count": 28,
+      "jaccard_index": 0.683
+    },
+    {
+      "skill_a": "react",
+      "skill_b": "sql",
+      "skill_a_name": "React",
+      "skill_b_name": "SQL",
+      "cooccurrence_count": 27,
+      "jaccard_index": 0.287
+    }
+  ],
+  "total_jobs_analyzed": 278
+}

@@ -1,0 +1,355 @@
+[
+  {
+    "industry": "internet",
+    "job_count": 530,
+    "domestic_count": 530,
+    "international_count": 0,
+    "avg_salary": 39888,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 106
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 55
+      },
+      {
+        "skill_id": "python",
+        "count": 22
+      },
+      {
+        "skill_id": "rag",
+        "count": 14
+      },
+      {
+        "skill_id": "langchain",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "industry": "manufacturing",
+    "job_count": 214,
+    "domestic_count": 214,
+    "international_count": 0,
+    "avg_salary": 41739,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 23
+      },
+      {
+        "skill_id": "computer_vision",
+        "count": 3
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 2
+      },
+      {
+        "skill_id": "python",
+        "count": 2
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "industry": "finance",
+    "job_count": 157,
+    "domestic_count": 157,
+    "international_count": 0,
+    "avg_salary": 43385,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 19
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 6
+      },
+      {
+        "skill_id": "python",
+        "count": 5
+      },
+      {
+        "skill_id": "sql",
+        "count": 4
+      },
+      {
+        "skill_id": "rag",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "industry": "automotive",
+    "job_count": 145,
+    "domestic_count": 145,
+    "international_count": 0,
+    "avg_salary": 37635,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 8
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 5
+      },
+      {
+        "skill_id": "devops",
+        "count": 2
+      },
+      {
+        "skill_id": "dify",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "consulting",
+    "job_count": 110,
+    "domestic_count": 110,
+    "international_count": 0,
+    "avg_salary": 35582,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 10
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 5
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 5
+      },
+      {
+        "skill_id": "python",
+        "count": 4
+      },
+      {
+        "skill_id": "rag",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "industry": "healthcare",
+    "job_count": 104,
+    "domestic_count": 104,
+    "international_count": 0,
+    "avg_salary": 39195,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 16
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 4
+      },
+      {
+        "skill_id": "python",
+        "count": 3
+      },
+      {
+        "skill_id": "sql",
+        "count": 2
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "industry": "education",
+    "job_count": 79,
+    "domestic_count": 79,
+    "international_count": 0,
+    "avg_salary": 29901,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "java",
+        "count": 1
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 1
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "retail",
+    "job_count": 75,
+    "domestic_count": 75,
+    "international_count": 0,
+    "avg_salary": 25781,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 2
+      },
+      {
+        "skill_id": "rag",
+        "count": 1
+      },
+      {
+        "skill_id": "function_calling",
+        "count": 1
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "other",
+    "job_count": 34,
+    "domestic_count": 34,
+    "international_count": 0,
+    "avg_salary": 25765,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 5
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 2
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 1
+      },
+      {
+        "skill_id": "multimodal_ai",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "media",
+    "job_count": 29,
+    "domestic_count": 29,
+    "international_count": 0,
+    "avg_salary": 33222,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "golang",
+        "count": 2
+      },
+      {
+        "skill_id": "nodejs",
+        "count": 1
+      },
+      {
+        "skill_id": "microservices",
+        "count": 1
+      },
+      {
+        "skill_id": "docker",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "telecom",
+    "job_count": 19,
+    "domestic_count": 19,
+    "international_count": 0,
+    "avg_salary": 31587,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "react",
+        "count": 2
+      },
+      {
+        "skill_id": "langchain",
+        "count": 1
+      },
+      {
+        "skill_id": "llamaindex",
+        "count": 1
+      },
+      {
+        "skill_id": "autogen",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "energy",
+    "job_count": 15,
+    "domestic_count": 15,
+    "international_count": 0,
+    "avg_salary": 53941,
+    "top_skills": [
+      {
+        "skill_id": "agent_architecture",
+        "count": 2
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      },
+      {
+        "skill_id": "function_calling",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "government",
+    "job_count": 7,
+    "domestic_count": 7,
+    "international_count": 0,
+    "avg_salary": 20071,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 2
+      }
+    ]
+  }
+]

@@ -1,0 +1,347 @@
+[
+  {
+    "industry": "internet",
+    "job_count": 179,
+    "domestic_count": 0,
+    "international_count": 179,
+    "avg_salary": 121143,
+    "top_skills": [
+      {
+        "skill_id": "python",
+        "count": 63
+      },
+      {
+        "skill_id": "llm",
+        "count": 50
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 35
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 33
+      },
+      {
+        "skill_id": "aws",
+        "count": 33
+      }
+    ]
+  },
+  {
+    "industry": "healthcare",
+    "job_count": 74,
+    "domestic_count": 0,
+    "international_count": 74,
+    "avg_salary": 99684,
+    "top_skills": [
+      {
+        "skill_id": "python",
+        "count": 17
+      },
+      {
+        "skill_id": "llm",
+        "count": 16
+      },
+      {
+        "skill_id": "sql",
+        "count": 16
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 15
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 13
+      }
+    ]
+  },
+  {
+    "industry": "finance",
+    "job_count": 58,
+    "domestic_count": 0,
+    "international_count": 58,
+    "avg_salary": 99340,
+    "top_skills": [
+      {
+        "skill_id": "python",
+        "count": 20
+      },
+      {
+        "skill_id": "sql",
+        "count": 10
+      },
+      {
+        "skill_id": "llm",
+        "count": 9
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 8
+      },
+      {
+        "skill_id": "ci_cd",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "industry": "consulting",
+    "job_count": 50,
+    "domestic_count": 0,
+    "international_count": 50,
+    "avg_salary": 86650,
+    "top_skills": [
+      {
+        "skill_id": "python",
+        "count": 30
+      },
+      {
+        "skill_id": "azure",
+        "count": 24
+      },
+      {
+        "skill_id": "aws",
+        "count": 22
+      },
+      {
+        "skill_id": "gcp",
+        "count": 22
+      },
+      {
+        "skill_id": "git",
+        "count": 22
+      }
+    ]
+  },
+  {
+    "industry": "automotive",
+    "job_count": 40,
+    "domestic_count": 0,
+    "international_count": 40,
+    "avg_salary": 66250,
+    "top_skills": [
+      {
+        "skill_id": "python",
+        "count": 16
+      },
+      {
+        "skill_id": "cpp",
+        "count": 10
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 9
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 8
+      },
+      {
+        "skill_id": "sql",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "industry": "education",
+    "job_count": 36,
+    "domestic_count": 0,
+    "international_count": 36,
+    "avg_salary": 51907,
+    "top_skills": [
+      {
+        "skill_id": "data_analysis",
+        "count": 7
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 4
+      },
+      {
+        "skill_id": "python",
+        "count": 4
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 2
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "industry": "manufacturing",
+    "job_count": 31,
+    "domestic_count": 0,
+    "international_count": 31,
+    "avg_salary": 80218,
+    "top_skills": [
+      {
+        "skill_id": "python",
+        "count": 11
+      },
+      {
+        "skill_id": "llm",
+        "count": 7
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 7
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 5
+      },
+      {
+        "skill_id": "computer_vision",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "industry": "media",
+    "job_count": 16,
+    "domestic_count": 0,
+    "international_count": 16,
+    "avg_salary": 146803,
+    "top_skills": [
+      {
+        "skill_id": "tensorflow",
+        "count": 6
+      },
+      {
+        "skill_id": "reinforcement_learning",
+        "count": 5
+      },
+      {
+        "skill_id": "cpp",
+        "count": 5
+      },
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "industry": "retail",
+    "job_count": 10,
+    "domestic_count": 0,
+    "international_count": 10,
+    "avg_salary": 108464,
+    "top_skills": [
+      {
+        "skill_id": "python",
+        "count": 4
+      },
+      {
+        "skill_id": "azure",
+        "count": 3
+      },
+      {
+        "skill_id": "gcp",
+        "count": 3
+      },
+      {
+        "skill_id": "aws",
+        "count": 3
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "industry": "other",
+    "job_count": 5,
+    "domestic_count": 0,
+    "international_count": 5,
+    "avg_salary": 69401,
+    "top_skills": [
+      {
+        "skill_id": "data_analysis",
+        "count": 1
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 1
+      },
+      {
+        "skill_id": "llm",
+        "count": 1
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 1
+      },
+      {
+        "skill_id": "openai_api",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "energy",
+    "job_count": 4,
+    "domestic_count": 0,
+    "international_count": 4,
+    "avg_salary": 98662,
+    "top_skills": [
+      {
+        "skill_id": "sql",
+        "count": 3
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 1
+      },
+      {
+        "skill_id": "deep_learning",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "government",
+    "job_count": 3,
+    "domestic_count": 0,
+    "international_count": 3,
+    "avg_salary": 93629,
+    "top_skills": [
+      {
+        "skill_id": "machine_learning",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "telecom",
+    "job_count": 1,
+    "domestic_count": 0,
+    "international_count": 1,
+    "avg_salary": null,
+    "top_skills": [
+      {
+        "skill_id": "generative_ai",
+        "count": 1
+      }
+    ]
+  }
+]
