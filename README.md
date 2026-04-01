@@ -317,13 +317,13 @@ agent-hunt/
 │   ├── src/components/         # UI 组件（shadcn/ui + InsightCard）
 │   ├── src/lib/                # API 客户端 + 标签映射
 │   └── public/data/            # 预导出的静态 JSON 数据
-├── extension/                  # Chrome 浏览器插件（占位，待实现）
+├── extension/                  # Chrome 浏览器插件（已实现 4 平台内容脚本）
 │   ├── content_scripts/        # 各平台 JD 提取脚本
 │   └── popup/                  # 插件弹窗 UI
 ├── data/                       # 种子数据 + 配置
 │   ├── seed_platforms.json     # 10 个平台元数据
-│   ├── seed_skills.json        # 62 个 AI 技能（中英双语别名）
-│   ├── skill_aliases.json      # 技能同义词映射表（180+ 条）
+│   ├── seed_skills.json        # 68 个 AI 技能（中英双语别名）
+│   ├── skill_aliases.json      # 技能同义词映射表（210+ 条）
 │   └── search_keywords.json    # 跨行业采集关键词矩阵（50+ 关键词）
 ├── docs/
 │   └── domestic-scraping-strategy.md  # 国内平台爬虫技术方案
@@ -441,7 +441,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 ## 项目状态
 
-积极开发中 — v0.5 已上线，洞察报告 + 跨行业数据扩充
+积极开发中 — v0.6 已上线，角色聚类分析 + 分市场独立分析 + SCI 评分模型
 
 **在线体验：https://agent-hunt.pages.dev**
 
@@ -452,7 +452,8 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 | 3 | 前端 7 页 + AI 洞察 + 岗位画像 + 学习路径 | **已完成** ✅ |
 | 4 | 行业维度扩展（13 行业分类 + 关键词矩阵 + 行业分析页面） | **已完成** ✅ |
 | 5 | AI 洞察报告 + 跨行业数据扩充（2370 条 JD） | **已完成** ✅ |
-| 6 | 持续增强（aliases 扩展、Chrome 扩展、Celery 定时采集、用户系统） | 待开始 |
+| 6 | 角色聚类分析 + 分市场独立分析 + SCI 评分模型 | **已完成** ✅ |
+| 7 | 持续增强（aliases 扩展、Chrome 扩展、Celery 定时采集、用户系统） | 待开始 |
 
 ### Phase 1 完成总结
 
@@ -527,6 +528,18 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
   - 全景概览、行业深度分析、跨界求职指南、趋势判断、核心发现
 - [x] 报告生成脚本（`scripts/generate_report.py`）
 - [x] 前端 8 个页面全部上线
+
+### Phase 6 完成总结
+
+**角色聚类分析 + 分市场独立分析 ✅**
+- [x] 岗位角色聚类（`scripts/analyze_roles.py`）：按 job title 关键词聚类为典型角色
+  - 国内 14 种角色（AI/LLM 工程师、AI 产品经理、算法工程师等）
+  - 海外 11 种角色（ML/AI Engineer、Software Engineer、ML Scientist 等）
+- [x] 每种角色包含：必备/加分技能、薪资分布、学历/经验要求、行业分布
+- [x] 分市场独立分析：国内/海外技能排名、行业矩阵、共现网络完全分开计算
+- [x] SCI（Skill Criticality Index）评分模型：综合频率、薪资溢价、增长趋势的技能关键度指数
+- [x] 分市场数据导出（`scripts/export_market_data.py`）
+- [x] README 重构为角色维度分析，从"看技能"升级为"看角色 × 技能 × 行业"
 
 ## Contributing
 

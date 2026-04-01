@@ -26,13 +26,13 @@ backend/
     collectors/      # Data collectors (strategy pattern + registry)
     models/          # SQLAlchemy models (Job, Platform, Skill)
     schemas/         # Pydantic request/response schemas
-    services/        # Business logic (jd_parser, seed, skill_extractor, cross_market)
+    services/        # Business logic (jd_parser, seed, skill_extractor, cross_market, market_analyzer, learning_path)
     tasks/           # Celery async tasks
     config.py        # pydantic-settings, env prefix: AH_
     database.py      # Async engine + session factory
     main.py          # FastAPI app with lifespan (auto seeds on startup)
   alembic/           # DB migrations (001_initial + 002_add_industry)
-  scripts/           # Utility scripts (export_cookies, generate_insights, batch_collect)
+  scripts/           # Utility scripts (export_cookies, generate_insights, generate_report, batch_collect, analyze_roles, export_market_data)
   tests/
 frontend/            # Next.js 16 + Tailwind + shadcn/ui + Recharts
   src/app/           # Pages (dashboard, skills, salary, gaps, industry, insights)
@@ -81,6 +81,16 @@ docs/                # Technical docs
   4. `npx wrangler pages deploy out --project-name agent-hunt`
 - Gemini 生成的 AI 洞察（InsightCard 组件）放在每个页面顶部
 - 8 个页面：总览、洞察报告、技能图谱、薪资分析、市场差异、行业分析、岗位画像（含学习路径）
+- 角色聚类数据：`roles-domestic.json`（14 角色）、`roles-international.json`（11 角色）
 
 ## Current Status
-Phase 1-4 完成 + 洞察报告。5 平台采集器，2370 条 JD（1542 已解析），68 个技能，13 个行业。前端 8 页已部署到 agent-hunt.pages.dev。含 AI 生成的市场洞察报告（全景概览、行业深度、跨界求职指南、趋势判断）。
+Phase 1-6 完成。5 平台采集器，2370 条 JD（1542 已解析），68 个技能，13 个行业。前端 8 页已部署到 agent-hunt.pages.dev。
+
+v0.6 新增：
+- 角色聚类分析（14 国内 + 11 海外典型角色，含技能画像/薪资/学历/行业分布）
+- 分市场独立分析（国内/海外技能排名、行业矩阵、共现网络完全独立）
+- SCI（Skill Criticality Index）评分模型
+- 新脚本：`scripts/analyze_roles.py`（角色聚类）、`scripts/export_market_data.py`（分市场数据导出）
+- 新数据：`roles-domestic.json`、`roles-international.json`
+
+Phase 7 待办：skill_aliases 扩展、Chrome 扩展完善、Celery 定时采集、（未来）用户系统
