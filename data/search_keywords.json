@@ -50,6 +50,15 @@
       "name": "数字化转型",
       "keywords": ["数字化转型", "AI转型", "企业AI", "digital transformation AI"],
       "platforms": ["liepin", "boss_zhipin", "linkedin"]
+    },
+    {
+      "name": "AIGC 创意工作者",
+      "keywords": [
+        "AIGC", "AIGC 视频", "ComfyUI", "Stable Diffusion", "Midjourney",
+        "AI 设计师", "AI 视觉设计", "AI 内容创作", "AIGC Artist", "AI 剪辑",
+        "AI 短视频", "AI 文案", "AI 漫画", "AIGC 运营", "AI 摄影"
+      ],
+      "platforms": ["liepin", "linkedin", "indeed"]
     }
   ]
 }

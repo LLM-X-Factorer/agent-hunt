@@ -1,135 +1,6 @@
 [
   {
-    "job_count": 350,
-    "sample_titles": [
-      "LLM/AI Agent开发工程师",
-      "AI Agent 应用工程师",
-      "AI Agent高级产品经理",
-      "AI Agent 产品经理",
-      "AI Engineer-AI 开发工程师",
-      "AI-Agent开发运营",
-      "AI助理工程师 / AI Associate Engineer",
-      "AI Agent平台研发工程师"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "llm",
-        "count": 110
-      },
-      {
-        "skill_id": "agent_architecture",
-        "count": 54
-      },
-      {
-        "skill_id": "python",
-        "count": 24
-      },
-      {
-        "skill_id": "rag",
-        "count": 18
-      },
-      {
-        "skill_id": "java",
-        "count": 14
-      },
-      {
-        "skill_id": "langchain",
-        "count": 10
-      },
-      {
-        "skill_id": "golang",
-        "count": 8
-      },
-      {
-        "skill_id": "prompt_engineering",
-        "count": 8
-      },
-      {
-        "skill_id": "multimodal_ai",
-        "count": 8
-      },
-      {
-        "skill_id": "sql",
-        "count": 7
-      }
-    ],
-    "preferred_skills": [
-      {
-        "skill_id": "semantic_kernel",
-        "count": 2
-      },
-      {
-        "skill_id": "reinforcement_learning",
-        "count": 1
-      },
-      {
-        "skill_id": "mcp",
-        "count": 1
-      }
-    ],
-    "salary": {
-      "min": 3850,
-      "max": 241666,
-      "median": 32500,
-      "avg": 40210,
-      "p25": 20000,
-      "p75": 50000,
-      "sample_size": 336
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 3,
-      "avg_min": 2.9,
-      "sample_size": 346
-    },
-    "education": {
-      "bachelor": 237,
-      "master": 66,
-      "any": 44,
-      "phd": 3
-    },
-    "work_mode": {
-      "unknown": 330,
-      "onsite": 18,
-      "remote": 2
-    },
-    "top_companies": [
-      "中煤科工集团重庆研究院有限公司",
-      "某杭州大型互联网公司",
-      "某上海大型人工智能公司",
-      "某知名公司",
-      "思特沃克软件技术(西安)有限公司"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 166
-      },
-      {
-        "industry": "manufacturing",
-        "count": 44
-      },
-      {
-        "industry": "automotive",
-        "count": 27
-      },
-      {
-        "industry": "finance",
-        "count": 26
-      },
-      {
-        "industry": "consulting",
-        "count": 23
-      }
-    ],
-    "role_id": "ai_engineer",
-    "role_name": "AI/LLM 工程师"
-  },
-  {
-    "job_count": 277,
+    "job_count": 482,
     "sample_titles": [
       "AI 团队 Leader - Agent 方向",
       "AI Application Engineer (LLM/Agent Direction)",
@@ -143,43 +14,43 @@
     "required_skills": [
       {
         "skill_id": "llm",
-        "count": 34
+        "count": 41
+      },
+      {
+        "skill_id": "python",
+        "count": 10
       },
       {
         "skill_id": "agent_architecture",
+        "count": 9
+      },
+      {
+        "skill_id": "prompt_engineering",
         "count": 7
       },
       {
         "skill_id": "data_analysis",
+        "count": 6
+      },
+      {
+        "skill_id": "rag",
         "count": 5
       },
       {
-        "skill_id": "python",
+        "skill_id": "pytorch",
+        "count": 4
+      },
+      {
+        "skill_id": "generative_ai",
         "count": 4
       },
       {
         "skill_id": "java",
-        "count": 3
+        "count": 4
       },
       {
-        "skill_id": "rag",
-        "count": 2
-      },
-      {
-        "skill_id": "prompt_engineering",
-        "count": 2
-      },
-      {
-        "skill_id": "fastapi",
-        "count": 1
-      },
-      {
-        "skill_id": "flask",
-        "count": 1
-      },
-      {
-        "skill_id": "pytorch",
-        "count": 1
+        "skill_id": "fine_tuning",
+        "count": 4
       }
     ],
     "preferred_skills": [
@@ -188,83 +59,204 @@
         "count": 2
       },
       {
-        "skill_id": "react",
-        "count": 1
-      },
-      {
-        "skill_id": "vue",
-        "count": 1
-      },
-      {
-        "skill_id": "kubernetes",
+        "skill_id": "cpp",
         "count": 1
       }
     ],
     "salary": {
       "min": 2580,
       "max": 230000,
-      "median": 22750,
-      "avg": 28859,
-      "p25": 10500,
-      "p75": 37500,
-      "sample_size": 246
+      "median": 22500,
+      "avg": 27814,
+      "p25": 11500,
+      "p75": 35000,
+      "sample_size": 435
     },
     "experience": {
       "min_range": [
         0,
         10
       ],
-      "median_min": 1,
-      "avg_min": 2.6,
-      "sample_size": 269
+      "median_min": 3,
+      "avg_min": 2.8,
+      "sample_size": 474
     },
     "education": {
-      "bachelor": 139,
-      "any": 102,
-      "master": 28,
-      "phd": 8
+      "bachelor": 287,
+      "any": 148,
+      "master": 36,
+      "phd": 11
     },
     "work_mode": {
-      "unknown": 255,
-      "onsite": 17,
+      "unknown": 456,
+      "onsite": 21,
       "remote": 3,
       "hybrid": 1,
       "null": 1
     },
     "top_companies": [
-      "ByteDance",
+      "51WORLD",
       "某知名公司",
-      "上海茫讯商务咨询中心",
-      "嘉兴新模文化传媒有限公司",
-      "哈工大苏州研究院"
+      "科大讯飞",
+      "某北京云计算/大数据公司",
+      "嘉兴新模文化传媒有限公司"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 98
-      },
-      {
-        "industry": "finance",
-        "count": 34
-      },
-      {
-        "industry": "consulting",
-        "count": 26
+        "count": 187
       },
       {
         "industry": "manufacturing",
-        "count": 26
+        "count": 51
       },
       {
         "industry": "retail",
-        "count": 24
+        "count": 51
+      },
+      {
+        "industry": "consulting",
+        "count": 40
+      },
+      {
+        "industry": "finance",
+        "count": 40
       }
     ],
     "role_id": "other",
     "role_name": "其他"
   },
   {
-    "job_count": 233,
+    "job_count": 426,
+    "sample_titles": [
+      "LLM/AI Agent开发工程师",
+      "AI Agent 应用工程师",
+      "AI Agent高级产品经理",
+      "AI Agent 产品经理",
+      "AI Engineer-AI 开发工程师",
+      "AI-Agent开发运营",
+      "AI助理工程师 / AI Associate Engineer",
+      "AI Agent平台研发工程师"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 116
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 60
+      },
+      {
+        "skill_id": "python",
+        "count": 35
+      },
+      {
+        "skill_id": "rag",
+        "count": 23
+      },
+      {
+        "skill_id": "java",
+        "count": 19
+      },
+      {
+        "skill_id": "langchain",
+        "count": 14
+      },
+      {
+        "skill_id": "golang",
+        "count": 11
+      },
+      {
+        "skill_id": "multimodal_ai",
+        "count": 11
+      },
+      {
+        "skill_id": "autogen",
+        "count": 9
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 9
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "semantic_kernel",
+        "count": 2
+      },
+      {
+        "skill_id": "reinforcement_learning",
+        "count": 1
+      },
+      {
+        "skill_id": "huggingface",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 3850,
+      "max": 241666,
+      "median": 32500,
+      "avg": 39639,
+      "p25": 20000,
+      "p75": 50000,
+      "sample_size": 406
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 2.9,
+      "sample_size": 422
+    },
+    "education": {
+      "bachelor": 290,
+      "master": 78,
+      "any": 54,
+      "phd": 4
+    },
+    "work_mode": {
+      "unknown": 400,
+      "onsite": 24,
+      "remote": 2
+    },
+    "top_companies": [
+      "某知名公司",
+      "中煤科工集团重庆研究院有限公司",
+      "某杭州大型互联网公司",
+      "字节跳动",
+      "某上海大型人工智能公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 201
+      },
+      {
+        "industry": "manufacturing",
+        "count": 57
+      },
+      {
+        "industry": "automotive",
+        "count": 31
+      },
+      {
+        "industry": "consulting",
+        "count": 30
+      },
+      {
+        "industry": "finance",
+        "count": 27
+      }
+    ],
+    "role_id": "ai_engineer",
+    "role_name": "AI/LLM 工程师"
+  },
+  {
+    "job_count": 293,
     "sample_titles": [
       "AI产品策划（LLM记忆与交互方向）",
       "AI产品经理（AIGC/跨境电商方向）",
@@ -278,7 +270,7 @@
     "required_skills": [
       {
         "skill_id": "llm",
-        "count": 15
+        "count": 17
       },
       {
         "skill_id": "agent_architecture",
@@ -286,6 +278,14 @@
       },
       {
         "skill_id": "computer_vision",
+        "count": 2
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 2
+      },
+      {
+        "skill_id": "prompt_engineering",
         "count": 2
       },
       {
@@ -297,23 +297,27 @@
         "count": 1
       },
       {
-        "skill_id": "data_analysis",
-        "count": 1
-      },
-      {
         "skill_id": "fine_tuning",
-        "count": 1
-      },
-      {
-        "skill_id": "prompt_engineering",
         "count": 1
       },
       {
         "skill_id": "generative_ai",
         "count": 1
+      },
+      {
+        "skill_id": "multimodal_ai",
+        "count": 1
       }
     ],
     "preferred_skills": [
+      {
+        "skill_id": "anthropic_api",
+        "count": 1
+      },
+      {
+        "skill_id": "gemini_api",
+        "count": 1
+      },
       {
         "skill_id": "rag",
         "count": 1
@@ -326,11 +330,210 @@
     "salary": {
       "min": 5500,
       "max": 165000,
-      "median": 32500,
-      "avg": 38674,
+      "median": 35000,
+      "avg": 39814,
       "p25": 22500,
       "p75": 45000,
-      "sample_size": 221
+      "sample_size": 281
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 3.4,
+      "sample_size": 292
+    },
+    "education": {
+      "bachelor": 236,
+      "any": 40,
+      "master": 16,
+      "unspecified": 1
+    },
+    "work_mode": {
+      "unknown": 291,
+      "onsite": 2
+    },
+    "top_companies": [
+      "字节跳动",
+      "某北京大型互联网公司",
+      "某知名公司",
+      "某大型知名互联网公司",
+      "某深圳大型电子/半导体/集成电路公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 142
+      },
+      {
+        "industry": "manufacturing",
+        "count": 36
+      },
+      {
+        "industry": "finance",
+        "count": 32
+      },
+      {
+        "industry": "automotive",
+        "count": 18
+      },
+      {
+        "industry": "healthcare",
+        "count": 14
+      }
+    ],
+    "role_id": "product_manager",
+    "role_name": "AI 产品经理"
+  },
+  {
+    "job_count": 122,
+    "sample_titles": [
+      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "Plan& Control Algorithm Engineer 控制规划算法工程师",
+      "模型策略岗（LLM应用与数据分析）",
+      "AI量化研究助理",
+      "券商AI量化研究岗",
+      "E2E Algorithm Architect",
+      "人工智能量化交易算法策略投研",
+      "AI算法专家"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 28
+      },
+      {
+        "skill_id": "python",
+        "count": 7
+      },
+      {
+        "skill_id": "nlp",
+        "count": 7
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 6
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 6
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 5
+      },
+      {
+        "skill_id": "rag",
+        "count": 5
+      },
+      {
+        "skill_id": "fine_tuning",
+        "count": 5
+      },
+      {
+        "skill_id": "deep_learning",
+        "count": 4
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 4
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 1500,
+      "max": 126667,
+      "median": 52500,
+      "avg": 52161,
+      "p25": 37500,
+      "p75": 65000,
+      "sample_size": 105
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 3.1,
+      "sample_size": 120
+    },
+    "education": {
+      "master": 61,
+      "bachelor": 44,
+      "phd": 9,
+      "any": 8
+    },
+    "work_mode": {
+      "unknown": 113,
+      "onsite": 8,
+      "remote": 1
+    },
+    "top_companies": [
+      "蚂蚁集团",
+      "方正证券",
+      "某知名公司",
+      "某深圳计算机软件公司",
+      "某上海互联网公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 40
+      },
+      {
+        "industry": "finance",
+        "count": 38
+      },
+      {
+        "industry": "healthcare",
+        "count": 14
+      },
+      {
+        "industry": "manufacturing",
+        "count": 11
+      },
+      {
+        "industry": "automotive",
+        "count": 9
+      }
+    ],
+    "role_id": "algorithm",
+    "role_name": "算法工程师/研究员"
+  },
+  {
+    "job_count": 118,
+    "sample_titles": [
+      "AI Customer Acquisition / Private Domain Traffic Generation",
+      "AI Sales",
+      "销售经理（人工智能、教育方向）",
+      "National Sales Director (Industrial AI)",
+      "医疗器械销售代表",
+      "医疗器械销售代表-外周",
+      "医疗AI销售",
+      "医疗器械销售代表-外周介入"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "tongyi_qianwen",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 5500,
+      "max": 137500,
+      "median": 22500,
+      "avg": 33905,
+      "p25": 15000,
+      "p75": 45000,
+      "sample_size": 114
     },
     "experience": {
       "min_range": [
@@ -339,173 +542,52 @@
       ],
       "median_min": 3,
       "avg_min": 3.6,
-      "sample_size": 232
+      "sample_size": 118
     },
     "education": {
-      "bachelor": 193,
-      "any": 27,
-      "master": 12,
-      "unspecified": 1
+      "bachelor": 70,
+      "any": 47,
+      "master": 1
     },
     "work_mode": {
-      "unknown": 232,
-      "onsite": 1
-    },
-    "top_companies": [
-      "字节跳动",
-      "某知名公司",
-      "某大型知名互联网公司",
-      "某北京大型互联网公司",
-      "象屿金象"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 110
-      },
-      {
-        "industry": "manufacturing",
-        "count": 30
-      },
-      {
-        "industry": "finance",
-        "count": 24
-      },
-      {
-        "industry": "automotive",
-        "count": 16
-      },
-      {
-        "industry": "healthcare",
-        "count": 12
-      }
-    ],
-    "role_id": "product_manager",
-    "role_name": "AI 产品经理"
-  },
-  {
-    "job_count": 86,
-    "sample_titles": [
-      "Entry Level Engineers/Scientists/Chemists/Technicians",
-      "模型策略岗（LLM应用与数据分析）",
-      "AI量化研究助理",
-      "券商AI量化研究岗",
-      "人工智能量化交易算法策略投研",
-      "AI算法专家",
-      "量化研究员（AI方向）",
-      "AI量化研究员"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "llm",
-        "count": 19
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 4
-      },
-      {
-        "skill_id": "data_analysis",
-        "count": 3
-      },
-      {
-        "skill_id": "python",
-        "count": 3
-      },
-      {
-        "skill_id": "deep_learning",
-        "count": 2
-      },
-      {
-        "skill_id": "sql",
-        "count": 2
-      },
-      {
-        "skill_id": "tensorflow",
-        "count": 2
-      },
-      {
-        "skill_id": "pytorch",
-        "count": 2
-      },
-      {
-        "skill_id": "nlp",
-        "count": 2
-      },
-      {
-        "skill_id": "multimodal_ai",
-        "count": 2
-      }
-    ],
-    "preferred_skills": [
-      {
-        "skill_id": "generative_ai",
-        "count": 1
-      }
-    ],
-    "salary": {
-      "min": 1500,
-      "max": 105000,
-      "median": 50000,
-      "avg": 49155,
-      "p25": 30000,
-      "p75": 65000,
-      "sample_size": 74
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 3,
-      "avg_min": 3.0,
-      "sample_size": 84
-    },
-    "education": {
-      "master": 39,
-      "bachelor": 33,
-      "phd": 8,
-      "any": 6
-    },
-    "work_mode": {
-      "unknown": 80,
-      "onsite": 5,
+      "unknown": 115,
+      "onsite": 2,
       "remote": 1
     },
     "top_companies": [
-      "蚂蚁集团",
-      "方正证券",
-      "某深圳计算机软件公司",
-      "某上海互联网公司",
-      "能欣投资基金"
+      "51WORLD",
+      "某合肥互联网上市公司",
+      "某杭州互联网上市公司",
+      "某北京大型人工智能公司",
+      "陕西同世元数字科技有限责任公司"
     ],
     "top_industries": [
       {
-        "industry": "finance",
-        "count": 30
-      },
-      {
         "industry": "internet",
-        "count": 24
+        "count": 70
       },
       {
         "industry": "healthcare",
-        "count": 13
+        "count": 20
       },
       {
         "industry": "manufacturing",
-        "count": 9
+        "count": 7
       },
       {
-        "industry": "automotive",
+        "industry": "finance",
+        "count": 5
+      },
+      {
+        "industry": "education",
         "count": 5
       }
     ],
-    "role_id": "algorithm",
-    "role_name": "算法工程师/研究员"
+    "role_id": "sales_bd",
+    "role_name": "AI 销售/商务"
   },
   {
-    "job_count": 84,
+    "job_count": 110,
     "sample_titles": [
       "大模型战略分析/投资专家",
       "投资总监-医疗AI方向",
@@ -523,18 +605,18 @@
       },
       {
         "skill_id": "agent_architecture",
-        "count": 1
+        "count": 2
       }
     ],
     "preferred_skills": [],
     "salary": {
-      "min": 6500,
+      "min": 6000,
       "max": 225000,
-      "median": 56250,
-      "avg": 68407,
-      "p25": 37500,
+      "median": 55625,
+      "avg": 67766,
+      "p25": 32500,
       "p75": 85000,
-      "sample_size": 77
+      "sample_size": 98
     },
     "experience": {
       "min_range": [
@@ -542,52 +624,130 @@
         10
       ],
       "median_min": 5,
-      "avg_min": 5.4,
-      "sample_size": 84
+      "avg_min": 5.5,
+      "sample_size": 110
     },
     "education": {
-      "bachelor": 49,
-      "any": 21,
-      "master": 10,
-      "phd": 4
+      "bachelor": 71,
+      "any": 22,
+      "master": 11,
+      "phd": 6
     },
     "work_mode": {
-      "unknown": 84
+      "unknown": 110
     },
     "top_companies": [
       "某知名公司",
+      "51WORLD",
       "超宇集团有限公司",
-      "某深圳大型智能硬件公司",
-      "某苏州互联网公司",
-      "世纪天鸿教育科技股份有限公司"
+      "艾艾贴",
+      "某深圳大型智能硬件公司"
     ],
     "top_industries": [
       {
+        "industry": "internet",
+        "count": 23
+      },
+      {
         "industry": "education",
-        "count": 19
+        "count": 20
       },
       {
         "industry": "healthcare",
-        "count": 14
-      },
-      {
-        "industry": "internet",
-        "count": 13
+        "count": 16
       },
       {
         "industry": "manufacturing",
-        "count": 10
+        "count": 14
       },
       {
         "industry": "finance",
-        "count": 9
+        "count": 12
       }
     ],
     "role_id": "leadership",
     "role_name": "AI 管理/战略"
   },
   {
-    "job_count": 83,
+    "job_count": 99,
+    "sample_titles": [
+      "ADAS Platform Software Engineer",
+      "ADAS测试分析工程师",
+      "ADAS Development Engineer",
+      "自动驾驶安全员",
+      "自动驾驶工程师",
+      "L4自动驾驶测试",
+      "自动驾驶测试工程师",
+      "自动驾驶车辆销售"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 6500,
+      "max": 230000,
+      "median": 26875,
+      "avg": 35263,
+      "p25": 17500,
+      "p75": 40000,
+      "sample_size": 90
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 3.9,
+      "sample_size": 99
+    },
+    "education": {
+      "bachelor": 72,
+      "any": 22,
+      "master": 5
+    },
+    "work_mode": {
+      "unknown": 97,
+      "onsite": 2
+    },
+    "top_companies": [
+      "某知名公司",
+      "Baidu",
+      "梅赛德斯-奔驰",
+      "埃尔科工程技术开发(上海)有限公司",
+      "京东物流"
+    ],
+    "top_industries": [
+      {
+        "industry": "automotive",
+        "count": 73
+      },
+      {
+        "industry": "internet",
+        "count": 11
+      },
+      {
+        "industry": "consulting",
+        "count": 8
+      },
+      {
+        "industry": "manufacturing",
+        "count": 5
+      },
+      {
+        "industry": "energy",
+        "count": 1
+      }
+    ],
+    "role_id": "autonomous",
+    "role_name": "自动驾驶/智能座舱"
+  },
+  {
+    "job_count": 95,
     "sample_titles": [
       "AIGC运营",
       "高级新媒体电商运营",
@@ -601,10 +761,14 @@
     "required_skills": [
       {
         "skill_id": "llm",
-        "count": 4
+        "count": 5
       },
       {
         "skill_id": "data_analysis",
+        "count": 3
+      },
+      {
+        "skill_id": "agent_architecture",
         "count": 2
       },
       {
@@ -617,10 +781,6 @@
       },
       {
         "skill_id": "prompt_engineering",
-        "count": 1
-      },
-      {
-        "skill_id": "agent_architecture",
         "count": 1
       },
       {
@@ -649,11 +809,11 @@
     "salary": {
       "min": 3630,
       "max": 183333,
-      "median": 23000,
-      "avg": 27852,
+      "median": 22500,
+      "avg": 28344,
       "p25": 15000,
       "p75": 32500,
-      "sample_size": 80
+      "sample_size": 91
     },
     "experience": {
       "min_range": [
@@ -662,16 +822,16 @@
       ],
       "median_min": 3,
       "avg_min": 2.9,
-      "sample_size": 82
+      "sample_size": 94
     },
     "education": {
-      "bachelor": 64,
-      "any": 17,
+      "bachelor": 75,
+      "any": 18,
       "master": 1,
       "unspecified": 1
     },
     "work_mode": {
-      "unknown": 77,
+      "unknown": 89,
       "onsite": 6
     },
     "top_companies": [
@@ -684,7 +844,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 32
+        "count": 39
       },
       {
         "industry": "retail",
@@ -699,90 +859,12 @@
         "count": 8
       },
       {
-        "industry": "manufacturing",
+        "industry": "media",
         "count": 7
       }
     ],
     "role_id": "operations",
     "role_name": "AI 运营/训练师"
-  },
-  {
-    "job_count": 83,
-    "sample_titles": [
-      "自动驾驶安全员",
-      "自动驾驶工程师",
-      "L4自动驾驶测试",
-      "自动驾驶测试工程师",
-      "自动驾驶车辆销售",
-      "自动驾驶政府事务专家",
-      "GR (Autonomous Driving)",
-      "自动驾驶系统测试工程师"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "llm",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 6500,
-      "max": 230000,
-      "median": 26250,
-      "avg": 35671,
-      "p25": 18500,
-      "p75": 40000,
-      "sample_size": 81
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 5,
-      "avg_min": 4.0,
-      "sample_size": 83
-    },
-    "education": {
-      "bachelor": 57,
-      "any": 22,
-      "master": 4
-    },
-    "work_mode": {
-      "unknown": 81,
-      "onsite": 2
-    },
-    "top_companies": [
-      "某知名公司",
-      "Baidu",
-      "京东物流",
-      "上海煦晓招企业管理服务有限公司",
-      "滴滴"
-    ],
-    "top_industries": [
-      {
-        "industry": "automotive",
-        "count": 62
-      },
-      {
-        "industry": "internet",
-        "count": 11
-      },
-      {
-        "industry": "manufacturing",
-        "count": 5
-      },
-      {
-        "industry": "consulting",
-        "count": 3
-      },
-      {
-        "industry": "energy",
-        "count": 1
-      }
-    ],
-    "role_id": "autonomous",
-    "role_name": "自动驾驶/智能座舱"
   },
   {
     "job_count": 82,
@@ -866,89 +948,6 @@
   {
     "job_count": 71,
     "sample_titles": [
-      "AI Customer Acquisition / Private Domain Traffic Generation",
-      "AI Sales",
-      "销售经理（人工智能、教育方向）",
-      "National Sales Director (Industrial AI)",
-      "医疗器械销售代表",
-      "医疗器械销售代表-外周",
-      "医疗AI销售",
-      "医疗器械销售代表-外周介入"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "llm",
-        "count": 4
-      },
-      {
-        "skill_id": "tongyi_qianwen",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 5500,
-      "max": 137500,
-      "median": 22500,
-      "avg": 28688,
-      "p25": 13500,
-      "p75": 40000,
-      "sample_size": 68
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 3,
-      "avg_min": 2.7,
-      "sample_size": 71
-    },
-    "education": {
-      "any": 38,
-      "bachelor": 32,
-      "master": 1
-    },
-    "work_mode": {
-      "unknown": 69,
-      "onsite": 1,
-      "remote": 1
-    },
-    "top_companies": [
-      "某合肥互联网上市公司",
-      "某北京大型人工智能公司",
-      "某成都IT服务公司",
-      "某杭州互联网上市公司",
-      "Shanghai Mingniu Cloud Technology Co., Ltd."
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 35
-      },
-      {
-        "industry": "healthcare",
-        "count": 12
-      },
-      {
-        "industry": "manufacturing",
-        "count": 7
-      },
-      {
-        "industry": "finance",
-        "count": 5
-      },
-      {
-        "industry": "education",
-        "count": 5
-      }
-    ],
-    "role_id": "sales_bd",
-    "role_name": "AI 销售/商务"
-  },
-  {
-    "job_count": 64,
-    "sample_titles": [
       "AIT (AI Business Transformation) Senior Specialist/Supervisor",
       "AI交付经理PMO- AI客服（电商）方向",
       "电商 AI 流程建构师",
@@ -972,11 +971,11 @@
     "salary": {
       "min": 1980,
       "max": 158333,
-      "median": 35000,
-      "avg": 42445,
+      "median": 33333,
+      "avg": 40538,
       "p25": 12500,
-      "p75": 55000,
-      "sample_size": 60
+      "p75": 47500,
+      "sample_size": 67
     },
     "experience": {
       "min_range": [
@@ -984,22 +983,22 @@
         10
       ],
       "median_min": 5,
-      "avg_min": 5.5,
-      "sample_size": 62
+      "avg_min": 5.3,
+      "sample_size": 69
     },
     "education": {
-      "bachelor": 51,
-      "any": 8,
-      "master": 4,
-      "phd": 1
+      "bachelor": 54,
+      "any": 10,
+      "master": 5,
+      "phd": 2
     },
     "work_mode": {
-      "unknown": 63,
+      "unknown": 70,
       "onsite": 1
     },
     "top_companies": [
-      "某知名公司",
       "田园东方投资",
+      "某知名公司",
       "德勤Deloitte",
       "某青岛家电上市公司",
       "某北京IT服务公司"
@@ -1015,15 +1014,15 @@
       },
       {
         "industry": "retail",
-        "count": 7
+        "count": 8
       },
       {
         "industry": "internet",
-        "count": 6
+        "count": 8
       },
       {
         "industry": "other",
-        "count": 5
+        "count": 7
       }
     ],
     "role_id": "ai_transformation",
@@ -1104,7 +1103,7 @@
     "role_name": "AI 教育"
   },
   {
-    "job_count": 24,
+    "job_count": 27,
     "sample_titles": [
       "Data Analyst - LLM agentic AI",
       "量化交易AI数据中台技术负责人",
@@ -1122,7 +1121,7 @@
       },
       {
         "skill_id": "llm",
-        "count": 2
+        "count": 3
       },
       {
         "skill_id": "agent_architecture",
@@ -1131,17 +1130,33 @@
       {
         "skill_id": "machine_learning",
         "count": 1
+      },
+      {
+        "skill_id": "sql",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "react",
+        "count": 1
+      },
+      {
+        "skill_id": "rag",
+        "count": 1
       }
     ],
     "preferred_skills": [],
     "salary": {
       "min": 7700,
-      "max": 150000,
-      "median": 30000,
-      "avg": 43088,
-      "p25": 12500,
+      "max": 225000,
+      "median": 35000,
+      "avg": 49418,
+      "p25": 15000,
       "p75": 65000,
-      "sample_size": 22
+      "sample_size": 25
     },
     "experience": {
       "min_range": [
@@ -1149,53 +1164,53 @@
         10
       ],
       "median_min": 1,
-      "avg_min": 1.9,
-      "sample_size": 24
+      "avg_min": 2.6,
+      "sample_size": 27
     },
     "education": {
-      "bachelor": 14,
+      "bachelor": 17,
       "phd": 5,
       "any": 4,
       "master": 1
     },
     "work_mode": {
-      "unknown": 22,
+      "unknown": 25,
       "onsite": 2
     },
     "top_companies": [
       "北京深度智耀科技有限公司",
       "深圳市万邑通信息科技有限公司",
+      "某深圳知名上市公司",
       "某国内大型基金/证券/期货公司",
-      "某上海大型基金证券公司",
-      "某基金证券公司"
+      "某上海大型基金证券公司"
     ],
     "top_industries": [
       {
-        "industry": "finance",
-        "count": 9
+        "industry": "internet",
+        "count": 10
       },
       {
-        "industry": "internet",
-        "count": 8
+        "industry": "finance",
+        "count": 9
       },
       {
         "industry": "healthcare",
         "count": 3
       },
       {
-        "industry": "manufacturing",
+        "industry": "other",
         "count": 2
       },
       {
-        "industry": "other",
-        "count": 1
+        "industry": "manufacturing",
+        "count": 2
       }
     ],
     "role_id": "data",
     "role_name": "数据分析/数据科学"
   },
   {
-    "job_count": 18,
+    "job_count": 20,
     "sample_titles": [
       "智能风控经理",
       "风控经理",
@@ -1251,12 +1266,12 @@
     "preferred_skills": [],
     "salary": {
       "min": 6500,
-      "max": 73333,
+      "max": 80000,
       "median": 22500,
-      "avg": 29708,
+      "avg": 31337,
       "p25": 12500,
-      "p75": 45000,
-      "sample_size": 18
+      "p75": 46667,
+      "sample_size": 20
     },
     "experience": {
       "min_range": [
@@ -1264,15 +1279,15 @@
         10
       ],
       "median_min": 3,
-      "avg_min": 3.3,
-      "sample_size": 18
+      "avg_min": 3.6,
+      "sample_size": 20
     },
     "education": {
-      "bachelor": 15,
+      "bachelor": 17,
       "any": 3
     },
     "work_mode": {
-      "unknown": 16,
+      "unknown": 18,
       "onsite": 2
     },
     "top_companies": [
@@ -1285,7 +1300,7 @@
     "top_industries": [
       {
         "industry": "finance",
-        "count": 9
+        "count": 10
       },
       {
         "industry": "internet",
@@ -1298,13 +1313,17 @@
       {
         "industry": "manufacturing",
         "count": 2
+      },
+      {
+        "industry": "other",
+        "count": 1
       }
     ],
     "role_id": "risk_compliance",
     "role_name": "AI 风控/合规"
   },
   {
-    "job_count": 9,
+    "job_count": 12,
     "sample_titles": [
       "理赔业务专家（寿险/财产险+LLM）",
       "医疗AI产品助理",
@@ -1326,44 +1345,44 @@
       "min": 2800,
       "max": 55000,
       "median": 10000,
-      "avg": 19033,
-      "p25": 5500,
-      "p75": 19500,
-      "sample_size": 9
+      "avg": 19066,
+      "p25": 7000,
+      "p75": 37500,
+      "sample_size": 12
     },
     "experience": {
       "min_range": [
         0,
         5
       ],
-      "median_min": 1,
-      "avg_min": 2.0,
-      "sample_size": 8
+      "median_min": 3,
+      "avg_min": 2.3,
+      "sample_size": 11
     },
     "education": {
       "bachelor": 5,
-      "any": 3,
-      "master": 1
+      "any": 5,
+      "master": 2
     },
     "work_mode": {
-      "unknown": 8,
+      "unknown": 11,
       "onsite": 1
     },
     "top_companies": [
+      "联众医疗IT服务",
       "某北京大型人工智能公司",
       "SenseTime",
       "智铭",
-      "某成都IT服务公司",
-      "广州市中维公益卫生技术评估研究所"
+      "某成都IT服务公司"
     ],
     "top_industries": [
       {
         "industry": "healthcare",
-        "count": 7
+        "count": 9
       },
       {
         "industry": "internet",
-        "count": 2
+        "count": 3
       }
     ],
     "role_id": "medical_ai",
