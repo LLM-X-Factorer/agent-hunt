@@ -1,0 +1,58 @@
+{
+  "titles": [
+    "分析 1135 个 AI 岗位后，我发现 35 岁危机是假的"
+  ],
+  "summary": "title: 分析 1135 个 AI 岗位后，我发现 35 岁危机是假的\n35 岁危机？数据说：假的\n所有人都说程序员 35 岁就完了。\n我分析了 1135 个国内 AI 岗位的 JD，发现恰恰相反——\n经验越多，涨薪越猛。\n而且不是线性增长，是加速增长。\n国内 AI 岗位薪资 × 经验年限：\n0-1 年 → ¥25,301/月1-3 年 → ¥32,326/月（+28%）3-5 年 → ¥43,515/月（+35%）5-10 年 → ¥77,069/月（+77%）\n涨幅轨迹：28% → 35% → 77%\n5-10 年的涨幅，是 0-3 年的 2.75 倍。\nAI 岗位最稀缺的不是写代码的能力，而是：\n架构判断力 — 选什么方案，不选什么方案跨系统整合能力 — Agent 不是单点技术踩坑经验 — LLM 的坑只能靠踩来学\n这三样东西，0-3 年的人不可能有。\n时间是唯一的输入变量。\n数据只证明了：市场愿意为高经验的 AI 人才付更多钱。\n前提是你在这些年里真的在积累。\n如果你的 5-10 年是在重复第 1 年的工作，涨幅曲线跟你没关系。\n最怕的不是 35 岁失业，是 35 岁时发",
+  "tags": [],
+  "cardPlan": [
+    {
+      "index": 0,
+      "type": "cover",
+      "title": "分析 1135 个 AI 岗位后，我发现 35 岁危机是假的",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 1,
+      "type": "content",
+      "title": "",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 2,
+      "type": "content",
+      "title": "数据：涨幅在加速，不是递减",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 3,
+      "type": "content",
+      "title": "为什么越老越值钱？",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 4,
+      "type": "content",
+      "title": "但有一个前提",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 5,
+      "type": "content",
+      "title": "想知道你值多少？",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 6,
+      "type": "summary",
+      "title": "",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    }
+  ]
+}
