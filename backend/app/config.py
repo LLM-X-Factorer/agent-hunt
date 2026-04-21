@@ -48,6 +48,9 @@ class Settings(BaseSettings):
     gemini_api_key: str = ""
     gemini_model: str = "gemini-2.5-flash"
 
+    # --- OpenRouter (alternative LLM provider) ---
+    openrouter_api_key: str = ""
+
     # --- App ---
     debug: bool = False
     api_prefix: str = "/api/v1"

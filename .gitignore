@@ -29,3 +29,7 @@ docker-compose.override.yml
 
 # Cookies (sensitive, per-user)
 data/*_cookies.json
+
+# Temp files (LLM comparison output, etc.)
+tmp_*.json
+tmp_*.txt

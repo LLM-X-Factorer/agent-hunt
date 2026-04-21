@@ -11,7 +11,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.collectors.manual_import import import_jobs
 from app.collectors.registry import get_collector
-from app.database import get_db
+from app.database import async_session, get_db
 from app.models.job import Job
 from app.schemas.job import (
     CollectRequest,
@@ -134,9 +134,10 @@ async def get_job(job_id: uuid.UUID, db: AsyncSession = Depends(get_db)):
 @router.post("/parse/batch")
 async def batch_parse(
     limit: int = Query(50, ge=1, le=500),
+    concurrency: int = Query(10, ge=1, le=30),
     db: AsyncSession = Depends(get_db),
 ):
-    """Parse all pending jobs in batch. Returns progress counts."""
+    """Parse pending jobs in batch with bounded concurrency."""
     result = await db.execute(
         select(Job.id).where(Job.parse_status == "pending").limit(limit)
     )
@@ -145,24 +146,26 @@ async def batch_parse(
     if not pending_ids:
         return {"total_pending": 0, "parsed": 0, "failed": 0}
 
-    parsed = 0
-    failed = 0
-    for job_id in pending_ids:
-        try:
-            job = await parse_job_by_id(db, job_id)
-            if job.parse_status == "parsed":
-                parsed += 1
-            else:
-                failed += 1
-        except Exception:
-            logger.exception("Batch parse failed for %s", job_id)
-            failed += 1
-        await asyncio.sleep(1.5)
+    sem = asyncio.Semaphore(concurrency)
+
+    async def parse_one(job_id):
+        async with sem, async_session() as session:
+            try:
+                job = await parse_job_by_id(session, job_id)
+                return "parsed" if job.parse_status == "parsed" else "failed"
+            except Exception:
+                logger.exception("Batch parse failed for %s", job_id)
+                return "failed"
+
+    results = await asyncio.gather(*[parse_one(jid) for jid in pending_ids])
+    parsed = sum(1 for r in results if r == "parsed")
+    failed = len(results) - parsed
 
     return {
         "total_pending": len(pending_ids),
         "parsed": parsed,
         "failed": failed,
+        "concurrency": concurrency,
     }
 
 

@@ -63,7 +63,7 @@ async def parse_jd(raw_content: str) -> ParsedJD:
     """Parse a single raw JD text into structured fields using Gemini."""
     client = _build_client()
 
-    response = client.models.generate_content(
+    response = await client.aio.models.generate_content(
         model=settings.gemini_model,
         contents=raw_content,
         config=types.GenerateContentConfig(
