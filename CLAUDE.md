@@ -38,7 +38,11 @@ frontend/            # Next.js 16 + Tailwind + shadcn/ui + Recharts
   src/app/           # Pages (dashboard, skills, salary, gaps, industry, insights)
   public/data/       # Pre-exported static JSON data
 data/                # Seed data (platforms, skills, aliases, search_keywords)
-docs/                # Technical docs
+docs/
+  README.md          # 文档索引
+  agent-hunt/        # 平台技术文档（爬虫策略等）
+  employment-course/ # 就业班产品设计 v1.0（产品总纲/竞品/诊断报告模板/招生页）
+  legacy/            # 旧课程归档
 content/             # 自媒体内容（按选题组织：thread/xiaohongshu/wechat + assets）
 ```
 
@@ -85,7 +89,7 @@ content/             # 自媒体内容（按选题组织：thread/xiaohongshu/we
 - 角色聚类数据：`roles-domestic.json`（14 角色）、`roles-international.json`（11 角色）
 
 ## Current Status
-Phase 1-6 完成。5 平台采集器，2370 条 JD（1542 已解析），68 个技能，13 个行业。前端 8 页已部署到 agent-hunt.pages.dev。
+Phase 1-6 完成 + v0.7 改进。5 平台采集器，2370 条 JD（~2250 已解析），68 个技能，13 个行业。前端 8 页已部署到 agent-hunt.pages.dev（v0.7 数据待重新部署）。
 
 v0.6 新增：
 - 角色聚类分析（14 国内 + 11 海外典型角色，含技能画像/薪资/学历/行业分布）
@@ -94,7 +98,23 @@ v0.6 新增：
 - 新脚本：`scripts/analyze_roles.py`（角色聚类）、`scripts/export_market_data.py`（分市场数据导出）
 - 新数据：`roles-domestic.json`、`roles-international.json`
 
+v0.7 改进（2026-04-21）：
+- **JD 解析提速 8 倍**：`jd_parser` 改用 `client.aio.models.generate_content`（真 async），`/jobs/parse/batch` 加 `Semaphore(10)` 并发，去 `sleep(1.5)`。9.3s/条 → 1.15s/条
+- 新增对比脚本：`scripts/compare_llm_providers.py`（MiniMax/Kimi vs Gemini 回归测试）
+- AIGC 创意工作者关键词类目加入 `data/search_keywords.json`
+- 712 条 pending JD 全部解析完，角色聚类重新跑（AI PM 233→293，AI 销售 71→118）
+
 Phase 7 待办：skill_aliases 扩展、Chrome 扩展完善、Celery 定时采集、（未来）用户系统
+
+## 就业班产品设计（已完成 v1.0）
+完整产品设计文档在 `docs/employment-course/`，11 节产品总纲覆盖 4 主线矩阵 / 12 周陪跑 / 透明数据机制 / 30×3800 商业模型。设计阶段全部锁定，落地物料（产品总纲/竞品扫描/诊断报告模板/招生页）已交付。
+
+## Spin-off: aijobfit
+9.9 诊断 dashboard 已 spin off 为独立项目：
+- 位置：`/Users/liu/Projects/aijobfit/`（与本项目同级）
+- GitHub：https://github.com/LLM-X-Factorer/aijobfit
+- 关系：本项目（agent-hunt）= 数据生产方；aijobfit = 数据消费方（远程 fetch agent-hunt.pages.dev/data/*.json）
+- **不要在本仓库实现 9.9 诊断相关功能**，去 aijobfit 项目做。设计文档（`docs/employment-course/`）作为权威来源留在本项目
 
 ## Content（自媒体内容）
 - 目录：`content/{序号}-{选题slug}/`，每个选题下有 `thread.md`（X）、`xiaohongshu.md`、`wechat.md`、`assets/`

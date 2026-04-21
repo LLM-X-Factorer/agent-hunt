@@ -33,3 +33,6 @@ data/*_cookies.json
 # Temp files (LLM comparison output, etc.)
 tmp_*.json
 tmp_*.txt
+
+# Playwright MCP runtime cache
+.playwright-mcp/
