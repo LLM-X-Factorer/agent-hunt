@@ -39,6 +39,7 @@ frontend/            # Next.js 16 + Tailwind + shadcn/ui + Recharts
   public/data/       # Pre-exported static JSON data
 data/                # Seed data (platforms, skills, aliases, search_keywords)
 docs/                # Technical docs
+content/             # 自媒体内容（按选题组织：thread/xiaohongshu/wechat + assets）
 ```
 
 ## Key Patterns
@@ -94,3 +95,10 @@ v0.6 新增：
 - 新数据：`roles-domestic.json`、`roles-international.json`
 
 Phase 7 待办：skill_aliases 扩展、Chrome 扩展完善、Celery 定时采集、（未来）用户系统
+
+## Content（自媒体内容）
+- 目录：`content/{序号}-{选题slug}/`，每个选题下有 `thread.md`（X）、`xiaohongshu.md`、`wechat.md`、`assets/`
+- 数据洞察驱动内容，工具是内容的售后（不单独推广工具）
+- 发布顺序：X thread 先发试水 → 小红书图文 → 公众号长文
+- 引流闭环：评论区「留下技能栈」→ 9.9 个性化市场定位诊断
+- 选题队列见 `content/README.md`

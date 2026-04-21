@@ -325,6 +325,9 @@ agent-hunt/
 │   ├── seed_skills.json        # 68 个 AI 技能（中英双语别名）
 │   ├── skill_aliases.json      # 技能同义词映射表（210+ 条）
 │   └── search_keywords.json    # 跨行业采集关键词矩阵（50+ 关键词）
+├── content/                    # 自媒体内容（数据洞察驱动）
+│   ├── README.md               # 选题队列 + 发布流程
+│   └── {序号}-{选题}/           # 每个选题：thread.md / xiaohongshu.md / wechat.md / assets/
 ├── docs/
 │   └── domestic-scraping-strategy.md  # 国内平台爬虫技术方案
 ├── docker-compose.yml          # PostgreSQL 16 (pgvector) + Redis 7
@@ -454,6 +457,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 | 5 | AI 洞察报告 + 跨行业数据扩充（2370 条 JD） | **已完成** ✅ |
 | 6 | 角色聚类分析 + 分市场独立分析 + SCI 评分模型 | **已完成** ✅ |
 | 7 | 持续增强（aliases 扩展、Chrome 扩展、Celery 定时采集、用户系统） | 待开始 |
+| — | 内容运营：基于数据洞察的自媒体内容（X/小红书/公众号） | **进行中** 🚀 |
 
 ### Phase 1 完成总结
 
