@@ -11,18 +11,18 @@
       "Retrieval-Augmented Generation",
       "Prompt Engineering"
     ],
-    "salary_range": "¥25,000 - ¥50,000/月",
-    "experience": "3-5年相关开发经验",
-    "education": "本科及以上学历，计算机或相关专业",
-    "company_types": "互联网大厂、AI创业公司、金融科技公司",
-    "work_mode": "办公室通勤，996或大小周",
-    "day_in_life": "设计Agent架构，开发LLM应用，优化RAG流程，进行Prompt工程，与团队协作迭代产品。",
-    "key_insight": "国内市场对Agent架构设计和实际应用落地能力有强烈需求。"
+    "salary_range": "¥30000 - ¥55000/月",
+    "experience": "3-5年相关经验",
+    "education": "本科及以上学历",
+    "company_types": "互联网大厂、AI创业公司、科技巨头",
+    "work_mode": "全职、现场办公为主",
+    "day_in_life": "设计Agent架构，优化Prompt，实现RAG系统，与产品团队紧密协作，快速迭代AI应用。",
+    "key_insight": "国内市场强调快速迭代和实际应用落地，对Agent架构和Prompt工程能力要求高。"
   },
   {
     "id": "international_typical",
     "title": "国际AI Agent工程师",
-    "subtitle": "精通多模态大模型与数据驱动的全球技术先锋",
+    "subtitle": "精通多模态AI与机器学习，驱动全球创新项目",
     "market": "国际",
     "core_skills": [
       "Python",
@@ -31,33 +31,32 @@
       "SQL",
       "Machine Learning"
     ],
-    "salary_range": "¥80,000 - ¥150,000/月 ($12,000 - $22,000/月)",
-    "experience": "5年以上高级开发或研究经验",
-    "education": "硕士或博士学历，计算机科学、AI或机器学习专业优先",
-    "company_types": "硅谷科技巨头、顶尖AI实验室、全球SaaS公司",
-    "work_mode": "混合办公或办公室通勤，注重work-life balance",
-    "day_in_life": "参与前沿AI研究，开发高级生成式AI模型，构建数据管道，跨国团队协作，确保产品质量。",
-    "key_insight": "国际市场更侧重于基础模型研究、数据工程和通用AI能力。"
+    "salary_range": "¥80000 - ¥130000/月 (折合人民币)",
+    "experience": "5年以上相关经验",
+    "education": "硕士及以上学历优先",
+    "company_types": "全球科技巨头、顶尖AI研究机构、创新型AI初创公司",
+    "work_mode": "全职、现场或混合办公",
+    "day_in_life": "参与前沿AI研究，构建复杂ML模型，设计数据管道，与全球团队协作，推动AI产品创新。",
+    "key_insight": "国际市场更注重扎实的机器学习基础、系统设计能力和前瞻性研究。"
   },
   {
     "id": "remote_emerging",
     "title": "远程AI Agent工程师",
-    "subtitle": "跨越地域限制，以结果为导向的分布式AI Agent开发者",
+    "subtitle": "跨地域协作，利用前沿AI技术解决全球挑战",
     "market": "远程",
     "core_skills": [
       "Python",
       "Large Language Models",
-      "Agent Architecture",
       "Generative AI",
-      "Cloud Platforms",
-      "Communication Tools"
+      "Agent Architecture",
+      "Cloud Platforms"
     ],
-    "salary_range": "¥70,000 - ¥130,000/月 ($10,000 - $18,000/月)",
-    "experience": "3-7年独立开发经验，有远程工作经验者优先",
-    "education": "本科及以上学历，具备扎实的计算机基础",
-    "company_types": "国际远程公司、分布式AI创业公司、提供灵活工作模式的科技企业",
-    "work_mode": "完全远程，灵活工作时间，跨时区协作",
-    "day_in_life": "独立完成Agent模块开发，参与线上会议，异步沟通，编写高质量文档，持续集成与部署。",
-    "key_insight": "远程岗位强调独立工作能力、跨文化沟通和对云原生技术的掌握。"
+    "salary_range": "¥60000 - ¥110000/月",
+    "experience": "4年以上相关经验，具备独立工作能力",
+    "education": "本科及以上学历",
+    "company_types": "分布式AI公司、远程优先科技企业、国际咨询公司",
+    "work_mode": "远程、灵活工作时间",
+    "day_in_life": "独立完成Agent模块开发，参与线上技术评审，撰写详细文档，通过异步协作推动项目进展。",
+    "key_insight": "远程岗位要求高度自律、出色的沟通能力和跨文化协作能力，薪资竞争力强。"
   }
 ]
