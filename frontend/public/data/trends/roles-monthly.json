@@ -1,0 +1,1402 @@
+{
+  "domestic": [
+    {
+      "role_id": "ai_engineer",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 387,
+          "salary_median": 32500,
+          "salary_avg": 39445,
+          "top_skills": [
+            {
+              "count": 111,
+              "skill_id": "llm"
+            },
+            {
+              "count": 58,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 24,
+              "skill_id": "python"
+            },
+            {
+              "count": 18,
+              "skill_id": "rag"
+            },
+            {
+              "count": 14,
+              "skill_id": "java"
+            },
+            {
+              "count": 10,
+              "skill_id": "langchain"
+            },
+            {
+              "count": 8,
+              "skill_id": "golang"
+            },
+            {
+              "count": 8,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 8,
+              "skill_id": "multimodal_ai"
+            },
+            {
+              "count": 7,
+              "skill_id": "sql"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 39,
+          "salary_median": 37500,
+          "salary_avg": 41467,
+          "top_skills": [
+            {
+              "count": 11,
+              "skill_id": "python"
+            },
+            {
+              "count": 5,
+              "skill_id": "java"
+            },
+            {
+              "count": 5,
+              "skill_id": "rag"
+            },
+            {
+              "count": 5,
+              "skill_id": "llm"
+            },
+            {
+              "count": 4,
+              "skill_id": "langchain"
+            },
+            {
+              "count": 4,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 3,
+              "skill_id": "golang"
+            },
+            {
+              "count": 3,
+              "skill_id": "cpp"
+            },
+            {
+              "count": 3,
+              "skill_id": "multimodal_ai"
+            },
+            {
+              "count": 3,
+              "skill_id": "llamaindex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "product_manager",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 282,
+          "salary_median": 35000,
+          "salary_avg": 39593,
+          "top_skills": [
+            {
+              "count": 16,
+              "skill_id": "llm"
+            },
+            {
+              "count": 9,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 2,
+              "skill_id": "computer_vision"
+            },
+            {
+              "count": 1,
+              "skill_id": "function_calling"
+            },
+            {
+              "count": 1,
+              "skill_id": "multi_agent"
+            },
+            {
+              "count": 1,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 1,
+              "skill_id": "fine_tuning"
+            },
+            {
+              "count": 1,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 1,
+              "skill_id": "generative_ai"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 11,
+          "salary_median": 30000,
+          "salary_avg": 45227,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "llm"
+            },
+            {
+              "count": 1,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 1,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 1,
+              "skill_id": "multimodal_ai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "algorithm",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 109,
+          "salary_median": 52500,
+          "salary_avg": 51980,
+          "top_skills": [
+            {
+              "count": 20,
+              "skill_id": "llm"
+            },
+            {
+              "count": 4,
+              "skill_id": "machine_learning"
+            },
+            {
+              "count": 3,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 3,
+              "skill_id": "python"
+            },
+            {
+              "count": 2,
+              "skill_id": "deep_learning"
+            },
+            {
+              "count": 2,
+              "skill_id": "sql"
+            },
+            {
+              "count": 2,
+              "skill_id": "tensorflow"
+            },
+            {
+              "count": 2,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 2,
+              "skill_id": "nlp"
+            },
+            {
+              "count": 2,
+              "skill_id": "multimodal_ai"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 13,
+          "salary_median": 50000,
+          "salary_avg": 53569,
+          "top_skills": [
+            {
+              "count": 8,
+              "skill_id": "llm"
+            },
+            {
+              "count": 5,
+              "skill_id": "fine_tuning"
+            },
+            {
+              "count": 5,
+              "skill_id": "nlp"
+            },
+            {
+              "count": 4,
+              "skill_id": "rag"
+            },
+            {
+              "count": 4,
+              "skill_id": "python"
+            },
+            {
+              "count": 4,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 4,
+              "skill_id": "tensorflow"
+            },
+            {
+              "count": 3,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 2,
+              "skill_id": "langchain"
+            },
+            {
+              "count": 2,
+              "skill_id": "agent_architecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "sales_bd",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 118,
+          "salary_median": 22500,
+          "salary_avg": 33905,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "llm"
+            },
+            {
+              "count": 1,
+              "skill_id": "tongyi_qianwen"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "leadership",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 108,
+          "salary_median": 55625,
+          "salary_avg": 67250,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "llm"
+            },
+            {
+              "count": 2,
+              "skill_id": "agent_architecture"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": 92500,
+          "salary_avg": 92500,
+          "top_skills": []
+        }
+      ]
+    },
+    {
+      "role_id": "autonomous",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 99,
+          "salary_median": 26875,
+          "salary_avg": 35263,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "llm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "operations",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 89,
+          "salary_median": 23750,
+          "salary_avg": 29213,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "llm"
+            },
+            {
+              "count": 2,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 1,
+              "skill_id": "tongyi_qianwen"
+            },
+            {
+              "count": 1,
+              "skill_id": "nlp"
+            },
+            {
+              "count": 1,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 1,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 1,
+              "skill_id": "python"
+            },
+            {
+              "count": 1,
+              "skill_id": "javascript"
+            },
+            {
+              "count": 1,
+              "skill_id": "generative_ai"
+            },
+            {
+              "count": 1,
+              "skill_id": "langchain"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 6,
+          "salary_median": 13500,
+          "salary_avg": 13400,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "llm"
+            },
+            {
+              "count": 1,
+              "skill_id": "deepseek"
+            },
+            {
+              "count": 1,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 1,
+              "skill_id": "openai_api"
+            },
+            {
+              "count": 1,
+              "skill_id": "data_analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "smart_manufacturing",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 82,
+          "salary_median": 39000,
+          "salary_avg": 47977,
+          "top_skills": [
+            {
+              "count": 2,
+              "skill_id": "llm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "ai_transformation",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 71,
+          "salary_median": 33333,
+          "salary_avg": 40538,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 1,
+              "skill_id": "devops"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "education_ai",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 30,
+          "salary_median": 14750,
+          "salary_avg": 21732,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "llm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "data",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 26,
+          "salary_median": 30000,
+          "salary_avg": 49914,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 2,
+              "skill_id": "llm"
+            },
+            {
+              "count": 1,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 1,
+              "skill_id": "machine_learning"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": 37500,
+          "salary_avg": 37500,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "sql"
+            },
+            {
+              "count": 1,
+              "skill_id": "python"
+            },
+            {
+              "count": 1,
+              "skill_id": "react"
+            },
+            {
+              "count": 1,
+              "skill_id": "rag"
+            },
+            {
+              "count": 1,
+              "skill_id": "llm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "risk_compliance",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 20,
+          "salary_median": 22500,
+          "salary_avg": 31337,
+          "top_skills": [
+            {
+              "count": 6,
+              "skill_id": "sql"
+            },
+            {
+              "count": 5,
+              "skill_id": "python"
+            },
+            {
+              "count": 4,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 4,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 3,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 3,
+              "skill_id": "coze"
+            },
+            {
+              "count": 3,
+              "skill_id": "dify"
+            },
+            {
+              "count": 3,
+              "skill_id": "tongyi_qianwen"
+            },
+            {
+              "count": 3,
+              "skill_id": "deepseek"
+            },
+            {
+              "count": 2,
+              "skill_id": "machine_learning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "medical_ai",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 12,
+          "salary_median": 10000,
+          "salary_avg": 19066,
+          "top_skills": [
+            {
+              "count": 2,
+              "skill_id": "llm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "customer_service",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 5,
+          "salary_median": 10500,
+          "salary_avg": 17600,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "java"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "international": [
+    {
+      "role_id": "ml_engineer",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 75,
+          "salary_median": 100286,
+          "salary_avg": 106174,
+          "top_skills": [
+            {
+              "count": 44,
+              "skill_id": "python"
+            },
+            {
+              "count": 27,
+              "skill_id": "llm"
+            },
+            {
+              "count": 19,
+              "skill_id": "machine_learning"
+            },
+            {
+              "count": 17,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 16,
+              "skill_id": "sql"
+            },
+            {
+              "count": 15,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 13,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 13,
+              "skill_id": "ci_cd"
+            },
+            {
+              "count": 13,
+              "skill_id": "aws"
+            },
+            {
+              "count": 12,
+              "skill_id": "vector_database"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 26,
+          "salary_median": 109475,
+          "salary_avg": 101996,
+          "top_skills": [
+            {
+              "count": 16,
+              "skill_id": "python"
+            },
+            {
+              "count": 13,
+              "skill_id": "llm"
+            },
+            {
+              "count": 10,
+              "skill_id": "aws"
+            },
+            {
+              "count": 9,
+              "skill_id": "anthropic_api"
+            },
+            {
+              "count": 8,
+              "skill_id": "openai_api"
+            },
+            {
+              "count": 7,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 7,
+              "skill_id": "rag"
+            },
+            {
+              "count": 6,
+              "skill_id": "tensorflow"
+            },
+            {
+              "count": 6,
+              "skill_id": "nlp"
+            },
+            {
+              "count": 5,
+              "skill_id": "agent_architecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "sde",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 63,
+          "salary_median": 97702,
+          "salary_avg": 99848,
+          "top_skills": [
+            {
+              "count": 35,
+              "skill_id": "python"
+            },
+            {
+              "count": 35,
+              "skill_id": "java"
+            },
+            {
+              "count": 28,
+              "skill_id": "csharp"
+            },
+            {
+              "count": 25,
+              "skill_id": "aws"
+            },
+            {
+              "count": 24,
+              "skill_id": "sql"
+            },
+            {
+              "count": 23,
+              "skill_id": "react"
+            },
+            {
+              "count": 22,
+              "skill_id": "golang"
+            },
+            {
+              "count": 22,
+              "skill_id": "azure"
+            },
+            {
+              "count": 22,
+              "skill_id": "gcp"
+            },
+            {
+              "count": 21,
+              "skill_id": "nodejs"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 26,
+          "salary_median": 131406,
+          "salary_avg": 118102,
+          "top_skills": [
+            {
+              "count": 15,
+              "skill_id": "python"
+            },
+            {
+              "count": 8,
+              "skill_id": "typescript"
+            },
+            {
+              "count": 7,
+              "skill_id": "react"
+            },
+            {
+              "count": 6,
+              "skill_id": "reinforcement_learning"
+            },
+            {
+              "count": 5,
+              "skill_id": "sql"
+            },
+            {
+              "count": 5,
+              "skill_id": "fine_tuning"
+            },
+            {
+              "count": 4,
+              "skill_id": "anthropic_api"
+            },
+            {
+              "count": 4,
+              "skill_id": "fastapi"
+            },
+            {
+              "count": 4,
+              "skill_id": "gcp"
+            },
+            {
+              "count": 4,
+              "skill_id": "nextjs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "leadership",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 57,
+          "salary_median": 132916,
+          "salary_avg": 134250,
+          "top_skills": [
+            {
+              "count": 9,
+              "skill_id": "machine_learning"
+            },
+            {
+              "count": 7,
+              "skill_id": "devops"
+            },
+            {
+              "count": 6,
+              "skill_id": "azure"
+            },
+            {
+              "count": 6,
+              "skill_id": "nodejs"
+            },
+            {
+              "count": 6,
+              "skill_id": "nextjs"
+            },
+            {
+              "count": 6,
+              "skill_id": "microservices"
+            },
+            {
+              "count": 5,
+              "skill_id": "aws"
+            },
+            {
+              "count": 5,
+              "skill_id": "gcp"
+            },
+            {
+              "count": 5,
+              "skill_id": "react"
+            },
+            {
+              "count": 4,
+              "skill_id": "generative_ai"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 27,
+          "salary_median": 90625,
+          "salary_avg": 94879,
+          "top_skills": [
+            {
+              "count": 6,
+              "skill_id": "generative_ai"
+            },
+            {
+              "count": 5,
+              "skill_id": "openai_api"
+            },
+            {
+              "count": 3,
+              "skill_id": "llm"
+            },
+            {
+              "count": 2,
+              "skill_id": "anthropic_api"
+            },
+            {
+              "count": 2,
+              "skill_id": "gemini_api"
+            },
+            {
+              "count": 1,
+              "skill_id": "javascript"
+            },
+            {
+              "count": 1,
+              "skill_id": "multimodal_ai"
+            },
+            {
+              "count": 1,
+              "skill_id": "data_analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "ml_scientist",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 61,
+          "salary_median": 117812,
+          "salary_avg": 106654,
+          "top_skills": [
+            {
+              "count": 37,
+              "skill_id": "python"
+            },
+            {
+              "count": 22,
+              "skill_id": "machine_learning"
+            },
+            {
+              "count": 18,
+              "skill_id": "sql"
+            },
+            {
+              "count": 17,
+              "skill_id": "deep_learning"
+            },
+            {
+              "count": 13,
+              "skill_id": "llm"
+            },
+            {
+              "count": 11,
+              "skill_id": "cpp"
+            },
+            {
+              "count": 9,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 9,
+              "skill_id": "generative_ai"
+            },
+            {
+              "count": 8,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 7,
+              "skill_id": "reinforcement_learning"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 15,
+          "salary_median": 112130,
+          "salary_avg": 117958,
+          "top_skills": [
+            {
+              "count": 6,
+              "skill_id": "python"
+            },
+            {
+              "count": 5,
+              "skill_id": "machine_learning"
+            },
+            {
+              "count": 5,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 4,
+              "skill_id": "tensorflow"
+            },
+            {
+              "count": 4,
+              "skill_id": "cpp"
+            },
+            {
+              "count": 3,
+              "skill_id": "computer_vision"
+            },
+            {
+              "count": 3,
+              "skill_id": "deep_learning"
+            },
+            {
+              "count": 3,
+              "skill_id": "llm"
+            },
+            {
+              "count": 2,
+              "skill_id": "generative_ai"
+            },
+            {
+              "count": 1,
+              "skill_id": "reinforcement_learning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "product_manager",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 57,
+          "salary_median": 118013,
+          "salary_avg": 118881,
+          "top_skills": [
+            {
+              "count": 22,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 8,
+              "skill_id": "generative_ai"
+            },
+            {
+              "count": 7,
+              "skill_id": "llm"
+            },
+            {
+              "count": 4,
+              "skill_id": "prompt_engineering"
+            },
+            {
+              "count": 3,
+              "skill_id": "rag"
+            },
+            {
+              "count": 3,
+              "skill_id": "fine_tuning"
+            },
+            {
+              "count": 2,
+              "skill_id": "anthropic_api"
+            },
+            {
+              "count": 2,
+              "skill_id": "openai_api"
+            },
+            {
+              "count": 2,
+              "skill_id": "agile"
+            },
+            {
+              "count": 1,
+              "skill_id": "sql"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 9,
+          "salary_median": 46400,
+          "salary_avg": 67361,
+          "top_skills": [
+            {
+              "count": 2,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 1,
+              "skill_id": "sql"
+            },
+            {
+              "count": 1,
+              "skill_id": "python"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "finance_ops",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 17,
+          "salary_median": 85803,
+          "salary_avg": 93759,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 1,
+              "skill_id": "generative_ai"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 4,
+          "salary_median": 114369,
+          "salary_avg": 114358,
+          "top_skills": [
+            {
+              "count": 2,
+              "skill_id": "generative_ai"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "autonomous",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 20,
+          "salary_median": 38364,
+          "salary_avg": 37467,
+          "top_skills": [
+            {
+              "count": 1,
+              "skill_id": "computer_vision"
+            },
+            {
+              "count": 1,
+              "skill_id": "machine_learning"
+            },
+            {
+              "count": 1,
+              "skill_id": "cpp"
+            },
+            {
+              "count": 1,
+              "skill_id": "python"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "architect",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 14,
+          "salary_median": 99681,
+          "salary_avg": 101434,
+          "top_skills": [
+            {
+              "count": 5,
+              "skill_id": "rag"
+            },
+            {
+              "count": 5,
+              "skill_id": "javascript"
+            },
+            {
+              "count": 4,
+              "skill_id": "aws"
+            },
+            {
+              "count": 4,
+              "skill_id": "langgraph"
+            },
+            {
+              "count": 4,
+              "skill_id": "crewai"
+            },
+            {
+              "count": 4,
+              "skill_id": "autogen"
+            },
+            {
+              "count": 3,
+              "skill_id": "python"
+            },
+            {
+              "count": 2,
+              "skill_id": "anthropic_api"
+            },
+            {
+              "count": 2,
+              "skill_id": "git"
+            },
+            {
+              "count": 1,
+              "skill_id": "distributed_systems"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 3,
+          "salary_median": 145000,
+          "salary_avg": 145000,
+          "top_skills": [
+            {
+              "count": 2,
+              "skill_id": "python"
+            },
+            {
+              "count": 2,
+              "skill_id": "flask"
+            },
+            {
+              "count": 1,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 1,
+              "skill_id": "tensorflow"
+            },
+            {
+              "count": 1,
+              "skill_id": "fine_tuning"
+            },
+            {
+              "count": 1,
+              "skill_id": "fastapi"
+            },
+            {
+              "count": 1,
+              "skill_id": "aws"
+            },
+            {
+              "count": 1,
+              "skill_id": "openai_api"
+            },
+            {
+              "count": 1,
+              "skill_id": "huggingface"
+            },
+            {
+              "count": 1,
+              "skill_id": "llm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "intern_newgrad",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 10,
+          "salary_median": 58424,
+          "salary_avg": 53693,
+          "top_skills": [
+            {
+              "count": 5,
+              "skill_id": "python"
+            },
+            {
+              "count": 3,
+              "skill_id": "sql"
+            },
+            {
+              "count": 2,
+              "skill_id": "cpp"
+            },
+            {
+              "count": 2,
+              "skill_id": "java"
+            },
+            {
+              "count": 2,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 1,
+              "skill_id": "machine_learning"
+            },
+            {
+              "count": 1,
+              "skill_id": "reinforcement_learning"
+            },
+            {
+              "count": 1,
+              "skill_id": "pytorch"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 6,
+          "salary_median": 30071,
+          "salary_avg": 28395,
+          "top_skills": [
+            {
+              "count": 2,
+              "skill_id": "generative_ai"
+            },
+            {
+              "count": 1,
+              "skill_id": "anthropic_api"
+            },
+            {
+              "count": 1,
+              "skill_id": "llm"
+            },
+            {
+              "count": 1,
+              "skill_id": "deep_learning"
+            },
+            {
+              "count": 1,
+              "skill_id": "python"
+            },
+            {
+              "count": 1,
+              "skill_id": "pytorch"
+            },
+            {
+              "count": 1,
+              "skill_id": "tensorflow"
+            },
+            {
+              "count": 1,
+              "skill_id": "prompt_engineering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "sales_bd",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 11,
+          "salary_median": 137500,
+          "salary_avg": 130172,
+          "top_skills": [
+            {
+              "count": 5,
+              "skill_id": "generative_ai"
+            },
+            {
+              "count": 4,
+              "skill_id": "agent_architecture"
+            },
+            {
+              "count": 1,
+              "skill_id": "python"
+            },
+            {
+              "count": 1,
+              "skill_id": "prompt_engineering"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "data",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 9,
+          "salary_median": 113281,
+          "salary_avg": 131205,
+          "top_skills": [
+            {
+              "count": 6,
+              "skill_id": "sql"
+            },
+            {
+              "count": 3,
+              "skill_id": "data_analysis"
+            },
+            {
+              "count": 3,
+              "skill_id": "python"
+            },
+            {
+              "count": 1,
+              "skill_id": "machine_learning"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
