@@ -30,6 +30,14 @@ SYSTEM_PROMPT = """\
    "manufacturing"(制造/工业/硬件), "retail"(零售/电商), "education"(教育/培训),
    "media"(媒体/内容/游戏), "consulting"(咨询/企业服务), "automotive"(汽车/自动驾驶),
    "energy"(能源/环保), "telecom"(通信/运营商), "government"(政府/公共事业), "other"
+9. experience_requirement: 根据"经验要求"分桶，必须从以下选择：
+   "fresh"(应届/在校/0 经验), "0-1y"(0-1 年), "1-3y", "3-5y", "5y+"
+10. internship_friendly: 是否接受实习生 / 在校生（true/false/null）
+11. is_campus: 是否明确标注"校招"/"校园招聘"/"应届生招聘"（true/false/null）
+12. role_type: 岗位是 AI 原生还是 AI 增强型传统岗位
+    - "ai_native": 算法/ML/LLM 工程师、AI 产品、AI Agent 开发、AI 销售等以 AI 为主体的岗位
+    - "ai_augmented_traditional": 主体是传统专业（电气/医疗/金融/制造/会计...）但要求 AI 技能。例如「电气工程师 + 深度学习」「医疗影像分析师」「智能制造工艺工程师」「量化研究员」
+13. base_profession: 仅当 role_type = "ai_augmented_traditional" 时填写传统岗位名（如"电气工程师"、"医生"、"会计"、"金融分析师"、"机械工程师"）；ai_native 时填 null
 
 严格输出以下 JSON，不要添加任何额外文字：
 {
@@ -49,7 +57,12 @@ SYSTEM_PROMPT = """\
   "required_skills": ["string"],
   "preferred_skills": ["string"],
   "responsibilities": ["string"],
-  "language": "zh | en | mixed"
+  "language": "zh | en | mixed",
+  "experience_requirement": "fresh | 0-1y | 1-3y | 3-5y | 5y+ | null",
+  "internship_friendly": "bool | null",
+  "is_campus": "bool | null",
+  "role_type": "ai_native | ai_augmented_traditional | null",
+  "base_profession": "string | null"
 }"""
 
 
@@ -84,6 +97,11 @@ async def parse_job_by_id(db: AsyncSession, job_id) -> Job:
         job.preferred_skills = parsed.preferred_skills
         job.responsibilities = parsed.responsibilities
         job.language = parsed.language
+        job.experience_requirement = parsed.experience_requirement
+        job.internship_friendly = parsed.internship_friendly
+        job.is_campus = parsed.is_campus
+        job.role_type = parsed.role_type
+        job.base_profession = parsed.base_profession
         job.parse_status = "parsed"
 
         from datetime import datetime, timezone

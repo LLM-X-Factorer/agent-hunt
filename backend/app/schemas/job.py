@@ -145,3 +145,26 @@ class ParsedJD(BaseModel):
     preferred_skills: list[str] = Field(default_factory=list)
     responsibilities: list[str] = Field(default_factory=list)
     language: str = "zh"
+
+    # --- Issue #11: graduate / campus signals ---
+    experience_requirement: str | None = None  # fresh | 0-1y | 1-3y | 3-5y | 5y+
+    internship_friendly: bool | None = None
+    is_campus: bool | None = None
+
+    # --- Issue #10: AI native vs AI augmented ---
+    role_type: str | None = None  # ai_native | ai_augmented_traditional
+    base_profession: str | None = None
+
+
+class QualityLabels(BaseModel):
+    """Slimmed-down output used by backfill_quality_labels.py.
+
+    Only the 5 new fields — keeps prompts cheap and avoids re-deriving
+    salary / skills / etc. for already-parsed jobs.
+    """
+
+    experience_requirement: str | None = None
+    internship_friendly: bool | None = None
+    is_campus: bool | None = None
+    role_type: str | None = None
+    base_profession: str | None = None

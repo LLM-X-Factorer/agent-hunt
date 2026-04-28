@@ -2,7 +2,16 @@
 import datetime
 import uuid
 
-from sqlalchemy import DateTime, ForeignKey, Integer, String, Text, UniqueConstraint, func
+from sqlalchemy import (
+    Boolean,
+    DateTime,
+    ForeignKey,
+    Integer,
+    String,
+    Text,
+    UniqueConstraint,
+    func,
+)
 from sqlalchemy.dialects.postgresql import ARRAY, UUID
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -51,6 +60,24 @@ class Job(Base):
     education: Mapped[str | None] = mapped_column(
         String(20), nullable=True
     )  # "bachelor" | "master" | "phd" | "any"
+
+    # --- Issue #11: graduate / campus / internship signals ---
+    # "fresh" | "0-1y" | "1-3y" | "3-5y" | "5y+"
+    experience_requirement: Mapped[str | None] = mapped_column(
+        String(10), nullable=True, index=True
+    )
+    internship_friendly: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+    is_campus: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
+
+    # --- Issue #10: AI native vs AI augmented traditional ---
+    # "ai_native" — algo / LLM eng / AI PM / AI sales etc.
+    # "ai_augmented_traditional" — electrical eng + DL, medical imaging, quant, etc.
+    role_type: Mapped[str | None] = mapped_column(String(30), nullable=True, index=True)
+    # Filled only when role_type == "ai_augmented_traditional".
+    # Examples: "电气工程师", "医生", "会计", "金融分析师".
+    base_profession: Mapped[str | None] = mapped_column(
+        String(50), nullable=True, index=True
+    )
 
     required_skills: Mapped[list[str] | None] = mapped_column(
         ARRAY(String), nullable=True
