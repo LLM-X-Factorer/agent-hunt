@@ -479,7 +479,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 - **架构**：Next.js 16 + 远程 fetch agent-hunt 数据
 - **关系**：本项目（agent-hunt）= 数据生产方，aijobfit = 数据消费方，无代码依赖
 - **产品定位（2026-04-22 pivot）**：从原计划 9.9 元付费 → **永久免费 + 加微信漏斗**。前 3 节开放，后 4 节遮罩，加小助理微信拿统一激活码 `AIJOB-2026` 解锁。商业化（1V1 / 社群 / 课程）在产品外独立运营，与 aijobfit 仓库解耦
-- **v0.1 已交付**：14 角色匹配（含稀疏角色置信度惩罚 + fallback 锚点 hoist）/ 7 节报告 / 微信漏斗（遮罩 + 激活码） / 移动端断点重排 / 微信生态（方形 OG + WebView 复制链接降级 + 长按 QR 识别） / 漏斗埋点（form_submit / report_view / mask_see / code_enter_*） / 1080×1920 分享海报 / Docker + Nginx 部署 / GitHub Actions CI / 运营手册 / 真 QR 替换（aijobfit#12 已解，2026-04-28 生产端到端浏览器测试通过）
+- **v0.1 已交付**：14 角色匹配（含稀疏角色置信度惩罚 + fallback 锚点 hoist）/ 7 节报告 / 微信漏斗（遮罩 + 激活码） / 移动端断点重排 + UI polish / 微信生态（方形 OG + WebView 复制链接降级 + 长按 QR 识别） / 漏斗埋点（form_submit / report_view / mask_see / code_enter_*） / 1080×1920 分享海报 / Docker + Nginx 部署 / GitHub Actions CI / 真 QR 替换（aijobfit#12 已解 2026-04-28，PNG 替换 + 端到端测试通过）/ 业务 onboarding 物料（运营手册 + 14 截图图文版 + PDF 构建脚本）
 - **剩余 open issue**（全部为非代码运营任务）：微信实机全链路测试（aijobfit#13） / 漏斗埋点观察期 + 门槛调优决策（aijobfit#14）
 
 ### Phase 1 完成总结
