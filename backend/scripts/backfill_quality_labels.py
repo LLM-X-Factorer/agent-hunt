@@ -55,18 +55,22 @@ QUALITY_PROMPT = """\
 }"""
 
 
+PER_JOB_TIMEOUT = 45  # seconds, hard upper bound to keep semaphore moving
+
+
 async def label_one(
     job: Job,
     sem: asyncio.Semaphore,
 ) -> tuple[Job, QualityLabels | None, str | None]:
     async with sem:
         try:
-            data = await llm_json(
-                job.raw_content,
-                system=QUALITY_PROMPT,
-                temperature=0.1,
+            data = await asyncio.wait_for(
+                llm_json(job.raw_content, system=QUALITY_PROMPT, temperature=0.1),
+                timeout=PER_JOB_TIMEOUT,
             )
             return job, QualityLabels(**data), None
+        except asyncio.TimeoutError:
+            return job, None, f"timeout after {PER_JOB_TIMEOUT}s"
         except Exception as e:
             return job, None, str(e)[:200]
 

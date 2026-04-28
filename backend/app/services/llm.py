@@ -20,9 +20,14 @@ def get_client() -> AsyncOpenAI:
     if _client is None:
         if not settings.openrouter_api_key:
             raise RuntimeError("AH_OPENROUTER_API_KEY is not set; cannot call LLM.")
+        # Tight timeout — OpenAI SDK defaults to 600s, which made backfills
+        # hang on dropped upstream connections. 60s is plenty for short JD
+        # prompts; failed requests get retried by the caller's batch logic.
         _client = AsyncOpenAI(
             base_url=settings.llm_base_url,
             api_key=settings.openrouter_api_key,
+            timeout=60.0,
+            max_retries=1,
         )
     return _client
 
