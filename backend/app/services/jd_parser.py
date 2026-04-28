@@ -1,17 +1,15 @@
-# JD structured parsing via Gemini API — bilingual (Chinese/English) support.
+# JD structured parsing via OpenRouter (OpenAI-compatible) — bilingual zh/en.
+# Default model: z-ai/glm-5.1. Switchable via AH_LLM_MODEL.
 from __future__ import annotations
 
-import json
 import logging
 
-from google import genai
-from google.genai import types
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.config import settings
 from app.models.job import Job
 from app.schemas.job import ParsedJD
+from app.services.llm import llm_json
 
 logger = logging.getLogger(__name__)
 
@@ -55,26 +53,9 @@ SYSTEM_PROMPT = """\
 }"""
 
 
-def _build_client() -> genai.Client:
-    return genai.Client(api_key=settings.gemini_api_key)
-
-
 async def parse_jd(raw_content: str) -> ParsedJD:
-    """Parse a single raw JD text into structured fields using Gemini."""
-    client = _build_client()
-
-    response = await client.aio.models.generate_content(
-        model=settings.gemini_model,
-        contents=raw_content,
-        config=types.GenerateContentConfig(
-            system_instruction=SYSTEM_PROMPT,
-            temperature=0.1,
-            response_mime_type="application/json",
-        ),
-    )
-
-    text = response.text.strip()
-    data = json.loads(text)
+    """Parse a single raw JD text into structured fields."""
+    data = await llm_json(raw_content, system=SYSTEM_PROMPT, temperature=0.1)
     return ParsedJD(**data)
 
 

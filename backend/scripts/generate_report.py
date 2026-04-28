@@ -14,17 +14,15 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
-from google import genai
-from google.genai import types
-from sqlalchemy import select, func
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from app.config import settings
 from app.database import async_session
 from app.models.job import Job
 from app.models.skill import Skill
+from app.services.llm import llm_text
 from app.services.skill_extractor import extractor
 
 logging.basicConfig(level=logging.INFO)
@@ -32,23 +30,16 @@ logger = logging.getLogger(__name__)
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent.parent / "frontend" / "public" / "data"
 
+DEFAULT_SYSTEM = (
+    "你是一位资深的 AI 行业分析师和职业规划专家。"
+    "你擅长将数据转化为有洞察力的叙事，帮助求职者做出职业决策。"
+    "用中文输出，语言生动有温度，避免学术化表达。"
+    "引用具体数据来支撑你的观点。"
+)
 
-def gemini_call(prompt: str, system: str = "", max_tokens: int = 8000) -> str:
-    client = genai.Client(api_key=settings.gemini_api_key)
-    response = client.models.generate_content(
-        model=settings.gemini_model,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            system_instruction=system or (
-                "你是一位资深的 AI 行业分析师和职业规划专家。"
-                "你擅长将数据转化为有洞察力的叙事，帮助求职者做出职业决策。"
-                "用中文输出，语言生动有温度，避免学术化表达。"
-                "引用具体数据来支撑你的观点。"
-            ),
-            temperature=0.7,
-        ),
-    )
-    return response.text.strip()
+
+async def text_call(prompt: str, system: str = "") -> str:
+    return await llm_text(prompt, system=system or DEFAULT_SYSTEM, temperature=0.7)
 
 
 async def collect_full_stats(db: AsyncSession) -> dict:
@@ -135,7 +126,7 @@ async def generate_report(stats: dict) -> dict:
 
     # Section 1: 全景概览
     logger.info("Generating section 1: overview...")
-    report["overview"] = gemini_call(f"""
+    report["overview"] = await text_call(f"""
 基于以下 AI 岗位市场全量数据，写一篇"AI 岗位市场全景概览"（400-500字）。
 
 要求：
@@ -153,7 +144,7 @@ async def generate_report(stats: dict) -> dict:
     # Section 2: 行业深度分析
     logger.info("Generating section 2: industry deep-dives...")
     industries_text = json.dumps(stats["industries"], ensure_ascii=False, indent=2)
-    report["industry_deep_dive"] = gemini_call(f"""
+    report["industry_deep_dive"] = await text_call(f"""
 基于以下各行业 AI 岗位数据，为每个重点行业（岗位数 >= 10 的行业）写一段深度分析（每个行业 150-200 字）。
 
 每个行业需要包含：
@@ -170,7 +161,7 @@ async def generate_report(stats: dict) -> dict:
 
     # Section 3: 跨界求职指南
     logger.info("Generating section 3: career transition guide...")
-    report["career_guide"] = gemini_call(f"""
+    report["career_guide"] = await text_call(f"""
 基于以下 AI 岗位市场数据，写一份"跨界求职指南"（500-600字），面向以下 4 类人群：
 
 1. **金融从业者**想转 AI：该怎么切入？
@@ -189,7 +180,7 @@ async def generate_report(stats: dict) -> dict:
 
     # Section 4: 趋势判断
     logger.info("Generating section 4: trend analysis...")
-    report["trends"] = gemini_call(f"""
+    report["trends"] = await text_call(f"""
 基于以下数据，写一篇"AI 岗位趋势判断"（300-400字）。
 
 需要回答：
@@ -208,7 +199,7 @@ async def generate_report(stats: dict) -> dict:
 
     # Section 5: 核心发现 (bullet points)
     logger.info("Generating section 5: key findings...")
-    report["key_findings"] = gemini_call(f"""
+    report["key_findings"] = await text_call(f"""
 基于以下数据，提炼 8-10 条最有价值的核心发现，每条一句话（30-50字）。
 
 要求：

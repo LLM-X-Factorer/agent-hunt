@@ -44,12 +44,19 @@ class Settings(BaseSettings):
     def redis_url(self) -> str:
         return f"redis://{self.redis_host}:{self.redis_port}/{self.redis_db}"
 
-    # --- Gemini API (for JD parsing) ---
+    # --- LLM provider (OpenRouter, OpenAI-compatible) ---
+    # OpenRouter exposes GLM / Kimi / Gemini / etc. behind one API key.
+    # Switch model with AH_LLM_MODEL — examples:
+    #   z-ai/glm-5.1
+    #   moonshotai/kimi-k2.6
+    #   google/gemini-2.5-flash
+    openrouter_api_key: str = ""
+    llm_model: str = "z-ai/glm-5.1"
+    llm_base_url: str = "https://openrouter.ai/api/v1"
+
+    # Legacy Gemini settings — kept for compare_llm_providers.py only.
     gemini_api_key: str = ""
     gemini_model: str = "gemini-2.5-flash"
-
-    # --- OpenRouter (alternative LLM provider) ---
-    openrouter_api_key: str = ""
 
     # --- App ---
     debug: bool = False

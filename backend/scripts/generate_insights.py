@@ -13,18 +13,16 @@ import logging
 import sys
 from pathlib import Path
 
-from google import genai
-from google.genai import types
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 # Add backend to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from app.config import settings
 from app.database import async_session
 from app.models.job import Job
 from app.models.skill import Skill
+from app.services.llm import llm_json, llm_text
 from app.services.skill_extractor import extractor
 
 logging.basicConfig(level=logging.INFO)
@@ -32,32 +30,16 @@ logger = logging.getLogger(__name__)
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent.parent / "frontend" / "public" / "data"
 
-
-def gemini_call(prompt: str, system: str = "", temperature: float = 0.7) -> str:
-    client = genai.Client(api_key=settings.gemini_api_key)
-    response = client.models.generate_content(
-        model=settings.gemini_model,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            system_instruction=system or "你是一个资深的 AI 行业分析师，用中文输出。",
-            temperature=temperature,
-        ),
-    )
-    return response.text.strip()
+DEFAULT_TEXT_SYSTEM = "你是一个资深的 AI 行业分析师，用中文输出。"
+DEFAULT_JSON_SYSTEM = "你是一个资深的 AI 行业分析师。严格输出 JSON，不要添加任何额外文字。"
 
 
-def gemini_json(prompt: str, system: str = "") -> dict | list:
-    client = genai.Client(api_key=settings.gemini_api_key)
-    response = client.models.generate_content(
-        model=settings.gemini_model,
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            system_instruction=system or "你是一个资深的 AI 行业分析师。严格输出 JSON，不要添加任何额外文字。",
-            temperature=0.3,
-            response_mime_type="application/json",
-        ),
-    )
-    return json.loads(response.text.strip())
+async def text_call(prompt: str, system: str = "", temperature: float = 0.7) -> str:
+    return await llm_text(prompt, system=system or DEFAULT_TEXT_SYSTEM, temperature=temperature)
+
+
+async def json_call(prompt: str, system: str = "") -> dict | list:
+    return await llm_json(prompt, system=system or DEFAULT_JSON_SYSTEM, temperature=0.3)
 
 
 async def load_stats(db: AsyncSession) -> dict:
@@ -120,7 +102,7 @@ Top 20 技能：{json.dumps(stats['top_skills'], ensure_ascii=False)}""",
     }
 
     for key, prompt in prompts.items():
-        insights[f"{key}_insight"] = gemini_call(prompt)
+        insights[f"{key}_insight"] = await text_call(prompt)
         logger.info("  Generated %s insight", key)
         await asyncio.sleep(2)
 
@@ -207,7 +189,7 @@ async def generate_personas(stats: dict) -> list:
   "key_insight": "关键洞察（一句话）"
 }}"""
 
-    return gemini_json(prompt)
+    return await json_call(prompt)
 
 
 async def generate_learning_paths(stats: dict) -> list:
@@ -248,7 +230,7 @@ async def generate_learning_paths(stats: dict) -> list:
   "key_advice": "最重要的一条建议"
 }}"""
 
-    return gemini_json(prompt)
+    return await json_call(prompt)
 
 
 async def main():
