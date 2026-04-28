@@ -467,17 +467,20 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 | 7 | 持续增强（aliases 扩展、Chrome 扩展、Celery 定时采集、用户系统） | 待开始 |
 | v0.7 | JD 解析提速 8 倍（async + 并发）+ AIGC 关键词扩充 + 712 条解析完 | **已完成** ✅ |
 | — | 就业班产品设计 v1.0（4 主线矩阵 + 12 周陪跑 + 30×3800 商业模型） | **已完成** ✅ |
-| — | 衍生产品 [aijobfit](https://github.com/LLM-X-Factorer/aijobfit)（9.9 诊断 dashboard） | **Phase 1 已完成** 🚀 |
+| — | 衍生产品 [aijobfit](https://github.com/LLM-X-Factorer/aijobfit)（免费 AI 求职定位诊断 + 加微信漏斗） | **v0.1 已上线** 🚀 |
 | — | 内容运营：基于数据洞察的自媒体内容（X/小红书/公众号） | **进行中** 🚀 |
 
 ### 衍生产品：AIJobFit
 
-9.9 元 AI 求职定位诊断工具，是本平台数据的最终用户产品形态。独立项目维护。
+免费 AI 求职定位诊断工具，是本平台数据的最终用户产品形态。独立项目维护，已上线。
 
+- **生产**：https://aijobfit.llmxfactor.cloud
 - **GitHub**：[LLM-X-Factorer/aijobfit](https://github.com/LLM-X-Factorer/aijobfit)
 - **架构**：Next.js 16 + 远程 fetch agent-hunt 数据
 - **关系**：本项目（agent-hunt）= 数据生产方，aijobfit = 数据消费方，无代码依赖
-- **状态**：Phase 1 MVP 已完成（表单 + 14 角色匹配算法 + 7 节报告 + URL 分享），Phase 2（支付墙/PDF/Canvas 海报）在 aijobfit 仓库内继续
+- **产品定位（2026-04-22 pivot）**：从原计划 9.9 元付费 → **永久免费 + 加微信漏斗**。前 3 节开放，后 4 节遮罩，加小助理微信拿统一激活码 `AIJOB-2026` 解锁。商业化（1V1 / 社群 / 课程）在产品外独立运营，与 aijobfit 仓库解耦
+- **v0.1 已交付**：14 角色匹配（含稀疏角色置信度惩罚 + fallback 锚点 hoist）/ 7 节报告 / 微信漏斗（遮罩 + 激活码） / 移动端断点重排 / 微信生态（方形 OG + WebView 复制链接降级 + 长按 QR 识别） / 漏斗埋点（form_submit / report_view / mask_see / code_enter_*） / 1080×1920 分享海报 / Docker + Nginx 部署 / GitHub Actions CI / 运营手册 / 真 QR 替换（aijobfit#12 已解，2026-04-28 生产端到端浏览器测试通过）
+- **剩余 open issue**（全部为非代码运营任务）：微信实机全链路测试（aijobfit#13） / 漏斗埋点观察期 + 门槛调优决策（aijobfit#14）
 
 ### Phase 1 完成总结
 
