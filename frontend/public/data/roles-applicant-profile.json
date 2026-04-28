@@ -1,0 +1,720 @@
+{
+  "data": {
+    "domestic": {
+      "product_manager": {
+        "totalProfiles": 32,
+        "schoolTierShare": {
+          "211": 5,
+          "other": 19,
+          "985": 8
+        },
+        "topSchools": [
+          {
+            "school": "门头沟学院",
+            "count": 17
+          },
+          {
+            "school": "中山大学",
+            "count": 3
+          },
+          {
+            "school": "中国海洋大学",
+            "count": 3
+          },
+          {
+            "school": "广州大学",
+            "count": 2
+          },
+          {
+            "school": "西南交通大学",
+            "count": 1
+          },
+          {
+            "school": "北京外国语大学",
+            "count": 1
+          },
+          {
+            "school": "复旦大学",
+            "count": 1
+          },
+          {
+            "school": "中国地质大学（北京）",
+            "count": 1
+          },
+          {
+            "school": "厦门大学",
+            "count": 1
+          },
+          {
+            "school": "北京工业大学",
+            "count": 1
+          },
+          {
+            "school": "北京邮电大学",
+            "count": 1
+          }
+        ],
+        "topMajors": [
+          {
+            "major": "电子信息类",
+            "count": 15
+          },
+          {
+            "major": "能源动力类",
+            "count": 3
+          },
+          {
+            "major": "新闻传播学类",
+            "count": 3
+          },
+          {
+            "major": "计算机类",
+            "count": 2
+          },
+          {
+            "major": "地质学类",
+            "count": 2
+          },
+          {
+            "major": "哲学类",
+            "count": 2
+          },
+          {
+            "major": "中国语言文学类",
+            "count": 1
+          },
+          {
+            "major": "物理学类",
+            "count": 1
+          },
+          {
+            "major": "海洋科学类",
+            "count": 1
+          },
+          {
+            "major": "统计学类",
+            "count": 1
+          },
+          {
+            "major": "数学类",
+            "count": 1
+          }
+        ],
+        "degreeShare": {
+          "bachelor": 30
+        },
+        "offerStatusShare": {
+          "unknown": 16,
+          "offered": 16
+        },
+        "graduationYears": {
+          "2020": 3,
+          "2022": 11,
+          "2023": 9,
+          "2024": 4,
+          "2025": 2
+        },
+        "topCompanies": [
+          {
+            "company": "米哈游",
+            "count": 10
+          },
+          {
+            "company": "贝壳找房",
+            "count": 8
+          },
+          {
+            "company": "快手",
+            "count": 5
+          },
+          {
+            "company": "招商银行",
+            "count": 3
+          },
+          {
+            "company": "极兔速递",
+            "count": 1
+          },
+          {
+            "company": "韶音科技",
+            "count": 1
+          },
+          {
+            "company": "微步在线",
+            "count": 1
+          },
+          {
+            "company": "海康威视",
+            "count": 1
+          },
+          {
+            "company": "SHEIN",
+            "count": 1
+          },
+          {
+            "company": "小红书",
+            "count": 1
+          }
+        ],
+        "yearsExperience": {
+          "median": 0,
+          "p25": 0,
+          "p75": 2,
+          "sample": 32
+        },
+        "selfReportedComp": {
+          "median": null,
+          "sample": 0
+        }
+      },
+      "algorithm": {
+        "totalProfiles": 21,
+        "schoolTierShare": {
+          "other": 3,
+          "211": 3,
+          "985": 13,
+          "international": 2
+        },
+        "topSchools": [
+          {
+            "school": "深圳大学",
+            "count": 3
+          },
+          {
+            "school": "东北大学",
+            "count": 3
+          },
+          {
+            "school": "北京交通大学",
+            "count": 2
+          },
+          {
+            "school": "中国农业大学",
+            "count": 2
+          },
+          {
+            "school": "香港中文大学",
+            "count": 2
+          },
+          {
+            "school": "东南大学",
+            "count": 2
+          },
+          {
+            "school": "中山大学",
+            "count": 1
+          },
+          {
+            "school": "南京大学",
+            "count": 1
+          },
+          {
+            "school": "华南理工大学",
+            "count": 1
+          },
+          {
+            "school": "武汉大学",
+            "count": 1
+          },
+          {
+            "school": "中国科学技术大学",
+            "count": 1
+          },
+          {
+            "school": "电子科技大学",
+            "count": 1
+          },
+          {
+            "school": "西安电子科技大学",
+            "count": 1
+          }
+        ],
+        "topMajors": [
+          {
+            "major": "计算机类",
+            "count": 6
+          },
+          {
+            "major": "机械类",
+            "count": 3
+          },
+          {
+            "major": "天文学类",
+            "count": 3
+          },
+          {
+            "major": "统计学类",
+            "count": 2
+          },
+          {
+            "major": "土木类",
+            "count": 1
+          },
+          {
+            "major": "地理科学类",
+            "count": 1
+          },
+          {
+            "major": "电子信息类",
+            "count": 1
+          },
+          {
+            "major": "公共管理类",
+            "count": 1
+          },
+          {
+            "major": "物理学类",
+            "count": 1
+          },
+          {
+            "major": "管理科学与工程类",
+            "count": 1
+          },
+          {
+            "major": "力学类",
+            "count": 1
+          }
+        ],
+        "degreeShare": {
+          "bachelor": 14,
+          "master": 5
+        },
+        "offerStatusShare": {
+          "offered": 16,
+          "interviewing": 1,
+          "unknown": 4
+        },
+        "graduationYears": {
+          "2024": 11,
+          "2025": 7,
+          "2026": 2,
+          "2029": 1
+        },
+        "topCompanies": [
+          {
+            "company": "重庆千里智驾科技有限公司",
+            "count": 3
+          },
+          {
+            "company": "TP-LINK",
+            "count": 3
+          },
+          {
+            "company": "CVTE",
+            "count": 2
+          },
+          {
+            "company": "TCL华星",
+            "count": 2
+          },
+          {
+            "company": "联想",
+            "count": 2
+          },
+          {
+            "company": "百度",
+            "count": 2
+          },
+          {
+            "company": "淘天集团",
+            "count": 1
+          },
+          {
+            "company": "小天才（步步高）",
+            "count": 1
+          },
+          {
+            "company": "蚂蚁集团",
+            "count": 1
+          },
+          {
+            "company": "柠檬微趣",
+            "count": 1
+          },
+          {
+            "company": "文远知行",
+            "count": 1
+          }
+        ],
+        "yearsExperience": {
+          "median": 0,
+          "p25": 0,
+          "p75": 0,
+          "sample": 20
+        },
+        "selfReportedComp": {
+          "median": null,
+          "sample": 0
+        }
+      },
+      "operations": {
+        "totalProfiles": 16,
+        "schoolTierShare": {
+          "985": 9,
+          "211": 5,
+          "other": 2
+        },
+        "topSchools": [
+          {
+            "school": "北京理工大学",
+            "count": 2
+          },
+          {
+            "school": "武汉理工大学",
+            "count": 2
+          },
+          {
+            "school": "华南理工大学",
+            "count": 2
+          },
+          {
+            "school": "东北大学",
+            "count": 2
+          },
+          {
+            "school": "华南农业大学",
+            "count": 2
+          },
+          {
+            "school": "湖南大学",
+            "count": 1
+          },
+          {
+            "school": "武汉大学",
+            "count": 1
+          },
+          {
+            "school": "重庆大学",
+            "count": 1
+          },
+          {
+            "school": "南京大学",
+            "count": 1
+          },
+          {
+            "school": "南昌大学",
+            "count": 1
+          },
+          {
+            "school": "大连海事大学",
+            "count": 1
+          }
+        ],
+        "topMajors": [
+          {
+            "major": "计算机类",
+            "count": 5
+          },
+          {
+            "major": "电子信息类",
+            "count": 4
+          },
+          {
+            "major": "工商管理类",
+            "count": 2
+          },
+          {
+            "major": "公共管理类",
+            "count": 2
+          },
+          {
+            "major": "统计学类",
+            "count": 1
+          },
+          {
+            "major": "能源动力类",
+            "count": 1
+          },
+          {
+            "major": "大气科学类",
+            "count": 1
+          }
+        ],
+        "degreeShare": {
+          "bachelor": 16
+        },
+        "offerStatusShare": {
+          "unknown": 6,
+          "offered": 8,
+          "interviewing": 2
+        },
+        "graduationYears": {
+          "2024": 9,
+          "2025": 7
+        },
+        "topCompanies": [
+          {
+            "company": "联想",
+            "count": 3
+          },
+          {
+            "company": "图拉斯",
+            "count": 2
+          },
+          {
+            "company": "三七互娱",
+            "count": 2
+          },
+          {
+            "company": "卓越教育",
+            "count": 2
+          },
+          {
+            "company": "理想汽车",
+            "count": 1
+          },
+          {
+            "company": "阿里巴巴灵犀互娱",
+            "count": 1
+          },
+          {
+            "company": "迅雷",
+            "count": 1
+          },
+          {
+            "company": "得物",
+            "count": 1
+          },
+          {
+            "company": "联想集团",
+            "count": 1
+          },
+          {
+            "company": "网易互娱",
+            "count": 1
+          },
+          {
+            "company": "路特创新",
+            "count": 1
+          }
+        ],
+        "yearsExperience": {
+          "median": 0,
+          "p25": 0,
+          "p75": 0,
+          "sample": 16
+        },
+        "selfReportedComp": {
+          "median": 4500,
+          "sample": 1
+        }
+      },
+      "ai_engineer": {
+        "totalProfiles": 7,
+        "schoolTierShare": {
+          "985": 5,
+          "211": 2
+        },
+        "topSchools": [
+          {
+            "school": "华南理工大学",
+            "count": 3
+          },
+          {
+            "school": "北京理工大学",
+            "count": 2
+          },
+          {
+            "school": "中国地质大学（武汉）",
+            "count": 2
+          }
+        ],
+        "topMajors": [
+          {
+            "major": "机械类",
+            "count": 2
+          },
+          {
+            "major": "电子信息类",
+            "count": 2
+          },
+          {
+            "major": "计算机类",
+            "count": 2
+          },
+          {
+            "major": "物理学类",
+            "count": 1
+          }
+        ],
+        "degreeShare": {
+          "bachelor": 5,
+          "master": 2
+        },
+        "offerStatusShare": {
+          "interviewing": 1,
+          "offered": 2,
+          "unknown": 4
+        },
+        "graduationYears": {
+          "2020": 1,
+          "2023": 2,
+          "2024": 1,
+          "2025": 2
+        },
+        "topCompanies": [
+          {
+            "company": "美的集团",
+            "count": 2
+          },
+          {
+            "company": "科大讯飞",
+            "count": 2
+          },
+          {
+            "company": "小米",
+            "count": 2
+          },
+          {
+            "company": "招商银行",
+            "count": 1
+          }
+        ],
+        "yearsExperience": {
+          "median": 0,
+          "p25": 0,
+          "p75": 4,
+          "sample": 7
+        },
+        "selfReportedComp": {
+          "median": null,
+          "sample": 0
+        }
+      },
+      "sales_bd": {
+        "totalProfiles": 6,
+        "schoolTierShare": {
+          "international": 6
+        },
+        "topSchools": [
+          {
+            "school": "Imperial College London",
+            "count": 3
+          },
+          {
+            "school": "香港中文大学",
+            "count": 3
+          }
+        ],
+        "topMajors": [
+          {
+            "major": "生物科学类",
+            "count": 3
+          },
+          {
+            "major": "外国语言文学类",
+            "count": 3
+          }
+        ],
+        "degreeShare": {
+          "bachelor": 6
+        },
+        "offerStatusShare": {
+          "unknown": 3,
+          "offered": 3
+        },
+        "graduationYears": {
+          "2023": 6
+        },
+        "topCompanies": [
+          {
+            "company": "曼伦",
+            "count": 3
+          },
+          {
+            "company": "曼伦商贸",
+            "count": 3
+          }
+        ],
+        "yearsExperience": {
+          "median": 0,
+          "p25": 0,
+          "p75": 0,
+          "sample": 6
+        },
+        "selfReportedComp": {
+          "median": 18333,
+          "sample": 6
+        }
+      },
+      "data": {
+        "totalProfiles": 3,
+        "schoolTierShare": {
+          "985": 3
+        },
+        "topSchools": [
+          {
+            "school": "北京师范大学",
+            "count": 3
+          }
+        ],
+        "topMajors": [
+          {
+            "major": "外国语言文学类",
+            "count": 3
+          }
+        ],
+        "degreeShare": {
+          "bachelor": 3
+        },
+        "offerStatusShare": {
+          "offered": 3
+        },
+        "graduationYears": {
+          "2024": 3
+        },
+        "topCompanies": [
+          {
+            "company": "柠檬微趣",
+            "count": 3
+          }
+        ],
+        "yearsExperience": {
+          "median": 0,
+          "p25": 0,
+          "p75": 0,
+          "sample": 3
+        },
+        "selfReportedComp": {
+          "median": null,
+          "sample": 0
+        }
+      }
+    },
+    "international": {}
+  },
+  "roleNames": {
+    "domestic": {
+      "_noise": "非AI岗位",
+      "ai_engineer": "AI/LLM 工程师",
+      "algorithm": "算法工程师/研究员",
+      "product_manager": "AI 产品经理",
+      "operations": "AI 运营/训练师",
+      "autonomous": "自动驾驶/智能座舱",
+      "smart_manufacturing": "智能制造/工业AI",
+      "data": "数据分析/数据科学",
+      "sales_bd": "AI 销售/商务",
+      "ai_transformation": "AI 转型/咨询",
+      "leadership": "AI 管理/战略",
+      "medical_ai": "医疗AI专岗",
+      "customer_service": "智能客服",
+      "education_ai": "AI 教育",
+      "risk_compliance": "AI 风控/合规"
+    },
+    "international": {
+      "_noise": "Non-AI Noise",
+      "ml_scientist": "ML Scientist / Researcher",
+      "ml_engineer": "ML/AI Engineer",
+      "sde": "Software Engineer",
+      "product_manager": "Product Manager",
+      "data": "Data Scientist / Analyst",
+      "architect": "Solutions Architect",
+      "autonomous": "Autonomous Vehicles",
+      "sales_bd": "AI Sales / BD",
+      "leadership": "Engineering Leadership",
+      "intern_newgrad": "Intern / New Grad",
+      "finance_ops": "Finance / Operations"
+    }
+  },
+  "totalProfiles": 718
+}

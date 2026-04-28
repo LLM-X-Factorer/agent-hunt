@@ -2,6 +2,7 @@
 from app.models.job import Job
 from app.models.platform import Platform
 from app.models.skill import Skill
+from app.models.applicant_profile import ApplicantProfile
 from app.models.salary_report import SalaryReport
 from app.models.snapshot import (
     IndustryMonthlySnapshot,
@@ -14,6 +15,7 @@ __all__ = [
     "Job",
     "Skill",
     "SalaryReport",
+    "ApplicantProfile",
     "SkillMonthlySnapshot",
     "RoleMonthlySnapshot",
     "IndustryMonthlySnapshot",
