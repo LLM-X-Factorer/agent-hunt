@@ -73,6 +73,21 @@ class Job(Base):
         String(20), default="pending"
     )  # "pending" | "parsed" | "failed"
 
+    # --- Quality signals (#16) ---
+    # first_seen_at = collected_at on first capture; last_seen_at bumps on every re-encounter.
+    # seen_count > 1 → posting was re-published (招不到 / 流失大 signal).
+    # closed_at populated by the liveness probe when the source URL 404s.
+    first_seen_at: Mapped[datetime.datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
+    last_seen_at: Mapped[datetime.datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
+    seen_count: Mapped[int] = mapped_column(Integer, default=1)
+    closed_at: Mapped[datetime.datetime | None] = mapped_column(
+        DateTime(timezone=True), nullable=True
+    )
+
     __table_args__ = (
         UniqueConstraint("platform_id", "platform_job_id", name="uq_job_platform_dedup"),
     )

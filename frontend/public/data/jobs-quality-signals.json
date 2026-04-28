@@ -1,0 +1,581 @@
+{
+  "overall": {
+    "total": 3083,
+    "reposted": 0,
+    "repost_ratio": 0.0,
+    "closed": 0,
+    "avg_close_days": null
+  },
+  "by_market": [
+    {
+      "total": 2024,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "market": "domestic"
+    },
+    {
+      "total": 767,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "market": "international"
+    }
+  ],
+  "by_platform": [
+    {
+      "total": 1971,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "liepin"
+    },
+    {
+      "total": 278,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "indeed"
+    },
+    {
+      "total": 488,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "linkedin"
+    },
+    {
+      "total": 329,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "boss_zhipin"
+    },
+    {
+      "total": 17,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "lagou"
+    }
+  ],
+  "by_industry": [
+    {
+      "total": 125,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "education"
+    },
+    {
+      "total": 245,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "finance"
+    },
+    {
+      "total": 304,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "manufacturing"
+    },
+    {
+      "total": 1086,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "internet"
+    },
+    {
+      "total": 97,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "media"
+    },
+    {
+      "total": 232,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "healthcare"
+    },
+    {
+      "total": 215,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "consulting"
+    },
+    {
+      "total": 10,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "government"
+    },
+    {
+      "total": 218,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "automotive"
+    },
+    {
+      "total": 59,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "other"
+    },
+    {
+      "total": 151,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "retail"
+    },
+    {
+      "total": 22,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "telecom"
+    },
+    {
+      "total": 23,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "energy"
+    }
+  ],
+  "top_reposting_companies": [
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京大型人工智能公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "阿里云智能"
+    },
+    {
+      "total": 9,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Cisco"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "友邦资讯科技(广州)有限公司"
+    },
+    {
+      "total": 7,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京互联网公司"
+    },
+    {
+      "total": 12,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "德勤Deloitte"
+    },
+    {
+      "total": 16,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京大型互联网公司"
+    },
+    {
+      "total": 12,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某大型知名互联网公司"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "FutureSight"
+    },
+    {
+      "total": 19,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Meta"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某知名互联网公司"
+    },
+    {
+      "total": 18,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "ByteDance"
+    },
+    {
+      "total": 27,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "字节跳动"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Wells Fargo"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Mind Friend"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某上海基金/证券/期货公司"
+    },
+    {
+      "total": 18,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Varsity Tutors, a Nerdy Company"
+    },
+    {
+      "total": 11,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "蚂蚁集团"
+    },
+    {
+      "total": 7,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "思特沃克软件技术(西安)有限公司"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "上海汽车集团股份有限公司乘用车分公司"
+    },
+    {
+      "total": 8,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Netflix"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "探迹科技"
+    },
+    {
+      "total": 66,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某知名公司"
+    },
+    {
+      "total": 17,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Google"
+    },
+    {
+      "total": 8,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某知名上市公司"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "PayPal"
+    },
+    {
+      "total": 20,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Deloitte"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "田园东方投资"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "梅赛德斯-奔驰"
+    },
+    {
+      "total": 10,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "JPMorganChase"
+    },
+    {
+      "total": 52,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Amazon.com"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某深圳大型智能硬件公司"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某上海大型基金/证券/期货公司"
+    },
+    {
+      "total": 16,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "ComfyUI"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某上海专业技术服务公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "中控技术"
+    },
+    {
+      "total": 11,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京云计算/大数据公司"
+    },
+    {
+      "total": 14,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某杭州互联网上市公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "温州市讯和电脑科技有限公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "北京深度智耀科技有限公司"
+    },
+    {
+      "total": 9,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某成都IT服务公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "方正证券"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Baidu"
+    },
+    {
+      "total": 8,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某杭州大型互联网公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "京东物流"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "中煤科工集团重庆研究院有限公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某深圳大型互联网公司"
+    },
+    {
+      "total": 20,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Amazon Web Services"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某合肥互联网上市公司"
+    },
+    {
+      "total": 7,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京人工智能公司"
+    }
+  ],
+  "config": {
+    "repost_threshold": 3,
+    "min_sample": 5
+  }
+}
