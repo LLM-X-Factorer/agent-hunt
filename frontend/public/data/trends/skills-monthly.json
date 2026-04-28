@@ -256,23 +256,6 @@
       ]
     },
     {
-      "skill_id": "autogen",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 10,
-          "salary_median": 33125,
-          "salary_avg": 31041
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 3,
-          "salary_median": 35000,
-          "salary_avg": 36166
-        }
-      ]
-    },
-    {
       "skill_id": "react",
       "series": [
         {
@@ -286,6 +269,23 @@
           "job_count": 5,
           "salary_median": 41250,
           "salary_avg": 40625
+        }
+      ]
+    },
+    {
+      "skill_id": "autogen",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 10,
+          "salary_median": 33125,
+          "salary_avg": 31041
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 3,
+          "salary_median": 35000,
+          "salary_avg": 36166
         }
       ]
     },
@@ -358,19 +358,36 @@
       ]
     },
     {
-      "skill_id": "cpp",
+      "skill_id": "docker",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 5,
-          "salary_median": 20000,
-          "salary_avg": 23750
+          "job_count": 6,
+          "salary_median": 41250,
+          "salary_avg": 47638
         },
         {
           "month": "2026-04-01",
-          "job_count": 5,
-          "salary_median": 95000,
-          "salary_avg": 89750
+          "job_count": 4,
+          "salary_median": 47500,
+          "salary_avg": 45000
+        }
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 6,
+          "salary_median": 41250,
+          "salary_avg": 47638
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 4,
+          "salary_median": 47500,
+          "salary_avg": 45000
         }
       ]
     },
@@ -409,36 +426,19 @@
       ]
     },
     {
-      "skill_id": "docker",
+      "skill_id": "cpp",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 6,
-          "salary_median": 41250,
-          "salary_avg": 47638
+          "job_count": 5,
+          "salary_median": 20000,
+          "salary_avg": 23750
         },
         {
           "month": "2026-04-01",
-          "job_count": 4,
-          "salary_median": 47500,
-          "salary_avg": 45000
-        }
-      ]
-    },
-    {
-      "skill_id": "kubernetes",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 6,
-          "salary_median": 41250,
-          "salary_avg": 47638
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 4,
-          "salary_median": 47500,
-          "salary_avg": 45000
+          "job_count": 5,
+          "salary_median": 95000,
+          "salary_avg": 89750
         }
       ]
     },
@@ -477,19 +477,19 @@
       ]
     },
     {
-      "skill_id": "typescript",
+      "skill_id": "openai_api",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 6,
-          "salary_median": 30625,
-          "salary_avg": 45291
+          "job_count": 4,
+          "salary_median": 33125,
+          "salary_avg": 34479
         },
         {
           "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 50000,
-          "salary_avg": 50000
+          "job_count": 3,
+          "salary_median": 55000,
+          "salary_avg": 55000
         }
       ]
     },
@@ -511,19 +511,19 @@
       ]
     },
     {
-      "skill_id": "openai_api",
+      "skill_id": "typescript",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 4,
-          "salary_median": 33125,
-          "salary_avg": 34479
+          "job_count": 6,
+          "salary_median": 30625,
+          "salary_avg": 45291
         },
         {
           "month": "2026-04-01",
-          "job_count": 3,
-          "salary_median": 55000,
-          "salary_avg": 55000
+          "job_count": 1,
+          "salary_median": 50000,
+          "salary_avg": 50000
         }
       ]
     },
@@ -647,23 +647,6 @@
       ]
     },
     {
-      "skill_id": "git",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 3,
-          "salary_median": 25000,
-          "salary_avg": 26666
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 49375,
-          "salary_avg": 49375
-        }
-      ]
-    },
-    {
       "skill_id": "ci_cd",
       "series": [
         {
@@ -681,19 +664,19 @@
       ]
     },
     {
-      "skill_id": "redis",
+      "skill_id": "git",
       "series": [
         {
           "month": "2026-03-01",
           "job_count": 3,
-          "salary_median": 30000,
-          "salary_avg": 30000
+          "salary_median": 25000,
+          "salary_avg": 26666
         },
         {
           "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 22500,
-          "salary_avg": 22500
+          "job_count": 2,
+          "salary_median": 49375,
+          "salary_avg": 49375
         }
       ]
     },
@@ -711,23 +694,6 @@
           "job_count": 1,
           "salary_median": 50000,
           "salary_avg": 50000
-        }
-      ]
-    },
-    {
-      "skill_id": "milvus",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 2,
-          "salary_median": 36250,
-          "salary_avg": 36250
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 40000,
-          "salary_avg": 40000
         }
       ]
     },
@@ -773,6 +739,40 @@
           "job_count": 1,
           "salary_median": 50000,
           "salary_avg": 50000
+        }
+      ]
+    },
+    {
+      "skill_id": "milvus",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 2,
+          "salary_median": 36250,
+          "salary_avg": 36250
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": 40000,
+          "salary_avg": 40000
+        }
+      ]
+    },
+    {
+      "skill_id": "redis",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 3,
+          "salary_median": 30000,
+          "salary_avg": 30000
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": 22500,
+          "salary_avg": 22500
         }
       ]
     },
@@ -844,13 +844,13 @@
       ]
     },
     {
-      "skill_id": "semantic_kernel",
+      "skill_id": "flask",
       "series": [
         {
           "month": "2026-03-01",
           "job_count": 2,
-          "salary_median": 32500,
-          "salary_avg": 32500
+          "salary_median": 44416,
+          "salary_avg": 44416
         }
       ]
     },
@@ -862,17 +862,6 @@
           "job_count": 2,
           "salary_median": 36250,
           "salary_avg": 36250
-        }
-      ]
-    },
-    {
-      "skill_id": "flask",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 2,
-          "salary_median": 44416,
-          "salary_avg": 44416
         }
       ]
     },
@@ -901,6 +890,28 @@
           "job_count": 1,
           "salary_median": 50000,
           "salary_avg": 50000
+        }
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 2,
+          "salary_median": 33750,
+          "salary_avg": 33750
+        }
+      ]
+    },
+    {
+      "skill_id": "semantic_kernel",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 2,
+          "salary_median": 32500,
+          "salary_avg": 32500
         }
       ]
     },
@@ -935,17 +946,6 @@
           "job_count": 1,
           "salary_median": 50000,
           "salary_avg": 50000
-        }
-      ]
-    },
-    {
-      "skill_id": "spring",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 2,
-          "salary_median": 33750,
-          "salary_avg": 33750
         }
       ]
     },
@@ -1028,9 +1028,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 63,
-          "salary_median": 109976,
-          "salary_avg": 110761
+          "job_count": 777,
+          "salary_median": 148020,
+          "salary_avg": 169438
         }
       ]
     },
@@ -1045,26 +1045,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 38,
-          "salary_median": 102687,
-          "salary_avg": 102442
-        }
-      ]
-    },
-    {
-      "skill_id": "generative_ai",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 79,
-          "salary_median": 114401,
-          "salary_avg": 111375
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 49,
-          "salary_median": 78203,
-          "salary_avg": 89052
+          "job_count": 459,
+          "salary_median": 150156,
+          "salary_avg": 190917
         }
       ]
     },
@@ -1079,553 +1062,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 14,
-          "salary_median": 61645,
-          "salary_avg": 68802
-        }
-      ]
-    },
-    {
-      "skill_id": "machine_learning",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 83,
-          "salary_median": 106519,
-          "salary_avg": 104307
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 12,
-          "salary_median": 101167,
-          "salary_avg": 123889
-        }
-      ]
-    },
-    {
-      "skill_id": "aws",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 76,
-          "salary_median": 96625,
-          "salary_avg": 109095
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 16,
-          "salary_median": 93552,
-          "salary_avg": 103611
-        }
-      ]
-    },
-    {
-      "skill_id": "prompt_engineering",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 56,
-          "salary_median": 114791,
-          "salary_avg": 113163
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 28,
-          "salary_median": 81497,
-          "salary_avg": 80743
-        }
-      ]
-    },
-    {
-      "skill_id": "data_analysis",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 70,
-          "salary_median": 105675,
-          "salary_avg": 94627
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 13,
-          "salary_median": 75756,
-          "salary_avg": 82912
-        }
-      ]
-    },
-    {
-      "skill_id": "pytorch",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 45,
-          "salary_median": 106507,
-          "salary_avg": 103601
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 31,
+          "job_count": 391,
           "salary_median": 108412,
-          "salary_avg": 109421
-        }
-      ]
-    },
-    {
-      "skill_id": "gcp",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 57,
-          "salary_median": 84213,
-          "salary_avg": 99583
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 14,
-          "salary_median": 142734,
-          "salary_avg": 124230
-        }
-      ]
-    },
-    {
-      "skill_id": "java",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 61,
-          "salary_median": 89494,
-          "salary_avg": 95924
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 10,
-          "salary_median": 114340,
-          "salary_avg": 113381
-        }
-      ]
-    },
-    {
-      "skill_id": "agent_architecture",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 63,
-          "salary_median": 114791,
-          "salary_avg": 119166
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 7,
-          "salary_median": 81562,
-          "salary_avg": 86734
-        }
-      ]
-    },
-    {
-      "skill_id": "azure",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 61,
-          "salary_median": 83844,
-          "salary_avg": 98048
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 6,
-          "salary_median": 80953,
-          "salary_avg": 85400
-        }
-      ]
-    },
-    {
-      "skill_id": "openai_api",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 19,
-          "salary_median": 90624,
-          "salary_avg": 85447
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 41,
-          "salary_median": 63437,
-          "salary_avg": 65514
-        }
-      ]
-    },
-    {
-      "skill_id": "tensorflow",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 31,
-          "salary_median": 96666,
-          "salary_avg": 98724
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 21,
-          "salary_median": 92428,
-          "salary_avg": 96250
-        }
-      ]
-    },
-    {
-      "skill_id": "cpp",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 41,
-          "salary_median": 109854,
-          "salary_avg": 109099
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 10,
-          "salary_median": 114369,
-          "salary_avg": 122791
-        }
-      ]
-    },
-    {
-      "skill_id": "react",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 39,
-          "salary_median": 83831,
-          "salary_avg": 93483
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 10,
-          "salary_median": 102697,
-          "salary_avg": 85507
-        }
-      ]
-    },
-    {
-      "skill_id": "anthropic_api",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 12,
-          "salary_median": 93625,
-          "salary_avg": 87498
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 36,
-          "salary_median": 53459,
-          "salary_avg": 60928
-        }
-      ]
-    },
-    {
-      "skill_id": "rag",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 33,
-          "salary_median": 96535,
-          "salary_avg": 105155
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 11,
-          "salary_median": 102687,
-          "salary_avg": 88305
-        }
-      ]
-    },
-    {
-      "skill_id": "ci_cd",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 30,
-          "salary_median": 110577,
-          "salary_avg": 117067
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 14,
-          "salary_median": 86104,
-          "salary_avg": 86580
-        }
-      ]
-    },
-    {
-      "skill_id": "csharp",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 36,
-          "salary_median": 83840,
-          "salary_avg": 92176
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 5,
-          "salary_median": 114369,
-          "salary_avg": 114358
-        }
-      ]
-    },
-    {
-      "skill_id": "deep_learning",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 32,
-          "salary_median": 123945,
-          "salary_avg": 102405
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 9,
-          "salary_median": 101483,
-          "salary_avg": 106926
-        }
-      ]
-    },
-    {
-      "skill_id": "git",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 35,
-          "salary_median": 83828,
-          "salary_avg": 83633
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 4,
-          "salary_median": 72593,
-          "salary_avg": 72593
-        }
-      ]
-    },
-    {
-      "skill_id": "mlops",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 35,
-          "salary_median": 121420,
-          "salary_avg": 123285
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 3,
-          "salary_median": 92428,
-          "salary_avg": 102569
-        }
-      ]
-    },
-    {
-      "skill_id": "docker",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 22,
-          "salary_median": 99583,
-          "salary_avg": 101756
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 15,
-          "salary_median": 92428,
-          "salary_avg": 92487
-        }
-      ]
-    },
-    {
-      "skill_id": "nodejs",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 30,
-          "salary_median": 83829,
-          "salary_avg": 85339
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 5,
-          "salary_median": 114791,
-          "salary_avg": 112973
-        }
-      ]
-    },
-    {
-      "skill_id": "reinforcement_learning",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 25,
-          "salary_median": 96436,
-          "salary_avg": 100937
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 9,
-          "salary_median": 189406,
-          "salary_avg": 165015
-        }
-      ]
-    },
-    {
-      "skill_id": "langchain",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 24,
-          "salary_median": 114791,
-          "salary_avg": 94206
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 9,
-          "salary_median": 97557,
-          "salary_avg": 87674
-        }
-      ]
-    },
-    {
-      "skill_id": "microservices",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 30,
-          "salary_median": 83828,
-          "salary_avg": 91266
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 3,
-          "salary_median": 118827,
-          "salary_avg": 118827
-        }
-      ]
-    },
-    {
-      "skill_id": "golang",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 25,
-          "salary_median": 83831,
-          "salary_avg": 88634
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 8,
-          "salary_median": 114333,
-          "salary_avg": 109842
-        }
-      ]
-    },
-    {
-      "skill_id": "kubernetes",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 20,
-          "salary_median": 121478,
-          "salary_avg": 115558
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 10,
-          "salary_median": 108412,
-          "salary_avg": 115280
-        }
-      ]
-    },
-    {
-      "skill_id": "nlp",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 19,
-          "salary_median": 147360,
-          "salary_avg": 111947
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 11,
-          "salary_median": 92428,
-          "salary_avg": 93657
-        }
-      ]
-    },
-    {
-      "skill_id": "vector_database",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 27,
-          "salary_median": 101005,
-          "salary_avg": 101291
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 72593,
-          "salary_avg": 72593
-        }
-      ]
-    },
-    {
-      "skill_id": "distributed_systems",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 21,
-          "salary_median": 110708,
-          "salary_avg": 120907
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 8,
-          "salary_median": 145000,
-          "salary_avg": 137407
-        }
-      ]
-    },
-    {
-      "skill_id": "computer_vision",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 15,
-          "salary_median": 83845,
-          "salary_avg": 85157
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 12,
-          "salary_median": 69600,
-          "salary_avg": 117958
-        }
-      ]
-    },
-    {
-      "skill_id": "fine_tuning",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 16,
-          "salary_median": 142618,
-          "salary_avg": 127163
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 10,
-          "salary_median": 189406,
-          "salary_avg": 176008
+          "salary_avg": 138147
         }
       ]
     },
@@ -1640,9 +1079,230 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 13,
+          "job_count": 353,
           "salary_median": 113281,
-          "salary_avg": 91991
+          "salary_avg": 126135
+        }
+      ]
+    },
+    {
+      "skill_id": "aws",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 76,
+          "salary_median": 96625,
+          "salary_avg": 109095
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 284,
+          "salary_median": 135937,
+          "salary_avg": 160150
+        }
+      ]
+    },
+    {
+      "skill_id": "react",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 39,
+          "salary_median": 83831,
+          "salary_avg": 93483
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 305,
+          "salary_median": 104974,
+          "salary_avg": 123549
+        }
+      ]
+    },
+    {
+      "skill_id": "machine_learning",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 83,
+          "salary_median": 106519,
+          "salary_avg": 104307
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 238,
+          "salary_median": 164130,
+          "salary_avg": 189225
+        }
+      ]
+    },
+    {
+      "skill_id": "kubernetes",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 20,
+          "salary_median": 121478,
+          "salary_avg": 115558
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 247,
+          "salary_median": 187291,
+          "salary_avg": 203712
+        }
+      ]
+    },
+    {
+      "skill_id": "gcp",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 57,
+          "salary_median": 84213,
+          "salary_avg": 99583
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 151,
+          "salary_median": 179739,
+          "salary_avg": 181518
+        }
+      ]
+    },
+    {
+      "skill_id": "distributed_systems",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 21,
+          "salary_median": 110708,
+          "salary_avg": 120907
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 186,
+          "salary_median": 213463,
+          "salary_avg": 337125
+        }
+      ]
+    },
+    {
+      "skill_id": "golang",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 25,
+          "salary_median": 83831,
+          "salary_avg": 88634
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 168,
+          "salary_median": 135937,
+          "salary_avg": 162960
+        }
+      ]
+    },
+    {
+      "skill_id": "generative_ai",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 79,
+          "salary_median": 114401,
+          "salary_avg": 111375
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 108,
+          "salary_median": 109920,
+          "salary_avg": 107255
+        }
+      ]
+    },
+    {
+      "skill_id": "pytorch",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 45,
+          "salary_median": 106507,
+          "salary_avg": 103601
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 135,
+          "salary_median": 128662,
+          "salary_avg": 162119
+        }
+      ]
+    },
+    {
+      "skill_id": "data_analysis",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 70,
+          "salary_median": 105675,
+          "salary_avg": 94627
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 106,
+          "salary_median": 157083,
+          "salary_avg": 171000
+        }
+      ]
+    },
+    {
+      "skill_id": "azure",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 61,
+          "salary_median": 83844,
+          "salary_avg": 98048
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 105,
+          "salary_median": 163125,
+          "salary_avg": 197761
+        }
+      ]
+    },
+    {
+      "skill_id": "rust",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 4,
+          "salary_median": 72500,
+          "salary_avg": 72500
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 162,
+          "salary_median": 187291,
+          "salary_avg": 280753
+        }
+      ]
+    },
+    {
+      "skill_id": "cpp",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 41,
+          "salary_median": 109854,
+          "salary_avg": 109099
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 99,
+          "salary_median": 123833,
+          "salary_avg": 227896
         }
       ]
     },
@@ -1657,94 +1317,111 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 8,
-          "salary_median": 80256,
-          "salary_avg": 83519
+          "job_count": 129,
+          "salary_median": 108412,
+          "salary_avg": 109839
         }
       ]
     },
     {
-      "skill_id": "devops",
+      "skill_id": "nodejs",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 16,
-          "salary_median": 81562,
-          "salary_avg": 89432
+          "job_count": 30,
+          "salary_median": 83829,
+          "salary_avg": 85339
         },
         {
           "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 69324,
-          "salary_avg": 69324
+          "job_count": 107,
+          "salary_median": 96666,
+          "salary_avg": 97590
         }
       ]
     },
     {
-      "skill_id": "langgraph",
+      "skill_id": "java",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 16,
-          "salary_median": 93864,
-          "salary_avg": 100075
+          "job_count": 61,
+          "salary_median": 89494,
+          "salary_avg": 95924
         },
         {
           "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 103609,
-          "salary_avg": 103609
+          "job_count": 71,
+          "salary_median": 141510,
+          "salary_avg": 158660
         }
       ]
     },
     {
-      "skill_id": "huggingface",
+      "skill_id": "ci_cd",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 8,
-          "salary_median": 101198,
-          "salary_avg": 109450
+          "job_count": 30,
+          "salary_median": 110577,
+          "salary_avg": 117067
         },
         {
           "month": "2026-04-01",
-          "job_count": 8,
-          "salary_median": 118827,
-          "salary_avg": 132932
+          "job_count": 100,
+          "salary_median": 131406,
+          "salary_avg": 147597
         }
       ]
     },
     {
-      "skill_id": "agile",
+      "skill_id": "docker",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 13,
-          "salary_median": 105569,
-          "salary_avg": 93980
+          "job_count": 22,
+          "salary_median": 99583,
+          "salary_avg": 101756
         },
         {
           "month": "2026-04-01",
-          "job_count": 3,
-          "salary_median": null,
-          "salary_avg": null
+          "job_count": 107,
+          "salary_median": 99687,
+          "salary_avg": 118940
         }
       ]
     },
     {
-      "skill_id": "gemini_api",
+      "skill_id": "agent_architecture",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 2,
-          "salary_median": 115114,
-          "salary_avg": 115114
+          "job_count": 63,
+          "salary_median": 114791,
+          "salary_avg": 119166
         },
         {
           "month": "2026-04-01",
-          "job_count": 14,
-          "salary_median": 68723,
-          "salary_avg": 66300
+          "job_count": 62,
+          "salary_median": 120833,
+          "salary_avg": 242315
+        }
+      ]
+    },
+    {
+      "skill_id": "prompt_engineering",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 56,
+          "salary_median": 114791,
+          "salary_avg": 113163
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 62,
+          "salary_median": 121442,
+          "salary_avg": 159104
         }
       ]
     },
@@ -1759,9 +1436,128 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 6,
-          "salary_median": 55885,
-          "salary_avg": 69466
+          "job_count": 99,
+          "salary_median": 102708,
+          "salary_avg": 105664
+        }
+      ]
+    },
+    {
+      "skill_id": "openai_api",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 19,
+          "salary_median": 90624,
+          "salary_avg": 85447
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 86,
+          "salary_median": 73507,
+          "salary_avg": 71042
+        }
+      ]
+    },
+    {
+      "skill_id": "tensorflow",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 31,
+          "salary_median": 96666,
+          "salary_avg": 98724
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 71,
+          "salary_median": 107043,
+          "salary_avg": 117676
+        }
+      ]
+    },
+    {
+      "skill_id": "anthropic_api",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 12,
+          "salary_median": 93625,
+          "salary_avg": 87498
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 78,
+          "salary_median": 96667,
+          "salary_avg": 140052
+        }
+      ]
+    },
+    {
+      "skill_id": "reinforcement_learning",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 25,
+          "salary_median": 96436,
+          "salary_avg": 100937
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 65,
+          "salary_median": 189406,
+          "salary_avg": 222690
+        }
+      ]
+    },
+    {
+      "skill_id": "rag",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 33,
+          "salary_median": 96535,
+          "salary_avg": 105155
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 56,
+          "salary_median": 102687,
+          "salary_avg": 89120
+        }
+      ]
+    },
+    {
+      "skill_id": "deep_learning",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 32,
+          "salary_median": 123945,
+          "salary_avg": 102405
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 44,
+          "salary_median": 128385,
+          "salary_avg": 153543
+        }
+      ]
+    },
+    {
+      "skill_id": "git",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 35,
+          "salary_median": 83828,
+          "salary_avg": 83633
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 34,
+          "salary_median": 95447,
+          "salary_avg": 106438
         }
       ]
     },
@@ -1776,150 +1572,128 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 10,
-          "salary_median": 55885,
-          "salary_avg": 60397
+          "job_count": 66,
+          "salary_median": 93645,
+          "salary_avg": 100862
         }
       ]
     },
     {
-      "skill_id": "multimodal_ai",
+      "skill_id": "fine_tuning",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 10,
-          "salary_median": 126559,
-          "salary_avg": 132669
+          "job_count": 16,
+          "salary_median": 142618,
+          "salary_avg": 127163
         },
         {
           "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 85337,
-          "salary_avg": 85337
+          "job_count": 48,
+          "salary_median": 189406,
+          "salary_avg": 220448
         }
       ]
     },
     {
-      "skill_id": "crewai",
+      "skill_id": "nlp",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 11,
-          "salary_median": 93853,
-          "salary_avg": 93822
+          "job_count": 19,
+          "salary_median": 147360,
+          "salary_avg": 111947
         },
         {
           "month": "2026-04-01",
-          "job_count": 1,
+          "job_count": 43,
+          "salary_median": 114333,
+          "salary_avg": 124246
+        }
+      ]
+    },
+    {
+      "skill_id": "csharp",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 36,
+          "salary_median": 83840,
+          "salary_avg": 92176
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 22,
+          "salary_median": 114369,
+          "salary_avg": 114358
+        }
+      ]
+    },
+    {
+      "skill_id": "langchain",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 24,
           "salary_median": 114791,
-          "salary_avg": 114791
+          "salary_avg": 94206
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 31,
+          "salary_median": 84583,
+          "salary_avg": 78452
         }
       ]
     },
     {
-      "skill_id": "llamaindex",
+      "skill_id": "huggingface",
       "series": [
         {
           "month": "2026-03-01",
           "job_count": 8,
-          "salary_median": 71920,
-          "salary_avg": 71920
+          "salary_median": 101198,
+          "salary_avg": 109450
         },
         {
           "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 75456,
-          "salary_avg": 75456
+          "job_count": 43,
+          "salary_median": 147466,
+          "salary_avg": 188465
         }
       ]
     },
     {
-      "skill_id": "flask",
+      "skill_id": "devops",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 5,
-          "salary_median": null,
-          "salary_avg": null
+          "job_count": 16,
+          "salary_median": 81562,
+          "salary_avg": 89432
         },
         {
           "month": "2026-04-01",
-          "job_count": 4,
-          "salary_median": null,
-          "salary_avg": null
+          "job_count": 33,
+          "salary_median": 98327,
+          "salary_avg": 114760
         }
       ]
     },
     {
-      "skill_id": "autogen",
+      "skill_id": "computer_vision",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 7,
-          "salary_median": 93853,
-          "salary_avg": 93822
+          "job_count": 15,
+          "salary_median": 83845,
+          "salary_avg": 85157
         },
         {
           "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": null,
-          "salary_avg": null
-        }
-      ]
-    },
-    {
-      "skill_id": "function_calling",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 8,
-          "salary_median": 105729,
-          "salary_avg": 112418
-        }
-      ]
-    },
-    {
-      "skill_id": "pinecone",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 4,
-          "salary_median": 151041,
-          "salary_avg": 151041
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 108412,
-          "salary_avg": 108412
-        }
-      ]
-    },
-    {
-      "skill_id": "vue",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 1,
-          "salary_median": null,
-          "salary_avg": null
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 4,
-          "salary_median": 113281,
-          "salary_avg": 110632
-        }
-      ]
-    },
-    {
-      "skill_id": "rust",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 4,
-          "salary_median": 72500,
-          "salary_avg": 72500
+          "job_count": 32,
+          "salary_median": 111771,
+          "salary_avg": 136873
         }
       ]
     },
@@ -1934,9 +1708,343 @@
         },
         {
           "month": "2026-04-01",
+          "job_count": 44,
+          "salary_median": 89114,
+          "salary_avg": 102537
+        }
+      ]
+    },
+    {
+      "skill_id": "vector_database",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 27,
+          "salary_median": 101005,
+          "salary_avg": 101291
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 17,
+          "salary_median": 73557,
+          "salary_avg": 98678
+        }
+      ]
+    },
+    {
+      "skill_id": "flask",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 5,
+          "salary_median": null,
+          "salary_avg": null
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 38,
+          "salary_median": 96666,
+          "salary_avg": 102748
+        }
+      ]
+    },
+    {
+      "skill_id": "mlops",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 35,
+          "salary_median": 121420,
+          "salary_avg": 123285
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 6,
+          "salary_median": 120833,
+          "salary_avg": 111385
+        }
+      ]
+    },
+    {
+      "skill_id": "microservices",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 30,
+          "salary_median": 83828,
+          "salary_avg": 91266
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 9,
+          "salary_median": 120833,
+          "salary_avg": 135135
+        }
+      ]
+    },
+    {
+      "skill_id": "langgraph",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 16,
+          "salary_median": 93864,
+          "salary_avg": 100075
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 11,
+          "salary_median": 88714,
+          "salary_avg": 78341
+        }
+      ]
+    },
+    {
+      "skill_id": "gemini_api",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 2,
+          "salary_median": 115114,
+          "salary_avg": 115114
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 20,
+          "salary_median": 77133,
+          "salary_avg": 71177
+        }
+      ]
+    },
+    {
+      "skill_id": "vue",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 1,
+          "salary_median": null,
+          "salary_avg": null
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 19,
+          "salary_median": 113281,
+          "salary_avg": 110004
+        }
+      ]
+    },
+    {
+      "skill_id": "llamaindex",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 8,
+          "salary_median": 71920,
+          "salary_avg": 71920
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 11,
+          "salary_median": 75456,
+          "salary_avg": 75456
+        }
+      ]
+    },
+    {
+      "skill_id": "agile",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 13,
+          "salary_median": 105569,
+          "salary_avg": 93980
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 5,
+          "salary_median": 73557,
+          "salary_avg": 73557
+        }
+      ]
+    },
+    {
+      "skill_id": "multimodal_ai",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 10,
+          "salary_median": 126559,
+          "salary_avg": 132669
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 8,
+          "salary_median": 108133,
+          "salary_avg": 92936
+        }
+      ]
+    },
+    {
+      "skill_id": "function_calling",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 8,
+          "salary_median": 105729,
+          "salary_avg": 112418
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 6,
+          "salary_median": 84583,
+          "salary_avg": 84583
+        }
+      ]
+    },
+    {
+      "skill_id": "crewai",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 11,
+          "salary_median": 93853,
+          "salary_avg": 93822
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": 114791,
+          "salary_avg": 114791
+        }
+      ]
+    },
+    {
+      "skill_id": "autogen",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 7,
+          "salary_median": 93853,
+          "salary_avg": 93822
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 4,
+          "salary_median": null,
+          "salary_avg": null
+        }
+      ]
+    },
+    {
+      "skill_id": "pinecone",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 4,
+          "salary_median": 151041,
+          "salary_avg": 151041
+        },
+        {
+          "month": "2026-04-01",
           "job_count": 3,
-          "salary_median": 86083,
-          "salary_avg": 86083
+          "salary_median": 96666,
+          "salary_avg": 100581
+        }
+      ]
+    },
+    {
+      "skill_id": "mcp",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 1,
+          "salary_median": null,
+          "salary_avg": null
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 4,
+          "salary_median": null,
+          "salary_avg": null
+        }
+      ]
+    },
+    {
+      "skill_id": "spring",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 2,
+          "salary_median": 47335,
+          "salary_avg": 47335
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 3,
+          "salary_median": 131459,
+          "salary_avg": 131459
+        }
+      ]
+    },
+    {
+      "skill_id": "vercel_ai_sdk",
+      "series": [
+        {
+          "month": "2026-04-01",
+          "job_count": 4,
+          "salary_median": 114791,
+          "salary_avg": 114791
+        }
+      ]
+    },
+    {
+      "skill_id": "multi_agent",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 1,
+          "salary_median": 72500,
+          "salary_avg": 72500
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": null,
+          "salary_avg": null
+        }
+      ]
+    },
+    {
+      "skill_id": "pgvector",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 2,
+          "salary_median": 132916,
+          "salary_avg": 132916
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": null,
+          "salary_avg": null
+        }
+      ]
+    },
+    {
+      "skill_id": "milvus",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 1,
+          "salary_median": null,
+          "salary_avg": null
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": 108412,
+          "salary_avg": 108412
         }
       ]
     },
@@ -1952,18 +2060,7 @@
       ]
     },
     {
-      "skill_id": "pgvector",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 2,
-          "salary_median": 132916,
-          "salary_avg": 132916
-        }
-      ]
-    },
-    {
-      "skill_id": "milvus",
+      "skill_id": "semantic_kernel",
       "series": [
         {
           "month": "2026-03-01",
@@ -1973,50 +2070,6 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 108412,
-          "salary_avg": 108412
-        }
-      ]
-    },
-    {
-      "skill_id": "spring",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 2,
-          "salary_median": 47335,
-          "salary_avg": 47335
-        }
-      ]
-    },
-    {
-      "skill_id": "multi_agent",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 1,
-          "salary_median": 72500,
-          "salary_avg": 72500
-        }
-      ]
-    },
-    {
-      "skill_id": "mcp",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 1,
-          "salary_median": null,
-          "salary_avg": null
-        }
-      ]
-    },
-    {
-      "skill_id": "semantic_kernel",
-      "series": [
-        {
-          "month": "2026-03-01",
           "job_count": 1,
           "salary_median": null,
           "salary_avg": null
@@ -2031,6 +2084,12 @@
           "job_count": 1,
           "salary_median": null,
           "salary_avg": null
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": null,
+          "salary_avg": null
         }
       ]
     },
@@ -2042,17 +2101,6 @@
           "job_count": 1,
           "salary_median": null,
           "salary_avg": null
-        }
-      ]
-    },
-    {
-      "skill_id": "vercel_ai_sdk",
-      "series": [
-        {
-          "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 114791,
-          "salary_avg": 114791
         }
       ]
     }

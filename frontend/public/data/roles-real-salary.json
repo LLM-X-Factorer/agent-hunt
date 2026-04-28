@@ -28,14 +28,14 @@
         "sample_size": 357
       },
       "jd_asking_rmb_monthly": {
-        "p25": 83828,
-        "p50": 106507,
-        "p75": 128092,
-        "min": 18000,
-        "max": 189406,
-        "sample_size": 73
+        "p25": 83831,
+        "p50": 113281,
+        "p75": 173999,
+        "min": 11600,
+        "max": 1963541,
+        "sample_size": 233
       },
-      "gap_pct": 128.6,
+      "gap_pct": 114.9,
       "sample_companies": [
         "Anthropic",
         "Google",
@@ -73,14 +73,14 @@
         "sample_size": 203
       },
       "jd_asking_rmb_monthly": {
-        "p25": 92606,
-        "p50": 107481,
-        "p75": 125062,
+        "p25": 101468,
+        "p50": 119729,
+        "p75": 142000,
         "min": 27500,
         "max": 258020,
-        "sample_size": 55
+        "sample_size": 65
       },
-      "gap_pct": 137.5,
+      "gap_pct": 113.2,
       "sample_companies": [
         "Google",
         "Meta",
@@ -115,14 +115,14 @@
         "sample_size": 164
       },
       "jd_asking_rmb_monthly": {
-        "p25": 81562,
-        "p50": 113281,
-        "p75": 141979,
+        "p25": 96667,
+        "p50": 112224,
+        "p75": 157083,
         "min": 48589,
         "max": 270616,
-        "sample_size": 5
+        "sample_size": 12
       },
-      "gap_pct": 125.3,
+      "gap_pct": 127.4,
       "sample_companies": [
         "Google",
         "Meta",
@@ -502,11 +502,11 @@
           "count": 10
         },
         {
-          "level": "IC3",
+          "level": "IC5",
           "count": 9
         },
         {
-          "level": "IC5",
+          "level": "IC3",
           "count": 9
         }
       ]

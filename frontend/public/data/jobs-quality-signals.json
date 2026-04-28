@@ -1,6 +1,6 @@
 {
   "overall": {
-    "total": 3083,
+    "total": 5980,
     "reposted": 0,
     "repost_ratio": 0.0,
     "closed": 0,
@@ -8,31 +8,23 @@
   },
   "by_market": [
     {
-      "total": 2024,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "market": "domestic"
-    },
-    {
-      "total": 767,
+      "total": 3366,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
       "market": "international"
-    }
-  ],
-  "by_platform": [
+    },
     {
-      "total": 1971,
+      "total": 2235,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "platform": "liepin"
-    },
+      "market": "domestic"
+    }
+  ],
+  "by_platform": [
     {
       "total": 278,
       "reposted": 0,
@@ -42,12 +34,12 @@
       "platform": "indeed"
     },
     {
-      "total": 488,
+      "total": 1971,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "platform": "linkedin"
+      "platform": "liepin"
     },
     {
       "total": 329,
@@ -58,41 +50,73 @@
       "platform": "boss_zhipin"
     },
     {
+      "total": 488,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "linkedin"
+    },
+    {
       "total": 17,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
       "platform": "lagou"
+    },
+    {
+      "total": 1365,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "community_hn_wih"
+    },
+    {
+      "total": 653,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_openai"
+    },
+    {
+      "total": 452,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_anthropic"
+    },
+    {
+      "total": 230,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_xai"
+    },
+    {
+      "total": 82,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_deepmind"
+    },
+    {
+      "total": 115,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_cohere"
     }
   ],
   "by_industry": [
     {
-      "total": 125,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "education"
-    },
-    {
-      "total": 245,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "finance"
-    },
-    {
-      "total": 304,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "manufacturing"
-    },
-    {
-      "total": 1086,
+      "total": 3084,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -100,15 +124,31 @@
       "industry": "internet"
     },
     {
-      "total": 97,
+      "total": 363,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "industry": "media"
+      "industry": "finance"
     },
     {
-      "total": 232,
+      "total": 390,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "manufacturing"
+    },
+    {
+      "total": 153,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "education"
+    },
+    {
+      "total": 370,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -116,39 +156,7 @@
       "industry": "healthcare"
     },
     {
-      "total": 215,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "consulting"
-    },
-    {
-      "total": 10,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "government"
-    },
-    {
-      "total": 218,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "automotive"
-    },
-    {
-      "total": 59,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "other"
-    },
-    {
-      "total": 151,
+      "total": 211,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -156,7 +164,23 @@
       "industry": "retail"
     },
     {
-      "total": 22,
+      "total": 248,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "consulting"
+    },
+    {
+      "total": 232,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "automotive"
+    },
+    {
+      "total": 25,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -164,31 +188,47 @@
       "industry": "telecom"
     },
     {
-      "total": 23,
+      "total": 254,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "media"
+    },
+    {
+      "total": 181,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "other"
+    },
+    {
+      "total": 56,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
       "industry": "energy"
+    },
+    {
+      "total": 25,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "government"
+    },
+    {
+      "total": 1,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "insurance"
     }
   ],
   "top_reposting_companies": [
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某北京大型人工智能公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "阿里云智能"
-    },
     {
       "total": 9,
       "reposted": 0,
@@ -198,124 +238,20 @@
       "company": "Cisco"
     },
     {
-      "total": 6,
+      "total": 9,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "友邦资讯科技(广州)有限公司"
+      "company": "某成都IT服务公司"
     },
     {
-      "total": 7,
+      "total": 68,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "某北京互联网公司"
-    },
-    {
-      "total": 12,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "德勤Deloitte"
-    },
-    {
-      "total": 16,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某北京大型互联网公司"
-    },
-    {
-      "total": 12,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某大型知名互联网公司"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "FutureSight"
-    },
-    {
-      "total": 19,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Meta"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某知名互联网公司"
-    },
-    {
-      "total": 18,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "ByteDance"
-    },
-    {
-      "total": 27,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "字节跳动"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Wells Fargo"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Mind Friend"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某上海基金/证券/期货公司"
-    },
-    {
-      "total": 18,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Varsity Tutors, a Nerdy Company"
-    },
-    {
-      "total": 11,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "蚂蚁集团"
+      "company": "某知名公司"
     },
     {
       "total": 7,
@@ -326,12 +262,44 @@
       "company": "思特沃克软件技术(西安)有限公司"
     },
     {
-      "total": 6,
+      "total": 12,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "上海汽车集团股份有限公司乘用车分公司"
+      "company": "德勤Deloitte"
+    },
+    {
+      "total": 7,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京互联网公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "LiveKit"
+    },
+    {
+      "total": 14,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某杭州互联网上市公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "探迹科技"
     },
     {
       "total": 8,
@@ -347,31 +315,7 @@
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "探迹科技"
-    },
-    {
-      "total": 66,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某知名公司"
-    },
-    {
-      "total": 17,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Google"
-    },
-    {
-      "total": 8,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某知名上市公司"
+      "company": "Michael Page"
     },
     {
       "total": 6,
@@ -379,7 +323,23 @@
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "PayPal"
+      "company": "Microsoft"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "万兴科技"
+    },
+    {
+      "total": 10,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "JPMorganChase"
     },
     {
       "total": 20,
@@ -388,6 +348,30 @@
       "closed": 0,
       "avg_close_days": null,
       "company": "Deloitte"
+    },
+    {
+      "total": 52,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Amazon.com"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "中控技术"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "PayPal"
     },
     {
       "total": 5,
@@ -406,28 +390,28 @@
       "company": "梅赛德斯-奔驰"
     },
     {
-      "total": 10,
+      "total": 12,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "JPMorganChase"
+      "company": "某大型知名互联网公司"
     },
     {
-      "total": 52,
+      "total": 9,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Amazon.com"
+      "company": "某知名上市公司"
     },
     {
-      "total": 6,
+      "total": 27,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "某深圳大型智能硬件公司"
+      "company": "字节跳动"
     },
     {
       "total": 6,
@@ -438,28 +422,20 @@
       "company": "某上海大型基金/证券/期货公司"
     },
     {
-      "total": 16,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "ComfyUI"
-    },
-    {
       "total": 5,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "某上海专业技术服务公司"
+      "company": "某上海基金/证券/期货公司"
     },
     {
-      "total": 5,
+      "total": 6,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "中控技术"
+      "company": "某深圳大型智能硬件公司"
     },
     {
       "total": 11,
@@ -470,15 +446,31 @@
       "company": "某北京云计算/大数据公司"
     },
     {
-      "total": 14,
+      "total": 17,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "某杭州互联网上市公司"
+      "company": "ComfyUI"
+    },
+    {
+      "total": 652,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "OpenAI"
     },
     {
       "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "北京深度智耀科技有限公司"
+    },
+    {
+      "total": 6,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -491,15 +483,7 @@
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "北京深度智耀科技有限公司"
-    },
-    {
-      "total": 9,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某成都IT服务公司"
+      "company": "Baidu"
     },
     {
       "total": 5,
@@ -510,12 +494,20 @@
       "company": "方正证券"
     },
     {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某上海专业技术服务公司"
+    },
+    {
       "total": 5,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Baidu"
+      "company": "京东物流"
     },
     {
       "total": 8,
@@ -531,15 +523,15 @@
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "京东物流"
+      "company": "中煤科工集团重庆研究院有限公司"
     },
     {
-      "total": 5,
+      "total": 18,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "中煤科工集团重庆研究院有限公司"
+      "company": "ByteDance"
     },
     {
       "total": 5,
@@ -563,15 +555,79 @@
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
+      "company": "某知名互联网公司"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Radar Labs"
+    },
+    {
+      "total": 16,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京大型互联网公司"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
       "company": "某合肥互联网上市公司"
     },
     {
-      "total": 7,
+      "total": 9,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
       "company": "某北京人工智能公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "MixRank"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "阿里云智能"
+    },
+    {
+      "total": 11,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "蚂蚁集团"
+    },
+    {
+      "total": 6,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "某北京大型人工智能公司"
+    },
+    {
+      "total": 5,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Stellar Science"
     }
   ],
   "config": {

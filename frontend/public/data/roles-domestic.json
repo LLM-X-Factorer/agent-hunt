@@ -1,15 +1,15 @@
 [
   {
-    "job_count": 482,
+    "job_count": 643,
     "sample_titles": [
+      "AI智能获客",
+      "售后支持",
+      "教研员",
+      "AI研究院院长",
       "AI 团队 Leader - Agent 方向",
       "AI Application Engineer (LLM/Agent Direction)",
-      "工程高级经理",
       "电商资深商品主管/经理",
-      "Financial AI Quantitative Analyst",
-      "金融直客",
-      "金融企业贷AI机器人辅助",
-      "Product Marketing Manager"
+      "ComfyUI工作流设计师、AI动画设计师"
     ],
     "required_skills": [
       {
@@ -66,11 +66,11 @@
     "salary": {
       "min": 2580,
       "max": 230000,
-      "median": 22500,
-      "avg": 27814,
-      "p25": 11500,
-      "p75": 35000,
-      "sample_size": 435
+      "median": 20000,
+      "avg": 24690,
+      "p25": 10500,
+      "p75": 30000,
+      "sample_size": 595
     },
     "experience": {
       "min_range": [
@@ -78,65 +78,67 @@
         10
       ],
       "median_min": 3,
-      "avg_min": 2.8,
-      "sample_size": 474
+      "avg_min": 2.7,
+      "sample_size": 575
     },
     "education": {
-      "bachelor": 287,
-      "any": 148,
+      "bachelor": 371,
+      "any": 189,
       "master": 36,
-      "phd": 11
+      "unspecified": 32,
+      "phd": 11,
+      "associate": 4
     },
     "work_mode": {
-      "unknown": 456,
-      "onsite": 21,
-      "remote": 3,
+      "unknown": 597,
+      "onsite": 32,
+      "remote": 12,
       "hybrid": 1,
       "null": 1
     },
     "top_companies": [
-      "51WORLD",
       "某知名公司",
+      "51WORLD",
       "科大讯飞",
-      "某北京云计算/大数据公司",
-      "嘉兴新模文化传媒有限公司"
+      "嘉兴新模文化传媒有限公司",
+      "某北京云计算/大数据公司"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 187
+        "count": 212
       },
       {
-        "industry": "manufacturing",
-        "count": 51
+        "industry": "media",
+        "count": 97
       },
       {
         "industry": "retail",
-        "count": 51
+        "count": 75
       },
       {
-        "industry": "consulting",
-        "count": 40
+        "industry": "manufacturing",
+        "count": 65
       },
       {
         "industry": "finance",
-        "count": 40
+        "count": 41
       }
     ],
     "role_id": "other",
     "role_name": "其他"
   },
   {
-    "job_count": 426,
+    "job_count": 437,
     "sample_titles": [
-      "LLM/AI Agent开发工程师",
-      "AI Agent 应用工程师",
-      "AI Agent高级产品经理",
+      "医疗AI售前工程师",
       "AI Agent 产品经理",
-      "AI Engineer-AI 开发工程师",
       "AI-Agent开发运营",
-      "AI助理工程师 / AI Associate Engineer",
-      "AI Agent平台研发工程师"
+      "AI Engineer-AI 开发工程师",
+      "AI产品开发",
+      "LLM Algorithm Engineer",
+      "Industrial AI LLM Algorithm Expert",
+      "AI智能体构建"
     ],
     "required_skills": [
       {
@@ -164,11 +166,11 @@
         "count": 14
       },
       {
-        "skill_id": "golang",
+        "skill_id": "multimodal_ai",
         "count": 11
       },
       {
-        "skill_id": "multimodal_ai",
+        "skill_id": "golang",
         "count": 11
       },
       {
@@ -198,10 +200,10 @@
       "min": 3850,
       "max": 241666,
       "median": 32500,
-      "avg": 39639,
+      "avg": 39132,
       "p25": 20000,
       "p75": 50000,
-      "sample_size": 406
+      "sample_size": 417
     },
     "experience": {
       "min_range": [
@@ -210,16 +212,17 @@
       ],
       "median_min": 3,
       "avg_min": 2.9,
-      "sample_size": 422
+      "sample_size": 431
     },
     "education": {
-      "bachelor": 290,
+      "bachelor": 298,
       "master": 78,
-      "any": 54,
-      "phd": 4
+      "any": 56,
+      "phd": 4,
+      "unspecified": 1
     },
     "work_mode": {
-      "unknown": 400,
+      "unknown": 411,
       "onsite": 24,
       "remote": 2
     },
@@ -233,11 +236,11 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 201
+        "count": 204
       },
       {
         "industry": "manufacturing",
-        "count": 57
+        "count": 59
       },
       {
         "industry": "automotive",
@@ -256,16 +259,16 @@
     "role_name": "AI/LLM 工程师"
   },
   {
-    "job_count": 293,
+    "job_count": 301,
     "sample_titles": [
-      "AI产品策划（LLM记忆与交互方向）",
-      "AI产品经理（AIGC/跨境电商方向）",
+      "产品负责人",
       "AI LLM Product Manager",
-      "高级产品经理（AI方向）",
+      "AI教育产品经理",
+      "Product and Digital Manager",
       "行业通用智能体产品经理（toB/toG）",
-      "AI策略产品经理（LLM应用方向）",
-      "电商AI产品经理",
-      "AI Product Manager (LLM AIGC)"
+      "产品经理",
+      "高级产品经理（AI方向）",
+      "AI Product Manager (Smart Manufacturing)"
     ],
     "required_skills": [
       {
@@ -331,10 +334,10 @@
       "min": 5500,
       "max": 165000,
       "median": 35000,
-      "avg": 39814,
+      "avg": 39371,
       "p25": 22500,
       "p75": 45000,
-      "sample_size": 281
+      "sample_size": 289
     },
     "experience": {
       "min_range": [
@@ -343,17 +346,17 @@
       ],
       "median_min": 3,
       "avg_min": 3.4,
-      "sample_size": 292
+      "sample_size": 297
     },
     "education": {
-      "bachelor": 236,
+      "bachelor": 244,
       "any": 40,
       "master": 16,
       "unspecified": 1
     },
     "work_mode": {
-      "unknown": 291,
-      "onsite": 2
+      "unknown": 298,
+      "onsite": 3
     },
     "top_companies": [
       "字节跳动",
@@ -365,11 +368,11 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 142
+        "count": 145
       },
       {
         "industry": "manufacturing",
-        "count": 36
+        "count": 38
       },
       {
         "industry": "finance",
@@ -390,14 +393,14 @@
   {
     "job_count": 122,
     "sample_titles": [
-      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "工业AI算法专家",
+      "Scientist - AI, Digital and Robotics",
       "Plan& Control Algorithm Engineer 控制规划算法工程师",
-      "模型策略岗（LLM应用与数据分析）",
+      "AI Drug Discovery Scientist",
+      "Discovery Lab Analytical Automation Scientist",
       "AI量化研究助理",
       "券商AI量化研究岗",
-      "E2E Algorithm Architect",
-      "人工智能量化交易算法策略投研",
-      "AI算法专家"
+      "E2E Algorithm Architect"
     ],
     "required_skills": [
       {
@@ -405,19 +408,19 @@
         "count": 28
       },
       {
-        "skill_id": "python",
-        "count": 7
-      },
-      {
         "skill_id": "nlp",
         "count": 7
       },
       {
-        "skill_id": "tensorflow",
-        "count": 6
+        "skill_id": "python",
+        "count": 7
       },
       {
         "skill_id": "pytorch",
+        "count": 6
+      },
+      {
+        "skill_id": "tensorflow",
         "count": 6
       },
       {
@@ -504,16 +507,16 @@
     "role_name": "算法工程师/研究员"
   },
   {
-    "job_count": 118,
+    "job_count": 120,
     "sample_titles": [
-      "AI Customer Acquisition / Private Domain Traffic Generation",
-      "AI Sales",
-      "销售经理（人工智能、教育方向）",
-      "National Sales Director (Industrial AI)",
       "医疗器械销售代表",
-      "医疗器械销售代表-外周",
+      "AI Sales",
+      "AI Customer Acquisition / Private Domain Traffic Generation",
       "医疗AI销售",
-      "医疗器械销售代表-外周介入"
+      "National Sales Director (Industrial AI)",
+      "医疗AI产品销售",
+      "医疗AI一体机销售",
+      "医疗器械销售代表-外周"
     ],
     "required_skills": [
       {
@@ -528,12 +531,12 @@
     "preferred_skills": [],
     "salary": {
       "min": 5500,
-      "max": 137500,
+      "max": 157500,
       "median": 22500,
-      "avg": 33905,
+      "avg": 34786,
       "p25": 15000,
       "p75": 45000,
-      "sample_size": 114
+      "sample_size": 116
     },
     "experience": {
       "min_range": [
@@ -542,15 +545,16 @@
       ],
       "median_min": 3,
       "avg_min": 3.6,
-      "sample_size": 118
+      "sample_size": 119
     },
     "education": {
-      "bachelor": 70,
+      "bachelor": 71,
       "any": 47,
-      "master": 1
+      "master": 1,
+      "unspecified": 1
     },
     "work_mode": {
-      "unknown": 115,
+      "unknown": 117,
       "onsite": 2,
       "remote": 1
     },
@@ -587,16 +591,16 @@
     "role_name": "AI 销售/商务"
   },
   {
-    "job_count": 110,
+    "job_count": 117,
     "sample_titles": [
-      "大模型战略分析/投资专家",
-      "投资总监-医疗AI方向",
+      "AI量化项目技术负责人 (TPM)",
+      "AI Quant Partner (Factor Mining and Strategy Direction)",
+      "战略分析经理",
+      "数字化总监（制造业、AI、跨国项目）",
+      "Head of Data Science/AI",
       "投资部负责人",
-      "风控总监",
-      "Risk Control Director",
-      "CTO/CIO/技术VP",
-      "AI短剧事业部总经理",
-      "AI 智慧医疗技术负责人"
+      "投资总监-医疗AI方向",
+      "CEO-资方领投AI+Science"
     ],
     "required_skills": [
       {
@@ -612,11 +616,11 @@
     "salary": {
       "min": 6000,
       "max": 225000,
-      "median": 55625,
-      "avg": 67766,
-      "p25": 32500,
+      "median": 48750,
+      "avg": 65683,
+      "p25": 34000,
       "p75": 85000,
-      "sample_size": 98
+      "sample_size": 104
     },
     "experience": {
       "min_range": [
@@ -624,24 +628,26 @@
         10
       ],
       "median_min": 5,
-      "avg_min": 5.5,
-      "sample_size": 110
+      "avg_min": 5.4,
+      "sample_size": 117
     },
     "education": {
-      "bachelor": 71,
+      "bachelor": 75,
       "any": 22,
-      "master": 11,
-      "phd": 6
+      "master": 12,
+      "phd": 6,
+      "unspecified": 2
     },
     "work_mode": {
-      "unknown": 110
+      "unknown": 116,
+      "onsite": 1
     },
     "top_companies": [
       "某知名公司",
       "51WORLD",
-      "超宇集团有限公司",
+      "某苏州互联网公司",
       "艾艾贴",
-      "某深圳大型智能硬件公司"
+      "超宇集团有限公司"
     ],
     "top_industries": [
       {
@@ -650,7 +656,7 @@
       },
       {
         "industry": "education",
-        "count": 20
+        "count": 21
       },
       {
         "industry": "healthcare",
@@ -662,101 +668,23 @@
       },
       {
         "industry": "finance",
-        "count": 12
+        "count": 13
       }
     ],
     "role_id": "leadership",
     "role_name": "AI 管理/战略"
   },
   {
-    "job_count": 99,
-    "sample_titles": [
-      "ADAS Platform Software Engineer",
-      "ADAS测试分析工程师",
-      "ADAS Development Engineer",
-      "自动驾驶安全员",
-      "自动驾驶工程师",
-      "L4自动驾驶测试",
-      "自动驾驶测试工程师",
-      "自动驾驶车辆销售"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "llm",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 6500,
-      "max": 230000,
-      "median": 26875,
-      "avg": 35263,
-      "p25": 17500,
-      "p75": 40000,
-      "sample_size": 90
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 5,
-      "avg_min": 3.9,
-      "sample_size": 99
-    },
-    "education": {
-      "bachelor": 72,
-      "any": 22,
-      "master": 5
-    },
-    "work_mode": {
-      "unknown": 97,
-      "onsite": 2
-    },
-    "top_companies": [
-      "某知名公司",
-      "Baidu",
-      "梅赛德斯-奔驰",
-      "埃尔科工程技术开发(上海)有限公司",
-      "京东物流"
-    ],
-    "top_industries": [
-      {
-        "industry": "automotive",
-        "count": 73
-      },
-      {
-        "industry": "internet",
-        "count": 11
-      },
-      {
-        "industry": "consulting",
-        "count": 8
-      },
-      {
-        "industry": "manufacturing",
-        "count": 5
-      },
-      {
-        "industry": "energy",
-        "count": 1
-      }
-    ],
-    "role_id": "autonomous",
-    "role_name": "自动驾驶/智能座舱"
-  },
-  {
-    "job_count": 95,
+    "job_count": 115,
     "sample_titles": [
       "AIGC运营",
-      "高级新媒体电商运营",
-      "跨境电商运营总监",
       "AI自动化运营",
-      "大宗商品电商平台运营总（AI大宗平台）",
-      "电商短视频内容运营（AI内容生成方向）",
+      "跨境电商运营总监",
+      "AIGC项目运营总监",
+      "高级新媒体电商运营",
       "AI Doubao Qwen Content Push (Financial Advisor)",
-      "金融大模型AI训练师"
+      "金融大模型AI训练师",
+      "电商短视频内容运营（AI内容生成方向）"
     ],
     "required_skills": [
       {
@@ -809,11 +737,11 @@
     "salary": {
       "min": 3630,
       "max": 183333,
-      "median": 22500,
-      "avg": 28344,
-      "p25": 15000,
+      "median": 22000,
+      "avg": 26800,
+      "p25": 12500,
       "p75": 32500,
-      "sample_size": 91
+      "sample_size": 111
     },
     "experience": {
       "min_range": [
@@ -822,17 +750,18 @@
       ],
       "median_min": 3,
       "avg_min": 2.9,
-      "sample_size": 94
+      "sample_size": 109
     },
     "education": {
-      "bachelor": 75,
-      "any": 18,
-      "master": 1,
-      "unspecified": 1
+      "bachelor": 88,
+      "any": 23,
+      "unspecified": 3,
+      "master": 1
     },
     "work_mode": {
-      "unknown": 89,
-      "onsite": 6
+      "unknown": 107,
+      "onsite": 7,
+      "remote": 1
     },
     "top_companies": [
       "某知名公司",
@@ -844,39 +773,117 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 39
+        "count": 47
+      },
+      {
+        "industry": "media",
+        "count": 14
       },
       {
         "industry": "retail",
-        "count": 9
+        "count": 13
       },
       {
         "industry": "finance",
         "count": 8
       },
       {
-        "industry": "automotive",
+        "industry": "manufacturing",
         "count": 8
-      },
-      {
-        "industry": "media",
-        "count": 7
       }
     ],
     "role_id": "operations",
     "role_name": "AI 运营/训练师"
   },
   {
+    "job_count": 99,
+    "sample_titles": [
+      "商业化副总裁(VP)/自动驾驶政企事业部总经理",
+      "ADAS Platform Software Engineer",
+      "L4自动驾驶测试",
+      "自动驾驶系统测试工程师",
+      "自动驾驶工程师",
+      "自动驾驶生态合作高级专家",
+      "GR (Autonomous Driving)",
+      "自动驾驶安全员"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 6500,
+      "max": 230000,
+      "median": 26875,
+      "avg": 35263,
+      "p25": 17500,
+      "p75": 40000,
+      "sample_size": 90
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 3.9,
+      "sample_size": 99
+    },
+    "education": {
+      "bachelor": 72,
+      "any": 22,
+      "master": 5
+    },
+    "work_mode": {
+      "unknown": 97,
+      "onsite": 2
+    },
+    "top_companies": [
+      "某知名公司",
+      "Baidu",
+      "梅赛德斯-奔驰",
+      "京东物流",
+      "埃尔科工程技术开发(上海)有限公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "automotive",
+        "count": 73
+      },
+      {
+        "industry": "internet",
+        "count": 11
+      },
+      {
+        "industry": "consulting",
+        "count": 8
+      },
+      {
+        "industry": "manufacturing",
+        "count": 5
+      },
+      {
+        "industry": "other",
+        "count": 1
+      }
+    ],
+    "role_id": "autonomous",
+    "role_name": "自动驾驶/智能座舱"
+  },
+  {
     "job_count": 82,
     "sample_titles": [
-      "工业AI",
+      "AI与智能制造",
+      "工业AI技术营销经理（石化/化工/冶金／新能源方向）",
+      "智能制造AI经理",
+      "智能制造AI",
+      "IT总监-AI 智能制造方向",
       "工业软件产业发展 AI for Engineering专家（LLM方向）",
-      "工业智能体首席专家",
       "工业AI解决方案经理",
-      "城市经理(离散工业AI+数字化)",
-      "智能制造规划专家",
-      "集团智能制造副总裁",
-      "高级智能制造工程师"
+      "工业智能体首席专家"
     ],
     "required_skills": [
       {
@@ -918,7 +925,7 @@
       "某北京大型电子/半导体/集成电路公司",
       "某北京知名上市公司",
       "某知名公司",
-      "红壹科技"
+      "某国内大型电子/半导体/集成电路公司"
     ],
     "top_industries": [
       {
@@ -938,7 +945,7 @@
         "count": 3
       },
       {
-        "industry": "energy",
+        "industry": "other",
         "count": 2
       }
     ],
@@ -948,14 +955,14 @@
   {
     "job_count": 71,
     "sample_titles": [
+      "数字化转型专家（IT+流程）",
+      "数字化转型实战负责人",
+      "数字化转型规划咨询高级经理",
+      "数字化转型售前咨询",
+      "数字化转型专委会主任助理",
       "AIT (AI Business Transformation) Senior Specialist/Supervisor",
-      "AI交付经理PMO- AI客服（电商）方向",
-      "电商 AI 流程建构师",
       "电商 AI 项目管理专家 PMO",
-      "数字化转型实习生",
-      "汽车行业IT战略与数字化转型高级经理",
-      "全流程数字化转型专家（变革专家）",
-      "数字化转型售前咨询"
+      "AI交付经理PMO- AI客服（电商）方向"
     ],
     "required_skills": [
       {
@@ -997,8 +1004,8 @@
       "onsite": 1
     },
     "top_companies": [
-      "田园东方投资",
       "某知名公司",
+      "田园东方投资",
       "德勤Deloitte",
       "某青岛家电上市公司",
       "某北京IT服务公司"
@@ -1031,13 +1038,13 @@
   {
     "job_count": 30,
     "sample_titles": [
-      "AI技术人员-教育应用、AI讲师",
-      "市场经理-”AI+教育“",
-      "AI+教育解决方案岗位",
       "AI教育讲师",
-      "智能教育产品交付与服务经理",
-      "AI智能教育",
-      "AI智能教育校长",
+      "教育人工智能专员",
+      "AI+教育解决方案岗位",
+      "市场经理-”AI+教育“",
+      "AI技术人员-教育应用、AI讲师",
+      "心理智能教育培训师",
+      "AI高级人工智能教育讲师",
       "高职人工智能教育产品开发（产教融合）"
     ],
     "required_skills": [
@@ -1079,7 +1086,7 @@
       "九叁有方人工智能",
       "某深圳政府/公共事业公司",
       "某北京互联网公司",
-      "名师苑培训中心"
+      "忆学记忆方法营"
     ],
     "top_industries": [
       {
@@ -1105,13 +1112,13 @@
   {
     "job_count": 27,
     "sample_titles": [
-      "Data Analyst - LLM agentic AI",
       "量化交易AI数据中台技术负责人",
-      "AI量化投资岗",
-      "AI量化投资经理助理",
-      "AI量化交易员",
-      "工业 AI 数据分析师",
       "投资分析师/投资经理/副总裁（AI与先进制造赛道）",
+      "Data Analyst - LLM agentic AI",
+      "AI量化投资经理助理",
+      "AI量化投资岗",
+      "工业 AI 数据分析师",
+      "AI量化交易员",
       "豆包AI大模型数据分析-火山方舟MaaS"
     ],
     "required_skills": [
@@ -1182,7 +1189,7 @@
       "深圳市万邑通信息科技有限公司",
       "某深圳知名上市公司",
       "某国内大型基金/证券/期货公司",
-      "某上海大型基金证券公司"
+      "Michael Page"
     ],
     "top_industries": [
       {
@@ -1215,10 +1222,10 @@
       "智能风控经理",
       "风控经理",
       "信贷评审-风控中台（制造加工）",
-      "交易风控岗",
-      "风控专家",
       "风控专员",
       "风控管培生",
+      "风控专家",
+      "交易风控岗",
       "采供内控专家（智能风控方向）"
     ],
     "required_skills": [
@@ -1295,7 +1302,7 @@
       "阿里云智能",
       "俊择(厦门)管理顾问有限公司",
       "某上海大型基金/证券/期货公司",
-      "平安期货"
+      "聚信"
     ],
     "top_industries": [
       {
@@ -1325,14 +1332,14 @@
   {
     "job_count": 12,
     "sample_titles": [
-      "理赔业务专家（寿险/财产险+LLM）",
       "医疗AI产品助理",
-      "Healthcare AI Project Assistant",
       "医疗AI售前",
       "智能体HTA项目管理专员（循证医学/卫生技术评估方向）",
       "中高级投标专员（医疗AI大模型/智慧医疗/医疗影像云）",
+      "理赔业务专家（寿险/财产险+LLM）",
       "智慧医疗AI产品助理",
-      "医疗AI架构师/产品师"
+      "医疗AI架构师/产品师",
+      "智慧医疗-医学知识专家"
     ],
     "required_skills": [
       {
@@ -1370,10 +1377,10 @@
     },
     "top_companies": [
       "联众医疗IT服务",
-      "某北京大型人工智能公司",
       "SenseTime",
-      "智铭",
-      "某成都IT服务公司"
+      "某成都IT服务公司",
+      "广州市中维公益卫生技术评估研究所",
+      "某北京大型人工智能公司"
     ],
     "top_industries": [
       {
@@ -1392,9 +1399,9 @@
     "job_count": 5,
     "sample_titles": [
       "智能客服",
-      "智能客服管培生",
+      "智能客服系统专家",
       "Java开发工程师（智能客服方向）",
-      "智能客服系统专家"
+      "智能客服管培生"
     ],
     "required_skills": [
       {
@@ -1431,9 +1438,9 @@
     },
     "top_companies": [
       "京东",
-      "圆通速递",
+      "某知名智能硬件公司",
       "阳光数智科技有限责任公司",
-      "某知名智能硬件公司"
+      "圆通速递"
     ],
     "top_industries": [
       {
@@ -1441,7 +1448,7 @@
         "count": 1
       },
       {
-        "industry": "other",
+        "industry": "manufacturing",
         "count": 1
       },
       {
@@ -1449,11 +1456,11 @@
         "count": 1
       },
       {
-        "industry": "manufacturing",
+        "industry": "internet",
         "count": 1
       },
       {
-        "industry": "internet",
+        "industry": "other",
         "count": 1
       }
     ],

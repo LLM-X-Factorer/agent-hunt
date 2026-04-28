@@ -11,9 +11,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 71,
-          "salary_median": 22500,
-          "salary_avg": 32581
+          "job_count": 110,
+          "salary_median": 20000,
+          "salary_avg": 28414
         }
       ]
     },
@@ -28,9 +28,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 21,
-          "salary_median": 27500,
-          "salary_avg": 30119
+          "job_count": 40,
+          "salary_median": 20000,
+          "salary_avg": 24312
         }
       ]
     },
@@ -45,9 +45,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 11,
-          "salary_median": 55000,
-          "salary_avg": 53833
+          "job_count": 13,
+          "salary_median": 47500,
+          "salary_avg": 51527
         }
       ]
     },
@@ -62,37 +62,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 21500,
-          "salary_avg": 21500
-        }
-      ]
-    },
-    {
-      "industry": "consulting",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 134,
-          "salary_median": 26750,
-          "salary_avg": 36396
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 11,
-          "salary_median": 15000,
-          "salary_avg": 17613
-        }
-      ]
-    },
-    {
-      "industry": "healthcare",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 141,
-          "salary_median": 32291,
-          "salary_avg": 39139
+          "job_count": 5,
+          "salary_median": 20000,
+          "salary_avg": 21200
         }
       ]
     },
@@ -107,43 +79,26 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 20,
-          "salary_median": 15000,
-          "salary_avg": 16025
+          "job_count": 53,
+          "salary_median": 14500,
+          "salary_avg": 15669
         }
       ]
     },
     {
-      "industry": "education",
+      "industry": "consulting",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 81,
-          "salary_median": 22500,
-          "salary_avg": 29563
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 43541,
-          "salary_avg": 43541
-        }
-      ]
-    },
-    {
-      "industry": "other",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 42,
-          "salary_median": 22500,
-          "salary_avg": 25098
+          "job_count": 134,
+          "salary_median": 26750,
+          "salary_avg": 36396
         },
         {
           "month": "2026-04-01",
           "job_count": 12,
-          "salary_median": 17500,
-          "salary_avg": 18968
+          "salary_median": 14750,
+          "salary_avg": 16604
         }
       ]
     },
@@ -158,20 +113,60 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 19,
-          "salary_median": 17000,
-          "salary_avg": 36736
+          "job_count": 115,
+          "salary_median": 12500,
+          "salary_avg": 19495
         }
       ]
     },
     {
-      "industry": "telecom",
+      "industry": "healthcare",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 19,
-          "salary_median": 27500,
-          "salary_avg": 31587
+          "job_count": 141,
+          "salary_median": 32291,
+          "salary_avg": 39139
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 3,
+          "salary_median": 7000,
+          "salary_avg": 19666
+        }
+      ]
+    },
+    {
+      "industry": "education",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 81,
+          "salary_median": 22500,
+          "salary_avg": 29563
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 5,
+          "salary_median": 15250,
+          "salary_avg": 26895
+        }
+      ]
+    },
+    {
+      "industry": "other",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 42,
+          "salary_median": 22500,
+          "salary_avg": 25098
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 17,
+          "salary_median": 17500,
+          "salary_avg": 26713
         }
       ]
     },
@@ -183,6 +178,23 @@
           "job_count": 18,
           "salary_median": 45000,
           "salary_avg": 51419
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 5,
+          "salary_median": 22500,
+          "salary_avg": 18700
+        }
+      ]
+    },
+    {
+      "industry": "telecom",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 19,
+          "salary_median": 27500,
+          "salary_avg": 31587
         }
       ]
     },
@@ -210,9 +222,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 144,
-          "salary_median": 107043,
-          "salary_avg": 99571
+          "job_count": 2103,
+          "salary_median": 142236,
+          "salary_avg": 174197
         }
       ]
     },
@@ -227,26 +239,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 16,
-          "salary_median": 78203,
-          "salary_avg": 74117
-        }
-      ]
-    },
-    {
-      "industry": "consulting",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 52,
-          "salary_median": 83828,
-          "salary_avg": 84679
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 17,
-          "salary_median": 75468,
-          "salary_avg": 69591
+          "job_count": 151,
+          "salary_median": 110539,
+          "salary_avg": 110422
         }
       ]
     },
@@ -261,9 +256,26 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 3,
-          "salary_median": 116042,
-          "salary_avg": 91528
+          "job_count": 119,
+          "salary_median": 104218,
+          "salary_avg": 105547
+        }
+      ]
+    },
+    {
+      "industry": "other",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 5,
+          "salary_median": 69401,
+          "salary_avg": 69401
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 117,
+          "salary_median": 107239,
+          "salary_avg": 112213
         }
       ]
     },
@@ -278,43 +290,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 32,
-          "salary_median": 67672,
-          "salary_avg": 73099
-        }
-      ]
-    },
-    {
-      "industry": "education",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 36,
-          "salary_median": 37700,
-          "salary_avg": 51907
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 6,
-          "salary_median": 58239,
-          "salary_avg": 65355
-        }
-      ]
-    },
-    {
-      "industry": "automotive",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 40,
-          "salary_median": 46702,
-          "salary_avg": 66250
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 114791,
-          "salary_avg": 114791
+          "job_count": 93,
+          "salary_median": 67700,
+          "salary_avg": 84541
         }
       ]
     },
@@ -329,9 +307,43 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 9,
-          "salary_median": 39271,
-          "salary_avg": 44646
+          "job_count": 76,
+          "salary_median": 69302,
+          "salary_avg": 156403
+        }
+      ]
+    },
+    {
+      "industry": "consulting",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 52,
+          "salary_median": 83828,
+          "salary_avg": 84679
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 49,
+          "salary_median": 72505,
+          "salary_avg": 69452
+        }
+      ]
+    },
+    {
+      "industry": "education",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 36,
+          "salary_median": 37700,
+          "salary_avg": 51907
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 31,
+          "salary_median": 72500,
+          "salary_avg": 73994
         }
       ]
     },
@@ -346,20 +358,26 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 24,
-          "salary_median": 58750,
-          "salary_avg": 65123
+          "job_count": 51,
+          "salary_median": 58906,
+          "salary_avg": 72957
         }
       ]
     },
     {
-      "industry": "other",
+      "industry": "automotive",
       "series": [
         {
           "month": "2026-03-01",
-          "job_count": 5,
-          "salary_median": 69401,
-          "salary_avg": 69401
+          "job_count": 40,
+          "salary_median": 46702,
+          "salary_avg": 66250
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 11,
+          "salary_median": 114791,
+          "salary_avg": 109053
         }
       ]
     },
@@ -374,9 +392,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": null,
-          "salary_avg": null
+          "job_count": 29,
+          "salary_median": 99687,
+          "salary_avg": 95050
         }
       ]
     },
@@ -388,6 +406,12 @@
           "job_count": 3,
           "salary_median": 93629,
           "salary_avg": 93629
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 15,
+          "salary_median": 132395,
+          "salary_avg": 126477
         }
       ]
     },
@@ -399,6 +423,23 @@
           "job_count": 3,
           "salary_median": null,
           "salary_avg": null
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 3,
+          "salary_median": null,
+          "salary_avg": null
+        }
+      ]
+    },
+    {
+      "industry": "insurance",
+      "series": [
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": 219010,
+          "salary_avg": 219010
         }
       ]
     }
