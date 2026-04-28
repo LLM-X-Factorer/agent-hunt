@@ -100,6 +100,12 @@ class Job(Base):
         String(20), default="pending"
     )  # "pending" | "parsed" | "failed"
 
+    # --- Issue #12 / #17: posting source attribution ---
+    # "platform"        — generic third-party board (existing default)
+    # "vendor_official" — pulled from a vendor's official ATS (Greenhouse / Ashby / etc.)
+    # "community_open"  — open community channel (HN Who is Hiring, GitHub repos)
+    source: Mapped[str] = mapped_column(String(20), default="platform", index=True)
+
     # --- Quality signals (#16) ---
     # first_seen_at = collected_at on first capture; last_seen_at bumps on every re-encounter.
     # seen_count > 1 → posting was re-published (招不到 / 流失大 signal).

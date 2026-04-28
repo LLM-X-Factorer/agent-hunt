@@ -50,6 +50,7 @@ async def import_jobs(
             raw_content=req.raw_content,
             language=req.language,
             parse_status="pending",
+            source=req.source,
             first_seen_at=now,
             last_seen_at=now,
             seen_count=1,

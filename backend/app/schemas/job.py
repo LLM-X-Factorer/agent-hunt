@@ -18,6 +18,9 @@ class JobImportRequest(BaseModel):
     source_url: str | None = None
     raw_content: str = Field(..., min_length=10)
     language: str = Field("zh", pattern=r"^(zh|en|mixed)$")
+    # #12 / #17 attribution — defaults to legacy "platform" so existing
+    # callers (browser ext, manual upload, JobSpy collectors) keep working.
+    source: str = Field("platform", pattern=r"^(platform|vendor_official|community_open)$")
 
 
 class JobImportBatchRequest(BaseModel):
