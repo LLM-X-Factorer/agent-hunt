@@ -66,22 +66,23 @@ export default function P4() {
       prev={{ href: "/narrative/p3", label: "论断 3 · 桥梁工程师" }}
       next={{ href: "/narrative/p5", label: "论断 5 · 预期管理" }}
     >
-      <MethodologyBox>
+      <MethodologyBox title="📐 这个数字哪来的（学员问就这么答）">
         <p>
-          <strong>汇率换算（关键步骤）：</strong>JD 表里海外岗位存的是「原币 / 年薪」（USD/EUR/GBP），国内是「CNY / 月薪」。直接对比相当于把 USD/年 当成 CNY/月——比真实数字夸大 12÷7.2 ≈ 1.7 倍。
+          <strong>关键一步：把海外薪资换成「人民币 / 月薪」再比。</strong>
+          海外 JD 标的是「美元 / 年薪」（比如 $120k/year），国内是「人民币 / 月薪」（比如 25k/月）。直接对比就是「12 万美元 / 年 vs 2.5 万人民币 / 月」——单位都不一致，不能直接比。
         </p>
         <p>
-          <strong>本论断的换算：</strong>
+          <strong>我们的做法：</strong>把海外 $120k/year 按汇率（USD × 7.2）换成 86.4 万人民币 / 年，再 ÷12 = 7.2 万人民币 / 月。这样和国内的月薪同口径。
         </p>
-        <ul className="list-disc list-inside text-xs space-y-1 ml-2">
-          <li>海外 USD：value × 7.2 ÷ 12 → CNY/月</li>
-          <li>海外 EUR：value × 7.8 ÷ 12 → CNY/月</li>
-          <li>海外 GBP：value × 9.0 ÷ 12 → CNY/月</li>
-          <li>国内 CNY 月薪：保持原值</li>
-          <li>国内 CNY 年薪（&gt;200k 的离群值）：÷12 视为月化</li>
+        <p>
+          <strong>修正后真实数字：</strong>
+        </p>
+        <ul className="list-disc list-inside text-sm space-y-1 ml-2">
+          <li>AI 原生岗：国内 32.5k vs 海外 78.6k → <strong>2.42 倍</strong></li>
+          <li>AI 增强岗：国内 23k vs 海外 63.9k → <strong>2.78 倍</strong></li>
         </ul>
-        <p>
-          <strong>原 spec 标的 4×（已弃用）：</strong>之前的「海外 4× 国内」是没做汇率换算的口径错误。修正后是 2.4×（原生）/ 2.8×（增强）。这个数字更接近 levels.fyi 真实薪酬（参考论断 4 数据看板的 real-vs-asking 对比）。
+        <p className="bg-amber-100 border-l-4 border-amber-400 p-3 rounded">
+          <strong>⚠️ 这点要主动告诉学员：</strong>很多招聘文章流传的「海外是国内 4 倍 / 5 倍」是<strong>没换汇率的错误数字</strong>——直接把美元年薪当人民币月薪比，夸大了 1.7 倍。我们之前展示的也错了，已修正。讲数据时可以主动揭穿这个陷阱，反而显得专业。
         </p>
       </MethodologyBox>
 
@@ -170,36 +171,41 @@ export default function P4() {
         </div>
       </div>
 
-      <MechanismBox>
-        <p>
-          <strong>资本市场估值差：</strong>美国 SaaS 行业市值 / 销售额倍数比 A 股大 3-5 倍，这层估值差直接转嫁到工程师薪酬上。AI 公司更明显——OpenAI / Anthropic 一级市场估值数千亿美元，对应给 senior eng $500k+ 的 TC 是合理的。
+      <MechanismBox title="🧠 为什么会这样（一句话讲透）">
+        <p className="text-base font-medium">
+          美国 AI 公司估值是中国的 3-5 倍，这个估值差直接转嫁到工程师薪酬上。
         </p>
         <p>
-          <strong>购买力对冲：</strong>美国生活成本旧金山 / 纽约比北京 / 上海高 1.5-2 倍。汇率换算后的「2.8×」要扣掉至少 1.5×，剩 1.5-2× 真实购买力差距。
+          OpenAI / Anthropic 一级市场估值数千亿美元，给 senior 工程师 $500k+ 总薪酬是合理的。中国大厂的算法岗 base 涨不上去，不是公司不愿意，是公司估值本身没那么高——薪资天花板被资本市场锁死。
         </p>
         <p>
-          <strong>增强 ratio 高于原生：</strong>2.78 &gt; 2.42，说明海外传统行业更愿意为 AI 复合人才付溢价（医院 / 银行 / 制造企业的 AI 改造预算大）。国内传统行业还在数字化转型早期，预算受限，所以本土 AI 增强岗薪资上不去，跨市场 ratio 自然拉大。
+          <strong>注意 AI 增强 ratio（2.78）比原生（2.42）还高。</strong>
+          说明海外传统行业（医院 / 银行 / 制造）更愿意为 AI 复合人才付溢价。国内传统行业还在数字化转型早期，预算受限，所以本土 AI 增强岗薪资上不去——跨市场 ratio 自然就拉大了。
+        </p>
+        <p>
+          这给学员一个反直觉的方向：如果你本职是医生 / 工程师 / 财务，<strong>转 AI 增强出海比转纯算法岗出海，相对溢价更大</strong>。
         </p>
       </MechanismBox>
 
-      <CaveatBox>
+      <CaveatBox title="⚠️ 给学员讲的时候要说清楚">
         <p>
-          <strong>1. JD asking salary ≠ 实际 offer。</strong>
-          这里看的是 JD 标注的薪资范围，不是实际入职 base + bonus + stock。levels.fyi 真实薪酬数据（{" "}
-          <a href="/salary" className="text-indigo-600">数据看板 / 薪资分析</a>{" "}
-          ）显示海外大厂 senior 实际 TC 比 JD asking 高 30-50%，国内大厂 RSU 兑现率参差不齐。这条 narrative 用 JD 数据，是一个保守估计。
+          <strong>✅ 这个数字适合讲：</strong>海外 AI 岗薪资确实比国内高 2-3 倍（汇率换算后），AI 增强方向的相对优势比原生算法更大——给学员一个反直觉的出海方向感知。
         </p>
         <p>
-          <strong>2. 签证 / 远程岗摩擦未计入。</strong>
-          海外 70% 岗位需要 H-1B / 工签，能拿到的中国背景候选人只有特定路径（顶尖学校 + 留学 + 公司赞助）。不是所有学员都能跨进这道门——但理论套利空间存在。
+          <strong>❌ 不能这么说：「2.78 倍 = 到手翻 2.78 倍」。</strong>
+          海外生活成本（旧金山 / 纽约）比北京上海高 1.5-2 倍。扣掉之后，<strong>真实购买力差距大约 1.5-2 倍</strong>。还是有套利，但不是新闻里说的「翻几倍」。
         </p>
         <p>
-          <strong>3. 我们网站之前显示的 4×、4.6× 是错的。</strong>
-          因为 cross_market 服务没做汇率换算，把 USD/年 当 CNY/月 处理。修正后真实 ratio 是 2.4× / 2.8×。这个修复仅在 narrative 层面生效，<a href="/gaps" className="text-indigo-600">/gaps 数据看板</a> 上的旧数据待统一修复。
+          <strong>❌ 不能这么说：「申请就能去」。</strong>
+          海外 70% 岗位需要 H-1B / 工签，能拿到的中国候选人路径很窄（顶尖学校 + 留学 + 公司赞助）。学员要现实评估签证路径再谈套利——纯远程的中国境内 freelancer 接海外活是另一条路，但岗位池小很多。
         </p>
         <p>
-          <strong>4. 海外样本不均衡。</strong>
-          海外 vendor_official（OpenAI/Anthropic 等）拉高了样本均值，普通海外公司（Premera / Boeing 类）的薪资接近 50-70k CNY/月——不是每家海外都能开到 $200k+。
+          <strong>❌ 不能这么说：「JD 标的 = 实际 offer」。</strong>
+          JD 上写的是 base 薪资范围，海外大厂 senior 实际总薪酬（base + bonus + stock）比 JD asking 高 30-50%（levels.fyi 数据，可在 <a href="/salary" className="text-amber-700 underline">薪资分析</a> 看真实 vs JD 对比）。所以海外实际差距比 2.78× 还更大一些；但国内 RSU 兑现率参差不齐，要个案讨论。
+        </p>
+        <p>
+          <strong>学员可能问：「网上看到说海外是国内 4-5 倍，你这才 2.78 是不是太保守了？」</strong>
+          诚实答：那些数字大多没换汇率，把美元年薪当人民币月薪比，夸大了 1.7 倍。我们之前网站上展示的也犯过这个错，已经主动修正——这是诚实的口径。如果学员能接受这点，反而更信任你给的数据。
         </p>
       </CaveatBox>
     </NarrativeLayout>

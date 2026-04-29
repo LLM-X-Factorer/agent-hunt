@@ -75,16 +75,16 @@ export default function P2() {
       prev={{ href: "/narrative/p1", label: "论断 1 · 市场基本盘" }}
       next={{ href: "/narrative/p3", label: "论断 3 · 桥梁工程师" }}
     >
-      <MethodologyBox>
+      <MethodologyBox title="📐 这个数字哪来的（学员问就这么答）">
         <p>
-          <strong>怎么算的：</strong>每条 JD 取 (salary_min + salary_max) / 2 作为薪资中点（CNY/月），按 industry 分组取中位数（不是平均数——避免 CEO/创始人级别离群值拉高）。样本 ≥ 5 才显示，避免「能源 1 条 80k」这类伪信号。
+          <strong>一句话：</strong>从国内 901 条 AI 增强岗位（见 <a href="/narrative/p1" className="text-gray-900 underline">论断 1</a> 口径）按行业分组取薪资<strong>中位数</strong>——不用平均数，因为平均数会被几个 CEO / 创始人级别岗位拉高，失真。要求每个行业至少 5 条样本，避免「能源 1 条 80k」这种伪信号。
         </p>
         <p>
-          <strong>「Premium 组」怎么定义的：</strong>挑出 3 个中位数都达到 30k 的传统行业（healthcare 30k / manufacturing 30k / finance 30k），合计 285 条样本。和互联网（25k 中位 / 191 条）直接对比 → +20% 溢价。这不是「所有传统行业都比互联网高」，是「最 hot 的 3 个传统行业比互联网高」。
+          <strong>30k vs 25k 是怎么挑的：</strong>挑出 3 个中位数都达到 30k 的传统行业——医疗、制造、金融（合计 {d.comparison.premium_traditional_sample_size} 条）。和互联网（25k / {d.comparison.internet_sample_size} 条）直接对比，差 +{d.comparison.delta_pct}%。
         </p>
         <p>
-          <strong>不混合海外数据：</strong>本论断只看国内市场（CNY 月薪），国内外薪资对比见{" "}
-          <a href="/narrative/p4" className="text-indigo-600">论断 4</a>。
+          <strong>注意是「3 个高薪传统行业 vs 互联网」，不是「所有传统 vs 互联网」。</strong>
+          教育 / 媒体 / 零售的薪资其实低于互联网（见图）——这条 narrative 缩到「最 hot 的 3 个行业」更准确。
         </p>
       </MethodologyBox>
 
@@ -144,30 +144,36 @@ export default function P2() {
         </div>
       </div>
 
-      <MechanismBox>
-        <p>
-          <strong>稀缺性溢价：</strong>「医生 + AI」「工厂工艺工程师 + 深度学习」「金融分析师 + 量化模型」需要双重背景的复合人。传统行业里既懂业务又会 AI 工具的人极少——所以企业愿意为合格候选人开溢价。
+      <MechanismBox title="🧠 为什么会这样（一句话讲透）">
+        <p className="text-base font-medium">
+          会业务又会 AI 的「复合型人才」太少。
         </p>
         <p>
-          <strong>互联网 AI 增强供给充分：</strong>互联网公司里「会用 Copilot 的全栈」「会调 Prompt 的 PM」遍地都是——每个程序员入职第一周就在用。供给充分 = 没溢价。
+          医院里既懂临床又会调 LLM 的人有几个？工厂里既懂精密加工又会跑视觉模型的工程师有几个？金融里既懂量化业务又会写策略代码的人有几个？——极少。这种稀缺性直接转化成薪资溢价。
         </p>
         <p>
-          <strong>付费意愿：</strong>传统行业为「AI 改造业务」的预算来自数字化转型经费（一次性 capex），愿意为关键岗位开高薪；互联网公司的 AI 增强是日常 opex，倾向控制 headcount 成本。
+          相比之下，互联网公司「会用 Copilot 的全栈」「会调 Prompt 的 PM」遍地都是——供给充分，没溢价。
+        </p>
+        <p>
+          另一个原因是<strong>付费意愿不同</strong>：传统行业「AI 改造业务」的预算来自数字化转型经费（一次性投入），愿意为关键岗位开高薪；互联网公司的 AI 增强是日常成本，倾向控制 headcount。
         </p>
       </MechanismBox>
 
-      <CaveatBox>
+      <CaveatBox title="⚠️ 给学员讲的时候要说清楚">
         <p>
-          <strong>1. 不是所有传统行业都溢价。</strong>
-          retail 15k、media 12.5k、education 25k——和互联网持平甚至更低。「传统行业 = 高薪」是错的，「医疗/制造/金融 = 高薪」才是事实。把 narrative 缩小到这 3 个行业。
+          <strong>✅ 这个数字适合讲：</strong>学员若本职是医生 / 工业工程师 / 金融分析师，转 AI 增强方向反而比纯互联网背景的 AI 程序员更吃香——稀缺性带来溢价。
         </p>
         <p>
-          <strong>2. energy 48k 是小样本（n = 6）。</strong>
-          看着最高，但样本量太小，不能作为论断主线，只能在补充图表里出现。
+          <strong>❌ 不能这么说：「传统行业 = 高薪」。</strong>
+          零售 15k / 媒体 12.5k / 教育 25k——和互联网持平甚至更低。准确说法是<strong>「医疗、制造、金融三强 = 高薪」</strong>，其他传统行业不一定。
         </p>
         <p>
-          <strong>3. 中位数不能告诉你天花板。</strong>
-          表里的 p75 数据：healthcare 45k、manufacturing 45k、finance 50k——上四分位也不算特别高。这个数字适合谈「平均能给到」，不适合谈「最高能给多少」。
+          <strong>❌ 不能这么说：「中位数 30k 就是能拿 30k」。</strong>
+          中位数是「有一半人拿这个或更多」。p75（前 25% 高薪）：医疗 45k / 制造 45k / 金融 50k——上四分位也不算特别高。这数字适合讲「平均能给到」，不适合讲「最高能给多少」。
+        </p>
+        <p>
+          <strong>学员可能问：「能源 48k 那么高，我能去吗？」</strong>
+          诚实答：那是 6 条样本的小样本数字，统计学上不显著，不能作为承诺。把焦点放在医疗 / 制造 / 金融三强。
         </p>
       </CaveatBox>
     </NarrativeLayout>

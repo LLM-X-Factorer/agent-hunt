@@ -62,15 +62,15 @@ export default function P5() {
       deepLink={{ href: "/report", label: "完整洞察报告（数据看板）" }}
       prev={{ href: "/narrative/p4", label: "论断 4 · 跨市场套利" }}
     >
-      <MethodologyBox>
+      <MethodologyBox title="📐 这个数字哪来的（学员问就这么答）">
         <p>
-          <strong>「幽灵岗」怎么定义的：</strong>同一个 company + 同一个 title 在采集窗口内出现 ≥ 5 次（variant_count ≥ 5），就算一个「幽灵岗簇」。这不能 100% 证明岗位是假的——可能是部门多坑都需要同样人，或者 LinkedIn 发岗后下架重发。但 5 次 + 时间窗口已经超过正常重发频率。
+          <strong>什么算「幽灵岗」：</strong>同一家公司同一个岗位标题，在采集窗口内出现 5 次或以上。比如 Deloitte 一个「Full Stack Engineer」标题挂了 19 次——这不能 100% 证明岗位是假的（可能是不同部门都需要类似人），但 5 次重发已经远超正常的「下架重发」频率。
         </p>
         <p>
-          <strong>分母选取：</strong>海外 5,477 条 JD（vendor_official + LinkedIn + Indeed + HN/GitHub）；国内 2,771 条（Boss + Liepin + Lagou + 国内 vendor）。各自找 ≥ 5 次重复的 cluster。
+          <strong>分子分母：</strong>海外端采了 LinkedIn / Indeed / 大厂官网共 5,477 条 AI 相关 JD，里面有 30 个这种重发集群（占 0.55%）。国内端采了 Boss / 猎聘 / 拉勾 / 国内大厂共 2,771 条，只 5 个集群（占 0.18%）。海外集中度大约是国内 3 倍。
         </p>
         <p>
-          <strong>重发率（更宽松信号）：</strong>采集到的 8,634 条 JD 里整体 repost_ratio = {(q.overall.repost_ratio * 100).toFixed(1)}%（即 {q.overall.reposted.toLocaleString()} 条是被重复见过的）。但重发本身不一定是幽灵——是同 company+title 大量重复才是幽灵。
+          <strong>这是上限估计，不是确证。</strong>「同公司同标题重复」是<strong>嫌疑信号</strong>，不能等同于「岗位是假的」。但 19 次、17 次这种极端值，几乎可以确定是单一岗位反复发布。
         </p>
       </MethodologyBox>
 
@@ -151,33 +151,36 @@ export default function P5() {
         </Card>
       )}
 
-      <MechanismBox>
-        <p>
-          <strong>HR KPI 驱动：</strong>美国大公司 HR 部门考核「岗位活跃度」（active job postings）——挂越多看上去 talent pipeline 越健康。下架重发是常规动作，不是欺诈。但对求职者制造了「岗位真多」的错觉。
+      <MechanismBox title="🧠 为什么会这样（一句话讲透）">
+        <p className="text-base font-medium">
+          海外公司被 LinkedIn 的产品逻辑逼着刷岗，国内 Boss 反作弊更严。
         </p>
         <p>
-          <strong>LinkedIn 产品设计：</strong>LinkedIn Jobs 按「最近 24 小时新岗」排序，公司若不重发岗位就掉出可见区。这是产品强迫公司刷岗，不是公司主动作恶。
+          <strong>LinkedIn Jobs 按「最近 24 小时新岗」排序。</strong>公司不重发就掉出可见区——产品在逼公司刷岗，不是公司主动作恶。同时美国大公司 HR 部门考核「岗位活跃度」（挂越多看上去人才管线越健康），下架重发是 KPI 动作。两者叠加 → 海外幽灵岗多。
         </p>
         <p>
-          <strong>国内 Boss 反作弊更严：</strong>Boss 直聘 / 猎聘对同账户重复发岗有限流（同 title + company 重发会被打压）。国内市场刷岗成本更高，所以幽灵岗集中度低。但这不等于国内 hiring 健康——可能只是噪音被平台过滤掉了，候选人看到的是「干净版」。
+          <strong>Boss 直聘 / 猎聘对同账户重复发岗有限流。</strong>同 title + company 重发会被算法打压，国内刷岗成本更高，所以集中度低。
         </p>
-        <p>
-          <strong>给学员的 30% 折扣：</strong>看到 LinkedIn 上「美国 AI 工程师 5,000 个 active jobs」时，按 0.6× 算实际 hiring slot 数（去掉幽灵 + 转发噪音），按 0.7× 进一步折现 visa 摩擦——大约剩 0.4× 是真正可申请的岗位。
+        <p className="bg-amber-100 border-l-4 border-amber-400 p-3 rounded">
+          <strong>给学员的实用建议：</strong>看到「美国 AI 工程师 5,000 个 active jobs」时，先打 0.6× 折扣去掉幽灵岗 + 转发噪音；再打 0.7× 折扣考虑签证摩擦。最终大约 <strong>40% 才是真正可申请的岗位</strong>——所以 5,000 看上去多，实际能投的只有 2,000。
         </p>
       </MechanismBox>
 
-      <CaveatBox>
+      <CaveatBox title="⚠️ 给学员讲的时候要说清楚">
         <p>
-          <strong>1. 国内幽灵岗未必真的少。</strong>
-          国内主流招聘平台反爬严，Boss / Lagou 单次只能拿到分页前几页。可能国内也有大量幽灵岗只是我们采不到——这个 0.18% 的数字是「采集到的样本里」的比例，不是市场全貌。
+          <strong>✅ 这个数字适合讲：</strong>「海外岗位看着多 ≠ 实际 hiring 机会多」——给学员一个心理预期管理。投海外岗时建议精准投递，看公司 / 团队 / JD 描述差异，而不是海投。
         </p>
         <p>
-          <strong>2. ≥ 5 次重复门槛是任意选的。</strong>
-          换成 ≥ 3 次会显著放大数字（更多公司命中），换成 ≥ 10 次会缩到只剩 Deloitte / Meta 等几家。这个 0.55% / 0.18% 是基于 5 次门槛——在合理范围内调整不影响 3× 这个量级。
+          <strong>❌ 不能这么说：「国内招聘市场更健康」。</strong>
+          国内招聘平台反爬严，Boss / 拉勾单次只能拿前几页——可能国内也有大量幽灵岗只是我们采不到。这个 0.18% 是「采集到的样本里」的比例，不是市场全貌。
         </p>
         <p>
-          <strong>3. 不是所有重复都是幽灵岗。</strong>
-          Meta 同样的 PM 标题 17 个，可能确实是 17 个不同部门的相同 title。但如果 Deloitte 一个 Full Stack 重发 19 次，更可能是单一岗位反复发布。无法 100% 区分，所以这个数字是上限估计。
+          <strong>❌ 不能这么说：「看到 Meta 17 个 PM 重发，所以 Meta 不靠谱」。</strong>
+          Meta 17 个 PM 同标题<strong>可能确实是 17 个不同部门</strong>——FB Apps、Reality Labs、AI、Infra 各招 PM。无法 100% 区分单一岗位反复发布 vs 真的多个部门同标题。这个 3× 是<strong>上限估计</strong>。
+        </p>
+        <p>
+          <strong>学员可能问：「投了海外岗几个月没回应，是不是都是幽灵岗？」</strong>
+          诚实答：幽灵岗只解释了一部分（顶多 30-40%）。剩下的没回应原因更多是：① 公司优先内部 referral；② 海外签证倾向本地候选人；③ JD 描述虚高，实际偏好资深 senior。建议精准投 + 找 referral，不是单纯多投。
         </p>
       </CaveatBox>
     </NarrativeLayout>

@@ -104,23 +104,25 @@ export default function P3() {
       prev={{ href: "/narrative/p2", label: "论断 2 · 薪资反直觉" }}
       next={{ href: "/narrative/p4", label: "论断 4 · 跨市场套利" }}
     >
-      <MethodologyBox>
+      <MethodologyBox title="📐 这个数字哪来的（学员问就这么答）">
         <p>
-          <strong>5 家厂商：</strong>OpenAI ({oai?.total}) / Anthropic ({anth?.total}) / xAI / Cohere / DeepMind，全部直接抓自官方 ATS（Greenhouse / Ashby），共 {d.summary.total_jobs} 条 JD。这些 vendor 自己挂的岗位最干净——不像 LinkedIn 有大量再发布噪音。
+          <strong>一句话：</strong>我们直接抓了 OpenAI / Anthropic / xAI / Cohere / DeepMind 5 家 LLM 厂商的官方招聘页，共 {d.summary.total_jobs} 条 JD——比 LinkedIn 干净（LinkedIn 有大量猎头转发噪音）。
         </p>
         <p>
-          <strong>5 类客户端岗位（按 title 正则首匹配）：</strong>
+          <strong>什么算「桥梁工程师」？</strong>title 里包含以下任一关键词：
         </p>
         <ul className="list-disc list-inside text-xs space-y-1 ml-2">
-          <li><code className="bg-white px-1 rounded">forward deployed</code> → FDE</li>
-          <li><code className="bg-white px-1 rounded">solutions engineer / solution architect</code> → Solutions</li>
-          <li><code className="bg-white px-1 rounded">deployment / implementation / onboarding</code> → Deploy</li>
-          <li><code className="bg-white px-1 rounded">applied (engineer / engineering / ai)</code> → Applied</li>
-          <li><code className="bg-white px-1 rounded">customer success / customer engineer / technical success</code> → Customer</li>
+          <li><strong>Forward Deployed Engineer</strong>：派工程师驻场客户公司</li>
+          <li><strong>Solutions Engineer / Architect</strong>：解决方案架构师</li>
+          <li><strong>Applied Engineer</strong>：应用工程师</li>
+          <li><strong>Deployment / Implementation Engineer</strong>：部署 / 实施</li>
+          <li><strong>Customer / Technical Success Engineer</strong>：客户工程师</li>
         </ul>
         <p>
-          <strong>「首匹配」</strong>意思是一个 title 只算一类，不重复计数。
-          <strong>这是保守估计</strong>——更宽泛的 query（如 `title ~* &apos;applied&apos;`）会把 &quot;Applied Research Scientist&quot; 也算进来，得到「20%」。我们只算明确客户端的，所以是「~17%」。
+          <strong>17% 怎么算的：</strong>OpenAI {oai?.total} 条里 {oai?.client_facing_total} 条命中（{oai?.client_facing_pct}%），Anthropic {anth?.total} 条里 {anth?.client_facing_total} 条（{anth?.client_facing_pct}%），两家平均约 17%。
+        </p>
+        <p>
+          <strong>这个数字是保守估计</strong>——如果把「Applied Research Scientist」这种也算进来能到 20%，但那不算客户端。我们只统计明确面客的 title。
         </p>
       </MethodologyBox>
 
@@ -176,30 +178,36 @@ export default function P3() {
         </div>
       )}
 
-      <MechanismBox>
-        <p>
-          <strong>LLM 落地是脏活：</strong>客户公司没有 ML 团队，但他们买了 OpenAI/Anthropic API 之后需要：① 评估什么场景能用 LLM，② 设计 Agent / RAG / 微调方案，③ 在客户的数据/系统里实际部署，④ 持续支持优化。这 4 步技术深度差别很大，但都需要工程师能直接和客户业务团队对话——不是写论文的研究员，也不是只画线框图的 PM。
+      <MechanismBox title="🧠 为什么会这样（一句话讲透）">
+        <p className="text-base font-medium">
+          LLM 落地是脏活累活，需要既懂技术又能跟客户对话的人。
         </p>
         <p>
-          <strong>Palantir 教科书：</strong>FDE 这个角色在 Palantir 已经验证了 20 年——派工程师驻场客户公司，把通用平台改造成客户业务工具。OpenAI 招 FDE 时，明显是在抄 Palantir 的剧本。这个角色 base 比纯研究低，但有 carry / equity 上行。
+          客户公司（医院 / 银行 / 政府）买了 OpenAI / Anthropic 的 API，但自己没有 ML 团队会用——于是 vendor 派工程师驻场：评估业务场景、设计 Agent / RAG 方案、在客户系统里实际部署、持续优化。这 4 步全都需要工程师能直接和客户业务方对话，不是写论文的研究员，也不是只画线框图的 PM。
         </p>
         <p>
-          <strong>早期市场抢人：</strong>171 个岗位散落在 OpenAI/Anthropic 手里，对应到一个高度新颖的角色——既懂技术又能客户对话的人，市面上极少。Google/Microsoft 也在做但没像 OpenAI 这么极端开放招聘。所以这是个早期抢人窗口。
+          这个角色不是新发明——<strong>Palantir 已经验证了 20 年</strong>。OpenAI 现在大量招 FDE 就是在抄 Palantir 的剧本。
+        </p>
+        <p>
+          <strong>这是早期抢人窗口：</strong>171 个岗位集中在 OpenAI/Anthropic 两家。Google / Microsoft 也在做但还没这么开放招聘。等 1-2 年所有 SaaS 都开始抄这个模式后，竞争会激烈起来。
         </p>
       </MechanismBox>
 
-      <CaveatBox>
+      <CaveatBox title="⚠️ 给学员讲的时候要说清楚">
         <p>
-          <strong>1. 国内厂商基本无对应编制。</strong>
-          智谱 / Moonshot / 百川 / MiniMax 招聘里几乎没有 FDE / Solutions Engineer 这类 title——中国 to-B 客户期待「免费部署 / 售前送服务」，没付费意愿支撑这类驻场角色。如果学员目标是国内市场，这条 narrative 不适用。
+          <strong>✅ 这个数字适合讲：</strong>想出海做 AI、有客户沟通能力、又懂代码的学员，FDE / Solutions Engineer 是被中文世界严重低估的赛道。学员若是「技术男 + 想转客户岗 / 商业岗」，这是天然路径。
         </p>
         <p>
-          <strong>2. 这是高门槛岗位。</strong>
-          典型招聘描述里要求「6+ 年 SWE/MLE 经验 + 客户沟通 + 解决方案构建」——不是入门级。让学员一上来去申请 FDE 不现实。这条 narrative 适合作为「3-5 年职业方向感知」教学，不是「明天就能转行」。
+          <strong>❌ 不能这么说：「学完明天就能去 OpenAI 当 FDE」。</strong>
+          这类岗位典型要求「6+ 年 SWE / MLE 经验 + 客户沟通 + 解决方案构建」——是<strong>高门槛资深岗</strong>，不是入门级。这条 narrative 适合作为「3-5 年职业方向感知」教学，不是「明天就能转行」。
         </p>
         <p>
-          <strong>3. 所有数据来自官方 ATS，没含猎头转发。</strong>
-          实际市场上还有更多类似岗位散落在 LinkedIn 等平台（被 Cognizant/Accenture 类咨询公司转发），但量级与品质都比不上 vendor_official。没纳入这个统计。
+          <strong>❌ 不能这么说：「国内也能找类似岗」。</strong>
+          国内 LLM 厂商（智谱 / Moonshot / 百川 / MiniMax）招聘里几乎没有 FDE / Solutions Engineer 编制——中国 to-B 客户期待「免费部署 / 售前送服务」，没付费意愿支撑这类驻场角色。这条 narrative <strong>主要适用于有出海规划的学员</strong>。
+        </p>
+        <p>
+          <strong>学员可能问：「国内为什么没有这种岗？」</strong>
+          诚实答：to-B 商业模式不同。中国客户买 SaaS 期待免费部署支持；美国客户接受 vendor 派人驻场+独立计费——所以美国 vendor 才招得起这类岗。
         </p>
       </CaveatBox>
     </NarrativeLayout>

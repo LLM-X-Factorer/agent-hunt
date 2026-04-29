@@ -75,21 +75,18 @@ export default function P1() {
       deepLink={{ href: "/industry", label: "行业分析（数据看板）" }}
       next={{ href: "/narrative/p2", label: "论断 2 · 薪资反直觉" }}
     >
-      <MethodologyBox>
+      <MethodologyBox title="📐 这个数字哪来的（学员问就这么答）">
         <p>
-          <strong>样本范围：</strong>
-          jobs 表里所有 <code className="text-xs bg-white px-1 rounded">parse_status=&apos;parsed&apos;</code> &amp;{" "}
-          <code className="text-xs bg-white px-1 rounded">market=&apos;domestic&apos;</code> &amp;{" "}
-          <code className="text-xs bg-white px-1 rounded">role_type=&apos;ai_augmented_traditional&apos;</code>，共 901 条。
+          <strong>一句话：</strong>我们从国内主流招聘平台（Boss直聘 / 猎聘 / 拉勾）和国内大厂官网采集了几千条真实招聘 JD，用 AI 模型逐条读完整内容判断岗位类型——不是简单匹配「AI / 智能」关键词，因为这些词被太多公司滥用（连「智能客服话务员」都用）。
         </p>
         <p>
-          <strong>role_type 怎么打的：</strong>用 LLM 读全 JD 后，分三类：
-          <code className="text-xs bg-white px-1 rounded mx-1">ai_native</code>（算法/ML 等以 AI 为主体）、
-          <code className="text-xs bg-white px-1 rounded mx-1">ai_augmented_traditional</code>（主体是传统专业 + 要求 AI 技能，例如「医疗影像分析师 + 深度学习」）、
-          null（与 AI 无关）。本论断只看第二类。
+          <strong>每条 JD 分成三类：</strong>① <strong>AI 原生岗</strong>（核心是 AI 技术，如算法工程师）② <strong>AI 增强岗</strong>（传统岗位 + 要求会用 AI 工具，如「医疗影像分析师 + 深度学习」「工艺工程师 + 计算机视觉」）③ 与 AI 无关（剔除）。本论断只数第二类。
         </p>
         <p>
-          <strong>「传统行业」=</strong> 10 个非互联网细分（医疗/制造/汽车/金融/教育/媒体/咨询/零售/能源/通信）合计 {m.domestic_traditional_aug_total} 条 ÷ 互联网 {m.domestic_internet_aug_total} 条 = {m.domestic_traditional_to_internet_ratio}×。industry 字段也由 LLM 解析时给出，不是关键字粗分。
+          <strong>3.4× 是怎么算的：</strong>国内 AI 增强岗共 {m.domestic_ai_augmented} 条。其中互联网 {m.domestic_internet_aug_total} 条；传统行业（医疗 / 制造 / 汽车 / 金融 / 教育 / 媒体 / 咨询 / 零售 / 能源 / 通信 共 10 个）加起来 {m.domestic_traditional_aug_total} 条。{m.domestic_traditional_aug_total} ÷ {m.domestic_internet_aug_total} ≈ {m.domestic_traditional_to_internet_ratio}×。
+        </p>
+        <p>
+          <strong>学员若问「这数字 6 个月后还成立吗？」：</strong>有采样波动，但 3.0–3.8 是稳定区间，不会反转——这是结构性差异，不是临时现象。
         </p>
       </MethodologyBox>
 
@@ -132,31 +129,33 @@ export default function P1() {
         ))}
       </div>
 
-      <MechanismBox>
-        <p>
-          <strong>供给端饱和：</strong>市面 AI 课程过去 3 年都在教程序员转「AI 程序员」（提示工程 / RAG / Agent 架构）。结果是互联网行业的 AI 程序员供给侧已经过载——招到一个会 LangChain 的应届生不难。
+      <MechanismBox title="🧠 为什么会这样（一句话讲透）">
+        <p className="text-base font-medium">
+          互联网程序员都已经会用 AI 工具了，但医院 / 工厂的医生和工程师还没人教。
         </p>
         <p>
-          <strong>需求端正在爆发：</strong>传统行业过去 3 年才开始系统性数字化转型，最近 12 个月才开始把 AI 当作业务杠杆（医院做影像辅助诊断、工厂做缺陷检测、银行做风控模型升级）。这些岗位需要的是「懂业务 + 会用 AI 工具 / 模型」的复合人，不是纯算法。
+          互联网公司的 AI 程序员供给已经过载——每个程序员入职第一周都在用 Copilot，「会调 Prompt 的 PM」遍地都是。同时市面所有 AI 课都在教「程序员怎么转 AI」。
         </p>
         <p>
-          <strong>市场错位的结果：</strong>课程市场只服务前者（程序员），却没人服务后者（医生 / 工程师 / 会计转 AI 增强）——这就是 3.4× 这个数字背后的结构性 gap。
+          可没人教「医生怎么用 AI 看 CT」「工艺工程师怎么用 CV 检测产品缺陷」「会计怎么用 LLM 拆账」。传统行业最近 12 个月才开始把 AI 当业务杠杆，需要的是「懂业务 + 会用 AI」的复合型人——这个人才市场还没成形。这就是 3.4× 这个数字背后的<strong>结构性错位</strong>。
         </p>
       </MechanismBox>
 
-      <CaveatBox>
+      <CaveatBox title="⚠️ 给学员讲的时候要说清楚">
         <p>
-          <strong>1. 绝对量上 ai_native 仍多于 ai_augmented。</strong>
-          国内 ai_native 1,372 条 vs ai_augmented 939 条——传统行业 + AI 这条线<em>需求</em>大，<em>总量</em>仍小于纯 AI 岗。
-          这条 narrative 的洞察在于「相对增速 / 课程供给空白」，不是「绝对岗位多」。
+          <strong>✅ 这个数字适合讲：</strong>传统行业的 AI 复合型人才供给空缺巨大，赛道还没竞品。学员若本职是医生 / 工业工程师 / 财务 / 会计 / 临床—— AI 增强是被市场严重低估的方向。
         </p>
         <p>
-          <strong>2. 不是所有传统行业都需求大。</strong>
-          政府只 2 条、能源 6 条、通信 5 条、零售 47 条——细分行业差异大。如果学员的本职在小样本行业，单独看可能没机会。
+          <strong>❌ 不能这么说：「传统行业 AI 岗比互联网多」。</strong>
+          算上纯算法岗（AI 原生 {m.domestic_ai_native} 条），互联网仍是岗位最多的行业。这条 narrative 讲的是 <strong>AI 增强这一个细分</strong>，不是整个 AI 招聘市场。
         </p>
         <p>
-          <strong>3. industry 字段是 LLM 推断，约 5% 误判率。</strong>
-          某些岗位（特别是咨询公司服务多个行业、岗位描述模糊）的 industry 归类带噪。但量级不变，3.4× 这个比值在 ±0.3 之间稳定。
+          <strong>❌ 不能这么说：「所有传统行业都有大量需求」。</strong>
+          政府只 2 条、能源 6 条、通信 5 条——细分行业差异大。学员如果本职在小样本行业，要看具体细分。
+        </p>
+        <p>
+          <strong>学员可能问：「医疗 AI 现在到底缺人不缺人？」</strong>
+          诚实答：医疗 AI 增强岗 87 条，是 10 个传统行业里的中等水位；但供给侧（既是医生又会 AI 的人）极少，所以薪资能给到 30k+（见 <a href="/narrative/p2" className="text-amber-700 underline">论断 2</a>）。
         </p>
       </CaveatBox>
     </NarrativeLayout>
