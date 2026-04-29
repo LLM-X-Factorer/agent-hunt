@@ -1,40 +1,32 @@
 name: weekly-refresh
 
-# Runs every Sunday at 02:00 UTC (= 10:00 Asia/Shanghai). Manual trigger
-# via "Run workflow" button is also enabled for ad-hoc refreshes.
+# Weekly export + Cloudflare Pages redeploy. Pulls existing data from
+# Supabase and regenerates every JSON in frontend/public/data, then
+# commits any diff and ships it.
+#
+# Why no `collect_*` here: cross-region latency (runner US ↔ Supabase
+# Sydney) makes per-row collect operations stall past timeouts. Run
+# `collect-data` workflow manually when you want fresh ingest, or run
+# scripts/collect_*.py locally with the Supabase URL in .env.
 on:
   schedule:
-    - cron: '0 2 * * 0'
+    - cron: '0 2 * * 0'  # Sun 02:00 UTC = 10:00 Asia/Shanghai
   workflow_dispatch:
 
-# Concurrency: cancel in-progress runs if a new one is queued, so manual
-# dispatches don't pile up behind the scheduled run.
 concurrency:
   group: weekly-refresh
   cancel-in-progress: false
 
 permissions:
-  contents: write  # commit JSON diffs back to main
+  contents: write
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
-    services:
-      redis:
-        image: redis:7-alpine
-        ports:
-          - 6379:6379
-        options: >-
-          --health-cmd "redis-cli ping"
-          --health-interval 5s
-          --health-timeout 3s
-          --health-retries 5
+    timeout-minutes: 30
 
     env:
       AH_DATABASE_URL_OVERRIDE: ${{ secrets.AH_DATABASE_URL }}
-      AH_REDIS_HOST: localhost
-      AH_REDIS_PORT: 6379
       AH_OPENROUTER_API_KEY: ${{ secrets.AH_OPENROUTER_API_KEY }}
       AH_LLM_MODEL: deepseek/deepseek-v3.2-exp
 
@@ -44,9 +36,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ---------------------------------------------------------------
-      # Backend setup
-      # ---------------------------------------------------------------
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -63,42 +52,18 @@ jobs:
           uv pip install -e ".[dev]"
 
       # ---------------------------------------------------------------
-      # 1. Incremental collect — only no-anti-scrape sources
-      # ---------------------------------------------------------------
-      # Collect steps have hard timeouts because cross-region DB latency
-      # (runner in US, Supabase in ap-southeast-2) makes per-row INSERT/UPDATE
-      # round-trips slow. continue-on-error so partial collection still
-      # flows downstream into the exports.
-      - name: Collect HN Who is Hiring
-        working-directory: backend
-        run: .venv/bin/python scripts/collect_hn_wih.py
-        continue-on-error: true
-        timeout-minutes: 8
-
-      - name: Collect GitHub hiring repos
-        working-directory: backend
-        run: .venv/bin/python scripts/collect_github_hiring.py
-        continue-on-error: true
-        timeout-minutes: 12
-
-      # ---------------------------------------------------------------
-      # 2. Rule-based role_type backfill (no LLM cost)
-      # ---------------------------------------------------------------
-      - name: Backfill role_type
-        working-directory: backend
-        run: .venv/bin/python scripts/backfill_role_type_rules.py --apply
-        continue-on-error: true
-        timeout-minutes: 5
-
-      # ---------------------------------------------------------------
-      # 3. Regenerate every dependent JSON
+      # Regenerate every dependent JSON. All exports are read-only on
+      # the DB (in-memory aggregation) so they're fast even across
+      # ap-southeast-2 latency.
       # ---------------------------------------------------------------
       - name: Refresh API snapshots
         working-directory: backend
         run: .venv/bin/python scripts/export_api_snapshots.py
+        timeout-minutes: 5
 
       - name: Run all data exports
         working-directory: backend
+        timeout-minutes: 15
         run: |
           for s in export_market_data analyze_roles export_real_salary \
                   export_roles_by_industry export_roles_by_city \
@@ -111,9 +76,6 @@ jobs:
               .venv/bin/python "scripts/$s.py" || echo "[warn] $s failed"
           done
 
-      # ---------------------------------------------------------------
-      # 4. Commit any data changes
-      # ---------------------------------------------------------------
       - name: Commit data diffs
         run: |
           if [[ -n "$(git status --porcelain frontend/public/data/)" ]]; then
@@ -127,7 +89,7 @@ jobs:
           fi
 
       # ---------------------------------------------------------------
-      # 5. Frontend rebuild + Cloudflare Pages deploy
+      # Frontend rebuild + Cloudflare Pages deploy
       # ---------------------------------------------------------------
       - name: Setup Node
         uses: actions/setup-node@v4
