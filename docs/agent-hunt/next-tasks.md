@@ -1,6 +1,6 @@
 # Agent Hunt — 跨会话任务清单
 
-> 最近更新：2026-04-29
+> 最近更新：2026-04-29（#17 GitHub hiring repos collector 已上线）
 > 本文档供新会话 onboarding 使用。每个任务包含「启动 prompt」（可直接复制粘贴给 Claude）+ 上下文 + ROI 评估。
 
 ## 全局上下文（每个新会话都需要的）
@@ -45,27 +45,6 @@ agent-hunt 是 AI 职业市场全景分析平台 = **数据生产端**。下游 
 ---
 
 ## 待办任务清单（按 ROI 排序）
-
-### #17 后续 — GitHub hiring repos【P2 · 推荐先做】
-
-**ROI**：⭐⭐⭐⭐⭐ — GitHub API 公开零反爬，已有参考 collector
-
-**目标**：抓取 GitHub 上的 awesome-jobs / `<company>-hiring` 仓库 + monthly hiring threads（issue 形式）的招聘信息。补充 HN Who is Hiring（已 1365 条）的覆盖。
-
-**入表**：`jobs` 表，`source="community_open"`，`platform_id="community_github_hiring"`
-
-**启动 prompt**：
-> 我们继续做 agent-hunt 项目（数据生产端，下游是 aijobfit 求职诊断）。
->
-> 【当前 issue】要做 issue #17 后续 — GitHub hiring repos collector。覆盖 awesome-jobs / `<company>-hiring` 类仓库 + monthly hiring threads（issue 形式）。GitHub API 公开零反爬。
->
-> 【入表】jobs 表，`source="community_open"`，`platform_id="community_github_hiring"`。
->
-> 【参考】backend/scripts/collect_hn_wih.py（HN Algolia API 模式，最接近）。
->
-> 【上下文】docs/agent-hunt/next-tasks.md 有完整工作流和约定，请先看。
-
----
 
 ### #14 后续 — 一亩三分地 offer 板【P1】
 
@@ -227,6 +206,7 @@ agent-hunt 是 AI 职业市场全景分析平台 = **数据生产端**。下游 
 
 ## 已完成（最近）
 
+- **#17 后续** GitHub hiring repos collector — `collect_github_hiring.py` 抓 SimplifyJobs/New-Grad-Positions + Summer2026-Internships + vanshb03/Summer2025-Internships 三个仓库 listings.json，AI 相关筛选后 2089 条入库（platform_id=community_github_hiring）。注意：**OpenRouter 信用余额耗尽（HTTP 402）**，仅 120/2119 LLM-parsed，剩 1999 条等充值后跑 `POST /jobs/parse/batch` 即可
 - **#15** levels.fyi CN 大厂扩展（commit 3fd5bfe）— 1392 salary reports
 - **#9 / 部分 #10 / 部分 #11** 行业 × 岗位 2D + 增强职业 + graduate-friendly（commit 9884f47）
 - **#14 部分** nowcoder applicant profiles（commit 28f70f5）— 718 条

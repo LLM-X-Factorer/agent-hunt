@@ -73,6 +73,14 @@
       "jaccard_index": 0.189
     },
     {
+      "skill_a": "llm",
+      "skill_b": "prompt_engineering",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Prompt Engineering",
+      "cooccurrence_count": 16,
+      "jaccard_index": 0.136
+    },
+    {
       "skill_a": "java",
       "skill_b": "llm",
       "skill_a_name": "Java",
@@ -87,14 +95,6 @@
       "skill_b_name": "Retrieval-Augmented Generation",
       "cooccurrence_count": 16,
       "jaccard_index": 0.364
-    },
-    {
-      "skill_a": "llm",
-      "skill_b": "prompt_engineering",
-      "skill_a_name": "Large Language Models",
-      "skill_b_name": "Prompt Engineering",
-      "cooccurrence_count": 16,
-      "jaccard_index": 0.136
     },
     {
       "skill_a": "langchain",
@@ -129,22 +129,6 @@
       "jaccard_index": 0.133
     },
     {
-      "skill_a": "autogen",
-      "skill_b": "langchain",
-      "skill_a_name": "AutoGen",
-      "skill_b_name": "LangChain",
-      "cooccurrence_count": 13,
-      "jaccard_index": 0.542
-    },
-    {
-      "skill_a": "autogen",
-      "skill_b": "python",
-      "skill_a_name": "AutoGen",
-      "skill_b_name": "Python",
-      "cooccurrence_count": 13,
-      "jaccard_index": 0.236
-    },
-    {
       "skill_a": "python",
       "skill_b": "pytorch",
       "skill_a_name": "Python",
@@ -161,12 +145,20 @@
       "jaccard_index": 0.173
     },
     {
-      "skill_a": "golang",
+      "skill_a": "autogen",
+      "skill_b": "langchain",
+      "skill_a_name": "AutoGen",
+      "skill_b_name": "LangChain",
+      "cooccurrence_count": 13,
+      "jaccard_index": 0.542
+    },
+    {
+      "skill_a": "autogen",
       "skill_b": "python",
-      "skill_a_name": "Go",
+      "skill_a_name": "AutoGen",
       "skill_b_name": "Python",
-      "cooccurrence_count": 12,
-      "jaccard_index": 0.211
+      "cooccurrence_count": 13,
+      "jaccard_index": 0.236
     },
     {
       "skill_a": "python",
@@ -185,44 +177,20 @@
       "jaccard_index": 0.117
     },
     {
+      "skill_a": "golang",
+      "skill_b": "python",
+      "skill_a_name": "Go",
+      "skill_b_name": "Python",
+      "cooccurrence_count": 12,
+      "jaccard_index": 0.211
+    },
+    {
       "skill_a": "fine_tuning",
       "skill_b": "llm",
       "skill_a_name": "Fine-tuning",
       "skill_b_name": "Large Language Models",
       "cooccurrence_count": 12,
       "jaccard_index": 0.115
-    },
-    {
-      "skill_a": "agent_architecture",
-      "skill_b": "langchain",
-      "skill_a_name": "Agent Architecture",
-      "skill_b_name": "LangChain",
-      "cooccurrence_count": 11,
-      "jaccard_index": 0.169
-    },
-    {
-      "skill_a": "langchain",
-      "skill_b": "prompt_engineering",
-      "skill_a_name": "LangChain",
-      "skill_b_name": "Prompt Engineering",
-      "cooccurrence_count": 11,
-      "jaccard_index": 0.25
-    },
-    {
-      "skill_a": "langchain",
-      "skill_b": "llamaindex",
-      "skill_a_name": "LangChain",
-      "skill_b_name": "LlamaIndex",
-      "cooccurrence_count": 11,
-      "jaccard_index": 0.458
-    },
-    {
-      "skill_a": "llamaindex",
-      "skill_b": "python",
-      "skill_a_name": "LlamaIndex",
-      "skill_b_name": "Python",
-      "cooccurrence_count": 11,
-      "jaccard_index": 0.2
     },
     {
       "skill_a": "rag",
@@ -233,12 +201,44 @@
       "jaccard_index": 0.289
     },
     {
-      "skill_a": "cpp",
+      "skill_a": "langchain",
+      "skill_b": "llamaindex",
+      "skill_a_name": "LangChain",
+      "skill_b_name": "LlamaIndex",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.458
+    },
+    {
+      "skill_a": "langchain",
+      "skill_b": "prompt_engineering",
+      "skill_a_name": "LangChain",
+      "skill_b_name": "Prompt Engineering",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.25
+    },
+    {
+      "skill_a": "llamaindex",
       "skill_b": "python",
-      "skill_a_name": "C++",
+      "skill_a_name": "LlamaIndex",
       "skill_b_name": "Python",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.2
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "langchain",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "LangChain",
+      "cooccurrence_count": 11,
+      "jaccard_index": 0.169
+    },
+    {
+      "skill_a": "llm",
+      "skill_b": "tongyi_qianwen",
+      "skill_a_name": "Large Language Models",
+      "skill_b_name": "Tongyi Qianwen",
       "cooccurrence_count": 10,
-      "jaccard_index": 0.182
+      "jaccard_index": 0.095
     }
   ],
   "total_jobs_analyzed": 138

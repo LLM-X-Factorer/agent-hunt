@@ -1,10 +1,10 @@
 [
   {
     "industry": "internet",
-    "job_count": 759,
-    "domestic_count": 759,
+    "job_count": 804,
+    "domestic_count": 804,
     "international_count": 0,
-    "avg_salary": 39131,
+    "avg_salary": 38228,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -30,10 +30,10 @@
   },
   {
     "industry": "manufacturing",
-    "job_count": 264,
-    "domestic_count": 264,
+    "job_count": 283,
+    "domestic_count": 283,
     "international_count": 0,
-    "avg_salary": 41048,
+    "avg_salary": 39323,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -59,10 +59,10 @@
   },
   {
     "industry": "finance",
-    "job_count": 184,
-    "domestic_count": 184,
+    "job_count": 186,
+    "domestic_count": 186,
     "international_count": 0,
-    "avg_salary": 45979,
+    "avg_salary": 45910,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -88,10 +88,10 @@
   },
   {
     "industry": "automotive",
-    "job_count": 176,
-    "domestic_count": 176,
+    "job_count": 180,
+    "domestic_count": 180,
     "international_count": 0,
-    "avg_salary": 37752,
+    "avg_salary": 37320,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -116,69 +116,11 @@
     ]
   },
   {
-    "industry": "consulting",
-    "job_count": 145,
-    "domestic_count": 145,
-    "international_count": 0,
-    "avg_salary": 34819,
-    "top_skills": [
-      {
-        "skill_id": "llm",
-        "count": 11
-      },
-      {
-        "skill_id": "prompt_engineering",
-        "count": 6
-      },
-      {
-        "skill_id": "agent_architecture",
-        "count": 6
-      },
-      {
-        "skill_id": "python",
-        "count": 4
-      },
-      {
-        "skill_id": "rag",
-        "count": 3
-      }
-    ]
-  },
-  {
-    "industry": "healthcare",
-    "job_count": 141,
-    "domestic_count": 141,
-    "international_count": 0,
-    "avg_salary": 39139,
-    "top_skills": [
-      {
-        "skill_id": "llm",
-        "count": 17
-      },
-      {
-        "skill_id": "agent_architecture",
-        "count": 4
-      },
-      {
-        "skill_id": "python",
-        "count": 3
-      },
-      {
-        "skill_id": "sql",
-        "count": 2
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 2
-      }
-    ]
-  },
-  {
     "industry": "retail",
-    "job_count": 115,
-    "domestic_count": 115,
+    "job_count": 149,
+    "domestic_count": 149,
     "international_count": 0,
-    "avg_salary": 24561,
+    "avg_salary": 22369,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -203,11 +145,98 @@
     ]
   },
   {
-    "industry": "education",
-    "job_count": 83,
-    "domestic_count": 83,
+    "industry": "consulting",
+    "job_count": 147,
+    "domestic_count": 147,
     "international_count": 0,
-    "avg_salary": 29900,
+    "avg_salary": 34618,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 11
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 6
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 6
+      },
+      {
+        "skill_id": "python",
+        "count": 4
+      },
+      {
+        "skill_id": "rag",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "industry": "media",
+    "job_count": 145,
+    "domestic_count": 145,
+    "international_count": 0,
+    "avg_salary": 22237,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 6
+      },
+      {
+        "skill_id": "golang",
+        "count": 2
+      },
+      {
+        "skill_id": "java",
+        "count": 2
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 1
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "industry": "healthcare",
+    "job_count": 144,
+    "domestic_count": 144,
+    "international_count": 0,
+    "avg_salary": 38672,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 17
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 4
+      },
+      {
+        "skill_id": "python",
+        "count": 3
+      },
+      {
+        "skill_id": "sql",
+        "count": 2
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "industry": "education",
+    "job_count": 86,
+    "domestic_count": 86,
+    "international_count": 0,
+    "avg_salary": 29438,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -233,10 +262,10 @@
   },
   {
     "industry": "other",
-    "job_count": 54,
-    "domestic_count": 54,
+    "job_count": 59,
+    "domestic_count": 59,
     "international_count": 0,
-    "avg_salary": 23656,
+    "avg_salary": 25588,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -261,30 +290,22 @@
     ]
   },
   {
-    "industry": "media",
-    "job_count": 49,
-    "domestic_count": 49,
+    "industry": "energy",
+    "job_count": 23,
+    "domestic_count": 23,
     "international_count": 0,
-    "avg_salary": 34546,
+    "avg_salary": 43982,
     "top_skills": [
       {
-        "skill_id": "llm",
-        "count": 6
-      },
-      {
-        "skill_id": "golang",
+        "skill_id": "agent_architecture",
         "count": 2
-      },
-      {
-        "skill_id": "java",
-        "count": 2
-      },
-      {
-        "skill_id": "data_analysis",
-        "count": 1
       },
       {
         "skill_id": "prompt_engineering",
+        "count": 1
+      },
+      {
+        "skill_id": "function_calling",
         "count": 1
       }
     ]
@@ -314,27 +335,6 @@
       },
       {
         "skill_id": "autogen",
-        "count": 1
-      }
-    ]
-  },
-  {
-    "industry": "energy",
-    "job_count": 18,
-    "domestic_count": 18,
-    "international_count": 0,
-    "avg_salary": 51419,
-    "top_skills": [
-      {
-        "skill_id": "agent_architecture",
-        "count": 2
-      },
-      {
-        "skill_id": "prompt_engineering",
-        "count": 1
-      },
-      {
-        "skill_id": "function_calling",
         "count": 1
       }
     ]

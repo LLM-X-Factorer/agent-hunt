@@ -1,6 +1,6 @@
 {
   "overall": {
-    "total": 5980,
+    "total": 8099,
     "reposted": 0,
     "repost_ratio": 0.0,
     "closed": 0,
@@ -8,7 +8,7 @@
   },
   "by_market": [
     {
-      "total": 3366,
+      "total": 3490,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -16,7 +16,7 @@
       "market": "international"
     },
     {
-      "total": 2235,
+      "total": 2243,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -112,11 +112,19 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_cohere"
+    },
+    {
+      "total": 2119,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "community_github_hiring"
     }
   ],
   "by_industry": [
     {
-      "total": 3084,
+      "total": 3136,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -124,7 +132,7 @@
       "industry": "internet"
     },
     {
-      "total": 363,
+      "total": 373,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -132,7 +140,7 @@
       "industry": "finance"
     },
     {
-      "total": 390,
+      "total": 411,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -140,7 +148,7 @@
       "industry": "manufacturing"
     },
     {
-      "total": 153,
+      "total": 156,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -148,7 +156,7 @@
       "industry": "education"
     },
     {
-      "total": 370,
+      "total": 380,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -156,7 +164,7 @@
       "industry": "healthcare"
     },
     {
-      "total": 211,
+      "total": 213,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -164,7 +172,7 @@
       "industry": "retail"
     },
     {
-      "total": 248,
+      "total": 258,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -172,7 +180,7 @@
       "industry": "consulting"
     },
     {
-      "total": 232,
+      "total": 239,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -188,7 +196,7 @@
       "industry": "telecom"
     },
     {
-      "total": 254,
+      "total": 258,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -196,7 +204,7 @@
       "industry": "media"
     },
     {
-      "total": 181,
+      "total": 189,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -204,7 +212,7 @@
       "industry": "other"
     },
     {
-      "total": 56,
+      "total": 61,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -318,7 +326,7 @@
       "company": "Michael Page"
     },
     {
-      "total": 6,
+      "total": 8,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -454,7 +462,7 @@
       "company": "ComfyUI"
     },
     {
-      "total": 652,
+      "total": 653,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -526,7 +534,7 @@
       "company": "中煤科工集团重庆研究院有限公司"
     },
     {
-      "total": 18,
+      "total": 21,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,

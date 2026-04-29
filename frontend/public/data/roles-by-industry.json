@@ -107,7 +107,7 @@
         },
         "algorithm": {
           "roleName": "算法工程师/研究员",
-          "vacancyCount": 40,
+          "vacancyCount": 44,
           "salaryMedian": 56250,
           "salarySampleSize": 38,
           "topRegions": [
@@ -1397,9 +1397,9 @@
       "internet": {
         "leadership": {
           "roleName": "Engineering Leadership",
-          "vacancyCount": 191,
-          "salaryMedian": 162328,
-          "salarySampleSize": 79,
+          "vacancyCount": 192,
+          "salaryMedian": 163781,
+          "salarySampleSize": 80,
           "topRegions": [
             "San Francisco",
             "San Francisco, CA",
@@ -1410,7 +1410,7 @@
         },
         "data": {
           "roleName": "Data Scientist / Analyst",
-          "vacancyCount": 15,
+          "vacancyCount": 17,
           "salaryMedian": 153499,
           "salarySampleSize": 7,
           "topRegions": [
@@ -1423,7 +1423,7 @@
         },
         "ml_engineer": {
           "roleName": "ML/AI Engineer",
-          "vacancyCount": 152,
+          "vacancyCount": 163,
           "salaryMedian": 114791,
           "salarySampleSize": 39,
           "topRegions": [
@@ -1431,25 +1431,25 @@
             "Remote",
             "USA",
             "London, UK",
-            "Singapore"
+            "San Francisco, CA"
           ]
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 194,
+          "vacancyCount": 207,
           "salaryMedian": 187291,
           "salarySampleSize": 97,
           "topRegions": [
             "San Francisco",
             "San Francisco, CA",
-            "San Francisco, CA | New York City, NY",
             "London, UK",
+            "San Francisco, CA | New York City, NY",
             "Mountain View, California, US"
           ]
         },
         "sde": {
           "roleName": "Software Engineer",
-          "vacancyCount": 423,
+          "vacancyCount": 425,
           "salaryMedian": 140312,
           "salarySampleSize": 131,
           "topRegions": [
@@ -1475,7 +1475,7 @@
         },
         "product_manager": {
           "roleName": "Product Manager",
-          "vacancyCount": 75,
+          "vacancyCount": 76,
           "salaryMedian": 123579,
           "salarySampleSize": 54,
           "topRegions": [
@@ -1488,7 +1488,7 @@
         },
         "architect": {
           "roleName": "Solutions Architect",
-          "vacancyCount": 72,
+          "vacancyCount": 73,
           "salaryMedian": 145000,
           "salarySampleSize": 29,
           "topRegions": [
@@ -1501,9 +1501,9 @@
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 11,
-          "salaryMedian": 69948,
-          "salarySampleSize": 6,
+          "vacancyCount": 19,
+          "salaryMedian": 37854,
+          "salarySampleSize": 7,
           "topRegions": [
             "San Francisco, CA",
             "New York City",
@@ -1540,11 +1540,13 @@
       "consulting": {
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 2,
+          "vacancyCount": 4,
           "salaryMedian": 23892,
           "salarySampleSize": 1,
           "topRegions": [
-            "United States"
+            "United States",
+            "Chicago, IL",
+            "Columbia, SC"
           ],
           "lowSample": true
         },
@@ -1563,7 +1565,7 @@
         },
         "sde": {
           "roleName": "Software Engineer",
-          "vacancyCount": 26,
+          "vacancyCount": 27,
           "salaryMedian": 83828,
           "salarySampleSize": 21,
           "topRegions": [
@@ -1576,16 +1578,16 @@
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 4,
+          "vacancyCount": 5,
           "salaryMedian": 116000,
           "salarySampleSize": 1,
           "topRegions": [
             "USA",
             "Lexington, MA, USA",
             "New York City, NY",
-            "remote"
-          ],
-          "lowSample": true
+            "remote",
+            "Boston, MA"
+          ]
         },
         "leadership": {
           "roleName": "Engineering Leadership",
@@ -1601,13 +1603,16 @@
         },
         "data": {
           "roleName": "Data Scientist / Analyst",
-          "vacancyCount": 2,
+          "vacancyCount": 6,
           "salaryMedian": 48589,
           "salarySampleSize": 1,
           "topRegions": [
-            "Dallas, Texas, United States"
-          ],
-          "lowSample": true
+            "Dallas, Texas, United States",
+            "Bedford, IN",
+            "Mason, OH",
+            "Pleasanton, CA",
+            "Atlanta, GA"
+          ]
         },
         "product_manager": {
           "roleName": "Product Manager",
@@ -1693,7 +1698,7 @@
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 24,
+          "vacancyCount": 25,
           "salaryMedian": 89261,
           "salarySampleSize": 10,
           "topRegions": [
@@ -1706,12 +1711,13 @@
         },
         "data": {
           "roleName": "Data Scientist / Analyst",
-          "vacancyCount": 2,
+          "vacancyCount": 3,
           "salaryMedian": null,
           "salarySampleSize": 0,
           "topRegions": [
             "Tampa, Florida (Remote eligible)",
-            "Tampa, Florida"
+            "Tampa, Florida",
+            "Remote in USA"
           ],
           "lowSample": true
         },
@@ -1750,11 +1756,24 @@
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
+          "vacancyCount": 5,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Multiple locations",
+            "Chicago, IL",
+            "San Diego, CA",
+            "Ambler, PA",
+            "Princeton, NJ"
+          ]
+        },
+        "autonomous": {
+          "roleName": "Autonomous Vehicles",
           "vacancyCount": 1,
           "salaryMedian": null,
           "salarySampleSize": 0,
           "topRegions": [
-            "Multiple locations"
+            "San Francisco, CA"
           ],
           "lowSample": true
         }
@@ -1762,22 +1781,22 @@
       "manufacturing": {
         "ml_engineer": {
           "roleName": "ML/AI Engineer",
-          "vacancyCount": 14,
+          "vacancyCount": 16,
           "salaryMedian": 95455,
           "salarySampleSize": 8,
           "topRegions": [
             "San Francisco, CA",
+            "Milpitas, CA",
             "Schriever Space Force Base, Colorado Springs, CO",
             "Los Angeles, USA",
-            "Costa Mesa, CA",
-            "Burlingame, California, USA"
+            "Costa Mesa, CA"
           ]
         },
         "sde": {
           "roleName": "Software Engineer",
-          "vacancyCount": 27,
-          "salaryMedian": 64729,
-          "salarySampleSize": 6,
+          "vacancyCount": 32,
+          "salaryMedian": 64824,
+          "salarySampleSize": 7,
           "topRegions": [
             "Hawthorne, CA (Los Angeles County)",
             "Seattle",
@@ -1801,15 +1820,15 @@
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 6,
+          "vacancyCount": 12,
           "salaryMedian": 61276,
           "salarySampleSize": 4,
           "topRegions": [
             "United States",
             "Pittsburgh, PA",
+            "Ann Arbor, MI",
             "Euclid, OH",
-            "USA",
-            "Lisbon, Portugal"
+            "USA"
           ]
         },
         "architect": {
@@ -1848,12 +1867,25 @@
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 2,
+          "vacancyCount": 6,
           "salaryMedian": null,
           "salarySampleSize": 0,
           "topRegions": [
             "Cairo, Egypt & London, UK",
-            "Hamburg, Germany"
+            "Hamburg, Germany",
+            "Cambridge, UK",
+            "United Kingdom",
+            "Greenville, SC"
+          ]
+        },
+        "data": {
+          "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 2,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Milwaukee, WI",
+            "San Mateo, CA"
           ],
           "lowSample": true
         }
@@ -1861,7 +1893,7 @@
       "finance": {
         "ml_engineer": {
           "roleName": "ML/AI Engineer",
-          "vacancyCount": 22,
+          "vacancyCount": 24,
           "salaryMedian": 96666,
           "salarySampleSize": 15,
           "topRegions": [
@@ -1874,7 +1906,7 @@
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 11,
+          "vacancyCount": 13,
           "salaryMedian": 34981,
           "salarySampleSize": 3,
           "topRegions": [
@@ -1944,25 +1976,27 @@
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 2,
+          "vacancyCount": 6,
           "salaryMedian": 19720,
           "salarySampleSize": 1,
           "topRegions": [
             "NYC",
-            "New York City, USA"
-          ],
-          "lowSample": true
+            "New York City, USA",
+            "Sunnyvale, CA",
+            "San Antonio, TX"
+          ]
         },
         "data": {
           "roleName": "Data Scientist / Analyst",
-          "vacancyCount": 3,
+          "vacancyCount": 5,
           "salaryMedian": 96667,
           "salarySampleSize": 3,
           "topRegions": [
             "SF & Remote",
-            "New York, NY; Palo Alto, CA"
-          ],
-          "lowSample": true
+            "New York, NY; Palo Alto, CA",
+            "Boston, MA",
+            "Milwaukee, WI"
+          ]
         }
       },
       "media": {
@@ -1994,26 +2028,29 @@
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 6,
+          "vacancyCount": 8,
           "salaryMedian": 123950,
           "salarySampleSize": 3,
           "topRegions": [
             "Los Angeles, USA",
             "Hamburg, Germany",
-            "Remote US/EU/UK + hubs in NYC, SF, Seattle, London"
+            "Remote US/EU/UK + hubs in NYC, SF, Seattle, London",
+            "Sunnyvale, CA",
+            "Culver City, CA"
           ]
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 3,
+          "vacancyCount": 5,
           "salaryMedian": 36351,
           "salarySampleSize": 3,
           "topRegions": [
             "San Francisco, CA",
             "Los Angeles, USA",
-            "Los Angeles, CA"
-          ],
-          "lowSample": true
+            "Los Angeles, CA",
+            "Needham, MA",
+            "San Francisco"
+          ]
         },
         "product_manager": {
           "roleName": "Product Manager",
@@ -2111,22 +2148,26 @@
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 1,
+          "vacancyCount": 6,
           "salaryMedian": 187291,
           "salarySampleSize": 1,
           "topRegions": [
-            "Palo Alto, CA"
-          ],
-          "lowSample": true
+            "Palo Alto, CA",
+            "Woodridge, IL",
+            "Aptos, CA",
+            "Toronto, ON, Canada",
+            "Frisco, TX"
+          ]
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 2,
+          "vacancyCount": 3,
           "salaryMedian": null,
           "salarySampleSize": 0,
           "topRegions": [
             "London",
-            "Austin TX"
+            "Austin TX",
+            "Mountain View, CA"
           ],
           "lowSample": true
         },
@@ -2137,6 +2178,16 @@
           "salarySampleSize": 0,
           "topRegions": [
             "Austin TX"
+          ],
+          "lowSample": true
+        },
+        "data": {
+          "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 1,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Tempe, AZ"
           ],
           "lowSample": true
         }
@@ -2165,15 +2216,15 @@
         },
         "ml_engineer": {
           "roleName": "ML/AI Engineer",
-          "vacancyCount": 4,
+          "vacancyCount": 5,
           "salaryMedian": 104166,
           "salarySampleSize": 4,
           "topRegions": [
             "USA",
             "Los Angeles, California",
-            "Bay Area"
-          ],
-          "lowSample": true
+            "Bay Area",
+            "Palo Alto, CA"
+          ]
         },
         "autonomous": {
           "roleName": "Autonomous Vehicles",
@@ -2190,33 +2241,35 @@
         },
         "sde": {
           "roleName": "Software Engineer",
-          "vacancyCount": 4,
+          "vacancyCount": 5,
           "salaryMedian": 102505,
           "salarySampleSize": 2,
           "topRegions": [
-            "San Jose, CA"
-          ],
-          "lowSample": true
+            "San Jose, CA",
+            "Spartanburg, SC"
+          ]
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 6,
+          "vacancyCount": 7,
           "salaryMedian": 82522,
           "salarySampleSize": 6,
           "topRegions": [
             "Irvine, California",
             "Mountain View, California, USA",
-            "Urbana, Illinois, USA"
+            "Urbana, Illinois, USA",
+            "San Mateo, CA"
           ]
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 2,
+          "vacancyCount": 3,
           "salaryMedian": 44080,
           "salarySampleSize": 2,
           "topRegions": [
             "Palo Alto, Irvine, Normal, Plymouth (USA)",
-            "Palo Alto, Irvine, Normal, Plymouth, USA"
+            "Palo Alto, Irvine, Normal, Plymouth, USA",
+            "Greer, SC"
           ],
           "lowSample": true
         },
@@ -2227,6 +2280,16 @@
           "salarySampleSize": 0,
           "topRegions": [
             "San Carlos, CA"
+          ],
+          "lowSample": true
+        },
+        "data": {
+          "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 1,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Spartanburg, SC"
           ],
           "lowSample": true
         }
@@ -2304,11 +2367,22 @@
         },
         "data": {
           "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 2,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "New York City",
+            "Chicago, IL"
+          ],
+          "lowSample": true
+        },
+        "intern_newgrad": {
+          "roleName": "Intern / New Grad",
           "vacancyCount": 1,
           "salaryMedian": null,
           "salarySampleSize": 0,
           "topRegions": [
-            "New York City"
+            "Pittsburgh, PA"
           ],
           "lowSample": true
         }
@@ -2329,15 +2403,15 @@
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 4,
+          "vacancyCount": 5,
           "salaryMedian": 97638,
           "salarySampleSize": 1,
           "topRegions": [
             "New York City (FiDi)",
             "Santa Clara, CA, USA",
-            "Waltham, MA"
-          ],
-          "lowSample": true
+            "Waltham, MA",
+            "Dallas, TX"
+          ]
         },
         "ml_engineer": {
           "roleName": "ML/AI Engineer",
@@ -2346,6 +2420,27 @@
           "salarySampleSize": 0,
           "topRegions": [
             "Luxembourg"
+          ],
+          "lowSample": true
+        },
+        "data": {
+          "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 2,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "NYC",
+            "Washington, DC; Durham, NC; NYC; SF"
+          ],
+          "lowSample": true
+        },
+        "intern_newgrad": {
+          "roleName": "Intern / New Grad",
+          "vacancyCount": 2,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "San Jose, CA"
           ],
           "lowSample": true
         }
@@ -2410,13 +2505,14 @@
         },
         "ml_engineer": {
           "roleName": "ML/AI Engineer",
-          "vacancyCount": 3,
+          "vacancyCount": 4,
           "salaryMedian": 108739,
           "salarySampleSize": 2,
           "topRegions": [
             "Southern California, USA",
             "USA",
-            "Remote – US/Canada"
+            "Remote – US/Canada",
+            "Remote"
           ],
           "lowSample": true
         },

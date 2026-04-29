@@ -238,5 +238,20 @@
     "has_company_size": false,
     "collector_class": "HNWhoIsHiringCollector",
     "is_enabled": true
+  },
+  {
+    "id": "community_github_hiring",
+    "name": "GitHub Hiring Lists",
+    "market": "international",
+    "url": "https://github.com/SimplifyJobs",
+    "language": "en",
+    "tier": 1,
+    "scrape_difficulty": 1,
+    "data_quality": "medium",
+    "refresh_rate": "daily",
+    "has_salary_data": false,
+    "has_company_size": false,
+    "collector_class": "GitHubHiringCollector",
+    "is_enabled": true
   }
 ]
