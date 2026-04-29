@@ -681,6 +681,23 @@
       ]
     },
     {
+      "skill_id": "fastapi",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 3,
+          "salary_median": 35000,
+          "salary_avg": 41277
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": 50000,
+          "salary_avg": 50000
+        }
+      ]
+    },
+    {
       "skill_id": "multi_agent",
       "series": [
         {
@@ -767,23 +784,6 @@
           "job_count": 4,
           "salary_median": 37500,
           "salary_avg": 42500
-        }
-      ]
-    },
-    {
-      "skill_id": "fastapi",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 3,
-          "salary_median": 35000,
-          "salary_avg": 41277
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 50000,
-          "salary_avg": 50000
         }
       ]
     },

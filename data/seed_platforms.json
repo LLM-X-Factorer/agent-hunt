@@ -253,5 +253,35 @@
     "has_company_size": false,
     "collector_class": "GitHubHiringCollector",
     "is_enabled": true
+  },
+  {
+    "id": "vendor_minimax",
+    "name": "MiniMax 官方招聘",
+    "market": "domestic",
+    "url": "https://www.minimaxi.com/careers",
+    "language": "zh",
+    "tier": 1,
+    "scrape_difficulty": 2,
+    "data_quality": "high",
+    "refresh_rate": "daily",
+    "has_salary_data": false,
+    "has_company_size": true,
+    "collector_class": "FeishuJobsCollector",
+    "is_enabled": true
+  },
+  {
+    "id": "vendor_baichuan",
+    "name": "百川智能 官方招聘",
+    "market": "domestic",
+    "url": "https://www.baichuan-ai.com",
+    "language": "zh",
+    "tier": 1,
+    "scrape_difficulty": 2,
+    "data_quality": "high",
+    "refresh_rate": "daily",
+    "has_salary_data": false,
+    "has_company_size": true,
+    "collector_class": "FeishuJobsCollector",
+    "is_enabled": true
   }
 ]

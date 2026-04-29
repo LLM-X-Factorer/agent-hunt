@@ -53,7 +53,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 50,
+          "job_count": 113,
           "salary_median": 30000,
           "salary_avg": 36835,
           "top_skills": [
@@ -150,7 +150,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 19,
+          "job_count": 36,
           "salary_median": 27500,
           "salary_avg": 36210,
           "top_skills": [
@@ -227,7 +227,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 13,
+          "job_count": 32,
           "salary_median": 50000,
           "salary_avg": 53569,
           "top_skills": [
@@ -272,62 +272,6 @@
               "skill_id": "agent_architecture"
             }
           ]
-        }
-      ]
-    },
-    {
-      "role_id": "sales_bd",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 118,
-          "salary_median": 22500,
-          "salary_avg": 33905,
-          "top_skills": [
-            {
-              "count": 4,
-              "skill_id": "llm"
-            },
-            {
-              "count": 1,
-              "skill_id": "tongyi_qianwen"
-            }
-          ]
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 2,
-          "salary_median": 85000,
-          "salary_avg": 85000,
-          "top_skills": []
-        }
-      ]
-    },
-    {
-      "role_id": "leadership",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 108,
-          "salary_median": 55625,
-          "salary_avg": 67250,
-          "top_skills": [
-            {
-              "count": 4,
-              "skill_id": "llm"
-            },
-            {
-              "count": 2,
-              "skill_id": "agent_architecture"
-            }
-          ]
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 9,
-          "salary_median": 35000,
-          "salary_avg": 46875,
-          "top_skills": []
         }
       ]
     },
@@ -384,7 +328,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 26,
+          "job_count": 46,
           "salary_median": 13500,
           "salary_avg": 18500,
           "top_skills": [
@@ -409,6 +353,62 @@
               "skill_id": "data_analysis"
             }
           ]
+        }
+      ]
+    },
+    {
+      "role_id": "leadership",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 108,
+          "salary_median": 55625,
+          "salary_avg": 67250,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "llm"
+            },
+            {
+              "count": 2,
+              "skill_id": "agent_architecture"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 15,
+          "salary_median": 35000,
+          "salary_avg": 46875,
+          "top_skills": []
+        }
+      ]
+    },
+    {
+      "role_id": "sales_bd",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 118,
+          "salary_median": 22500,
+          "salary_avg": 33905,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "llm"
+            },
+            {
+              "count": 1,
+              "skill_id": "tongyi_qianwen"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": 85000,
+          "salary_avg": 85000,
+          "top_skills": []
         }
       ]
     },
@@ -468,23 +468,6 @@
       ]
     },
     {
-      "role_id": "education_ai",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 30,
-          "salary_median": 14750,
-          "salary_avg": 21732,
-          "top_skills": [
-            {
-              "count": 1,
-              "skill_id": "llm"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "role_id": "data",
       "series": [
         {
@@ -513,7 +496,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 1,
+          "job_count": 6,
           "salary_median": 37500,
           "salary_avg": 37500,
           "top_skills": [
@@ -533,6 +516,23 @@
               "count": 1,
               "skill_id": "rag"
             },
+            {
+              "count": 1,
+              "skill_id": "llm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "role_id": "education_ai",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 30,
+          "salary_median": 14750,
+          "salary_avg": 21732,
+          "top_skills": [
             {
               "count": 1,
               "skill_id": "llm"
@@ -591,6 +591,13 @@
               "skill_id": "machine_learning"
             }
           ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": null,
+          "salary_avg": null,
+          "top_skills": []
         }
       ]
     },
@@ -608,6 +615,13 @@
               "skill_id": "llm"
             }
           ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 2,
+          "salary_median": null,
+          "salary_avg": null,
+          "top_skills": []
         }
       ]
     },
