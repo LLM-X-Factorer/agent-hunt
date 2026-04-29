@@ -53,7 +53,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 113,
+          "job_count": 144,
           "salary_median": 30000,
           "salary_avg": 36835,
           "top_skills": [
@@ -150,7 +150,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 36,
+          "job_count": 60,
           "salary_median": 27500,
           "salary_avg": 36210,
           "top_skills": [
@@ -227,7 +227,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 32,
+          "job_count": 64,
           "salary_median": 50000,
           "salary_avg": 53569,
           "top_skills": [
@@ -328,7 +328,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 46,
+          "job_count": 66,
           "salary_median": 13500,
           "salary_avg": 18500,
           "top_skills": [
@@ -357,34 +357,6 @@
       ]
     },
     {
-      "role_id": "leadership",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 108,
-          "salary_median": 55625,
-          "salary_avg": 67250,
-          "top_skills": [
-            {
-              "count": 4,
-              "skill_id": "llm"
-            },
-            {
-              "count": 2,
-              "skill_id": "agent_architecture"
-            }
-          ]
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 15,
-          "salary_median": 35000,
-          "salary_avg": 46875,
-          "top_skills": []
-        }
-      ]
-    },
-    {
       "role_id": "sales_bd",
       "series": [
         {
@@ -405,9 +377,37 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 2,
+          "job_count": 12,
           "salary_median": 85000,
           "salary_avg": 85000,
+          "top_skills": []
+        }
+      ]
+    },
+    {
+      "role_id": "leadership",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 108,
+          "salary_median": 55625,
+          "salary_avg": 67250,
+          "top_skills": [
+            {
+              "count": 4,
+              "skill_id": "llm"
+            },
+            {
+              "count": 2,
+              "skill_id": "agent_architecture"
+            }
+          ]
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 17,
+          "salary_median": 35000,
+          "salary_avg": 46875,
           "top_skills": []
         }
       ]
@@ -496,7 +496,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 6,
+          "job_count": 15,
           "salary_median": 37500,
           "salary_avg": 37500,
           "top_skills": [
@@ -594,7 +594,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 2,
+          "job_count": 7,
           "salary_median": null,
           "salary_avg": null,
           "top_skills": []

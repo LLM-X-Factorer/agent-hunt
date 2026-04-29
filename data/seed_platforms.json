@@ -283,5 +283,35 @@
     "has_company_size": true,
     "collector_class": "FeishuJobsCollector",
     "is_enabled": true
+  },
+  {
+    "id": "vendor_zhipuai",
+    "name": "智谱AI 官方招聘",
+    "market": "domestic",
+    "url": "https://www.zhipuai.cn/zh/joinus",
+    "language": "zh",
+    "tier": 1,
+    "scrape_difficulty": 2,
+    "data_quality": "high",
+    "refresh_rate": "daily",
+    "has_salary_data": false,
+    "has_company_size": true,
+    "collector_class": "MokaJobsCollector",
+    "is_enabled": true
+  },
+  {
+    "id": "vendor_moonshot",
+    "name": "Moonshot AI 官方招聘",
+    "market": "domestic",
+    "url": "https://www.moonshot.cn",
+    "language": "zh",
+    "tier": 1,
+    "scrape_difficulty": 2,
+    "data_quality": "high",
+    "refresh_rate": "daily",
+    "has_salary_data": false,
+    "has_company_size": true,
+    "collector_class": "MokaJobsCollector",
+    "is_enabled": true
   }
 ]

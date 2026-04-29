@@ -681,23 +681,6 @@
       ]
     },
     {
-      "skill_id": "fastapi",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 3,
-          "salary_median": 35000,
-          "salary_avg": 41277
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 50000,
-          "salary_avg": 50000
-        }
-      ]
-    },
-    {
       "skill_id": "multi_agent",
       "series": [
         {
@@ -784,6 +767,23 @@
           "job_count": 4,
           "salary_median": 37500,
           "salary_avg": 42500
+        }
+      ]
+    },
+    {
+      "skill_id": "fastapi",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 3,
+          "salary_median": 35000,
+          "salary_avg": 41277
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": 50000,
+          "salary_avg": 50000
         }
       ]
     },
@@ -1494,23 +1494,6 @@
       ]
     },
     {
-      "skill_id": "rag",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 33,
-          "salary_median": 96535,
-          "salary_avg": 105155
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 57,
-          "salary_median": 102687,
-          "salary_avg": 89120
-        }
-      ]
-    },
-    {
       "skill_id": "reinforcement_learning",
       "series": [
         {
@@ -1524,6 +1507,23 @@
           "job_count": 65,
           "salary_median": 189406,
           "salary_avg": 222690
+        }
+      ]
+    },
+    {
+      "skill_id": "rag",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 33,
+          "salary_median": 96535,
+          "salary_avg": 105155
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 57,
+          "salary_median": 102687,
+          "salary_avg": 89120
         }
       ]
     },
@@ -1579,23 +1579,6 @@
       ]
     },
     {
-      "skill_id": "fine_tuning",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 16,
-          "salary_median": 142618,
-          "salary_avg": 127163
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 48,
-          "salary_median": 189406,
-          "salary_avg": 220448
-        }
-      ]
-    },
-    {
       "skill_id": "nlp",
       "series": [
         {
@@ -1609,6 +1592,23 @@
           "job_count": 45,
           "salary_median": 112716,
           "salary_avg": 118038
+        }
+      ]
+    },
+    {
+      "skill_id": "fine_tuning",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 16,
+          "salary_median": 142618,
+          "salary_avg": 127163
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 48,
+          "salary_median": 189406,
+          "salary_avg": 220448
         }
       ]
     },
