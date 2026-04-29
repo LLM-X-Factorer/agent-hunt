@@ -452,9 +452,11 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 ## 项目状态
 
-积极开发中 — v0.7 已上线（数据 + 解析提速），就业班产品设计完成，衍生产品 aijobfit 已 spin off
+积极开发中 — **v0.8 数据扩张完成**（5980 jobs / 1392 salary reports / 718 applicant profiles），就业班产品设计完成，衍生产品 aijobfit 已 spin off
 
-**在线体验：https://agent-hunt.pages.dev**（v0.7 数据待重新部署）
+**在线体验：https://agent-hunt.pages.dev**（v0.7 数据，v0.8 待重新部署）
+
+> 🗺️ **后续任务清单与启动 prompt** → [`docs/agent-hunt/next-tasks.md`](docs/agent-hunt/next-tasks.md)
 
 | Phase | 内容 | 状态 |
 |---|---|---|
@@ -464,11 +466,22 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 | 4 | 行业维度扩展（13 行业分类 + 关键词矩阵 + 行业分析页面） | **已完成** ✅ |
 | 5 | AI 洞察报告 + 跨行业数据扩充（2370 条 JD） | **已完成** ✅ |
 | 6 | 角色聚类分析 + 分市场独立分析 + SCI 评分模型 | **已完成** ✅ |
-| 7 | 持续增强（aliases 扩展、Chrome 扩展、Celery 定时采集、用户系统） | 待开始 |
 | v0.7 | JD 解析提速 8 倍（async + 并发）+ AIGC 关键词扩充 + 712 条解析完 | **已完成** ✅ |
+| **v0.8** | **数据源大扩张**：vendor ATS（OpenAI/Anthropic/xAI/Cohere/DeepMind 1532）+ HN Who is Hiring（1365）+ nowcoder applicant profiles（718）+ levels.fyi CN 大厂薪资爆料（1392，含 13 家国内大厂） | **已完成** ✅ |
+| 7 | 待办：GitHub hiring repos / 一亩三分地 / 国内 LLM 厂商 / AI 原生标签 / 月度快照定时任务 | **进行中** 🚀 |
 | — | 就业班产品设计 v1.0（4 主线矩阵 + 12 周陪跑 + 30×3800 商业模型） | **已完成** ✅ |
 | — | 衍生产品 [aijobfit](https://github.com/LLM-X-Factorer/aijobfit)（免费 AI 求职定位诊断 + 加微信漏斗） | **v0.1 已上线** 🚀 |
 | — | 内容运营：基于数据洞察的自媒体内容（X/小红书/公众号） | **进行中** 🚀 |
+
+### 已确认不可达数据源
+
+下面 3 个数据源已 spike 失败，**不要再尝试**（详见 next-tasks.md）：
+
+| 数据源 | 状态 | 原因 |
+|---|---|---|
+| 看准爆料板（kanzhun.com） | 死 | 平台已下线（renderStatus: fail），firm/wage 强制跳 Boss 登录 |
+| OfferShow 公开 API | 浅 | search_salary_list 仅返回校招清单元数据，逐条字段在 VIP + PDF 后面 |
+| 脉脉工资 | 难 | 反爬重 + 强登录，issue #15 也标「放后期」 |
 
 ### 衍生产品：AIJobFit
 

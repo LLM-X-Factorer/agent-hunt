@@ -23,24 +23,30 @@ cd backend && uv venv --python 3.11 .venv && uv pip install -e ".[dev]"
 backend/
   app/
     api/v1/          # REST endpoints (jobs, platforms, skills, analysis)
-    collectors/      # Data collectors (strategy pattern + registry)
-    models/          # SQLAlchemy models (Job, Platform, Skill)
+    collectors/      # Data collectors for live JD platforms (strategy + registry)
+    models/          # Job, Platform, Skill, Snapshot, SalaryReport, ApplicantProfile
     schemas/         # Pydantic request/response schemas
-    services/        # Business logic (jd_parser, seed, skill_extractor, cross_market, market_analyzer, learning_path)
+    services/        # jd_parser, seed, skill_extractor, cross_market, market_analyzer, learning_path
     tasks/           # Celery async tasks
     config.py        # pydantic-settings, env prefix: AH_
     database.py      # Async engine + session factory
     main.py          # FastAPI app with lifespan (auto seeds on startup)
-  alembic/           # DB migrations (001_initial + 002_add_industry)
-  scripts/           # Utility scripts (export_cookies, generate_insights, generate_report, batch_collect, analyze_roles, export_market_data)
+  alembic/versions/  # 001 initial → 008 add_job_source (8 migrations)
+  scripts/
+    collect_*.py     # Standalone collectors (vendor_ats, hn_wih, nowcoder_posts, levels_fyi)
+    export_*.py      # Frontend JSON exporters (market_data, real_salary, trends, roles_by_industry, augmented_by_profession, graduate_friendly, quality_signals, applicant_profiles)
+    analyze_roles.py # Role clustering (DOMESTIC_ROLES + INTERNATIONAL_ROLES taxonomies)
+    backfill_quality_labels.py  # asyncio.wait_for batch LLM pattern
   tests/
 frontend/            # Next.js 16 + Tailwind + shadcn/ui + Recharts
   src/app/           # Pages (dashboard, skills, salary, gaps, industry, insights)
-  public/data/       # Pre-exported static JSON data
-data/                # Seed data (platforms, skills, aliases, search_keywords)
+  public/data/       # Pre-exported static JSON (incl. roles-real-salary.json, roles-by-industry.json, etc.)
+data/                # Seed data (platforms, skills, aliases, search_keywords) + cookies
 docs/
   README.md          # 文档索引
-  agent-hunt/        # 平台技术文档（爬虫策略等）
+  agent-hunt/
+    domestic-scraping-strategy.md
+    next-tasks.md    # ← 跨会话任务清单 + 启动 prompt（4 待办 issue）
   employment-course/ # 就业班产品设计 v1.0（产品总纲/竞品/诊断报告模板/招生页）
   legacy/            # 旧课程归档
 content/             # 自媒体内容（按选题组织：thread/xiaohongshu/wechat + assets）
@@ -67,9 +73,12 @@ content/             # 自媒体内容（按选题组织：thread/xiaohongshu/we
 - **Batch collection**: `data/search_keywords.json` defines keyword matrix, `scripts/batch_collect.py` automates
 
 ## Database Models
-- **platforms** — 招聘平台元数据 (id is string slug like "boss-zhipin")
-- **jobs** — JD 原始文本 + LLM 解析后结构化字段（含 `industry` 行业分类）
+- **platforms** — 招聘平台元数据 (id is string slug like "boss_zhipin", "vendor_openai", "community_hn_wih")
+- **jobs** — JD 原始文本 + LLM 解析后字段（含 `industry`、`source` ∈ {platform, vendor_official, community_open}）
 - **skills** — 技能分类，JSONB aliases 支持多语言别名
+- **snapshots** — 月度数据快照（migration 003，#13 时间序列基础设施）
+- **salary_reports** — 真实到手薪酬爆料（独立于 JD asking，#15）。`source` ∈ {levels_fyi, ...}，`(source, source_record_id)` 唯一约束。`market` 字段基于 location 含中国城市自动归 domestic
+- **applicant_profiles** — 求职者侧画像（#14 supply side），nowcoder 718 个
 
 ## Code Style
 - ruff, line-length 100, target Python 3.11
@@ -89,22 +98,34 @@ content/             # 自媒体内容（按选题组织：thread/xiaohongshu/we
 - 角色聚类数据：`roles-domestic.json`（14 角色）、`roles-international.json`（11 角色）
 
 ## Current Status
-Phase 1-6 完成 + v0.7 改进。5 平台采集器，2370 条 JD（~2250 已解析），68 个技能，13 个行业。前端 8 页已部署到 agent-hunt.pages.dev（v0.7 数据待重新部署）。
 
-v0.6 新增：
-- 角色聚类分析（14 国内 + 11 海外典型角色，含技能画像/薪资/学历/行业分布）
-- 分市场独立分析（国内/海外技能排名、行业矩阵、共现网络完全独立）
-- SCI（Skill Criticality Index）评分模型
-- 新脚本：`scripts/analyze_roles.py`（角色聚类）、`scripts/export_market_data.py`（分市场数据导出）
-- 新数据：`roles-domestic.json`、`roles-international.json`
+**数据规模（2026-04-29）**：
+- **Jobs**: 5980 总 / 5591 parsed
+  - by source: `platform` 3083 (Boss/Liepin/Lagou/LinkedIn/Indeed) · `vendor_official` 1532 (OpenAI 653 / Anthropic 452 / xAI 230 / Cohere 115 / DeepMind 82) · `community_open` 1365 (HN Who is Hiring)
+- **SalaryReports**: 1392（全部 levels.fyi；international 1147 / domestic 245）
+- **ApplicantProfiles**: 718（全部 nowcoder）
+- **Skills**: 71 · **Industries**: 13 · **Platforms**: 16 · **Migrations**: 8
 
-v0.7 改进（2026-04-21）：
-- **JD 解析提速 8 倍**：`jd_parser` 改用 `client.aio.models.generate_content`（真 async），`/jobs/parse/batch` 加 `Semaphore(10)` 并发，去 `sleep(1.5)`。9.3s/条 → 1.15s/条
-- 新增对比脚本：`scripts/compare_llm_providers.py`（MiniMax/Kimi vs Gemini 回归测试）
-- AIGC 创意工作者关键词类目加入 `data/search_keywords.json`
-- 712 条 pending JD 全部解析完，角色聚类重新跑（AI PM 233→293，AI 销售 71→118）
+**已部署**：前端 8 页 v0.7 数据在 agent-hunt.pages.dev（v0.8 数据待重新部署）
 
-Phase 7 待办：skill_aliases 扩展、Chrome 扩展完善、Celery 定时采集、（未来）用户系统
+### v0.8 进展（2026-04-29）
+- **#9/#10 行业 × 岗位 2D 切片** — `export_roles_by_industry.py` + `export_augmented_by_profession.py` + `export_graduate_friendly.py` 上线
+- **#12 Vendor 官方 ATS 适配器** — `collect_vendor_ats.py` 抓 OpenAI/Anthropic/xAI/Cohere/DeepMind 共 1532 条（Greenhouse + Ashby 通用适配）
+- **#14 Supply-side 求职者画像** — `collect_nowcoder_posts.py` + `applicant_profiles` 表 + `export_applicant_profiles.py`，已采 718 条
+- **#15 真实薪资 (pivot)** — 看准爆料板已 platform-offline → 改用 levels.fyi。`collect_levels_fyi.py` 扩展 13 家 CN 大厂 slug + location-based market 检测，`SalaryReport` 表 + `export_real_salary.py` 输出 `roles-real-salary.json`（real vs JD asking gap）
+- **#17 隐藏渠道** — `collect_hn_wih.py` 抓 HN「Who is Hiring」月度帖子（Algolia API），1365 条入库
+
+### Phase 7 待办（详见 `docs/agent-hunt/next-tasks.md`）
+- **#17 后续** — GitHub hiring repos（awesome-jobs / monthly-hiring-threads，零反爬）
+- **#14 后续** — 一亩三分地 offer 板（海外 + 留学背景，与 nowcoder 互补）
+- **#12 后续** — 国内 11 家 LLM 厂商官网（智谱/Moonshot/百川/MiniMax/字节/阿里/腾讯/百度/商汤/阶跃星辰/零一万物，多用自建系统需 Playwright）
+- **#10/#11/#13/#16** — AI 原生 vs AI 增强标签 / 校招专项切片 / 月度快照定时任务 / 岗位真伪信号
+- 基础设施：skill_aliases 持续扩展、Chrome 扩展完善、Celery 定时采集
+
+### 已确认不可达数据源（不要再尝试）
+- **看准爆料板**（kanzhun.com）— 平台已下线（`renderStatus: fail` / `offline: true`），firm/wage 详情页强制跳 Boss 登录。Boss/Kanzhun 整合后 PC 薪资查询线全砍
+- **OfferShow 公开 API**（offershow.cn）— `search_salary_list` 仅返回校招清单元数据（公司+届数+PDF链接），逐条字段在 VIP + PDF 后面，ROI 太差
+- **脉脉工资**（maimai.cn）— 反爬重 + 强登录，issue #15 提到「放后期」，至今未做
 
 ## 就业班产品设计（已完成 v1.0）
 完整产品设计文档在 `docs/employment-course/`，11 节产品总纲覆盖 4 主线矩阵 / 12 周陪跑 / 透明数据机制 / 30×3800 商业模型。设计阶段全部锁定，落地物料（产品总纲/竞品扫描/诊断报告模板/招生页）已交付。
