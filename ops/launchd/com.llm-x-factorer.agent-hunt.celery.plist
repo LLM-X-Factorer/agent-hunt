@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.llm-x-factorer.agent-hunt.celery</string>
+
+    <!-- Embedded beat means scheduled tasks (e.g. monthly snapshot on the 1st)
+         get triggered by this same process. -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/liu/Projects/agent-hunt/backend/.venv/bin/celery</string>
+        <string>-A</string>
+        <string>app.tasks.celery_app</string>
+        <string>worker</string>
+        <string>--beat</string>
+        <string>-l</string>
+        <string>info</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/liu/Projects/agent-hunt/backend</string>
+
+    <!-- Keep the worker running, restart on crash -->
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- Throttle restart attempts -->
+    <key>ThrottleInterval</key>
+    <integer>60</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/liu/Library/Logs/agent-hunt/launchd-celery-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/liu/Library/Logs/agent-hunt/launchd-celery-stderr.log</string>
+
+    <!-- Pull in user environment so .env / OpenRouter creds are visible.
+         If launchd can't find them, edit AH_DATABASE_URL / AH_REDIS_URL etc.
+         here directly. -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+</dict>
+</plist>
