@@ -34,6 +34,7 @@ OUTPUT_PATH = (
 
 REPOST_THRESHOLD = 3  # seen_count >= this counts as a "reposted" job
 MIN_SAMPLE = 5        # don't compute ratios on companies with fewer than this many jobs
+GHOST_VARIANT_THRESHOLD = 5  # (company, title) with this many distinct platform_job_id is suspicious
 
 
 def bucket_stats(jobs: list[Job]) -> dict:
@@ -101,15 +102,69 @@ async def main():
 
     overall = bucket_stats(all_jobs)
 
+    # (#16) Ghost-listing signal — same (company, title) posted as multiple
+    # distinct platform_job_id is a stronger repost signal than seen_count
+    # alone (which is currently noisy due to cross-source mirror dupes,
+    # e.g. GitHub hiring repos).
+    by_company_title: dict[tuple[str, str], list[Job]] = defaultdict(list)
+    for j in all_jobs:
+        if j.company_name and j.title:
+            by_company_title[(j.company_name, j.title)].append(j)
+
+    ghost_listings: list[dict] = []
+    for (company, title), variants in by_company_title.items():
+        unique_ids = {v.platform_job_id for v in variants}
+        if len(unique_ids) < GHOST_VARIANT_THRESHOLD:
+            continue
+        markets = sorted({v.market for v in variants if v.market})
+        platforms = sorted({v.platform_id for v in variants if v.platform_id})
+        ghost_listings.append({
+            "company": company,
+            "title": title,
+            "variant_count": len(unique_ids),
+            "markets": markets,
+            "platforms": platforms,
+        })
+    ghost_listings.sort(key=lambda r: -r["variant_count"])
+
+    # Per-company ghost ratio: share of that company's jobs that belong to a
+    # high-variant (company, title) cluster. Caps at MIN_SAMPLE+ companies.
+    company_ghost_ratio: list[dict] = []
+    company_total: dict[str, int] = defaultdict(int)
+    company_ghost: dict[str, int] = defaultdict(int)
+    for j in all_jobs:
+        if not j.company_name:
+            continue
+        company_total[j.company_name] += 1
+        ids_for_pair = {v.platform_job_id for v in by_company_title[(j.company_name, j.title or "")]}
+        if len(ids_for_pair) >= GHOST_VARIANT_THRESHOLD:
+            company_ghost[j.company_name] += 1
+    for company, total in company_total.items():
+        if total < MIN_SAMPLE:
+            continue
+        ghost = company_ghost[company]
+        if ghost == 0:
+            continue
+        company_ghost_ratio.append({
+            "company": company,
+            "total": total,
+            "ghost_jobs": ghost,
+            "ghost_ratio": round(ghost / total, 3),
+        })
+    company_ghost_ratio.sort(key=lambda r: (-r["ghost_ratio"], -r["ghost_jobs"]))
+
     output = {
         "overall": overall,
         "by_market": market_rows,
         "by_platform": platform_rows,
         "by_industry": industry_rows,
         "top_reposting_companies": company_rows[:50],
+        "top_ghost_listings": ghost_listings[:50],
+        "top_ghost_companies": company_ghost_ratio[:50],
         "config": {
             "repost_threshold": REPOST_THRESHOLD,
             "min_sample": MIN_SAMPLE,
+            "ghost_variant_threshold": GHOST_VARIANT_THRESHOLD,
         },
     }
 

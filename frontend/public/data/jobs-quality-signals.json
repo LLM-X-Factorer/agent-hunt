@@ -1,8 +1,8 @@
 {
   "overall": {
-    "total": 8101,
+    "total": 8634,
     "reposted": 2100,
-    "repost_ratio": 0.259,
+    "repost_ratio": 0.243,
     "closed": 0,
     "avg_close_days": null
   },
@@ -16,7 +16,7 @@
       "market": "international"
     },
     {
-      "total": 2238,
+      "total": 2771,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -42,14 +42,6 @@
       "platform": "indeed"
     },
     {
-      "total": 1971,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "liepin"
-    },
-    {
       "total": 329,
       "reposted": 0,
       "repost_ratio": 0.0,
@@ -64,6 +56,14 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "linkedin"
+    },
+    {
+      "total": 1971,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "liepin"
     },
     {
       "total": 17,
@@ -120,6 +120,38 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_cohere"
+    },
+    {
+      "total": 48,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_baichuan"
+    },
+    {
+      "total": 208,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_minimax"
+    },
+    {
+      "total": 126,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_moonshot"
+    },
+    {
+      "total": 151,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_zhipuai"
     }
   ],
   "by_industry": [
@@ -638,8 +670,574 @@
       "company": "Salesforce"
     }
   ],
+  "top_ghost_listings": [
+    {
+      "company": "Deloitte",
+      "title": "Full Stack Engineer",
+      "variant_count": 19,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "linkedin"
+      ]
+    },
+    {
+      "company": "Meta",
+      "title": "Product Manager",
+      "variant_count": 17,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "linkedin"
+      ]
+    },
+    {
+      "company": "Varsity Tutors, a Nerdy Company",
+      "title": "Probability Tutor",
+      "variant_count": 17,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "linkedin"
+      ]
+    },
+    {
+      "company": "OpenAI",
+      "title": "AI Deployment Engineer",
+      "variant_count": 14,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_openai"
+      ]
+    },
+    {
+      "company": "某北京大型互联网公司",
+      "title": "产品经理- AI /Digital/APP/小程序/SaaS系统（企业业务流程梳理）",
+      "variant_count": 10,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
+      ]
+    },
+    {
+      "company": "OpenAI",
+      "title": "Forward Deployed Engineer",
+      "variant_count": 10,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_openai"
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "title": "Research Intern",
+      "variant_count": 10,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_github_hiring"
+      ]
+    },
+    {
+      "company": "OpenAI",
+      "title": "Forward Deployed Software Engineer",
+      "variant_count": 9,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_openai"
+      ]
+    },
+    {
+      "company": "Amazon.com",
+      "title": "Software Development Engineer",
+      "variant_count": 8,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "indeed"
+      ]
+    },
+    {
+      "company": "ReminderMedia",
+      "title": "Digital Marketing Specialist",
+      "variant_count": 8,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "indeed",
+        "linkedin"
+      ]
+    },
+    {
+      "company": "OpenAI",
+      "title": "AI Success Engineer",
+      "variant_count": 8,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_openai"
+      ]
+    },
+    {
+      "company": "Anthropic",
+      "title": "Applied AI Architect",
+      "variant_count": 7,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_anthropic"
+      ]
+    },
+    {
+      "company": "Radar Labs",
+      "title": "Software Engineers (SRE, data platform, backend, full-stack, mobile)",
+      "variant_count": 6,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "Mind Friend",
+      "title": "Chief Technology Officer (CTO)",
+      "variant_count": 6,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "linkedin"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "AI搜索推荐产品解决方案架构师",
+      "variant_count": 6,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
+      ]
+    },
+    {
+      "company": "Amazon.com",
+      "title": "Finance Manager - Healthcare, Amazon One Medical",
+      "variant_count": 6,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "indeed"
+      ]
+    },
+    {
+      "company": "OpenAI",
+      "title": "Data Scientist",
+      "variant_count": 6,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_openai"
+      ]
+    },
+    {
+      "company": "Anthropic",
+      "title": "Applied AI Engineer",
+      "variant_count": 6,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_anthropic"
+      ]
+    },
+    {
+      "company": "PayPal",
+      "title": "Senior Machine Learning Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "linkedin"
+      ]
+    },
+    {
+      "company": "方正证券",
+      "title": "模型策略岗（LLM应用与数据分析）",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
+      ]
+    },
+    {
+      "company": "某北京云计算/大数据公司",
+      "title": "催收产品策略专家（海外AI方向）",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
+      ]
+    },
+    {
+      "company": "TSMG Holding",
+      "title": "Autonomous vehicle Test Operator",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "linkedin"
+      ]
+    },
+    {
+      "company": "FutureSight",
+      "title": "Co-Founder & CEO - AI Benefits & InsureTech",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "linkedin"
+      ]
+    },
+    {
+      "company": "某上海互联网公司",
+      "title": "Global Sales Director (MedTech / AI Healthcare)",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
+      ]
+    },
+    {
+      "company": "Wells Fargo",
+      "title": "Payment Network Relationship Management and Strategy Consultant",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "indeed"
+      ]
+    },
+    {
+      "company": "Warner Bros. Discovery",
+      "title": "Senior Level Designer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "indeed"
+      ]
+    },
+    {
+      "company": "Google",
+      "title": "Senior Staff Software Engineer, Machine Learning, ML Training",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "indeed",
+        "linkedin"
+      ]
+    },
+    {
+      "company": "xAI",
+      "title": "Client Partner",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "vendor_xai"
+      ]
+    },
+    {
+      "company": "Spacelift",
+      "title": "Senior Software Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "Freeform",
+      "title": "Software Engineers",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "RINSE",
+      "title": "Software Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "eventfirst",
+      "title": "Senior Full-Stack Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "Comulate",
+      "title": "Senior Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "Neon Health",
+      "title": "Senior Backend Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "PrairieLearn",
+      "title": "Full-Stack Software Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    }
+  ],
+  "top_ghost_companies": [
+    {
+      "company": "ReminderMedia",
+      "total": 8,
+      "ghost_jobs": 8,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Radar Labs",
+      "total": 6,
+      "ghost_jobs": 6,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Mind Friend",
+      "total": 6,
+      "ghost_jobs": 6,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "方正证券",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Warner Bros. Discovery",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Spacelift",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Freeform",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "RINSE",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "eventfirst",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Comulate",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Neon Health",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "PrairieLearn",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Deloitte",
+      "total": 20,
+      "ghost_jobs": 19,
+      "ghost_ratio": 0.95
+    },
+    {
+      "company": "Varsity Tutors, a Nerdy Company",
+      "total": 18,
+      "ghost_jobs": 17,
+      "ghost_ratio": 0.944
+    },
+    {
+      "company": "FutureSight",
+      "total": 6,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.833
+    },
+    {
+      "company": "Wells Fargo",
+      "total": 6,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.833
+    },
+    {
+      "company": "某北京大型互联网公司",
+      "total": 16,
+      "ghost_jobs": 10,
+      "ghost_ratio": 0.625
+    },
+    {
+      "company": "PayPal",
+      "total": 8,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.625
+    },
+    {
+      "company": "某上海互联网公司",
+      "total": 8,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.625
+    },
+    {
+      "company": "某北京云计算/大数据公司",
+      "total": 11,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.455
+    },
+    {
+      "company": "Meta",
+      "total": 41,
+      "ghost_jobs": 17,
+      "ghost_ratio": 0.415
+    },
+    {
+      "company": "TSMG Holding",
+      "total": 14,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.357
+    },
+    {
+      "company": "Amazon.com",
+      "total": 52,
+      "ghost_jobs": 14,
+      "ghost_ratio": 0.269
+    },
+    {
+      "company": "Google",
+      "total": 20,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.25
+    },
+    {
+      "company": "字节跳动",
+      "total": 27,
+      "ghost_jobs": 6,
+      "ghost_ratio": 0.222
+    },
+    {
+      "company": "Microsoft",
+      "total": 71,
+      "ghost_jobs": 10,
+      "ghost_ratio": 0.141
+    },
+    {
+      "company": "OpenAI",
+      "total": 654,
+      "ghost_jobs": 47,
+      "ghost_ratio": 0.072
+    },
+    {
+      "company": "Anthropic",
+      "total": 457,
+      "ghost_jobs": 13,
+      "ghost_ratio": 0.028
+    },
+    {
+      "company": "xAI",
+      "total": 234,
+      "ghost_jobs": 5,
+      "ghost_ratio": 0.021
+    }
+  ],
   "config": {
     "repost_threshold": 3,
-    "min_sample": 5
+    "min_sample": 5,
+    "ghost_variant_threshold": 5
   }
 }
