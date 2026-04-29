@@ -65,7 +65,10 @@ async def label_one(
     async with sem:
         try:
             data = await asyncio.wait_for(
-                llm_json(job.raw_content, system=QUALITY_PROMPT, temperature=0.1),
+                # 5-field JSON response — cap tight to keep credit reservation
+                # small (OpenRouter reserves max_tokens worth upfront, so 65535
+                # default 402s on tight balances).
+                llm_json(job.raw_content, system=QUALITY_PROMPT, temperature=0.1, max_tokens=500),
                 timeout=PER_JOB_TIMEOUT,
             )
             return job, QualityLabels(**data), None
