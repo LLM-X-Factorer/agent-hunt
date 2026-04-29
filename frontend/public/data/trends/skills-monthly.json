@@ -681,23 +681,6 @@
       ]
     },
     {
-      "skill_id": "fastapi",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 3,
-          "salary_median": 35000,
-          "salary_avg": 41277
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 1,
-          "salary_median": 50000,
-          "salary_avg": 50000
-        }
-      ]
-    },
-    {
       "skill_id": "multi_agent",
       "series": [
         {
@@ -784,6 +767,23 @@
           "job_count": 4,
           "salary_median": 37500,
           "salary_avg": 42500
+        }
+      ]
+    },
+    {
+      "skill_id": "fastapi",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 3,
+          "salary_median": 35000,
+          "salary_avg": 41277
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 1,
+          "salary_median": 50000,
+          "salary_avg": 50000
         }
       ]
     },
@@ -1028,9 +1028,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 777,
-          "salary_median": 148020,
-          "salary_avg": 169438
+          "job_count": 781,
+          "salary_median": 146510,
+          "salary_avg": 168850
         }
       ]
     },
@@ -1045,9 +1045,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 459,
-          "salary_median": 150156,
-          "salary_avg": 190917
+          "job_count": 462,
+          "salary_median": 147578,
+          "salary_avg": 190042
         }
       ]
     },
@@ -1062,7 +1062,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 391,
+          "job_count": 392,
           "salary_median": 108412,
           "salary_avg": 138147
         }
@@ -1079,7 +1079,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 353,
+          "job_count": 354,
           "salary_median": 113281,
           "salary_avg": 126135
         }
@@ -1096,7 +1096,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 284,
+          "job_count": 285,
           "salary_median": 135937,
           "salary_avg": 160150
         }
@@ -1113,7 +1113,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 305,
+          "job_count": 307,
           "salary_median": 104974,
           "salary_avg": 123549
         }
@@ -1130,7 +1130,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 238,
+          "job_count": 250,
           "salary_median": 164130,
           "salary_avg": 189225
         }
@@ -1147,7 +1147,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 247,
+          "job_count": 249,
           "salary_median": 187291,
           "salary_avg": 203712
         }
@@ -1164,7 +1164,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 151,
+          "job_count": 152,
           "salary_median": 179739,
           "salary_avg": 181518
         }
@@ -1198,7 +1198,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 168,
+          "job_count": 169,
           "salary_median": 135937,
           "salary_avg": 162960
         }
@@ -1215,7 +1215,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 108,
+          "job_count": 109,
           "salary_median": 109920,
           "salary_avg": 107255
         }
@@ -1249,7 +1249,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 106,
+          "job_count": 109,
           "salary_median": 157083,
           "salary_avg": 171000
         }
@@ -1266,7 +1266,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 105,
+          "job_count": 106,
           "salary_median": 163125,
           "salary_avg": 197761
         }
@@ -1290,6 +1290,23 @@
       ]
     },
     {
+      "skill_id": "javascript",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 11,
+          "salary_median": 102138,
+          "salary_avg": 99632
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 130,
+          "salary_median": 108412,
+          "salary_avg": 109839
+        }
+      ]
+    },
+    {
       "skill_id": "cpp",
       "series": [
         {
@@ -1303,23 +1320,6 @@
           "job_count": 99,
           "salary_median": 123833,
           "salary_avg": 227896
-        }
-      ]
-    },
-    {
-      "skill_id": "javascript",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 11,
-          "salary_median": 102138,
-          "salary_avg": 99632
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 129,
-          "salary_median": 108412,
-          "salary_avg": 109839
         }
       ]
     },
@@ -1368,7 +1368,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 100,
+          "job_count": 101,
           "salary_median": 131406,
           "salary_avg": 147597
         }
@@ -1385,7 +1385,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 107,
+          "job_count": 108,
           "salary_median": 99687,
           "salary_avg": 118940
         }
@@ -1402,7 +1402,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 62,
+          "job_count": 64,
           "salary_median": 120833,
           "salary_avg": 242315
         }
@@ -1419,7 +1419,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 62,
+          "job_count": 63,
           "salary_median": 121442,
           "salary_avg": 159104
         }
@@ -1453,7 +1453,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 86,
+          "job_count": 87,
           "salary_median": 73507,
           "salary_avg": 71042
         }
@@ -1487,9 +1487,26 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 78,
+          "job_count": 79,
           "salary_median": 96667,
           "salary_avg": 140052
+        }
+      ]
+    },
+    {
+      "skill_id": "rag",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 33,
+          "salary_median": 96535,
+          "salary_avg": 105155
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 57,
+          "salary_median": 102687,
+          "salary_avg": 89120
         }
       ]
     },
@@ -1507,23 +1524,6 @@
           "job_count": 65,
           "salary_median": 189406,
           "salary_avg": 222690
-        }
-      ]
-    },
-    {
-      "skill_id": "rag",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 33,
-          "salary_median": 96535,
-          "salary_avg": 105155
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 56,
-          "salary_median": 102687,
-          "salary_avg": 89120
         }
       ]
     },
@@ -1555,7 +1555,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 34,
+          "job_count": 35,
           "salary_median": 95447,
           "salary_avg": 106438
         }
@@ -1606,9 +1606,9 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 43,
-          "salary_median": 114333,
-          "salary_avg": 124246
+          "job_count": 45,
+          "salary_median": 112716,
+          "salary_avg": 118038
         }
       ]
     },
@@ -1691,9 +1691,26 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 32,
+          "job_count": 33,
           "salary_median": 111771,
           "salary_avg": 136873
+        }
+      ]
+    },
+    {
+      "skill_id": "vector_database",
+      "series": [
+        {
+          "month": "2026-03-01",
+          "job_count": 27,
+          "salary_median": 101005,
+          "salary_avg": 101291
+        },
+        {
+          "month": "2026-04-01",
+          "job_count": 18,
+          "salary_median": 73557,
+          "salary_avg": 98678
         }
       ]
     },
@@ -1711,23 +1728,6 @@
           "job_count": 44,
           "salary_median": 89114,
           "salary_avg": 102537
-        }
-      ]
-    },
-    {
-      "skill_id": "vector_database",
-      "series": [
-        {
-          "month": "2026-03-01",
-          "job_count": 27,
-          "salary_median": 101005,
-          "salary_avg": 101291
-        },
-        {
-          "month": "2026-04-01",
-          "job_count": 17,
-          "salary_median": 73557,
-          "salary_avg": 98678
         }
       ]
     },
@@ -1810,7 +1810,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 20,
+          "job_count": 21,
           "salary_median": 77133,
           "salary_avg": 71177
         }
@@ -1895,7 +1895,7 @@
         },
         {
           "month": "2026-04-01",
-          "job_count": 6,
+          "job_count": 7,
           "salary_median": 84583,
           "salary_avg": 84583
         }

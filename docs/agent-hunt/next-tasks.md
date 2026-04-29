@@ -41,31 +41,11 @@ agent-hunt 是 AI 职业市场全景分析平台 = **数据生产端**。下游 
 | 看准爆料板 (kanzhun.com) | 死 | 平台已下线（`renderStatus: fail` / `offline: true`），firm/wage 强制跳 Boss 登录 |
 | OfferShow 公开 API | 浅 | `search_salary_list` 只返回清单元数据，逐条字段在 VIP + PDF 后面 |
 | 脉脉工资 (maimai.cn) | 难 | 反爬重 + 强登录，issue #15 也标「放后期」 |
+| 一亩三分地 (1point3acres.com) | 浅 | 全站 CF 挑战（Playwright 8s 可过），但 fid=237 工资板积分门槛 200 / fid=145 海外面经板门槛 188，匿名只能拿到标题+公司名+~30 字预览，school/comp/offer_status 全锁。元数据不足以入 applicant_profiles 表 |
 
 ---
 
 ## 待办任务清单（按 ROI 排序）
-
-### #14 后续 — 一亩三分地 offer 板【P1】
-
-**ROI**：⭐⭐⭐⭐ — 与现有牛客 collector 同模式，海外 offer + 留学背景互补
-
-**目标**：抓 1point3acres.com 的 offer 板，补 nowcoder（国内）覆盖不到的海外 + 留学群体画像。
-
-**入表**：`applicant_profiles` 表，`source="1point3acres"`
-
-**启动 prompt**：
-> 我们继续做 agent-hunt 项目（数据生产端，下游是 aijobfit 求职诊断）。
->
-> 【当前 issue】要做 issue #14 后续 — 一亩三分地（1point3acres.com）offer 板 collector，偏海外 + 留学背景。与现有 nowcoder collector 互补（nowcoder 主要是国内应届）。
->
-> 【入表】applicant_profiles 表，`source="1point3acres"`。schema 同 nowcoder（用户 background / 学校 / GPA / 海投数 / 录取公司 / offer comp 等）。
->
-> 【参考】backend/scripts/collect_nowcoder_posts.py（SSR `__INITIAL_STATE__` regex 模式）+ backend/scripts/export_applicant_profiles.py（衍生 JSON 输出）。
->
-> 【上下文】docs/agent-hunt/next-tasks.md 有完整工作流。一亩三分地很可能需要登录 + 反爬，先 spike，反爬太重就降级抓 SEO 公开页。
-
----
 
 ### #12 后续 — 国内 11 家 LLM 厂商官网【P2】
 
@@ -170,26 +150,6 @@ agent-hunt 是 AI 职业市场全景分析平台 = **数据生产端**。下游 
 
 ---
 
-### #13 — 月度快照定时任务【P0 基础设施】
-
-**ROI**：⭐⭐ — `snapshots` 表 schema 已有（migration 003），缺的是定时任务把数据滚起来。其他 issue（#16）依赖此
-
-**启动 prompt**：
-> 我们继续做 agent-hunt 项目（数据生产端，下游是 aijobfit 求职诊断）。
->
-> 【当前 issue】要做 issue #13 P0 — 数据时间序列（月度快照定时任务）。
->
-> 【现状】`snapshots` 表 schema 已有（migration 003），缺定时任务把数据滚起来。
->
-> 【实施】
-> 1. 看现有 snapshot model + 是否已有 service 写入逻辑
-> 2. 加 Celery beat 任务（每月 1 号跑），快照内容：技能 Top N 排名 + 角色 × 行业 矩阵 + 薪资分布
-> 3. 加 export_trends.py（已存在）的 month-over-month diff
->
-> 【上下文】docs/agent-hunt/next-tasks.md 有完整约定。
-
----
-
 ## 维护性任务（无 issue）
 
 - **skill_aliases.json 扩展**：定期跑 `GET /skills/unmatched` 看哪些原始技能没被映射，补充
@@ -206,6 +166,8 @@ agent-hunt 是 AI 职业市场全景分析平台 = **数据生产端**。下游 
 
 ## 已完成（最近）
 
+- **#13** 月度快照定时任务 — `app/tasks/celery_app.py` + `app/tasks/snapshots.py` 配 Celery beat（每月 1 号 03:00 UTC 跑 `run_monthly_snapshot`），包装现有 `snapshot_monthly.py` + `export_trends.py`。部署任选 Celery（`celery -A app.tasks.celery_app worker --beat -l info`）或 system cron。当前 snapshot 表 242 skill / 43 role / 51 industry 行（覆盖 2026-03、2026-04 两月，新月会自动累加）
+- **#14 1point3acres spike** — 全站 CF 挑战可过（Playwright 8s），但 fid=237 工资板积分门槛 200 / fid=145 海外面经板门槛 188，匿名拿不到 candidate 画像字段。归入「不可达」清单
 - **#17 后续** GitHub hiring repos collector — `collect_github_hiring.py` 抓 SimplifyJobs/New-Grad-Positions + Summer2026-Internships + vanshb03/Summer2025-Internships 三个仓库 listings.json，AI 相关筛选后 2089 条入库（platform_id=community_github_hiring）。注意：**OpenRouter 信用余额耗尽（HTTP 402）**，仅 120/2119 LLM-parsed，剩 1999 条等充值后跑 `POST /jobs/parse/batch` 即可
 - **#15** levels.fyi CN 大厂扩展（commit 3fd5bfe）— 1392 salary reports
 - **#9 / 部分 #10 / 部分 #11** 行业 × 岗位 2D + 增强职业 + graduate-friendly（commit 9884f47）
