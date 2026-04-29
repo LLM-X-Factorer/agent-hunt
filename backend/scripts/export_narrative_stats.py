@@ -27,6 +27,7 @@ from sqlalchemy import select
 
 from app.database import async_session
 from app.models.job import Job
+from app.services.currency import midpoint_cny_monthly
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -44,8 +45,13 @@ TRADITIONAL_INDUSTRIES = {
 }
 
 
-def median_int(values: list[int]) -> int | None:
+def median_int(values: list[float]) -> int | None:
     return int(median(values)) if values else None
+
+
+def cny_mid(j: Job) -> float | None:
+    """Midpoint of a job's salary in CNY/month, currency-normalized."""
+    return midpoint_cny_monthly(j.salary_min, j.salary_max, j.salary_currency)
 
 
 async def main():
@@ -90,16 +96,14 @@ async def main():
         ],
     }
 
-    # ---- 论断 4: role_type x market 薪资中位数 (CNY/月) ----
-    salary_buckets: dict[tuple[str, str], list[int]] = defaultdict(list)
+    # ---- 论断 4: role_type x market 薪资中位数 (CNY/月，已汇率转换) ----
+    salary_buckets: dict[tuple[str, str], list[float]] = defaultdict(list)
     for j in jobs:
-        if (
-            j.market and j.role_type
-            and j.salary_min and j.salary_max
-        ):
-            salary_buckets[(j.market, j.role_type)].append(
-                (j.salary_min + j.salary_max) // 2
-            )
+        if not (j.market and j.role_type):
+            continue
+        mid = cny_mid(j)
+        if mid is not None:
+            salary_buckets[(j.market, j.role_type)].append(mid)
 
     def bucket(market: str, rtype: str) -> dict | None:
         s = salary_buckets.get((market, rtype), [])
@@ -122,15 +126,17 @@ async def main():
             )
 
     # ---- 论断 2: 高薪传统行业 vs 互联网（domestic, augmented）-----
-    by_industry_salary: dict[str, list[int]] = defaultdict(list)
+    by_industry_salary: dict[str, list[float]] = defaultdict(list)
     for j in jobs:
-        if (
+        if not (
             j.market == "domestic"
             and j.role_type == "ai_augmented_traditional"
             and j.industry
-            and j.salary_min and j.salary_max
         ):
-            by_industry_salary[j.industry].append((j.salary_min + j.salary_max) // 2)
+            continue
+        mid = cny_mid(j)
+        if mid is not None:
+            by_industry_salary[j.industry].append(mid)
 
     premium = [s for ind, salaries in by_industry_salary.items()
                if ind in PREMIUM_TRADITIONAL for s in salaries]

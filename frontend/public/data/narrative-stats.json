@@ -84,19 +84,19 @@
       "sample_size": 1044
     },
     "intl_native": {
-      "median": 128700,
-      "sample_size": 813
+      "median": 78600,
+      "sample_size": 816
     },
     "domestic_augmented": {
       "median": 23000,
       "sample_size": 837
     },
     "intl_augmented": {
-      "median": 105729,
-      "sample_size": 489
+      "median": 63904,
+      "sample_size": 491
     },
-    "native_intl_to_domestic_ratio": 3.96,
-    "augmented_intl_to_domestic_ratio": 4.6
+    "native_intl_to_domestic_ratio": 2.42,
+    "augmented_intl_to_domestic_ratio": 2.78
   },
   "p5_ghost": {
     "intl_ghost_clusters": 30,

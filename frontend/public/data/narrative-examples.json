@@ -1,0 +1,3409 @@
+{
+  "p1_p2_industries": {
+    "education": [
+      {
+        "title": "Curriculum Growth Manager",
+        "company": "Code.org",
+        "location": "United States",
+        "salary_min": 58181,
+        "salary_max": 64646,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 34908,
+        "salary_max_cny_monthly": 38787,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": "remote",
+        "required_skills": [
+          "EdTech Sales",
+          "SaaS Sales",
+          "Enterprise Sales",
+          "Pipeline Management",
+          "Territory Management",
+          "School District Engagement",
+          "Institutional Sales",
+          "Multi-stakeholder Sales"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Develop and execute a regional growth strategy aligned to annual adoption goals",
+          "Build and manage a pipeline of district opportunities from outreach through formal commitment",
+          "Identify and prioritize high-potential districts based on signals such as curriculum review cycles, policy developments, and funding availability"
+        ],
+        "base_profession": "教育销售/课程推广经理",
+        "platform_id": "linkedin",
+        "source_url": "https://www.linkedin.com/jobs/view/4384538694"
+      },
+      {
+        "title": "智能制造专业大学讲师",
+        "company": "大技狮科技",
+        "location": "广州",
+        "salary_min": 15000,
+        "salary_max": 25000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 25000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Smart Manufacturing"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Deliver lectures on Smart Manufacturing"
+        ],
+        "base_profession": "教师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/abdf80488da909ba0nRy09q0EVpZ.html"
+      },
+      {
+        "title": "人工智能/大数据教育课程产品经理",
+        "company": null,
+        "location": "北京",
+        "salary_min": 25000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 25000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Big Data",
+          "Product Management",
+          "Curriculum Development"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教育课程产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72473167.shtml"
+      },
+      {
+        "title": "AI教育业务合伙人",
+        "company": null,
+        "location": "西安",
+        "salary_min": 20000,
+        "salary_max": 50000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 50000,
+        "experience_requirement": "5y+",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Education",
+          "Business Development"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/dc0bac587e5a807a03Fy396_EFFW.html"
+      },
+      {
+        "title": "AI教育讲师",
+        "company": "忆学记忆方法营",
+        "location": "武汉·江夏区·流芳",
+        "salary_min": 12000,
+        "salary_max": 24000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 12000,
+        "salary_max_cny_monthly": 24000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI concepts",
+          "Teaching"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/97dd9919b4ef64ba0nV80ti7FFZT.html"
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Integration engineer-AI LLM",
+        "company": "某合肥大型整车制造公司",
+        "location": "合肥",
+        "salary_min": 21000,
+        "salary_max": 22000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 21000,
+        "salary_max_cny_monthly": 22000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AI/ML",
+          "LLM",
+          "Computer Vision",
+          "Time Series Analysis",
+          "CAN",
+          "CAN FD",
+          "LIN",
+          "SOME/IP"
+        ],
+        "preferred_skills": [
+          "Automotive Software Development",
+          "German"
+        ],
+        "responsibilities": [
+          "设计并落地基于人工智能 / 机器学习（AI/ML）的自动化测试方案，覆盖功能测试、系统集成测试、回归测试等各类测试场景。",
+          "运用大语言模型 LLM、计算机视觉、时序数据分析等前沿 AI 技术，智能解析 CAN/LIN/ 车载以太网总线日志、测试报告、缺陷库，自动识别异常问题与潜在隐性风险。",
+          "开发智能测试调度与资源优化系统，实现任务动态分配、优先级预判、测试瓶颈预警。"
+        ],
+        "base_profession": "集成工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74029103.shtml"
+      },
+      {
+        "title": "智能座舱主机DRE工程师",
+        "company": "上海犀重新能源汽车有限公司",
+        "location": "杭州-钱塘区",
+        "salary_min": 18000,
+        "salary_max": 25000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 18000,
+        "salary_max_cny_monthly": 25000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Smart Cockpit",
+          "Head Unit",
+          "DRE"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "汽车电子工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978420045.shtml"
+      },
+      {
+        "title": "嵌入式软件开发工程师 (AI方向)",
+        "company": "博世汽车部件(苏州)有限公司",
+        "location": "苏州",
+        "salary_min": 15000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": null,
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "Embedded Software Development",
+          "AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "嵌入式软件开发工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980564995.shtml"
+      },
+      {
+        "title": "智能座舱项目管理",
+        "company": null,
+        "location": "广州",
+        "salary_min": 15000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Project Management",
+          "Smart Cockpit"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72123849.shtml"
+      },
+      {
+        "title": "自动驾驶测试工程师（LLM）",
+        "company": "小鹏汽车",
+        "location": "广州-天河区",
+        "salary_min": 18750,
+        "salary_max": 43750,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 18750,
+        "salary_max_cny_monthly": 43750,
+        "experience_requirement": "1-3y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "LLM",
+          "自动驾驶测试"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "测试工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980799829.shtml"
+      }
+    ],
+    "healthcare": [
+      {
+        "title": "医疗AI战略项目总监(经理)",
+        "company": "某知名公司",
+        "location": "上海",
+        "salary_min": 30000,
+        "salary_max": 50000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 50000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Healthcare AI",
+          "Project Management",
+          "Strategy"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "医疗战略项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72806845.shtml"
+      },
+      {
+        "title": "Python Backend Senior Developer (LLM, Pharma)",
+        "company": "Professional Technical Service Company",
+        "location": "Suzhou",
+        "salary_min": 29166,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 29166,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Python",
+          "Backend Development",
+          "LLM"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "医药",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72916239.shtml"
+      },
+      {
+        "title": "医疗AI产品经理",
+        "company": "安图生物制药",
+        "location": "上海-浦东新区",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "3-5y",
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Product Management",
+          "Healthcare Domain Knowledge"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980818037.shtml"
+      },
+      {
+        "title": "AI产品经理（医疗MDT）",
+        "company": null,
+        "location": "深圳",
+        "salary_min": 30000,
+        "salary_max": 50000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 50000,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "AI Product Management",
+          "Medical MDT"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73208607.shtml"
+      },
+      {
+        "title": "项目经理（支持 AI 产品交付）",
+        "company": "泰格医药",
+        "location": "上海",
+        "salary_min": 20000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "1-3y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Project Management",
+          "AI Product Delivery"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980960513.shtml"
+      }
+    ],
+    "internet": [
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "某杭州互联网上市公司",
+        "location": "北京",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Big Data",
+          "AI",
+          "Machine Learning",
+          "Internal Control",
+          "Risk Management",
+          "Data Analysis",
+          "AI Agent Development",
+          "Low-code Platforms"
+        ],
+        "preferred_skills": [
+          "Intelligent Risk Control System Development"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过 AI 驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+          "AI 能力在风控场景落地：结合业务需求，推动 AI 工具 / 模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72808021.shtml"
+      },
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "阿里云智能",
+        "location": "杭州",
+        "salary_min": 10000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Big Data",
+          "AI",
+          "Machine Learning",
+          "Internal Control",
+          "Risk Management",
+          "Data Analysis",
+          "AI Agent Building",
+          "Low-code Platform"
+        ],
+        "preferred_skills": [
+          "Intelligent Risk Control System Building"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1979617465.shtml"
+      },
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "某大型知名互联网公司",
+        "location": "杭州",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AI Agent development",
+          "Low-code platforms",
+          "LLM understanding",
+          "LLM API integration",
+          "Prompt Engineering",
+          "SQL",
+          "Python"
+        ],
+        "preferred_skills": [
+          "Intelligent risk control system development"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性。",
+          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）。"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71553511.shtml"
+      },
+      {
+        "title": "智能风控产品经理",
+        "company": "网易集团",
+        "location": "杭州-滨江区",
+        "salary_min": 25000,
+        "salary_max": 45000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 25000,
+        "salary_max_cny_monthly": 45000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Enterprise Service Commercial Product Experience",
+          "Product Design"
+        ],
+        "preferred_skills": [
+          "Smart Risk Control Product Experience",
+          "Enterprise Service Product Experience"
+        ],
+        "responsibilities": [
+          "负责风控引擎相关产品模块，场景化解决方案等，负责产品规划、产品设计、产品包装等全流程产品工作",
+          "以客户价值为导向，洞察客户业务场景，洞察行业，通过功能设计/解决方案的创新设计，持续为客户输出高价值的产品服务",
+          "为销售赋能，通过定价方案/产品材料/官网等模块的持续迭代，支撑团队达成商业化目标"
+        ],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1966330477.shtml"
+      },
+      {
+        "title": "医疗AI应用场景售前工程师(兼全国省代培训讲师)",
+        "company": "某成都IT服务公司",
+        "location": "成都",
+        "salary_min": 12000,
+        "salary_max": 18000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 12000,
+        "salary_max_cny_monthly": 18000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Healthcare IT",
+          "Presales",
+          "Training"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "负责医疗AI应用场景的售前支持",
+          "负责全国省代培训讲师工作"
+        ],
+        "base_profession": "售前工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72604009.shtml"
+      }
+    ],
+    "consulting": [
+      {
+        "title": "智能风控经理",
+        "company": "俊择(厦门)管理顾问有限公司",
+        "location": "广州-天河区",
+        "salary_min": 20000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Risk Management Theory",
+          "Excel",
+          "Quantitative Statistical Analysis Software",
+          "Securities Market Regulations",
+          "Financial Regulations"
+        ],
+        "preferred_skills": [
+          "FRM",
+          "CFA",
+          "CPA",
+          "VBA",
+          "MATLAB",
+          "Python"
+        ],
+        "responsibilities": [
+          "参与制定公司市场风险管理政策和制度、流程",
+          "协助总部构建全面风险管理体系，组织构建市场风险管理系统，建立及运用风险量化模型，定期检视更新计量模型",
+          "组织日常市场风险监控工作，结合公司情况建立关键市场风险监控指标，分析内外部环境变化对公司整体及业务的影响，并进行检测、报告，跟踪处理业务风险事件"
+        ],
+        "base_profession": "金融风控经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978318987.shtml"
+      },
+      {
+        "title": "AI Customer Acquisition / Private Domain Traffic Generation",
+        "company": "深圳市嘉天润信息咨询",
+        "location": "Shenzhen",
+        "salary_min": 17000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 17000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Customer Acquisition",
+          "Private Domain Traffic"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Utilize AI for customer acquisition",
+          "Generate leads through private domain traffic",
+          "Expand customer base"
+        ],
+        "base_profession": "销售",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/530a7504bf17ec510nZ52N69FFVQ.html"
+      },
+      {
+        "title": "AI Doubao Qwen Content Push (Financial Advisor)",
+        "company": "同登彼岸信息咨询",
+        "location": "杭州",
+        "salary_min": 11000,
+        "salary_max": 22000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 11000,
+        "salary_max_cny_monthly": 22000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "LLM",
+          "Doubao",
+          "Qwen",
+          "Financial Advisory"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "金融顾问",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/54af643d949c34df0nZ529i8F1tS.html"
+      },
+      {
+        "title": "PMO 项目管理专家",
+        "company": "某知名公司",
+        "location": "杭州",
+        "salary_min": 27000,
+        "salary_max": 45000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 27000,
+        "salary_max_cny_monthly": 45000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Digital Transformation",
+          "Supply Chain Optimization",
+          "Project Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72602665.shtml"
+      },
+      {
+        "title": "数字化专家 - 智能制造方向",
+        "company": "某知名公司",
+        "location": "上海",
+        "salary_min": 40000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "Digital Transformation",
+          "Smart Manufacturing"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "制造工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71671027.shtml"
+      }
+    ],
+    "manufacturing": [
+      {
+        "title": "AI系统测试工程师 （软件系统/LLM 芯 片验证方向）",
+        "company": null,
+        "location": "杭州",
+        "salary_min": 35000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 35000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Linux system programming",
+          "IPC",
+          "mmap",
+          "DMA",
+          "BAR",
+          "PCIe",
+          "USB",
+          "User-mode driver interaction"
+        ],
+        "preferred_skills": [
+          "SoC bring-up",
+          "NPU bring-up",
+          "GPU bring-up",
+          "System verification",
+          "Transformer",
+          "LLM inference"
+        ],
+        "responsibilities": [
+          "负责整个 AI 加速芯片的软件系统级验证，覆盖从 Host 到 Device 的完整链路",
+          "基于 Linux 平台编写 验证框架与脚本（Python / Shell / C），通过 PCIe、USB 等通道与芯片交互",
+          "模拟 Android 端运行场景，完成 LLM 推理任务的数据发送、执行控制与结果验证"
+        ],
+        "base_profession": "测试工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74567487.shtml"
+      },
+      {
+        "title": "机械制造与精密加工领域AI场景出题专家",
+        "company": "宿迁大超智能科技",
+        "location": "西安",
+        "salary_min": 26400,
+        "salary_max": 35200,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 26400,
+        "salary_max_cny_monthly": 35200,
+        "experience_requirement": "1-3y",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Mechanical Manufacturing",
+          "Precision Machining"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "设计和开发机械制造与精密加工领域的AI应用场景题目"
+        ],
+        "base_profession": "机械工程师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/6a4cb0900d584d200nZ83dy1EFJV.html"
+      },
+      {
+        "title": "生产总监 (工厂数字化转型, 半导体行业)",
+        "company": "某大型半导体公司",
+        "location": "随州",
+        "salary_min": 20000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [
+          "负责工厂数字化转型"
+        ],
+        "base_profession": "生产总监",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/5d106df0fd94b86a0nZ52d6-FVFT.html"
+      },
+      {
+        "title": "工业AI 渠道总监 （具备管理与赋能）",
+        "company": "某中型工业AI与机器人视觉自动化设备公司",
+        "location": "广州",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Industrial AI",
+          "Robotics Vision",
+          "Automation Equipment",
+          "Management",
+          "Enablement"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "渠道总监",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/9a2eca72101c57520nZ83t--ElNZ.html"
+      },
+      {
+        "title": "数字化总监（制造业、AI、跨国项目）",
+        "company": null,
+        "location": "Shanghai",
+        "salary_min": 30000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Manufacturing",
+          "AI",
+          "Cross-border Project Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "数字化总监",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73443747.shtml"
+      }
+    ],
+    "finance": [
+      {
+        "title": "智能风控平台产品",
+        "company": "网商银行",
+        "location": "杭州",
+        "salary_min": 40000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Requirement Analysis",
+          "Product Design",
+          "Risk Management Product System",
+          "Credit Risk Control Strategy Platform",
+          "Model Platform",
+          "Risk Feature Management",
+          "Risk Profile Management",
+          "Risk Assessment"
+        ],
+        "preferred_skills": [
+          "Computer Science",
+          "Mathematics",
+          "Statistics",
+          "AI Application Product Design",
+          "Financial Risk Strategy",
+          "LLM"
+        ],
+        "responsibilities": [
+          "负责网商小微风险管理平台的需求梳理与设计，完善风险管理产品体系。",
+          "推进风险管理平台的能力建设，包括不限于信贷风控策略平台、模型平台、风险特征/画像管理、风险评估等。",
+          "负责风险管理平台智能化的需求梳理与设计，推进风险管理产品体系的智能化。"
+        ],
+        "base_profession": "金融风控产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1977331257.shtml"
+      },
+      {
+        "title": "智能风控经理",
+        "company": "某广州其他金融公司",
+        "location": "广州",
+        "salary_min": 20000,
+        "salary_max": 25000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 25000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Risk Data Analysis",
+          "SQL",
+          "SAS",
+          "Python",
+          "R",
+          "Tableau",
+          "PowerBI",
+          "Business Dashboard Development"
+        ],
+        "preferred_skills": [
+          "Big Data",
+          "Data Modeling",
+          "SAS EM",
+          "Scikit-learn",
+          "Strategy Analysis",
+          "Metric System Development"
+        ],
+        "responsibilities": [
+          "负责公司的金融业务风险数据分析工作，通过数据分析为风险管理决策提供支持，包括但不限于客户画像、风控指标监控、策略服务效果评测、风控模型开发与监控等。",
+          "建立灵活的业务风险监控体系，开发并维护自动化报表，跟踪核心指标变化，并通过数据分析定位问题，提出解决方案。",
+          "定期展开专题分析，如额度分析、营销流程和效果分析等，输出分析报告，提出合理的方案建议，辅助决策。"
+        ],
+        "base_profession": "金融风控经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72151745.shtml"
+      },
+      {
+        "title": "供应链金融贸易经理",
+        "company": "香远国际物流",
+        "location": "上海-虹口区",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Trade Finance",
+          "Supply Chain Finance",
+          "Semiconductor Industry Knowledge",
+          "VMI",
+          "JIT",
+          "Risk Management",
+          "Compliance Management"
+        ],
+        "preferred_skills": [
+          "Microelectronics",
+          "Financial Engineering"
+        ],
+        "responsibilities": [
+          "负责芯片半导体产业链全流程金融解决方案设计及实施",
+          "主导晶圆制造、封装测试等关键环节的贸易融资架构搭建",
+          "统筹管理年度50亿+半导体供应链金融专项额度"
+        ],
+        "base_profession": "金融分析师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981311523.shtml"
+      },
+      {
+        "title": "风控专家（金融智能体）",
+        "company": "阿里云智能",
+        "location": "杭州",
+        "salary_min": 26667,
+        "salary_max": 66667,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 26667,
+        "salary_max_cny_monthly": 66667,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Database",
+          "Python",
+          "R",
+          "SQL",
+          "Credit Risk Management",
+          "Financial Product Design"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "负责完善和执行信贷产品的风控策略，包括但不限于信用评估、额度管理、反欺诈措施、定价机制等，以提高授信通过率、优化户均授信额度和利率，并有效控制不良率。",
+          "结合内部和外部数据资源，搭建和优化私有化及联合数据模型，提升风控效果。",
+          "探索并实现风控咨询服务的独立输出，包括信贷风控与营销风控，创新风控服务模式。"
+        ],
+        "base_profession": "金融风控",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980822269.shtml"
+      },
+      {
+        "title": "人工智能量化交易算法策略投研",
+        "company": "某上海知名公司",
+        "location": "上海-闵行区",
+        "salary_min": 16000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 16000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "1-3y",
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Quantitative Trading",
+          "Algorithm Strategy",
+          "Investment Research"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "负责人工智能量化交易算法策略的投研工作"
+        ],
+        "base_profession": "量化交易员/金融分析师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72578295.shtml"
+      }
+    ],
+    "retail": [
+      {
+        "title": "跨境电商运营主管（团队负责人 / AI 提效）",
+        "company": "天津创恒新际信息技术有限公司",
+        "location": "天津-西青区",
+        "salary_min": 8000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 8000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "1-3y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "E-commerce Operations",
+          "AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "跨境电商运营",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980534577.shtml"
+      },
+      {
+        "title": "AI Customer Service Supervisor (AI Trainer Transition)",
+        "company": "中淘家居",
+        "location": "常州·新北区·黄山路",
+        "salary_min": 8000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 8000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI training",
+          "Customer Service Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "客服主管",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/098efec5baceb16b0nZ82Nq4FFdQ.html"
+      },
+      {
+        "title": "电商AI设计师",
+        "company": "杭州奥亦信息科技有限公司",
+        "location": "杭州-滨江区",
+        "salary_min": 8000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 8000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI Design Tools",
+          "E-commerce Design"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "设计师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981807647.shtml"
+      },
+      {
+        "title": "Financial AI Quantitative Analyst",
+        "company": "Shanxi Jinjinge Jewelry",
+        "location": "Liuzhou, China",
+        "salary_min": 12000,
+        "salary_max": 24000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 12000,
+        "salary_max_cny_monthly": 24000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Quantitative Analysis"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "量化分析师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/32ad4dafc6ed6c460nZ42t29FFFX.html"
+      },
+      {
+        "title": "AIGC设计师（服装方向）",
+        "company": "有茂密声服",
+        "location": "深圳市",
+        "salary_min": 15000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": null,
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AIGC",
+          "Fashion Design"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "服装设计师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/fc122846d5be8dd90nR82t-8GFVR.html"
+      }
+    ],
+    "other": [
+      {
+        "title": "区域地产数字化产品负责人（AI转型）",
+        "company": "某国内大型房地产开发经营公司",
+        "location": "潍坊",
+        "salary_min": 20000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": null,
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "Product Management",
+          "Digital Transformation",
+          "AI",
+          "LLM"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "地产数字化产品负责人",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72275063.shtml"
+      },
+      {
+        "title": "AIT（AI业务改造）高级专员/主管",
+        "company": "田园东方投资",
+        "location": "上海-闵行区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AI",
+          "Business Transformation"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "业务专员/主管",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981256479.shtml"
+      },
+      {
+        "title": "营销平面AI设计师",
+        "company": "方兴置业(上海)有限公司",
+        "location": "上海-静安区",
+        "salary_min": 15000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "Graphic Design",
+          "AI Design Tools"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "平面设计师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980636957.shtml"
+      },
+      {
+        "title": "区域地产数字化负责人（AI转型）",
+        "company": "某国内大型房地产开发经营公司",
+        "location": "潍坊",
+        "salary_min": 20000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "fresh",
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "地产数字化负责人",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72274869.shtml"
+      },
+      {
+        "title": "智能制造工程师",
+        "company": "某成都学术/科研公司",
+        "location": "成都-双流区",
+        "salary_min": 20000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "智能制造工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72457927.shtml"
+      }
+    ],
+    "energy": [
+      {
+        "title": "销售副总 (Industrial AI)",
+        "company": "某电力/热力/燃气/水务公司",
+        "location": "北京-朝阳区",
+        "salary_min": 50000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 50000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "Industrial AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "销售",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73042315.shtml"
+      },
+      {
+        "title": "智能制造高级经理",
+        "company": "某知名公司",
+        "location": "吉安",
+        "salary_min": 40000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "智能制造工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73429091.shtml"
+      },
+      {
+        "title": "数字化转型总监",
+        "company": "某国内能源上市公司",
+        "location": "苏州",
+        "salary_min": 40000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/70928679.shtml"
+      },
+      {
+        "title": "PMO（AI）",
+        "company": null,
+        "location": "上海",
+        "salary_min": 30000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74641975.shtml"
+      }
+    ],
+    "telecom": [
+      {
+        "title": "HR (Digital Transformation Direction)",
+        "company": "某500强上市企业",
+        "location": "西安",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "Digital Transformation"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "人力资源",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71884469.shtml"
+      },
+      {
+        "title": "嵌入式软件工程师",
+        "company": "天翼交通科技有限公司",
+        "location": "苏州-相城区",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "fresh",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "嵌入式软件工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978574851.shtml"
+      },
+      {
+        "title": "智能制造解决方案经理",
+        "company": "电信规划设计有限公司",
+        "location": "德阳·旌阳区·珠江西路",
+        "salary_min": 13000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 13000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "智能制造工程师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/d51c1dc8ff464a9f0nR509-8GVVY.html"
+      }
+    ],
+    "media": [
+      {
+        "title": "AI小说/影视网剧/漫画推文线上矩阵视频发布",
+        "company": "星耀文化(广东)有限公司",
+        "location": "深圳",
+        "salary_min": 7000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 7000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [
+          "AI小说/影视网剧/漫画推文线上矩阵视频发布"
+        ],
+        "base_profession": "视频发布/内容运营",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1973001629.shtml"
+      },
+      {
+        "title": "短剧/AI漫剧剪辑师-懂剧本",
+        "company": "同道猎聘集团",
+        "location": "深圳-龙华区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "1-3y",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "Video Editing",
+          "Scriptwriting"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "Video Editor",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981732589.shtml"
+      },
+      {
+        "title": "AIGC短剧剪辑师",
+        "company": null,
+        "location": "北京-海淀区",
+        "salary_min": 10000,
+        "salary_max": 13000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 13000,
+        "experience_requirement": "1-3y",
+        "education": null,
+        "work_mode": null,
+        "required_skills": [
+          "AIGC",
+          "video editing"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "video editor",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74602813.shtml"
+      },
+      {
+        "title": "短剧/AI漫剧剪辑师-懂剧本",
+        "company": null,
+        "location": "深圳-龙华区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "剧本"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "剪辑师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73856859.shtml"
+      },
+      {
+        "title": "AI内容策划（AIGC精品横屏短剧方向）",
+        "company": "耀客传媒",
+        "location": "北京-朝阳区",
+        "salary_min": 15000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AIGC"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "内容策划",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981315085.shtml"
+      }
+    ],
+    "government": [
+      {
+        "title": "教育人工智能专员",
+        "company": "某深圳政府/公共事业公司",
+        "location": "深圳-罗湖区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "0-1y",
+        "education": "master",
+        "work_mode": null,
+        "required_skills": [
+          "AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72891093.shtml"
+      }
+    ]
+  },
+  "p3_vendor_examples": {
+    "vendor_openai": {
+      "fde": [
+        {
+          "title": "Platform Engineer, Forward Deployed Engineering (FDE)",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "software engineering",
+            "ML engineering",
+            "architecture",
+            "product shaping",
+            "refactoring",
+            "implementation",
+            "reliability",
+            "security"
+          ],
+          "preferred_skills": [
+            "startup experience",
+            "product-centric team experience"
+          ],
+          "responsibilities": [
+            "Provide hands-on leverage to customer pods by embedding with customer-tagged FDE teams to support generalization, contributing directly in architecture, product shaping, refactoring, and implementation.",
+            "Turn repeated signals into platform bets: translate cross-customer patterns into crisp hypotheses with clear success criteria, scope, and a validation plan that fits real account constraints.",
+            "Raise the engineering bar through tooling and mentorship: set org-wide quality norms through high-signal code review and pairing, and build lightweight developer tooling that makes good architecture, readability, and correctness the default across FDE."
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/059ac93e-3fc9-42e9-a4f4-367c0fd5de14"
+        },
+        {
+          "title": "Technical Deployment Lead, Forward Deployed Engineering (FDE)",
+          "company": "OpenAI",
+          "location": "New York City",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "AI",
+            "LLM",
+            "technical project management",
+            "customer-facing technical delivery",
+            "system architecture",
+            "production deployment",
+            "change management",
+            "ROI analysis"
+          ],
+          "preferred_skills": [
+            "healthcare",
+            "energy",
+            "financial services",
+            "semiconductors",
+            "IT"
+          ],
+          "responsibilities": [
+            "Own the technical delivery plan for multiple interdependent work streams.",
+            "Run day-to-day engineering execution across OpenAI FDE and customer teams.",
+            "Embed with customer teams to land production deployments and drive adoption."
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/9f2e4897-be7d-40a1-804d-37e6608f506b"
+        },
+        {
+          "title": "Technical Deployment Lead, Forward Deployed Engineering (FDE)",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "AI",
+            "LLM",
+            "technical project management",
+            "system architecture",
+            "production deployment",
+            "customer engagement",
+            "technical delivery leadership"
+          ],
+          "preferred_skills": [
+            "healthcare",
+            "energy",
+            "financial services",
+            "semiconductors",
+            "IT"
+          ],
+          "responsibilities": [
+            "Own the technical delivery plan for multiple interdependent work streams",
+            "Run day-to-day engineering execution across OpenAI FDE and customer teams",
+            "Embed with customer teams to land production deployments and drive adoption"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/c5a99c73-c4c4-4321-a519-e0104dc54747"
+        },
+        {
+          "title": "Technical Deployment Lead, Forward Deployed Engineering",
+          "company": "OpenAI",
+          "location": "London, UK",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "AI",
+            "LLM",
+            "technical project management",
+            "customer-facing delivery",
+            "system architecture",
+            "production deployment"
+          ],
+          "preferred_skills": [
+            "healthcare",
+            "energy",
+            "financial services",
+            "semiconductors",
+            "IT"
+          ],
+          "responsibilities": [
+            "Own the technical delivery plan for multiple interdependent workstreams",
+            "Run day-to-day engineering execution across OpenAI and customer teams",
+            "Embed with customer teams to land production deployments and drive adoption"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/2c16575f-1a04-43af-bd0a-8e8f72e3255f"
+        }
+      ],
+      "solutions": [
+        {
+          "title": "Senior Legal Solutions Architect",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "API integration",
+            "REST APIs",
+            "JSON",
+            "webhooks",
+            "Python",
+            "SQL",
+            "CLM systems",
+            "workflow orchestration"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Design and implement agentic legal workflows using OpenAI models and APIs",
+            "Build systems for legal intake triage, contract data extraction, and issue escalation",
+            "Define guardrails for AI autonomy and review thresholds"
+          ],
+          "base_profession": "Legal Solutions Architect",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/2004c873-d6e3-41b7-96e2-12fd9faec7a4"
+        },
+        {
+          "title": "Solutions Engineer",
+          "company": "OpenAI",
+          "location": "Munich, Germany",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "ChatGPT",
+            "OpenAI API",
+            "LLM",
+            "Python",
+            "Javascript",
+            "REST API",
+            "Generative AI",
+            "ML"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Deliver exceptional pre-sales customer experience by providing technical expertise and answering product, API, and LLM-related questions.",
+            "Demonstrate how ChatGPT and OpenAI API meet business needs and deliver value through demos, scoping use cases, and recommending architecture patterns.",
+            "Create and maintain documentation, guides, and FAQs related to pre-sales questions and requirements."
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/e4ed893a-539d-482b-b41a-a6b0225de8ca"
+        },
+        {
+          "title": "Solutions Engineer, Large Enterprise",
+          "company": "OpenAI",
+          "location": "Munich, Germany",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "ChatGPT",
+            "OpenAI API",
+            "LLM",
+            "Python",
+            "Javascript",
+            "REST API",
+            "Generative AI",
+            "ML"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Deliver exceptional pre-sales customer experience by providing technical expertise and answering product, API, and LLM-related questions.",
+            "Demonstrate how ChatGPT and OpenAI API meet business needs and deliver value through demos, use case scoping, and technical advisory.",
+            "Create and maintain documentation, guides, and FAQs related to pre-sales questions and requirements."
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/c00094f9-e071-4870-afec-104beb3ce499"
+        },
+        {
+          "title": "Solutions Engineer, Large Enterprise",
+          "company": "OpenAI",
+          "location": "Paris, France",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "ChatGPT",
+            "OpenAI API",
+            "LLM",
+            "Python",
+            "Javascript",
+            "REST API",
+            "Generative AI",
+            "ML"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Deliver exceptional pre-sales customer experience by providing technical expertise and answering product, API, and LLM-related questions.",
+            "Demonstrate how ChatGPT and OpenAI API meet business needs and deliver value through demos, use case scoping, and technical advisory.",
+            "Create and maintain documentation, guides, and FAQs related to pre-sales questions and requirements."
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/f2794e39-9c8f-4590-ba4d-3fa19a0e61f4"
+        }
+      ],
+      "applied": [
+        {
+          "title": "Research Engineer, Applied AI Engineering",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": null,
+          "education": "master",
+          "work_mode": null,
+          "required_skills": [
+            "deep learning",
+            "transformers",
+            "PyTorch",
+            "TensorFlow",
+            "data structures",
+            "algorithms",
+            "software engineering"
+          ],
+          "preferred_skills": [
+            "search relevance",
+            "ads ranking",
+            "LLM",
+            "distillation",
+            "supervised fine-tuning",
+            "policy optimization"
+          ],
+          "responsibilities": [
+            "Design and deploy advanced machine learning models",
+            "Work with researchers, software engineers, and product managers to deliver AI solutions",
+            "Implement scalable data pipelines and optimize models for production"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/d44c9f70-4aef-45a4-a36a-54fb65663ccb"
+        },
+        {
+          "title": "Applied AI Engineer, Codex Core Agent",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "1-3y",
+          "education": null,
+          "work_mode": null,
+          "required_skills": [
+            "Machine Learning",
+            "LLM",
+            "Python",
+            "Model Evaluation",
+            "Fine-tuning",
+            "Prompt Design"
+          ],
+          "preferred_skills": [
+            "Agent Frameworks",
+            "Tool-using LLM Systems",
+            "Code Generation Models",
+            "Developer Tooling",
+            "Large Datasets",
+            "Production Logs"
+          ],
+          "responsibilities": [
+            "Design and iterate on agent behaviors across real-world coding tasks and long-horizon workflows.",
+            "Work closely with research to develop and run evals to measure agent performance, regressions, failure modes, and edge cases.",
+            "Improve performance through prompting, tool-use strategies, context construction, and model-facing experimentation."
+          ],
+          "base_profession": "null",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/577e6673-0a4a-491b-9a0d-facbdd3bdf3c"
+        },
+        {
+          "title": "Research Engineer, Retrieval & Search, Applied Engineering",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": null,
+          "required_skills": [
+            "machine learning",
+            "vector databases",
+            "search indices",
+            "retrieval",
+            "search"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Work on retrieval & search algorithms and methodologies in close collaboration with our research team, including problems in such domains as document search, enterprise search, knowledge retrieval, and web-scale search.",
+            "Deploy these search methodologies into production in both the API and ChatGPT to be used by millions of end users.",
+            "Explore novel research topics in retrieval & search that may inform our product strategy in the medium and long term."
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/7322d344-9325-4a92-8445-0a2c4e9272f8"
+        }
+      ],
+      "deploy": [
+        {
+          "title": "Silicon Implementation Engineer, Front End",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": null,
+          "required_skills": [
+            "chip design",
+            "circuits",
+            "PPA optimization",
+            "semiconductor technologies",
+            "memory",
+            "advanced nodes",
+            "packaging",
+            "3D integration"
+          ],
+          "preferred_skills": [
+            "AI chip architectures",
+            "training workloads",
+            "inference workloads",
+            "HBM",
+            "SRAM",
+            "memory hierarchy design"
+          ],
+          "responsibilities": [
+            "Partner with architecture and system teams to translate product goals into executable silicon construction strategies.",
+            "Drive hands-on optimization of power, performance, area, cost, and reliability across the silicon stack.",
+            "Develop and implement solutions spanning circuits, memory, RTL, physical design, and integration."
+          ],
+          "base_profession": "Silicon Implementation Engineer",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/497daf98-1fa6-45aa-ba67-bc79207cd75f"
+        },
+        {
+          "title": "Datacenter Networking Technician, AI Compute Deployment - Stargate",
+          "company": "OpenAI",
+          "location": "Abilene, Texas, US",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "onsite",
+          "required_skills": [
+            "datacenter network deployment",
+            "structured cabling",
+            "physical-layer installation",
+            "fiber/copper plant design",
+            "cabling standards",
+            "hyperscale network best practices",
+            "fiber testing",
+            "OTDR"
+          ],
+          "preferred_skills": [
+            "Ansible",
+            "SaltStack",
+            "Python",
+            "Shell",
+            "hyperscale Clos fabrics",
+            "large-scale network design"
+          ],
+          "responsibilities": [
+            "Serve as technical lead technician during campus build, partnering with internal engineers and external contractors on design reviews, installation plans, and acceptance criteria.",
+            "Spend significant time on the data-center floor performing inspections, assisting with cable routing/termination, conducting fiber testing, and resolving installation challenges in real time.",
+            "Troubleshoot and optimize cabling routes, patching, and equipment turn-up to ensure clean, reliable handoff to network operations."
+          ],
+          "base_profession": "Datacenter Networking Technician",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/3ca637f8-c0d6-4253-8568-1f31b02adf76"
+        },
+        {
+          "title": "Partner AI Deployment Engineer - AWS",
+          "company": "OpenAI",
+          "location": "London, UK",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Generative AI",
+            "AWS",
+            "Solution Architecture",
+            "Technical Consulting",
+            "Enterprise Deployment",
+            "Prototyping",
+            "POC",
+            "Reference Implementations"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Serve as senior technical counterpart to AWS field leadership",
+            "Influence joint account strategy and technical direction",
+            "Shape OpenAI engagement models with AWS"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/4071e415-36d6-4bc2-95e9-6196102f0ad5"
+        },
+        {
+          "title": "GTM Onboarding Lead",
+          "company": "OpenAI",
+          "location": "San Francisco",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "onsite",
+          "required_skills": [
+            "GTM enablement",
+            "onboarding program design",
+            "sales readiness",
+            "learning design",
+            "program management",
+            "cross-functional collaboration",
+            "metrics definition",
+            "measurement frameworks"
+          ],
+          "preferred_skills": [
+            "SaaS onboarding scaling",
+            "technical sales support",
+            "partnerships support",
+            "customer success support",
+            "team management",
+            "mentoring"
+          ],
+          "responsibilities": [
+            "Design or refine the 0–90 day onboarding framework across all GTM customer-facing roles",
+            "Define learning pathways, readiness milestones, and certification checkpoints",
+            "Establish ramp metrics and instrumentation to measure onboarding effectiveness"
+          ],
+          "base_profession": "GTM Enablement / Learning & Development",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/ed0b378c-dc94-431b-a41b-00f77f3f02b0"
+        }
+      ],
+      "customer": [
+        {
+          "title": "Customer Success Manager, Ads Solutions",
+          "company": "OpenAI",
+          "location": "London, UK",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "3-5y",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "digital advertising",
+            "account management",
+            "customer success",
+            "consulting",
+            "client-facing",
+            "relationship management",
+            "performance analysis",
+            "data querying"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Own relationships with a portfolio of advertising partners, serving as their primary point of contact.",
+            "Guide advertisers through onboarding and campaign launches to ensure strong adoption of OpenAI’s ads products.",
+            "Analyze campaign performance and provide clear, actionable recommendations to improve outcomes."
+          ],
+          "base_profession": "Customer Success Manager",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/3a2b9078-f4ac-4d97-89b2-2bbf59919796"
+        },
+        {
+          "title": "Customer Success Manager, Ads Solutions",
+          "company": "OpenAI",
+          "location": "Tokyo, Japan",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "3-5y",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "digital advertising",
+            "account management",
+            "customer success",
+            "consulting",
+            "client-facing",
+            "data querying",
+            "SQL",
+            "Excel"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Own relationships with a portfolio of advertising partners, serving as their primary point of contact.",
+            "Guide advertisers through onboarding and campaign launches to ensure strong adoption of OpenAI’s ads products.",
+            "Analyze campaign performance and provide clear, actionable recommendations to improve outcomes."
+          ],
+          "base_profession": "Customer Success Manager",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/8c68932c-8c1d-42b4-bfa6-c50f8bdf933a"
+        },
+        {
+          "title": "Customer Success Manager, Ads Solutions",
+          "company": "OpenAI",
+          "location": "Seoul, South Korea",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "3-5y",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "digital advertising",
+            "account management",
+            "customer success",
+            "consulting",
+            "client-facing",
+            "data querying",
+            "SQL",
+            "advanced excel/GSheet"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Own relationships with a portfolio of advertising partners, serving as their primary point of contact.",
+            "Guide advertisers through onboarding and campaign launches to ensure strong adoption of OpenAI’s ads products.",
+            "Analyze campaign performance and provide clear, actionable recommendations to improve outcomes."
+          ],
+          "base_profession": "Customer Success Manager",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/2baad972-e00c-42ea-8929-118934e5844d"
+        },
+        {
+          "title": "Customer Success Manager, Ads Solutions",
+          "company": "OpenAI",
+          "location": "São Paulo, Brazil",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "3-5y",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "digital advertising",
+            "account management",
+            "customer success",
+            "data querying",
+            "SQL",
+            "Excel",
+            "Google Sheets",
+            "Portuguese"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Own relationships with a portfolio of advertising partners, serving as their primary point of contact.",
+            "Guide advertisers through onboarding and campaign launches to ensure strong adoption of OpenAI’s ads products.",
+            "Analyze campaign performance and provide clear, actionable recommendations to improve outcomes."
+          ],
+          "base_profession": "Customer Success Manager",
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/de12f86b-507f-402b-ae1d-4977969bf788"
+        }
+      ]
+    },
+    "vendor_anthropic": {
+      "fde": [
+        {
+          "title": "Forward Deployed Engineer, Federal Civilian",
+          "company": "Anthropic",
+          "location": "San Francisco, CA | New York City, NY | Washington, DC",
+          "salary_min": 169166,
+          "salary_max": 193333,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 101499,
+          "salary_max_cny_monthly": 115999,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "LLM",
+            "Python",
+            "Software Engineering",
+            "Production Application Development",
+            "Prompt Engineering",
+            "Agent Development",
+            "Customer-facing Experience",
+            "US Federal Civilian Agency Experience"
+          ],
+          "preferred_skills": [
+            "Security Clearance",
+            "TypeScript",
+            "Java",
+            "Government IT Systems",
+            "AI Deployment Patterns"
+          ],
+          "responsibilities": [
+            "Build production applications with Claude models within customer systems",
+            "Deliver technical artifacts like MCP servers, sub-agents, and agent skills",
+            "Provide white glove deployment support for Anthropic products in federal government environments"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5079562008"
+        },
+        {
+          "title": "Forward Deployed Engineer",
+          "company": "Anthropic",
+          "location": "Munich, Germany",
+          "salary_min": 134916,
+          "salary_max": 144833,
+          "salary_currency": "EUR",
+          "salary_min_cny_monthly": 87695,
+          "salary_max_cny_monthly": 94141,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "LLM",
+            "Python",
+            "prompt engineering",
+            "agent development",
+            "production deployment"
+          ],
+          "preferred_skills": [
+            "TypeScript",
+            "Java",
+            "financial services",
+            "healthcare",
+            "life sciences",
+            "enterprise IT systems"
+          ],
+          "responsibilities": [
+            "Build production applications with Claude models within customer systems",
+            "Deliver technical artifacts like MCP servers, sub-agents, and agent skills",
+            "Provide white glove deployment support for Anthropic products in enterprise environments"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5121561008"
+        },
+        {
+          "title": "Forward Deployed Engineer, Applied AI",
+          "company": "Anthropic",
+          "location": "Boston, MA; Chicago, IL; New York City, NY; Seattle, WA; San Francisco, CA; Washington, DC",
+          "salary_min": 120833,
+          "salary_max": 181250,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 72499,
+          "salary_max_cny_monthly": 108750,
+          "experience_requirement": "3-5y",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "LLM",
+            "Python",
+            "agent development",
+            "prompt engineering",
+            "production deployment"
+          ],
+          "preferred_skills": [
+            "Typescript",
+            "Java",
+            "financial services",
+            "healthcare",
+            "life sciences",
+            "enterprise IT systems"
+          ],
+          "responsibilities": [
+            "Build production applications with Claude models within customer systems",
+            "Deliver technical artifacts like MCP servers, sub-agents, and agent skills",
+            "Provide white glove deployment support for Anthropic products in enterprise environments"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/4985877008"
+        },
+        {
+          "title": "Manager of Forward Deployed Engineering",
+          "company": "Anthropic",
+          "location": "London, UK",
+          "salary_min": 212500,
+          "salary_max": 270833,
+          "salary_currency": "GBP",
+          "salary_min_cny_monthly": 159375,
+          "salary_max_cny_monthly": 203124,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "LLM",
+            "agentic systems",
+            "software engineering",
+            "people management",
+            "enterprise customer implementation",
+            "technical architecture",
+            "communication skills"
+          ],
+          "preferred_skills": [
+            "AI systems for regulated industries",
+            "financial services",
+            "healthcare",
+            "pharmaceuticals",
+            "energy"
+          ],
+          "responsibilities": [
+            "Hire, develop, and retain a world-class team of Forward Deployed Engineers",
+            "Conduct regular 1:1s, provide technical mentorship, and invest in career growth",
+            "Staff and oversee customer engagements across portfolio"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5183983008"
+        }
+      ],
+      "solutions": [
+        {
+          "title": "Solutions Architect, National Security",
+          "company": "Anthropic",
+          "location": "Washington, DC",
+          "salary_min": 163125,
+          "salary_max": 208437,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 97875,
+          "salary_max_cny_monthly": 125062,
+          "experience_requirement": "1-3y",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "TS/SCI security clearance",
+            "Customer Engineer",
+            "Forward Deployed Engineer",
+            "Sales Engineer",
+            "Solutions Architect",
+            "Platform Engineer",
+            "National Security",
+            "defense"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Act as a primary technical advisor for senior government leaders and prospective National Security customers evaluating Claude",
+            "Demonstrate how Claude can support U.S. and democratic allies’ national security operations and address customer use cases through proofs of concept",
+            "Provide technical guidance on integration, deployment, and adoption best practices"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5126080008"
+        },
+        {
+          "title": "Partner Solutions Architect, Applied AI",
+          "company": "Anthropic",
+          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+          "salary_min": 154062,
+          "salary_max": 208687,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 92437,
+          "salary_max_cny_monthly": 125212,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Solutions Architect",
+            "Sales Engineer",
+            "Partner Sales Engineer",
+            "Technical Account Manager",
+            "cloud architectures",
+            "enterprise systems integration",
+            "LLM frameworks",
+            "machine learning"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Strategic Technical Partnership with GTM partnerships team and partners",
+            "Joint Solution Development for industry-specific GenAI applications",
+            "Customer Deal Support for strategic deals"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/4950664008"
+        }
+      ],
+      "applied": [
+        {
+          "title": "Manager of Applied AI Architecture, Industries",
+          "company": "Anthropic",
+          "location": "London, UK",
+          "salary_min": 102500,
+          "salary_max": 129583,
+          "salary_currency": "GBP",
+          "salary_min_cny_monthly": 76875,
+          "salary_max_cny_monthly": 97187,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Solutions Architecture",
+            "Sales Engineering",
+            "pre-sales",
+            "enterprise AI deployments",
+            "API integrations",
+            "LLM",
+            "prompt engineering",
+            "LLM evaluation"
+          ],
+          "preferred_skills": [
+            "10+ years technical experience",
+            "5+ years managing AI technical teams in hypergrowth",
+            "leading solutions architect or pre-sales teams through rapid growth",
+            "experience across all key non-tech industry verticals",
+            "Northern European language fluency",
+            "enterprise AI use cases in regulated industries"
+          ],
+          "responsibilities": [
+            "Hire, manage and mentor a team of Applied AI Architects for Northern Europe",
+            "Set goals and reviews for your team",
+            "Work with highest-value enterprise customers on their overall AI adoption strategies"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5115884008"
+        },
+        {
+          "title": "Manager of Applied AI Architecture, Industries",
+          "company": "Anthropic",
+          "location": "Munich, Germany",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Solutions Architect",
+            "Sales Engineer",
+            "pre-sales",
+            "enterprise AI deployments",
+            "API integrations",
+            "LLM",
+            "prompt engineering",
+            "LLM evaluation"
+          ],
+          "preferred_skills": [
+            "DACH language fluency",
+            "10+ years technical experience",
+            "managing AI technical teams in hypergrowth",
+            "leading solutions architect or pre-sales teams through rapid growth",
+            "regulated industries experience (Financial Services, Insurance, Healthcare, Life Sciences, Telco, Retail, Consumer Goods, Manufacturing, Oil & Gas)",
+            "enterprise AI use cases in regulated industries"
+          ],
+          "responsibilities": [
+            "Hire, manage and mentor a team of Applied AI Architects for DACH",
+            "Set goals and reviews for your team, promoting growth and output",
+            "Work with highest-value enterprise customers on their overall AI adoption strategies, focusing on pre-sales technical excellence"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5117652008"
+        },
+        {
+          "title": "Applied AI Architect, Public Sector",
+          "company": "Anthropic",
+          "location": "London, UK",
+          "salary_min": 125166,
+          "salary_max": 125166,
+          "salary_currency": "GBP",
+          "salary_min_cny_monthly": 93874,
+          "salary_max_cny_monthly": 93874,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "LLM",
+            "Python",
+            "cloud architecture",
+            "enterprise systems integration",
+            "technical communication",
+            "customer-facing experience",
+            "UK public sector experience",
+            "UK Security Check (SC) clearance"
+          ],
+          "preferred_skills": [
+            "UK public procurement frameworks",
+            "G-Cloud",
+            "AI Dynamic Purchasing System",
+            "Digital Outcomes",
+            "Crown Commercial Service agreements",
+            "systems integrators"
+          ],
+          "responsibilities": [
+            "Partner with account executives to understand customer requirements and translate into technical solutions",
+            "Serve as primary technical advisor for Claude adoption journey",
+            "Support customers using Claude Code, Claude API, and Claude for Enterprise"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5194007008"
+        },
+        {
+          "title": "Applied AI Architect, Security",
+          "company": "Anthropic",
+          "location": "New York City, NY; Seattle, WA; San Francisco, CA",
+          "salary_min": 145000,
+          "salary_max": 190312,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 87000,
+          "salary_max_cny_monthly": 114187,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "enterprise security",
+            "cloud architecture",
+            "AWS",
+            "Azure",
+            "GCP",
+            "network security",
+            "identity and access management",
+            "encryption"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Serve as primary security and compliance expert during customer engagements",
+            "Partner with CISOs, security architects, and compliance teams at financial services and insurance companies",
+            "Lead technical deep-dives on network architecture, data residency, API security, authentication/authorization, audit logging, and integration patterns"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5101433008"
+        }
+      ],
+      "deploy": [
+        {
+          "title": "Cluster Deployment Engineer",
+          "company": "Anthropic",
+          "location": "United States",
+          "salary_min": 193333,
+          "salary_max": 244687,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 115999,
+          "salary_max_cny_monthly": 146812,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "hyperscale datacenter",
+            "cluster deployment",
+            "IT integration",
+            "AI accelerator clusters",
+            "HPC",
+            "high-density compute",
+            "power density",
+            "thermal limits"
+          ],
+          "preferred_skills": [
+            "leading-edge AI accelerator clusters",
+            "reference designs",
+            "deployment standards",
+            "cluster-level playbooks",
+            "multiple geographies",
+            "regional codes"
+          ],
+          "responsibilities": [
+            "Own cluster-level deployment strategy",
+            "Set rack interface standards",
+            "Drive multi-threaded cluster bring-up programs"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5191638008"
+        },
+        {
+          "title": "Security Technology Deployment Specialist",
+          "company": "Anthropic",
+          "location": "San Francisco, CA | Seattle, WA | New York City, NY",
+          "salary_min": 105729,
+          "salary_max": 132917,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 63437,
+          "salary_max_cny_monthly": 79750,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Genetec Security Center",
+            "Axis cameras",
+            "Wavelynx",
+            "Commend Symphony Cloud",
+            "Alcatraz.ai",
+            "Ambient.ai",
+            "SureView",
+            "Envoy"
+          ],
+          "preferred_skills": [
+            "Genetec certification",
+            "Axis certification",
+            "CCNA",
+            "PSP",
+            "CPP",
+            "PMP"
+          ],
+          "responsibilities": [
+            "Validate and deploy new and replacement security technology platforms including access control systems, intercom solutions, video management, visitor management, and AI/analytics tools across all Anthropic locations",
+            "Build and maintain staging environments for pre-production testing and validation of all security applications, hardware, firmware, and system configurations",
+            "Define installation standards, configuration baselines, licensing structures, update procedures, and maintenance requirements for every deployed security platform"
+          ],
+          "base_profession": "Security Technology Specialist",
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5123587008"
+        },
+        {
+          "title": "Software Engineer, Inference Deployment",
+          "company": "Anthropic",
+          "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+          "salary_min": 193333,
+          "salary_max": 293021,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 115999,
+          "salary_max_cny_monthly": 175812,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "deployment infrastructure",
+            "Kubernetes",
+            "container orchestration",
+            "backend services",
+            "databases",
+            "CLI tools",
+            "web UIs"
+          ],
+          "preferred_skills": [
+            "ML inference",
+            "training infrastructure",
+            "GPU",
+            "TPU",
+            "Trainium",
+            "capacity planning"
+          ],
+          "responsibilities": [
+            "Own deployment orchestration across GPU, TPU, and Trainium fleets",
+            "Improve capacity-aware deployment scheduling",
+            "Extend deployment observability with dashboards and tooling"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5111745008"
+        },
+        {
+          "title": "Technical Deployment Lead",
+          "company": "Anthropic",
+          "location": "Munich, Germany",
+          "salary_min": 125083,
+          "salary_max": 141458,
+          "salary_currency": "EUR",
+          "salary_min_cny_monthly": 81303,
+          "salary_max_cny_monthly": 91947,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "AI",
+            "ML",
+            "LLM",
+            "AI agent",
+            "technical delivery",
+            "enterprise software",
+            "stakeholder management",
+            "project management"
+          ],
+          "preferred_skills": [
+            "financial services",
+            "healthcare",
+            "life sciences",
+            "pharmaceutical",
+            "regulated industries",
+            "compliance"
+          ],
+          "responsibilities": [
+            "Own the technical delivery plan for each engagement",
+            "Structure SOWs with clear scope, milestones, dependencies, success criteria, and value hypotheses",
+            "Lead technical discovery: map customer workflows, identify constraints, define MVP scope, and shape the solution architecture for custom agent deployments"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5153754008"
+        }
+      ],
+      "customer": [
+        {
+          "title": "Customer Success Manager, Scaled",
+          "company": "Anthropic",
+          "location": "Boston, MA; New York City, NY; San Francisco, CA; Seattle, WA",
+          "salary_min": 120833,
+          "salary_max": 157083,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 72499,
+          "salary_max_cny_monthly": 94249,
+          "experience_requirement": "3-5y",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Customer Success",
+            "Customer Marketing",
+            "Account Management",
+            "Consulting",
+            "digital-first customer engagement",
+            "one-to-many programs",
+            "email campaigns",
+            "webinars"
+          ],
+          "preferred_skills": [
+            "AI/ML products",
+            "developer tools",
+            "API-based products",
+            "consumption-based business models",
+            "usage-driven business models",
+            "Customer Success platforms"
+          ],
+          "responsibilities": [
+            "Own scaled customer engagement for a large portfolio of Commercial and Enterprise accounts, managing customers through timebound, digital-first touchpoints that drive activation, consumption, retention, and expansion across Claude Enterprise, Claude Code, and API products",
+            "Execute timebound strategic human touchpoints at key moments— customer activation, expansion discussions, renewal conversations, risk interventions - ensuring high-impact interactions when customers need them most",
+            "Provide technical guidance. Develop deep product expertise to guide implementation decisions, advise on safe, impactful adoption of new features, and translate AI capabilities into business value for audiences from developers to executives"
+          ],
+          "base_profession": "Customer Success Manager",
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5174700008"
+        },
+        {
+          "title": "Customer Success Manager, Digital Native Business",
+          "company": "Anthropic",
+          "location": "San Francisco, CA",
+          "salary_min": 120833,
+          "salary_max": 190312,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 72499,
+          "salary_max_cny_monthly": 114187,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Customer Success",
+            "Technical Account Management",
+            "Solutions Engineering",
+            "SaaS",
+            "API integrations",
+            "AI/ML concepts",
+            "software implementation patterns",
+            "consumption-based business models"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Build trusting, strategic relationships with key customer decision makers",
+            "Become an expert in Anthropic's products across API, Claude Code and Claude for Enterprise",
+            "Leverage deep knowledge of the customer and other Digital Native Businesses to proactively drive usage planning"
+          ],
+          "base_profession": "Customer Success Manager",
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5062733008"
+        },
+        {
+          "title": "Customer Success Manager",
+          "company": "Anthropic",
+          "location": "Paris, France",
+          "salary_min": 98750,
+          "salary_max": 151416,
+          "salary_currency": "EUR",
+          "salary_min_cny_monthly": 64187,
+          "salary_max_cny_monthly": 98420,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Customer Success",
+            "Consulting",
+            "Solutions Architect",
+            "AI/ML concepts",
+            "API integrations",
+            "software implementation patterns",
+            "project management"
+          ],
+          "preferred_skills": [
+            "French",
+            "German",
+            "Spanish",
+            "Italian"
+          ],
+          "responsibilities": [
+            "Build trusting, strategic relationships with key EMEA customer decision makers to understand their business and objectives, identifying opportunities for optimization and expansion",
+            "Become an expert in Anthropic's products across API, Claude for Enterprise, and Claude Code, understanding the technical nuances and best practices for each to guide customers to the right solutions",
+            "Leverage your deep knowledge of the customer and regional nuances to proactively drive usage planning, understanding current and future consumption/ adoption and how it creates realized value for the customer"
+          ],
+          "base_profession": "Customer Success Manager",
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5172501008"
+        },
+        {
+          "title": "Customer Success Manager, Beneficial Deployments, EMEA",
+          "company": "Anthropic",
+          "location": "London, UK",
+          "salary_min": 93750,
+          "salary_max": 123750,
+          "salary_currency": "GBP",
+          "salary_min_cny_monthly": 70312,
+          "salary_max_cny_monthly": 92812,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "Customer Success",
+            "Consulting",
+            "Solutions Architecture",
+            "API",
+            "AI",
+            "ML",
+            "Cross-functional Collaboration"
+          ],
+          "preferred_skills": [
+            "French",
+            "German",
+            "Spanish",
+            "Italian"
+          ],
+          "responsibilities": [
+            "Build strategic relationships with nonprofit leaders and stakeholders",
+            "Become an expert in Anthropic's products (API, Claude for Enterprise, Claude Code)",
+            "Drive usage planning and adoption of Claude products"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5153511008"
+        }
+      ]
+    }
+  },
+  "p4_cross_market_examples": {
+    "domestic_ai_native": [
+      {
+        "title": "AI应用开发工程师",
+        "company": "华望系统",
+        "location": "杭州-西湖区",
+        "salary_min": 25000,
+        "salary_max": 50000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 25000,
+        "salary_max_cny_monthly": 50000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "LLM",
+          "Java",
+          "Spring Boot",
+          "Spring Cloud",
+          "Python",
+          "RAG",
+          "Agent",
+          "GraphRAG"
+        ],
+        "preferred_skills": [
+          "High Concurrency Distributed Systems",
+          "Full Stack Development",
+          "React",
+          "Vue",
+          "VLLM",
+          "TGI"
+        ],
+        "responsibilities": [
+          "负责基于LLM的复杂应用系统架构设计与核心代码实现,确保系统的高可用性、高发性与可扩展性",
+          "熟练运用Java (Spring Boot/Cloud)构建稳健的后端服务,并利用Python快速集成AI算法框架与工具链,实现业务逻辑与AI能力的无缝对接",
+          "主导RAG系统的优化Agent任务编排及多轮对话逻辑的实现,提升AI在实际业务场景中的响应准确率与用户体验;主导GraphRAG与向量检索的深度融合,负责复杂知识关联的建模与查询优化"
+        ],
+        "base_profession": null,
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981096471.shtml"
+      },
+      {
+        "title": "AI前端开发工程师（Agent）",
+        "company": "青岛伟达智慧科技有限公司",
+        "location": "武汉-江夏区",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "React",
+          "Vue",
+          "State Management",
+          "Routing"
+        ],
+        "preferred_skills": [
+          "AI Application Frontend Experience",
+          "Chat UI",
+          "Copilot UI",
+          "Agent UI",
+          "Streaming",
+          "SSE"
+        ],
+        "responsibilities": [
+          "负责电视端 AI Agent 应用的设计与开发。",
+          "基于LLM构建TV 智能助手、内容推荐/理解、系统控制等Agent。",
+          "参与Agent 在低算力设备上的工程化落地（延迟、内存、稳定性优化）。"
+        ],
+        "base_profession": null,
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1979855769.shtml"
+      },
+      {
+        "title": "AI Agent工程师",
+        "company": "百思特管理咨询集团",
+        "location": "深圳-南山区",
+        "salary_min": 16000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 16000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "1-3y",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "AI Project Experience",
+          "LLM Applications",
+          "Agent",
+          "RAG",
+          "Dialogue System",
+          "Enterprise Application Development",
+          "B2B Product Development",
+          "Full Project Lifecycle"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "根据公司的产品规划和业务需求，完成AI Agent产品的前后端代码开发",
+          "基于AI Agent技术栈，实现Web/PC/Mobile各项功能",
+          "独立完成产品测试，确保产品稳定运行"
+        ],
+        "base_profession": null,
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978182275.shtml"
+      },
+      {
+        "title": "AI Agent平台研发工程师",
+        "company": "上汽云计算中心",
+        "location": "上海-杨浦区",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "1-3y",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI Agent platform development",
+          "Agent application development",
+          "Data Structures",
+          "Algorithms",
+          "Computer Networks",
+          "Operating Systems",
+          "Coding best practices",
+          "Dify"
+        ],
+        "preferred_skills": [
+          "LLM application development",
+          "Intelligent platform development",
+          "Industry-specific Agent application deployment",
+          "Frontend-backend separation development",
+          "Vector databases",
+          "Message queues"
+        ],
+        "responsibilities": [
+          "设计与研发AI Agent平台框架，并优化核心功能",
+          "独立完成Agent应用的全流程开发、测试与部署",
+          "集成LLM API、知识库和第三方工具，进行对接与调试"
+        ],
+        "base_profession": null,
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981004461.shtml"
+      }
+    ],
+    "international_ai_native": [
+      {
+        "title": "Chief Engineer, Artificial Intelligence and Autonomy",
+        "company": "Boeing",
+        "location": "Seal Beach, California; El Segundo, California",
+        "salary_min": 109785,
+        "salary_max": 148504,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 65871,
+        "salary_max_cny_monthly": 89102,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI/ML Leadership",
+          "Team Management",
+          "Budget Management",
+          "Infrastructure Management",
+          "Production ML Systems",
+          "Cross-functional Leadership",
+          "AI Strategy",
+          "Business Case Development"
+        ],
+        "preferred_skills": [
+          "TS/SCI Clearance",
+          "Stakeholder Management",
+          "Executive Communication",
+          "Physics-informed ML",
+          "Custom ML Models",
+          "Safety-critical AI"
+        ],
+        "responsibilities": [
+          "Develop and maintain a comprehensive enterprise AI strategy that increases the use of AI across the full portfolio of SMS programs, serving as the primary coordinator between programs and engineering leadership",
+          "Define and present the enterprise AI roadmap to Segment Leadership, the VP of Program Management, and the executive leadership team, including business case definition, value propositions, technology readiness level (TRL) reduction plans, and program on-ramp strategies for AI-assisted engineering and space edge compute",
+          "Coordinate between SMS programs and engineering organizations on the adoption and deployment of AI-assisted coding tools and autonomous software agents to accelerate development velocity and reduce engineering cycle times"
+        ],
+        "base_profession": null,
+        "platform_id": "indeed",
+        "source_url": "https://www.indeed.com/viewjob?jk=7accc76cbde9c616"
+      },
+      {
+        "title": "AI Engineer III",
+        "company": "Premera Blue Cross",
+        "location": "Mountlake Terrace, Washington",
+        "salary_min": 81975,
+        "salary_max": 139104,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 49185,
+        "salary_max_cny_monthly": 83462,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "hybrid",
+        "required_skills": [
+          "AI/ML System Development",
+          "AI/ML System Deployment",
+          "AI/ML System Maintenance"
+        ],
+        "preferred_skills": [
+          "Deep Learning",
+          "TensorFlow",
+          "PyTorch",
+          "MLX",
+          "JAX",
+          "Ethical AI"
+        ],
+        "responsibilities": [
+          "Develop comprehensive systems and frameworks for AI applications and products.",
+          "Construct prototypes and minimum viable products to validate AI/ML solutions before committing substantial resources.",
+          "Develop, refine, and productionize AI systems using cloud resources such as Azure OpenAI, Azure ML, and Cognitive Services."
+        ],
+        "base_profession": null,
+        "platform_id": "linkedin",
+        "source_url": "https://www.linkedin.com/jobs/view/4382346036"
+      },
+      {
+        "title": "Senior Staff AI Engineer, Generative AI Platforms",
+        "company": "Faraday Future",
+        "location": "Los Angeles, California",
+        "salary_min": 108750,
+        "salary_max": 120833,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 65250,
+        "salary_max_cny_monthly": 72499,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI/ML systems",
+          "AI agents",
+          "AI-enabled tools",
+          "Orchestration logic",
+          "Prompt systems",
+          "Memory layers",
+          "Tool-integration chains",
+          "LLM fundamentals"
+        ],
+        "preferred_skills": [
+          "Multi-agent systems",
+          "AI workflow automation platforms",
+          "Creative AI production pipelines",
+          "MCP protocol",
+          "Composio",
+          "Vercel AI SDK"
+        ],
+        "responsibilities": [
+          "Build AI-powered workflow systems that help marketing, content, and operations teams automate complex creative and business tasks — from asset generation and campaign operations to research, review, and distribution pipelines.",
+          "Design and implement multi-agent orchestration infrastructure — state machines, supervisor-executor patterns, task scheduling, memory and knowledge systems, and failure recovery — so that non-technical teams can configure and run their own AI teams.",
+          "Architect end-to-end generative AI pipelines spanning image, video, copy, and multimodal asset generation to support FF's global brand marketing, product launches, and visual storytelling initiatives."
+        ],
+        "base_profession": null,
+        "platform_id": "indeed",
+        "source_url": "https://www.indeed.com/viewjob?jk=88ca43af90dc54ec"
+      },
+      {
+        "title": "Sr Staff R&D Engineer (AI/ML)",
+        "company": "The Walt Disney Company",
+        "location": "Nicasio, CA",
+        "salary_min": 124600,
+        "salary_max": 167000,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 74760,
+        "salary_max_cny_monthly": 100200,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": "hybrid",
+        "required_skills": [
+          "applied ML",
+          "audio-centric AI/ML",
+          "PyTorch",
+          "deep neural networks",
+          "generative models",
+          "VAE",
+          "GAN",
+          "diffusion models"
+        ],
+        "preferred_skills": [
+          "audio/text/video multi-modal frameworks",
+          "cross-domain representations",
+          "real-time inference pipelines",
+          "near-real-time inference pipelines",
+          "cloud environments",
+          "AWS"
+        ],
+        "responsibilities": [
+          "Lead the research, design, and implementation of state-of-the-art machine learning algorithms for speech processing, voice transfer, source separation, and upmixing in media post-production environments.",
+          "Drive the architecture and deployment of scalable model training pipelines using PyTorch and distributed computing frameworks.",
+          "Develop novel generative audio models, including latent diffusion, flow-based models, variational autoencoders, and neural vocoders, optimized for professional soundtrack production."
+        ],
+        "base_profession": null,
+        "platform_id": "linkedin",
+        "source_url": "https://www.linkedin.com/jobs/view/4323446470"
+      }
+    ],
+    "domestic_ai_augmented_traditional": [
+      {
+        "title": "Curriculum Growth Manager",
+        "company": "Code.org",
+        "location": "United States",
+        "salary_min": 58181,
+        "salary_max": 64646,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 34908,
+        "salary_max_cny_monthly": 38787,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": "remote",
+        "required_skills": [
+          "EdTech Sales",
+          "SaaS Sales",
+          "Enterprise Sales",
+          "Pipeline Management",
+          "Territory Management",
+          "School District Engagement",
+          "Institutional Sales",
+          "Multi-stakeholder Sales"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Develop and execute a regional growth strategy aligned to annual adoption goals",
+          "Build and manage a pipeline of district opportunities from outreach through formal commitment",
+          "Identify and prioritize high-potential districts based on signals such as curriculum review cycles, policy developments, and funding availability"
+        ],
+        "base_profession": "教育销售/课程推广经理",
+        "platform_id": "linkedin",
+        "source_url": "https://www.linkedin.com/jobs/view/4384538694"
+      },
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "阿里云智能",
+        "location": "杭州",
+        "salary_min": 10000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Big Data",
+          "AI",
+          "Machine Learning",
+          "Internal Control",
+          "Risk Management",
+          "Data Analysis",
+          "AI Agent Building",
+          "Low-code Platform"
+        ],
+        "preferred_skills": [
+          "Intelligent Risk Control System Building"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1979617465.shtml"
+      },
+      {
+        "title": "智能风控经理",
+        "company": "某广州其他金融公司",
+        "location": "广州",
+        "salary_min": 20000,
+        "salary_max": 25000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 25000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Risk Data Analysis",
+          "SQL",
+          "SAS",
+          "Python",
+          "R",
+          "Tableau",
+          "PowerBI",
+          "Business Dashboard Development"
+        ],
+        "preferred_skills": [
+          "Big Data",
+          "Data Modeling",
+          "SAS EM",
+          "Scikit-learn",
+          "Strategy Analysis",
+          "Metric System Development"
+        ],
+        "responsibilities": [
+          "负责公司的金融业务风险数据分析工作，通过数据分析为风险管理决策提供支持，包括但不限于客户画像、风控指标监控、策略服务效果评测、风控模型开发与监控等。",
+          "建立灵活的业务风险监控体系，开发并维护自动化报表，跟踪核心指标变化，并通过数据分析定位问题，提出解决方案。",
+          "定期展开专题分析，如额度分析、营销流程和效果分析等，输出分析报告，提出合理的方案建议，辅助决策。"
+        ],
+        "base_profession": "金融风控经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72151745.shtml"
+      },
+      {
+        "title": "Integration engineer-AI LLM",
+        "company": "某合肥大型整车制造公司",
+        "location": "合肥",
+        "salary_min": 21000,
+        "salary_max": 22000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 21000,
+        "salary_max_cny_monthly": 22000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AI/ML",
+          "LLM",
+          "Computer Vision",
+          "Time Series Analysis",
+          "CAN",
+          "CAN FD",
+          "LIN",
+          "SOME/IP"
+        ],
+        "preferred_skills": [
+          "Automotive Software Development",
+          "German"
+        ],
+        "responsibilities": [
+          "设计并落地基于人工智能 / 机器学习（AI/ML）的自动化测试方案，覆盖功能测试、系统集成测试、回归测试等各类测试场景。",
+          "运用大语言模型 LLM、计算机视觉、时序数据分析等前沿 AI 技术，智能解析 CAN/LIN/ 车载以太网总线日志、测试报告、缺陷库，自动识别异常问题与潜在隐性风险。",
+          "开发智能测试调度与资源优化系统，实现任务动态分配、优先级预判、测试瓶颈预警。"
+        ],
+        "base_profession": "集成工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74029103.shtml"
+      }
+    ],
+    "international_ai_augmented_traditional": [
+      {
+        "title": "Chief Data Officer",
+        "company": "Pacific Northwest National Laboratory",
+        "location": "Washington State, USA",
+        "salary_min": 107531,
+        "salary_max": 161260,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 64518,
+        "salary_max_cny_monthly": 96756,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Data Management Strategy",
+          "IT Operations Management",
+          "Software Engineering Leadership",
+          "Data Architecture Design",
+          "Cybersecurity Management",
+          "AI/ML Strategy & Implementation",
+          "Data Engineering Workflows",
+          "Automation Integration"
+        ],
+        "preferred_skills": [
+          "Scientific Data Architecture",
+          "Large-scale Data Modeling",
+          "Networking",
+          "Database Design",
+          "Business Requirements Analysis",
+          "Technical Leadership"
+        ],
+        "responsibilities": [
+          "Lead EMSL’s computing and scientific data management strategy and operations.",
+          "Provide leadership and line management to a group of experts including IT and software engineers, data architects, data managers, computer scientists, and cyber security professionals.",
+          "Accountable for computing operations, hardware and software acquisitions, networking, data architecture, workflow and archiving decisions, software development, and ensuring AI-Ready FAIR data at scale."
+        ],
+        "base_profession": "首席数据官",
+        "platform_id": "indeed",
+        "source_url": "https://www.indeed.com/viewjob?jk=b0685488913af131"
+      },
+      {
+        "title": "UX Designer - Growth/Monetization",
+        "company": "xAI",
+        "location": "New York, NY",
+        "salary_min": 72500,
+        "salary_max": 169166,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 43500,
+        "salary_max_cny_monthly": 101499,
+        "experience_requirement": "3-5y",
+        "education": null,
+        "work_mode": null,
+        "required_skills": [
+          "UX design",
+          "Growth UX",
+          "subscription products",
+          "SaaS monetization",
+          "consumer subscription apps",
+          "Figma",
+          "FigmaJam",
+          "Miro"
+        ],
+        "preferred_skills": [
+          "consumer products subscription experiences",
+          "pricing pages optimization",
+          "checkout flows optimization",
+          "billing portals optimization",
+          "churn-prevention sequences optimization",
+          "experimentation frameworks"
+        ],
+        "responsibilities": [
+          "Lead end-to-end Growth UX for subscription products and monetization features across web, mobile, and cross-platform surfaces",
+          "Conduct targeted user research (funnel analysis, usability testing, interviews, surveys, A/B test deep-dives, contextual inquiry) focused on subscription decision points and translate insights into high-impact design decisions",
+          "Create subscription-specific deliverables: user personas, journey maps, service blueprints, growth funnels, task flows, pricing & billing architecture"
+        ],
+        "base_profession": "UX Designer",
+        "platform_id": "vendor_xai",
+        "source_url": "https://job-boards.greenhouse.io/xai/jobs/5055630007"
+      },
+      {
+        "title": "Creative Pipeline Specialist - Forward Deployed Engineering",
+        "company": "Adobe",
+        "location": "USA",
+        "salary_min": 88390,
+        "salary_max": 167554,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 53034,
+        "salary_max_cny_monthly": 100532,
+        "experience_requirement": "3-5y",
+        "education": null,
+        "work_mode": null,
+        "required_skills": [
+          "Creative Production",
+          "Post-production",
+          "Motion Graphics",
+          "Content Operations",
+          "Creative Technology",
+          "After Effects",
+          "Premiere Pro",
+          "Photoshop"
+        ],
+        "preferred_skills": [
+          "AI Coding Agents",
+          "Claude Code",
+          "GitHub Copilot",
+          "Production Automation",
+          "Workfront",
+          "Workfront Fusion"
+        ],
+        "responsibilities": [
+          "Design creative workflows, mapping end-to-end content production pipelines and identifying AI acceleration points.",
+          "Build reusable creative templates (InDesign, After Effects, Photoshop, Figma), asset structures, and production frameworks.",
+          "Bridge creative and engineering teams by translating requirements and capabilities."
+        ],
+        "base_profession": "创意制作专家",
+        "platform_id": "linkedin",
+        "source_url": "https://www.linkedin.com/jobs/view/4379456731"
+      },
+      {
+        "title": "Design Supervisor",
+        "company": "within",
+        "location": "New York City, USA",
+        "salary_min": 69609,
+        "salary_max": 90904,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 41765,
+        "salary_max_cny_monthly": 54542,
+        "experience_requirement": "5y+",
+        "education": "any",
+        "work_mode": "hybrid",
+        "required_skills": [
+          "Static Design",
+          "Motion Design",
+          "Adobe Creative Suite",
+          "Photoshop",
+          "Illustrator",
+          "After Effects",
+          "Figma",
+          "AI Image Generation"
+        ],
+        "preferred_skills": [
+          "Video Post-production",
+          "Premiere Pro",
+          "DaVinci Resolve",
+          "Performance Marketing Strategy",
+          "Brand Strategy",
+          "Project Management Tools"
+        ],
+        "responsibilities": [
+          "Review and QA design work across static and motion deliverables before it goes to Creative Directors or clients",
+          "Set the creative standard for the team and define what good looks like at WITHIN",
+          "Bridge gaps between the Creative and Production teams on execution at the designer level"
+        ],
+        "base_profession": "设计主管",
+        "platform_id": "indeed",
+        "source_url": "https://www.indeed.com/viewjob?jk=69157ad3bdcce947"
+      }
+    ]
+  }
+}
