@@ -40,9 +40,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import httpx
+from sqlalchemy import update
 
 from app.collectors.manual_import import import_jobs
 from app.database import async_session
+from app.models.job import Job
 from app.schemas.job import JobImportRequest
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -184,6 +186,48 @@ async def fetch_listings(client: httpx.AsyncClient, url: str) -> list[dict]:
     return resp.json()
 
 
+async def backfill_structured_fields(items_with_kind: list[tuple[dict, str]]) -> int:
+    """Populate title / company / location / is_campus / internship_friendly /
+    experience_requirement / market directly from upstream metadata, skipping
+    LLM parsing. The data is already structured — there's nothing for the LLM
+    to add, and these listings are by construction graduate-pipeline.
+    """
+    if not items_with_kind:
+        return 0
+    now = dt.datetime.now(dt.timezone.utc)
+    updated = 0
+    async with async_session() as db:
+        for item, kind in items_with_kind:
+            locations = item.get("locations") or []
+            # Job model caps title/company/location at varchar(255). Listings
+            # that target dozens of US states can exceed that on location alone.
+            location_str = ", ".join(str(loc) for loc in locations) or None
+            if location_str and len(location_str) > 250:
+                location_str = location_str[:247] + "..."
+            title = (item.get("title") or "")[:250] or None
+            company = (item.get("company_name") or "")[:250] or None
+            res = await db.execute(
+                update(Job)
+                .where(Job.platform_id == PLATFORM_ID)
+                .where(Job.platform_job_id == str(item.get("id")))
+                .values(
+                    title=title,
+                    company_name=company,
+                    location=location_str,
+                    market="international",
+                    is_campus=True,
+                    internship_friendly=(kind == "internship"),
+                    experience_requirement="fresh",
+                    parse_status="parsed",
+                    parsed_at=now,
+                    language="en",
+                )
+            )
+            updated += res.rowcount or 0
+        await db.commit()
+    return updated
+
+
 async def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -194,6 +238,7 @@ async def main():
 
     seen_urls: set[str] = set()
     all_requests: list[JobImportRequest] = []
+    items_with_kind: list[tuple[dict, str]] = []
 
     async with httpx.AsyncClient() as client:
         for src in SOURCES:
@@ -219,6 +264,7 @@ async def main():
                     continue
                 seen_urls.add(norm_url)
                 all_requests.append(req)
+                items_with_kind.append((item, src["kind"]))
                 kept += 1
 
             logger.info(
@@ -228,6 +274,7 @@ async def main():
 
     if args.limit and args.limit > 0:
         all_requests = all_requests[: args.limit]
+        items_with_kind = items_with_kind[: args.limit]
         logger.info("limit=%d → trimmed to %d requests", args.limit, len(all_requests))
 
     if not all_requests:
@@ -243,9 +290,13 @@ async def main():
         imported_total += res.imported
         re_seen_total += res.skipped
     logger.info(
-        "done — imported=%d (new) re-seen=%d (already in DB)",
+        "import done — imported=%d (new) re-seen=%d (already in DB)",
         imported_total, re_seen_total,
     )
+
+    logger.info("backfilling structured fields (no LLM needed)...")
+    updated = await backfill_structured_fields(items_with_kind)
+    logger.info("backfill done — updated=%d rows (parse_status='parsed', is_campus=True, etc.)", updated)
 
 
 if __name__ == "__main__":

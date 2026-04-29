@@ -107,7 +107,7 @@
         },
         "algorithm": {
           "roleName": "算法工程师/研究员",
-          "vacancyCount": 44,
+          "vacancyCount": 40,
           "salaryMedian": 56250,
           "salarySampleSize": 38,
           "topRegions": [
@@ -1423,7 +1423,7 @@
         },
         "ml_engineer": {
           "roleName": "ML/AI Engineer",
-          "vacancyCount": 163,
+          "vacancyCount": 164,
           "salaryMedian": 114791,
           "salarySampleSize": 39,
           "topRegions": [
@@ -1436,7 +1436,7 @@
         },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 207,
+          "vacancyCount": 210,
           "salaryMedian": 187291,
           "salarySampleSize": 97,
           "topRegions": [
@@ -1501,7 +1501,7 @@
         },
         "intern_newgrad": {
           "roleName": "Intern / New Grad",
-          "vacancyCount": 19,
+          "vacancyCount": 20,
           "salaryMedian": 37854,
           "salarySampleSize": 7,
           "topRegions": [
@@ -1545,8 +1545,8 @@
           "salarySampleSize": 1,
           "topRegions": [
             "United States",
-            "Chicago, IL",
-            "Columbia, SC"
+            "Columbia, SC",
+            "Chicago, IL"
           ],
           "lowSample": true
         },
@@ -1608,10 +1608,10 @@
           "salarySampleSize": 1,
           "topRegions": [
             "Dallas, Texas, United States",
-            "Bedford, IN",
             "Mason, OH",
             "Pleasanton, CA",
-            "Atlanta, GA"
+            "Atlanta, GA",
+            "Bedford, IN"
           ]
         },
         "product_manager": {
@@ -1761,10 +1761,10 @@
           "salarySampleSize": 0,
           "topRegions": [
             "Multiple locations",
-            "Chicago, IL",
             "San Diego, CA",
             "Ambler, PA",
-            "Princeton, NJ"
+            "Princeton, NJ",
+            "Chicago, IL"
           ]
         },
         "autonomous": {
@@ -1874,8 +1874,8 @@
             "Cairo, Egypt & London, UK",
             "Hamburg, Germany",
             "Cambridge, UK",
-            "United Kingdom",
-            "Greenville, SC"
+            "Remote in UK",
+            "Waltham, MA"
           ]
         },
         "data": {
@@ -2035,8 +2035,8 @@
             "Los Angeles, USA",
             "Hamburg, Germany",
             "Remote US/EU/UK + hubs in NYC, SF, Seattle, London",
-            "Sunnyvale, CA",
-            "Culver City, CA"
+            "Culver City, CA",
+            "Sunnyvale, CA"
           ]
         },
         "intern_newgrad": {
@@ -2049,7 +2049,7 @@
             "Los Angeles, USA",
             "Los Angeles, CA",
             "Needham, MA",
-            "San Francisco"
+            "SF"
           ]
         },
         "product_manager": {
@@ -2153,10 +2153,10 @@
           "salarySampleSize": 1,
           "topRegions": [
             "Palo Alto, CA",
-            "Woodridge, IL",
             "Aptos, CA",
-            "Toronto, ON, Canada",
-            "Frisco, TX"
+            "NYC",
+            "Frisco, TX",
+            "Toronto, ON, Canada"
           ]
         },
         "ml_scientist": {
@@ -2430,7 +2430,7 @@
           "salarySampleSize": 0,
           "topRegions": [
             "NYC",
-            "Washington, DC; Durham, NC; NYC; SF"
+            "Washington, DC, Durham, NC, NYC, SF"
           ],
           "lowSample": true
         },

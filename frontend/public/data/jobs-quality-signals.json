@@ -1,22 +1,22 @@
 {
   "overall": {
-    "total": 8099,
-    "reposted": 0,
-    "repost_ratio": 0.0,
+    "total": 8101,
+    "reposted": 2100,
+    "repost_ratio": 0.259,
     "closed": 0,
     "avg_close_days": null
   },
   "by_market": [
     {
-      "total": 3490,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "total": 5477,
+      "reposted": 2100,
+      "repost_ratio": 0.383,
       "closed": 0,
       "avg_close_days": null,
       "market": "international"
     },
     {
-      "total": 2243,
+      "total": 2238,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
@@ -25,6 +25,14 @@
     }
   ],
   "by_platform": [
+    {
+      "total": 2121,
+      "reposted": 2100,
+      "repost_ratio": 0.99,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "community_github_hiring"
+    },
     {
       "total": 278,
       "reposted": 0,
@@ -112,80 +120,96 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_cohere"
-    },
-    {
-      "total": 2119,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "community_github_hiring"
     }
   ],
   "by_industry": [
     {
-      "total": 3136,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "total": 61,
+      "reposted": 5,
+      "repost_ratio": 0.082,
       "closed": 0,
       "avg_close_days": null,
-      "industry": "internet"
-    },
-    {
-      "total": 373,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "finance"
+      "industry": "energy"
     },
     {
       "total": 411,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 20,
+      "repost_ratio": 0.049,
       "closed": 0,
       "avg_close_days": null,
       "industry": "manufacturing"
     },
     {
-      "total": 156,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "total": 189,
+      "reposted": 8,
+      "repost_ratio": 0.042,
       "closed": 0,
       "avg_close_days": null,
-      "industry": "education"
-    },
-    {
-      "total": 380,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "healthcare"
-    },
-    {
-      "total": 213,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "retail"
+      "industry": "other"
     },
     {
       "total": 258,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 9,
+      "repost_ratio": 0.035,
       "closed": 0,
       "avg_close_days": null,
       "industry": "consulting"
     },
     {
       "total": 239,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 7,
+      "repost_ratio": 0.029,
       "closed": 0,
       "avg_close_days": null,
       "industry": "automotive"
+    },
+    {
+      "total": 373,
+      "reposted": 10,
+      "repost_ratio": 0.027,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "finance"
+    },
+    {
+      "total": 380,
+      "reposted": 10,
+      "repost_ratio": 0.026,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "healthcare"
+    },
+    {
+      "total": 156,
+      "reposted": 3,
+      "repost_ratio": 0.019,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "education"
+    },
+    {
+      "total": 258,
+      "reposted": 4,
+      "repost_ratio": 0.016,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "media"
+    },
+    {
+      "total": 3136,
+      "reposted": 43,
+      "repost_ratio": 0.014,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "internet"
+    },
+    {
+      "total": 213,
+      "reposted": 1,
+      "repost_ratio": 0.005,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "retail"
     },
     {
       "total": 25,
@@ -194,30 +218,6 @@
       "closed": 0,
       "avg_close_days": null,
       "industry": "telecom"
-    },
-    {
-      "total": 258,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "media"
-    },
-    {
-      "total": 189,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "other"
-    },
-    {
-      "total": 61,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "energy"
     },
     {
       "total": 25,
@@ -238,404 +238,404 @@
   ],
   "top_reposting_companies": [
     {
-      "total": 9,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Cisco"
-    },
-    {
-      "total": 9,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某成都IT服务公司"
-    },
-    {
-      "total": 68,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某知名公司"
-    },
-    {
-      "total": 7,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "思特沃克软件技术(西安)有限公司"
-    },
-    {
-      "total": 12,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "德勤Deloitte"
-    },
-    {
-      "total": 7,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某北京互联网公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "LiveKit"
-    },
-    {
-      "total": 14,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某杭州互联网上市公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "探迹科技"
+      "company": "John Deere"
     },
     {
       "total": 8,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 8,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Netflix"
+      "company": "Visa"
     },
     {
       "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 5,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Michael Page"
+      "company": "Susquehanna International Group (SIG)"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Fortive"
+    },
+    {
+      "total": 9,
+      "reposted": 9,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "X Development"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Atria Group"
     },
     {
       "total": 8,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 8,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Microsoft"
+      "company": "University of Texas at Austin"
+    },
+    {
+      "total": 11,
+      "reposted": 11,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "KLA"
     },
     {
       "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 5,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "万兴科技"
+      "company": "General Dynamics Information Technology"
     },
     {
       "total": 10,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 10,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "JPMorganChase"
-    },
-    {
-      "total": 20,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Deloitte"
-    },
-    {
-      "total": 52,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Amazon.com"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "中控技术"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "PayPal"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "田园东方投资"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "梅赛德斯-奔驰"
-    },
-    {
-      "total": 12,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某大型知名互联网公司"
-    },
-    {
-      "total": 9,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某知名上市公司"
-    },
-    {
-      "total": 27,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "字节跳动"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某上海大型基金/证券/期货公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某上海基金/证券/期货公司"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某深圳大型智能硬件公司"
-    },
-    {
-      "total": 11,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某北京云计算/大数据公司"
-    },
-    {
-      "total": 17,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "ComfyUI"
-    },
-    {
-      "total": 653,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "OpenAI"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "北京深度智耀科技有限公司"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "温州市讯和电脑科技有限公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Baidu"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "方正证券"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某上海专业技术服务公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "京东物流"
+      "company": "JP Morgan Chase"
     },
     {
       "total": 8,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 8,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "某杭州大型互联网公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "中煤科工集团重庆研究院有限公司"
-    },
-    {
-      "total": 21,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "ByteDance"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某深圳大型互联网公司"
-    },
-    {
-      "total": 20,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Amazon Web Services"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某知名互联网公司"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Radar Labs"
-    },
-    {
-      "total": 16,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某北京大型互联网公司"
-    },
-    {
-      "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某合肥互联网上市公司"
-    },
-    {
-      "total": 9,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "某北京人工智能公司"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "MixRank"
-    },
-    {
-      "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "阿里云智能"
+      "company": "RTX"
     },
     {
       "total": 11,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 11,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "蚂蚁集团"
+      "company": "Tesla"
+    },
+    {
+      "total": 9,
+      "reposted": 9,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Invisible Technologies AI"
+    },
+    {
+      "total": 31,
+      "reposted": 31,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Royal Bank of Canada"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Robert Bosch Venture Capital"
     },
     {
       "total": 6,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 6,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "某北京大型人工智能公司"
+      "company": "Actian"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Lawrence Livermore National Laboratory (LLNL)"
+    },
+    {
+      "total": 9,
+      "reposted": 9,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Zoox"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Jobs for Humanity"
+    },
+    {
+      "total": 9,
+      "reposted": 9,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Rolls Royce"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Prairie View A&M University"
     },
     {
       "total": 5,
-      "reposted": 0,
-      "repost_ratio": 0.0,
+      "reposted": 5,
+      "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Stellar Science"
+      "company": "ASM Global"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "onsemi"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Cadence Design Systems"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Tenstorrent"
+    },
+    {
+      "total": 19,
+      "reposted": 19,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Pennsylvania State University"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "WTW"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Perle"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "University of Rochester"
+    },
+    {
+      "total": 11,
+      "reposted": 11,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "University of Chicago"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Applied Materials"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "University of Texas - Austin"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Argonne National Laboratory"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Cresta"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Invisible Technologies"
+    },
+    {
+      "total": 18,
+      "reposted": 18,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "PennState University"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Westinghouse Electric Company"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "WSP"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "GlobalFoundries"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Capital One"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "USM Business Systems"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Autodesk"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Texas A&M University System"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "University of Arkansas"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "CACI"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Handshake"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "KBR"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Booz Allen"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Pfizer"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Salesforce"
     }
   ],
   "config": {
