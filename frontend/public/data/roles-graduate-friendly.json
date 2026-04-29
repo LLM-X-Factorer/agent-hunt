@@ -8,41 +8,196 @@
       "freshJobCount": 2,
       "freshSalaryMedian": 7500,
       "socialSalaryMedian": 25000,
+      "topCampusCities": [
+        {
+          "city": "郑州",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        }
+      ],
       "roleId": "customer_service",
-      "roleName": "智能客服"
+      "roleName": "智能客服",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 14.5,
+      "graduateFriendlyScore": 14.2,
       "totalJobs": 173,
-      "campusJobCount": 21,
-      "internshipJobCount": 24,
-      "freshJobCount": 30,
-      "freshSalaryMedian": 15000,
+      "campusJobCount": 18,
+      "internshipJobCount": 26,
+      "freshJobCount": 32,
+      "freshSalaryMedian": 30000,
       "socialSalaryMedian": 52500,
+      "topCampusCities": [
+        {
+          "city": "北京",
+          "count": 16
+        },
+        {
+          "city": "上海",
+          "count": 11
+        },
+        {
+          "city": "深圳",
+          "count": 3
+        },
+        {
+          "city": "Wuxi",
+          "count": 1
+        },
+        {
+          "city": "Binhu District",
+          "count": 1
+        },
+        {
+          "city": "Lihu",
+          "count": 1
+        },
+        {
+          "city": "Guangzhou",
+          "count": 1
+        },
+        {
+          "city": "Nansha District",
+          "count": 1
+        }
+      ],
       "roleId": "algorithm",
-      "roleName": "算法工程师/研究员"
+      "roleName": "算法工程师/研究员",
+      "applicantSignalCount": 21,
+      "applicantOfferCount": 16
     },
     {
-      "graduateFriendlyScore": 7.7,
+      "graduateFriendlyScore": 9.2,
       "totalJobs": 531,
-      "campusJobCount": 35,
-      "internshipJobCount": 32,
-      "freshJobCount": 50,
-      "freshSalaryMedian": 11500,
-      "socialSalaryMedian": 35000,
+      "campusJobCount": 34,
+      "internshipJobCount": 41,
+      "freshJobCount": 66,
+      "freshSalaryMedian": 17500,
+      "socialSalaryMedian": 32500,
+      "topCampusCities": [
+        {
+          "city": "北京",
+          "count": 30
+        },
+        {
+          "city": "上海",
+          "count": 28
+        },
+        {
+          "city": "深圳",
+          "count": 8
+        },
+        {
+          "city": "Shenzhen",
+          "count": 7
+        },
+        {
+          "city": "Shanghai",
+          "count": 4
+        },
+        {
+          "city": "杭州",
+          "count": 3
+        },
+        {
+          "city": "西宁",
+          "count": 1
+        },
+        {
+          "city": "合肥",
+          "count": 1
+        }
+      ],
       "roleId": "ai_engineer",
-      "roleName": "AI/LLM 工程师"
+      "roleName": "AI/LLM 工程师",
+      "applicantSignalCount": 7,
+      "applicantOfferCount": 2
     },
     {
-      "graduateFriendlyScore": 7.2,
+      "graduateFriendlyScore": 8.7,
+      "totalJobs": 30,
+      "campusJobCount": 0,
+      "internshipJobCount": 2,
+      "freshJobCount": 5,
+      "freshSalaryMedian": 12500,
+      "socialSalaryMedian": 20250,
+      "topCampusCities": [
+        {
+          "city": "武汉",
+          "count": 2
+        },
+        {
+          "city": "深圳",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        },
+        {
+          "city": "宿州",
+          "count": 1
+        },
+        {
+          "city": "郑州",
+          "count": 1
+        }
+      ],
+      "roleId": "education_ai",
+      "roleName": "AI 教育",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
+    },
+    {
+      "graduateFriendlyScore": 8.0,
       "totalJobs": 155,
       "campusJobCount": 7,
       "internshipJobCount": 12,
-      "freshJobCount": 16,
-      "freshSalaryMedian": 7750,
-      "socialSalaryMedian": 23000,
+      "freshJobCount": 18,
+      "freshSalaryMedian": 11250,
+      "socialSalaryMedian": 22500,
+      "topCampusCities": [
+        {
+          "city": "上海",
+          "count": 6
+        },
+        {
+          "city": "北京",
+          "count": 3
+        },
+        {
+          "city": "深圳",
+          "count": 2
+        },
+        {
+          "city": "杭州",
+          "count": 1
+        },
+        {
+          "city": "重庆",
+          "count": 1
+        },
+        {
+          "city": "沈阳-于洪区",
+          "count": 1
+        },
+        {
+          "city": "长沙-芙蓉区",
+          "count": 1
+        },
+        {
+          "city": "天津",
+          "count": 1
+        }
+      ],
       "roleId": "operations",
-      "roleName": "AI 运营/训练师"
+      "roleName": "AI 运营/训练师",
+      "applicantSignalCount": 16,
+      "applicantOfferCount": 8
     },
     {
       "graduateFriendlyScore": 7.1,
@@ -52,8 +207,67 @@
       "freshJobCount": 2,
       "freshSalaryMedian": 2800,
       "socialSalaryMedian": 10000,
+      "topCampusCities": [
+        {
+          "city": "咸阳 秦都区",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        }
+      ],
       "roleId": "medical_ai",
-      "roleName": "医疗AI专岗"
+      "roleName": "医疗AI专岗",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
+    },
+    {
+      "graduateFriendlyScore": 5.7,
+      "totalJobs": 130,
+      "campusJobCount": 1,
+      "internshipJobCount": 2,
+      "freshJobCount": 15,
+      "freshSalaryMedian": 18750,
+      "socialSalaryMedian": 22500,
+      "topCampusCities": [
+        {
+          "city": "Shenzhen",
+          "count": 1
+        },
+        {
+          "city": "成都",
+          "count": 1
+        },
+        {
+          "city": "广州",
+          "count": 1
+        },
+        {
+          "city": "贵阳 观山湖",
+          "count": 1
+        },
+        {
+          "city": "Chongqing",
+          "count": 1
+        },
+        {
+          "city": "Nanan District",
+          "count": 1
+        },
+        {
+          "city": "Nanping",
+          "count": 1
+        },
+        {
+          "city": "重庆",
+          "count": 1
+        }
+      ],
+      "roleId": "sales_bd",
+      "roleName": "AI 销售/商务",
+      "applicantSignalCount": 6,
+      "applicantOfferCount": 3
     },
     {
       "graduateFriendlyScore": 5.2,
@@ -63,52 +277,207 @@
       "freshJobCount": 2,
       "freshSalaryMedian": 9750,
       "socialSalaryMedian": 27500,
+      "topCampusCities": [
+        {
+          "city": "深圳",
+          "count": 2
+        }
+      ],
       "roleId": "risk_compliance",
-      "roleName": "AI 风控/合规"
+      "roleName": "AI 风控/合规",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 3.7,
-      "totalJobs": 30,
+      "graduateFriendlyScore": 4.8,
+      "totalJobs": 71,
       "campusJobCount": 0,
-      "internshipJobCount": 1,
-      "freshJobCount": 2,
-      "freshSalaryMedian": 15250,
-      "socialSalaryMedian": 20500,
-      "roleId": "education_ai",
-      "roleName": "AI 教育"
+      "internshipJobCount": 2,
+      "freshJobCount": 8,
+      "freshSalaryMedian": 12916,
+      "socialSalaryMedian": 37500,
+      "topCampusCities": [
+        {
+          "city": "攀枝花",
+          "count": 1
+        },
+        {
+          "city": "合肥",
+          "count": 1
+        },
+        {
+          "city": "潍坊",
+          "count": 1
+        },
+        {
+          "city": "新乡 红旗区",
+          "count": 1
+        },
+        {
+          "city": "成都",
+          "count": 1
+        },
+        {
+          "city": "苏州",
+          "count": 1
+        },
+        {
+          "city": "南京",
+          "count": 1
+        },
+        {
+          "city": "黔东南苗族侗",
+          "count": 1
+        }
+      ],
+      "roleId": "ai_transformation",
+      "roleName": "AI 转型/咨询",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 3.7,
-      "totalJobs": 130,
-      "campusJobCount": 1,
-      "internshipJobCount": 1,
-      "freshJobCount": 10,
-      "freshSalaryMedian": 17500,
-      "socialSalaryMedian": 22500,
-      "roleId": "sales_bd",
-      "roleName": "AI 销售/商务"
-    },
-    {
-      "graduateFriendlyScore": 2.7,
+      "graduateFriendlyScore": 4.6,
       "totalJobs": 41,
       "campusJobCount": 1,
       "internshipJobCount": 1,
-      "freshJobCount": 1,
-      "freshSalaryMedian": null,
+      "freshJobCount": 3,
+      "freshSalaryMedian": 11350,
       "socialSalaryMedian": 35000,
+      "topCampusCities": [
+        {
+          "city": "北京",
+          "count": 1
+        },
+        {
+          "city": "上海",
+          "count": 1
+        },
+        {
+          "city": "重庆 南岸区",
+          "count": 1
+        },
+        {
+          "city": "龙岩",
+          "count": 1
+        }
+      ],
       "roleId": "data",
-      "roleName": "数据分析/数据科学"
+      "roleName": "数据分析/数据科学",
+      "applicantSignalCount": 3,
+      "applicantOfferCount": 3
     },
     {
-      "graduateFriendlyScore": 2.0,
+      "graduateFriendlyScore": 3.0,
+      "totalJobs": 82,
+      "campusJobCount": 0,
+      "internshipJobCount": 1,
+      "freshJobCount": 6,
+      "freshSalaryMedian": 15500,
+      "socialSalaryMedian": 36500,
+      "topCampusCities": [
+        {
+          "city": "东莞",
+          "count": 1
+        },
+        {
+          "city": "威海 文登区",
+          "count": 1
+        },
+        {
+          "city": "三门峡 湖滨",
+          "count": 1
+        },
+        {
+          "city": "杭州",
+          "count": 1
+        },
+        {
+          "city": "宜昌-点军区",
+          "count": 1
+        },
+        {
+          "city": "郑州",
+          "count": 1
+        }
+      ],
+      "roleId": "smart_manufacturing",
+      "roleName": "智能制造/工业AI",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
+    },
+    {
+      "graduateFriendlyScore": 2.7,
       "totalJobs": 342,
       "campusJobCount": 5,
-      "internshipJobCount": 4,
-      "freshJobCount": 9,
-      "freshSalaryMedian": 22500,
-      "socialSalaryMedian": 32500,
+      "internshipJobCount": 5,
+      "freshJobCount": 13,
+      "freshSalaryMedian": 25000,
+      "socialSalaryMedian": 32541,
+      "topCampusCities": [
+        {
+          "city": "上海",
+          "count": 6
+        },
+        {
+          "city": "北京",
+          "count": 4
+        },
+        {
+          "city": "深圳",
+          "count": 3
+        },
+        {
+          "city": "广州",
+          "count": 1
+        },
+        {
+          "city": "杭州",
+          "count": 1
+        }
+      ],
       "roleId": "product_manager",
-      "roleName": "AI 产品经理"
+      "roleName": "AI 产品经理",
+      "applicantSignalCount": 32,
+      "applicantOfferCount": 16
+    },
+    {
+      "graduateFriendlyScore": 2.5,
+      "totalJobs": 125,
+      "campusJobCount": 1,
+      "internshipJobCount": 2,
+      "freshJobCount": 6,
+      "freshSalaryMedian": 14500,
+      "socialSalaryMedian": 57500,
+      "topCampusCities": [
+        {
+          "city": "北京",
+          "count": 2
+        },
+        {
+          "city": "苏州",
+          "count": 1
+        },
+        {
+          "city": "上海",
+          "count": 1
+        },
+        {
+          "city": "深圳",
+          "count": 1
+        },
+        {
+          "city": "Wuhan",
+          "count": 1
+        },
+        {
+          "city": "泰安市 岱岳",
+          "count": 1
+        }
+      ],
+      "roleId": "leadership",
+      "roleName": "AI 管理/战略",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 1.9,
@@ -117,55 +486,74 @@
       "internshipJobCount": 1,
       "freshJobCount": 3,
       "freshSalaryMedian": 15000,
-      "socialSalaryMedian": 26875,
+      "socialSalaryMedian": 27500,
+      "topCampusCities": [
+        {
+          "city": "深圳",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        },
+        {
+          "city": "上海",
+          "count": 1
+        }
+      ],
       "roleId": "autonomous",
-      "roleName": "自动驾驶/智能座舱"
-    },
-    {
-      "graduateFriendlyScore": 1.8,
-      "totalJobs": 125,
-      "campusJobCount": 1,
-      "internshipJobCount": 2,
-      "freshJobCount": 4,
-      "freshSalaryMedian": 14500,
-      "socialSalaryMedian": 57500,
-      "roleId": "leadership",
-      "roleName": "AI 管理/战略"
-    },
-    {
-      "graduateFriendlyScore": 1.6,
-      "totalJobs": 82,
-      "campusJobCount": 0,
-      "internshipJobCount": 1,
-      "freshJobCount": 3,
-      "freshSalaryMedian": 8000,
-      "socialSalaryMedian": 36500,
-      "roleId": "smart_manufacturing",
-      "roleName": "智能制造/工业AI"
-    },
-    {
-      "graduateFriendlyScore": 1.4,
-      "totalJobs": 71,
-      "campusJobCount": 0,
-      "internshipJobCount": 2,
-      "freshJobCount": 2,
-      "freshSalaryMedian": 2530,
-      "socialSalaryMedian": 37500,
-      "roleId": "ai_transformation",
-      "roleName": "AI 转型/咨询"
+      "roleName": "自动驾驶/智能座舱",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     }
   ],
   "international": [
     {
-      "graduateFriendlyScore": 96.2,
+      "graduateFriendlyScore": 96.1,
       "totalJobs": 492,
-      "campusJobCount": 466,
+      "campusJobCount": 465,
       "internshipJobCount": 471,
       "freshJobCount": 482,
       "freshSalaryMedian": 40215,
       "socialSalaryMedian": 120500,
+      "topCampusCities": [
+        {
+          "city": "NYC",
+          "count": 34
+        },
+        {
+          "city": "San Jose",
+          "count": 27
+        },
+        {
+          "city": "Toronto",
+          "count": 21
+        },
+        {
+          "city": "Mountain View",
+          "count": 19
+        },
+        {
+          "city": "Remote in USA",
+          "count": 17
+        },
+        {
+          "city": "Austin",
+          "count": 15
+        },
+        {
+          "city": "San Francisco",
+          "count": 14
+        },
+        {
+          "city": "Palo Alto",
+          "count": 14
+        }
+      ],
       "roleId": "intern_newgrad",
-      "roleName": "Intern / New Grad"
+      "roleName": "Intern / New Grad",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 90.1,
@@ -174,42 +562,186 @@
       "internshipJobCount": 217,
       "freshJobCount": 362,
       "freshSalaryMedian": 96667,
-      "socialSalaryMedian": 153499,
+      "socialSalaryMedian": 147739,
+      "topCampusCities": [
+        {
+          "city": "Toronto",
+          "count": 27
+        },
+        {
+          "city": "London",
+          "count": 26
+        },
+        {
+          "city": "NYC",
+          "count": 23
+        },
+        {
+          "city": "San Jose",
+          "count": 12
+        },
+        {
+          "city": "Remote in USA",
+          "count": 11
+        },
+        {
+          "city": "Chicago",
+          "count": 11
+        },
+        {
+          "city": "Washington",
+          "count": 9
+        },
+        {
+          "city": "Milwaukee",
+          "count": 8
+        }
+      ],
       "roleId": "data",
-      "roleName": "Data Scientist / Analyst"
+      "roleName": "Data Scientist / Analyst",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 66.0,
+      "graduateFriendlyScore": 65.9,
       "totalJobs": 781,
       "campusJobCount": 523,
-      "internshipJobCount": 364,
-      "freshJobCount": 543,
+      "internshipJobCount": 365,
+      "freshJobCount": 542,
       "freshSalaryMedian": 67820,
-      "socialSalaryMedian": 140788,
+      "socialSalaryMedian": 146651,
+      "topCampusCities": [
+        {
+          "city": "San Jose",
+          "count": 86
+        },
+        {
+          "city": "Redmond",
+          "count": 62
+        },
+        {
+          "city": "NYC",
+          "count": 37
+        },
+        {
+          "city": "Seattle",
+          "count": 31
+        },
+        {
+          "city": "State College",
+          "count": 25
+        },
+        {
+          "city": "Santa Clara",
+          "count": 20
+        },
+        {
+          "city": "London",
+          "count": 19
+        },
+        {
+          "city": "Cambridge",
+          "count": 18
+        }
+      ],
       "roleId": "ml_scientist",
-      "roleName": "ML Scientist / Researcher"
+      "roleName": "ML Scientist / Researcher",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 48.9,
+      "graduateFriendlyScore": 49.1,
       "totalJobs": 540,
-      "campusJobCount": 269,
-      "internshipJobCount": 188,
-      "freshJobCount": 276,
+      "campusJobCount": 270,
+      "internshipJobCount": 189,
+      "freshJobCount": 278,
       "freshSalaryMedian": 65250,
-      "socialSalaryMedian": 114791,
+      "socialSalaryMedian": 114792,
+      "topCampusCities": [
+        {
+          "city": "San Jose",
+          "count": 66
+        },
+        {
+          "city": "Seattle",
+          "count": 27
+        },
+        {
+          "city": "San Francisco",
+          "count": 15
+        },
+        {
+          "city": "NYC",
+          "count": 12
+        },
+        {
+          "city": "Mountain View",
+          "count": 12
+        },
+        {
+          "city": "Sunnyvale",
+          "count": 10
+        },
+        {
+          "city": "Austin",
+          "count": 10
+        },
+        {
+          "city": "Remote in USA",
+          "count": 8
+        }
+      ],
       "roleId": "ml_engineer",
-      "roleName": "ML/AI Engineer"
+      "roleName": "ML/AI Engineer",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 23.3,
+      "graduateFriendlyScore": 23.6,
       "totalJobs": 33,
       "campusJobCount": 7,
       "internshipJobCount": 10,
       "freshJobCount": 8,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 38364,
+      "socialSalaryMedian": 41234,
+      "topCampusCities": [
+        {
+          "city": "Boston",
+          "count": 2
+        },
+        {
+          "city": "New York",
+          "count": 2
+        },
+        {
+          "city": "San Francisco",
+          "count": 1
+        },
+        {
+          "city": "Santa Clara",
+          "count": 1
+        },
+        {
+          "city": "Los Altos",
+          "count": 1
+        },
+        {
+          "city": "Troy",
+          "count": 1
+        },
+        {
+          "city": "Huntsville",
+          "count": 1
+        },
+        {
+          "city": "Gardena",
+          "count": 1
+        }
+      ],
       "roleId": "autonomous",
-      "roleName": "Autonomous Vehicles"
+      "roleName": "Autonomous Vehicles",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 22.1,
@@ -219,8 +751,44 @@
       "freshJobCount": 10,
       "freshSalaryMedian": null,
       "socialSalaryMedian": 146166,
+      "topCampusCities": [
+        {
+          "city": "Bengaluru",
+          "count": 5
+        },
+        {
+          "city": "Karnataka",
+          "count": 5
+        },
+        {
+          "city": "India",
+          "count": 5
+        },
+        {
+          "city": "Austin",
+          "count": 4
+        },
+        {
+          "city": "NYC",
+          "count": 1
+        },
+        {
+          "city": "Dresden",
+          "count": 1
+        },
+        {
+          "city": "Germany",
+          "count": 1
+        },
+        {
+          "city": "Santa Clara",
+          "count": 1
+        }
+      ],
       "roleId": "sales_bd",
-      "roleName": "AI Sales / BD"
+      "roleName": "AI Sales / BD",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 16.7,
@@ -229,9 +797,45 @@
       "internshipJobCount": 81,
       "freshJobCount": 148,
       "freshSalaryMedian": 84583,
-      "socialSalaryMedian": 113281,
+      "socialSalaryMedian": 120833,
+      "topCampusCities": [
+        {
+          "city": "San Jose",
+          "count": 15
+        },
+        {
+          "city": "Seattle",
+          "count": 12
+        },
+        {
+          "city": "Toronto",
+          "count": 12
+        },
+        {
+          "city": "San Francisco",
+          "count": 10
+        },
+        {
+          "city": "Austin",
+          "count": 9
+        },
+        {
+          "city": "New York",
+          "count": 8
+        },
+        {
+          "city": "Los Angeles",
+          "count": 7
+        },
+        {
+          "city": "Boston",
+          "count": 7
+        }
+      ],
       "roleId": "sde",
-      "roleName": "Software Engineer"
+      "roleName": "Software Engineer",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 15.4,
@@ -241,19 +845,91 @@
       "freshJobCount": 17,
       "freshSalaryMedian": 76135,
       "socialSalaryMedian": 123592,
+      "topCampusCities": [
+        {
+          "city": "Los Angeles",
+          "count": 5
+        },
+        {
+          "city": "San Jose",
+          "count": 4
+        },
+        {
+          "city": "San Francisco",
+          "count": 2
+        },
+        {
+          "city": "Seattle",
+          "count": 2
+        },
+        {
+          "city": "New York",
+          "count": 1
+        },
+        {
+          "city": "or New York",
+          "count": 1
+        },
+        {
+          "city": "North America",
+          "count": 1
+        },
+        {
+          "city": "Burnaby",
+          "count": 1
+        }
+      ],
       "roleId": "product_manager",
-      "roleName": "Product Manager"
+      "roleName": "Product Manager",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 15.0,
+      "graduateFriendlyScore": 15.1,
       "totalJobs": 107,
       "campusJobCount": 16,
-      "internshipJobCount": 13,
+      "internshipJobCount": 14,
       "freshJobCount": 17,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 139156,
+      "socialSalaryMedian": 133291,
+      "topCampusCities": [
+        {
+          "city": "Santa Clara",
+          "count": 4
+        },
+        {
+          "city": "Dallas",
+          "count": 2
+        },
+        {
+          "city": "San Jose",
+          "count": 2
+        },
+        {
+          "city": "Texas",
+          "count": 1
+        },
+        {
+          "city": "Nashville",
+          "count": 1
+        },
+        {
+          "city": "Remote in USA",
+          "count": 1
+        },
+        {
+          "city": "NYC",
+          "count": 1
+        },
+        {
+          "city": "Charlotte",
+          "count": 1
+        }
+      ],
       "roleId": "architect",
-      "roleName": "Solutions Architect"
+      "roleName": "Solutions Architect",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 9.6,
@@ -263,8 +939,24 @@
       "freshJobCount": 3,
       "freshSalaryMedian": null,
       "socialSalaryMedian": 85824,
+      "topCampusCities": [
+        {
+          "city": "Cardiff",
+          "count": 1
+        },
+        {
+          "city": "Bellevue",
+          "count": 1
+        },
+        {
+          "city": "Basingstoke",
+          "count": 1
+        }
+      ],
       "roleId": "finance_ops",
-      "roleName": "Finance / Operations"
+      "roleName": "Finance / Operations",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 9.3,
@@ -273,9 +965,45 @@
       "internshipJobCount": 1,
       "freshJobCount": 35,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 148917,
+      "socialSalaryMedian": 138895,
+      "topCampusCities": [
+        {
+          "city": "Austin",
+          "count": 8
+        },
+        {
+          "city": "Woodridge",
+          "count": 4
+        },
+        {
+          "city": "State College",
+          "count": 4
+        },
+        {
+          "city": "Pittsburgh",
+          "count": 2
+        },
+        {
+          "city": "Washington",
+          "count": 2
+        },
+        {
+          "city": "Madison",
+          "count": 2
+        },
+        {
+          "city": "Columbus",
+          "count": 2
+        },
+        {
+          "city": "Bothell",
+          "count": 2
+        }
+      ],
       "roleId": "leadership",
-      "roleName": "Engineering Leadership"
+      "roleName": "Engineering Leadership",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     }
   ]
 }

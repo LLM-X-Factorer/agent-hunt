@@ -11,8 +11,9 @@ Usage:
 import asyncio
 import json
 import logging
+import re
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from statistics import median
 
@@ -21,12 +22,65 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from sqlalchemy import select
 
 from app.database import async_session
+from app.models.applicant_profile import ApplicantProfile
 from app.models.job import Job
 from scripts.analyze_roles import (
     DOMESTIC_ROLES,
     INTERNATIONAL_ROLES,
     classify_job,
 )
+
+CITY_NORMALIZE_RE = re.compile(r"^(北京|上海|深圳|杭州|成都|广州|南京|武汉|西安|苏州|天津|厦门|郑州|香港|台北|新加坡|吉隆坡|远程)")
+
+
+# Common US state abbreviations + countries — drop them so they don't show
+# up as "cities" in the distribution.
+NOISE_TOKENS = {
+    "ca", "ny", "wa", "tx", "ma", "il", "nj", "co", "ga", "fl", "va", "or",
+    "az", "nc", "pa", "mn", "oh", "mi", "mo", "ut", "tn", "md", "wi",
+    "us", "usa", "uk", "canada", "remote", "hybrid", "onsite", "on", "qc",
+    "and", "or", "nan", "none",
+}
+
+
+def normalize_city(raw: str) -> str | None:
+    """Map "北京市" → "北京", "深圳·南山区" → "深圳"; for non-Chinese keep
+    as-is but drop state codes and obvious noise."""
+    if not raw:
+        return None
+    raw = raw.strip().replace("·", " ").rstrip(",.;")
+    if not raw or raw.lower() in NOISE_TOKENS:
+        return None
+
+    # Chinese cities: collapse "X市" / "X·区·街道" → X
+    m = CITY_NORMALIZE_RE.match(raw)
+    if m:
+        return m.group(1)
+    if raw.endswith("市") and len(raw) <= 6:
+        return raw[:-1]
+    if any("一" <= ch <= "鿿" for ch in raw):
+        return raw[:6] if len(raw) > 6 else raw
+
+    # Latin: keep multi-word names intact (don't truncate "San Francisco" to "San F").
+    # If it's a single short token with only letters, also drop tokens < 3 chars.
+    if len(raw) < 3:
+        return None
+    return raw
+
+
+# Latin city splits use ", " or " / " or "|" — Chinese splits use "、，".
+CITY_SPLIT_LATIN_RE = re.compile(r"\s*[,/|;]\s*")
+CITY_SPLIT_CN_RE = re.compile(r"[、，]")
+
+
+def split_locations(loc: str | None) -> list[str]:
+    """A single Job.location can be "北京、上海" / "San Francisco, CA, Seattle, WA" —
+    return canonical city tokens (state abbrevs / noise dropped)."""
+    if not loc:
+        return []
+    has_cn = any("一" <= ch <= "鿿" for ch in loc)
+    parts = (CITY_SPLIT_CN_RE.split(loc) if has_cn else CITY_SPLIT_LATIN_RE.split(loc))
+    return [c for p in parts if (c := normalize_city(p))]
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger(__name__)
@@ -79,6 +133,15 @@ def score_role(jobs: list[Job]) -> dict:
         if j.salary_min and j.salary_max
     ]
 
+    # City distribution — split multi-city listings ("北京、上海") so each city
+    # gets its own count. Only count campus-friendly listings (intern + campus + fresh).
+    campus_jobs = [j for j in jobs if j.is_campus or j.internship_friendly
+                   or j.experience_requirement == "fresh"]
+    city_counter: Counter = Counter()
+    for j in campus_jobs:
+        for c in split_locations(j.location):
+            city_counter[c] += 1
+
     return {
         "graduateFriendlyScore": score,
         "totalJobs": total,
@@ -87,7 +150,22 @@ def score_role(jobs: list[Job]) -> dict:
         "freshJobCount": fresh,
         "freshSalaryMedian": int(median(fresh_salaries)) if fresh_salaries else None,
         "socialSalaryMedian": int(median(social_salaries)) if social_salaries else None,
+        "topCampusCities": [
+            {"city": c, "count": n} for c, n in city_counter.most_common(8)
+        ],
     }
+
+
+def classify_profile(p: ApplicantProfile) -> tuple[str, str] | None:
+    """Map a nowcoder profile to (market, role_id). Returns None if no match."""
+    market = p.market or "domestic"
+    rules = RULES_BY_MARKET.get(market, DOMESTIC_ROLES)
+    for source in (p.role_title, p.title):
+        if source:
+            rid = classify_job(source, rules)
+            if rid not in ("_noise", "other"):
+                return market, rid
+    return None
 
 
 async def main():
@@ -95,7 +173,21 @@ async def main():
         jobs = (await db.execute(
             select(Job).where(Job.parse_status == "parsed", Job.title.isnot(None))
         )).scalars().all()
-    logger.info("loaded %d parsed jobs", len(jobs))
+        profiles = (await db.execute(select(ApplicantProfile))).scalars().all()
+    logger.info("loaded %d parsed jobs, %d applicant profiles", len(jobs), len(profiles))
+
+    # Pre-bucket applicant profiles by (market, role_id) for the join below.
+    # offer_status="offered" reflects actual hires — a stronger signal than
+    # generic "applied".
+    profile_total: dict[tuple[str, str], int] = defaultdict(int)
+    profile_offered: dict[tuple[str, str], int] = defaultdict(int)
+    for p in profiles:
+        match = classify_profile(p)
+        if not match:
+            continue
+        profile_total[match] += 1
+        if p.offer_status == "offered":
+            profile_offered[match] += 1
 
     output: dict[str, list[dict]] = {}
     for market, rules in RULES_BY_MARKET.items():
@@ -116,6 +208,8 @@ async def main():
             stats = score_role(gjobs)
             stats["roleId"] = rid
             stats["roleName"] = role_names.get(rid, rid)
+            stats["applicantSignalCount"] = profile_total.get((market, rid), 0)
+            stats["applicantOfferCount"] = profile_offered.get((market, rid), 0)
             rows.append(stats)
         rows.sort(key=lambda r: -r["graduateFriendlyScore"])
         output[market] = rows
