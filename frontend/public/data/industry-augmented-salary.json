@@ -18,16 +18,16 @@
     },
     {
       "industry": "manufacturing",
-      "job_count": 148,
-      "salary_sample_size": 127,
+      "job_count": 152,
+      "salary_sample_size": 131,
       "p25": 20000.0,
       "p50": 30000,
       "p75": 45000.0
     },
     {
       "industry": "finance",
-      "job_count": 84,
-      "salary_sample_size": 81,
+      "job_count": 85,
+      "salary_sample_size": 82,
       "p25": 22500.0,
       "p50": 30000,
       "p75": 50000.0
@@ -104,10 +104,10 @@
       "manufacturing"
     ],
     "premium_traditional_median": 30000,
-    "premium_traditional_sample_size": 285,
+    "premium_traditional_sample_size": 290,
     "internet_median": 25000,
     "internet_sample_size": 191,
     "delta_pct": 20.0
   },
-  "total_jobs": 901
+  "total_jobs": 906
 }

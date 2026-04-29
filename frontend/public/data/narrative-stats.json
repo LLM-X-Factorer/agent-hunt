@@ -1,16 +1,16 @@
 {
   "totals": {
     "all_jobs": 8238,
-    "labeled_jobs": 5673
+    "labeled_jobs": 6521
   },
   "p1_market_basic": {
-    "domestic_ai_native": 1372,
-    "domestic_ai_augmented": 939,
-    "intl_ai_native": 2195,
+    "domestic_ai_native": 1421,
+    "domestic_ai_augmented": 944,
+    "intl_ai_native": 2989,
     "intl_ai_augmented": 1144,
-    "domestic_traditional_aug_total": 677,
+    "domestic_traditional_aug_total": 682,
     "domestic_internet_aug_total": 197,
-    "domestic_traditional_to_internet_ratio": 3.44,
+    "domestic_traditional_to_internet_ratio": 3.46,
     "domestic_industry_breakdown": [
       {
         "industry": "internet",
@@ -18,7 +18,7 @@
       },
       {
         "industry": "manufacturing",
-        "count": 148
+        "count": 152
       },
       {
         "industry": "automotive",
@@ -29,12 +29,12 @@
         "count": 87
       },
       {
-        "industry": "media",
+        "industry": "finance",
         "count": 85
       },
       {
-        "industry": "finance",
-        "count": 84
+        "industry": "media",
+        "count": 85
       },
       {
         "industry": "education",
@@ -73,7 +73,7 @@
       "manufacturing"
     ],
     "premium_median": 30000,
-    "premium_sample_size": 285,
+    "premium_sample_size": 290,
     "internet_median": 25000,
     "internet_sample_size": 191,
     "premium_over_internet_pct": 20.0
@@ -88,15 +88,15 @@
       "sample_size": 816
     },
     "domestic_augmented": {
-      "median": 23000,
-      "sample_size": 837
+      "median": 23250,
+      "sample_size": 842
     },
     "intl_augmented": {
       "median": 63904,
       "sample_size": 491
     },
     "native_intl_to_domestic_ratio": 2.42,
-    "augmented_intl_to_domestic_ratio": 2.78
+    "augmented_intl_to_domestic_ratio": 2.75
   },
   "p5_ghost": {
     "intl_ghost_clusters": 30,
