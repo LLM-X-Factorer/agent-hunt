@@ -4,28 +4,28 @@
       "market": "international",
       "roleId": "sde",
       "real_tc_rmb_monthly": {
-        "p25": 172791,
-        "p50": 243479,
-        "p75": 362500,
-        "min": 47558,
+        "p25": 128385,
+        "p50": 200734,
+        "p75": 320208,
+        "min": 31454,
         "max": 2962229,
-        "sample_size": 362
+        "sample_size": 566
       },
       "real_base_yearly": {
-        "p25": 180000,
-        "p50": 220000,
-        "p75": 266000,
-        "min": 78717,
-        "max": 550000,
-        "sample_size": 362
+        "p25": 154000,
+        "p50": 204500,
+        "p75": 255000,
+        "min": 52062,
+        "max": 680000,
+        "sample_size": 566
       },
       "real_stock_yearly": {
-        "p25": 80000,
-        "p50": 155000,
-        "p75": 300000,
-        "min": 5000,
+        "p25": 57500,
+        "p50": 120000,
+        "p75": 256500,
+        "min": 750,
         "max": 4500000,
-        "sample_size": 357
+        "sample_size": 478
       },
       "jd_asking_rmb_monthly": {
         "p25": 83831,
@@ -35,42 +35,44 @@
         "max": 1963541,
         "sample_size": 233
       },
-      "gap_pct": 114.9,
+      "gap_pct": 77.2,
       "sample_companies": [
         "Anthropic",
+        "ByteDance",
+        "DiDi",
         "Google",
+        "Huawei",
         "Meta",
         "Mistral AI",
-        "OpenAI",
-        "xAI"
+        "OpenAI"
       ]
     },
     {
       "market": "international",
       "roleId": "product_manager",
       "real_tc_rmb_monthly": {
-        "p25": 146208,
-        "p50": 255248,
-        "p75": 490885,
-        "min": 72500,
+        "p25": 151041,
+        "p50": 232604,
+        "p75": 416270,
+        "min": 58000,
         "max": 2718750,
-        "sample_size": 222
+        "sample_size": 321
       },
       "real_base_yearly": {
-        "p25": 170000,
-        "p50": 225004,
-        "p75": 290000,
-        "min": 110000,
+        "p25": 180000,
+        "p50": 235000,
+        "p75": 300000,
+        "min": 96000,
         "max": 550000,
-        "sample_size": 222
+        "sample_size": 321
       },
       "real_stock_yearly": {
-        "p25": 60000,
-        "p50": 200000,
-        "p75": 505000,
-        "min": 10000,
+        "p25": 45000,
+        "p50": 124611,
+        "p75": 400000,
+        "min": 3000,
         "max": 3700000,
-        "sample_size": 203
+        "sample_size": 275
       },
       "jd_asking_rmb_monthly": {
         "p25": 101468,
@@ -80,8 +82,9 @@
         "max": 258020,
         "sample_size": 65
       },
-      "gap_pct": 113.2,
+      "gap_pct": 94.3,
       "sample_companies": [
+        "ByteDance",
         "Google",
         "Meta",
         "OpenAI"
@@ -91,28 +94,28 @@
       "market": "international",
       "roleId": "data",
       "real_tc_rmb_monthly": {
-        "p25": 155270,
-        "p50": 255184,
-        "p75": 344375,
-        "min": 48333,
+        "p25": 129895,
+        "p50": 199375,
+        "p75": 308125,
+        "min": 10813,
         "max": 906286,
-        "sample_size": 176
+        "sample_size": 233
       },
       "real_base_yearly": {
-        "p25": 179000,
-        "p50": 225500,
-        "p75": 260000,
-        "min": 80000,
+        "p25": 161000,
+        "p50": 210000,
+        "p75": 255000,
+        "min": 17898,
         "max": 425000,
-        "sample_size": 176
+        "sample_size": 233
       },
       "real_stock_yearly": {
-        "p25": 61250,
-        "p50": 160000,
-        "p75": 280000,
+        "p25": 40000,
+        "p50": 106250,
+        "p75": 256000,
         "min": 250,
         "max": 1050000,
-        "sample_size": 164
+        "sample_size": 193
       },
       "jd_asking_rmb_monthly": {
         "p25": 96667,
@@ -122,11 +125,102 @@
         "max": 270616,
         "sample_size": 12
       },
-      "gap_pct": 127.4,
+      "gap_pct": 77.7,
       "sample_companies": [
+        "ByteDance",
+        "DiDi",
         "Google",
+        "Huawei",
+        "JD.com",
         "Meta",
         "OpenAI"
+      ]
+    },
+    {
+      "market": "domestic",
+      "roleId": "data",
+      "real_tc_rmb_monthly": {
+        "p25": 37195,
+        "p50": 49621,
+        "p75": 83952,
+        "min": 6630,
+        "max": 166409,
+        "sample_size": 29
+      },
+      "real_base_yearly": {
+        "p25": 51822,
+        "p50": 69700,
+        "p75": 84347,
+        "min": 6020,
+        "max": 138956,
+        "sample_size": 29
+      },
+      "real_stock_yearly": {
+        "p25": 28004,
+        "p50": 52789,
+        "p75": 85414,
+        "min": 7037,
+        "max": 137860,
+        "sample_size": 12
+      },
+      "jd_asking_rmb_monthly": {
+        "p25": 15000,
+        "p50": 35000,
+        "p75": 65000,
+        "min": 7700,
+        "max": 225000,
+        "sample_size": 25
+      },
+      "gap_pct": 41.8,
+      "sample_companies": [
+        "Alibaba",
+        "Baidu",
+        "Kwai",
+        "Meituan",
+        "Tencent"
+      ]
+    },
+    {
+      "market": "domestic",
+      "roleId": "product_manager",
+      "real_tc_rmb_monthly": {
+        "p25": 25254,
+        "p50": 54050,
+        "p75": 85176,
+        "min": 3616,
+        "max": 172162,
+        "sample_size": 22
+      },
+      "real_base_yearly": {
+        "p25": 56554,
+        "p50": 66084,
+        "p75": 84589,
+        "min": 16952,
+        "max": 135991,
+        "sample_size": 22
+      },
+      "real_stock_yearly": {
+        "p25": 25000,
+        "p50": 30952,
+        "p75": 50000,
+        "min": 4158,
+        "max": 118189,
+        "sample_size": 11
+      },
+      "jd_asking_rmb_monthly": {
+        "p25": 22500,
+        "p50": 35000,
+        "p75": 45000,
+        "min": 5500,
+        "max": 165000,
+        "sample_size": 289
+      },
+      "gap_pct": 54.4,
+      "sample_companies": [
+        "Alibaba",
+        "JD.com",
+        "Meituan",
+        "Tencent"
       ]
     }
   ],
@@ -172,11 +266,11 @@
           "count": 11
         },
         {
-          "level": "Associate Product Manager 1",
+          "level": "Associate Product Manager 2",
           "count": 10
         },
         {
-          "level": "Associate Product Manager 2",
+          "level": "Associate Product Manager 1",
           "count": 10
         },
         {
@@ -236,6 +330,102 @@
       ]
     },
     {
+      "company": "ByteDance",
+      "job_family": "Product Manager",
+      "tc_rmb_monthly": {
+        "p25": 157083,
+        "p50": 211458,
+        "p75": 276406,
+        "min": 58000,
+        "max": 543750,
+        "sample_size": 99
+      },
+      "base_usd_yearly": {
+        "p25": 200000,
+        "p50": 258000,
+        "p75": 300000,
+        "min": 96000,
+        "max": 480000,
+        "sample_size": 99
+      },
+      "level_breakdown": [
+        {
+          "level": "2-2",
+          "count": 35
+        },
+        {
+          "level": "3-1",
+          "count": 21
+        },
+        {
+          "level": "2-1",
+          "count": 19
+        },
+        {
+          "level": "3-2",
+          "count": 14
+        },
+        {
+          "level": "1-2",
+          "count": 6
+        },
+        {
+          "level": "4-1",
+          "count": 3
+        },
+        {
+          "level": "L6",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "ByteDance",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 132916,
+        "p50": 183176,
+        "p75": 268854,
+        "min": 87604,
+        "max": 896583,
+        "sample_size": 92
+      },
+      "base_usd_yearly": {
+        "p25": 159000,
+        "p50": 212500,
+        "p75": 300000,
+        "min": 130000,
+        "max": 680000,
+        "sample_size": 92
+      },
+      "level_breakdown": [
+        {
+          "level": "1-2",
+          "count": 29
+        },
+        {
+          "level": "2-1",
+          "count": 27
+        },
+        {
+          "level": "2-2",
+          "count": 23
+        },
+        {
+          "level": "4-1",
+          "count": 6
+        },
+        {
+          "level": "3-1",
+          "count": 4
+        },
+        {
+          "level": "3-2",
+          "count": 3
+        }
+      ]
+    },
+    {
       "company": "Meta",
       "job_family": "Data Scientist",
       "tc_rmb_monthly": {
@@ -264,11 +454,11 @@
           "count": 18
         },
         {
-          "level": "IC3",
+          "level": "IC5",
           "count": 14
         },
         {
-          "level": "IC5",
+          "level": "IC3",
           "count": 14
         },
         {
@@ -470,6 +660,114 @@
       ]
     },
     {
+      "company": "Huawei",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 48156,
+        "p50": 58870,
+        "p75": 70000,
+        "min": 31454,
+        "max": 183597,
+        "sample_size": 78
+      },
+      "base_usd_yearly": {
+        "p25": 79698,
+        "p50": 95060,
+        "p75": 108473,
+        "min": 52062,
+        "max": 209841,
+        "sample_size": 78
+      },
+      "level_breakdown": [
+        {
+          "level": "14",
+          "count": 18
+        },
+        {
+          "level": "17",
+          "count": 14
+        },
+        {
+          "level": "16",
+          "count": 13
+        },
+        {
+          "level": "15",
+          "count": 13
+        },
+        {
+          "level": "13",
+          "count": 10
+        },
+        {
+          "level": "18",
+          "count": 6
+        },
+        {
+          "level": "19",
+          "count": 2
+        },
+        {
+          "level": "20",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "company": "Tencent",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 36250,
+        "p50": 47320,
+        "p75": 79998,
+        "min": 8133,
+        "max": 253869,
+        "sample_size": 77
+      },
+      "base_usd_yearly": {
+        "p25": 51599,
+        "p50": 63405,
+        "p75": 93744,
+        "min": 13462,
+        "max": 200000,
+        "sample_size": 77
+      },
+      "level_breakdown": [
+        {
+          "level": "T8",
+          "count": 13
+        },
+        {
+          "level": "T10",
+          "count": 12
+        },
+        {
+          "level": "T11",
+          "count": 10
+        },
+        {
+          "level": "T7",
+          "count": 9
+        },
+        {
+          "level": "T4",
+          "count": 8
+        },
+        {
+          "level": "T9",
+          "count": 7
+        },
+        {
+          "level": "T6",
+          "count": 7
+        },
+        {
+          "level": "T5",
+          "count": 7
+        }
+      ]
+    },
+    {
       "company": "Meta",
       "job_family": "Hardware Engineer",
       "tc_rmb_monthly": {
@@ -512,6 +810,132 @@
       ]
     },
     {
+      "company": "Alibaba",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 38083,
+        "p50": 67698,
+        "p75": 101771,
+        "min": 7550,
+        "max": 204192,
+        "sample_size": 54
+      },
+      "base_usd_yearly": {
+        "p25": 54310,
+        "p50": 77544,
+        "p75": 109663,
+        "min": 16714,
+        "max": 210685,
+        "sample_size": 54
+      },
+      "level_breakdown": [
+        {
+          "level": "P7",
+          "count": 17
+        },
+        {
+          "level": "P6",
+          "count": 11
+        },
+        {
+          "level": "P4",
+          "count": 10
+        },
+        {
+          "level": "P8",
+          "count": 9
+        },
+        {
+          "level": "P5",
+          "count": 6
+        },
+        {
+          "level": "P9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Baidu",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 33188,
+        "p50": 41642,
+        "p75": 61955,
+        "min": 7484,
+        "max": 159171,
+        "sample_size": 46
+      },
+      "base_usd_yearly": {
+        "p25": 43576,
+        "p50": 55923,
+        "p75": 75000,
+        "min": 27335,
+        "max": 133762,
+        "sample_size": 46
+      },
+      "level_breakdown": [
+        {
+          "level": "T4",
+          "count": 12
+        },
+        {
+          "level": "T3",
+          "count": 11
+        },
+        {
+          "level": "T5",
+          "count": 10
+        },
+        {
+          "level": "T6",
+          "count": 8
+        },
+        {
+          "level": "T7",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "company": "ByteDance",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 116000,
+        "p50": 142281,
+        "p75": 224145,
+        "min": 85519,
+        "max": 265833,
+        "sample_size": 44
+      },
+      "base_usd_yearly": {
+        "p25": 170000,
+        "p50": 200000,
+        "p75": 256000,
+        "min": 124000,
+        "max": 330000,
+        "sample_size": 44
+      },
+      "level_breakdown": [
+        {
+          "level": "2-1",
+          "count": 16
+        },
+        {
+          "level": "2-2",
+          "count": 12
+        },
+        {
+          "level": "3-1",
+          "count": 9
+        },
+        {
+          "level": "1-2",
+          "count": 7
+        }
+      ]
+    },
+    {
       "company": "OpenAI",
       "job_family": "Software Engineer",
       "tc_rmb_monthly": {
@@ -540,16 +964,54 @@
           "count": 9
         },
         {
-          "level": "L6",
+          "level": "L3",
           "count": 8
         },
         {
-          "level": "L3",
+          "level": "L6",
           "count": 8
         },
         {
           "level": "L5",
           "count": 3
+        }
+      ]
+    },
+    {
+      "company": "DiDi",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 108750,
+        "p50": 147416,
+        "p75": 169166,
+        "min": 41714,
+        "max": 392708,
+        "sample_size": 26
+      },
+      "base_usd_yearly": {
+        "p25": 144000,
+        "p50": 160000,
+        "p75": 220000,
+        "min": 69044,
+        "max": 470000,
+        "sample_size": 26
+      },
+      "level_breakdown": [
+        {
+          "level": "D6",
+          "count": 8
+        },
+        {
+          "level": "D5",
+          "count": 7
+        },
+        {
+          "level": "D8",
+          "count": 6
+        },
+        {
+          "level": "D7",
+          "count": 5
         }
       ]
     },
@@ -592,6 +1054,56 @@
       ]
     },
     {
+      "company": "Tencent",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 37195,
+        "p50": 46757,
+        "p75": 83952,
+        "min": 29470,
+        "max": 166409,
+        "sample_size": 16
+      },
+      "base_usd_yearly": {
+        "p25": 49918,
+        "p50": 61403,
+        "p75": 85414,
+        "min": 38301,
+        "max": 138956,
+        "sample_size": 16
+      },
+      "level_breakdown": [
+        {
+          "level": "T9",
+          "count": 5
+        },
+        {
+          "level": "T11",
+          "count": 2
+        },
+        {
+          "level": "T8",
+          "count": 2
+        },
+        {
+          "level": "T12",
+          "count": 2
+        },
+        {
+          "level": "T6",
+          "count": 2
+        },
+        {
+          "level": "T5",
+          "count": 2
+        },
+        {
+          "level": "T4",
+          "count": 1
+        }
+      ]
+    },
+    {
       "company": "Anthropic",
       "job_family": "Software Engineer",
       "tc_rmb_monthly": {
@@ -618,6 +1130,222 @@
         {
           "level": "Lead Software Engineer",
           "count": 6
+        }
+      ]
+    },
+    {
+      "company": "Alibaba",
+      "job_family": "Product Manager",
+      "tc_rmb_monthly": {
+        "p25": 63380,
+        "p50": 76671,
+        "p75": 92890,
+        "min": 5395,
+        "max": 172162,
+        "sample_size": 13
+      },
+      "base_usd_yearly": {
+        "p25": 74022,
+        "p50": 79040,
+        "p75": 104905,
+        "min": 60000,
+        "max": 135991,
+        "sample_size": 13
+      },
+      "level_breakdown": [
+        {
+          "level": "P7",
+          "count": 8
+        },
+        {
+          "level": "P6",
+          "count": 3
+        },
+        {
+          "level": "P8",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "company": "Huawei",
+      "job_family": "Hardware Engineer",
+      "tc_rmb_monthly": {
+        "p25": 38501,
+        "p50": 58953,
+        "p75": 83375,
+        "min": 28073,
+        "max": 158507,
+        "sample_size": 11
+      },
+      "base_usd_yearly": {
+        "p25": 49873,
+        "p50": 75393,
+        "p75": 97579,
+        "min": 46467,
+        "max": 220933,
+        "sample_size": 11
+      },
+      "level_breakdown": [
+        {
+          "level": "17",
+          "count": 4
+        },
+        {
+          "level": "14",
+          "count": 2
+        },
+        {
+          "level": "15",
+          "count": 2
+        },
+        {
+          "level": "18",
+          "count": 2
+        },
+        {
+          "level": "16",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Huawei",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 15347,
+        "p50": 23494,
+        "p75": 35667,
+        "min": 10813,
+        "max": 53166,
+        "sample_size": 10
+      },
+      "base_usd_yearly": {
+        "p25": 25403,
+        "p50": 33927,
+        "p75": 55445,
+        "min": 17898,
+        "max": 70000,
+        "sample_size": 10
+      },
+      "level_breakdown": [
+        {
+          "level": "16",
+          "count": 4
+        },
+        {
+          "level": "14",
+          "count": 3
+        },
+        {
+          "level": "18",
+          "count": 2
+        },
+        {
+          "level": "15",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Alibaba",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 38261,
+        "p50": 73320,
+        "p75": 125795,
+        "min": 33833,
+        "max": 163249,
+        "sample_size": 8
+      },
+      "base_usd_yearly": {
+        "p25": 51822,
+        "p50": 71664,
+        "p75": 107531,
+        "min": 6020,
+        "max": 126792,
+        "sample_size": 8
+      },
+      "level_breakdown": [
+        {
+          "level": "P6",
+          "count": 4
+        },
+        {
+          "level": "P8",
+          "count": 2
+        },
+        {
+          "level": "P7",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "company": "ByteDance",
+      "job_family": "Hardware Engineer",
+      "tc_rmb_monthly": {
+        "p25": 259791,
+        "p50": 261302,
+        "p75": 279427,
+        "min": 211458,
+        "max": 392708,
+        "sample_size": 7
+      },
+      "base_usd_yearly": {
+        "p25": 250000,
+        "p50": 280000,
+        "p75": 340000,
+        "min": 250000,
+        "max": 350000,
+        "sample_size": 7
+      },
+      "level_breakdown": [
+        {
+          "level": "2-2",
+          "count": 5
+        },
+        {
+          "level": "3-1",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "company": "Tencent",
+      "job_family": "Product Manager",
+      "tc_rmb_monthly": {
+        "p25": 18338,
+        "p50": 34168,
+        "p75": 35685,
+        "min": 10241,
+        "max": 71944,
+        "sample_size": 7
+      },
+      "base_usd_yearly": {
+        "p25": 30353,
+        "p50": 56554,
+        "p75": 59066,
+        "min": 16952,
+        "max": 64205,
+        "sample_size": 7
+      },
+      "level_breakdown": [
+        {
+          "level": "T4",
+          "count": 3
+        },
+        {
+          "level": "T5",
+          "count": 2
+        },
+        {
+          "level": "T10",
+          "count": 1
+        },
+        {
+          "level": "T8",
+          "count": 1
         }
       ]
     },
@@ -651,6 +1379,88 @@
         },
         {
           "level": "L1",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Baidu",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 49621,
+        "p50": 60685,
+        "p75": 133933,
+        "min": 49621,
+        "max": 133933,
+        "sample_size": 3
+      },
+      "base_usd_yearly": {
+        "p25": 75333,
+        "p50": 82132,
+        "p75": 100976,
+        "min": 75333,
+        "max": 100976,
+        "sample_size": 3
+      },
+      "level_breakdown": [
+        {
+          "level": "T5",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "company": "ByteDance",
+      "job_family": "Research Scientist",
+      "tc_rmb_monthly": {
+        "p25": 189255,
+        "p50": 210249,
+        "p75": 231244,
+        "min": 189255,
+        "max": 231244,
+        "sample_size": 2
+      },
+      "base_usd_yearly": {
+        "p25": 200600,
+        "p50": 222800,
+        "p75": 245000,
+        "min": 200600,
+        "max": 245000,
+        "sample_size": 2
+      },
+      "level_breakdown": [
+        {
+          "level": "2-1",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "company": "DiDi",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 96666,
+        "p50": 119926,
+        "p75": 143187,
+        "min": 96666,
+        "max": 143187,
+        "sample_size": 2
+      },
+      "base_usd_yearly": {
+        "p25": 160000,
+        "p50": 160000,
+        "p75": 160000,
+        "min": 160000,
+        "max": 160000,
+        "sample_size": 2
+      },
+      "level_breakdown": [
+        {
+          "level": "D6",
+          "count": 1
+        },
+        {
+          "level": "D5",
           "count": 1
         }
       ]
@@ -784,10 +1594,322 @@
           "count": 1
         }
       ]
+    },
+    {
+      "company": "Meituan",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 4939,
+        "p50": 4939,
+        "p75": 4939,
+        "min": 4939,
+        "max": 4939,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 43822,
+        "p50": 43822,
+        "p75": 43822,
+        "min": 43822,
+        "max": 43822,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "L6",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Meituan",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 6630,
+        "p50": 6630,
+        "p75": 6630,
+        "min": 6630,
+        "max": 6630,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 79570,
+        "p50": 79570,
+        "p75": 79570,
+        "min": 79570,
+        "max": 79570,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "L6",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Meituan",
+      "job_family": "Product Manager",
+      "tc_rmb_monthly": {
+        "p25": 5780,
+        "p50": 5780,
+        "p75": 5780,
+        "min": 5780,
+        "max": 5780,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 48330,
+        "p50": 48330,
+        "p75": 48330,
+        "min": 48330,
+        "max": 48330,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "L7",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Pinduoduo",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 12506,
+        "p50": 12506,
+        "p75": 12506,
+        "min": 12506,
+        "max": 12506,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 101532,
+        "p50": 101532,
+        "p75": 101532,
+        "min": 101532,
+        "max": 101532,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "Senior",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Xiaomi",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 3629,
+        "p50": 3629,
+        "p75": 3629,
+        "min": 3629,
+        "max": 3629,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 43559,
+        "p50": 43559,
+        "p75": 43559,
+        "min": 43559,
+        "max": 43559,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": null,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "NetEase",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 4784,
+        "p50": 4784,
+        "p75": 4784,
+        "min": 4784,
+        "max": 4784,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 57412,
+        "p50": 57412,
+        "p75": 57412,
+        "min": 57412,
+        "max": 57412,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "L2",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "SHEIN",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 108750,
+        "p50": 108750,
+        "p75": 108750,
+        "min": 108750,
+        "max": 108750,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 150000,
+        "p50": 150000,
+        "p75": 150000,
+        "min": 150000,
+        "max": 150000,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "S5-2",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Kwai",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 10530,
+        "p50": 10530,
+        "p75": 10530,
+        "min": 10530,
+        "max": 10530,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 112323,
+        "p50": 112323,
+        "p75": 112323,
+        "min": 112323,
+        "max": 112323,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": null,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "Kwai",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 8348,
+        "p50": 8348,
+        "p75": 8348,
+        "min": 8348,
+        "max": 8348,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 75137,
+        "p50": 75137,
+        "p75": 75137,
+        "min": 75137,
+        "max": 75137,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "E9",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "JD.com",
+      "job_family": "Software Engineer",
+      "tc_rmb_monthly": {
+        "p25": 6406,
+        "p50": 6406,
+        "p75": 6406,
+        "min": 6406,
+        "max": 6406,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 48550,
+        "p50": 48550,
+        "p75": 48550,
+        "min": 48550,
+        "max": 48550,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "P3",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "JD.com",
+      "job_family": "Data Scientist",
+      "tc_rmb_monthly": {
+        "p25": 151041,
+        "p50": 151041,
+        "p75": 151041,
+        "min": 151041,
+        "max": 151041,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 160000,
+        "p50": 160000,
+        "p75": 160000,
+        "min": 160000,
+        "max": 160000,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "Research Scientist",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "company": "JD.com",
+      "job_family": "Product Manager",
+      "tc_rmb_monthly": {
+        "p25": 3616,
+        "p50": 3616,
+        "p75": 3616,
+        "min": 3616,
+        "max": 3616,
+        "sample_size": 1
+      },
+      "base_usd_yearly": {
+        "p25": 43403,
+        "p50": 43403,
+        "p75": 43403,
+        "min": 43403,
+        "max": 43403,
+        "sample_size": 1
+      },
+      "level_breakdown": [
+        {
+          "level": "6",
+          "count": 1
+        }
+      ]
     }
   ],
   "sources": [
     "levels_fyi"
   ],
-  "total_reports": 784
+  "total_reports": 1392
 }

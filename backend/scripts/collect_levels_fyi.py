@@ -60,6 +60,24 @@ AI_COMPANIES = [
     "cohere",
     "deepmind",
 ]
+# CN big-tech with international hiring footprint -- gives us ground-truth
+# 实际到手 numbers for major Chinese employers without needing the (now-offline)
+# kanzhun salary baoliao board (#15 fallback after kanzhun shut down).
+CN_BIGTECH_COMPANIES = [
+    "bytedance",
+    "alibaba",
+    "tencent",
+    "meituan",
+    "pinduoduo",
+    "xiaomi",
+    "baidu",
+    "huawei",
+    "didi",
+    "netease",
+    "shein",
+    "kwai",
+    "jdcom",
+]
 AI_ROLES = [
     "software-engineer",
     "machine-learning-engineer",
@@ -70,12 +88,24 @@ AI_ROLES = [
 ]
 
 
-def detect_market(country: str | None) -> str | None:
-    if not country:
-        return None
-    if country.lower() in ("china", "cn"):
+CN_LOCATION_HINTS = (
+    "china", "beijing", "shanghai", "shenzhen", "hangzhou", "guangzhou",
+    "chengdu", "wuhan", "xi'an", "xi an", "nanjing", "suzhou", "tianjin",
+    "hong kong", "hongkong", "taipei", "taiwan",
+    "北京", "上海", "深圳", "杭州", "广州", "成都", "武汉", "西安", "南京",
+    "苏州", "天津", "香港", "台北", "中国",
+)
+
+
+def detect_market(country: str | None, location: str | None = None) -> str | None:
+    if country and country.lower() in ("china", "cn"):
         return "domestic"
-    return "international"
+    loc = (location or "").lower()
+    if any(hint in loc for hint in CN_LOCATION_HINTS):
+        return "domestic"
+    if country or location:
+        return "international"
+    return None
 
 
 def to_rmb_monthly(total_yearly: int | None, currency: str | None) -> int | None:
@@ -127,32 +157,52 @@ def extract_samples(next_data: dict, company_name: str) -> list[dict]:
     return out
 
 
+def _str_or_none(v) -> str | None:
+    """Coerce to str | None — defends against levels.fyi sometimes returning bool
+    (e.g. focusTag=false) for nullable string fields, which crashes asyncpg."""
+    if v is None or isinstance(v, bool):
+        return None
+    if isinstance(v, str):
+        return v.strip() or None
+    return str(v)
+
+
+def _int_or_none(v) -> int | None:
+    if v is None or isinstance(v, bool):
+        return None
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return None
+
+
 def sample_to_row(s: dict) -> dict:
-    company = (s.get("companyInfo") or {}).get("name") or s.get("_pageCompany") or s.get("company")
-    base = s.get("baseSalary")
-    stock = s.get("avgAnnualStockGrantValue")
-    bonus = s.get("avgAnnualBonusValue")
-    tc = s.get("totalCompensation")
-    currency = s.get("baseSalaryCurrency") or "USD"
-    location = s.get("location")
+    company = _str_or_none(
+        (s.get("companyInfo") or {}).get("name")
+        or s.get("_pageCompany")
+        or s.get("company")
+    )
+    location = _str_or_none(s.get("location"))
+    currency = _str_or_none(s.get("baseSalaryCurrency")) or "USD"
     country = None  # levels.fyi page is per-company × per-role, country is in URL/page meta
+    tc = _int_or_none(s.get("totalCompensation"))
 
     return {
         "source": "levels_fyi",
-        "source_record_id": s["uuid"],
+        "source_record_id": _str_or_none(s.get("uuid")),
         "company": company or "",
-        "role_title": s.get("title"),
-        "job_family": s.get("jobFamily"),
-        "level": s.get("level"),
-        "focus_tag": s.get("focusTag"),
+        "role_title": _str_or_none(s.get("title")),
+        "job_family": _str_or_none(s.get("jobFamily")),
+        "level": _str_or_none(s.get("level")),
+        "focus_tag": _str_or_none(s.get("focusTag")),
         "location": location,
         "country": country,
-        "market": detect_market(country) or "international",
-        "years_experience": s.get("yearsOfExperience"),
-        "years_at_company": s.get("yearsAtCompany"),
-        "base_salary": base,
-        "stock_grant_value": stock,
-        "bonus_value": bonus,
+        "market": detect_market(country, location) or "international",
+        "years_experience": _int_or_none(s.get("yearsOfExperience")),
+        "years_at_company": _int_or_none(s.get("yearsAtCompany")),
+        "base_salary": _int_or_none(s.get("baseSalary")),
+        "stock_grant_value": _int_or_none(s.get("avgAnnualStockGrantValue")),
+        "bonus_value": _int_or_none(s.get("avgAnnualBonusValue")),
         "total_compensation": tc,
         "currency": currency,
         "total_comp_rmb_monthly": to_rmb_monthly(tc, currency),
@@ -235,12 +285,24 @@ async def collect(companies: list[str], roles: list[str], delay: float) -> int:
 
 async def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--company", default=None, help="comma-sep slugs; default = all AI cos")
+    parser.add_argument(
+        "--company", default=None,
+        help="comma-sep slugs; default = AI_COMPANIES + CN_BIGTECH_COMPANIES",
+    )
     parser.add_argument("--role", default=None, help="comma-sep role slugs; default = AI roles")
     parser.add_argument("--delay", type=float, default=1.5, help="seconds between requests")
+    parser.add_argument(
+        "--cn-only", action="store_true",
+        help="only run CN big-tech slugs (faster re-runs once AI cos are cached)",
+    )
     args = parser.parse_args()
 
-    companies = args.company.split(",") if args.company else AI_COMPANIES
+    if args.company:
+        companies = args.company.split(",")
+    elif args.cn_only:
+        companies = CN_BIGTECH_COMPANIES
+    else:
+        companies = AI_COMPANIES + CN_BIGTECH_COMPANIES
     roles = args.role.split(",") if args.role else AI_ROLES
     await collect(companies, roles, args.delay)
 

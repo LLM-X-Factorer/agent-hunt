@@ -40,7 +40,7 @@ OUTPUT_PATH = (
 RULES_BY_MARKET = {"domestic": DOMESTIC_ROLES, "international": INTERNATIONAL_ROLES}
 
 # Map levels.fyi job_family slugs onto our internal roleIds (international rules).
-JOB_FAMILY_TO_ROLE = {
+JOB_FAMILY_TO_ROLE_INTL = {
     "Software Engineer": "sde",
     "Machine Learning Engineer": "ml_engineer",
     "Data Scientist": "data",
@@ -48,6 +48,23 @@ JOB_FAMILY_TO_ROLE = {
     "Solutions Architect": "architect",
     "Hardware Engineer": "sde",
 }
+# Domestic role taxonomy is AI-focused (DOMESTIC_ROLES). Generic SE / Hardware
+# at CN big-tech offices isn't an AI role, so skip those — only map the
+# AI-adjacent families. Otherwise we'd inflate ai_engineer with non-AI SDE samples.
+JOB_FAMILY_TO_ROLE_DOMESTIC = {
+    "Machine Learning Engineer": "algorithm",
+    "Research Scientist": "algorithm",
+    "Data Scientist": "data",
+    "Product Manager": "product_manager",
+}
+
+
+def map_role(job_family: str | None, market: str | None) -> str | None:
+    if not job_family:
+        return None
+    if market == "domestic":
+        return JOB_FAMILY_TO_ROLE_DOMESTIC.get(job_family)
+    return JOB_FAMILY_TO_ROLE_INTL.get(job_family)
 
 
 def percentiles(values: list[int]) -> dict | None:
@@ -79,14 +96,14 @@ async def main():
         )).scalars().all()
     logger.info("loaded %d salary reports / %d parsed jobs", len(reports), len(jobs))
 
-    # Bucket reports by (market, roleId).
+    # Bucket reports by (market, roleId). levels.fyi now includes CN big-tech;
+    # SE samples there don't map to the AI-only DOMESTIC taxonomy and are skipped
+    # at the by_role level (they still appear in by_company_role below).
     by_role_reports: dict[tuple[str, str], list[SalaryReport]] = defaultdict(list)
     for r in reports:
         if not r.total_comp_rmb_monthly:
             continue
-        # levels.fyi data is all international; classify via JOB_FAMILY_TO_ROLE
-        # (using r.job_family is more reliable than r.role_title).
-        role_id = JOB_FAMILY_TO_ROLE.get(r.job_family or "", None)
+        role_id = map_role(r.job_family, r.market)
         if not role_id:
             continue
         by_role_reports[(r.market or "international", role_id)].append(r)
