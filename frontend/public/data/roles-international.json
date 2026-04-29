@@ -1,15 +1,15 @@
 [
   {
-    "job_count": 1437,
+    "job_count": 1443,
     "sample_titles": [
+      "Lead Technical Program Manager – AI and Data Management Controls",
       "AI Tutor - Norwegian",
       "Threat Collections Engineer",
       "Forward Deployed Engineer, Agentic Platform",
+      "Office Coordinator",
       "TPU Kernel Engineer",
       "Member of Technical Staff, MLE",
-      "AI, Data foundation & Business Process Solution Lead",
-      "AI Tutor - Bengali",
-      "Model Behavior Tutor - Wit & Conversation"
+      "AI, Data foundation & Business Process Solution Lead"
     ],
     "required_skills": [
       {
@@ -70,10 +70,10 @@
       ],
       "median_min": 5,
       "avg_min": 5.6,
-      "sample_size": 654
+      "sample_size": 656
     },
     "education": {
-      "unspecified": 943,
+      "unspecified": 949,
       "bachelor": 300,
       "any": 134,
       "master": 42,
@@ -81,7 +81,7 @@
       "associate": 1
     },
     "work_mode": {
-      "unknown": 484,
+      "unknown": 490,
       "hybrid": 427,
       "remote": 285,
       "onsite": 241
@@ -96,7 +96,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 872
+        "count": 878
       },
       {
         "industry": "healthcare",
@@ -119,7 +119,7 @@
     "role_name": "Other"
   },
   {
-    "job_count": 808,
+    "job_count": 809,
     "sample_titles": [
       "Senior Software Engineer, Agent Infrastructure",
       "Software Engineer, Human Data Interface",
@@ -197,14 +197,14 @@
       "sample_size": 222
     },
     "education": {
-      "unspecified": 663,
+      "unspecified": 664,
       "bachelor": 107,
       "any": 32,
       "master": 5,
       "phd": 1
     },
     "work_mode": {
-      "unknown": 274,
+      "unknown": 275,
       "hybrid": 222,
       "onsite": 171,
       "remote": 141
@@ -219,7 +219,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 425
+        "count": 426
       },
       {
         "industry": "healthcare",
@@ -242,7 +242,7 @@
     "role_name": "Software Engineer"
   },
   {
-    "job_count": 781,
+    "job_count": 790,
     "sample_titles": [
       "Senior Machine Learning Scientist, Payments",
       "Data Scientist Engineer",
@@ -332,14 +332,14 @@
       "sample_size": 117
     },
     "education": {
-      "unspecified": 583,
+      "unspecified": 592,
       "bachelor": 78,
       "phd": 69,
       "master": 38,
       "any": 13
     },
     "work_mode": {
-      "unknown": 594,
+      "unknown": 603,
       "hybrid": 119,
       "onsite": 45,
       "remote": 23
@@ -354,7 +354,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 210
+        "count": 219
       },
       {
         "industry": "healthcare",
@@ -377,7 +377,7 @@
     "role_name": "ML Scientist / Researcher"
   },
   {
-    "job_count": 540,
+    "job_count": 544,
     "sample_titles": [
       "Python Agentic AI/ML Engineer",
       "Director of Engineering - AIDD Product Engineering",
@@ -450,7 +450,7 @@
       "sample_size": 152
     },
     "education": {
-      "unspecified": 426,
+      "unspecified": 430,
       "bachelor": 72,
       "master": 19,
       "any": 14,
@@ -458,7 +458,7 @@
       "null": 1
     },
     "work_mode": {
-      "unknown": 298,
+      "unknown": 302,
       "hybrid": 113,
       "onsite": 66,
       "remote": 63
@@ -473,7 +473,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 164
+        "count": 168
       },
       {
         "industry": "healthcare",
@@ -496,7 +496,7 @@
     "role_name": "ML/AI Engineer"
   },
   {
-    "job_count": 492,
+    "job_count": 494,
     "sample_titles": [
       "Artificial Intelligence Intern",
       "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
@@ -582,14 +582,14 @@
       "sample_size": 30
     },
     "education": {
-      "unspecified": 439,
+      "unspecified": 441,
       "bachelor": 28,
       "master": 13,
       "any": 8,
       "phd": 4
     },
     "work_mode": {
-      "unknown": 463,
+      "unknown": 465,
       "onsite": 16,
       "hybrid": 9,
       "remote": 4
@@ -599,12 +599,12 @@
       "TikTok",
       "Tenstorrent",
       "Honeywell",
-      "Anthropic"
+      "KLA"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 20
+        "count": 22
       },
       {
         "industry": "manufacturing",
@@ -633,10 +633,10 @@
       "Data Engineer",
       "Technical Program Manager, Google Cloud Analytics and Insights",
       "Data Analyst - Entry Level",
+      "Data Engineering Intern",
+      "Data Engineer-Junior",
       "Technical Data Analyst",
-      "Analytics Engineer, Finance",
-      "Data Analyst",
-      "Assistant Vice President - Data & AI Sales"
+      "Analytics Engineer, Finance"
     ],
     "required_skills": [
       {
@@ -745,7 +745,7 @@
       "TikTok",
       "John Deere",
       "OpenAI",
-      "Berkshire Hathaway Energy"
+      "TD Bank"
     ],
     "top_industries": [
       {
@@ -773,7 +773,7 @@
     "role_name": "Data Scientist / Analyst"
   },
   {
-    "job_count": 328,
+    "job_count": 329,
     "sample_titles": [
       "Lead Site Reliability Engineer (GCP & Hybrid Cloud)",
       "Head of Engineering & Infrastructure",
@@ -855,7 +855,7 @@
       "sample_size": 207
     },
     "education": {
-      "unspecified": 207,
+      "unspecified": 208,
       "bachelor": 88,
       "any": 18,
       "master": 10,
@@ -863,7 +863,7 @@
     },
     "work_mode": {
       "hybrid": 138,
-      "unknown": 95,
+      "unknown": 96,
       "onsite": 58,
       "remote": 37
     },
@@ -877,7 +877,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 192
+        "count": 193
       },
       {
         "industry": "healthcare",
@@ -900,7 +900,7 @@
     "role_name": "Engineering Leadership"
   },
   {
-    "job_count": 107,
+    "job_count": 108,
     "sample_titles": [
       "AI Solution Architect",
       "AI Architect Agentic & Generative AI",
@@ -982,13 +982,13 @@
       "sample_size": 76
     },
     "education": {
-      "unspecified": 69,
+      "unspecified": 70,
       "bachelor": 35,
       "any": 3
     },
     "work_mode": {
       "hybrid": 68,
-      "unknown": 20,
+      "unknown": 21,
       "onsite": 11,
       "remote": 8
     },
@@ -1002,7 +1002,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 73
+        "count": 74
       },
       {
         "industry": "manufacturing",
@@ -1025,7 +1025,7 @@
     "role_name": "Solutions Architect"
   },
   {
-    "job_count": 105,
+    "job_count": 106,
     "sample_titles": [
       "Product Owner - Federal Health Systems",
       "Agent Product Manager",
@@ -1112,12 +1112,12 @@
     },
     "education": {
       "bachelor": 61,
-      "unspecified": 37,
+      "unspecified": 38,
       "any": 6,
       "master": 1
     },
     "work_mode": {
-      "unknown": 41,
+      "unknown": 42,
       "onsite": 31,
       "hybrid": 29,
       "remote": 4
@@ -1132,7 +1132,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 76
+        "count": 77
       },
       {
         "industry": "healthcare",

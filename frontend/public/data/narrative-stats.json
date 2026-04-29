@@ -1,20 +1,20 @@
 {
   "totals": {
-    "all_jobs": 8238,
-    "labeled_jobs": 7732
+    "all_jobs": 9287,
+    "labeled_jobs": 8550
   },
   "p1_market_basic": {
-    "domestic_ai_native": 1518,
-    "domestic_ai_augmented": 947,
-    "intl_ai_native": 4122,
+    "domestic_ai_native": 2316,
+    "domestic_ai_augmented": 951,
+    "intl_ai_native": 4138,
     "intl_ai_augmented": 1145,
     "domestic_traditional_aug_total": 685,
-    "domestic_internet_aug_total": 197,
-    "domestic_traditional_to_internet_ratio": 3.48,
+    "domestic_internet_aug_total": 201,
+    "domestic_traditional_to_internet_ratio": 3.41,
     "domestic_industry_breakdown": [
       {
         "industry": "internet",
-        "count": 197
+        "count": 201
       },
       {
         "industry": "manufacturing",
@@ -100,10 +100,10 @@
   },
   "p5_ghost": {
     "intl_ghost_clusters": 30,
-    "intl_total_jobs": 5477,
+    "intl_total_jobs": 5502,
     "intl_ghost_pct": 0.55,
-    "domestic_ghost_clusters": 5,
-    "domestic_total_jobs": 2771,
+    "domestic_ghost_clusters": 7,
+    "domestic_total_jobs": 3795,
     "domestic_ghost_pct": 0.18,
     "intl_to_domestic_ratio": 3.1,
     "top_ghost_listings": [

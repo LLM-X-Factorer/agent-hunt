@@ -1,21 +1,21 @@
 {
   "domestic": {
     "market": "domestic",
-    "total_jobs": 2762,
+    "total_jobs": 3786,
     "avg_salary": 34997,
     "median_salary": 27500,
     "work_mode": {
       "onsite": 94,
       "remote": 17,
       "hybrid": 1,
-      "unknown": 2649,
+      "unknown": 3673,
       "null": 1
     },
     "education": {
       "bachelor": 1442,
       "master": 228,
       "phd": 38,
-      "any_or_unspecified": 1054
+      "any_or_unspecified": 2078
     },
     "experience_distribution": [
       {
@@ -42,14 +42,14 @@
   },
   "international": {
     "market": "international",
-    "total_jobs": 5476,
+    "total_jobs": 5501,
     "avg_salary": 87336,
     "median_salary": 72499,
     "work_mode": {
       "onsite": 754,
       "remote": 654,
       "hybrid": 1317,
-      "unknown": 2748,
+      "unknown": 2773,
       "null": 1,
       "mixed": 2
     },
@@ -57,7 +57,7 @@
       "bachelor": 929,
       "master": 132,
       "phd": 105,
-      "any_or_unspecified": 4310
+      "any_or_unspecified": 4335
     },
     "experience_distribution": [
       {

@@ -1,15 +1,15 @@
 [
   {
-    "job_count": 912,
+    "job_count": 1347,
     "sample_titles": [
       "AI智能获客",
+      "Project Leader (AD-SD)- Therapeutic Antibody Discovery",
       "教研员",
       "AI研究院院长",
       "AI 团队 Leader - Agent 方向",
       "AI Application Engineer (LLM/Agent Direction)",
       "ComfyUI工作流设计师、AI动画设计师",
-      "Assistant Manager DevOps IT(AI&Data)",
-      "Program Manager"
+      "Assistant Manager DevOps IT(AI&Data)"
     ],
     "required_skills": [
       {
@@ -78,35 +78,35 @@
         10
       ],
       "median_min": 3,
-      "avg_min": 2.7,
-      "sample_size": 578
+      "avg_min": 2.9,
+      "sample_size": 994
     },
     "education": {
+      "unspecified": 733,
       "bachelor": 374,
-      "unspecified": 298,
       "any": 189,
       "master": 36,
       "phd": 11,
       "associate": 4
     },
     "work_mode": {
-      "unknown": 866,
+      "unknown": 1301,
       "onsite": 32,
       "remote": 12,
       "hybrid": 1,
       "null": 1
     },
     "top_companies": [
+      "腾讯",
       "MiniMax",
       "Moonshot AI",
       "智谱AI",
-      "百川智能",
-      "某知名公司"
+      "百川智能"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 213
+        "count": 648
       },
       {
         "industry": "media",
@@ -129,7 +129,7 @@
     "role_name": "其他"
   },
   {
-    "job_count": 531,
+    "job_count": 734,
     "sample_titles": [
       "AI Agent 产品经理",
       "AI-Agent开发运营",
@@ -211,32 +211,32 @@
         10
       ],
       "median_min": 3,
-      "avg_min": 2.9,
-      "sample_size": 431
+      "avg_min": 2.8,
+      "sample_size": 626
     },
     "education": {
       "bachelor": 298,
-      "unspecified": 95,
+      "unspecified": 298,
       "master": 78,
       "any": 56,
       "phd": 4
     },
     "work_mode": {
-      "unknown": 505,
+      "unknown": 708,
       "onsite": 24,
       "remote": 2
     },
     "top_companies": [
+      "腾讯",
       "MiniMax",
       "智谱AI",
       "Moonshot AI",
-      "百川智能",
-      "某知名公司"
+      "百川智能"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 204
+        "count": 407
       },
       {
         "industry": "manufacturing",
@@ -259,7 +259,7 @@
     "role_name": "AI/LLM 工程师"
   },
   {
-    "job_count": 342,
+    "job_count": 439,
     "sample_titles": [
       "AI LLM Product Manager",
       "Product and Digital Manager",
@@ -345,30 +345,30 @@
         10
       ],
       "median_min": 3,
-      "avg_min": 3.4,
-      "sample_size": 297
+      "avg_min": 3.3,
+      "sample_size": 392
     },
     "education": {
       "bachelor": 244,
-      "unspecified": 42,
+      "unspecified": 139,
       "any": 40,
       "master": 16
     },
     "work_mode": {
-      "unknown": 339,
+      "unknown": 436,
       "onsite": 3
     },
     "top_companies": [
+      "腾讯",
       "字节跳动",
       "某北京大型互联网公司",
-      "Moonshot AI",
       "智谱AI",
-      "百川智能"
+      "Moonshot AI"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 145
+        "count": 242
       },
       {
         "industry": "manufacturing",
@@ -391,7 +391,7 @@
     "role_name": "AI 产品经理"
   },
   {
-    "job_count": 173,
+    "job_count": 328,
     "sample_titles": [
       "工业AI算法专家",
       "Scientist - AI, Digital and Robotics",
@@ -460,32 +460,32 @@
         10
       ],
       "median_min": 3,
-      "avg_min": 3.1,
-      "sample_size": 120
+      "avg_min": 3.0,
+      "sample_size": 266
     },
     "education": {
+      "unspecified": 206,
       "master": 61,
-      "unspecified": 51,
       "bachelor": 44,
       "phd": 9,
       "any": 8
     },
     "work_mode": {
-      "unknown": 164,
+      "unknown": 319,
       "onsite": 8,
       "remote": 1
     },
     "top_companies": [
+      "腾讯",
       "智谱AI",
       "MiniMax",
       "百川智能",
-      "Moonshot AI",
-      "蚂蚁集团"
+      "Moonshot AI"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 40
+        "count": 195
       },
       {
         "industry": "finance",
@@ -508,7 +508,7 @@
     "role_name": "算法工程师/研究员"
   },
   {
-    "job_count": 155,
+    "job_count": 197,
     "sample_titles": [
       "AIGC运营",
       "AI自动化运营",
@@ -583,30 +583,30 @@
       ],
       "median_min": 3,
       "avg_min": 2.9,
-      "sample_size": 109
+      "sample_size": 150
     },
     "education": {
       "bachelor": 88,
-      "unspecified": 43,
+      "unspecified": 85,
       "any": 23,
       "master": 1
     },
     "work_mode": {
-      "unknown": 147,
+      "unknown": 189,
       "onsite": 7,
       "remote": 1
     },
     "top_companies": [
+      "腾讯",
       "MiniMax",
       "智谱AI",
       "Moonshot AI",
-      "某知名公司",
-      "阿里巴巴集团"
+      "某知名公司"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 47
+        "count": 89
       },
       {
         "industry": "media",
@@ -629,7 +629,7 @@
     "role_name": "AI 运营/训练师"
   },
   {
-    "job_count": 130,
+    "job_count": 152,
     "sample_titles": [
       "医疗器械销售代表",
       "AI Customer Acquisition / Private Domain Traffic Generation",
@@ -666,31 +666,31 @@
         10
       ],
       "median_min": 3,
-      "avg_min": 3.6,
-      "sample_size": 119
+      "avg_min": 3.7,
+      "sample_size": 140
     },
     "education": {
       "bachelor": 71,
       "any": 47,
-      "unspecified": 11,
+      "unspecified": 33,
       "master": 1
     },
     "work_mode": {
-      "unknown": 127,
+      "unknown": 149,
       "onsite": 2,
       "remote": 1
     },
     "top_companies": [
+      "腾讯",
       "智谱AI",
       "51WORLD",
       "某合肥互联网上市公司",
-      "某杭州互联网上市公司",
-      "某北京大型人工智能公司"
+      "某杭州互联网上市公司"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 70
+        "count": 92
       },
       {
         "industry": "healthcare",
@@ -713,7 +713,7 @@
     "role_name": "AI 销售/商务"
   },
   {
-    "job_count": 125,
+    "job_count": 144,
     "sample_titles": [
       "数字化总监（制造业、AI、跨国项目）",
       "Head of Data Science/AI",
@@ -750,31 +750,31 @@
         10
       ],
       "median_min": 5,
-      "avg_min": 5.4,
-      "sample_size": 117
+      "avg_min": 5.3,
+      "sample_size": 136
     },
     "education": {
       "bachelor": 75,
+      "unspecified": 29,
       "any": 22,
       "master": 12,
-      "unspecified": 10,
       "phd": 6
     },
     "work_mode": {
-      "unknown": 124,
+      "unknown": 143,
       "onsite": 1
     },
     "top_companies": [
+      "腾讯",
       "某知名公司",
       "51WORLD",
       "MiniMax",
-      "艾艾贴",
-      "超宇集团有限公司"
+      "艾艾贴"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 23
+        "count": 42
       },
       {
         "industry": "education",
@@ -797,7 +797,7 @@
     "role_name": "AI 管理/战略"
   },
   {
-    "job_count": 99,
+    "job_count": 101,
     "sample_titles": [
       "商业化副总裁(VP)/自动驾驶政企事业部总经理",
       "ADAS Platform Software Engineer",
@@ -831,15 +831,16 @@
       ],
       "median_min": 5,
       "avg_min": 3.9,
-      "sample_size": 99
+      "sample_size": 101
     },
     "education": {
       "bachelor": 72,
       "any": 22,
-      "master": 5
+      "master": 5,
+      "unspecified": 2
     },
     "work_mode": {
-      "unknown": 97,
+      "unknown": 99,
       "onsite": 2
     },
     "top_companies": [
@@ -856,7 +857,7 @@
       },
       {
         "industry": "internet",
-        "count": 11
+        "count": 13
       },
       {
         "industry": "consulting",
@@ -875,7 +876,7 @@
     "role_name": "自动驾驶/智能座舱"
   },
   {
-    "job_count": 82,
+    "job_count": 83,
     "sample_titles": [
       "AI与智能制造",
       "工业AI技术营销经理（石化/化工/冶金／新能源方向）",
@@ -909,16 +910,17 @@
       ],
       "median_min": 5,
       "avg_min": 4.7,
-      "sample_size": 81
+      "sample_size": 82
     },
     "education": {
       "bachelor": 61,
       "any": 16,
       "master": 4,
-      "phd": 1
+      "phd": 1,
+      "unspecified": 1
     },
     "work_mode": {
-      "unknown": 79,
+      "unknown": 80,
       "onsite": 3
     },
     "top_companies": [
@@ -935,7 +937,7 @@
       },
       {
         "industry": "internet",
-        "count": 9
+        "count": 10
       },
       {
         "industry": "automotive",
@@ -954,90 +956,7 @@
     "role_name": "智能制造/工业AI"
   },
   {
-    "job_count": 71,
-    "sample_titles": [
-      "数字化转型规划咨询高级经理",
-      "AIT (AI Business Transformation) Senior Specialist/Supervisor",
-      "AI交付经理PMO- AI客服（电商）方向",
-      "电商 AI 流程建构师",
-      "数字化转型负责人",
-      "汽车行业IT战略与数字化转型高级经理",
-      "数字化转型总监",
-      "HR（数字化转型方向）"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "prompt_engineering",
-        "count": 1
-      },
-      {
-        "skill_id": "devops",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 1980.0,
-      "max": 158333.0,
-      "median": 33333,
-      "avg": 40538,
-      "p25": 12500.0,
-      "p75": 47500.0,
-      "sample_size": 67
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 5,
-      "avg_min": 5.3,
-      "sample_size": 69
-    },
-    "education": {
-      "bachelor": 54,
-      "any": 10,
-      "master": 5,
-      "phd": 2
-    },
-    "work_mode": {
-      "unknown": 70,
-      "onsite": 1
-    },
-    "top_companies": [
-      "田园东方投资",
-      "某知名公司",
-      "德勤Deloitte",
-      "某青岛家电上市公司",
-      "某北京IT服务公司"
-    ],
-    "top_industries": [
-      {
-        "industry": "consulting",
-        "count": 21
-      },
-      {
-        "industry": "manufacturing",
-        "count": 17
-      },
-      {
-        "industry": "retail",
-        "count": 8
-      },
-      {
-        "industry": "internet",
-        "count": 8
-      },
-      {
-        "industry": "other",
-        "count": 7
-      }
-    ],
-    "role_id": "ai_transformation",
-    "role_name": "AI 转型/咨询"
-  },
-  {
-    "job_count": 41,
+    "job_count": 82,
     "sample_titles": [
       "投资分析师/投资经理/副总裁（AI与先进制造赛道）",
       "Data Analyst - LLM agentic AI",
@@ -1097,32 +1016,32 @@
         0,
         10
       ],
-      "median_min": 1,
+      "median_min": 2,
       "avg_min": 2.6,
-      "sample_size": 27
+      "sample_size": 66
     },
     "education": {
+      "unspecified": 55,
       "bachelor": 17,
-      "unspecified": 14,
       "phd": 5,
       "any": 4,
       "master": 1
     },
     "work_mode": {
-      "unknown": 39,
+      "unknown": 80,
       "onsite": 2
     },
     "top_companies": [
+      "腾讯",
       "MiniMax",
       "Moonshot AI",
       "北京深度智耀科技有限公司",
-      "智谱AI",
-      "深圳市万邑通信息科技有限公司"
+      "智谱AI"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 10
+        "count": 51
       },
       {
         "industry": "finance",
@@ -1143,6 +1062,204 @@
     ],
     "role_id": "data",
     "role_name": "数据分析/数据科学"
+  },
+  {
+    "job_count": 73,
+    "sample_titles": [
+      "数字化转型规划咨询高级经理",
+      "AIT (AI Business Transformation) Senior Specialist/Supervisor",
+      "AI交付经理PMO- AI客服（电商）方向",
+      "电商 AI 流程建构师",
+      "数字化转型负责人",
+      "汽车行业IT战略与数字化转型高级经理",
+      "数字化转型总监",
+      "HR（数字化转型方向）"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      },
+      {
+        "skill_id": "devops",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 1980.0,
+      "max": 158333.0,
+      "median": 33333,
+      "avg": 40538,
+      "p25": 12500.0,
+      "p75": 47500.0,
+      "sample_size": 67
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 5.2,
+      "sample_size": 71
+    },
+    "education": {
+      "bachelor": 54,
+      "any": 10,
+      "master": 5,
+      "phd": 2,
+      "unspecified": 2
+    },
+    "work_mode": {
+      "unknown": 72,
+      "onsite": 1
+    },
+    "top_companies": [
+      "田园东方投资",
+      "某知名公司",
+      "德勤Deloitte",
+      "某青岛家电上市公司",
+      "某北京IT服务公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "consulting",
+        "count": 21
+      },
+      {
+        "industry": "manufacturing",
+        "count": 17
+      },
+      {
+        "industry": "internet",
+        "count": 10
+      },
+      {
+        "industry": "retail",
+        "count": 8
+      },
+      {
+        "industry": "other",
+        "count": 7
+      }
+    ],
+    "role_id": "ai_transformation",
+    "role_name": "AI 转型/咨询"
+  },
+  {
+    "job_count": 32,
+    "sample_titles": [
+      "智能风控经理",
+      "风控经理",
+      "信贷评审-风控中台（制造加工）",
+      "风控专员",
+      "风控管培生",
+      "风控专家",
+      "交易风控岗",
+      "采供内控专家（智能风控方向）"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "sql",
+        "count": 6
+      },
+      {
+        "skill_id": "python",
+        "count": 5
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 4
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 4
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 3
+      },
+      {
+        "skill_id": "coze",
+        "count": 3
+      },
+      {
+        "skill_id": "dify",
+        "count": 3
+      },
+      {
+        "skill_id": "tongyi_qianwen",
+        "count": 3
+      },
+      {
+        "skill_id": "deepseek",
+        "count": 3
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 6500.0,
+      "max": 80000.0,
+      "median": 22500,
+      "avg": 31337,
+      "p25": 12500.0,
+      "p75": 46667.0,
+      "sample_size": 20
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 3.8,
+      "sample_size": 25
+    },
+    "education": {
+      "bachelor": 17,
+      "unspecified": 12,
+      "any": 3
+    },
+    "work_mode": {
+      "unknown": 30,
+      "onsite": 2
+    },
+    "top_companies": [
+      "腾讯",
+      "Moonshot AI",
+      "某上海基金/证券/期货公司",
+      "阿里云智能",
+      "MiniMax"
+    ],
+    "top_industries": [
+      {
+        "industry": "finance",
+        "count": 10
+      },
+      {
+        "industry": "internet",
+        "count": 10
+      },
+      {
+        "industry": "consulting",
+        "count": 2
+      },
+      {
+        "industry": "manufacturing",
+        "count": 2
+      },
+      {
+        "industry": "other",
+        "count": 1
+      }
+    ],
+    "role_id": "risk_compliance",
+    "role_name": "AI 风控/合规"
   },
   {
     "job_count": 30,
@@ -1217,120 +1334,6 @@
     ],
     "role_id": "education_ai",
     "role_name": "AI 教育"
-  },
-  {
-    "job_count": 27,
-    "sample_titles": [
-      "智能风控经理",
-      "风控经理",
-      "信贷评审-风控中台（制造加工）",
-      "风控专员",
-      "风控管培生",
-      "风控专家",
-      "交易风控岗",
-      "采供内控专家（智能风控方向）"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "sql",
-        "count": 6
-      },
-      {
-        "skill_id": "python",
-        "count": 5
-      },
-      {
-        "skill_id": "prompt_engineering",
-        "count": 4
-      },
-      {
-        "skill_id": "data_analysis",
-        "count": 4
-      },
-      {
-        "skill_id": "agent_architecture",
-        "count": 3
-      },
-      {
-        "skill_id": "coze",
-        "count": 3
-      },
-      {
-        "skill_id": "dify",
-        "count": 3
-      },
-      {
-        "skill_id": "tongyi_qianwen",
-        "count": 3
-      },
-      {
-        "skill_id": "deepseek",
-        "count": 3
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 2
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 6500.0,
-      "max": 80000.0,
-      "median": 22500,
-      "avg": 31337,
-      "p25": 12500.0,
-      "p75": 46667.0,
-      "sample_size": 20
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 3,
-      "avg_min": 3.6,
-      "sample_size": 20
-    },
-    "education": {
-      "bachelor": 17,
-      "unspecified": 7,
-      "any": 3
-    },
-    "work_mode": {
-      "unknown": 25,
-      "onsite": 2
-    },
-    "top_companies": [
-      "Moonshot AI",
-      "某上海基金/证券/期货公司",
-      "阿里云智能",
-      "MiniMax",
-      "智谱AI"
-    ],
-    "top_industries": [
-      {
-        "industry": "finance",
-        "count": 10
-      },
-      {
-        "industry": "internet",
-        "count": 5
-      },
-      {
-        "industry": "consulting",
-        "count": 2
-      },
-      {
-        "industry": "manufacturing",
-        "count": 2
-      },
-      {
-        "industry": "other",
-        "count": 1
-      }
-    ],
-    "role_id": "risk_compliance",
-    "role_name": "AI 风控/合规"
   },
   {
     "job_count": 14,

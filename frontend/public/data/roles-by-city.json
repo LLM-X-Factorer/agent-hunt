@@ -116,7 +116,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 351,
+          "job_count": 536,
           "salary": {
             "p25": 22000,
             "p50": 35000,
@@ -142,7 +142,7 @@
             "长沙",
             "青岛"
           ],
-          "job_count": 94,
+          "job_count": 112,
           "salary": {
             "p25": 20000,
             "p50": 32458,
@@ -200,28 +200,40 @@
       ],
       "top_cities": [
         {
-          "city": "上海",
-          "count": 147,
-          "median": 40000,
-          "sample": 81
-        },
-        {
           "city": "北京",
-          "count": 134,
+          "count": 195,
           "median": 40000,
           "sample": 65
         },
         {
+          "city": "上海",
+          "count": 163,
+          "median": 40000,
+          "sample": 81
+        },
+        {
           "city": "深圳",
-          "count": 53,
+          "count": 132,
           "median": 22500,
           "sample": 49
         },
         {
+          "city": "广州",
+          "count": 46,
+          "median": 17000,
+          "sample": 17
+        },
+        {
           "city": "杭州",
-          "count": 30,
+          "count": 33,
           "median": 37500,
           "sample": 28
+        },
+        {
+          "city": "成都",
+          "count": 21,
+          "median": 24208,
+          "sample": 10
         },
         {
           "city": "苏州",
@@ -230,22 +242,10 @@
           "sample": 18
         },
         {
-          "city": "广州",
-          "count": 17,
-          "median": 17000,
-          "sample": 17
-        },
-        {
           "city": "南京",
           "count": 12,
           "median": 22500,
           "sample": 12
-        },
-        {
-          "city": "成都",
-          "count": 10,
-          "median": 24208,
-          "sample": 10
         }
       ]
     },
@@ -260,7 +260,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 227,
+          "job_count": 322,
           "salary": {
             "p25": 27500,
             "p50": 37500,
@@ -282,7 +282,7 @@
             "长沙",
             "青岛"
           ],
-          "job_count": 48,
+          "job_count": 49,
           "salary": {
             "p25": 21500,
             "p50": 28750,
@@ -334,22 +334,28 @@
       ],
       "top_cities": [
         {
+          "city": "深圳",
+          "count": 113,
+          "median": 35000,
+          "sample": 52
+        },
+        {
           "city": "北京",
-          "count": 85,
+          "count": 108,
           "median": 43750,
           "sample": 62
         },
         {
           "city": "上海",
-          "count": 76,
+          "count": 80,
           "median": 37500,
           "sample": 66
         },
         {
-          "city": "深圳",
-          "count": 54,
-          "median": 35000,
-          "sample": 52
+          "city": "广州",
+          "count": 21,
+          "median": 20250,
+          "sample": 12
         },
         {
           "city": "杭州",
@@ -358,14 +364,8 @@
           "sample": 17
         },
         {
-          "city": "广州",
-          "count": 12,
-          "median": 20250,
-          "sample": 12
-        },
-        {
           "city": "成都",
-          "count": 6,
+          "count": 7,
           "median": 25000,
           "sample": 6
         },
@@ -394,7 +394,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 67,
+          "job_count": 69,
           "salary": {
             "p25": 22500,
             "p50": 32500,
@@ -449,13 +449,13 @@
         },
         {
           "city": "北京",
-          "count": 21,
+          "count": 22,
           "median": 31250,
           "sample": 19
         },
         {
           "city": "深圳",
-          "count": 9,
+          "count": 10,
           "median": 10000,
           "sample": 9
         },
@@ -502,7 +502,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 31,
+          "job_count": 32,
           "salary": {
             "p25": 12500,
             "p50": 45000,
@@ -524,7 +524,7 @@
             "长沙",
             "青岛"
           ],
-          "job_count": 22,
+          "job_count": 23,
           "salary": {
             "p25": 13333,
             "p50": 36250,
@@ -579,7 +579,7 @@
         },
         {
           "city": "深圳",
-          "count": 5,
+          "count": 6,
           "median": 45000,
           "sample": 4
         },
@@ -588,6 +588,12 @@
           "count": 3,
           "median": 47500,
           "sample": 3
+        },
+        {
+          "city": "西安",
+          "count": 3,
+          "median": 20000,
+          "sample": 2
         },
         {
           "city": "广州",
@@ -599,12 +605,6 @@
           "city": "苏州",
           "count": 2,
           "median": 30000,
-          "sample": 2
-        },
-        {
-          "city": "西安",
-          "count": 2,
-          "median": 20000,
           "sample": 2
         }
       ]
@@ -620,7 +620,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 33,
+          "job_count": 34,
           "salary": {
             "p25": 30000,
             "p50": 50000,
@@ -711,7 +711,7 @@
         },
         {
           "city": "深圳",
-          "count": 4,
+          "count": 5,
           "median": 27500,
           "sample": 4
         },
@@ -746,7 +746,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 84,
+          "job_count": 102,
           "salary": {
             "p25": 40000,
             "p50": 65000,
@@ -789,9 +789,10 @@
             "湘西土家族苗",
             "白银",
             "福州-鼓楼区",
-            "长沙-望城区"
+            "长沙-望城区",
+            "香港"
           ],
-          "job_count": 12,
+          "job_count": 13,
           "salary": {
             "p25": 7500,
             "p50": 24000,
@@ -803,21 +804,21 @@
       "top_cities": [
         {
           "city": "上海",
-          "count": 35,
+          "count": 36,
           "median": 65000,
           "sample": 25
         },
         {
-          "city": "北京",
-          "count": 22,
-          "median": 61250,
-          "sample": 16
-        },
-        {
           "city": "深圳",
-          "count": 22,
+          "count": 34,
           "median": 70000,
           "sample": 20
+        },
+        {
+          "city": "北京",
+          "count": 27,
+          "median": 61250,
+          "sample": 16
         },
         {
           "city": "西安",
@@ -862,7 +863,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 97,
+          "job_count": 135,
           "salary": {
             "p25": 18000,
             "p50": 30000,
@@ -880,10 +881,11 @@
             "杭州",
             "武汉",
             "苏州",
+            "西安",
             "重庆",
             "长沙"
           ],
-          "job_count": 37,
+          "job_count": 41,
           "salary": {
             "p25": 10500,
             "p50": 15000,
@@ -918,22 +920,22 @@
       ],
       "top_cities": [
         {
+          "city": "深圳",
+          "count": 47,
+          "median": 28750,
+          "sample": 18
+        },
+        {
           "city": "北京",
-          "count": 36,
+          "count": 38,
           "median": 25937,
           "sample": 18
         },
         {
           "city": "上海",
-          "count": 33,
+          "count": 35,
           "median": 26250,
           "sample": 16
-        },
-        {
-          "city": "深圳",
-          "count": 19,
-          "median": 28750,
-          "sample": 18
         },
         {
           "city": "杭州",
@@ -943,19 +945,19 @@
         },
         {
           "city": "广州",
-          "count": 9,
+          "count": 15,
           "median": 37500,
           "sample": 9
         },
         {
           "city": "重庆",
-          "count": 5,
+          "count": 6,
           "median": 24000,
           "sample": 5
         },
         {
           "city": "武汉",
-          "count": 4,
+          "count": 5,
           "median": 11500,
           "sample": 4
         },
@@ -975,9 +977,10 @@
           "cities_in_tier": [
             "上海",
             "北京",
+            "广州",
             "深圳"
           ],
-          "job_count": 30,
+          "job_count": 71,
           "salary": {
             "p25": 24000,
             "p50": 37500,
@@ -1018,22 +1021,28 @@
       ],
       "top_cities": [
         {
+          "city": "深圳",
+          "count": 32,
+          "median": 37500,
+          "sample": 6
+        },
+        {
           "city": "上海",
-          "count": 14,
+          "count": 18,
           "median": 24500,
           "sample": 8
         },
         {
           "city": "北京",
-          "count": 10,
+          "count": 16,
           "median": 35000,
           "sample": 3
         },
         {
-          "city": "深圳",
-          "count": 6,
-          "median": 37500,
-          "sample": 6
+          "city": "广州",
+          "count": 5,
+          "median": null,
+          "sample": 0
         },
         {
           "city": "南京",
@@ -1058,12 +1067,6 @@
           "count": 1,
           "median": 15000,
           "sample": 1
-        },
-        {
-          "city": "龙岩",
-          "count": 1,
-          "median": 7700,
-          "sample": 1
         }
       ]
     },
@@ -1078,7 +1081,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 124,
+          "job_count": 275,
           "salary": {
             "p25": 40000,
             "p50": 53750,
@@ -1090,12 +1093,13 @@
           "tier": "新一线",
           "cities_in_tier": [
             "南京",
+            "成都",
             "杭州",
             "苏州",
             "郑州",
             "长沙"
           ],
-          "job_count": 15,
+          "job_count": 17,
           "salary": {
             "p25": 40000,
             "p50": 45000,
@@ -1126,33 +1130,33 @@
       "top_cities": [
         {
           "city": "北京",
-          "count": 64,
+          "count": 122,
           "median": 53750,
           "sample": 32
         },
         {
+          "city": "深圳",
+          "count": 80,
+          "median": 51250,
+          "sample": 14
+        },
+        {
           "city": "上海",
-          "count": 42,
+          "count": 51,
           "median": 55000,
           "sample": 24
         },
         {
-          "city": "深圳",
-          "count": 14,
-          "median": 51250,
-          "sample": 14
+          "city": "广州",
+          "count": 22,
+          "median": 62500,
+          "sample": 4
         },
         {
           "city": "杭州",
           "count": 10,
           "median": 47500,
           "sample": 10
-        },
-        {
-          "city": "广州",
-          "count": 4,
-          "median": 62500,
-          "sample": 4
         },
         {
           "city": "广东 深圳市",
@@ -1167,10 +1171,10 @@
           "sample": 1
         },
         {
-          "city": "南京",
-          "count": 1,
-          "median": 62500,
-          "sample": 1
+          "city": "成都",
+          "count": 2,
+          "median": null,
+          "sample": 0
         }
       ]
     },
@@ -1185,7 +1189,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 16,
+          "job_count": 21,
           "salary": {
             "p25": 12500,
             "p50": 22500,
@@ -1217,28 +1221,28 @@
           "sample": 5
         },
         {
+          "city": "深圳",
+          "count": 7,
+          "median": 10000,
+          "sample": 3
+        },
+        {
           "city": "杭州",
           "count": 5,
           "median": 46667,
           "sample": 5
         },
         {
+          "city": "北京",
+          "count": 4,
+          "median": 56875,
+          "sample": 2
+        },
+        {
           "city": "广州",
           "count": 3,
           "median": 30000,
           "sample": 3
-        },
-        {
-          "city": "深圳",
-          "count": 3,
-          "median": 10000,
-          "sample": 3
-        },
-        {
-          "city": "北京",
-          "count": 3,
-          "median": 56875,
-          "sample": 2
         },
         {
           "city": "重庆",
@@ -1265,7 +1269,7 @@
             "广州",
             "深圳"
           ],
-          "job_count": 57,
+          "job_count": 77,
           "salary": {
             "p25": 19500,
             "p50": 30000,
@@ -1281,13 +1285,14 @@
             "成都",
             "杭州",
             "武汉",
+            "沈阳",
             "苏州",
             "西安",
             "郑州",
             "重庆",
             "长沙"
           ],
-          "job_count": 28,
+          "job_count": 29,
           "salary": {
             "p25": 12500,
             "p50": 15000,
@@ -1326,25 +1331,25 @@
       "top_cities": [
         {
           "city": "上海",
-          "count": 24,
+          "count": 29,
           "median": 36250,
           "sample": 24
         },
         {
           "city": "北京",
-          "count": 15,
+          "count": 22,
           "median": 50000,
           "sample": 15
         },
         {
           "city": "深圳",
-          "count": 10,
+          "count": 16,
           "median": 67500,
           "sample": 10
         },
         {
           "city": "广州",
-          "count": 8,
+          "count": 10,
           "median": 15500,
           "sample": 8
         },
@@ -1642,6 +1647,7 @@
             "Tokyo",
             "US (Remote-friendly)",
             "US REMOTE",
+            "US-California-Palo Alto",
             "UTC+5:30 to UTC+10:00) AND Remote (US)",
             "United Arab Emirates",
             "United States",
@@ -1654,7 +1660,7 @@
             "Zürich",
             "or Remote within U.S"
           ],
-          "job_count": 391,
+          "job_count": 392,
           "salary": {
             "p25": 70687,
             "p50": 87000,
@@ -1976,6 +1982,7 @@
             "US Redmond",
             "US Remote (OH-based preferred)",
             "US-Based",
+            "US-California-Palo Alto",
             "United Kingdom",
             "United States",
             "Utrecht",
@@ -1997,7 +2004,7 @@
             "remote within EU",
             "the Netherlands"
           ],
-          "job_count": 987,
+          "job_count": 988,
           "salary": {
             "p25": 57975,
             "p50": 77937,
@@ -2233,6 +2240,7 @@
             "Sector 62",
             "Seoul",
             "Singapore",
+            "Singapore-CapitaSky",
             "South Korea",
             "Southern California",
             "Spokane",
@@ -2249,6 +2257,7 @@
             "Toronto",
             "Troy",
             "UK or San Francisco",
+            "US-California-Palo Alto",
             "United States",
             "Utah",
             "Vancouver",
@@ -2265,7 +2274,7 @@
             "open to remote",
             "optional hubs SF & Toronto"
           ],
-          "job_count": 621,
+          "job_count": 625,
           "salary": {
             "p25": 54976,
             "p50": 67062,
@@ -2409,6 +2418,7 @@
             "Irvine",
             "Jackson Township",
             "Jacksonville",
+            "Japan-Tokyo-Business Tower",
             "Kennesaw",
             "Kentucky",
             "Kirkland",
@@ -2502,6 +2512,7 @@
             "Seattle HQ",
             "Shirley",
             "Singapore",
+            "Singapore-CapitaSky",
             "Somerset",
             "Somerville MA",
             "Somerville MA)",
@@ -2523,7 +2534,9 @@
             "Toronto",
             "U.S",
             "UK + hubs in NYC",
+            "UK-London",
             "US-California-Palo Alto",
+            "US-Washington-Bellevue",
             "United Kingdom",
             "United States",
             "University Park",
@@ -2547,7 +2560,7 @@
             "Zürich",
             "or remote in US"
           ],
-          "job_count": 983,
+          "job_count": 992,
           "salary": {
             "p25": 70331,
             "p50": 90458,
@@ -2802,6 +2815,7 @@
             "The Netherlands",
             "Toronto",
             "Troy",
+            "UK-London",
             "United Kingdom",
             "United States",
             "Urbana",
@@ -2819,7 +2833,7 @@
             "Winona",
             "Woodridge"
           ],
-          "job_count": 599,
+          "job_count": 601,
           "salary": {
             "p25": 14335,
             "p50": 26448,
@@ -2914,12 +2928,13 @@
             "Seattle",
             "Sunnyvale",
             "Toronto",
+            "US-California-Palo Alto",
             "United States",
             "Westboro",
             "null",
             "or New York"
           ],
-          "job_count": 104,
+          "job_count": 105,
           "salary": {
             "p25": 55892,
             "p50": 76536,
@@ -3007,6 +3022,7 @@
             "Fremont",
             "Germany",
             "India",
+            "Indonesia-Jakarta",
             "Japan",
             "London",
             "Milwaukee",
@@ -3048,7 +3064,7 @@
             "Washington",
             "or Bangalore"
           ],
-          "job_count": 163,
+          "job_count": 164,
           "salary": {
             "p25": 78094,
             "p50": 100593,
@@ -3165,6 +3181,12 @@
           "sample": 1
         },
         {
+          "city": "Bellevue",
+          "count": 1,
+          "median": null,
+          "sample": 0
+        },
+        {
           "city": "Remote Europe",
           "count": 1,
           "median": null,
@@ -3172,12 +3194,6 @@
         },
         {
           "city": "Cardiff",
-          "count": 1,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "Bellevue",
           "count": 1,
           "median": null,
           "sample": 0
@@ -3495,10 +3511,10 @@
           "sample": 0
         },
         {
-          "city": "Lancaster",
+          "city": "New York",
           "count": 2,
-          "median": 26462,
-          "sample": 2
+          "median": null,
+          "sample": 0
         },
         {
           "city": "Santa Clara",
@@ -3507,10 +3523,10 @@
           "sample": 1
         },
         {
-          "city": "New York",
+          "city": "Lancaster",
           "count": 2,
-          "median": null,
-          "sample": 0
+          "median": 26462,
+          "sample": 2
         },
         {
           "city": "San Francisco",
@@ -3582,12 +3598,6 @@
           "sample": 8
         },
         {
-          "city": "New York City",
-          "count": 5,
-          "median": 105162,
-          "sample": 3
-        },
-        {
           "city": "Bengaluru",
           "count": 5,
           "median": null,
@@ -3606,15 +3616,15 @@
           "sample": 0
         },
         {
-          "city": "North America",
-          "count": 4,
-          "median": 87690,
+          "city": "New York City",
+          "count": 5,
+          "median": 105162,
           "sample": 3
         },
         {
-          "city": "London",
+          "city": "North America",
           "count": 4,
-          "median": 130275,
+          "median": 87690,
           "sample": 3
         },
         {
@@ -3622,6 +3632,12 @@
           "count": 4,
           "median": null,
           "sample": 0
+        },
+        {
+          "city": "London",
+          "count": 4,
+          "median": 130275,
+          "sample": 3
         }
       ]
     }

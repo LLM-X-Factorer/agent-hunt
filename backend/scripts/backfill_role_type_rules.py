@@ -168,6 +168,10 @@ AI_NATIVE_VENDOR_PLATFORMS = {
     "vendor_openai", "vendor_anthropic", "vendor_xai", "vendor_cohere",
     "vendor_deepmind", "vendor_zhipuai", "vendor_minimax", "vendor_moonshot",
     "vendor_baichuan",
+    # Tencent isn't a pure AI shop, but every entry comes from an AI-keyword
+    # search (collect_vendor_tencent.py) so the listings are AI-business-relevant
+    # even when the title is generic ("Backend Engineer - LLM team").
+    "vendor_tencent",
 }
 
 # GitHub hiring repos pre-filter to AI/ML/Data categories at ingest time —

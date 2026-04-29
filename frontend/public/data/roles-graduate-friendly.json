@@ -24,8 +24,43 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 14.2,
-      "totalJobs": 173,
+      "graduateFriendlyScore": 8.7,
+      "totalJobs": 30,
+      "campusJobCount": 0,
+      "internshipJobCount": 2,
+      "freshJobCount": 5,
+      "freshSalaryMedian": 12500,
+      "socialSalaryMedian": 20250,
+      "topCampusCities": [
+        {
+          "city": "武汉",
+          "count": 2
+        },
+        {
+          "city": "深圳",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        },
+        {
+          "city": "宿州",
+          "count": 1
+        },
+        {
+          "city": "郑州",
+          "count": 1
+        }
+      ],
+      "roleId": "education_ai",
+      "roleName": "AI 教育",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
+    },
+    {
+      "graduateFriendlyScore": 7.5,
+      "totalJobs": 328,
       "campusJobCount": 18,
       "internshipJobCount": 26,
       "freshJobCount": 32,
@@ -71,8 +106,31 @@
       "applicantOfferCount": 16
     },
     {
-      "graduateFriendlyScore": 9.2,
-      "totalJobs": 531,
+      "graduateFriendlyScore": 7.1,
+      "totalJobs": 14,
+      "campusJobCount": 0,
+      "internshipJobCount": 2,
+      "freshJobCount": 2,
+      "freshSalaryMedian": 2800,
+      "socialSalaryMedian": 10000,
+      "topCampusCities": [
+        {
+          "city": "咸阳 秦都区",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        }
+      ],
+      "roleId": "medical_ai",
+      "roleName": "医疗AI专岗",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
+    },
+    {
+      "graduateFriendlyScore": 6.6,
+      "totalJobs": 734,
       "campusJobCount": 34,
       "internshipJobCount": 41,
       "freshJobCount": 66,
@@ -118,43 +176,8 @@
       "applicantOfferCount": 2
     },
     {
-      "graduateFriendlyScore": 8.7,
-      "totalJobs": 30,
-      "campusJobCount": 0,
-      "internshipJobCount": 2,
-      "freshJobCount": 5,
-      "freshSalaryMedian": 12500,
-      "socialSalaryMedian": 20250,
-      "topCampusCities": [
-        {
-          "city": "武汉",
-          "count": 2
-        },
-        {
-          "city": "深圳",
-          "count": 1
-        },
-        {
-          "city": "北京",
-          "count": 1
-        },
-        {
-          "city": "宿州",
-          "count": 1
-        },
-        {
-          "city": "郑州",
-          "count": 1
-        }
-      ],
-      "roleId": "education_ai",
-      "roleName": "AI 教育",
-      "applicantSignalCount": 0,
-      "applicantOfferCount": 0
-    },
-    {
-      "graduateFriendlyScore": 8.0,
-      "totalJobs": 155,
+      "graduateFriendlyScore": 6.3,
+      "totalJobs": 197,
       "campusJobCount": 7,
       "internshipJobCount": 12,
       "freshJobCount": 18,
@@ -200,31 +223,8 @@
       "applicantOfferCount": 8
     },
     {
-      "graduateFriendlyScore": 7.1,
-      "totalJobs": 14,
-      "campusJobCount": 0,
-      "internshipJobCount": 2,
-      "freshJobCount": 2,
-      "freshSalaryMedian": 2800,
-      "socialSalaryMedian": 10000,
-      "topCampusCities": [
-        {
-          "city": "咸阳 秦都区",
-          "count": 1
-        },
-        {
-          "city": "北京",
-          "count": 1
-        }
-      ],
-      "roleId": "medical_ai",
-      "roleName": "医疗AI专岗",
-      "applicantSignalCount": 0,
-      "applicantOfferCount": 0
-    },
-    {
-      "graduateFriendlyScore": 5.7,
-      "totalJobs": 130,
+      "graduateFriendlyScore": 4.9,
+      "totalJobs": 152,
       "campusJobCount": 1,
       "internshipJobCount": 2,
       "freshJobCount": 15,
@@ -270,27 +270,8 @@
       "applicantOfferCount": 3
     },
     {
-      "graduateFriendlyScore": 5.2,
-      "totalJobs": 27,
-      "campusJobCount": 1,
-      "internshipJobCount": 1,
-      "freshJobCount": 2,
-      "freshSalaryMedian": 9750,
-      "socialSalaryMedian": 27500,
-      "topCampusCities": [
-        {
-          "city": "深圳",
-          "count": 2
-        }
-      ],
-      "roleId": "risk_compliance",
-      "roleName": "AI 风控/合规",
-      "applicantSignalCount": 0,
-      "applicantOfferCount": 0
-    },
-    {
-      "graduateFriendlyScore": 4.8,
-      "totalJobs": 71,
+      "graduateFriendlyScore": 4.7,
+      "totalJobs": 73,
       "campusJobCount": 0,
       "internshipJobCount": 2,
       "freshJobCount": 8,
@@ -336,39 +317,27 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 4.6,
-      "totalJobs": 41,
+      "graduateFriendlyScore": 4.4,
+      "totalJobs": 32,
       "campusJobCount": 1,
       "internshipJobCount": 1,
-      "freshJobCount": 3,
-      "freshSalaryMedian": 11350,
-      "socialSalaryMedian": 35000,
+      "freshJobCount": 2,
+      "freshSalaryMedian": 9750,
+      "socialSalaryMedian": 27500,
       "topCampusCities": [
         {
-          "city": "北京",
-          "count": 1
-        },
-        {
-          "city": "上海",
-          "count": 1
-        },
-        {
-          "city": "重庆 南岸区",
-          "count": 1
-        },
-        {
-          "city": "龙岩",
-          "count": 1
+          "city": "深圳",
+          "count": 2
         }
       ],
-      "roleId": "data",
-      "roleName": "数据分析/数据科学",
-      "applicantSignalCount": 3,
-      "applicantOfferCount": 3
+      "roleId": "risk_compliance",
+      "roleName": "AI 风控/合规",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
     },
     {
       "graduateFriendlyScore": 3.0,
-      "totalJobs": 82,
+      "totalJobs": 83,
       "campusJobCount": 0,
       "internshipJobCount": 1,
       "freshJobCount": 6,
@@ -406,43 +375,39 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 2.7,
-      "totalJobs": 342,
-      "campusJobCount": 5,
-      "internshipJobCount": 5,
-      "freshJobCount": 13,
-      "freshSalaryMedian": 25000,
-      "socialSalaryMedian": 32541,
+      "graduateFriendlyScore": 2.3,
+      "totalJobs": 82,
+      "campusJobCount": 1,
+      "internshipJobCount": 1,
+      "freshJobCount": 3,
+      "freshSalaryMedian": 11350,
+      "socialSalaryMedian": 35000,
       "topCampusCities": [
         {
-          "city": "上海",
-          "count": 6
-        },
-        {
           "city": "北京",
-          "count": 4
-        },
-        {
-          "city": "深圳",
-          "count": 3
-        },
-        {
-          "city": "广州",
           "count": 1
         },
         {
-          "city": "杭州",
+          "city": "上海",
+          "count": 1
+        },
+        {
+          "city": "重庆 南岸区",
+          "count": 1
+        },
+        {
+          "city": "龙岩",
           "count": 1
         }
       ],
-      "roleId": "product_manager",
-      "roleName": "AI 产品经理",
-      "applicantSignalCount": 32,
-      "applicantOfferCount": 16
+      "roleId": "data",
+      "roleName": "数据分析/数据科学",
+      "applicantSignalCount": 3,
+      "applicantOfferCount": 3
     },
     {
-      "graduateFriendlyScore": 2.5,
-      "totalJobs": 125,
+      "graduateFriendlyScore": 2.2,
+      "totalJobs": 144,
       "campusJobCount": 1,
       "internshipJobCount": 2,
       "freshJobCount": 6,
@@ -480,8 +445,43 @@
       "applicantOfferCount": 0
     },
     {
+      "graduateFriendlyScore": 2.1,
+      "totalJobs": 439,
+      "campusJobCount": 5,
+      "internshipJobCount": 5,
+      "freshJobCount": 13,
+      "freshSalaryMedian": 25000,
+      "socialSalaryMedian": 32541,
+      "topCampusCities": [
+        {
+          "city": "上海",
+          "count": 6
+        },
+        {
+          "city": "北京",
+          "count": 4
+        },
+        {
+          "city": "深圳",
+          "count": 3
+        },
+        {
+          "city": "广州",
+          "count": 1
+        },
+        {
+          "city": "杭州",
+          "count": 1
+        }
+      ],
+      "roleId": "product_manager",
+      "roleName": "AI 产品经理",
+      "applicantSignalCount": 32,
+      "applicantOfferCount": 16
+    },
+    {
       "graduateFriendlyScore": 1.9,
-      "totalJobs": 99,
+      "totalJobs": 101,
       "campusJobCount": 1,
       "internshipJobCount": 1,
       "freshJobCount": 3,
@@ -509,8 +509,8 @@
   ],
   "international": [
     {
-      "graduateFriendlyScore": 96.1,
-      "totalJobs": 492,
+      "graduateFriendlyScore": 95.7,
+      "totalJobs": 494,
       "campusJobCount": 465,
       "internshipJobCount": 471,
       "freshJobCount": 482,
@@ -603,8 +603,8 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 65.9,
-      "totalJobs": 781,
+      "graduateFriendlyScore": 65.2,
+      "totalJobs": 790,
       "campusJobCount": 523,
       "internshipJobCount": 365,
       "freshJobCount": 542,
@@ -640,7 +640,7 @@
           "count": 19
         },
         {
-          "city": "Cambridge",
+          "city": "Remote in USA",
           "count": 18
         }
       ],
@@ -650,8 +650,8 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 49.1,
-      "totalJobs": 540,
+      "graduateFriendlyScore": 48.8,
+      "totalJobs": 544,
       "campusJobCount": 270,
       "internshipJobCount": 189,
       "freshJobCount": 278,
@@ -714,19 +714,19 @@
           "count": 2
         },
         {
-          "city": "San Francisco",
-          "count": 1
-        },
-        {
           "city": "Santa Clara",
           "count": 1
         },
         {
-          "city": "Los Altos",
+          "city": "Troy",
           "count": 1
         },
         {
-          "city": "Troy",
+          "city": "San Francisco",
+          "count": 1
+        },
+        {
+          "city": "Los Altos",
           "count": 1
         },
         {
@@ -769,6 +769,10 @@
           "count": 4
         },
         {
+          "city": "Toronto",
+          "count": 1
+        },
+        {
           "city": "NYC",
           "count": 1
         },
@@ -779,10 +783,6 @@
         {
           "city": "Germany",
           "count": 1
-        },
-        {
-          "city": "Santa Clara",
-          "count": 1
         }
       ],
       "roleId": "sales_bd",
@@ -792,7 +792,7 @@
     },
     {
       "graduateFriendlyScore": 16.7,
-      "totalJobs": 808,
+      "totalJobs": 809,
       "campusJobCount": 133,
       "internshipJobCount": 81,
       "freshJobCount": 148,
@@ -838,8 +838,8 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 15.4,
-      "totalJobs": 105,
+      "graduateFriendlyScore": 15.3,
+      "totalJobs": 106,
       "campusJobCount": 17,
       "internshipJobCount": 9,
       "freshJobCount": 17,
@@ -885,8 +885,8 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 15.1,
-      "totalJobs": 107,
+      "graduateFriendlyScore": 15.0,
+      "totalJobs": 108,
       "campusJobCount": 16,
       "internshipJobCount": 14,
       "freshJobCount": 17,
@@ -941,11 +941,11 @@
       "socialSalaryMedian": 51494,
       "topCampusCities": [
         {
-          "city": "Cardiff",
+          "city": "Bellevue",
           "count": 1
         },
         {
-          "city": "Bellevue",
+          "city": "Cardiff",
           "count": 1
         },
         {
@@ -960,7 +960,7 @@
     },
     {
       "graduateFriendlyScore": 9.3,
-      "totalJobs": 328,
+      "totalJobs": 329,
       "campusJobCount": 33,
       "internshipJobCount": 1,
       "freshJobCount": 35,
@@ -980,6 +980,10 @@
           "count": 4
         },
         {
+          "city": "Bothell",
+          "count": 2
+        },
+        {
           "city": "Pittsburgh",
           "count": 2
         },
@@ -993,10 +997,6 @@
         },
         {
           "city": "Columbus",
-          "count": 2
-        },
-        {
-          "city": "Bothell",
           "count": 2
         }
       ],

@@ -58,7 +58,7 @@
     },
     {
       "industry": "internet",
-      "job_count": 197,
+      "job_count": 201,
       "salary_sample_size": 191,
       "p25": 13500.0,
       "p50": 25000,
@@ -109,5 +109,5 @@
     "internet_sample_size": 191,
     "delta_pct": 20.0
   },
-  "total_jobs": 909
+  "total_jobs": 913
 }
