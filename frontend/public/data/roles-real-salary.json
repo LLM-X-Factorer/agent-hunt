@@ -266,11 +266,11 @@
           "count": 11
         },
         {
-          "level": "Associate Product Manager 2",
+          "level": "Associate Product Manager 1",
           "count": 10
         },
         {
-          "level": "Associate Product Manager 1",
+          "level": "Associate Product Manager 2",
           "count": 10
         },
         {
@@ -754,15 +754,15 @@
           "count": 8
         },
         {
+          "level": "T9",
+          "count": 7
+        },
+        {
           "level": "T6",
           "count": 7
         },
         {
           "level": "T5",
-          "count": 7
-        },
-        {
-          "level": "T9",
           "count": 7
         }
       ]
@@ -1078,7 +1078,7 @@
           "count": 5
         },
         {
-          "level": "T11",
+          "level": "T6",
           "count": 2
         },
         {
@@ -1086,7 +1086,7 @@
           "count": 2
         },
         {
-          "level": "T6",
+          "level": "T12",
           "count": 2
         },
         {
@@ -1094,7 +1094,7 @@
           "count": 2
         },
         {
-          "level": "T12",
+          "level": "T11",
           "count": 2
         },
         {
@@ -1192,7 +1192,7 @@
           "count": 4
         },
         {
-          "level": "18",
+          "level": "15",
           "count": 2
         },
         {
@@ -1200,7 +1200,7 @@
           "count": 2
         },
         {
-          "level": "15",
+          "level": "18",
           "count": 2
         },
         {
@@ -1272,11 +1272,11 @@
           "count": 4
         },
         {
-          "level": "P7",
+          "level": "P8",
           "count": 2
         },
         {
-          "level": "P8",
+          "level": "P7",
           "count": 2
         }
       ]

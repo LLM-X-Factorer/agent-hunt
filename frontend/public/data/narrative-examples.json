@@ -1077,6 +1077,115 @@
         "source_url": "https://www.zhipin.com/job_detail/fc122846d5be8dd90nR82t-8GFVR.html"
       }
     ],
+    "media": [
+      {
+        "title": "AI小说/影视网剧/漫画推文线上矩阵视频发布",
+        "company": "星耀文化(广东)有限公司",
+        "location": "深圳",
+        "salary_min": 7000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 7000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [
+          "AI小说/影视网剧/漫画推文线上矩阵视频发布"
+        ],
+        "base_profession": "视频发布/内容运营",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1973001629.shtml"
+      },
+      {
+        "title": "短剧/AI漫剧剪辑师-懂剧本",
+        "company": "同道猎聘集团",
+        "location": "深圳-龙华区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "1-3y",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "Video Editing",
+          "Scriptwriting"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "Video Editor",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981732589.shtml"
+      },
+      {
+        "title": "AIGC短剧剪辑师",
+        "company": null,
+        "location": "北京-海淀区",
+        "salary_min": 10000,
+        "salary_max": 13000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 13000,
+        "experience_requirement": "1-3y",
+        "education": null,
+        "work_mode": null,
+        "required_skills": [
+          "AIGC",
+          "video editing"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "video editor",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74602813.shtml"
+      },
+      {
+        "title": "短剧/AI漫剧剪辑师-懂剧本",
+        "company": null,
+        "location": "深圳-龙华区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": null,
+        "required_skills": [
+          "剧本"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "剪辑师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73856859.shtml"
+      },
+      {
+        "title": "AI内容策划（AIGC精品横屏短剧方向）",
+        "company": "耀客传媒",
+        "location": "北京-朝阳区",
+        "salary_min": 15000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": null,
+        "required_skills": [
+          "AIGC"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "内容策划",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981315085.shtml"
+      }
+    ],
     "other": [
       {
         "title": "区域地产数字化产品负责人（AI转型）",
@@ -1326,115 +1435,6 @@
         "base_profession": "智能制造工程师",
         "platform_id": "boss_zhipin",
         "source_url": "https://www.zhipin.com/job_detail/d51c1dc8ff464a9f0nR509-8GVVY.html"
-      }
-    ],
-    "media": [
-      {
-        "title": "AI小说/影视网剧/漫画推文线上矩阵视频发布",
-        "company": "星耀文化(广东)有限公司",
-        "location": "深圳",
-        "salary_min": 7000,
-        "salary_max": 12000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 7000,
-        "salary_max_cny_monthly": 12000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [],
-        "preferred_skills": [],
-        "responsibilities": [
-          "AI小说/影视网剧/漫画推文线上矩阵视频发布"
-        ],
-        "base_profession": "视频发布/内容运营",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1973001629.shtml"
-      },
-      {
-        "title": "短剧/AI漫剧剪辑师-懂剧本",
-        "company": "同道猎聘集团",
-        "location": "深圳-龙华区",
-        "salary_min": 10000,
-        "salary_max": 15000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 15000,
-        "experience_requirement": "1-3y",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "Video Editing",
-          "Scriptwriting"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "Video Editor",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1981732589.shtml"
-      },
-      {
-        "title": "AIGC短剧剪辑师",
-        "company": null,
-        "location": "北京-海淀区",
-        "salary_min": 10000,
-        "salary_max": 13000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 13000,
-        "experience_requirement": "1-3y",
-        "education": null,
-        "work_mode": null,
-        "required_skills": [
-          "AIGC",
-          "video editing"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "video editor",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/74602813.shtml"
-      },
-      {
-        "title": "短剧/AI漫剧剪辑师-懂剧本",
-        "company": null,
-        "location": "深圳-龙华区",
-        "salary_min": 10000,
-        "salary_max": 15000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 15000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "剧本"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "剪辑师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/73856859.shtml"
-      },
-      {
-        "title": "AI内容策划（AIGC精品横屏短剧方向）",
-        "company": "耀客传媒",
-        "location": "北京-朝阳区",
-        "salary_min": 15000,
-        "salary_max": 20000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 15000,
-        "salary_max_cny_monthly": 20000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "AIGC"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "内容策划",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1981315085.shtml"
       }
     ],
     "government": [

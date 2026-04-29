@@ -3,13 +3,13 @@
     "job_count": 1347,
     "sample_titles": [
       "AI智能获客",
+      "AI仿真人剧导演",
       "Project Leader (AD-SD)- Therapeutic Antibody Discovery",
       "教研员",
       "AI研究院院长",
       "AI 团队 Leader - Agent 方向",
       "AI Application Engineer (LLM/Agent Direction)",
-      "ComfyUI工作流设计师、AI动画设计师",
-      "Assistant Manager DevOps IT(AI&Data)"
+      "ComfyUI工作流设计师、AI动画设计师"
     ],
     "required_skills": [
       {
@@ -41,11 +41,11 @@
         "count": 4
       },
       {
-        "skill_id": "generative_ai",
+        "skill_id": "java",
         "count": 4
       },
       {
-        "skill_id": "java",
+        "skill_id": "generative_ai",
         "count": 4
       },
       {
@@ -264,11 +264,11 @@
       "AI LLM Product Manager",
       "Product and Digital Manager",
       "行业通用智能体产品经理（toB/toG）",
+      "AI产品经理（医疗MDT）",
       "高级产品经理（AI方向）",
+      "AI产品经理",
       "AI Product Manager (Smart Manufacturing)",
-      "AI Product Manager (LLM AIGC)",
-      "高级产品经理 (工业AI方向)",
-      "AI产品专家-商业应用（金融/医疗/制造等）"
+      "AI Product Manager (LLM AIGC)"
     ],
     "required_skills": [
       {
@@ -394,13 +394,13 @@
     "job_count": 328,
     "sample_titles": [
       "工业AI算法专家",
+      "Algorithm Intern (Industrial AI Direction)",
       "Scientist - AI, Digital and Robotics",
       "Plan& Control Algorithm Engineer 控制规划算法工程师",
       "AI Drug Discovery Scientist",
       "Discovery Lab Analytical Automation Scientist",
       "AI量化研究助理",
-      "券商AI量化研究岗",
-      "E2E Algorithm Architect"
+      "券商AI量化研究岗"
     ],
     "required_skills": [
       {
@@ -631,14 +631,14 @@
   {
     "job_count": 152,
     "sample_titles": [
+      "医疗器械销售代表-外周介入",
       "医疗器械销售代表",
       "AI Customer Acquisition / Private Domain Traffic Generation",
       "医疗AI销售",
       "National Sales Director (Industrial AI)",
       "医疗AI产品销售",
       "医疗AI一体机销售",
-      "医疗器械销售代表-外周",
-      "医疗器械销售代表-外周介入"
+      "医疗器械销售代表-外周"
     ],
     "required_skills": [
       {
@@ -801,12 +801,12 @@
     "sample_titles": [
       "商业化副总裁(VP)/自动驾驶政企事业部总经理",
       "ADAS Platform Software Engineer",
+      "智能座舱项目管理",
+      "智能座舱项目经理",
       "L4自动驾驶测试",
       "自动驾驶系统测试工程师",
       "自动驾驶工程师",
-      "自动驾驶生态合作高级专家",
-      "GR (Autonomous Driving)",
-      "自动驾驶安全员"
+      "自动驾驶生态合作高级专家"
     ],
     "required_skills": [
       {
@@ -1150,14 +1150,14 @@
   {
     "job_count": 32,
     "sample_titles": [
+      "后端开发-智能风控方向",
       "智能风控经理",
       "风控经理",
       "信贷评审-风控中台（制造加工）",
       "风控专员",
       "风控管培生",
       "风控专家",
-      "交易风控岗",
-      "采供内控专家（智能风控方向）"
+      "交易风控岗"
     ],
     "required_skills": [
       {
@@ -1266,12 +1266,12 @@
     "sample_titles": [
       "AI教育讲师",
       "教育人工智能专员",
+      "智能教育产品交付与服务经理",
       "AI+教育解决方案岗位",
       "市场经理-”AI+教育“",
       "AI技术人员-教育应用、AI讲师",
       "AI高级人工智能教育讲师",
-      "高职人工智能教育产品开发（产教融合）",
-      "智能教育产品交付与服务经理"
+      "高职人工智能教育产品开发（产教融合）"
     ],
     "required_skills": [
       {

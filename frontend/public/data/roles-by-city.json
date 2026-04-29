@@ -609,6 +609,127 @@
         }
       ]
     },
+    "sales_bd": {
+      "role_name": "AI 销售/商务",
+      "by_tier": [
+        {
+          "tier": "一线",
+          "cities_in_tier": [
+            "上海",
+            "北京",
+            "广州",
+            "深圳"
+          ],
+          "job_count": 77,
+          "salary": {
+            "p25": 19500,
+            "p50": 30000,
+            "p75": 70000,
+            "sample_size": 57
+          }
+        },
+        {
+          "tier": "新一线",
+          "cities_in_tier": [
+            "合肥",
+            "宁波",
+            "成都",
+            "杭州",
+            "武汉",
+            "沈阳",
+            "苏州",
+            "西安",
+            "郑州",
+            "重庆",
+            "长沙"
+          ],
+          "job_count": 29,
+          "salary": {
+            "p25": 12500,
+            "p50": 15000,
+            "p75": 22500,
+            "sample_size": 28
+          }
+        },
+        {
+          "tier": "其他国内",
+          "cities_in_tier": [
+            "南充-顺庆区",
+            "厦门",
+            "呼和浩特-新",
+            "嘉兴",
+            "太原",
+            "常州-金坛区",
+            "昆明",
+            "济南",
+            "淮安",
+            "石家庄",
+            "石家庄-桥西",
+            "福州",
+            "荆门 掇刀区",
+            "贵阳 观山湖",
+            "长沙-岳麓区"
+          ],
+          "job_count": 20,
+          "salary": {
+            "p25": 11500,
+            "p50": 16750,
+            "p75": 30000,
+            "sample_size": 20
+          }
+        }
+      ],
+      "top_cities": [
+        {
+          "city": "上海",
+          "count": 29,
+          "median": 36250,
+          "sample": 24
+        },
+        {
+          "city": "北京",
+          "count": 22,
+          "median": 50000,
+          "sample": 15
+        },
+        {
+          "city": "深圳",
+          "count": 16,
+          "median": 67500,
+          "sample": 10
+        },
+        {
+          "city": "广州",
+          "count": 10,
+          "median": 15500,
+          "sample": 8
+        },
+        {
+          "city": "西安",
+          "count": 6,
+          "median": 12500,
+          "sample": 6
+        },
+        {
+          "city": "成都",
+          "count": 5,
+          "median": 15000,
+          "sample": 5
+        },
+        {
+          "city": "昆明",
+          "count": 4,
+          "median": 43333,
+          "sample": 4
+        },
+        {
+          "city": "杭州",
+          "count": 4,
+          "median": 18750,
+          "sample": 4
+        }
+      ]
+    },
     "smart_manufacturing": {
       "role_name": "智能制造/工业AI",
       "by_tier": [
@@ -1255,127 +1376,6 @@
           "count": 1,
           "median": 6500,
           "sample": 1
-        }
-      ]
-    },
-    "sales_bd": {
-      "role_name": "AI 销售/商务",
-      "by_tier": [
-        {
-          "tier": "一线",
-          "cities_in_tier": [
-            "上海",
-            "北京",
-            "广州",
-            "深圳"
-          ],
-          "job_count": 77,
-          "salary": {
-            "p25": 19500,
-            "p50": 30000,
-            "p75": 70000,
-            "sample_size": 57
-          }
-        },
-        {
-          "tier": "新一线",
-          "cities_in_tier": [
-            "合肥",
-            "宁波",
-            "成都",
-            "杭州",
-            "武汉",
-            "沈阳",
-            "苏州",
-            "西安",
-            "郑州",
-            "重庆",
-            "长沙"
-          ],
-          "job_count": 29,
-          "salary": {
-            "p25": 12500,
-            "p50": 15000,
-            "p75": 22500,
-            "sample_size": 28
-          }
-        },
-        {
-          "tier": "其他国内",
-          "cities_in_tier": [
-            "南充-顺庆区",
-            "厦门",
-            "呼和浩特-新",
-            "嘉兴",
-            "太原",
-            "常州-金坛区",
-            "昆明",
-            "济南",
-            "淮安",
-            "石家庄",
-            "石家庄-桥西",
-            "福州",
-            "荆门 掇刀区",
-            "贵阳 观山湖",
-            "长沙-岳麓区"
-          ],
-          "job_count": 20,
-          "salary": {
-            "p25": 11500,
-            "p50": 16750,
-            "p75": 30000,
-            "sample_size": 20
-          }
-        }
-      ],
-      "top_cities": [
-        {
-          "city": "上海",
-          "count": 29,
-          "median": 36250,
-          "sample": 24
-        },
-        {
-          "city": "北京",
-          "count": 22,
-          "median": 50000,
-          "sample": 15
-        },
-        {
-          "city": "深圳",
-          "count": 16,
-          "median": 67500,
-          "sample": 10
-        },
-        {
-          "city": "广州",
-          "count": 10,
-          "median": 15500,
-          "sample": 8
-        },
-        {
-          "city": "西安",
-          "count": 6,
-          "median": 12500,
-          "sample": 6
-        },
-        {
-          "city": "成都",
-          "count": 5,
-          "median": 15000,
-          "sample": 5
-        },
-        {
-          "city": "昆明",
-          "count": 4,
-          "median": 43333,
-          "sample": 4
-        },
-        {
-          "city": "杭州",
-          "count": 4,
-          "median": 18750,
-          "sample": 4
         }
       ]
     },
@@ -2064,276 +2064,6 @@
         }
       ]
     },
-    "ml_engineer": {
-      "role_name": "ML/AI Engineer",
-      "by_tier": [
-        {
-          "tier": "海外",
-          "cities_in_tier": [
-            "Albany",
-            "Amsterdam",
-            "Ann Arbor",
-            "Annual Travel",
-            "Arizona",
-            "Ashburn",
-            "Atlanta",
-            "Auburn AL → SF",
-            "Austin",
-            "Australia",
-            "Bangalore",
-            "Barcelona",
-            "Bay Area",
-            "Belgium",
-            "Bellevue",
-            "Bengaluru",
-            "Berlin",
-            "Berlin (Remote)",
-            "Boston",
-            "Boulder",
-            "Bristol",
-            "Brookfield",
-            "Brooklyn or San Francisco",
-            "Brussels",
-            "Burlingame",
-            "Burlington",
-            "CA (HQ)",
-            "CA or Frisco",
-            "CA) w",
-            "Calgary",
-            "California",
-            "Cambridge",
-            "Canada)",
-            "Canada: REMOTE",
-            "Canton",
-            "Centreville",
-            "Charlotte",
-            "Chicago",
-            "Colorado",
-            "Colorado Springs",
-            "Columbus",
-            "Copenhagen",
-            "Costa Mesa",
-            "Dallas",
-            "Delhi",
-            "Denmark",
-            "Denver",
-            "Des Moines",
-            "Detroit",
-            "Dublin",
-            "Durham",
-            "EU: REMOTE",
-            "Eindhoven",
-            "El Segundo (LA Area)",
-            "Europe)",
-            "Foster City",
-            "France",
-            "Fremont",
-            "GMT-5 to GMT+5 preferred)",
-            "Germany",
-            "Ghent (EU)",
-            "Glasgow",
-            "Glendale",
-            "Groton",
-            "Hillsboro",
-            "Huntsville",
-            "Hybrid (Chicago)",
-            "Illinois",
-            "India",
-            "India - Bangalore",
-            "Ireland",
-            "Irvine",
-            "Irving",
-            "Iselin",
-            "Japan",
-            "Jena",
-            "Karnataka",
-            "Korea",
-            "LATAM",
-            "Lehi",
-            "Lewisville",
-            "London",
-            "London (first 6 months) -> SF",
-            "Los Angeles",
-            "Los Angeles County",
-            "Los Gatos",
-            "Luxembourg",
-            "MA or New York",
-            "Markham",
-            "McLean",
-            "Menlo Park",
-            "Milford Charter Twp",
-            "Milpitas",
-            "Minneapolis",
-            "Montreal",
-            "Morgantown",
-            "Morristown",
-            "Mountain View",
-            "Mountlake Terrace",
-            "Munich",
-            "Munich or Berlin",
-            "NYC",
-            "NYC area",
-            "NYC or REMOTE (US)",
-            "NYC)",
-            "Nashville",
-            "New Albany",
-            "New York",
-            "New York City",
-            "New Zealand",
-            "Nicasio",
-            "Noida",
-            "Norfolk",
-            "North Carolina",
-            "Norway)",
-            "Ogden",
-            "Palo Alto",
-            "Paris",
-            "Phoenix",
-            "Pleasanton",
-            "Plymouth",
-            "Poland",
-            "REMOTE (EU",
-            "REMOTE (EU timezone)",
-            "REMOTE (London based",
-            "REMOTE (US",
-            "REMOTE (US)",
-            "REMOTE (strong candidates)",
-            "REMOTE LATAM",
-            "Rancho Cordova",
-            "Remote (+ in person in SF",
-            "Remote (Austin",
-            "Remote (Company based on Miami)",
-            "Remote (EST preferred)",
-            "Remote (EU)",
-            "Remote (Global)",
-            "Remote (San Francisco)",
-            "Remote (US",
-            "Remote (US Only)",
-            "Remote (US)",
-            "Remote (US-friendly timezones) or NYC",
-            "Remote (UTC ±2)",
-            "Remote - US",
-            "Remote Anywhere",
-            "Remote EU or Berlin",
-            "Remote in Canada",
-            "Remote in US",
-            "Remote in USA",
-            "Remote – US",
-            "Research Triangle Park",
-            "Reston",
-            "Salt Lake City",
-            "San Antonio",
-            "San Diego",
-            "San Francisco",
-            "San Francisco or Australia",
-            "San Francisco or NYC",
-            "San Francisco or Seattle",
-            "San Jose",
-            "San Mateo",
-            "Santa Clara",
-            "Santa Monica",
-            "Schriever Space Force Base",
-            "Scottsdale",
-            "Seattle",
-            "Seattle OR Arlington",
-            "Seattle or Nashville",
-            "Sector 62",
-            "Seoul",
-            "Singapore",
-            "Singapore-CapitaSky",
-            "South Korea",
-            "Southern California",
-            "Spokane",
-            "St. Louis",
-            "Stamford",
-            "Sunnyvale",
-            "Switzerland",
-            "Sydney",
-            "TX or London",
-            "TX preferred",
-            "Texas)",
-            "The Netherlands",
-            "Tokyo",
-            "Toronto",
-            "Troy",
-            "UK or San Francisco",
-            "US-California-Palo Alto",
-            "United States",
-            "Utah",
-            "Vancouver",
-            "Vienna",
-            "WASHINGTON",
-            "Waltham",
-            "Warren",
-            "Washington",
-            "Waukegan",
-            "Western Springs",
-            "Wilmington",
-            "Wilmington (DE) & Columbus (OH)",
-            "Woodbridge Township",
-            "open to remote",
-            "optional hubs SF & Toronto"
-          ],
-          "job_count": 625,
-          "salary": {
-            "p25": 54976,
-            "p50": 67062,
-            "p75": 84625,
-            "sample_size": 103
-          }
-        }
-      ],
-      "top_cities": [
-        {
-          "city": "San Jose",
-          "count": 67,
-          "median": 65047,
-          "sample": 1
-        },
-        {
-          "city": "San Francisco",
-          "count": 51,
-          "median": 106937,
-          "sample": 12
-        },
-        {
-          "city": "Seattle",
-          "count": 31,
-          "median": 131406,
-          "sample": 3
-        },
-        {
-          "city": "NYC",
-          "count": 19,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "London",
-          "count": 15,
-          "median": 144523,
-          "sample": 2
-        },
-        {
-          "city": "Austin",
-          "count": 14,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "New York",
-          "count": 13,
-          "median": 62531,
-          "sample": 5
-        },
-        {
-          "city": "Mountain View",
-          "count": 13,
-          "median": 74299,
-          "sample": 1
-        }
-      ]
-    },
     "ml_scientist": {
       "role_name": "ML Scientist / Researcher",
       "by_tier": [
@@ -2620,6 +2350,276 @@
         }
       ]
     },
+    "ml_engineer": {
+      "role_name": "ML/AI Engineer",
+      "by_tier": [
+        {
+          "tier": "海外",
+          "cities_in_tier": [
+            "Albany",
+            "Amsterdam",
+            "Ann Arbor",
+            "Annual Travel",
+            "Arizona",
+            "Ashburn",
+            "Atlanta",
+            "Auburn AL → SF",
+            "Austin",
+            "Australia",
+            "Bangalore",
+            "Barcelona",
+            "Bay Area",
+            "Belgium",
+            "Bellevue",
+            "Bengaluru",
+            "Berlin",
+            "Berlin (Remote)",
+            "Boston",
+            "Boulder",
+            "Bristol",
+            "Brookfield",
+            "Brooklyn or San Francisco",
+            "Brussels",
+            "Burlingame",
+            "Burlington",
+            "CA (HQ)",
+            "CA or Frisco",
+            "CA) w",
+            "Calgary",
+            "California",
+            "Cambridge",
+            "Canada)",
+            "Canada: REMOTE",
+            "Canton",
+            "Centreville",
+            "Charlotte",
+            "Chicago",
+            "Colorado",
+            "Colorado Springs",
+            "Columbus",
+            "Copenhagen",
+            "Costa Mesa",
+            "Dallas",
+            "Delhi",
+            "Denmark",
+            "Denver",
+            "Des Moines",
+            "Detroit",
+            "Dublin",
+            "Durham",
+            "EU: REMOTE",
+            "Eindhoven",
+            "El Segundo (LA Area)",
+            "Europe)",
+            "Foster City",
+            "France",
+            "Fremont",
+            "GMT-5 to GMT+5 preferred)",
+            "Germany",
+            "Ghent (EU)",
+            "Glasgow",
+            "Glendale",
+            "Groton",
+            "Hillsboro",
+            "Huntsville",
+            "Hybrid (Chicago)",
+            "Illinois",
+            "India",
+            "India - Bangalore",
+            "Ireland",
+            "Irvine",
+            "Irving",
+            "Iselin",
+            "Japan",
+            "Jena",
+            "Karnataka",
+            "Korea",
+            "LATAM",
+            "Lehi",
+            "Lewisville",
+            "London",
+            "London (first 6 months) -> SF",
+            "Los Angeles",
+            "Los Angeles County",
+            "Los Gatos",
+            "Luxembourg",
+            "MA or New York",
+            "Markham",
+            "McLean",
+            "Menlo Park",
+            "Milford Charter Twp",
+            "Milpitas",
+            "Minneapolis",
+            "Montreal",
+            "Morgantown",
+            "Morristown",
+            "Mountain View",
+            "Mountlake Terrace",
+            "Munich",
+            "Munich or Berlin",
+            "NYC",
+            "NYC area",
+            "NYC or REMOTE (US)",
+            "NYC)",
+            "Nashville",
+            "New Albany",
+            "New York",
+            "New York City",
+            "New Zealand",
+            "Nicasio",
+            "Noida",
+            "Norfolk",
+            "North Carolina",
+            "Norway)",
+            "Ogden",
+            "Palo Alto",
+            "Paris",
+            "Phoenix",
+            "Pleasanton",
+            "Plymouth",
+            "Poland",
+            "REMOTE (EU",
+            "REMOTE (EU timezone)",
+            "REMOTE (London based",
+            "REMOTE (US",
+            "REMOTE (US)",
+            "REMOTE (strong candidates)",
+            "REMOTE LATAM",
+            "Rancho Cordova",
+            "Remote (+ in person in SF",
+            "Remote (Austin",
+            "Remote (Company based on Miami)",
+            "Remote (EST preferred)",
+            "Remote (EU)",
+            "Remote (Global)",
+            "Remote (San Francisco)",
+            "Remote (US",
+            "Remote (US Only)",
+            "Remote (US)",
+            "Remote (US-friendly timezones) or NYC",
+            "Remote (UTC ±2)",
+            "Remote - US",
+            "Remote Anywhere",
+            "Remote EU or Berlin",
+            "Remote in Canada",
+            "Remote in US",
+            "Remote in USA",
+            "Remote – US",
+            "Research Triangle Park",
+            "Reston",
+            "Salt Lake City",
+            "San Antonio",
+            "San Diego",
+            "San Francisco",
+            "San Francisco or Australia",
+            "San Francisco or NYC",
+            "San Francisco or Seattle",
+            "San Jose",
+            "San Mateo",
+            "Santa Clara",
+            "Santa Monica",
+            "Schriever Space Force Base",
+            "Scottsdale",
+            "Seattle",
+            "Seattle OR Arlington",
+            "Seattle or Nashville",
+            "Sector 62",
+            "Seoul",
+            "Singapore",
+            "Singapore-CapitaSky",
+            "South Korea",
+            "Southern California",
+            "Spokane",
+            "St. Louis",
+            "Stamford",
+            "Sunnyvale",
+            "Switzerland",
+            "Sydney",
+            "TX or London",
+            "TX preferred",
+            "Texas)",
+            "The Netherlands",
+            "Tokyo",
+            "Toronto",
+            "Troy",
+            "UK or San Francisco",
+            "US-California-Palo Alto",
+            "United States",
+            "Utah",
+            "Vancouver",
+            "Vienna",
+            "WASHINGTON",
+            "Waltham",
+            "Warren",
+            "Washington",
+            "Waukegan",
+            "Western Springs",
+            "Wilmington",
+            "Wilmington (DE) & Columbus (OH)",
+            "Woodbridge Township",
+            "open to remote",
+            "optional hubs SF & Toronto"
+          ],
+          "job_count": 625,
+          "salary": {
+            "p25": 54976,
+            "p50": 67062,
+            "p75": 84625,
+            "sample_size": 103
+          }
+        }
+      ],
+      "top_cities": [
+        {
+          "city": "San Jose",
+          "count": 67,
+          "median": 65047,
+          "sample": 1
+        },
+        {
+          "city": "San Francisco",
+          "count": 51,
+          "median": 106937,
+          "sample": 12
+        },
+        {
+          "city": "Seattle",
+          "count": 31,
+          "median": 131406,
+          "sample": 3
+        },
+        {
+          "city": "NYC",
+          "count": 19,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "London",
+          "count": 15,
+          "median": 144523,
+          "sample": 2
+        },
+        {
+          "city": "Austin",
+          "count": 14,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "Mountain View",
+          "count": 13,
+          "median": 74299,
+          "sample": 1
+        },
+        {
+          "city": "New York",
+          "count": 13,
+          "median": 62531,
+          "sample": 5
+        }
+      ]
+    },
     "intern_newgrad": {
       "role_name": "Intern / New Grad",
       "by_tier": [
@@ -2886,10 +2886,10 @@
           "sample": 3
         },
         {
-          "city": "New York",
+          "city": "Austin",
           "count": 15,
-          "median": 1522,
-          "sample": 1
+          "median": null,
+          "sample": 0
         }
       ]
     },
@@ -3181,19 +3181,19 @@
           "sample": 1
         },
         {
-          "city": "Bellevue",
-          "count": 1,
-          "median": null,
-          "sample": 0
-        },
-        {
           "city": "Remote Europe",
           "count": 1,
           "median": null,
           "sample": 0
         },
         {
-          "city": "Cardiff",
+          "city": "Basingstoke",
+          "count": 1,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "Bellevue",
           "count": 1,
           "median": null,
           "sample": 0
@@ -3430,16 +3430,16 @@
           "sample": 0
         },
         {
-          "city": "Remote in USA",
-          "count": 11,
-          "median": null,
-          "sample": 0
-        },
-        {
           "city": "Chicago",
           "count": 11,
           "median": 0,
           "sample": 1
+        },
+        {
+          "city": "Remote in USA",
+          "count": 11,
+          "median": null,
+          "sample": 0
         },
         {
           "city": "Washington",
@@ -3452,93 +3452,6 @@
           "count": 8,
           "median": 67968,
           "sample": 3
-        }
-      ]
-    },
-    "autonomous": {
-      "role_name": "Autonomous Vehicles",
-      "by_tier": [
-        {
-          "tier": "海外",
-          "cities_in_tier": [
-            "Atlanta",
-            "Austin TX",
-            "Boston",
-            "California",
-            "Gardena",
-            "Huntsville",
-            "Lancaster",
-            "London",
-            "Los Altos",
-            "Los Angeles",
-            "Mountain View",
-            "New York",
-            "North America",
-            "San Francisco",
-            "San Mateo CA",
-            "Santa Clara",
-            "Troy",
-            "USA (Eastern Time Zone)",
-            "Zurich CH",
-            "or Hybrid"
-          ],
-          "job_count": 28,
-          "salary": {
-            "p25": 21146,
-            "p50": 26462,
-            "p75": 118776,
-            "sample_size": 7
-          }
-        }
-      ],
-      "top_cities": [
-        {
-          "city": "North America",
-          "count": 3,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "Boston",
-          "count": 2,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "Austin TX",
-          "count": 2,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "New York",
-          "count": 2,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "Santa Clara",
-          "count": 2,
-          "median": 21146,
-          "sample": 1
-        },
-        {
-          "city": "Lancaster",
-          "count": 2,
-          "median": 26462,
-          "sample": 2
-        },
-        {
-          "city": "San Francisco",
-          "count": 2,
-          "median": null,
-          "sample": 0
-        },
-        {
-          "city": "USA (Eastern Time Zone)",
-          "count": 1,
-          "median": 15312,
-          "sample": 1
         }
       ]
     },
@@ -3622,22 +3535,109 @@
           "sample": 3
         },
         {
-          "city": "North America",
-          "count": 4,
-          "median": 87690,
-          "sample": 3
-        },
-        {
           "city": "Austin",
           "count": 4,
           "median": null,
           "sample": 0
         },
         {
+          "city": "North America",
+          "count": 4,
+          "median": 87690,
+          "sample": 3
+        },
+        {
           "city": "London",
           "count": 4,
           "median": 130275,
           "sample": 3
+        }
+      ]
+    },
+    "autonomous": {
+      "role_name": "Autonomous Vehicles",
+      "by_tier": [
+        {
+          "tier": "海外",
+          "cities_in_tier": [
+            "Atlanta",
+            "Austin TX",
+            "Boston",
+            "California",
+            "Gardena",
+            "Huntsville",
+            "Lancaster",
+            "London",
+            "Los Altos",
+            "Los Angeles",
+            "Mountain View",
+            "New York",
+            "North America",
+            "San Francisco",
+            "San Mateo CA",
+            "Santa Clara",
+            "Troy",
+            "USA (Eastern Time Zone)",
+            "Zurich CH",
+            "or Hybrid"
+          ],
+          "job_count": 28,
+          "salary": {
+            "p25": 21146,
+            "p50": 26462,
+            "p75": 118776,
+            "sample_size": 7
+          }
+        }
+      ],
+      "top_cities": [
+        {
+          "city": "North America",
+          "count": 3,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "Boston",
+          "count": 2,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "New York",
+          "count": 2,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "Santa Clara",
+          "count": 2,
+          "median": 21146,
+          "sample": 1
+        },
+        {
+          "city": "Austin TX",
+          "count": 2,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "San Francisco",
+          "count": 2,
+          "median": null,
+          "sample": 0
+        },
+        {
+          "city": "Lancaster",
+          "count": 2,
+          "median": 26462,
+          "sample": 2
+        },
+        {
+          "city": "USA (Eastern Time Zone)",
+          "count": 1,
+          "median": 15312,
+          "sample": 1
         }
       ]
     }

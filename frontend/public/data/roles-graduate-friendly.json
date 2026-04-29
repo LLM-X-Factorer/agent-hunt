@@ -581,11 +581,11 @@
           "count": 12
         },
         {
-          "city": "Remote in USA",
+          "city": "Chicago",
           "count": 11
         },
         {
-          "city": "Chicago",
+          "city": "Remote in USA",
           "count": 11
         },
         {
@@ -640,7 +640,7 @@
           "count": 19
         },
         {
-          "city": "Remote in USA",
+          "city": "Cambridge",
           "count": 18
         }
       ],
@@ -679,11 +679,11 @@
           "count": 12
         },
         {
-          "city": "Sunnyvale",
+          "city": "Austin",
           "count": 10
         },
         {
-          "city": "Austin",
+          "city": "Sunnyvale",
           "count": 10
         },
         {
@@ -718,15 +718,11 @@
           "count": 1
         },
         {
-          "city": "Troy",
+          "city": "Los Altos",
           "count": 1
         },
         {
           "city": "San Francisco",
-          "count": 1
-        },
-        {
-          "city": "Los Altos",
           "count": 1
         },
         {
@@ -735,6 +731,10 @@
         },
         {
           "city": "Gardena",
+          "count": 1
+        },
+        {
+          "city": "Los Angeles",
           "count": 1
         }
       ],
@@ -769,10 +769,6 @@
           "count": 4
         },
         {
-          "city": "Toronto",
-          "count": 1
-        },
-        {
           "city": "NYC",
           "count": 1
         },
@@ -782,6 +778,10 @@
         },
         {
           "city": "Germany",
+          "count": 1
+        },
+        {
+          "city": "Santa Clara",
           "count": 1
         }
       ],
@@ -875,7 +875,7 @@
           "count": 1
         },
         {
-          "city": "Burnaby",
+          "city": "Palo Alto",
           "count": 1
         }
       ],
@@ -914,15 +914,15 @@
           "count": 1
         },
         {
-          "city": "Remote in USA",
-          "count": 1
-        },
-        {
           "city": "NYC",
           "count": 1
         },
         {
           "city": "Charlotte",
+          "count": 1
+        },
+        {
+          "city": "Neukirchen-Vluyn",
           "count": 1
         }
       ],
@@ -941,15 +941,15 @@
       "socialSalaryMedian": 51494,
       "topCampusCities": [
         {
+          "city": "Basingstoke",
+          "count": 1
+        },
+        {
           "city": "Bellevue",
           "count": 1
         },
         {
           "city": "Cardiff",
-          "count": 1
-        },
-        {
-          "city": "Basingstoke",
           "count": 1
         }
       ],
@@ -972,19 +972,15 @@
           "count": 8
         },
         {
-          "city": "Woodridge",
-          "count": 4
-        },
-        {
           "city": "State College",
           "count": 4
         },
         {
-          "city": "Bothell",
-          "count": 2
+          "city": "Woodridge",
+          "count": 4
         },
         {
-          "city": "Pittsburgh",
+          "city": "Madison",
           "count": 2
         },
         {
@@ -992,11 +988,15 @@
           "count": 2
         },
         {
-          "city": "Madison",
+          "city": "Columbus",
           "count": 2
         },
         {
-          "city": "Columbus",
+          "city": "Bothell",
+          "count": 2
+        },
+        {
+          "city": "Pittsburgh",
           "count": 2
         }
       ],

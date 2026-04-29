@@ -38,11 +38,11 @@
       ],
       "sampleTitles": [
         "Product and Digital Manager",
+        "AI产品经理（医疗MDT）",
+        "AI产品经理",
         "高级产品经理 (工业AI方向)",
         "智能风控产品经理",
         "医疗数据AI高级产品经理",
-        "AI产品经理（医疗MDT）",
-        "AI产品经理",
         "产品经理-（AI 量化方向）",
         "AI量化应用产品经理"
       ]
@@ -257,36 +257,6 @@
         "销售总监 (智慧医疗)"
       ]
     },
-    "销售经理": {
-      "vacancyCount": 18,
-      "salaryMedian": 20000,
-      "salarySampleSize": 18,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 12
-        },
-        {
-          "industry": "manufacturing",
-          "count": 3
-        },
-        {
-          "industry": "healthcare",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "销售经理（人工智能、教育方向）",
-        "销售经理（智能制造行业）",
-        "Sales Manager (Industrial AI Software)",
-        "全国医疗AI一体机渠道销售经理",
-        "工业AI SaaS销售经理",
-        "智能教育产品院校销售经理",
-        "智能教育销售经理",
-        "销售经理(TV/Monitor/AIOT/AI视觉/智能座舱等市场）"
-      ]
-    },
     "项目经理": {
       "vacancyCount": 18,
       "salaryMedian": 25000,
@@ -315,14 +285,44 @@
         }
       ],
       "sampleTitles": [
+        "智能座舱项目经理",
         "自动驾驶项目经理",
         "自动驾驶技术项目经理",
         "Smart Cockpit Project Manager",
-        "智能座舱项目经理",
         "自动驾驶系统项目经理",
         "项目经理/软件实施顾问（智能制造MES）",
         "项目经理（支持 AI 产品交付）",
         "智能座舱软件项目经理"
+      ]
+    },
+    "销售经理": {
+      "vacancyCount": 18,
+      "salaryMedian": 20000,
+      "salarySampleSize": 18,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 12
+        },
+        {
+          "industry": "manufacturing",
+          "count": 3
+        },
+        {
+          "industry": "healthcare",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "销售经理（人工智能、教育方向）",
+        "销售经理（智能制造行业）",
+        "Sales Manager (Industrial AI Software)",
+        "全国医疗AI一体机渠道销售经理",
+        "工业AI SaaS销售经理",
+        "智能教育产品院校销售经理",
+        "智能教育销售经理",
+        "销售经理(TV/Monitor/AIOT/AI视觉/智能座舱等市场）"
       ]
     },
     "视频剪辑": {
@@ -472,8 +472,8 @@
         "营销平面AI设计师",
         "平面设计师（AI硬件方向）",
         "平面设计",
-        "平面设计+AI合成",
         "高级平面设计师（AI生图经验）",
+        "平面设计+AI合成",
         "品牌平面设计（ai）",
         "高级平面设计师",
         "AI平面设计师"
@@ -611,11 +611,11 @@
           "count": 3
         },
         {
-          "industry": "internet",
+          "industry": "automotive",
           "count": 2
         },
         {
-          "industry": "automotive",
+          "industry": "internet",
           "count": 2
         },
         {
@@ -628,12 +628,12 @@
         }
       ],
       "sampleTitles": [
+        "AI 视觉设计师",
         "视觉设计（ComfyUI工程师）",
         "视觉设计师",
         "AI电商视觉设计师",
         "AI视觉设计师",
         "AI视觉设计师（汽车品牌创意方向）",
-        "AI 视觉设计师",
         "AI产品视觉设计高级专家"
       ]
     },
@@ -784,29 +784,6 @@
         "跨境AI设计师"
       ]
     },
-    "量化工程师": {
-      "vacancyCount": 6,
-      "salaryMedian": 52500,
-      "salarySampleSize": 6,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 4
-        },
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI量化工程师",
-        "AI 量化工程师",
-        "AI量化项目技术负责人 (TPM)",
-        "AI 量化（策略落地）工程师",
-        "AI Quantitative Engineer (Finance)"
-      ]
-    },
     "项目管理": {
       "vacancyCount": 6,
       "salaryMedian": 35500,
@@ -835,11 +812,34 @@
         }
       ],
       "sampleTitles": [
-        "PMO 项目管理专家（含数字化转型/供应链优化要求）",
         "智能座舱项目管理",
+        "PMO 项目管理专家（含数字化转型/供应链优化要求）",
         "PMO 项目管理专家",
         "项目管理（智能座舱软件产品）",
         "PMO（AI）"
+      ]
+    },
+    "量化工程师": {
+      "vacancyCount": 6,
+      "salaryMedian": 52500,
+      "salarySampleSize": 6,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 4
+        },
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI量化工程师",
+        "AI 量化工程师",
+        "AI量化项目技术负责人 (TPM)",
+        "AI 量化（策略落地）工程师",
+        "AI Quantitative Engineer (Finance)"
       ]
     },
     "金融风控": {
@@ -1172,6 +1172,23 @@
         "前端开发工程师"
       ]
     },
+    "医疗器械销售代表": {
+      "vacancyCount": 3,
+      "salaryMedian": 10500,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "医疗器械销售代表-外周介入",
+        "医疗器械销售代表",
+        "医疗器械销售代表-外周"
+      ]
+    },
     "投资总监": {
       "vacancyCount": 3,
       "salaryMedian": 54166,
@@ -1187,23 +1204,6 @@
         "投资总监-医疗AI方向",
         "投资总监（硬科技&智能制造领域）",
         "投资总监（AI、高端制造、先进制造）"
-      ]
-    },
-    "医疗器械销售代表": {
-      "vacancyCount": 3,
-      "salaryMedian": 10500,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "医疗器械销售代表",
-        "医疗器械销售代表-外周",
-        "医疗器械销售代表-外周介入"
       ]
     },
     "解决方案经理": {
@@ -1309,6 +1309,36 @@
         "AI教育产品总监"
       ]
     },
+    "Java开发工程师": {
+      "vacancyCount": 3,
+      "salaryMedian": 20000,
+      "salarySampleSize": 3,
+      "augmentSkills": [
+        {
+          "skillId": "java",
+          "count": 3
+        },
+        {
+          "skillId": "llm",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        },
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Java 开发工程师（AIGC方向）",
+        "Java开发+AI大模型（容器云平台开发工程师）",
+        "Java开发工程师（智能客服方向）"
+      ]
+    },
     "IT业务分析师": {
       "vacancyCount": 3,
       "salaryMedian": 31500,
@@ -1356,36 +1386,6 @@
         "法务BP经理"
       ]
     },
-    "Java开发工程师": {
-      "vacancyCount": 3,
-      "salaryMedian": 20000,
-      "salarySampleSize": 3,
-      "augmentSkills": [
-        {
-          "skillId": "java",
-          "count": 3
-        },
-        {
-          "skillId": "llm",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        },
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Java 开发工程师（AIGC方向）",
-        "Java开发+AI大模型（容器云平台开发工程师）",
-        "Java开发工程师（智能客服方向）"
-      ]
-    },
     "硬件工程师": {
       "vacancyCount": 3,
       "salaryMedian": 18750,
@@ -1398,8 +1398,8 @@
         }
       ],
       "sampleTitles": [
-        "硬件工程师(智能座舱方向)",
         "硬件工程师（汽车中控、仪表显示屏、智能座舱域控；双休）",
+        "硬件工程师(智能座舱方向)",
         "Senior Hardware Engineer - SOC"
       ]
     },
@@ -1776,6 +1776,22 @@
         "AI-powered Financial Consultant & Sales Champion"
       ]
     },
+    "网络工程师": {
+      "vacancyCount": 2,
+      "salaryMedian": 7500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "网络工程师",
+        "高性能网络研发实习生"
+      ]
+    },
     "金融风控产品经理": {
       "vacancyCount": 2,
       "salaryMedian": 28750,
@@ -2100,22 +2116,6 @@
         "华东区解决方案专家-飞书（制造/AI方向）"
       ]
     },
-    "网络工程师": {
-      "vacancyCount": 2,
-      "salaryMedian": 7500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "网络工程师",
-        "高性能网络研发实习生"
-      ]
-    },
     "财务审计": {
       "vacancyCount": 2,
       "salaryMedian": 7500,
@@ -2207,6 +2207,21 @@
       "sampleTitles": [
         "智能制造总监",
         "智能制造中心总监"
+      ]
+    },
+    "汽车座舱应用开发工程师": {
+      "vacancyCount": 2,
+      "salaryMedian": 72500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI座舱应用"
       ]
     },
     "医生": {
@@ -2401,21 +2416,6 @@
       ],
       "sampleTitles": [
         "催收产品策略专家（海外AI方向）"
-      ]
-    },
-    "汽车座舱应用开发工程师": {
-      "vacancyCount": 2,
-      "salaryMedian": 72500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI座舱应用"
       ]
     },
     "运营专员": {
@@ -2797,6 +2797,36 @@
       ],
       "sampleTitles": [
         "IT总监-AI 智能制造方向"
+      ]
+    },
+    "后端开发": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "后端开发-智能风控方向"
+      ]
+    },
+    "教育产品经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 8000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能教育产品交付与服务经理"
       ]
     },
     "风控经理": {
@@ -3564,36 +3594,6 @@
         "AI战略与转型-汽车研发"
       ]
     },
-    "教育产品经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 8000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能教育产品交付与服务经理"
-      ]
-    },
-    "后端开发": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "后端开发-智能风控方向"
-      ]
-    },
     "证券经纪人": {
       "vacancyCount": 1,
       "salaryMedian": 22500,
@@ -4001,6 +4001,21 @@
       ],
       "sampleTitles": [
         "Service Design Senior Associate"
+      ]
+    },
+    "导演/编导": {
+      "vacancyCount": 1,
+      "salaryMedian": 20000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI真人导演/编导"
       ]
     },
     "市场营销经理": {
@@ -5696,6 +5711,21 @@
         "AIGC后期制作 / AIGC视效剪辑"
       ]
     },
+    "电气设计师": {
+      "vacancyCount": 1,
+      "salaryMedian": 30000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "电气设计师（电气控制系统及AI应用）"
+      ]
+    },
     "集成开发工程师": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -5981,36 +6011,6 @@
         "资深品牌文案策划"
       ]
     },
-    "导演/编导": {
-      "vacancyCount": 1,
-      "salaryMedian": 20000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI真人导演/编导"
-      ]
-    },
-    "电气设计师": {
-      "vacancyCount": 1,
-      "salaryMedian": 30000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "电气设计师（电气控制系统及AI应用）"
-      ]
-    },
     "审核员": {
       "vacancyCount": 1,
       "salaryMedian": 7500,
@@ -6154,6 +6154,21 @@
       ],
       "sampleTitles": [
         "AI漫剧&短剧运营剪辑专员"
+      ]
+    },
+    "医疗评估员": {
+      "vacancyCount": 1,
+      "salaryMedian": 16500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI医疗专业评估"
       ]
     },
     "平面设计/视觉设计经理": {
@@ -6531,6 +6546,21 @@
         "AI小说/影视网剧/漫画推文线上矩阵视频发布"
       ]
     },
+    "行政专员": {
+      "vacancyCount": 1,
+      "salaryMedian": 8500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "行政专员"
+      ]
+    },
     "PMO": {
       "vacancyCount": 1,
       "salaryMedian": 40000,
@@ -6724,21 +6754,6 @@
       ],
       "sampleTitles": [
         "企业AI流程效能专家（兼职）"
-      ]
-    },
-    "医疗评估员": {
-      "vacancyCount": 1,
-      "salaryMedian": 16500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI医疗专业评估"
       ]
     },
     "推广专员": {
@@ -6971,21 +6986,6 @@
         "网络安全开发工程师"
       ]
     },
-    "行政专员": {
-      "vacancyCount": 1,
-      "salaryMedian": 8500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "行政专员"
-      ]
-    },
     "行政主管": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -7178,11 +7178,11 @@
           "count": 11
         },
         {
-          "skillId": "nextjs",
+          "skillId": "nodejs",
           "count": 8
         },
         {
-          "skillId": "nodejs",
+          "skillId": "nextjs",
           "count": 8
         },
         {
@@ -7228,23 +7228,23 @@
           "count": 8
         },
         {
-          "industry": "retail",
+          "industry": "manufacturing",
           "count": 6
         },
         {
-          "industry": "manufacturing",
+          "industry": "retail",
           "count": 6
         }
       ],
       "sampleTitles": [
         "Lead Engineer",
         "Software Engineer, Internal Applications - Enterprise",
+        "Full-Stack Software Engineer",
         "Software Engineer",
-        "Lead Software Engineer – for 5G/ 6G Satellite Communication",
-        "Staff Fullstack Engineer/Senior Software Engineer/Forward Deployed Engineer",
+        "Senior/Staff Software Engineers",
         "Senior Engineer",
-        "Junior Software Engineer",
-        "Engineer"
+        "Senior Software Engineer (Backend)",
+        "Product Engineer"
       ]
     },
     "产品经理": {
@@ -7257,11 +7257,11 @@
           "count": 13
         },
         {
-          "skillId": "data_analysis",
+          "skillId": "prompt_engineering",
           "count": 12
         },
         {
-          "skillId": "prompt_engineering",
+          "skillId": "data_analysis",
           "count": 12
         },
         {
@@ -7511,13 +7511,13 @@
       ],
       "sampleTitles": [
         "Software Engineer",
-        "Senior Software Engineer (Full-Stack)",
         "Software Development Engineer",
         "Tech Lead / Staff Engineer",
-        "Senior Software Engineer",
-        "Software Engineers (SRE, data platform, backend, full-stack, mobile)",
+        "Senior Software Engineer (Full-Stack)",
         "Founding Software Engineer",
-        "Software Engineer, Fleet Management"
+        "Software Engineers (SRE, data platform, backend, full-stack, mobile)",
+        "Software Engineer, Fleet Management",
+        "Cloud/Data Software Engineering"
       ]
     },
     "Full-Stack Engineer": {
@@ -7550,11 +7550,11 @@
           "count": 5
         },
         {
-          "skillId": "nodejs",
+          "skillId": "javascript",
           "count": 3
         },
         {
-          "skillId": "javascript",
+          "skillId": "nodejs",
           "count": 3
         },
         {
@@ -7562,12 +7562,20 @@
           "count": 3
         },
         {
+          "skillId": "golang",
+          "count": 2
+        },
+        {
           "skillId": "aws",
           "count": 2
         },
         {
-          "skillId": "golang",
-          "count": 2
+          "skillId": "kubernetes",
+          "count": 1
+        },
+        {
+          "skillId": "gcp",
+          "count": 1
         },
         {
           "skillId": "distributed_systems",
@@ -7576,31 +7584,23 @@
         {
           "skillId": "anthropic_api",
           "count": 1
-        },
-        {
-          "skillId": "openai_api",
-          "count": 1
-        },
-        {
-          "skillId": "kubernetes",
-          "count": 1
         }
       ],
       "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 3
-        },
         {
           "industry": "manufacturing",
           "count": 3
         },
         {
-          "industry": "consulting",
+          "industry": "internet",
           "count": 3
         },
         {
-          "industry": "internet",
+          "industry": "finance",
+          "count": 3
+        },
+        {
+          "industry": "consulting",
           "count": 3
         },
         {
@@ -7610,13 +7610,13 @@
       ],
       "sampleTitles": [
         "Senior Full-Stack Engineer",
-        "Founding Principal / Staff Full-Stack Engineer",
-        "Senior/Staff Full-Stack Engineer",
-        "Senior+ Engineer (Full-Stack)",
         "Senior Full-Stack Ruby on Rails",
         "Full-Stack Engineer (Go / React)",
         "Lead Full-Stack Engineer",
-        "Full-Stack Engineer (Contractor)"
+        "Full-Stack Engineer (Contractor)",
+        "Senior+ Engineer (Full-Stack)",
+        "Founding Principal / Staff Full-Stack Engineer",
+        "Senior/Staff Full-Stack Engineer"
       ]
     },
     "教师": {
@@ -7699,105 +7699,6 @@
         "Finance Expert - Fixed Income"
       ]
     },
-    "Backend Engineer": {
-      "vacancyCount": 14,
-      "salaryMedian": 71593,
-      "salarySampleSize": 5,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 7
-        },
-        {
-          "skillId": "aws",
-          "count": 5
-        },
-        {
-          "skillId": "golang",
-          "count": 5
-        },
-        {
-          "skillId": "flask",
-          "count": 4
-        },
-        {
-          "skillId": "sql",
-          "count": 4
-        },
-        {
-          "skillId": "docker",
-          "count": 3
-        },
-        {
-          "skillId": "react",
-          "count": 3
-        },
-        {
-          "skillId": "redis",
-          "count": 3
-        },
-        {
-          "skillId": "distributed_systems",
-          "count": 2
-        },
-        {
-          "skillId": "devops",
-          "count": 1
-        },
-        {
-          "skillId": "gcp",
-          "count": 1
-        },
-        {
-          "skillId": "computer_vision",
-          "count": 1
-        },
-        {
-          "skillId": "fastapi",
-          "count": 1
-        },
-        {
-          "skillId": "kubernetes",
-          "count": 1
-        },
-        {
-          "skillId": "typescript",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 5
-        },
-        {
-          "industry": "internet",
-          "count": 5
-        },
-        {
-          "industry": "other",
-          "count": 2
-        },
-        {
-          "industry": "manufacturing",
-          "count": 1
-        },
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Systems Architect / Founding Backend Engineer",
-        "Senior & Staff Engineers Backend Engineers",
-        "Senior Backend Engineer",
-        "Staff backend engineers",
-        "Senior/Staff Backend Engineer",
-        "Senior Backend Engineer, Engineering Leadership",
-        "Backend Engineer",
-        "Senior/Staff Python Engineer"
-      ]
-    },
     "Account Executive": {
       "vacancyCount": 14,
       "salaryMedian": 131406,
@@ -7851,6 +7752,105 @@
         "Enterprise Account Executive, Federal Civilian Sales - Transport & Land",
         "Growth Account Executive, Startups",
         "Senior Account Executive - Energy & Utilities"
+      ]
+    },
+    "Backend Engineer": {
+      "vacancyCount": 14,
+      "salaryMedian": 71593,
+      "salarySampleSize": 5,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 7
+        },
+        {
+          "skillId": "aws",
+          "count": 5
+        },
+        {
+          "skillId": "golang",
+          "count": 5
+        },
+        {
+          "skillId": "flask",
+          "count": 4
+        },
+        {
+          "skillId": "sql",
+          "count": 4
+        },
+        {
+          "skillId": "redis",
+          "count": 3
+        },
+        {
+          "skillId": "docker",
+          "count": 3
+        },
+        {
+          "skillId": "react",
+          "count": 3
+        },
+        {
+          "skillId": "distributed_systems",
+          "count": 2
+        },
+        {
+          "skillId": "fastapi",
+          "count": 1
+        },
+        {
+          "skillId": "kubernetes",
+          "count": 1
+        },
+        {
+          "skillId": "devops",
+          "count": 1
+        },
+        {
+          "skillId": "gcp",
+          "count": 1
+        },
+        {
+          "skillId": "computer_vision",
+          "count": 1
+        },
+        {
+          "skillId": "typescript",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 5
+        },
+        {
+          "industry": "healthcare",
+          "count": 5
+        },
+        {
+          "industry": "other",
+          "count": 2
+        },
+        {
+          "industry": "finance",
+          "count": 1
+        },
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Backend Engineer, Engineering Leadership",
+        "Senior Backend Engineer",
+        "Senior/Staff Python Engineer",
+        "Systems Architect / Founding Backend Engineer",
+        "Senior/Staff Backend Engineer",
+        "Backend Engineer",
+        "Staff Backend Engineer",
+        "Senior & Staff Engineers Backend Engineers"
       ]
     },
     "Marketing Manager": {
@@ -8257,10 +8257,10 @@
         "Data Analyst - Physical Infrastructure",
         "Senior Data Analyst- Fraud & AML",
         "Senior Data Analyst / Analytics Engineer",
-        "Data Analyst Lead",
         "Data Analyst",
         "Data Analytics Intern - Summer 2026",
-        "Database Operations & Reporting Intern"
+        "Database Operations & Reporting Intern",
+        "Data Analyst Lead"
       ]
     },
     "Sales Director": {
@@ -8306,8 +8306,8 @@
       "sampleTitles": [
         "Client Partner",
         "Regional Client Partner, Ads Solutions",
-        "Account Executive, Beneficial Deployments (Spanish Speaking)",
         "Account Executive",
+        "Account Executive, Beneficial Deployments (Spanish Speaking)",
         "Founding Sales & GTM Partner",
         "Sales"
       ]
@@ -8415,46 +8415,17 @@
         "Creative Director"
       ]
     },
-    "财务经理": {
-      "vacancyCount": 6,
-      "salaryMedian": 51481,
-      "salarySampleSize": 5,
-      "augmentSkills": [
-        {
-          "skillId": "sql",
-          "count": 5
-        },
-        {
-          "skillId": "data_analysis",
-          "count": 4
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 5
-        },
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Financial Planning & Analysis, Manager (Data/AI)",
-        "Finance Manager - Healthcare, Amazon One Medical"
-      ]
-    },
     "Frontend Engineer": {
       "vacancyCount": 6,
       "salaryMedian": 20970,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
-          "skillId": "react",
+          "skillId": "typescript",
           "count": 4
         },
         {
-          "skillId": "typescript",
+          "skillId": "react",
           "count": 4
         },
         {
@@ -8482,10 +8453,39 @@
       ],
       "sampleTitles": [
         "Frontend Engineer",
-        "Senior Frontend Engineer",
-        "Frontend Engineer (Contract)",
         "Senior Staff Product Engineer, Frontend - B2B Applications",
-        "Frontend Engineer, Dotcom (Marketing)"
+        "Frontend Engineer, Dotcom (Marketing)",
+        "Senior Frontend Engineer",
+        "Frontend Engineer (Contract)"
+      ]
+    },
+    "财务经理": {
+      "vacancyCount": 6,
+      "salaryMedian": 51481,
+      "salarySampleSize": 5,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 5
+        },
+        {
+          "skillId": "data_analysis",
+          "count": 4
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 5
+        },
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Financial Planning & Analysis, Manager (Data/AI)",
+        "Finance Manager - Healthcare, Amazon One Medical"
       ]
     },
     "Program Manager": {
@@ -8589,8 +8589,8 @@
         "Analytics Engineer 5 - Ads Reporting & Metric Standards",
         "Data Analyst - Entry Level",
         "Data Analyst",
-        "Technical Data Analyst",
-        "Client Data Analyst"
+        "Client Data Analyst",
+        "Technical Data Analyst"
       ]
     },
     "平面设计师": {
@@ -8653,6 +8653,91 @@
         "Assistant Program Manager",
         "Project Manager - Healthcare",
         "Program Manager, Partner Operations"
+      ]
+    },
+    "Strategy Consultant": {
+      "vacancyCount": 5,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "agile",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 5
+        }
+      ],
+      "sampleTitles": [
+        "Payment Network Relationship Management and Strategy Consultant"
+      ]
+    },
+    "Accounting Manager": {
+      "vacancyCount": 5,
+      "salaryMedian": 76124,
+      "salarySampleSize": 2,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 2
+        },
+        {
+          "skillId": "anthropic_api",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 5
+        }
+      ],
+      "sampleTitles": [
+        "Senior Manager of Technical Accounting, Strategic Transactions",
+        "Senior Manager, Accounting Operations",
+        "Senior Manager, Infrastructure Capex Accounting",
+        "Manager, Technical Revenue Accounting",
+        "Senior Manager, Infrastructure Lease Accounting"
+      ]
+    },
+    "Lawyer": {
+      "vacancyCount": 5,
+      "salaryMedian": 17400,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 5
+        }
+      ],
+      "sampleTitles": [
+        "Counsel, Privacy",
+        "Counsel, Product (Research)",
+        "Senior Counsel, Product (Hardware Safety & Customer Support)",
+        "AI Legal and Compliance Data Specialist",
+        "Corporate Counsel"
+      ]
+    },
+    "HR Business Partner": {
+      "vacancyCount": 5,
+      "salaryMedian": 67968,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 5
+        }
+      ],
+      "sampleTitles": [
+        "HR Business Partner - Tech",
+        "Senior HR Business Partner",
+        "HRBP EMEA",
+        "Compensation Business Partner"
       ]
     },
     "Full Stack Engineer": {
@@ -8728,52 +8813,87 @@
         "Senior Full Stack Engineer"
       ]
     },
-    "Strategy Consultant": {
+    "Site Reliability Engineer": {
       "vacancyCount": 5,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "agile",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 5
-        }
-      ],
-      "sampleTitles": [
-        "Payment Network Relationship Management and Strategy Consultant"
-      ]
-    },
-    "Accounting Manager": {
-      "vacancyCount": 5,
-      "salaryMedian": 76124,
+      "salaryMedian": 65976,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
-          "skillId": "sql",
+          "skillId": "kubernetes",
+          "count": 5
+        },
+        {
+          "skillId": "python",
+          "count": 4
+        },
+        {
+          "skillId": "ci_cd",
+          "count": 3
+        },
+        {
+          "skillId": "aws",
+          "count": 3
+        },
+        {
+          "skillId": "gcp",
+          "count": 3
+        },
+        {
+          "skillId": "golang",
           "count": 2
         },
         {
-          "skillId": "anthropic_api",
+          "skillId": "devops",
+          "count": 1
+        },
+        {
+          "skillId": "docker",
+          "count": 1
+        },
+        {
+          "skillId": "git",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "nodejs",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "java",
+          "count": 1
+        },
+        {
+          "skillId": "azure",
           "count": 1
         }
       ],
       "topIndustries": [
         {
           "industry": "internet",
-          "count": 5
+          "count": 3
+        },
+        {
+          "industry": "consulting",
+          "count": 1
+        },
+        {
+          "industry": "automotive",
+          "count": 1
         }
       ],
       "sampleTitles": [
-        "Senior Manager of Technical Accounting, Strategic Transactions",
-        "Senior Manager, Accounting Operations",
-        "Senior Manager, Infrastructure Capex Accounting",
-        "Manager, Technical Revenue Accounting",
-        "Senior Manager, Infrastructure Lease Accounting"
+        "SRE",
+        "Staff or Principal Site Reliability Engineer",
+        "Cloud Site Reliability Engineer",
+        "SRE/Platform Engineer"
       ]
     },
     "Full-Stack Developer": {
@@ -8790,15 +8910,15 @@
           "count": 3
         },
         {
-          "skillId": "csharp",
-          "count": 2
-        },
-        {
           "skillId": "typescript",
           "count": 2
         },
         {
           "skillId": "nodejs",
+          "count": 2
+        },
+        {
+          "skillId": "csharp",
           "count": 2
         },
         {
@@ -8837,45 +8957,8 @@
         }
       ],
       "sampleTitles": [
-        "Full-Stack Developer",
-        "Full-Stack Product Dev"
-      ]
-    },
-    "Lawyer": {
-      "vacancyCount": 5,
-      "salaryMedian": 17400,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 5
-        }
-      ],
-      "sampleTitles": [
-        "Counsel, Privacy",
-        "Counsel, Product (Research)",
-        "Senior Counsel, Product (Hardware Safety & Customer Support)",
-        "AI Legal and Compliance Data Specialist",
-        "Corporate Counsel"
-      ]
-    },
-    "HR Business Partner": {
-      "vacancyCount": 5,
-      "salaryMedian": 67968,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 5
-        }
-      ],
-      "sampleTitles": [
-        "HR Business Partner - Tech",
-        "Senior HR Business Partner",
-        "HRBP EMEA",
-        "Compensation Business Partner"
+        "Full-Stack Product Dev",
+        "Full-Stack Developer"
       ]
     },
     "Fullstack Developer": {
@@ -8929,89 +9012,6 @@
       "sampleTitles": [
         "Senior Fullstack Developer",
         "Fullstack Developer"
-      ]
-    },
-    "Site Reliability Engineer": {
-      "vacancyCount": 5,
-      "salaryMedian": 65976,
-      "salarySampleSize": 2,
-      "augmentSkills": [
-        {
-          "skillId": "kubernetes",
-          "count": 5
-        },
-        {
-          "skillId": "python",
-          "count": 4
-        },
-        {
-          "skillId": "aws",
-          "count": 3
-        },
-        {
-          "skillId": "gcp",
-          "count": 3
-        },
-        {
-          "skillId": "ci_cd",
-          "count": 3
-        },
-        {
-          "skillId": "golang",
-          "count": 2
-        },
-        {
-          "skillId": "java",
-          "count": 1
-        },
-        {
-          "skillId": "azure",
-          "count": 1
-        },
-        {
-          "skillId": "devops",
-          "count": 1
-        },
-        {
-          "skillId": "docker",
-          "count": 1
-        },
-        {
-          "skillId": "git",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "nodejs",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 3
-        },
-        {
-          "industry": "automotive",
-          "count": 1
-        },
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "SRE/Platform Engineer",
-        "SRE",
-        "Cloud Site Reliability Engineer",
-        "Staff or Principal Site Reliability Engineer"
       ]
     },
     "安全工程师": {
@@ -9119,11 +9119,11 @@
           "count": 2
         },
         {
-          "industry": "healthcare",
+          "industry": "retail",
           "count": 1
         },
         {
-          "industry": "retail",
+          "industry": "healthcare",
           "count": 1
         }
       ],
@@ -9245,8 +9245,8 @@
       "sampleTitles": [
         "Engineering Manager, Financial Data Quality",
         "Engineering Manager (Data Platform)",
-        "Engineering Manager, Order Systems",
-        "Head of Engineering & Infrastructure"
+        "Head of Engineering & Infrastructure",
+        "Engineering Manager, Order Systems"
       ]
     },
     "Technical Program Manager": {
@@ -9922,19 +9922,15 @@
           "count": 2
         },
         {
-          "skillId": "react",
+          "skillId": "nodejs",
           "count": 1
         },
         {
-          "skillId": "nodejs",
+          "skillId": "react",
           "count": 1
         }
       ],
       "topIndustries": [
-        {
-          "industry": "energy",
-          "count": 1
-        },
         {
           "industry": "finance",
           "count": 1
@@ -9942,12 +9938,42 @@
         {
           "industry": "internet",
           "count": 1
+        },
+        {
+          "industry": "energy",
+          "count": 1
         }
       ],
       "sampleTitles": [
-        "Senior Product Engineer",
         "AI Product Engineer",
-        "Product Engineer"
+        "Product Engineer",
+        "Senior Product Engineer"
+      ]
+    },
+    "Mobile Engineer": {
+      "vacancyCount": 3,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "typescript",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 2
+        },
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Full-Stack Mobile Engineer (KMP)",
+        "Mobile Engineer",
+        "Mobile Engineer (iOS/Android)"
       ]
     },
     "Backend Developer": {
@@ -9964,20 +9990,12 @@
           "count": 2
         },
         {
-          "skillId": "aws",
-          "count": 2
-        },
-        {
           "skillId": "flask",
           "count": 2
         },
         {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
+          "skillId": "aws",
+          "count": 2
         },
         {
           "skillId": "nodejs",
@@ -9989,6 +10007,14 @@
         },
         {
           "skillId": "kubernetes",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "react",
           "count": 1
         }
       ],
@@ -10005,6 +10031,39 @@
       "sampleTitles": [
         "Senior Backend Developer",
         "Senior Python Backend Developer"
+      ]
+    },
+    "Support Engineer": {
+      "vacancyCount": 3,
+      "salaryMedian": 29122,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "ci_cd",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "distributed_systems",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        },
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Support Engineer",
+        "Senior Support Engineer"
       ]
     },
     "IT Support Engineer": {
@@ -10170,39 +10229,6 @@
         "IT Services Technician"
       ]
     },
-    "Support Engineer": {
-      "vacancyCount": 3,
-      "salaryMedian": 29122,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "distributed_systems",
-          "count": 1
-        },
-        {
-          "skillId": "ci_cd",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        },
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Support Engineer",
-        "Support Engineer"
-      ]
-    },
     "Manufacturing Engineer": {
       "vacancyCount": 3,
       "salaryMedian": null,
@@ -10297,32 +10323,6 @@
         "Abuse Investigator"
       ]
     },
-    "Mobile Engineer": {
-      "vacancyCount": 3,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 2
-        },
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Full-Stack Mobile Engineer (KMP)",
-        "Mobile Engineer",
-        "Mobile Engineer (iOS/Android)"
-      ]
-    },
     "Tutor": {
       "vacancyCount": 3,
       "salaryMedian": 22620,
@@ -10337,44 +10337,6 @@
       "sampleTitles": [
         "Probability Tutor"
       ]
-    },
-    "Scientific Software Developer": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "cpp",
-          "count": 2
-        },
-        {
-          "skillId": "git",
-          "count": 2
-        },
-        {
-          "skillId": "python",
-          "count": 2
-        },
-        {
-          "skillId": "java",
-          "count": 2
-        },
-        {
-          "skillId": "typescript",
-          "count": 2
-        },
-        {
-          "skillId": "react",
-          "count": 2
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 2
-        }
-      ],
-      "sampleTitles": []
     },
     "工业工程师": {
       "vacancyCount": 2,
@@ -10405,59 +10367,6 @@
       "sampleTitles": [
         "Shuttle Attendant (Autonomous Vehicle Operator)",
         "Autonomous GSE Operator"
-      ]
-    },
-    "Full Stack Software Engineer": {
-      "vacancyCount": 2,
-      "salaryMedian": 57999,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 2
-        },
-        {
-          "skillId": "react",
-          "count": 2
-        },
-        {
-          "skillId": "nodejs",
-          "count": 2
-        },
-        {
-          "skillId": "sql",
-          "count": 2
-        },
-        {
-          "skillId": "javascript",
-          "count": 1
-        },
-        {
-          "skillId": "nextjs",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "ci_cd",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        },
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "mid/Sr/Staff Full Stack Software Engineers, ArsenalOS Team",
-        "Senior Full Stack Software Engineer"
       ]
     },
     "机器人工程师": {
@@ -10655,19 +10564,6 @@
       "sampleTitles": [
         "Sr. New Product Lead, Robotics Supply Chain"
       ]
-    },
-    "Animator": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 2
-        }
-      ],
-      "sampleTitles": []
     },
     "风险分析师": {
       "vacancyCount": 2,
@@ -10869,29 +10765,61 @@
         "Workday Business Systems Analyst, HCM"
       ]
     },
-    "Systems Engineer": {
+    "Product Manager": {
       "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
+      "salaryMedian": 70687,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        },
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Product Manager",
+        "Product Manager (Mobile-First App)"
+      ]
+    },
+    "Full Stack Software Engineer": {
+      "vacancyCount": 2,
+      "salaryMedian": 57999,
+      "salarySampleSize": 1,
       "augmentSkills": [
         {
-          "skillId": "python",
+          "skillId": "typescript",
           "count": 2
         },
         {
-          "skillId": "fastapi",
-          "count": 1
+          "skillId": "react",
+          "count": 2
+        },
+        {
+          "skillId": "nodejs",
+          "count": 2
         },
         {
           "skillId": "sql",
+          "count": 2
+        },
+        {
+          "skillId": "javascript",
           "count": 1
         },
         {
-          "skillId": "llm",
+          "skillId": "nextjs",
           "count": 1
         },
         {
-          "skillId": "golang",
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "ci_cd",
           "count": 1
         }
       ],
@@ -10901,13 +10829,84 @@
           "count": 1
         },
         {
-          "industry": "internet",
+          "industry": "other",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "Founding Systems Engineer",
-        "Systems Engineer (Network / Storage / Systems)"
+        "mid/Sr/Staff Full Stack Software Engineers, ArsenalOS Team",
+        "Senior Full Stack Software Engineer"
+      ]
+    },
+    "Animator": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 2
+        }
+      ],
+      "sampleTitles": []
+    },
+    "Scientific Software Developer": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "cpp",
+          "count": 2
+        },
+        {
+          "skillId": "git",
+          "count": 2
+        },
+        {
+          "skillId": "python",
+          "count": 2
+        },
+        {
+          "skillId": "java",
+          "count": 2
+        },
+        {
+          "skillId": "typescript",
+          "count": 2
+        },
+        {
+          "skillId": "react",
+          "count": 2
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 2
+        }
+      ],
+      "sampleTitles": []
+    },
+    "Content Strategist": {
+      "vacancyCount": 2,
+      "salaryMedian": 5002,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        },
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Lead Content Strategist",
+        "Creative Content Strategist (Scriptwriting + Social Media Concepts)"
       ]
     },
     "Business Operations / Revenue Strategy": {
@@ -10923,6 +10922,63 @@
       ],
       "sampleTitles": [
         "Revenue Strategy & Operations Lead"
+      ]
+    },
+    "医生": {
+      "vacancyCount": 2,
+      "salaryMedian": 21750,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Software Engineering",
+        "Clinical Analyst – AI Response Review & Patient Safety"
+      ]
+    },
+    "Fullstack Engineer": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "java",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "langchain",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        },
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "FE/Fullstack Mid-Senior/Senior",
+        "Fullstack Engineer"
       ]
     },
     "Accounts Receivable Specialist": {
@@ -11056,6 +11112,47 @@
       "sampleTitles": [
         "Finance & Strategy, Deal Operations - EMEA",
         "Finance & Strategy, Deal Operations - Americas"
+      ]
+    },
+    "Systems Engineer": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 2
+        },
+        {
+          "skillId": "golang",
+          "count": 1
+        },
+        {
+          "skillId": "fastapi",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "llm",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        },
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Systems Engineer (Network / Storage / Systems)",
+        "Founding Systems Engineer"
       ]
     },
     "Tax Professional": {
@@ -11321,26 +11418,6 @@
         "Transaction Principal"
       ]
     },
-    "Product Manager": {
-      "vacancyCount": 2,
-      "salaryMedian": 70687,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        },
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Product Manager",
-        "Product Manager (Mobile-First App)"
-      ]
-    },
     "Construction Manager": {
       "vacancyCount": 2,
       "salaryMedian": null,
@@ -11530,67 +11607,6 @@
         "Product Marketing Lead, Privacy"
       ]
     },
-    "Content Strategist": {
-      "vacancyCount": 2,
-      "salaryMedian": 5002,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        },
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Lead Content Strategist",
-        "Creative Content Strategist (Scriptwriting + Social Media Concepts)"
-      ]
-    },
-    "Fullstack Engineer": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "java",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "langchain",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        },
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "FE/Fullstack Mid-Senior/Senior",
-        "Fullstack Engineer"
-      ]
-    },
     "创意设计师": {
       "vacancyCount": 2,
       "salaryMedian": 38952,
@@ -11701,33 +11717,17 @@
       "augmentSkills": [],
       "topIndustries": [
         {
-          "industry": "other",
+          "industry": "internet",
           "count": 1
         },
         {
-          "industry": "internet",
+          "industry": "other",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "Business Intelligence Intern",
-        "Business Intelligence Analyst"
-      ]
-    },
-    "医生": {
-      "vacancyCount": 2,
-      "salaryMedian": 21750,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Clinical Analyst – AI Response Review & Patient Safety",
-        "Software Engineering"
+        "Business Intelligence Analyst",
+        "Business Intelligence Intern"
       ]
     },
     "Hospitality and Merchandise Analyst": {
@@ -11944,21 +11944,6 @@
       ],
       "sampleTitles": [
         "Manager of Product Operations"
-      ]
-    },
-    "Quantitative Researcher/Data Scientist": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Quant/Data Scientist"
       ]
     },
     "Healthcare Administrator": {
@@ -12627,6 +12612,34 @@
       ],
       "sampleTitles": [
         "Digital Strategy & Innovation Lead"
+      ]
+    },
+    "医疗数据分析师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Healthcare Research Analytics Internship"
       ]
     },
     "企业战略投资经理": {
@@ -13394,42 +13407,6 @@
         "Engineering Associate - Java Application & Microservices Development"
       ]
     },
-    "Node.js Developer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "nodejs",
-          "count": 1
-        },
-        {
-          "skillId": "javascript",
-          "count": 1
-        },
-        {
-          "skillId": "azure",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Intermediate–Senior Node.js Developer (Sports Data + Generative AI)"
-      ]
-    },
     "项目管理": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -13478,6 +13455,21 @@
       ],
       "sampleTitles": [
         "PALM Immunology/TD Portfolio Co-Op"
+      ]
+    },
+    "Sales Development Representative": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Sales Development Representative"
       ]
     },
     "战略合作总监": {
@@ -13576,34 +13568,6 @@
       ],
       "sampleTitles": [
         "Chief Technology Officer (CTO)"
-      ]
-    },
-    "医疗数据分析师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Healthcare Research Analytics Internship"
       ]
     },
     "用户体验设计师": {
@@ -13722,6 +13686,26 @@
       ],
       "sampleTitles": [
         "Head of Payer Relations"
+      ]
+    },
+    "HR Systems Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "git",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Workday Engineer"
       ]
     },
     "金融经理": {
@@ -14025,21 +14009,6 @@
       ],
       "sampleTitles": [
         "Finance Systems Engineer, Revenue"
-      ]
-    },
-    "QA Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "QA Engineer"
       ]
     },
     "Sales Partner": {
@@ -14418,41 +14387,6 @@
         "Support Partner Manager"
       ]
     },
-    "Sales Development Representative": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Sales Development Representative"
-      ]
-    },
-    "HR Systems Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "git",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Workday Engineer"
-      ]
-    },
     "Physical Security Lead": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -14543,30 +14477,6 @@
         "Senior Manager, IT (Financial Risk Management)"
       ]
     },
-    "Actuary": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Actuarial Data Scientist"
-      ]
-    },
     "Marketer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -14580,83 +14490,6 @@
       ],
       "sampleTitles": [
         "Startup Field Marketer"
-      ]
-    },
-    "系统工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "fastapi",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "llm",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Founding Systems Engineer"
-      ]
-    },
-    "Engineering Director": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Director of Engineering (Player-Coach)"
-      ]
-    },
-    "GTM Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": 26400,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "GTM Engineer"
-      ]
-    },
-    "Cloud Consulting": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Cloud Consulting Leader"
       ]
     },
     "金融量化研究员": {
@@ -14674,40 +14507,19 @@
         "AI量化策略研究员"
       ]
     },
-    "Systems Architect": {
+    "Operations Specialist": {
       "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "flask",
-          "count": 1
-        },
-        {
-          "skillId": "devops",
-          "count": 1
-        },
-        {
-          "skillId": "docker",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        }
-      ],
+      "augmentSkills": [],
       "topIndustries": [
         {
-          "industry": "other",
+          "industry": "manufacturing",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "Founding Product Engineer / Systems Architect"
+        "Digital Operations Intern"
       ]
     },
     "Government Relations / Public Sector Consultant": {
@@ -14732,42 +14544,6 @@
       ],
       "sampleTitles": [
         "Mission Manager – International Government (South America)"
-      ]
-    },
-    "Architect": {
-      "vacancyCount": 1,
-      "salaryMedian": 64524,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "azure",
-          "count": 1
-        },
-        {
-          "skillId": "kubernetes",
-          "count": 1
-        },
-        {
-          "skillId": "ci_cd",
-          "count": 1
-        },
-        {
-          "skillId": "devops",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Digital Transformation Architect"
       ]
     },
     "Marketing Program Manager": {
@@ -14800,147 +14576,19 @@
         "Commercial Counsel, EMEA"
       ]
     },
-    "Full-stack or Frontend Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "nextjs",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Full-stack or Frontend Engineer"
-      ]
-    },
-    "Backend Systems Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": 63437,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "fastapi",
-          "count": 1
-        },
-        {
-          "skillId": "distributed_systems",
-          "count": 1
-        },
-        {
-          "skillId": "kubernetes",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Backend Systems Engineer"
-      ]
-    },
-    "Infrastructure & Data Integration Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "rust",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "energy",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Infrastructure & Data Integration Engineer"
-      ]
-    },
-    "Software Developer": {
+    "Cloud Consulting": {
       "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
       "augmentSkills": [],
       "topIndustries": [
         {
-          "industry": "media",
+          "industry": "consulting",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "C / GPU / AI dev workflows"
-      ]
-    },
-    "Fullstack Platform Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Fullstack Platform Engineer"
+        "Cloud Consulting Leader"
       ]
     },
     "Salesforce Engineer": {
@@ -14976,6 +14624,21 @@
       ],
       "sampleTitles": [
         "Designer, Polo Men's Wovens & Swim 3D"
+      ]
+    },
+    "Technical Documentation Lead": {
+      "vacancyCount": 1,
+      "salaryMedian": 61650,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Founding Docs Practice Lead"
       ]
     },
     "Event Manager": {
@@ -15158,6 +14821,220 @@
         "Chief of Staff to the CEO"
       ]
     },
+    "GTM Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": 26400,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "GTM Engineer"
+      ]
+    },
+    "Mechanical Engineer, Robotics Software Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Founding Engineers"
+      ]
+    },
+    "biology": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        },
+        {
+          "skillId": "deep_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "CS PhD position"
+      ]
+    },
+    "Actuary": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Actuarial Data Scientist"
+      ]
+    },
+    "Backend Architect": {
+      "vacancyCount": 1,
+      "salaryMedian": 54375,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "fastapi",
+          "count": 1
+        },
+        {
+          "skillId": "docker",
+          "count": 1
+        },
+        {
+          "skillId": "llm",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Founding Backend Architect"
+      ]
+    },
+    "Research analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": 69600,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Research analyst (non-technical)"
+      ]
+    },
+    "Agricultural Data Scientist": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "anthropic_api",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": []
+    },
+    "QA Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": 35343,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "agile",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "QA Analyst"
+      ]
+    },
+    "Business Development Executive": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Business Development Executive"
+      ]
+    },
+    "Support Engineer, Designer, Software Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "anthropic_api",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Support Engineer, Designer, Software Engineer"
+      ]
+    },
     "Media Analyst": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -15166,6 +15043,196 @@
       "topIndustries": [],
       "sampleTitles": [
         "Media Ops & Analytics Intern"
+      ]
+    },
+    "Software Engineer, Systems Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "rust",
+          "count": 1
+        },
+        {
+          "skillId": "cpp",
+          "count": 1
+        },
+        {
+          "skillId": "java",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Systems Engineers + Software Engineer, Data Platform"
+      ]
+    },
+    "Financial Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Multiple Engineering Roles"
+      ]
+    },
+    "Infrastructure & Data Integration Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "rust",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "energy",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Infrastructure & Data Integration Engineer"
+      ]
+    },
+    "Chemical Manufacturing Optimization Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "docker",
+          "count": 1
+        },
+        {
+          "skillId": "kubernetes",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior/Staff Fullstack Engineer, DevOps Engineer, Applied Research Engineer"
+      ]
+    },
+    "前端工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "vue",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Frontend Product Engineer"
+      ]
+    },
+    "DevOps/SRE": {
+      "vacancyCount": 1,
+      "salaryMedian": 69600,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "kubernetes",
+          "count": 1
+        },
+        {
+          "skillId": "docker",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "DevOps / SRE (Cloud & Infrastructure)"
+      ]
+    },
+    "Marketing": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Head of Marketing"
       ]
     },
     "Logistics Manager": {
@@ -15252,6 +15319,110 @@
         "Support Agent - X Payments"
       ]
     },
+    "Geological Modelling / Full-Stack Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "nodejs",
+          "count": 1
+        },
+        {
+          "skillId": "nextjs",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Full-Stack Engineer (First Hire)"
+      ]
+    },
+    "Mobile Engineer, Engineering Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": 293,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "nodejs",
+          "count": 1
+        },
+        {
+          "skillId": "fastapi",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "redis",
+          "count": 1
+        },
+        {
+          "skillId": "docker",
+          "count": 1
+        },
+        {
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "gcp",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Mobile Engineers, Engineering managers"
+      ]
+    },
+    "Robotics Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "computer_vision",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Founding Principal / Staff Full-Stack Engineer, Founding Full-Stack Engineer"
+      ]
+    },
     "Tax Manager": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -15270,6 +15441,36 @@
       ],
       "sampleTitles": [
         "Manager, US Tax Operations"
+      ]
+    },
+    "QA Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "QA Engineer"
+      ]
+    },
+    "Quantitative Researcher/Data Scientist": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Quant/Data Scientist"
       ]
     },
     "Sales Account Executive": {
@@ -15789,6 +15990,21 @@
         "Field Services Engineer"
       ]
     },
+    "Psychologist": {
+      "vacancyCount": 1,
+      "salaryMedian": 78307,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Psychologist"
+      ]
+    },
     "Finance Systems Program Manager": {
       "vacancyCount": 1,
       "salaryMedian": 85224,
@@ -15877,50 +16093,6 @@
       ],
       "sampleTitles": [
         "Head of IT SOX"
-      ]
-    },
-    "Chemical Manufacturing Optimization Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "docker",
-          "count": 1
-        },
-        {
-          "skillId": "kubernetes",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior/Staff Fullstack Engineer, DevOps Engineer, Applied Research Engineer"
       ]
     },
     "Travel & Expense Manager": {
@@ -16516,6 +16688,21 @@
         "Senior Treasury Analyst"
       ]
     },
+    "Vehicle Operator": {
+      "vacancyCount": 1,
+      "salaryMedian": 21146,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Autonomous Vehicle Operator, Santa Clara (12-Month Duration)"
+      ]
+    },
     "Payroll Manager": {
       "vacancyCount": 1,
       "salaryMedian": 76124,
@@ -16529,6 +16716,21 @@
       ],
       "sampleTitles": [
         "Sr. Payroll Manager"
+      ]
+    },
+    "Data Engineer, Backend Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Backend + Data Engineer"
       ]
     },
     "Revenue Manager": {
@@ -16787,6 +16989,30 @@
       ],
       "sampleTitles": [
         "Civil Engineering Tutor"
+      ]
+    },
+    "DevOps/Backend Developer": {
+      "vacancyCount": 1,
+      "salaryMedian": 27158,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "docker",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "DevOps/Backend developer"
       ]
     },
     "Chemical Engineering Tutor": {
@@ -17557,6 +17783,21 @@
         "Medical Device Engineers + Physician-Scientist (MD/PhD)"
       ]
     },
+    "Medical Device Software Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": 45312,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Medical Device Software Engineer"
+      ]
+    },
     "Structural Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -17660,34 +17901,6 @@
         "Administrative Business Partner, Gemini"
       ]
     },
-    "DevOps/SRE": {
-      "vacancyCount": 1,
-      "salaryMedian": 69600,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "kubernetes",
-          "count": 1
-        },
-        {
-          "skillId": "docker",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "DevOps / SRE (Cloud & Infrastructure)"
-      ]
-    },
     "Talent Acquisition Specialist": {
       "vacancyCount": 1,
       "salaryMedian": 48944,
@@ -17703,11 +17916,32 @@
         "Talent Insights and Engagement Specialist"
       ]
     },
-    "Psychologist": {
+    "产品工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 78307,
+      "salaryMedian": 54375,
       "salarySampleSize": 1,
-      "augmentSkills": [],
+      "augmentSkills": [
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "nextjs",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "anthropic_api",
+          "count": 1
+        }
+      ],
       "topIndustries": [
         {
           "industry": "internet",
@@ -17715,7 +17949,43 @@
         }
       ],
       "sampleTitles": [
-        "Senior Psychologist"
+        "Lead Product Engineer"
+      ]
+    },
+    "Node.js Developer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "nodejs",
+          "count": 1
+        },
+        {
+          "skillId": "javascript",
+          "count": 1
+        },
+        {
+          "skillId": "azure",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Intermediate–Senior Node.js Developer (Sports Data + Generative AI)"
       ]
     },
     "Business Operations / Strategy": {
@@ -17783,6 +18053,21 @@
         "Co-Founder / Startup Team Member – Pet Lifestyle Brand (LUCKIS)"
       ]
     },
+    "Quantitative Developer / Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Lead Quantitative Developer / Engineer"
+      ]
+    },
     "Data Center Operations Manager": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -17796,21 +18081,6 @@
       ],
       "sampleTitles": [
         "Datacenter Hardware Operations Lead"
-      ]
-    },
-    "Technical Documentation Lead": {
-      "vacancyCount": 1,
-      "salaryMedian": 61650,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Founding Docs Practice Lead"
       ]
     },
     "IT Engineer": {
@@ -17873,21 +18143,6 @@
       ],
       "sampleTitles": [
         "Software Engineer, Quality & Developer Tools"
-      ]
-    },
-    "Marketing": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Head of Marketing"
       ]
     },
     "Datacenter Hardware Operations Technician": {
@@ -17983,21 +18238,6 @@
         "Strategic Sourcing Manager, DC Networking Infrastructure"
       ]
     },
-    "Mechanical Engineer, Robotics Software Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Founding Engineers"
-      ]
-    },
     "Accounts Payable Manager": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18050,30 +18290,6 @@
       ],
       "sampleTitles": [
         "Quantitative UX Researcher"
-      ]
-    },
-    "biology": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        },
-        {
-          "skillId": "deep_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "CS PhD position"
       ]
     },
     "Electronic Design Automation Engineer": {
@@ -18201,6 +18417,42 @@
         "M&A Finance Integration Lead"
       ]
     },
+    "Frontend Developer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "nextjs",
+          "count": 1
+        },
+        {
+          "skillId": "nodejs",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Frontend Developer"
+      ]
+    },
     "Trust & Safety Operator": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18221,6 +18473,21 @@
         "Content Integrity Analyst"
       ]
     },
+    "Product Designer and Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "UI/UX Designer"
+      ]
+    },
     "Fraud Investigator": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18234,30 +18501,6 @@
       ],
       "sampleTitles": [
         "Fraud Investigator, Account Integrity"
-      ]
-    },
-    "QA Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": 35343,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "agile",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "QA Analyst"
       ]
     },
     "Business Development / Strategic Partnerships": {
@@ -18319,21 +18562,6 @@
         "Operating Systems Engineer"
       ]
     },
-    "Research analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": 69600,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Research analyst (non-technical)"
-      ]
-    },
     "Learning and Development Specialist": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18352,57 +18580,6 @@
       ],
       "sampleTitles": [
         "L&D Specialist, Manager Development"
-      ]
-    },
-    "Backend Architect": {
-      "vacancyCount": 1,
-      "salaryMedian": 54375,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "fastapi",
-          "count": 1
-        },
-        {
-          "skillId": "docker",
-          "count": 1
-        },
-        {
-          "skillId": "llm",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Founding Backend Architect"
-      ]
-    },
-    "Business Development Executive": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Business Development Executive"
       ]
     },
     "Government Affairs Lead": {
@@ -18447,32 +18624,6 @@
       "sampleTitles": [
         "Senior Legal Solutions Architect"
       ]
-    },
-    "Agricultural Data Scientist": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "anthropic_api",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": []
     },
     "Cybersecurity Lead": {
       "vacancyCount": 1,
@@ -18659,26 +18810,6 @@
         "Executive Business Partner, Technical Leadership Support"
       ]
     },
-    "Support Engineer, Designer, Software Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "anthropic_api",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Support Engineer, Designer, Software Engineer"
-      ]
-    },
     "IT Governance Manager": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18770,57 +18901,6 @@
       ],
       "sampleTitles": [
         "Order Management & Billing"
-      ]
-    },
-    "Software Engineer, Systems Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "rust",
-          "count": 1
-        },
-        {
-          "skillId": "cpp",
-          "count": 1
-        },
-        {
-          "skillId": "java",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Systems Engineers + Software Engineer, Data Platform"
-      ]
-    },
-    "Financial Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Multiple Engineering Roles"
       ]
     },
     "Recruiting Operations Manager": {
@@ -18941,140 +19021,19 @@
         "SaaS Operator / Builder"
       ]
     },
-    "Geological Modelling / Full-Stack Engineer": {
+    "Game Developer": {
       "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "nodejs",
-          "count": 1
-        },
-        {
-          "skillId": "nextjs",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        }
-      ],
+      "augmentSkills": [],
       "topIndustries": [
         {
-          "industry": "other",
+          "industry": "media",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "Full-Stack Engineer (First Hire)"
-      ]
-    },
-    "Scientific Analyst/Developer": {
-      "vacancyCount": 1,
-      "salaryMedian": 60718,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "java",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        },
-        {
-          "skillId": "reinforcement_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "government",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Scientific Analyst/Developer"
-      ]
-    },
-    "Mobile Engineer, Engineering Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": 293,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "nodejs",
-          "count": 1
-        },
-        {
-          "skillId": "fastapi",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "redis",
-          "count": 1
-        },
-        {
-          "skillId": "docker",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "gcp",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Mobile Engineers, Engineering managers"
-      ]
-    },
-    "Robotics Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "computer_vision",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Founding Principal / Staff Full-Stack Engineer, Founding Full-Stack Engineer"
+        "Expert Godot developer"
       ]
     },
     "Writer": {
@@ -19092,19 +19051,36 @@
         "Writer"
       ]
     },
-    "Data Engineer, Backend Engineer": {
+    "系统工程师": {
       "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
-      "augmentSkills": [],
+      "augmentSkills": [
+        {
+          "skillId": "fastapi",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "llm",
+          "count": 1
+        }
+      ],
       "topIndustries": [
         {
-          "industry": "finance",
+          "industry": "manufacturing",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "Backend + Data Engineer"
+        "Founding Systems Engineer"
       ]
     },
     "Frontend Engineer, Fullstack Engineer, ML Engineer": {
@@ -19120,30 +19096,6 @@
       ],
       "sampleTitles": [
         "FE, FS, ML engineers"
-      ]
-    },
-    "DevOps/Backend Developer": {
-      "vacancyCount": 1,
-      "salaryMedian": 27158,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "docker",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "DevOps/Backend developer"
       ]
     },
     "Mobile App Development & Design Engineer": {
@@ -19166,47 +19118,11 @@
         "Mobile App Development & Design Engineer Intern"
       ]
     },
-    "Quantitative Developer / Engineer": {
+    "Engineering Director": {
       "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
       "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Lead Quantitative Developer / Engineer"
-      ]
-    },
-    "Frontend Developer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "nextjs",
-          "count": 1
-        },
-        {
-          "skillId": "nodejs",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
       "topIndustries": [
         {
           "industry": "internet",
@@ -19214,22 +19130,7 @@
         }
       ],
       "sampleTitles": [
-        "Frontend Developer"
-      ]
-    },
-    "Product Designer and Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "UI/UX Designer"
+        "Director of Engineering (Player-Coach)"
       ]
     },
     "Aerospace Engineer": {
@@ -19247,21 +19148,6 @@
         "iOS & Backend"
       ]
     },
-    "Game Developer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Expert Godot developer"
-      ]
-    },
     "材料工程师": {
       "vacancyCount": 1,
       "salaryMedian": 38894,
@@ -19275,21 +19161,6 @@
       ],
       "sampleTitles": [
         "Engineer I (Multiple Openings)"
-      ]
-    },
-    "Vehicle Operator": {
-      "vacancyCount": 1,
-      "salaryMedian": 21146,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Autonomous Vehicle Operator, Santa Clara (12-Month Duration)"
       ]
     },
     "Content Production Assistant": {
@@ -19506,21 +19377,6 @@
         "Probability Tutor"
       ]
     },
-    "Earth Scientist": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "2026 PhD Residency - Earth Scientist AI Resident - Early Stage Project"
-      ]
-    },
     "Revenue Operations Analyst": {
       "vacancyCount": 1,
       "salaryMedian": 0,
@@ -19536,51 +19392,6 @@
         "RevOps AI Analyst Intern"
       ]
     },
-    "Auditor": {
-      "vacancyCount": 1,
-      "salaryMedian": 0,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "State Street Audit Team - Integrated Audit Data Analyst"
-      ]
-    },
-    "GIS Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "GIS Intern Analyst"
-      ]
-    },
-    "量化研究员": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI Intern - Long/Short Equities"
-      ]
-    },
     "技术总监": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -19594,21 +19405,6 @@
       ],
       "sampleTitles": [
         "Technical Director - Inkubator"
-      ]
-    },
-    "Data Warehouse Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Business Warehouse"
       ]
     },
     "Security Consultant": {
@@ -19666,21 +19462,6 @@
         "Summer 2026 IT Data Integration Internship - MS"
       ]
     },
-    "Electrical and Computer Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Intern - College of Engineering - Electrical and Computer Engineering"
-      ]
-    },
     "设计工程师": {
       "vacancyCount": 1,
       "salaryMedian": 67968,
@@ -19713,21 +19494,6 @@
         "Design Engineer"
       ]
     },
-    "Operations Specialist": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Digital Operations Intern"
-      ]
-    },
     "Marketing Artist": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -19741,121 +19507,6 @@
       ],
       "sampleTitles": [
         "Marketing Artist"
-      ]
-    },
-    "Quantitative Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "energy",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Summer Intern - Quantitative Analytics"
-      ]
-    },
-    "DSP Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Digital Signal Processing Machine Learning Software Development Co-op"
-      ]
-    },
-    "Hospitality Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Hospitality and Merchandise Insights Intern"
-      ]
-    },
-    "Product Line Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Product Line Management Intern"
-      ]
-    },
-    "Histopathology Imaging Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Histopathology Imaging Data Science Intern"
-      ]
-    },
-    "Power Supply Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "energy",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Power Supply Intern"
-      ]
-    },
-    "Maintenance Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Predictive Maintenance Co-op"
       ]
     },
     "Creative Lead": {
@@ -19932,34 +19583,40 @@
         "Customer Education, Learning Experience & Curriculum Lead"
       ]
     },
-    "Quality Assurance Engineer": {
+    "Architect": {
       "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Quality Assurance Engineer"
-      ]
-    },
-    "Medical Device Software Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": 45312,
+      "salaryMedian": 64524,
       "salarySampleSize": 1,
-      "augmentSkills": [],
+      "augmentSkills": [
+        {
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "azure",
+          "count": 1
+        },
+        {
+          "skillId": "kubernetes",
+          "count": 1
+        },
+        {
+          "skillId": "ci_cd",
+          "count": 1
+        },
+        {
+          "skillId": "devops",
+          "count": 1
+        }
+      ],
       "topIndustries": [
         {
-          "industry": "healthcare",
+          "industry": "manufacturing",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "Medical Device Software Engineer"
+        "Digital Transformation Architect"
       ]
     },
     "人力资源分析师": {
@@ -20068,42 +19725,6 @@
         "Safeguards Policy Analyst, Fraud & Scams"
       ]
     },
-    "产品工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": 54375,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 1
-        },
-        {
-          "skillId": "react",
-          "count": 1
-        },
-        {
-          "skillId": "nextjs",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "anthropic_api",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Lead Product Engineer"
-      ]
-    },
     "应付账款经理": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -20119,24 +19740,240 @@
         "Accounts Payable Manager, Direct"
       ]
     },
-    "前端工程师": {
+    "Full-stack or Frontend Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
       "augmentSkills": [
         {
-          "skillId": "vue",
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "nextjs",
+          "count": 1
+        },
+        {
+          "skillId": "aws",
           "count": 1
         }
       ],
       "topIndustries": [
         {
-          "industry": "internet",
+          "industry": "manufacturing",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "Senior Frontend Product Engineer"
+        "Full-stack or Frontend Engineer"
+      ]
+    },
+    "Quality Assurance Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Quality Assurance Engineer"
+      ]
+    },
+    "Backend Systems Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": 63437,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "fastapi",
+          "count": 1
+        },
+        {
+          "skillId": "distributed_systems",
+          "count": 1
+        },
+        {
+          "skillId": "kubernetes",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Backend Systems Engineer"
+      ]
+    },
+    "Software Developer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "C / GPU / AI dev workflows"
+      ]
+    },
+    "Fullstack Platform Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "typescript",
+          "count": 1
+        },
+        {
+          "skillId": "react",
+          "count": 1
+        },
+        {
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Fullstack Platform Engineer"
+      ]
+    },
+    "Earth Scientist": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "2026 PhD Residency - Earth Scientist AI Resident - Early Stage Project"
+      ]
+    },
+    "GIS Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "GIS Intern Analyst"
+      ]
+    },
+    "Electrical and Computer Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Intern - College of Engineering - Electrical and Computer Engineering"
+      ]
+    },
+    "DSP Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Digital Signal Processing Machine Learning Software Development Co-op"
+      ]
+    },
+    "Quantitative Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "energy",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Summer Intern - Quantitative Analytics"
+      ]
+    },
+    "Hospitality Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Hospitality and Merchandise Insights Intern"
+      ]
+    },
+    "Product Line Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Product Line Management Intern"
       ]
     },
     "Ergonomist": {
@@ -20154,6 +19991,26 @@
         "Ergonomics Intern"
       ]
     },
+    "Histopathology Imaging Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Histopathology Imaging Data Science Intern"
+      ]
+    },
     "Marketing Analyst": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -20169,6 +20026,36 @@
         "Summer Internship: Marketing Analytics Intern"
       ]
     },
+    "Power Supply Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "energy",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Power Supply Intern"
+      ]
+    },
+    "Maintenance Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Predictive Maintenance Co-op"
+      ]
+    },
     "Maintenance Planning Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -20182,6 +20069,119 @@
       ],
       "sampleTitles": [
         "Paint Shop Digitalization Developer Maintenance Planning Intern"
+      ]
+    },
+    "Systems Architect": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "flask",
+          "count": 1
+        },
+        {
+          "skillId": "devops",
+          "count": 1
+        },
+        {
+          "skillId": "docker",
+          "count": 1
+        },
+        {
+          "skillId": "aws",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Founding Product Engineer / Systems Architect"
+      ]
+    },
+    "Auditor": {
+      "vacancyCount": 1,
+      "salaryMedian": 0,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "State Street Audit Team - Integrated Audit Data Analyst"
+      ]
+    },
+    "量化研究员": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI Intern - Long/Short Equities"
+      ]
+    },
+    "Data Warehouse Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Business Warehouse"
+      ]
+    },
+    "Scientific Analyst/Developer": {
+      "vacancyCount": 1,
+      "salaryMedian": 60718,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "java",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        },
+        {
+          "skillId": "reinforcement_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "government",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Scientific Analyst/Developer"
       ]
     }
   }

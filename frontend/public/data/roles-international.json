@@ -127,8 +127,8 @@
       "Full Stack Engineer",
       "Engineer I (Multiple Openings)",
       "Staff / Senior Software Engineer, Inference",
-      "Senior Backend Engineer",
-      "Agentic AI FW developer"
+      "Agentic AI FW developer",
+      "Sr Principal Software Engineer - Agentic Platform and Experiences"
     ],
     "required_skills": [
       {
@@ -244,14 +244,14 @@
   {
     "job_count": 790,
     "sample_titles": [
+      "Applied Scientist 1",
       "Senior Machine Learning Scientist, Payments",
       "Data Scientist Engineer",
       "Principal Applied Scientist, Sponsored Products and Brands",
       "AI Research Intern",
       "Principal Applied Scientist, Advertiser Growth, Amazon Sponsored Products & Brands",
       "Research Engineer/Scientist - Generative UI, Consumer Devices",
-      "Entry Level Engineers/Scientists/Chemists/Technicians",
-      "Senior Quant/Data Scientist"
+      "Entry Level Engineers/Scientists/Chemists/Technicians"
     ],
     "required_skills": [
       {
@@ -499,13 +499,13 @@
     "job_count": 494,
     "sample_titles": [
       "Artificial Intelligence Intern",
+      "AI Business Analyst Intern 107277",
       "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
       "Robot Learning Engineering Intern",
+      "Intern – Data Science - Operations Sustainment",
       "AI Ads Intern — Viral Creative & Performance Marketing",
       "Junior Designer",
-      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships",
-      "Data Science Internship (Summer 2026)",
-      "Machine Learning Project Intern (Business Integrity Data Cycling Center) - 2026 Start (BS/MS)"
+      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships"
     ],
     "required_skills": [
       {
@@ -633,10 +633,10 @@
       "Data Engineer",
       "Technical Program Manager, Google Cloud Analytics and Insights",
       "Data Analyst - Entry Level",
-      "Data Engineering Intern",
-      "Data Engineer-Junior",
-      "Technical Data Analyst",
-      "Analytics Engineer, Finance"
+      "Data Analyst - With Learning Material",
+      "Data Analyst",
+      "Business Analyst / Data Analyst Entry Level",
+      "Data Engineering Intern"
     ],
     "required_skills": [
       {
@@ -652,15 +652,15 @@
         "count": 3
       },
       {
+        "skill_id": "java",
+        "count": 2
+      },
+      {
         "skill_id": "llm",
         "count": 2
       },
       {
         "skill_id": "aws",
-        "count": 2
-      },
-      {
-        "skill_id": "java",
         "count": 2
       },
       {
@@ -776,13 +776,13 @@
     "job_count": 329,
     "sample_titles": [
       "Lead Site Reliability Engineer (GCP & Hybrid Cloud)",
-      "Head of Engineering & Infrastructure",
       "Senior Applied Science Manager, Amazon Sponsored Products & Brands",
       "Head of AI",
       "Assistant Professor: AI + Education",
       "CAIO",
       "Senior Vice President of Digital Transformation",
-      "Digital Transformation Executive"
+      "Digital Transformation Executive",
+      "Director, Accounting Operations"
     ],
     "required_skills": [
       {
@@ -1034,7 +1034,7 @@
       "Senior Product Manager, SMB Hiring",
       "Manager of Product Operations",
       "AI Solutions & Automation Product Manager-Commercial",
-      "Product Manager, Multi-Cloud Growth - Google"
+      "Product Manager"
     ],
     "required_skills": [
       {
@@ -1157,14 +1157,14 @@
   {
     "job_count": 43,
     "sample_titles": [
+      "AI Enablement Strategist – New College Graduate",
       "Director of AI Enablement",
       "Principal Indirect Selling Partner Enablement & Activation Lead, AWS Partner Core Enablement Shared Services-Foundations",
       "Strategic Partner Development Lead, Quantum AI",
       "Sales Manager / Business Development Manager – AI Fitting Mirror",
       "Senior ProServe Sales Leader, North America, Healthcare and Life Sciences",
       "Senior Leader, ProServe AI/GenAI/Agentic Specialists, Healthcare and Life Sciences",
-      "Infrastructure Partnership Delivery Lead – Stargate",
-      "Onboarding & Enablement Program Manager"
+      "Infrastructure Partnership Delivery Lead – Stargate"
     ],
     "required_skills": [
       {
@@ -1282,7 +1282,7 @@
       "Autonomous Vehicles - Training Manager",
       "Autonomous Vehicle Operator with CDL",
       "Autonomous Vehicle Test Operator",
-      "Robotics Engineers"
+      "Autonomous Vehicle Operator Supervisor"
     ],
     "required_skills": [
       {
@@ -1351,8 +1351,8 @@
     "top_companies": [
       "TSMG Holding",
       "Piaggio Fast Forward",
-      "9 Mothers Defense",
       "Google DeepMind",
+      "9 Mothers Defense",
       "Kodiak Robotics, Inc."
     ],
     "top_industries": [
@@ -1361,15 +1361,15 @@
         "count": 20
       },
       {
-        "industry": "other",
-        "count": 2
-      },
-      {
         "industry": "manufacturing",
         "count": 2
       },
       {
         "industry": "internet",
+        "count": 2
+      },
+      {
+        "industry": "other",
         "count": 2
       },
       {
@@ -1390,7 +1390,7 @@
       "Finance Manager - Healthcare, Amazon One Medical",
       "Payment Network Relationship Management and Strategy Consultant",
       "Strategic Risk Analyst",
-      "Product Consultant"
+      "Strategic Risk Analyst, Behavioral & Psychological Risk"
     ],
     "required_skills": [
       {

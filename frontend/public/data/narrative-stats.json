@@ -152,6 +152,17 @@
         ]
       },
       {
+        "company": "Microsoft",
+        "title": "Research Intern",
+        "variant_count": 10,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "community_github_hiring"
+        ]
+      },
+      {
         "company": "某北京大型互联网公司",
         "title": "产品经理- AI /Digital/APP/小程序/SaaS系统（企业业务流程梳理）",
         "variant_count": 10,
@@ -171,17 +182,6 @@
         ],
         "platforms": [
           "vendor_openai"
-        ]
-      },
-      {
-        "company": "Microsoft",
-        "title": "Research Intern",
-        "variant_count": 10,
-        "markets": [
-          "international"
-        ],
-        "platforms": [
-          "community_github_hiring"
         ]
       },
       {

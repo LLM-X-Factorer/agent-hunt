@@ -141,6 +141,19 @@
             "苏州"
           ]
         },
+        "algorithm": {
+          "roleName": "算法工程师/研究员",
+          "vacancyCount": 195,
+          "salaryMedian": 56250,
+          "salarySampleSize": 38,
+          "topRegions": [
+            "深圳",
+            "北京",
+            "广州",
+            "上海",
+            "Shenzhen, Nanshan District"
+          ]
+        },
         "sales_bd": {
           "roleName": "AI 销售/商务",
           "vacancyCount": 92,
@@ -203,19 +216,6 @@
             "杭州",
             "北京",
             "广州"
-          ]
-        },
-        "algorithm": {
-          "roleName": "算法工程师/研究员",
-          "vacancyCount": 195,
-          "salaryMedian": 56250,
-          "salarySampleSize": 38,
-          "topRegions": [
-            "深圳",
-            "北京",
-            "广州",
-            "上海",
-            "Shenzhen, Nanshan District"
           ]
         },
         "education_ai": {
@@ -497,8 +497,8 @@
             "北京",
             "南昌-青山湖区",
             "广州",
-            "深圳-南山区",
-            "Shenzhen"
+            "北京-海淀区",
+            "深圳-南山区"
           ]
         },
         "ai_engineer": {
@@ -529,6 +529,19 @@
             "福州"
           ]
         },
+        "sales_bd": {
+          "roleName": "AI 销售/商务",
+          "vacancyCount": 20,
+          "salaryMedian": 20000,
+          "salarySampleSize": 20,
+          "topRegions": [
+            "深圳",
+            "北京",
+            "济南",
+            "呼和浩特-新城区",
+            "成都-武侯区"
+          ]
+        },
         "ai_engineer": {
           "roleName": "AI/LLM 工程师",
           "vacancyCount": 26,
@@ -540,19 +553,6 @@
             "Guangzhou, Haizhu District",
             "北京-海淀区",
             "天津"
-          ]
-        },
-        "sales_bd": {
-          "roleName": "AI 销售/商务",
-          "vacancyCount": 20,
-          "salaryMedian": 20000,
-          "salarySampleSize": 20,
-          "topRegions": [
-            "深圳",
-            "北京",
-            "呼和浩特-新城区",
-            "成都-武侯区",
-            "合肥"
           ]
         },
         "algorithm": {
@@ -993,8 +993,8 @@
             "上海-浦东新区",
             "广州",
             "杭州",
-            "上海",
-            "深圳·龙岗区·布吉"
+            "重庆",
+            "上海"
           ]
         },
         "operations": {
@@ -1494,9 +1494,9 @@
           "topRegions": [
             "San Francisco",
             "United States",
+            "Bucharest",
             "London, UK",
-            "San Francisco, CA | Seattle, WA",
-            "New York"
+            "San Francisco, CA | Seattle, WA"
           ]
         },
         "intern_newgrad": {
@@ -1508,8 +1508,8 @@
             "UK-London",
             "San Francisco, CA",
             "New York City",
-            "Bangalore",
-            "London, UK; San Francisco, CA"
+            "Cambridge, UK",
+            "The Hague, The Netherlands"
           ]
         },
         "sales_bd": {
@@ -1570,10 +1570,10 @@
           "salarySampleSize": 21,
           "topRegions": [
             "SF, NY, NC, Dubai",
-            "USA",
+            "US",
             "SF, NYC, Raleigh-Durham, Dubai",
-            "Zurich, Switzerland",
-            "US"
+            "USA",
+            "Zurich, Switzerland"
           ]
         },
         "ml_scientist": {
@@ -1608,10 +1608,10 @@
           "salarySampleSize": 1,
           "topRegions": [
             "Dallas, Texas, United States",
-            "Mason, OH",
+            "Bedford, IN",
             "Pleasanton, CA",
             "Atlanta, GA",
-            "Bedford, IN"
+            "Mason, OH"
           ]
         },
         "product_manager": {
@@ -1670,19 +1670,6 @@
             "Horsham, PA"
           ]
         },
-        "sde": {
-          "roleName": "Software Engineer",
-          "vacancyCount": 49,
-          "salaryMedian": 67968,
-          "salarySampleSize": 17,
-          "topRegions": [
-            "SF, Remote (North America)",
-            "Stockholm, Sweden",
-            "San Francisco, CA",
-            "NYC",
-            "San Mateo, CA"
-          ]
-        },
         "leadership": {
           "roleName": "Engineering Leadership",
           "vacancyCount": 26,
@@ -1696,6 +1683,19 @@
             "San Francisco, CA"
           ]
         },
+        "sde": {
+          "roleName": "Software Engineer",
+          "vacancyCount": 49,
+          "salaryMedian": 67968,
+          "salarySampleSize": 17,
+          "topRegions": [
+            "SF, Remote (North America)",
+            "Stockholm, Sweden",
+            "San Francisco, CA",
+            "NYC",
+            "San Francisco"
+          ]
+        },
         "ml_scientist": {
           "roleName": "ML Scientist / Researcher",
           "vacancyCount": 25,
@@ -1703,8 +1703,8 @@
           "salarySampleSize": 10,
           "topRegions": [
             "US",
-            "Boston/Somerville MA",
             "REMOTE (US)",
+            "Boston/Somerville MA",
             "北京-通州区",
             "Indianapolis, San Diego"
           ]
@@ -1761,10 +1761,10 @@
           "salarySampleSize": 0,
           "topRegions": [
             "Multiple locations",
-            "San Diego, CA",
+            "Chicago, IL",
             "Ambler, PA",
             "Princeton, NJ",
-            "Chicago, IL"
+            "San Diego, CA"
           ]
         },
         "autonomous": {
@@ -1801,8 +1801,8 @@
             "Hawthorne, CA (Los Angeles County)",
             "Seattle",
             "Sheffield, UK",
-            "Remote (worldwide)",
-            "Boston, MA"
+            "Boston, MA",
+            "Remote (worldwide)"
           ]
         },
         "leadership": {
@@ -1814,8 +1814,8 @@
             "Pittsburgh, Pennsylvania, USA; Listowel, Ontario, Canada; Sendenhorst, North Rhine-Westphalia, Germany",
             "St. Paul, MN, USA",
             "United States",
-            "Remote (US Based)",
-            "NYC"
+            "NYC office",
+            "San Francisco"
           ]
         },
         "intern_newgrad": {
@@ -1854,19 +1854,6 @@
           ],
           "lowSample": true
         },
-        "ml_scientist": {
-          "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 6,
-          "salaryMedian": null,
-          "salarySampleSize": 0,
-          "topRegions": [
-            "Cairo, Egypt & London, UK",
-            "Hamburg, Germany",
-            "Cambridge, UK",
-            "Remote in UK",
-            "Waltham, MA"
-          ]
-        },
         "autonomous": {
           "roleName": "Autonomous Vehicles",
           "vacancyCount": 2,
@@ -1877,6 +1864,19 @@
             "San Francisco"
           ],
           "lowSample": true
+        },
+        "ml_scientist": {
+          "roleName": "ML Scientist / Researcher",
+          "vacancyCount": 6,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Hamburg, Germany",
+            "Remote in UK",
+            "Cairo, Egypt & London, UK",
+            "Cambridge, UK",
+            "Waltham, MA"
+          ]
         },
         "data": {
           "roleName": "Data Scientist / Analyst",
@@ -1912,9 +1912,9 @@
           "topRegions": [
             "New York, NY",
             "New York City",
-            "Paris, France",
+            "Hong Kong",
             "Raleigh, NC",
-            "Hong Kong"
+            "Remote (US/UK/Canada/Spain)"
           ]
         },
         "sde": {
@@ -1927,7 +1927,7 @@
             "SF",
             "NYC",
             "SF + Seattle",
-            "NYC (HQ), London or Amsterdam"
+            "Mclean, Virginia"
           ]
         },
         "product_manager": {
@@ -1983,8 +1983,8 @@
           "topRegions": [
             "SF & Remote",
             "New York, NY; Palo Alto, CA",
-            "Boston, MA",
-            "Milwaukee, WI"
+            "Milwaukee, WI",
+            "Boston, MA"
           ]
         },
         "architect": {
@@ -2023,7 +2023,7 @@
             "Plano, Texas, USA",
             "USA",
             "United States",
-            "Remote (US/Canada)"
+            "Sydney, AU"
           ]
         },
         "ml_scientist": {
@@ -2069,10 +2069,10 @@
           "salarySampleSize": 8,
           "topRegions": [
             "Los Angeles, CA",
-            "Canada",
-            "Zurich, Switzerland",
-            "STOCKHOLM",
-            "Sydney, Australia"
+            "Remote (worldwide)",
+            "San Francisco",
+            "Amsterdam, The Netherlands",
+            "Remote (Europe ±2h CET)"
           ]
         },
         "architect": {
@@ -2255,7 +2255,7 @@
             "Remote (US Only)",
             "Remote US",
             "Ohio, USA",
-            "NYC"
+            "New York City"
           ]
         },
         "ml_engineer": {
@@ -2264,8 +2264,8 @@
           "salaryMedian": null,
           "salarySampleSize": 0,
           "topRegions": [
-            "San Francisco or NYC",
-            "Remote (US)"
+            "Remote (US)",
+            "San Francisco or NYC"
           ],
           "lowSample": true
         },
@@ -2291,126 +2291,18 @@
           "lowSample": true
         }
       },
-      "other": {
-        "sde": {
-          "roleName": "Software Engineer",
-          "vacancyCount": 35,
-          "salaryMedian": 63437,
-          "salarySampleSize": 12,
-          "topRegions": [
-            "NYC",
-            "Austria or Remote EU Hours",
-            "San Francisco, CA",
-            "Remote (US Timezones)",
-            "San Francisco"
-          ]
-        },
-        "ml_engineer": {
-          "roleName": "ML/AI Engineer",
-          "vacancyCount": 14,
-          "salaryMedian": 72046,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "NYC",
-            "LATAM",
-            "London (first 6 months) -> SF",
-            "REMOTE",
-            "London"
-          ]
-        },
-        "autonomous": {
-          "roleName": "Autonomous Vehicles",
-          "vacancyCount": 2,
-          "salaryMedian": null,
-          "salarySampleSize": 0,
-          "topRegions": [
-            "Austin TX"
-          ],
-          "lowSample": true
-        },
-        "leadership": {
-          "roleName": "Engineering Leadership",
-          "vacancyCount": 4,
-          "salaryMedian": 282,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "Hyderabad, India",
-            "Munich, Germany"
-          ],
-          "lowSample": true
-        },
-        "architect": {
-          "roleName": "Solutions Architect",
-          "vacancyCount": 3,
-          "salaryMedian": 53280,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "Remote (Global)",
-            "London, UK",
-            "Remote (India)"
-          ],
-          "lowSample": true
-        },
-        "intern_newgrad": {
-          "roleName": "Intern / New Grad",
-          "vacancyCount": 6,
-          "salaryMedian": 112374,
-          "salarySampleSize": 1,
-          "topRegions": [
-            "Palo Alto, CA",
-            "Aptos, CA",
-            "NYC",
-            "Frisco, TX",
-            "Toronto, ON, Canada"
-          ]
-        },
-        "ml_scientist": {
-          "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 3,
-          "salaryMedian": null,
-          "salarySampleSize": 0,
-          "topRegions": [
-            "London",
-            "Austin TX",
-            "Mountain View, CA"
-          ],
-          "lowSample": true
-        },
-        "data": {
-          "roleName": "Data Scientist / Analyst",
-          "vacancyCount": 1,
-          "salaryMedian": null,
-          "salarySampleSize": 0,
-          "topRegions": [
-            "Tempe, AZ"
-          ],
-          "lowSample": true
-        }
-      },
       "retail": {
-        "leadership": {
-          "roleName": "Engineering Leadership",
-          "vacancyCount": 6,
-          "salaryMedian": 33893,
-          "salarySampleSize": 4,
-          "topRegions": [
-            "Warsaw, Poland",
-            "Clearwater, FL",
-            "London/Cambridge, UK",
-            "China (TIANJIN) / United States (Chicago ORD area – Schiller Park)"
-          ]
-        },
         "sde": {
           "roleName": "Software Engineer",
           "vacancyCount": 11,
           "salaryMedian": 50749,
           "salarySampleSize": 4,
           "topRegions": [
-            "REMOTE or San Francisco, Los Angeles, Chicago, Boston, New York, New Jersey, Seattle, Austin, Dallas, Toronto, or Washington DC",
             "REMOTE or San Francisco, Los Angeles, Chicago, Boston, New York, New Jersey, Seattle, Austin, Toronto, or Washington DC",
+            "REMOTE or San Francisco, Los Angeles, Chicago, Boston, New York, New Jersey, Seattle, Austin, Dallas, Toronto, or Washington DC",
             "Westborough, Massachusetts",
-            "Remote (US, Colombia, Argentina)",
-            "REMOTE or San Francisco, Los Angeles, Chicago, Boston, New York City, New Jersey, Seattle, Austin, Toronto, or Washington DC"
+            "REMOTE or San Francisco, Los Angeles, Chicago, Boston, New York City, New Jersey, Seattle, Austin, Toronto, or Washington DC",
+            "REMOTE (US)"
           ]
         },
         "ml_scientist": {
@@ -2422,6 +2314,18 @@
             "San Francisco, CA",
             "US",
             "Bentonville, Arkansas"
+          ]
+        },
+        "leadership": {
+          "roleName": "Engineering Leadership",
+          "vacancyCount": 6,
+          "salaryMedian": 33893,
+          "salarySampleSize": 4,
+          "topRegions": [
+            "Warsaw, Poland",
+            "London/Cambridge, UK",
+            "Clearwater, FL",
+            "China (TIANJIN) / United States (Chicago ORD area – Schiller Park)"
           ]
         },
         "architect": {
@@ -2453,8 +2357,8 @@
           "topRegions": [
             "Southern California, USA",
             "USA",
-            "Remote – US/Canada",
-            "Remote"
+            "Remote",
+            "Remote – US/Canada"
           ],
           "lowSample": true
         },
@@ -2500,9 +2404,9 @@
           "topRegions": [
             "SF, Athens, or US REMOTE",
             "London, UK",
-            "Calgary, Alberta, Canada",
             "Remote (US) or Santa Clara or Brooklyn",
-            "REMOTE (US)"
+            "REMOTE (US)",
+            "Calgary, Alberta, Canada"
           ]
         },
         "ml_engineer": {
@@ -2533,6 +2437,102 @@
           "salarySampleSize": 0,
           "topRegions": [
             "San Jose, CA"
+          ],
+          "lowSample": true
+        }
+      },
+      "other": {
+        "leadership": {
+          "roleName": "Engineering Leadership",
+          "vacancyCount": 4,
+          "salaryMedian": 282,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "Hyderabad, India",
+            "Munich, Germany"
+          ],
+          "lowSample": true
+        },
+        "intern_newgrad": {
+          "roleName": "Intern / New Grad",
+          "vacancyCount": 6,
+          "salaryMedian": 112374,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "Palo Alto, CA",
+            "Frisco, TX",
+            "NYC",
+            "Toronto, ON, Canada",
+            "Woodridge, IL"
+          ]
+        },
+        "ml_engineer": {
+          "roleName": "ML/AI Engineer",
+          "vacancyCount": 14,
+          "salaryMedian": 72046,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "LATAM",
+            "NYC",
+            "REMOTE",
+            "Munich or Berlin, Germany",
+            "Auburn AL → SF/Seattle/NYC/Remote"
+          ]
+        },
+        "sde": {
+          "roleName": "Software Engineer",
+          "vacancyCount": 35,
+          "salaryMedian": 63437,
+          "salarySampleSize": 12,
+          "topRegions": [
+            "NYC",
+            "Austria or Remote EU Hours",
+            "San Francisco, CA",
+            "San Francisco",
+            "Remote (US Timezones)"
+          ]
+        },
+        "architect": {
+          "roleName": "Solutions Architect",
+          "vacancyCount": 3,
+          "salaryMedian": 53280,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "London, UK",
+            "Remote (India)",
+            "Remote (Global)"
+          ],
+          "lowSample": true
+        },
+        "autonomous": {
+          "roleName": "Autonomous Vehicles",
+          "vacancyCount": 2,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Austin TX"
+          ],
+          "lowSample": true
+        },
+        "ml_scientist": {
+          "roleName": "ML Scientist / Researcher",
+          "vacancyCount": 3,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Austin TX",
+            "London",
+            "Mountain View, CA"
+          ],
+          "lowSample": true
+        },
+        "data": {
+          "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 1,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Tempe, AZ"
           ],
           "lowSample": true
         }
@@ -2586,11 +2586,11 @@
           "salaryMedian": 60718,
           "salarySampleSize": 3,
           "topRegions": [
-            "New York City",
-            "Remote (India)",
-            "London",
             "Remote (Continental US)",
-            "Athens, Greece"
+            "London",
+            "New York City",
+            "Athens, Greece",
+            "Colorado Springs, CO"
           ]
         },
         "architect": {
