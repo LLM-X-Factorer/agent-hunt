@@ -1,0 +1,145 @@
+name: weekly-refresh
+
+# Runs every Sunday at 02:00 UTC (= 10:00 Asia/Shanghai). Manual trigger
+# via "Run workflow" button is also enabled for ad-hoc refreshes.
+on:
+  schedule:
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+
+# Concurrency: cancel in-progress runs if a new one is queued, so manual
+# dispatches don't pile up behind the scheduled run.
+concurrency:
+  group: weekly-refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write  # commit JSON diffs back to main
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    services:
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 5
+
+    env:
+      AH_DATABASE_URL_OVERRIDE: ${{ secrets.AH_DATABASE_URL }}
+      AH_REDIS_HOST: localhost
+      AH_REDIS_PORT: 6379
+      AH_OPENROUTER_API_KEY: ${{ secrets.AH_OPENROUTER_API_KEY }}
+      AH_LLM_MODEL: deepseek/deepseek-v3.2-exp
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ---------------------------------------------------------------
+      # Backend setup
+      # ---------------------------------------------------------------
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install backend dependencies
+        working-directory: backend
+        run: |
+          uv venv --python 3.11 .venv
+          source .venv/bin/activate
+          uv pip install -e ".[dev]"
+
+      # ---------------------------------------------------------------
+      # 1. Incremental collect — only no-anti-scrape sources
+      # ---------------------------------------------------------------
+      - name: Collect HN Who is Hiring
+        working-directory: backend
+        run: .venv/bin/python scripts/collect_hn_wih.py
+        continue-on-error: true
+
+      - name: Collect GitHub hiring repos
+        working-directory: backend
+        run: .venv/bin/python scripts/collect_github_hiring.py
+        continue-on-error: true
+
+      # ---------------------------------------------------------------
+      # 2. Rule-based role_type backfill (no LLM cost)
+      # ---------------------------------------------------------------
+      - name: Backfill role_type
+        working-directory: backend
+        run: .venv/bin/python scripts/backfill_role_type_rules.py --apply
+        continue-on-error: true
+
+      # ---------------------------------------------------------------
+      # 3. Regenerate every dependent JSON
+      # ---------------------------------------------------------------
+      - name: Refresh API snapshots
+        working-directory: backend
+        run: .venv/bin/python scripts/export_api_snapshots.py
+
+      - name: Run all data exports
+        working-directory: backend
+        run: |
+          for s in export_market_data analyze_roles export_real_salary \
+                  export_roles_by_industry export_roles_by_city \
+                  export_augmented_by_profession export_industry_salary \
+                  export_graduate_friendly export_quality_signals \
+                  export_applicant_profiles export_vendor_title_breakdown \
+                  export_narrative_stats export_narrative_examples \
+                  export_trends; do
+              echo "=== $s ==="
+              .venv/bin/python "scripts/$s.py" || echo "[warn] $s failed"
+          done
+
+      # ---------------------------------------------------------------
+      # 4. Commit any data changes
+      # ---------------------------------------------------------------
+      - name: Commit data diffs
+        run: |
+          if [[ -n "$(git status --porcelain frontend/public/data/)" ]]; then
+              git config user.name "github-actions[bot]"
+              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              git add frontend/public/data/
+              git commit -m "data: weekly refresh ($(date -u +%Y-%m-%d))"
+              git push
+          else
+              echo "no data changes"
+          fi
+
+      # ---------------------------------------------------------------
+      # 5. Frontend rebuild + Cloudflare Pages deploy
+      # ---------------------------------------------------------------
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: frontend
+        run: npm run build
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy frontend/out --project-name agent-hunt --commit-dirty=true

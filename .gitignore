@@ -36,3 +36,6 @@ tmp_*.txt
 
 # Playwright MCP runtime cache
 .playwright-mcp/
+
+# DB backups (potentially containing sensitive data)
+backups/

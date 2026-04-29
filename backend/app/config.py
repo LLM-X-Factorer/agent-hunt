@@ -14,14 +14,40 @@ class Settings(BaseSettings):
     }
 
     # --- Database ---
+    # AH_DATABASE_URL_OVERRIDE wins when set (cloud-hosted Postgres like
+    # Supabase / Neon). Format: postgresql://user:pass@host:5432/db
+    # When empty, fall back to the host/user/password split fields used
+    # by docker-compose local dev.
+    database_url_override: str = ""
     postgres_user: str = "agent_hunt"
     postgres_password: str = "agent_hunt_dev"
     postgres_host: str = "localhost"
     postgres_port: int = 5432
     postgres_db: str = "agent_hunt"
 
+    @staticmethod
+    def _coerce_async_url(url: str) -> str:
+        """Ensure the asyncpg driver prefix even if pasted as `postgresql://`."""
+        if url.startswith("postgresql+asyncpg://"):
+            return url
+        if url.startswith("postgresql://"):
+            return "postgresql+asyncpg://" + url[len("postgresql://"):]
+        if url.startswith("postgres://"):
+            return "postgresql+asyncpg://" + url[len("postgres://"):]
+        return url
+
+    @staticmethod
+    def _coerce_sync_url(url: str) -> str:
+        if url.startswith("postgresql+asyncpg://"):
+            return "postgresql://" + url[len("postgresql+asyncpg://"):]
+        if url.startswith("postgres://"):
+            return "postgresql://" + url[len("postgres://"):]
+        return url
+
     @property
     def database_url(self) -> str:
+        if self.database_url_override:
+            return self._coerce_async_url(self.database_url_override)
         return (
             f"postgresql+asyncpg://{self.postgres_user}:{self.postgres_password}"
             f"@{self.postgres_host}:{self.postgres_port}/{self.postgres_db}"
@@ -30,6 +56,8 @@ class Settings(BaseSettings):
     @property
     def database_url_sync(self) -> str:
         """Sync URL for Alembic migrations."""
+        if self.database_url_override:
+            return self._coerce_sync_url(self.database_url_override)
         return (
             f"postgresql://{self.postgres_user}:{self.postgres_password}"
             f"@{self.postgres_host}:{self.postgres_port}/{self.postgres_db}"
