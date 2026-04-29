@@ -35,11 +35,7 @@ OUTPUT_PATH = (
 
 
 def profession_stats(jobs: list[Job]) -> dict:
-    salaries = [
-        (j.salary_min + j.salary_max) // 2
-        for j in jobs
-        if j.salary_min and j.salary_max
-    ]
+    salaries = [s for j in jobs if (s := j.salary_mid_cny_monthly) is not None]
     augment_skills: Counter = Counter()
     for j in jobs:
         for raw in (j.required_skills or []) + (j.preferred_skills or []):

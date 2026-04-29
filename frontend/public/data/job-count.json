@@ -1,1 +1,5 @@
-{"total":2370,"page":1,"page_size":1,"items":[{"id":"b75b59b2-5c8a-4305-90c5-eff8865c0adb","platform_id":"liepin","title":null,"company_name":null,"location":null,"market":null,"industry":null,"salary_min":null,"salary_max":null,"salary_currency":null,"parse_status":"pending","collected_at":"2026-03-28T09:14:06.193456Z"}]}
+{
+  "total": 8634,
+  "page": 1,
+  "page_size": 1
+}

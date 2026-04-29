@@ -27,11 +27,7 @@ async def market_overview(db: AsyncSession) -> dict:
 
 
 def _summarize_market(market: str, jobs: list) -> dict:
-    salaries = [
-        (j.salary_min + j.salary_max) // 2
-        for j in jobs
-        if j.salary_min is not None and j.salary_max is not None
-    ]
+    salaries = [s for j in jobs if (s := j.salary_mid_cny_monthly) is not None]
 
     work_mode = {"onsite": 0, "remote": 0, "hybrid": 0, "unknown": 0}
     for j in jobs:
@@ -48,9 +44,11 @@ def _summarize_market(market: str, jobs: list) -> dict:
 
     exp_dist = defaultdict(list)
     for j in jobs:
-        if j.salary_min is None or j.salary_max is None or j.experience_min is None:
+        if j.experience_min is None:
             continue
-        avg_sal = (j.salary_min + j.salary_max) // 2
+        avg_sal = j.salary_mid_cny_monthly
+        if avg_sal is None:
+            continue
         for label, lo, hi in EXPERIENCE_BRACKETS:
             if lo <= j.experience_min <= hi:
                 exp_dist[label].append(avg_sal)
@@ -165,11 +163,7 @@ async def industry_overview(
 
     summaries = []
     for ind, ind_jobs in by_industry.items():
-        salaries = [
-            (j.salary_min + j.salary_max) // 2
-            for j in ind_jobs
-            if j.salary_min and j.salary_max
-        ]
+        salaries = [s for j in ind_jobs if (s := j.salary_mid_cny_monthly) is not None]
         domestic = sum(1 for j in ind_jobs if j.market == "domestic")
         international = len(ind_jobs) - domestic
 

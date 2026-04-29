@@ -45,11 +45,7 @@ async def salary_distribution(
     industry: str | None = None,
 ) -> dict:
     jobs = await _fetch_parsed_jobs(db, market, platform_id, industry)
-    salaries = [
-        (j.salary_min + j.salary_max) // 2
-        for j in jobs
-        if j.salary_min is not None and j.salary_max is not None
-    ]
+    salaries = [s for j in jobs if (s := j.salary_mid_cny_monthly) is not None]
 
     if not salaries:
         return {"market": market, "total_jobs_with_salary": 0, "buckets": []}
@@ -73,11 +69,11 @@ async def salary_by_skill(
 ) -> list[dict]:
     jobs = await _fetch_parsed_jobs(db, market, industry=industry)
 
-    skill_salaries: dict[str, list[int]] = defaultdict(list)
+    skill_salaries: dict[str, list[float]] = defaultdict(list)
     for job in jobs:
-        if job.salary_min is None or job.salary_max is None:
+        avg_sal = job.salary_mid_cny_monthly
+        if avg_sal is None:
             continue
-        avg_sal = (job.salary_min + job.salary_max) // 2
         all_skills = (job.required_skills or []) + (job.preferred_skills or [])
         for raw in all_skills:
             sid = extractor.normalize(raw)
@@ -110,14 +106,13 @@ async def salary_by_experience(
 ) -> list[dict]:
     jobs = await _fetch_parsed_jobs(db, market)
 
-    brackets: dict[str, list[int]] = defaultdict(list)
+    brackets: dict[str, list[float]] = defaultdict(list)
     for job in jobs:
-        if job.salary_min is None or job.salary_max is None:
-            continue
         if job.experience_min is None:
             continue
-
-        avg_sal = (job.salary_min + job.salary_max) // 2
+        avg_sal = job.salary_mid_cny_monthly
+        if avg_sal is None:
+            continue
         exp = job.experience_min
         for label, lo, hi in EXPERIENCE_BRACKETS:
             if lo <= exp <= hi:
@@ -140,11 +135,11 @@ async def salary_by_experience(
 async def salary_by_platform(db: AsyncSession) -> list[dict]:
     jobs = await _fetch_parsed_jobs(db)
 
-    platform_sals: dict[str, list[int]] = defaultdict(list)
+    platform_sals: dict[str, list[float]] = defaultdict(list)
     for job in jobs:
-        if job.salary_min is None or job.salary_max is None:
+        avg_sal = job.salary_mid_cny_monthly
+        if avg_sal is None:
             continue
-        avg_sal = (job.salary_min + job.salary_max) // 2
         platform_sals[job.platform_id].append(avg_sal)
 
     result = []
@@ -162,11 +157,13 @@ async def salary_by_platform(db: AsyncSession) -> list[dict]:
 async def salary_by_industry(db: AsyncSession) -> list[dict]:
     jobs = await _fetch_parsed_jobs(db)
 
-    industry_sals: dict[str, list[int]] = defaultdict(list)
+    industry_sals: dict[str, list[float]] = defaultdict(list)
     for job in jobs:
-        if job.salary_min is None or job.salary_max is None or not job.industry:
+        if not job.industry:
             continue
-        avg_sal = (job.salary_min + job.salary_max) // 2
+        avg_sal = job.salary_mid_cny_monthly
+        if avg_sal is None:
+            continue
         industry_sals[job.industry].append(avg_sal)
 
     result = []

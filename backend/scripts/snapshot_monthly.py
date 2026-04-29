@@ -55,9 +55,8 @@ def month_floor(d: datetime.datetime) -> datetime.date:
 
 
 def salary_mid(j: Job) -> int | None:
-    if j.salary_min and j.salary_max:
-        return (j.salary_min + j.salary_max) // 2
-    return None
+    s = j.salary_mid_cny_monthly
+    return int(s) if s is not None else None
 
 
 def aggregate_salary(salaries: list[int]) -> tuple[int | None, int | None]:

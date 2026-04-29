@@ -124,3 +124,20 @@ class Job(Base):
     __table_args__ = (
         UniqueConstraint("platform_id", "platform_job_id", name="uq_job_platform_dedup"),
     )
+
+    @property
+    def salary_mid_cny_monthly(self) -> float | None:
+        """Currency-normalized midpoint of (salary_min, salary_max) in CNY/month.
+
+        The raw salary fields store native units — domestic JDs in CNY/month,
+        international JDs in USD/year (or EUR/GBP/etc per year). Direct
+        averaging across markets inflates international salaries by ~12×
+        because USD/year gets read as CNY/month. Use this property anywhere
+        you aggregate salaries across markets so FX + monthly conversion is
+        applied centrally. Returns None if either bound is missing.
+        """
+        # Local import to avoid circular import (currency module is leaf util).
+        from app.services.currency import midpoint_cny_monthly
+        return midpoint_cny_monthly(
+            self.salary_min, self.salary_max, self.salary_currency
+        )

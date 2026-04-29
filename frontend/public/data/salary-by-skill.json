@@ -1,1 +1,122 @@
-[{"skill_id":"pgvector","canonical_name":"pgvector","job_count":2,"avg_salary":132916,"min_salary":114791,"max_salary":151041},{"skill_id":"mlops","canonical_name":"MLOps","job_count":18,"avg_salary":125076,"min_salary":30238,"max_salary":367291},{"skill_id":"distributed_systems","canonical_name":"Distributed Systems","job_count":12,"avg_salary":122778,"min_salary":37500,"max_salary":166521},{"skill_id":"gemini_api","canonical_name":"Gemini API","job_count":2,"avg_salary":115114,"min_salary":108750,"max_salary":121478},{"skill_id":"huggingface","canonical_name":"Hugging Face","job_count":4,"avg_salary":115026,"min_salary":65250,"max_salary":151041},{"skill_id":"generative_ai","canonical_name":"Generative AI","job_count":63,"avg_salary":107029,"min_salary":12395,"max_salary":258020},{"skill_id":"aws","canonical_name":"AWS","job_count":48,"avg_salary":105618,"min_salary":30238,"max_salary":367291},{"skill_id":"ci_cd","canonical_name":"CI/CD","job_count":17,"avg_salary":104847,"min_salary":25000,"max_salary":367291},{"skill_id":"reinforcement_learning","canonical_name":"Reinforcement Learning","job_count":14,"avg_salary":99385,"min_salary":12395,"max_salary":159500},{"skill_id":"cpp","canonical_name":"C++","job_count":31,"avg_salary":98738,"min_salary":12395,"max_salary":162161},{"skill_id":"fine_tuning","canonical_name":"Fine-tuning","job_count":11,"avg_salary":97674,"min_salary":20000,"max_salary":159500},{"skill_id":"nlp","canonical_name":"Natural Language Processing","job_count":20,"avg_salary":97586,"min_salary":17500,"max_salary":162328},{"skill_id":"gcp","canonical_name":"Google Cloud","job_count":38,"avg_salary":96484,"min_salary":30238,"max_salary":238827},{"skill_id":"machine_learning","canonical_name":"Machine Learning","job_count":53,"avg_salary":95537,"min_salary":12395,"max_salary":168436},{"skill_id":"azure","canonical_name":"Azure","job_count":40,"avg_salary":95105,"min_salary":30238,"max_salary":238827}]
+[
+  {
+    "skill_id": "distributed_systems",
+    "canonical_name": "Distributed Systems",
+    "job_count": 92,
+    "avg_salary": 173376,
+    "min_salary": 26683.954166666666,
+    "max_salary": 1614000.0
+  },
+  {
+    "skill_id": "rust",
+    "canonical_name": "Rust",
+    "job_count": 68,
+    "avg_salary": 167835,
+    "min_salary": 20988.6,
+    "max_salary": 1614000.0
+  },
+  {
+    "skill_id": "reinforcement_learning",
+    "canonical_name": "Reinforcement Learning",
+    "job_count": 62,
+    "avg_salary": 116556,
+    "min_salary": 7437.300000000001,
+    "max_salary": 308124.60000000003
+  },
+  {
+    "skill_id": "kubernetes",
+    "canonical_name": "Kubernetes",
+    "job_count": 107,
+    "avg_salary": 114581,
+    "min_salary": 16752.775,
+    "max_salary": 1125750.0
+  },
+  {
+    "skill_id": "huggingface",
+    "canonical_name": "Hugging Face",
+    "job_count": 23,
+    "avg_salary": 94197,
+    "min_salary": 30000.0,
+    "max_salary": 244687.5
+  },
+  {
+    "skill_id": "gcp",
+    "canonical_name": "Google Cloud",
+    "job_count": 124,
+    "avg_salary": 93432,
+    "min_salary": 271.875,
+    "max_salary": 1087500.0
+  },
+  {
+    "skill_id": "cpp",
+    "canonical_name": "C++",
+    "job_count": 72,
+    "avg_salary": 90933,
+    "min_salary": 7437.300000000001,
+    "max_salary": 1125750.0
+  },
+  {
+    "skill_id": "machine_learning",
+    "canonical_name": "Machine Learning",
+    "job_count": 180,
+    "avg_salary": 90859,
+    "min_salary": 0.0,
+    "max_salary": 802343.75
+  },
+  {
+    "skill_id": "fine_tuning",
+    "canonical_name": "Fine-tuning",
+    "job_count": 42,
+    "avg_salary": 89949,
+    "min_salary": 20000.0,
+    "max_salary": 244687.5
+  },
+  {
+    "skill_id": "azure",
+    "canonical_name": "Azure",
+    "job_count": 83,
+    "avg_salary": 87760,
+    "min_salary": 12687.3,
+    "max_salary": 1087500.0
+  },
+  {
+    "skill_id": "aws",
+    "canonical_name": "AWS",
+    "job_count": 177,
+    "avg_salary": 86038,
+    "min_salary": 271.875,
+    "max_salary": 1087500.0
+  },
+  {
+    "skill_id": "python",
+    "canonical_name": "Python",
+    "job_count": 438,
+    "avg_salary": 84169,
+    "min_salary": 4567.5,
+    "max_salary": 1125750.0
+  },
+  {
+    "skill_id": "pytorch",
+    "canonical_name": "PyTorch",
+    "job_count": 105,
+    "avg_salary": 83681,
+    "min_salary": 17500.0,
+    "max_salary": 268668.75
+  },
+  {
+    "skill_id": "golang",
+    "canonical_name": "Go",
+    "job_count": 99,
+    "avg_salary": 81771,
+    "min_salary": 306.461125,
+    "max_salary": 688749.9
+  },
+  {
+    "skill_id": "ci_cd",
+    "canonical_name": "CI/CD",
+    "job_count": 66,
+    "avg_salary": 81509,
+    "min_salary": 25000.0,
+    "max_salary": 220374.90000000002
+  }
+]

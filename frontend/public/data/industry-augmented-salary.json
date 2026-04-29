@@ -4,97 +4,97 @@
       "industry": "energy",
       "job_count": 6,
       "salary_sample_size": 6,
-      "p25": 35000,
+      "p25": 35000.0,
       "p50": 48750,
-      "p75": 52500
+      "p75": 52500.0
     },
     {
       "industry": "healthcare",
       "job_count": 87,
       "salary_sample_size": 77,
-      "p25": 15000,
+      "p25": 15000.0,
       "p50": 30000,
-      "p75": 45000
+      "p75": 45000.0
     },
     {
       "industry": "manufacturing",
       "job_count": 148,
       "salary_sample_size": 127,
-      "p25": 20000,
+      "p25": 20000.0,
       "p50": 30000,
-      "p75": 45000
+      "p75": 45000.0
     },
     {
       "industry": "finance",
       "job_count": 84,
       "salary_sample_size": 81,
-      "p25": 22500,
+      "p25": 22500.0,
       "p50": 30000,
-      "p75": 50000
+      "p75": 50000.0
     },
     {
       "industry": "telecom",
       "job_count": 5,
       "salary_sample_size": 5,
-      "p25": 16500,
+      "p25": 16500.0,
       "p50": 27500,
-      "p75": 27500
+      "p75": 27500.0
     },
     {
       "industry": "education",
       "job_count": 59,
       "salary_sample_size": 59,
-      "p25": 14500,
+      "p25": 14500.0,
       "p50": 25000,
-      "p75": 37500
+      "p75": 36848.1
     },
     {
       "industry": "automotive",
       "job_count": 108,
       "salary_sample_size": 96,
-      "p25": 17500,
+      "p25": 17500.0,
       "p50": 25000,
-      "p75": 37500
+      "p75": 37500.0
     },
     {
       "industry": "internet",
       "job_count": 197,
       "salary_sample_size": 191,
-      "p25": 13500,
+      "p25": 13500.0,
       "p50": 25000,
-      "p75": 45000
+      "p75": 45000.0
     },
     {
       "industry": "consulting",
       "job_count": 48,
       "salary_sample_size": 37,
-      "p25": 12500,
+      "p25": 12500.0,
       "p50": 25000,
-      "p75": 50000
+      "p75": 50000.0
     },
     {
       "industry": "other",
       "job_count": 25,
       "salary_sample_size": 25,
-      "p25": 12000,
+      "p25": 12000.0,
       "p50": 18500,
-      "p75": 30000
+      "p75": 30000.0
     },
     {
       "industry": "retail",
       "job_count": 47,
       "salary_sample_size": 46,
-      "p25": 9500,
+      "p25": 9500.0,
       "p50": 15000,
-      "p75": 18500
+      "p75": 18500.0
     },
     {
       "industry": "media",
       "job_count": 85,
       "salary_sample_size": 85,
-      "p25": 8500,
+      "p25": 8500.0,
       "p50": 12500,
-      "p75": 20000
+      "p75": 20000.0
     }
   ],
   "comparison": {

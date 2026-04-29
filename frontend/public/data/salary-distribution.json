@@ -1,1 +1,36 @@
-{"market":null,"total_jobs_with_salary":1372,"buckets":[{"range_label":"<10k","count":111,"percentage":8.1},{"range_label":"10-20k","count":228,"percentage":16.6},{"range_label":"20-30k","count":218,"percentage":15.9},{"range_label":"30-50k","count":347,"percentage":25.3},{"range_label":"50-80k","count":202,"percentage":14.7},{"range_label":"80k+","count":266,"percentage":19.4}]}
+{
+  "market": null,
+  "total_jobs_with_salary": 3459,
+  "buckets": [
+    {
+      "range_label": "<10k",
+      "count": 254,
+      "percentage": 7.3
+    },
+    {
+      "range_label": "10-20k",
+      "count": 521,
+      "percentage": 15.1
+    },
+    {
+      "range_label": "20-30k",
+      "count": 484,
+      "percentage": 14.0
+    },
+    {
+      "range_label": "30-50k",
+      "count": 707,
+      "percentage": 20.4
+    },
+    {
+      "range_label": "50-80k",
+      "count": 769,
+      "percentage": 22.2
+    },
+    {
+      "range_label": "80k+",
+      "count": 724,
+      "percentage": 20.9
+    }
+  ]
+}

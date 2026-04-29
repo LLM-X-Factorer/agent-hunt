@@ -1,1 +1,90 @@
-{"domestic":{"market":"domestic","total_jobs":1213,"avg_salary":36665,"median_salary":30000,"work_mode":{"onsite":52,"remote":7,"hybrid":1,"unknown":1153},"education":{"bachelor":781,"master":133,"phd":12,"any_or_unspecified":287},"experience_distribution":[{"bracket":"0-1","job_count":422,"avg_salary":25301},{"bracket":"1-3","job_count":308,"avg_salary":32326},{"bracket":"3-5","job_count":293,"avg_salary":43515},{"bracket":"5-10","job_count":112,"avg_salary":77069}]},"international":{"market":"international","total_jobs":331,"avg_salary":108349,"median_salary":105675,"work_mode":{"onsite":126,"remote":27,"hybrid":65,"unknown":113},"education":{"bachelor":157,"master":39,"phd":20,"any_or_unspecified":115},"experience_distribution":[{"bracket":"0-1","job_count":27,"avg_salary":74114},{"bracket":"1-3","job_count":29,"avg_salary":90205},{"bracket":"3-5","job_count":80,"avg_salary":105684},{"bracket":"5-10","job_count":61,"avg_salary":132647},{"bracket":"10+","job_count":5,"avg_salary":194774}]}}
+{
+  "domestic": {
+    "market": "domestic",
+    "total_jobs": 2762,
+    "avg_salary": 34997,
+    "median_salary": 27500,
+    "work_mode": {
+      "onsite": 94,
+      "remote": 17,
+      "hybrid": 1,
+      "unknown": 2649,
+      "null": 1
+    },
+    "education": {
+      "bachelor": 1442,
+      "master": 228,
+      "phd": 38,
+      "any_or_unspecified": 1054
+    },
+    "experience_distribution": [
+      {
+        "bracket": "0-1",
+        "job_count": 703,
+        "avg_salary": 23367
+      },
+      {
+        "bracket": "1-3",
+        "job_count": 611,
+        "avg_salary": 31556
+      },
+      {
+        "bracket": "3-5",
+        "job_count": 504,
+        "avg_salary": 44709
+      },
+      {
+        "bracket": "5-10",
+        "job_count": 190,
+        "avg_salary": 72959
+      }
+    ]
+  },
+  "international": {
+    "market": "international",
+    "total_jobs": 5476,
+    "avg_salary": 87336,
+    "median_salary": 72499,
+    "work_mode": {
+      "onsite": 754,
+      "remote": 654,
+      "hybrid": 1317,
+      "unknown": 2748,
+      "null": 1,
+      "mixed": 2
+    },
+    "education": {
+      "bachelor": 929,
+      "master": 132,
+      "phd": 105,
+      "any_or_unspecified": 4310
+    },
+    "experience_distribution": [
+      {
+        "bracket": "0-1",
+        "job_count": 81,
+        "avg_salary": 44978
+      },
+      {
+        "bracket": "1-3",
+        "job_count": 153,
+        "avg_salary": 58970
+      },
+      {
+        "bracket": "3-5",
+        "job_count": 265,
+        "avg_salary": 96299
+      },
+      {
+        "bracket": "5-10",
+        "job_count": 321,
+        "avg_salary": 109131
+      },
+      {
+        "bracket": "10+",
+        "job_count": 31,
+        "avg_salary": 123601
+      }
+    ]
+  }
+}

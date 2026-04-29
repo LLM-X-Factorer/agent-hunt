@@ -2011,7 +2011,7 @@
     },
     "客服运营": {
       "vacancyCount": 2,
-      "salaryMedian": 102916,
+      "salaryMedian": 53263,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -2786,7 +2786,7 @@
     },
     "IT总监": {
       "vacancyCount": 1,
-      "salaryMedian": 187500,
+      "salaryMedian": 72916,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -3990,7 +3990,7 @@
     },
     "服务设计师": {
       "vacancyCount": 1,
-      "salaryMedian": 84281,
+      "salaryMedian": 50568,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -4930,7 +4930,7 @@
     },
     "教育销售/课程推广经理": {
       "vacancyCount": 1,
-      "salaryMedian": 61413,
+      "salaryMedian": 36848,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -7150,7 +7150,7 @@
   "international": {
     "Software Engineer": {
       "vacancyCount": 70,
-      "salaryMedian": 84583,
+      "salaryMedian": 50749,
       "salarySampleSize": 11,
       "augmentSkills": [
         {
@@ -7249,7 +7249,7 @@
     },
     "产品经理": {
       "vacancyCount": 24,
-      "salaryMedian": 107456,
+      "salaryMedian": 64473,
       "salarySampleSize": 20,
       "augmentSkills": [
         {
@@ -7344,7 +7344,7 @@
     },
     "Security Engineer": {
       "vacancyCount": 24,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 9,
       "augmentSkills": [
         {
@@ -7427,7 +7427,7 @@
     },
     "软件工程师": {
       "vacancyCount": 20,
-      "salaryMedian": 106532,
+      "salaryMedian": 63919,
       "salarySampleSize": 11,
       "augmentSkills": [
         {
@@ -7522,7 +7522,7 @@
     },
     "Full-Stack Engineer": {
       "vacancyCount": 18,
-      "salaryMedian": 76332,
+      "salaryMedian": 47199,
       "salarySampleSize": 6,
       "augmentSkills": [
         {
@@ -7621,7 +7621,7 @@
     },
     "教师": {
       "vacancyCount": 15,
-      "salaryMedian": 36250,
+      "salaryMedian": 21750,
       "salarySampleSize": 10,
       "augmentSkills": [
         {
@@ -7646,7 +7646,7 @@
     },
     "Financial Analyst": {
       "vacancyCount": 15,
-      "salaryMedian": 81713,
+      "salaryMedian": 49027,
       "salarySampleSize": 6,
       "augmentSkills": [
         {
@@ -7701,7 +7701,7 @@
     },
     "Backend Engineer": {
       "vacancyCount": 14,
-      "salaryMedian": 119323,
+      "salaryMedian": 71593,
       "salarySampleSize": 5,
       "augmentSkills": [
         {
@@ -7800,7 +7800,7 @@
     },
     "Account Executive": {
       "vacancyCount": 14,
-      "salaryMedian": 219010,
+      "salaryMedian": 131406,
       "salarySampleSize": 7,
       "augmentSkills": [
         {
@@ -7855,7 +7855,7 @@
     },
     "Marketing Manager": {
       "vacancyCount": 13,
-      "salaryMedian": 173697,
+      "salaryMedian": 104218,
       "salarySampleSize": 6,
       "augmentSkills": [
         {
@@ -7882,7 +7882,7 @@
     },
     "Legal Counsel": {
       "vacancyCount": 12,
-      "salaryMedian": 176734,
+      "salaryMedian": 106040,
       "salarySampleSize": 10,
       "augmentSkills": [
         {
@@ -7913,7 +7913,7 @@
     },
     "Sales Executive": {
       "vacancyCount": 12,
-      "salaryMedian": 219010,
+      "salaryMedian": 131406,
       "salarySampleSize": 10,
       "augmentSkills": [
         {
@@ -7956,7 +7956,7 @@
     },
     "Graphic Designer": {
       "vacancyCount": 10,
-      "salaryMedian": 43500,
+      "salaryMedian": 26100,
       "salarySampleSize": 9,
       "augmentSkills": [
         {
@@ -8007,7 +8007,7 @@
     },
     "Recruiter": {
       "vacancyCount": 10,
-      "salaryMedian": 111770,
+      "salaryMedian": 67062,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8038,7 +8038,7 @@
     },
     "数字营销专员": {
       "vacancyCount": 9,
-      "salaryMedian": 33229,
+      "salaryMedian": 19937,
       "salarySampleSize": 5,
       "augmentSkills": [
         {
@@ -8075,7 +8075,7 @@
     },
     "Customer Success Manager": {
       "vacancyCount": 9,
-      "salaryMedian": 138958,
+      "salaryMedian": 83374,
       "salarySampleSize": 4,
       "augmentSkills": [
         {
@@ -8123,7 +8123,7 @@
     },
     "金融分析师": {
       "vacancyCount": 8,
-      "salaryMedian": 124215,
+      "salaryMedian": 74529,
       "salarySampleSize": 4,
       "augmentSkills": [
         {
@@ -8198,7 +8198,7 @@
     },
     "Data Analyst": {
       "vacancyCount": 8,
-      "salaryMedian": 111167,
+      "salaryMedian": 66700,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -8286,7 +8286,7 @@
     },
     "Sales": {
       "vacancyCount": 7,
-      "salaryMedian": 106484,
+      "salaryMedian": 63890,
       "salarySampleSize": 4,
       "augmentSkills": [],
       "topIndustries": [
@@ -8314,7 +8314,7 @@
     },
     "Communications Manager": {
       "vacancyCount": 7,
-      "salaryMedian": 163879,
+      "salaryMedian": 98327,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8340,7 +8340,7 @@
     },
     "游戏设计师": {
       "vacancyCount": 6,
-      "salaryMedian": 67700,
+      "salaryMedian": 40620,
       "salarySampleSize": 5,
       "augmentSkills": [
         {
@@ -8369,7 +8369,7 @@
     },
     "创意总监": {
       "vacancyCount": 6,
-      "salaryMedian": 90625,
+      "salaryMedian": 54375,
       "salarySampleSize": 4,
       "augmentSkills": [
         {
@@ -8417,7 +8417,7 @@
     },
     "财务经理": {
       "vacancyCount": 6,
-      "salaryMedian": 85803,
+      "salaryMedian": 51481,
       "salarySampleSize": 5,
       "augmentSkills": [
         {
@@ -8446,7 +8446,7 @@
     },
     "Frontend Engineer": {
       "vacancyCount": 6,
-      "salaryMedian": 34951,
+      "salaryMedian": 20970,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8515,7 +8515,7 @@
     },
     "市场营销": {
       "vacancyCount": 5,
-      "salaryMedian": 96018,
+      "salaryMedian": 57610,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8547,7 +8547,7 @@
     },
     "数据分析师": {
       "vacancyCount": 5,
-      "salaryMedian": 159602,
+      "salaryMedian": 95761,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8595,7 +8595,7 @@
     },
     "平面设计师": {
       "vacancyCount": 5,
-      "salaryMedian": 46823,
+      "salaryMedian": 28093,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8621,7 +8621,7 @@
     },
     "项目经理": {
       "vacancyCount": 5,
-      "salaryMedian": 100615,
+      "salaryMedian": 60369,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -8657,7 +8657,7 @@
     },
     "Full Stack Engineer": {
       "vacancyCount": 5,
-      "salaryMedian": 158593,
+      "salaryMedian": 95156,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8750,7 +8750,7 @@
     },
     "Accounting Manager": {
       "vacancyCount": 5,
-      "salaryMedian": 126874,
+      "salaryMedian": 76124,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -8778,7 +8778,7 @@
     },
     "Full-Stack Developer": {
       "vacancyCount": 5,
-      "salaryMedian": 23041,
+      "salaryMedian": 14976,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -8843,7 +8843,7 @@
     },
     "Lawyer": {
       "vacancyCount": 5,
-      "salaryMedian": 29000,
+      "salaryMedian": 17400,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -8862,7 +8862,7 @@
     },
     "HR Business Partner": {
       "vacancyCount": 5,
-      "salaryMedian": 113281,
+      "salaryMedian": 67968,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -8880,7 +8880,7 @@
     },
     "Fullstack Developer": {
       "vacancyCount": 5,
-      "salaryMedian": 48333,
+      "salaryMedian": 28999,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -8933,7 +8933,7 @@
     },
     "Site Reliability Engineer": {
       "vacancyCount": 5,
-      "salaryMedian": 109960,
+      "salaryMedian": 65976,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9016,7 +9016,7 @@
     },
     "安全工程师": {
       "vacancyCount": 4,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9062,7 +9062,7 @@
     },
     "设计师": {
       "vacancyCount": 4,
-      "salaryMedian": 55130,
+      "salaryMedian": 33078,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9166,7 +9166,7 @@
     },
     "Electrical Engineer": {
       "vacancyCount": 4,
-      "salaryMedian": 219010,
+      "salaryMedian": 131406,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9189,7 +9189,7 @@
     },
     "Operations Analyst": {
       "vacancyCount": 4,
-      "salaryMedian": 89429,
+      "salaryMedian": 53657,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9216,7 +9216,7 @@
     },
     "Engineering Manager": {
       "vacancyCount": 4,
-      "salaryMedian": 137141,
+      "salaryMedian": 82284,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9251,7 +9251,7 @@
     },
     "Technical Program Manager": {
       "vacancyCount": 4,
-      "salaryMedian": 210088,
+      "salaryMedian": 126052,
       "salarySampleSize": 3,
       "augmentSkills": [],
       "topIndustries": [
@@ -9269,7 +9269,7 @@
     },
     "Accountant": {
       "vacancyCount": 4,
-      "salaryMedian": 126874,
+      "salaryMedian": 76124,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -9292,7 +9292,7 @@
     },
     "Marketing Lead": {
       "vacancyCount": 4,
-      "salaryMedian": 173700,
+      "salaryMedian": 130275,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9323,7 +9323,7 @@
     },
     "Sales Manager": {
       "vacancyCount": 4,
-      "salaryMedian": 297614,
+      "salaryMedian": 178568,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9370,7 +9370,7 @@
     },
     "Network Engineer": {
       "vacancyCount": 4,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9440,7 +9440,7 @@
     },
     "机械工程师": {
       "vacancyCount": 3,
-      "salaryMedian": 62615,
+      "salaryMedian": 37569,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9472,7 +9472,7 @@
     },
     "Accounting Director": {
       "vacancyCount": 3,
-      "salaryMedian": 199375,
+      "salaryMedian": 119625,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -9502,7 +9502,7 @@
     },
     "安全架构师": {
       "vacancyCount": 3,
-      "salaryMedian": 129921,
+      "salaryMedian": 77952,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -9530,7 +9530,7 @@
     },
     "社交媒体经理": {
       "vacancyCount": 3,
-      "salaryMedian": 42896,
+      "salaryMedian": 25737,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9570,7 +9570,7 @@
     },
     "DevOps Engineer": {
       "vacancyCount": 3,
-      "salaryMedian": 87609,
+      "salaryMedian": 52565,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9648,7 +9648,7 @@
     },
     "销售总监": {
       "vacancyCount": 3,
-      "salaryMedian": 140577,
+      "salaryMedian": 84346,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -9681,7 +9681,7 @@
     },
     "Security Manager": {
       "vacancyCount": 3,
-      "salaryMedian": 119323,
+      "salaryMedian": 71593,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9703,7 +9703,7 @@
     },
     "设计技术专家": {
       "vacancyCount": 3,
-      "salaryMedian": 114399,
+      "salaryMedian": 68639,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -9743,7 +9743,7 @@
     },
     "Android Engineer": {
       "vacancyCount": 3,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9768,7 +9768,7 @@
     },
     "IT Systems Engineer": {
       "vacancyCount": 3,
-      "salaryMedian": 181249,
+      "salaryMedian": 108749,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -9831,7 +9831,7 @@
     },
     "iOS Engineer": {
       "vacancyCount": 3,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -9870,7 +9870,7 @@
     },
     "Recruiting Coordinator": {
       "vacancyCount": 3,
-      "salaryMedian": 87933,
+      "salaryMedian": 52759,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -9886,7 +9886,7 @@
     },
     "Business Development Representative": {
       "vacancyCount": 3,
-      "salaryMedian": 67013,
+      "salaryMedian": 41689,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9910,7 +9910,7 @@
     },
     "Product Engineer": {
       "vacancyCount": 3,
-      "salaryMedian": 64066,
+      "salaryMedian": 39830,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -9952,7 +9952,7 @@
     },
     "Backend Developer": {
       "vacancyCount": 3,
-      "salaryMedian": 98156,
+      "salaryMedian": 58893,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10009,7 +10009,7 @@
     },
     "IT Support Engineer": {
       "vacancyCount": 3,
-      "salaryMedian": 120833,
+      "salaryMedian": 72499,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10035,7 +10035,7 @@
     },
     "Operations Manager": {
       "vacancyCount": 3,
-      "salaryMedian": 185025,
+      "salaryMedian": 111015,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -10077,7 +10077,7 @@
     },
     "Sales Development Manager": {
       "vacancyCount": 3,
-      "salaryMedian": 130020,
+      "salaryMedian": 84513,
       "salarySampleSize": 3,
       "augmentSkills": [
         {
@@ -10099,7 +10099,7 @@
     },
     "Finance Manager": {
       "vacancyCount": 3,
-      "salaryMedian": 203880,
+      "salaryMedian": 122328,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10157,7 +10157,7 @@
     },
     "IT Technician": {
       "vacancyCount": 3,
-      "salaryMedian": 60416,
+      "salaryMedian": 36249,
       "salarySampleSize": 3,
       "augmentSkills": [],
       "topIndustries": [
@@ -10172,7 +10172,7 @@
     },
     "Support Engineer": {
       "vacancyCount": 3,
-      "salaryMedian": 48538,
+      "salaryMedian": 29122,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10325,7 +10325,7 @@
     },
     "Tutor": {
       "vacancyCount": 3,
-      "salaryMedian": 37700,
+      "salaryMedian": 22620,
       "salarySampleSize": 3,
       "augmentSkills": [],
       "topIndustries": [
@@ -10378,7 +10378,7 @@
     },
     "工业工程师": {
       "vacancyCount": 2,
-      "salaryMedian": 58588,
+      "salaryMedian": 35152,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -10393,7 +10393,7 @@
     },
     "车辆操作员": {
       "vacancyCount": 2,
-      "salaryMedian": 31942,
+      "salaryMedian": 19165,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -10409,7 +10409,7 @@
     },
     "Full Stack Software Engineer": {
       "vacancyCount": 2,
-      "salaryMedian": 96666,
+      "salaryMedian": 57999,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10462,7 +10462,7 @@
     },
     "机器人工程师": {
       "vacancyCount": 2,
-      "salaryMedian": 63800,
+      "salaryMedian": 38280,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10495,7 +10495,7 @@
     },
     "销售": {
       "vacancyCount": 2,
-      "salaryMedian": 146183,
+      "salaryMedian": 87710,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10558,7 +10558,7 @@
     },
     "药物研发科学家": {
       "vacancyCount": 2,
-      "salaryMedian": 98600,
+      "salaryMedian": 59160,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10587,7 +10587,7 @@
     },
     "产品运营": {
       "vacancyCount": 2,
-      "salaryMedian": 46400,
+      "salaryMedian": 27840,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -10607,7 +10607,7 @@
     },
     "创意制作专家": {
       "vacancyCount": 2,
-      "salaryMedian": 128001,
+      "salaryMedian": 76800,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -10639,7 +10639,7 @@
     },
     "供应链管理": {
       "vacancyCount": 2,
-      "salaryMedian": 105065,
+      "salaryMedian": 63039,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -10671,7 +10671,7 @@
     },
     "风险分析师": {
       "vacancyCount": 2,
-      "salaryMedian": 61604,
+      "salaryMedian": 36962,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -10746,7 +10746,7 @@
     },
     "Administrative Assistant": {
       "vacancyCount": 2,
-      "salaryMedian": 54249,
+      "salaryMedian": 32550,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -10809,7 +10809,7 @@
     },
     "Corporate Lawyer": {
       "vacancyCount": 2,
-      "salaryMedian": 87000,
+      "salaryMedian": 52200,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -10825,7 +10825,7 @@
     },
     "Security Operations Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 185739,
+      "salaryMedian": 111443,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -10846,7 +10846,7 @@
     },
     "Business Systems Analyst": {
       "vacancyCount": 2,
-      "salaryMedian": 140468,
+      "salaryMedian": 84281,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -10927,7 +10927,7 @@
     },
     "Accounts Receivable Specialist": {
       "vacancyCount": 2,
-      "salaryMedian": 95656,
+      "salaryMedian": 59533,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -10948,7 +10948,7 @@
     },
     "Legal Specialist": {
       "vacancyCount": 2,
-      "salaryMedian": 117791,
+      "salaryMedian": 70674,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -10964,7 +10964,7 @@
     },
     "Contracts Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 104218,
+      "salaryMedian": 62531,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -10996,7 +10996,7 @@
     },
     "Financial Analyst / Deal Desk Specialist": {
       "vacancyCount": 2,
-      "salaryMedian": 103687,
+      "salaryMedian": 67396,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11012,7 +11012,7 @@
     },
     "Copywriter": {
       "vacancyCount": 2,
-      "salaryMedian": 173697,
+      "salaryMedian": 104218,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11044,7 +11044,7 @@
     },
     "Deal Operations Specialist": {
       "vacancyCount": 2,
-      "salaryMedian": 116036,
+      "salaryMedian": 72213,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -11060,7 +11060,7 @@
     },
     "Tax Professional": {
       "vacancyCount": 2,
-      "salaryMedian": 160104,
+      "salaryMedian": 96062,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11121,7 +11121,7 @@
     },
     "Product Support Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 113916,
+      "salaryMedian": 70571,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -11141,7 +11141,7 @@
     },
     "Sales Operations Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 138958,
+      "salaryMedian": 83374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11187,7 +11187,7 @@
     },
     "Security Software Engineer": {
       "vacancyCount": 2,
-      "salaryMedian": 219010,
+      "salaryMedian": 131406,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11220,7 +11220,7 @@
     },
     "Financial Systems Analyst": {
       "vacancyCount": 2,
-      "salaryMedian": 141979,
+      "salaryMedian": 85187,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11245,7 +11245,7 @@
     },
     "Revenue Accountant": {
       "vacancyCount": 2,
-      "salaryMedian": 126874,
+      "salaryMedian": 76124,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -11307,7 +11307,7 @@
     },
     "Transaction Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 241682,
+      "salaryMedian": 145009,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11323,7 +11323,7 @@
     },
     "Product Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 117812,
+      "salaryMedian": 70687,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11379,7 +11379,7 @@
     },
     "Investment Banking Expert": {
       "vacancyCount": 2,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -11395,7 +11395,7 @@
     },
     "Hospitality Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 101802,
+      "salaryMedian": 61081,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11431,7 +11431,7 @@
     },
     "Events Manager": {
       "vacancyCount": 2,
-      "salaryMedian": 173500,
+      "salaryMedian": 104100,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11451,7 +11451,7 @@
     },
     "Compensation & Benefits Specialist": {
       "vacancyCount": 2,
-      "salaryMedian": 110177,
+      "salaryMedian": 66106,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11475,7 +11475,7 @@
     },
     "Motion Designer": {
       "vacancyCount": 2,
-      "salaryMedian": 125834,
+      "salaryMedian": 75500,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -11532,7 +11532,7 @@
     },
     "Content Strategist": {
       "vacancyCount": 2,
-      "salaryMedian": 8337,
+      "salaryMedian": 5002,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -11593,7 +11593,7 @@
     },
     "创意设计师": {
       "vacancyCount": 2,
-      "salaryMedian": 64920,
+      "salaryMedian": 38952,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -11613,7 +11613,7 @@
     },
     "全栈工程师": {
       "vacancyCount": 2,
-      "salaryMedian": 83831,
+      "salaryMedian": 50298,
       "salarySampleSize": 2,
       "augmentSkills": [
         {
@@ -11681,7 +11681,7 @@
     },
     "辅导老师": {
       "vacancyCount": 2,
-      "salaryMedian": 36250,
+      "salaryMedian": 21750,
       "salarySampleSize": 2,
       "augmentSkills": [],
       "topIndustries": [
@@ -11716,7 +11716,7 @@
     },
     "医生": {
       "vacancyCount": 2,
-      "salaryMedian": 36250,
+      "salaryMedian": 21750,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11747,7 +11747,7 @@
     },
     "药物研发工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 173458,
+      "salaryMedian": 104074,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11779,7 +11779,7 @@
     },
     "药物研发": {
       "vacancyCount": 1,
-      "salaryMedian": 173362,
+      "salaryMedian": 104017,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11811,7 +11811,7 @@
     },
     "土木工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 50750,
+      "salaryMedian": 30450,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11826,7 +11826,7 @@
     },
     "应用安全工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 81562,
+      "salaryMedian": 48937,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -11909,7 +11909,7 @@
     },
     "会计": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -11963,7 +11963,7 @@
     },
     "Healthcare Administrator": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12013,7 +12013,7 @@
     },
     "Threat Investigator": {
       "vacancyCount": 1,
-      "salaryMedian": 157083,
+      "salaryMedian": 94249,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12045,7 +12045,7 @@
     },
     "软件开发工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 98779,
+      "salaryMedian": 59267,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12065,7 +12065,7 @@
     },
     "DevOps工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 78300,
+      "salaryMedian": 46980,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12148,7 +12148,7 @@
     },
     "商业运营": {
       "vacancyCount": 1,
-      "salaryMedian": 120531,
+      "salaryMedian": 72318,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12188,7 +12188,7 @@
     },
     "律师": {
       "vacancyCount": 1,
-      "salaryMedian": 141375,
+      "salaryMedian": 84825,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12203,7 +12203,7 @@
     },
     "艺术总监": {
       "vacancyCount": 1,
-      "salaryMedian": 90439,
+      "salaryMedian": 54263,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12248,7 +12248,7 @@
     },
     "技术项目经理": {
       "vacancyCount": 1,
-      "salaryMedian": 141979,
+      "salaryMedian": 85187,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12320,7 +12320,7 @@
     },
     "营销策略师": {
       "vacancyCount": 1,
-      "salaryMedian": 58000,
+      "salaryMedian": 34800,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12359,7 +12359,7 @@
     },
     "影视特效师": {
       "vacancyCount": 1,
-      "salaryMedian": 109976,
+      "salaryMedian": 65985,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12403,7 +12403,7 @@
     },
     "视频与平面设计师": {
       "vacancyCount": 1,
-      "salaryMedian": 17400,
+      "salaryMedian": 10440,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12462,7 +12462,7 @@
     },
     "电商营销经理": {
       "vacancyCount": 1,
-      "salaryMedian": 58906,
+      "salaryMedian": 35343,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12482,7 +12482,7 @@
     },
     "医疗设备管理": {
       "vacancyCount": 1,
-      "salaryMedian": 98177,
+      "salaryMedian": 58906,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12502,7 +12502,7 @@
     },
     "Private Credit Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12517,7 +12517,7 @@
     },
     "视频制作人": {
       "vacancyCount": 1,
-      "salaryMedian": 63437,
+      "salaryMedian": 38062,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12537,7 +12537,7 @@
     },
     "市场营销总监": {
       "vacancyCount": 1,
-      "salaryMedian": 57395,
+      "salaryMedian": 34437,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12561,7 +12561,7 @@
     },
     "质量检测": {
       "vacancyCount": 1,
-      "salaryMedian": 91804,
+      "salaryMedian": 55082,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12596,7 +12596,7 @@
     },
     "培训师": {
       "vacancyCount": 1,
-      "salaryMedian": 48333,
+      "salaryMedian": 29000,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12611,7 +12611,7 @@
     },
     "数字战略与创新负责人": {
       "vacancyCount": 1,
-      "salaryMedian": 91890,
+      "salaryMedian": 55134,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12631,7 +12631,7 @@
     },
     "企业战略投资经理": {
       "vacancyCount": 1,
-      "salaryMedian": 93301,
+      "salaryMedian": 55980,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12666,7 +12666,7 @@
     },
     "金融产品经理": {
       "vacancyCount": 1,
-      "salaryMedian": 75448,
+      "salaryMedian": 45268,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12702,7 +12702,7 @@
     },
     "销售/业务拓展经理": {
       "vacancyCount": 1,
-      "salaryMedian": 137422,
+      "salaryMedian": 82453,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12717,7 +12717,7 @@
     },
     "商业策略与运营总监": {
       "vacancyCount": 1,
-      "salaryMedian": 95156,
+      "salaryMedian": 57093,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12732,7 +12732,7 @@
     },
     "首席数据官": {
       "vacancyCount": 1,
-      "salaryMedian": 134395,
+      "salaryMedian": 80637,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12752,7 +12752,7 @@
     },
     "教育": {
       "vacancyCount": 1,
-      "salaryMedian": 7830,
+      "salaryMedian": 4698,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12795,7 +12795,7 @@
     },
     "临床药理学家": {
       "vacancyCount": 1,
-      "salaryMedian": 98600,
+      "salaryMedian": 59160,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12810,7 +12810,7 @@
     },
     "教育顾问": {
       "vacancyCount": 1,
-      "salaryMedian": 77031,
+      "salaryMedian": 46218,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12825,7 +12825,7 @@
     },
     "药物研发/生物信息学": {
       "vacancyCount": 1,
-      "salaryMedian": 129996,
+      "salaryMedian": 77997,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12872,7 +12872,7 @@
     },
     "生物医药项目管理": {
       "vacancyCount": 1,
-      "salaryMedian": 112312,
+      "salaryMedian": 67387,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -12943,7 +12943,7 @@
     },
     "Structural Chemist": {
       "vacancyCount": 1,
-      "salaryMedian": 117283,
+      "salaryMedian": 70370,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -12978,7 +12978,7 @@
     },
     "产品管理": {
       "vacancyCount": 1,
-      "salaryMedian": 185343,
+      "salaryMedian": 111206,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13008,7 +13008,7 @@
     },
     "生物科学家/癌症研究员": {
       "vacancyCount": 1,
-      "salaryMedian": 104423,
+      "salaryMedian": 62654,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13051,7 +13051,7 @@
     },
     "药物研发专家": {
       "vacancyCount": 1,
-      "salaryMedian": 81200,
+      "salaryMedian": 48720,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13066,7 +13066,7 @@
     },
     "Drug Discovery Director": {
       "vacancyCount": 1,
-      "salaryMedian": 177448,
+      "salaryMedian": 106468,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13111,7 +13111,7 @@
     },
     "医学专家": {
       "vacancyCount": 1,
-      "salaryMedian": 35041,
+      "salaryMedian": 21024,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13141,7 +13141,7 @@
     },
     "战略咨询顾问": {
       "vacancyCount": 1,
-      "salaryMedian": 181250,
+      "salaryMedian": 108750,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13171,7 +13171,7 @@
     },
     "教育管理者": {
       "vacancyCount": 1,
-      "salaryMedian": 60416,
+      "salaryMedian": 36249,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13269,7 +13269,7 @@
     },
     "金融合规分析师": {
       "vacancyCount": 1,
-      "salaryMedian": 87145,
+      "salaryMedian": 52287,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13305,7 +13305,7 @@
     },
     "影视后期制作/视觉特效": {
       "vacancyCount": 1,
-      "salaryMedian": 109906,
+      "salaryMedian": 65943,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13341,7 +13341,7 @@
     },
     "Tax Law Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 21750,
+      "salaryMedian": 13050,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13356,7 +13356,7 @@
     },
     "Java工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 42108,
+      "salaryMedian": 25264,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13447,7 +13447,7 @@
     },
     "业务运营": {
       "vacancyCount": 1,
-      "salaryMedian": 19720,
+      "salaryMedian": 11832,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13467,7 +13467,7 @@
     },
     "医学研究员": {
       "vacancyCount": 1,
-      "salaryMedian": 43210,
+      "salaryMedian": 25926,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13482,7 +13482,7 @@
     },
     "战略合作总监": {
       "vacancyCount": 1,
-      "salaryMedian": 172791,
+      "salaryMedian": 103674,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13512,7 +13512,7 @@
     },
     "业务拓展经理": {
       "vacancyCount": 1,
-      "salaryMedian": 125121,
+      "salaryMedian": 75072,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13647,7 +13647,7 @@
     },
     "销售/业务拓展/渠道管理": {
       "vacancyCount": 1,
-      "salaryMedian": 137500,
+      "salaryMedian": 82500,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13706,7 +13706,7 @@
     },
     "商务拓展/销售": {
       "vacancyCount": 1,
-      "salaryMedian": 125152,
+      "salaryMedian": 75091,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13726,7 +13726,7 @@
     },
     "金融经理": {
       "vacancyCount": 1,
-      "salaryMedian": 85803,
+      "salaryMedian": 51481,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13750,7 +13750,7 @@
     },
     "医疗": {
       "vacancyCount": 1,
-      "salaryMedian": 79948,
+      "salaryMedian": 47968,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13774,7 +13774,7 @@
     },
     "前端工程师/设计师": {
       "vacancyCount": 1,
-      "salaryMedian": 113281,
+      "salaryMedian": 67968,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13802,7 +13802,7 @@
     },
     "Chief of Staff": {
       "vacancyCount": 1,
-      "salaryMedian": 113281,
+      "salaryMedian": 67968,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13841,7 +13841,7 @@
     },
     "Graphic & Multimedia Designer": {
       "vacancyCount": 1,
-      "salaryMedian": 61021,
+      "salaryMedian": 36612,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13856,7 +13856,7 @@
     },
     "内容与创意协调员": {
       "vacancyCount": 1,
-      "salaryMedian": 39271,
+      "salaryMedian": 23562,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13895,7 +13895,7 @@
     },
     "动画设计师": {
       "vacancyCount": 1,
-      "salaryMedian": 83354,
+      "salaryMedian": 50012,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13910,7 +13910,7 @@
     },
     "创意总监/高级创意": {
       "vacancyCount": 1,
-      "salaryMedian": 73507,
+      "salaryMedian": 44104,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13934,7 +13934,7 @@
     },
     "Crisis Management Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 149530,
+      "salaryMedian": 89718,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -13949,7 +13949,7 @@
     },
     "创意总监/营销总监": {
       "vacancyCount": 1,
-      "salaryMedian": 126875,
+      "salaryMedian": 76125,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -13989,7 +13989,7 @@
     },
     "Finance Systems Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 141979,
+      "salaryMedian": 85187,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14134,7 +14134,7 @@
     },
     "Quantitative Risk Analyst": {
       "vacancyCount": 1,
-      "salaryMedian": 35041,
+      "salaryMedian": 21024,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14185,7 +14185,7 @@
     },
     "Legal Director": {
       "vacancyCount": 1,
-      "salaryMedian": 154062,
+      "salaryMedian": 92437,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -14215,7 +14215,7 @@
     },
     "Audio Visual Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 78541,
+      "salaryMedian": 47124,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -14245,7 +14245,7 @@
     },
     "Sourcing Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 61927,
+      "salaryMedian": 37156,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14265,7 +14265,7 @@
     },
     "Compliance Program Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 111771,
+      "salaryMedian": 67062,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14300,7 +14300,7 @@
     },
     "UX Program Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 133811,
+      "salaryMedian": 80286,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14631,7 +14631,7 @@
     },
     "GTM Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 40616,
+      "salaryMedian": 26400,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -14712,7 +14712,7 @@
     },
     "Government Relations / Public Sector Consultant": {
       "vacancyCount": 1,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14736,7 +14736,7 @@
     },
     "Architect": {
       "vacancyCount": 1,
-      "salaryMedian": 107541,
+      "salaryMedian": 64524,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14772,7 +14772,7 @@
     },
     "Marketing Program Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 173697,
+      "salaryMedian": 104218,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -14787,7 +14787,7 @@
     },
     "Commercial Counsel": {
       "vacancyCount": 1,
-      "salaryMedian": 145000,
+      "salaryMedian": 108750,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -14834,7 +14834,7 @@
     },
     "Backend Systems Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 105729,
+      "salaryMedian": 63437,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -14965,7 +14965,7 @@
     },
     "服装设计师": {
       "vacancyCount": 1,
-      "salaryMedian": 58594,
+      "salaryMedian": 35156,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -14995,7 +14995,7 @@
     },
     "Content Producer": {
       "vacancyCount": 1,
-      "salaryMedian": 23200,
+      "salaryMedian": 13920,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15010,7 +15010,7 @@
     },
     "Sales Strategy & Operations": {
       "vacancyCount": 1,
-      "salaryMedian": 111917,
+      "salaryMedian": 72746,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15030,7 +15030,7 @@
     },
     "Insurance Industry Advisor": {
       "vacancyCount": 1,
-      "salaryMedian": 274896,
+      "salaryMedian": 164937,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15050,7 +15050,7 @@
     },
     "运营经理": {
       "vacancyCount": 1,
-      "salaryMedian": 117812,
+      "salaryMedian": 70687,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15085,7 +15085,7 @@
     },
     "生物信息学研究员": {
       "vacancyCount": 1,
-      "salaryMedian": 30160,
+      "salaryMedian": 18096,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15125,7 +15125,7 @@
     },
     "Accounts Payable Director": {
       "vacancyCount": 1,
-      "salaryMedian": 160104,
+      "salaryMedian": 96062,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15185,7 +15185,7 @@
     },
     "设计主管": {
       "vacancyCount": 1,
-      "salaryMedian": 80256,
+      "salaryMedian": 48153,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15209,7 +15209,7 @@
     },
     "教授": {
       "vacancyCount": 1,
-      "salaryMedian": 77729,
+      "salaryMedian": 46637,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15274,7 +15274,7 @@
     },
     "Sales Account Executive": {
       "vacancyCount": 1,
-      "salaryMedian": 143475,
+      "salaryMedian": 107606,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15494,7 +15494,7 @@
     },
     "Biological Scientist": {
       "vacancyCount": 1,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15526,7 +15526,7 @@
     },
     "Art Director": {
       "vacancyCount": 1,
-      "salaryMedian": 208416,
+      "salaryMedian": 125049,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15541,7 +15541,7 @@
     },
     "Data Center Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 219010,
+      "salaryMedian": 131406,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15561,7 +15561,7 @@
     },
     "Revenue Accounting Director": {
       "vacancyCount": 1,
-      "salaryMedian": 199375,
+      "salaryMedian": 119625,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15611,7 +15611,7 @@
     },
     "Communications Professional": {
       "vacancyCount": 1,
-      "salaryMedian": 173697,
+      "salaryMedian": 104218,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15626,7 +15626,7 @@
     },
     "Data Center Design Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 219010,
+      "salaryMedian": 131406,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15641,7 +15641,7 @@
     },
     "Technical Accountant": {
       "vacancyCount": 1,
-      "salaryMedian": 199375,
+      "salaryMedian": 119625,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15656,7 +15656,7 @@
     },
     "Customer Programs Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 173697,
+      "salaryMedian": 104218,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15686,7 +15686,7 @@
     },
     "Data Center Infrastructure Project Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 256890,
+      "salaryMedian": 154134,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15701,7 +15701,7 @@
     },
     "Event Marketing Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 217500,
+      "salaryMedian": 130500,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15716,7 +15716,7 @@
     },
     "Insurance & Business Risk Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 202395,
+      "salaryMedian": 121437,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15746,7 +15746,7 @@
     },
     "Marketing Strategy & Analytics": {
       "vacancyCount": 1,
-      "salaryMedian": 241667,
+      "salaryMedian": 145000,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15776,7 +15776,7 @@
     },
     "Field Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 163124,
+      "salaryMedian": 97874,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15791,7 +15791,7 @@
     },
     "Finance Systems Program Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 142041,
+      "salaryMedian": 85224,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15806,7 +15806,7 @@
     },
     "Finance Systems Integration Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 142020,
+      "salaryMedian": 85212,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15846,7 +15846,7 @@
     },
     "Insider Risk Investigator": {
       "vacancyCount": 1,
-      "salaryMedian": 166140,
+      "salaryMedian": 99684,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15861,7 +15861,7 @@
     },
     "IT Auditor / Compliance Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 199375,
+      "salaryMedian": 119625,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15925,7 +15925,7 @@
     },
     "Travel & Expense Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 199375,
+      "salaryMedian": 119625,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15940,7 +15940,7 @@
     },
     "Finance": {
       "vacancyCount": 1,
-      "salaryMedian": 205416,
+      "salaryMedian": 123249,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -15968,7 +15968,7 @@
     },
     "Immigration Coordinator": {
       "vacancyCount": 1,
-      "salaryMedian": 74010,
+      "salaryMedian": 44406,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15983,7 +15983,7 @@
     },
     "Tax Lead": {
       "vacancyCount": 1,
-      "salaryMedian": 202396,
+      "salaryMedian": 121437,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -15998,7 +15998,7 @@
     },
     "Legal Operations Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 117812,
+      "salaryMedian": 70687,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16018,7 +16018,7 @@
     },
     "Marketing Events Lead": {
       "vacancyCount": 1,
-      "salaryMedian": 173697,
+      "salaryMedian": 104218,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16033,7 +16033,7 @@
     },
     "Real Estate Portfolio Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 166145,
+      "salaryMedian": 99687,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16048,7 +16048,7 @@
     },
     "Real Estate Occupancy Planner": {
       "vacancyCount": 1,
-      "salaryMedian": 99823,
+      "salaryMedian": 59893,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16063,7 +16063,7 @@
     },
     "Marketing Content Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 137447,
+      "salaryMedian": 82468,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16078,7 +16078,7 @@
     },
     "Order Management Professional": {
       "vacancyCount": 1,
-      "salaryMedian": 102042,
+      "salaryMedian": 66327,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16169,7 +16169,7 @@
     },
     "HR Operations": {
       "vacancyCount": 1,
-      "salaryMedian": 154062,
+      "salaryMedian": 92437,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16184,7 +16184,7 @@
     },
     "Procurement Business Partner": {
       "vacancyCount": 1,
-      "salaryMedian": 102042,
+      "salaryMedian": 66327,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16266,7 +16266,7 @@
     },
     "Program Operations Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 169166,
+      "salaryMedian": 101499,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16296,7 +16296,7 @@
     },
     "Salesforce Administrator": {
       "vacancyCount": 1,
-      "salaryMedian": 138958,
+      "salaryMedian": 83374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16316,7 +16316,7 @@
     },
     "Payroll Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 102042,
+      "salaryMedian": 66327,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16346,7 +16346,7 @@
     },
     "Data Center/Construction Project Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 241645,
+      "salaryMedian": 144987,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16361,7 +16361,7 @@
     },
     "Security Technology Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 119323,
+      "salaryMedian": 71593,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16385,7 +16385,7 @@
     },
     "Datacenter Operations Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 243520,
+      "salaryMedian": 182640,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16444,7 +16444,7 @@
     },
     "Accounts Receivable Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 126874,
+      "salaryMedian": 76124,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16464,7 +16464,7 @@
     },
     "Corporate Accountant": {
       "vacancyCount": 1,
-      "salaryMedian": 126874,
+      "salaryMedian": 76124,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16488,7 +16488,7 @@
     },
     "Revenue Accounting Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 126874,
+      "salaryMedian": 76124,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16503,7 +16503,7 @@
     },
     "Treasury Analyst": {
       "vacancyCount": 1,
-      "salaryMedian": 95156,
+      "salaryMedian": 57093,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16518,7 +16518,7 @@
     },
     "Payroll Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 126874,
+      "salaryMedian": 76124,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16568,7 +16568,7 @@
     },
     "Real Estate and Facilities Management Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16583,7 +16583,7 @@
     },
     "Vendor and Contract Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 160052,
+      "salaryMedian": 96031,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16598,7 +16598,7 @@
     },
     "Video Director": {
       "vacancyCount": 1,
-      "salaryMedian": 137447,
+      "salaryMedian": 82468,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16613,7 +16613,7 @@
     },
     "Technical Recruiter": {
       "vacancyCount": 1,
-      "salaryMedian": 141979,
+      "salaryMedian": 85187,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16641,7 +16641,7 @@
     },
     "Tax Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16716,7 +16716,7 @@
     },
     "Business Executive": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16731,7 +16731,7 @@
     },
     "Chemistry Tutor": {
       "vacancyCount": 1,
-      "salaryMedian": 29000,
+      "salaryMedian": 17400,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16761,7 +16761,7 @@
     },
     "Customer Support & Success Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 37812,
+      "salaryMedian": 22687,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16776,7 +16776,7 @@
     },
     "Civil Engineering Tutor": {
       "vacancyCount": 1,
-      "salaryMedian": 29000,
+      "salaryMedian": 17400,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16806,7 +16806,7 @@
     },
     "Business Operations Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16836,7 +16836,7 @@
     },
     "Sales and Business Development": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16866,7 +16866,7 @@
     },
     "Bookkeeping Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 30333,
+      "salaryMedian": 18199,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16881,7 +16881,7 @@
     },
     "Human Resources Business Partner": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16896,7 +16896,7 @@
     },
     "Management Consultant": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16941,7 +16941,7 @@
     },
     "Designer": {
       "vacancyCount": 1,
-      "salaryMedian": 175208,
+      "salaryMedian": 105125,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -16971,7 +16971,7 @@
     },
     "Supply Chain Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 92135,
+      "salaryMedian": 55281,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -16991,7 +16991,7 @@
     },
     "Cook": {
       "vacancyCount": 1,
-      "salaryMedian": 49390,
+      "salaryMedian": 29634,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17006,7 +17006,7 @@
     },
     "Cybersecurity Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 163125,
+      "salaryMedian": 97875,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17072,7 +17072,7 @@
     },
     "Finance Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 35041,
+      "salaryMedian": 21024,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17087,7 +17087,7 @@
     },
     "Corporate Finance Professional": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17107,7 +17107,7 @@
     },
     "Electrical Engineering Tutor": {
       "vacancyCount": 1,
-      "salaryMedian": 21871,
+      "salaryMedian": 13122,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17122,7 +17122,7 @@
     },
     "Equity Research Analyst": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17157,7 +17157,7 @@
     },
     "Quantitative Trader": {
       "vacancyCount": 1,
-      "salaryMedian": 34981,
+      "salaryMedian": 20988,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17208,7 +17208,7 @@
     },
     "Platform Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 60416,
+      "salaryMedian": 36249,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17248,7 +17248,7 @@
     },
     "Quantitative Finance Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 43741,
+      "salaryMedian": 26244,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17268,7 +17268,7 @@
     },
     "HR Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 72802,
+      "salaryMedian": 43681,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17318,7 +17318,7 @@
     },
     "Physics Tutor": {
       "vacancyCount": 1,
-      "salaryMedian": 29000,
+      "salaryMedian": 17400,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17333,7 +17333,7 @@
     },
     "Mechanical Engineering Tutor": {
       "vacancyCount": 1,
-      "salaryMedian": 17400,
+      "salaryMedian": 10440,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17378,7 +17378,7 @@
     },
     "Compliance Investigator": {
       "vacancyCount": 1,
-      "salaryMedian": 83073,
+      "salaryMedian": 49843,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17393,7 +17393,7 @@
     },
     "Network Security Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 187291,
+      "salaryMedian": 112374,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17440,7 +17440,7 @@
     },
     "Logistics Supervisor": {
       "vacancyCount": 1,
-      "salaryMedian": 72500,
+      "salaryMedian": 43500,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17455,7 +17455,7 @@
     },
     "Security Operations Center Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 84583,
+      "salaryMedian": 50749,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17574,7 +17574,7 @@
     },
     "Tutor/Educator": {
       "vacancyCount": 1,
-      "salaryMedian": 29000,
+      "salaryMedian": 17400,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17589,7 +17589,7 @@
     },
     "UX Designer": {
       "vacancyCount": 1,
-      "salaryMedian": 120833,
+      "salaryMedian": 72499,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17647,7 +17647,7 @@
     },
     "Administrative Business Partner": {
       "vacancyCount": 1,
-      "salaryMedian": 57731,
+      "salaryMedian": 34638,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17662,7 +17662,7 @@
     },
     "DevOps/SRE": {
       "vacancyCount": 1,
-      "salaryMedian": 116000,
+      "salaryMedian": 69600,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -17690,7 +17690,7 @@
     },
     "Talent Acquisition Specialist": {
       "vacancyCount": 1,
-      "salaryMedian": 81574,
+      "salaryMedian": 48944,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17705,7 +17705,7 @@
     },
     "Psychologist": {
       "vacancyCount": 1,
-      "salaryMedian": 130512,
+      "salaryMedian": 78307,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17770,7 +17770,7 @@
     },
     "Brand Management / E-commerce / Content Creation": {
       "vacancyCount": 1,
-      "salaryMedian": 13920,
+      "salaryMedian": 8352,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -17800,7 +17800,7 @@
     },
     "Technical Documentation Lead": {
       "vacancyCount": 1,
-      "salaryMedian": 102750,
+      "salaryMedian": 61650,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -18238,7 +18238,7 @@
     },
     "QA Analyst": {
       "vacancyCount": 1,
-      "salaryMedian": 58906,
+      "salaryMedian": 35343,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -18321,7 +18321,7 @@
     },
     "Research analyst": {
       "vacancyCount": 1,
-      "salaryMedian": 116000,
+      "salaryMedian": 69600,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -18356,7 +18356,7 @@
     },
     "Backend Architect": {
       "vacancyCount": 1,
-      "salaryMedian": 90625,
+      "salaryMedian": 54375,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -18741,7 +18741,7 @@
     },
     "software engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 105729,
+      "salaryMedian": 63437,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -18975,7 +18975,7 @@
     },
     "Scientific Analyst/Developer": {
       "vacancyCount": 1,
-      "salaryMedian": 101198,
+      "salaryMedian": 60718,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19007,7 +19007,7 @@
     },
     "Mobile Engineer, Engineering Manager": {
       "vacancyCount": 1,
-      "salaryMedian": 40500,
+      "salaryMedian": 293,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19124,7 +19124,7 @@
     },
     "DevOps/Backend Developer": {
       "vacancyCount": 1,
-      "salaryMedian": 41783,
+      "salaryMedian": 27158,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19264,7 +19264,7 @@
     },
     "材料工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 64824,
+      "salaryMedian": 38894,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -19279,7 +19279,7 @@
     },
     "Vehicle Operator": {
       "vacancyCount": 1,
-      "salaryMedian": 35243,
+      "salaryMedian": 21146,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -19294,7 +19294,7 @@
     },
     "Content Production Assistant": {
       "vacancyCount": 1,
-      "salaryMedian": 3625,
+      "salaryMedian": 2175,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19329,7 +19329,7 @@
     },
     "Creative Editor": {
       "vacancyCount": 1,
-      "salaryMedian": 54375,
+      "salaryMedian": 32625,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19364,7 +19364,7 @@
     },
     "Creative Strategist": {
       "vacancyCount": 1,
-      "salaryMedian": 57396,
+      "salaryMedian": 34437,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -19379,7 +19379,7 @@
     },
     "品牌设计师": {
       "vacancyCount": 1,
-      "salaryMedian": 11020,
+      "salaryMedian": 6612,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19403,7 +19403,7 @@
     },
     "Web Designer": {
       "vacancyCount": 1,
-      "salaryMedian": 40600,
+      "salaryMedian": 24360,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19423,7 +19423,7 @@
     },
     "Pharmacology & Drug Safety Expert": {
       "vacancyCount": 1,
-      "salaryMedian": 98600,
+      "salaryMedian": 59160,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19458,7 +19458,7 @@
     },
     "车队运营专员": {
       "vacancyCount": 1,
-      "salaryMedian": 44104,
+      "salaryMedian": 26462,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -19473,7 +19473,7 @@
     },
     "研发运营总监": {
       "vacancyCount": 1,
-      "salaryMedian": 176469,
+      "salaryMedian": 105881,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -19488,7 +19488,7 @@
     },
     "辅导教师": {
       "vacancyCount": 1,
-      "salaryMedian": 34800,
+      "salaryMedian": 20880,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19523,8 +19523,8 @@
     },
     "Revenue Operations Analyst": {
       "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
+      "salaryMedian": 0,
+      "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
         {
@@ -19538,8 +19538,8 @@
     },
     "Auditor": {
       "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
+      "salaryMedian": 0,
+      "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
         {
@@ -19613,7 +19613,7 @@
     },
     "Security Consultant": {
       "vacancyCount": 1,
-      "salaryMedian": 93552,
+      "salaryMedian": 56131,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19683,7 +19683,7 @@
     },
     "设计工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 113281,
+      "salaryMedian": 67968,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19860,7 +19860,7 @@
     },
     "Creative Lead": {
       "vacancyCount": 1,
-      "salaryMedian": 73507,
+      "salaryMedian": 44104,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19884,7 +19884,7 @@
     },
     "Creative Producer": {
       "vacancyCount": 1,
-      "salaryMedian": 63437,
+      "salaryMedian": 38062,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -19949,7 +19949,7 @@
     },
     "Medical Device Software Engineer": {
       "vacancyCount": 1,
-      "salaryMedian": 75521,
+      "salaryMedian": 45312,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -19999,7 +19999,7 @@
     },
     "Web设计工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 135937,
+      "salaryMedian": 81562,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -20023,7 +20023,7 @@
     },
     "文案": {
       "vacancyCount": 1,
-      "salaryMedian": 173697,
+      "salaryMedian": 104218,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
@@ -20038,7 +20038,7 @@
     },
     "Policy Analyst": {
       "vacancyCount": 1,
-      "salaryMedian": 160052,
+      "salaryMedian": 96031,
       "salarySampleSize": 1,
       "augmentSkills": [
         {
@@ -20070,7 +20070,7 @@
     },
     "产品工程师": {
       "vacancyCount": 1,
-      "salaryMedian": 90625,
+      "salaryMedian": 54375,
       "salarySampleSize": 1,
       "augmentSkills": [
         {

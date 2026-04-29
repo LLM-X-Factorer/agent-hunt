@@ -72,8 +72,9 @@ async def collect_full_stats(db: AsyncSession) -> dict:
             ind["domestic"] += 1
         else:
             ind["international"] += 1
-        if j.salary_min and j.salary_max:
-            ind["salaries"].append((j.salary_min + j.salary_max) // 2)
+        sal_mid = j.salary_mid_cny_monthly
+        if sal_mid is not None:
+            ind["salaries"].append(sal_mid)
         if j.title:
             ind["titles"].append(j.title)
         if j.company_name:
@@ -100,7 +101,7 @@ async def collect_full_stats(db: AsyncSession) -> dict:
         }
 
     def avg_salary(job_list):
-        sals = [(j.salary_min + j.salary_max) // 2 for j in job_list if j.salary_min and j.salary_max]
+        sals = [s for j in job_list if (s := j.salary_mid_cny_monthly) is not None]
         return int(sum(sals) / len(sals)) if sals else 0
 
     return {

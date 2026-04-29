@@ -1,1 +1,62 @@
-[{"platform_id":"indeed","job_count":95,"avg_salary":123305},{"platform_id":"linkedin","job_count":126,"avg_salary":98627},{"platform_id":"liepin","job_count":855,"avg_salary":41757},{"platform_id":"lagou","job_count":15,"avg_salary":27266},{"platform_id":"boss_zhipin","job_count":281,"avg_salary":21742}]
+[
+  {
+    "platform_id": "vendor_anthropic",
+    "job_count": 405,
+    "avg_salary": 136212
+  },
+  {
+    "platform_id": "vendor_openai",
+    "job_count": 1,
+    "avg_salary": 130574
+  },
+  {
+    "platform_id": "vendor_deepmind",
+    "job_count": 50,
+    "avg_salary": 82638
+  },
+  {
+    "platform_id": "vendor_xai",
+    "job_count": 144,
+    "avg_salary": 79022
+  },
+  {
+    "platform_id": "community_hn_wih",
+    "job_count": 266,
+    "avg_salary": 72926
+  },
+  {
+    "platform_id": "indeed",
+    "job_count": 216,
+    "avg_salary": 62124
+  },
+  {
+    "platform_id": "linkedin",
+    "job_count": 262,
+    "avg_salary": 56198
+  },
+  {
+    "platform_id": "liepin",
+    "job_count": 1768,
+    "avg_salary": 37696
+  },
+  {
+    "platform_id": "lagou",
+    "job_count": 15,
+    "avg_salary": 27266
+  },
+  {
+    "platform_id": "boss_zhipin",
+    "job_count": 325,
+    "avg_salary": 21968
+  },
+  {
+    "platform_id": "vendor_cohere",
+    "job_count": 1,
+    "avg_salary": 1229
+  },
+  {
+    "platform_id": "community_github_hiring",
+    "job_count": 6,
+    "avg_salary": 920
+  }
+]

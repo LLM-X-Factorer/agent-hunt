@@ -514,8 +514,8 @@
       "campusJobCount": 465,
       "internshipJobCount": 471,
       "freshJobCount": 482,
-      "freshSalaryMedian": 40215,
-      "socialSalaryMedian": 120500,
+      "freshSalaryMedian": 21810,
+      "socialSalaryMedian": 74851,
       "topCampusCities": [
         {
           "city": "NYC",
@@ -561,8 +561,8 @@
       "campusJobCount": 359,
       "internshipJobCount": 217,
       "freshJobCount": 362,
-      "freshSalaryMedian": 96667,
-      "socialSalaryMedian": 147739,
+      "freshSalaryMedian": 29153,
+      "socialSalaryMedian": 89718,
       "topCampusCities": [
         {
           "city": "Toronto",
@@ -608,8 +608,8 @@
       "campusJobCount": 523,
       "internshipJobCount": 365,
       "freshJobCount": 542,
-      "freshSalaryMedian": 67820,
-      "socialSalaryMedian": 146651,
+      "freshSalaryMedian": 40692,
+      "socialSalaryMedian": 88416,
       "topCampusCities": [
         {
           "city": "San Jose",
@@ -655,8 +655,8 @@
       "campusJobCount": 270,
       "internshipJobCount": 189,
       "freshJobCount": 278,
-      "freshSalaryMedian": 65250,
-      "socialSalaryMedian": 114792,
+      "freshSalaryMedian": 39150,
+      "socialSalaryMedian": 68875,
       "topCampusCities": [
         {
           "city": "San Jose",
@@ -703,7 +703,7 @@
       "internshipJobCount": 10,
       "freshJobCount": 8,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 41234,
+      "socialSalaryMedian": 24740,
       "topCampusCities": [
         {
           "city": "Boston",
@@ -750,7 +750,7 @@
       "internshipJobCount": 5,
       "freshJobCount": 10,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 146166,
+      "socialSalaryMedian": 87700,
       "topCampusCities": [
         {
           "city": "Bengaluru",
@@ -796,8 +796,8 @@
       "campusJobCount": 133,
       "internshipJobCount": 81,
       "freshJobCount": 148,
-      "freshSalaryMedian": 84583,
-      "socialSalaryMedian": 120833,
+      "freshSalaryMedian": 50749,
+      "socialSalaryMedian": 72499,
       "topCampusCities": [
         {
           "city": "San Jose",
@@ -843,8 +843,8 @@
       "campusJobCount": 17,
       "internshipJobCount": 9,
       "freshJobCount": 17,
-      "freshSalaryMedian": 76135,
-      "socialSalaryMedian": 123592,
+      "freshSalaryMedian": 45681,
+      "socialSalaryMedian": 74987,
       "topCampusCities": [
         {
           "city": "Los Angeles",
@@ -891,7 +891,7 @@
       "internshipJobCount": 14,
       "freshJobCount": 17,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 133291,
+      "socialSalaryMedian": 89734,
       "topCampusCities": [
         {
           "city": "Santa Clara",
@@ -938,7 +938,7 @@
       "internshipJobCount": 0,
       "freshJobCount": 3,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 85824,
+      "socialSalaryMedian": 51494,
       "topCampusCities": [
         {
           "city": "Cardiff",
@@ -965,7 +965,7 @@
       "internshipJobCount": 1,
       "freshJobCount": 35,
       "freshSalaryMedian": null,
-      "socialSalaryMedian": 138895,
+      "socialSalaryMedian": 82902,
       "topCampusCities": [
         {
           "city": "Austin",

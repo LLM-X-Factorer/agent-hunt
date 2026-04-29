@@ -169,20 +169,20 @@
       "jaccard_index": 0.124
     },
     {
-      "skill_a": "nodejs",
-      "skill_b": "react",
-      "skill_a_name": "Node.js",
-      "skill_b_name": "React",
-      "cooccurrence_count": 112,
-      "jaccard_index": 0.304
-    },
-    {
       "skill_a": "python",
       "skill_b": "rust",
       "skill_a_name": "Python",
       "skill_b_name": "Rust",
       "cooccurrence_count": 112,
       "jaccard_index": 0.118
+    },
+    {
+      "skill_a": "nodejs",
+      "skill_b": "react",
+      "skill_a_name": "Node.js",
+      "skill_b_name": "React",
+      "cooccurrence_count": 112,
+      "jaccard_index": 0.304
     },
     {
       "skill_a": "azure",

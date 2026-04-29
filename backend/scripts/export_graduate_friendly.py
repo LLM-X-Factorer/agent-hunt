@@ -121,17 +121,9 @@ def score_role(jobs: list[Job]) -> dict:
     score = round(min(100, score * 100 / 100), 1)
 
     fresh_jobs = [j for j in jobs if j.experience_requirement == "fresh"]
-    fresh_salaries = [
-        (j.salary_min + j.salary_max) // 2
-        for j in fresh_jobs
-        if j.salary_min and j.salary_max
-    ]
+    fresh_salaries = [s for j in fresh_jobs if (s := j.salary_mid_cny_monthly) is not None]
     social_jobs = [j for j in jobs if j.experience_requirement not in ("fresh", None)]
-    social_salaries = [
-        (j.salary_min + j.salary_max) // 2
-        for j in social_jobs
-        if j.salary_min and j.salary_max
-    ]
+    social_salaries = [s for j in social_jobs if (s := j.salary_mid_cny_monthly) is not None]
 
     # City distribution — split multi-city listings ("北京、上海") so each city
     # gets its own count. Only count campus-friendly listings (intern + campus + fresh).

@@ -1,1 +1,72 @@
-[{"industry":"internet","job_count":500,"avg_salary":56118},{"industry":"manufacturing","job_count":186,"avg_salary":44872},{"industry":"finance","job_count":129,"avg_salary":49380},{"industry":"automotive","job_count":123,"avg_salary":40150},{"industry":"consulting","job_count":116,"avg_salary":45421},{"industry":"healthcare","job_count":90,"avg_salary":47793},{"industry":"education","job_count":72,"avg_salary":37482},{"industry":"retail","job_count":64,"avg_salary":30001},{"industry":"other","job_count":28,"avg_salary":29457},{"industry":"media","job_count":27,"avg_salary":72749},{"industry":"energy","job_count":15,"avg_salary":62430},{"industry":"telecom","job_count":13,"avg_salary":31235},{"industry":"government","job_count":9,"avg_salary":36417}]
+[
+  {
+    "industry": "internet",
+    "job_count": 1705,
+    "avg_salary": 72185
+  },
+  {
+    "industry": "manufacturing",
+    "job_count": 296,
+    "avg_salary": 42509
+  },
+  {
+    "industry": "finance",
+    "job_count": 251,
+    "avg_salary": 49590
+  },
+  {
+    "industry": "healthcare",
+    "job_count": 216,
+    "avg_salary": 49122
+  },
+  {
+    "industry": "media",
+    "job_count": 191,
+    "avg_salary": 31514
+  },
+  {
+    "industry": "consulting",
+    "job_count": 180,
+    "avg_salary": 38277
+  },
+  {
+    "industry": "automotive",
+    "job_count": 175,
+    "avg_salary": 37573
+  },
+  {
+    "industry": "retail",
+    "job_count": 173,
+    "avg_salary": 26461
+  },
+  {
+    "industry": "education",
+    "job_count": 121,
+    "avg_salary": 29893
+  },
+  {
+    "industry": "other",
+    "job_count": 86,
+    "avg_salary": 39232
+  },
+  {
+    "industry": "energy",
+    "job_count": 31,
+    "avg_salary": 44265
+  },
+  {
+    "industry": "telecom",
+    "job_count": 18,
+    "avg_salary": 31587
+  },
+  {
+    "industry": "government",
+    "job_count": 15,
+    "avg_salary": 47343
+  },
+  {
+    "industry": "insurance",
+    "job_count": 1,
+    "avg_salary": 131406
+  }
+]

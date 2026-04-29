@@ -1,1 +1,27 @@
-[{"bracket":"0-1","job_count":449,"avg_salary":28236},{"bracket":"1-3","job_count":337,"avg_salary":37307},{"bracket":"3-5","job_count":373,"avg_salary":56849},{"bracket":"5-10","job_count":173,"avg_salary":96666},{"bracket":"10+","job_count":5,"avg_salary":194774}]
+[
+  {
+    "bracket": "0-1",
+    "job_count": 784,
+    "avg_salary": 25600
+  },
+  {
+    "bracket": "1-3",
+    "job_count": 764,
+    "avg_salary": 37046
+  },
+  {
+    "bracket": "3-5",
+    "job_count": 769,
+    "avg_salary": 62487
+  },
+  {
+    "bracket": "5-10",
+    "job_count": 511,
+    "avg_salary": 95681
+  },
+  {
+    "bracket": "10+",
+    "job_count": 31,
+    "avg_salary": 123601
+  }
+]

@@ -117,10 +117,9 @@ async def main():
         rid = classify_job(j.title or "", rules)
         if rid in ("_noise", "other"):
             continue
-        if j.salary_min and j.salary_max:
-            by_role_jd_salaries[(j.market, rid)].append(
-                (j.salary_min + j.salary_max) // 2
-            )
+        sal_mid = j.salary_mid_cny_monthly
+        if sal_mid is not None:
+            by_role_jd_salaries[(j.market, rid)].append(int(sal_mid))
 
     # Per-(market, role) summary.
     role_rows: list[dict] = []

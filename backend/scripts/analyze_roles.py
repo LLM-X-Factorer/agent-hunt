@@ -159,8 +159,9 @@ def build_role_profile(jobs: list[Job]) -> dict:
             if sid:
                 preferred_skills[sid] += 1
 
-        if j.salary_min and j.salary_max:
-            salaries.append((j.salary_min + j.salary_max) // 2)
+        sal_mid = j.salary_mid_cny_monthly
+        if sal_mid is not None:
+            salaries.append(sal_mid)
 
         if j.experience_min is not None:
             experience_mins.append(j.experience_min)

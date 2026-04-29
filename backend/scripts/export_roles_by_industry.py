@@ -40,11 +40,7 @@ RULES_BY_MARKET = {"domestic": DOMESTIC_ROLES, "international": INTERNATIONAL_RO
 
 
 def cell_stats(jobs: list[Job]) -> dict:
-    salaries = [
-        (j.salary_min + j.salary_max) // 2
-        for j in jobs
-        if j.salary_min and j.salary_max
-    ]
+    salaries = [s for j in jobs if (s := j.salary_mid_cny_monthly) is not None]
     regions = Counter(j.location for j in jobs if j.location)
     out: dict = {
         "vacancyCount": len(jobs),

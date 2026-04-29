@@ -79,12 +79,13 @@ async def main():
         )).scalars().all()
     logger.info("loaded %d domestic ai_augmented_traditional jobs", len(jobs))
 
-    by_industry: dict[str, list[int]] = defaultdict(list)
+    by_industry: dict[str, list[float]] = defaultdict(list)
     counts: dict[str, int] = defaultdict(int)
     for j in jobs:
         counts[j.industry] += 1
-        if j.salary_min and j.salary_max:
-            by_industry[j.industry].append((j.salary_min + j.salary_max) // 2)
+        sal_mid = j.salary_mid_cny_monthly
+        if sal_mid is not None:
+            by_industry[j.industry].append(sal_mid)
 
     rows = []
     for industry, salaries in sorted(by_industry.items(), key=lambda kv: -(median(kv[1]) if kv[1] else 0)):

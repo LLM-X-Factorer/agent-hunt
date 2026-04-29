@@ -4,7 +4,7 @@
     "job_count": 2334,
     "domestic_count": 0,
     "international_count": 2334,
-    "avg_salary": 166140,
+    "avg_salary": 101304,
     "top_skills": [
       {
         "skill_id": "python",
@@ -33,7 +33,7 @@
     "job_count": 236,
     "domestic_count": 0,
     "international_count": 236,
-    "avg_salary": 105030,
+    "avg_salary": 63476,
     "top_skills": [
       {
         "skill_id": "python",
@@ -62,7 +62,7 @@
     "job_count": 187,
     "domestic_count": 0,
     "international_count": 187,
-    "avg_salary": 102806,
+    "avg_salary": 61279,
     "top_skills": [
       {
         "skill_id": "sql",
@@ -91,7 +91,7 @@
     "job_count": 130,
     "domestic_count": 0,
     "international_count": 130,
-    "avg_salary": 109359,
+    "avg_salary": 64700,
     "top_skills": [
       {
         "skill_id": "python",
@@ -120,7 +120,7 @@
     "job_count": 128,
     "domestic_count": 0,
     "international_count": 128,
-    "avg_salary": 116742,
+    "avg_salary": 68473,
     "top_skills": [
       {
         "skill_id": "python",
@@ -149,7 +149,7 @@
     "job_count": 113,
     "domestic_count": 0,
     "international_count": 113,
-    "avg_salary": 100437,
+    "avg_salary": 59935,
     "top_skills": [
       {
         "skill_id": "sql",
@@ -178,7 +178,7 @@
     "job_count": 110,
     "domestic_count": 0,
     "international_count": 110,
-    "avg_salary": 79171,
+    "avg_salary": 48630,
     "top_skills": [
       {
         "skill_id": "python",
@@ -207,11 +207,15 @@
     "job_count": 70,
     "domestic_count": 0,
     "international_count": 70,
-    "avg_salary": 60742,
+    "avg_salary": 35469,
     "top_skills": [
       {
         "skill_id": "typescript",
         "count": 12
+      },
+      {
+        "skill_id": "react",
+        "count": 10
       },
       {
         "skill_id": "nodejs",
@@ -219,10 +223,6 @@
       },
       {
         "skill_id": "sql",
-        "count": 10
-      },
-      {
-        "skill_id": "react",
         "count": 10
       },
       {
@@ -236,7 +236,7 @@
     "job_count": 62,
     "domestic_count": 0,
     "international_count": 62,
-    "avg_salary": 82752,
+    "avg_salary": 50203,
     "top_skills": [
       {
         "skill_id": "python",
@@ -265,7 +265,7 @@
     "job_count": 58,
     "domestic_count": 0,
     "international_count": 58,
-    "avg_salary": 72365,
+    "avg_salary": 44086,
     "top_skills": [
       {
         "skill_id": "python",
@@ -294,7 +294,7 @@
     "job_count": 38,
     "domestic_count": 0,
     "international_count": 38,
-    "avg_salary": 95852,
+    "avg_salary": 58195,
     "top_skills": [
       {
         "skill_id": "sql",
@@ -323,7 +323,7 @@
     "job_count": 18,
     "domestic_count": 0,
     "international_count": 18,
-    "avg_salary": 118265,
+    "avg_salary": 71206,
     "top_skills": [
       {
         "skill_id": "python",
@@ -381,7 +381,7 @@
     "job_count": 1,
     "domestic_count": 0,
     "international_count": 1,
-    "avg_salary": 219010,
+    "avg_salary": 131406,
     "top_skills": []
   }
 ]

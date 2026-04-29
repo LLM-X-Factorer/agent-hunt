@@ -1,15 +1,15 @@
 [
   {
-    "job_count": 1169,
+    "job_count": 1437,
     "sample_titles": [
+      "AI Tutor - Norwegian",
+      "Threat Collections Engineer",
+      "Forward Deployed Engineer, Agentic Platform",
+      "TPU Kernel Engineer",
+      "Member of Technical Staff, MLE",
       "AI, Data foundation & Business Process Solution Lead",
-      "AI-Native Technical Operations Lead",
-      "Sr. Manager, Applied Science, Sponsored Products and Brands",
-      "Faculty of Practice in Data Science",
-      "Creative Artist",
-      "Newgrad Engineering Role (Various)",
-      "Social Media Coordinator & AI Content Creator",
-      "Azure Deployment Engineer & Coordinator"
+      "AI Tutor - Bengali",
+      "Model Behavior Tutor - Wit & Conversation"
     ],
     "required_skills": [
       {
@@ -34,7 +34,7 @@
       },
       {
         "skill_id": "aws",
-        "count": 60
+        "count": 61
       },
       {
         "skill_id": "data_analysis",
@@ -42,26 +42,26 @@
       },
       {
         "skill_id": "kubernetes",
-        "count": 43
+        "count": 44
       },
       {
         "skill_id": "machine_learning",
         "count": 39
       },
       {
-        "skill_id": "nextjs",
+        "skill_id": "generative_ai",
         "count": 35
       }
     ],
     "preferred_skills": [],
     "salary": {
-      "min": 2175,
-      "max": 1876250,
-      "median": 105729,
-      "avg": 117932,
-      "p25": 48333,
-      "p75": 158593,
-      "sample_size": 486
+      "min": 0.0,
+      "max": 1125750.0,
+      "median": 65250,
+      "avg": 71884,
+      "p25": 30000.0,
+      "p75": 96040.5,
+      "sample_size": 488
     },
     "experience": {
       "min_range": [
@@ -69,22 +69,22 @@
         15
       ],
       "median_min": 5,
-      "avg_min": 5.7,
-      "sample_size": 649
+      "avg_min": 5.6,
+      "sample_size": 654
     },
     "education": {
-      "unspecified": 685,
-      "bachelor": 292,
+      "unspecified": 943,
+      "bachelor": 300,
       "any": 134,
-      "master": 40,
+      "master": 42,
       "phd": 17,
       "associate": 1
     },
     "work_mode": {
-      "hybrid": 424,
+      "unknown": 484,
+      "hybrid": 427,
       "remote": 285,
-      "onsite": 240,
-      "unknown": 220
+      "onsite": 241
     },
     "top_companies": [
       "OpenAI",
@@ -96,11 +96,11 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 867
+        "count": 872
       },
       {
         "industry": "healthcare",
-        "count": 62
+        "count": 65
       },
       {
         "industry": "finance",
@@ -112,23 +112,23 @@
       },
       {
         "industry": "other",
-        "count": 36
+        "count": 37
       }
     ],
     "role_id": "other",
     "role_name": "Other"
   },
   {
-    "job_count": 677,
+    "job_count": 808,
     "sample_titles": [
-      "Engineer – All Positions, OTB",
+      "Senior Software Engineer, Agent Infrastructure",
+      "Software Engineer, Human Data Interface",
       "Software Engineer",
       "Full Stack Engineer",
-      "Python Developer - Ai Training",
       "Engineer I (Multiple Openings)",
-      "Agentic AI FW developer",
-      "Sr Principal Software Engineer - Agentic Platform and Experiences",
-      "Sr Software Dev Engineer, Machine Learning, Sponsored Products and Brands Ads Response Prediction"
+      "Staff / Senior Software Engineer, Inference",
+      "Senior Backend Engineer",
+      "Agentic AI FW developer"
     ],
     "required_skills": [
       {
@@ -141,7 +141,7 @@
       },
       {
         "skill_id": "react",
-        "count": 173
+        "count": 174
       },
       {
         "skill_id": "typescript",
@@ -153,7 +153,7 @@
       },
       {
         "skill_id": "golang",
-        "count": 108
+        "count": 109
       },
       {
         "skill_id": "kubernetes",
@@ -179,13 +179,13 @@
       }
     ],
     "salary": {
-      "min": 11600,
-      "max": 1963541,
-      "median": 113281,
-      "avg": 143736,
-      "p25": 83831,
-      "p75": 173999,
-      "sample_size": 233
+      "min": 6960.0,
+      "max": 1178124.9,
+      "median": 67968,
+      "avg": 87267,
+      "p25": 50298.600000000006,
+      "p75": 106393.5,
+      "sample_size": 234
     },
     "experience": {
       "min_range": [
@@ -194,32 +194,32 @@
       ],
       "median_min": 5,
       "avg_min": 5.2,
-      "sample_size": 219
+      "sample_size": 222
     },
     "education": {
-      "unspecified": 537,
-      "bachelor": 103,
+      "unspecified": 663,
+      "bachelor": 107,
       "any": 32,
-      "master": 4,
+      "master": 5,
       "phd": 1
     },
     "work_mode": {
-      "hybrid": 221,
-      "onsite": 170,
-      "unknown": 145,
+      "unknown": 274,
+      "hybrid": 222,
+      "onsite": 171,
       "remote": 141
     },
     "top_companies": [
       "OpenAI",
       "Anthropic",
       "Deloitte",
-      "Amazon.com",
-      "Cohere"
+      "Cohere",
+      "Amazon.com"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 423
+        "count": 425
       },
       {
         "industry": "healthcare",
@@ -235,17 +235,548 @@
       },
       {
         "industry": "manufacturing",
-        "count": 27
+        "count": 32
       }
     ],
     "role_id": "sde",
     "role_name": "Software Engineer"
   },
   {
-    "job_count": 294,
+    "job_count": 781,
+    "sample_titles": [
+      "Senior Machine Learning Scientist, Payments",
+      "Data Scientist Engineer",
+      "Principal Applied Scientist, Sponsored Products and Brands",
+      "AI Research Intern",
+      "Principal Applied Scientist, Advertiser Growth, Amazon Sponsored Products & Brands",
+      "Research Engineer/Scientist - Generative UI, Consumer Devices",
+      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "Senior Quant/Data Scientist"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 125
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 88
+      },
+      {
+        "skill_id": "llm",
+        "count": 64
+      },
+      {
+        "skill_id": "sql",
+        "count": 50
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 48
+      },
+      {
+        "skill_id": "deep_learning",
+        "count": 40
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 32
+      },
+      {
+        "skill_id": "reinforcement_learning",
+        "count": 27
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 25
+      },
+      {
+        "skill_id": "cpp",
+        "count": 18
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "devops",
+        "count": 1
+      },
+      {
+        "skill_id": "anthropic_api",
+        "count": 1
+      },
+      {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
+        "skill_id": "nextjs",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 4698.0,
+      "max": 308124.60000000003,
+      "median": 87944,
+      "avg": 111765,
+      "p25": 64875.0,
+      "p75": 154062.30000000002,
+      "sample_size": 125
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 4.4,
+      "sample_size": 117
+    },
+    "education": {
+      "unspecified": 583,
+      "bachelor": 78,
+      "phd": 69,
+      "master": 38,
+      "any": 13
+    },
+    "work_mode": {
+      "unknown": 594,
+      "hybrid": 119,
+      "onsite": 45,
+      "remote": 23
+    },
+    "top_companies": [
+      "OpenAI",
+      "Microsoft",
+      "Anthropic",
+      "ByteDance",
+      "TikTok"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 210
+      },
+      {
+        "industry": "healthcare",
+        "count": 25
+      },
+      {
+        "industry": "finance",
+        "count": 13
+      },
+      {
+        "industry": "media",
+        "count": 8
+      },
+      {
+        "industry": "automotive",
+        "count": 7
+      }
+    ],
+    "role_id": "ml_scientist",
+    "role_name": "ML Scientist / Researcher"
+  },
+  {
+    "job_count": 540,
+    "sample_titles": [
+      "Python Agentic AI/ML Engineer",
+      "Director of Engineering - AIDD Product Engineering",
+      "AI Engineer - AI/ML/LLM/GenAI",
+      "AI Engineer Software",
+      "AI Agent Engineer",
+      "Machine Learning Engineer (L4/L5) - Emerging Game Technologies",
+      "AI Engineer - Agentic and Generative AI",
+      "Machine Learning Engineer"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 146
+      },
+      {
+        "skill_id": "llm",
+        "count": 97
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 50
+      },
+      {
+        "skill_id": "openai_api",
+        "count": 47
+      },
+      {
+        "skill_id": "aws",
+        "count": 43
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 42
+      },
+      {
+        "skill_id": "sql",
+        "count": 37
+      },
+      {
+        "skill_id": "rag",
+        "count": 31
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 29
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 29
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 0.0,
+      "max": 960624.8999999999,
+      "median": 67062,
+      "avg": 78683,
+      "p25": 54374.7,
+      "p75": 79749.6,
+      "sample_size": 101
+    },
+    "experience": {
+      "min_range": [
+        0,
+        12
+      ],
+      "median_min": 5,
+      "avg_min": 5.0,
+      "sample_size": 152
+    },
+    "education": {
+      "unspecified": 426,
+      "bachelor": 72,
+      "master": 19,
+      "any": 14,
+      "phd": 8,
+      "null": 1
+    },
+    "work_mode": {
+      "unknown": 298,
+      "hybrid": 113,
+      "onsite": 66,
+      "remote": 63
+    },
+    "top_companies": [
+      "TikTok",
+      "OpenAI",
+      "ByteDance",
+      "Anthropic",
+      "Adobe"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 164
+      },
+      {
+        "industry": "healthcare",
+        "count": 28
+      },
+      {
+        "industry": "finance",
+        "count": 24
+      },
+      {
+        "industry": "consulting",
+        "count": 21
+      },
+      {
+        "industry": "manufacturing",
+        "count": 16
+      }
+    ],
+    "role_id": "ml_engineer",
+    "role_name": "ML/AI Engineer"
+  },
+  {
+    "job_count": 492,
+    "sample_titles": [
+      "Artificial Intelligence Intern",
+      "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
+      "Robot Learning Engineering Intern",
+      "AI Ads Intern — Viral Creative & Performance Marketing",
+      "Junior Designer",
+      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships",
+      "Data Science Internship (Summer 2026)",
+      "Machine Learning Project Intern (Business Integrity Data Cycling Center) - 2026 Start (BS/MS)"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 11
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 5
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 3
+      },
+      {
+        "skill_id": "sql",
+        "count": 3
+      },
+      {
+        "skill_id": "cpp",
+        "count": 2
+      },
+      {
+        "skill_id": "java",
+        "count": 2
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 2
+      },
+      {
+        "skill_id": "llm",
+        "count": 2
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 2
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "azure",
+        "count": 2
+      },
+      {
+        "skill_id": "gcp",
+        "count": 2
+      },
+      {
+        "skill_id": "rag",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 0.0,
+      "max": 112374.90000000001,
+      "median": 26448,
+      "avg": 34880,
+      "p25": 11832.0,
+      "p75": 38280.0,
+      "sample_size": 21
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 0,
+      "avg_min": 1.3,
+      "sample_size": 30
+    },
+    "education": {
+      "unspecified": 439,
+      "bachelor": 28,
+      "master": 13,
+      "any": 8,
+      "phd": 4
+    },
+    "work_mode": {
+      "unknown": 463,
+      "onsite": 16,
+      "hybrid": 9,
+      "remote": 4
+    },
+    "top_companies": [
+      "Berkshire Hathaway Energy",
+      "TikTok",
+      "Tenstorrent",
+      "Honeywell",
+      "Anthropic"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 20
+      },
+      {
+        "industry": "manufacturing",
+        "count": 12
+      },
+      {
+        "industry": "finance",
+        "count": 6
+      },
+      {
+        "industry": "other",
+        "count": 6
+      },
+      {
+        "industry": "media",
+        "count": 5
+      }
+    ],
+    "role_id": "intern_newgrad",
+    "role_name": "Intern / New Grad"
+  },
+  {
+    "job_count": 384,
+    "sample_titles": [
+      "Analytics Engineer 5 - Ads Reporting & Metric Standards",
+      "Data Engineer",
+      "Technical Program Manager, Google Cloud Analytics and Insights",
+      "Data Analyst - Entry Level",
+      "Technical Data Analyst",
+      "Analytics Engineer, Finance",
+      "Data Analyst",
+      "Assistant Vice President - Data & AI Sales"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "sql",
+        "count": 15
+      },
+      {
+        "skill_id": "python",
+        "count": 14
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 3
+      },
+      {
+        "skill_id": "llm",
+        "count": 2
+      },
+      {
+        "skill_id": "aws",
+        "count": 2
+      },
+      {
+        "skill_id": "java",
+        "count": 2
+      },
+      {
+        "skill_id": "git",
+        "count": 1
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "kubernetes",
+        "count": 2
+      },
+      {
+        "skill_id": "react",
+        "count": 1
+      },
+      {
+        "skill_id": "typescript",
+        "count": 1
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 1
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 1
+      },
+      {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
+        "skill_id": "gcp",
+        "count": 1
+      },
+      {
+        "skill_id": "azure",
+        "count": 1
+      },
+      {
+        "skill_id": "distributed_systems",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 0.0,
+      "max": 162369.90000000002,
+      "median": 62362,
+      "avg": 70622,
+      "p25": 48937.5,
+      "p75": 94250.1,
+      "sample_size": 14
+    },
+    "experience": {
+      "min_range": [
+        0,
+        12
+      ],
+      "median_min": 3,
+      "avg_min": 3.6,
+      "sample_size": 24
+    },
+    "education": {
+      "unspecified": 360,
+      "bachelor": 20,
+      "any": 2,
+      "master": 2
+    },
+    "work_mode": {
+      "unknown": 363,
+      "hybrid": 12,
+      "onsite": 7,
+      "remote": 2
+    },
+    "top_companies": [
+      "Royal Bank of Canada",
+      "TikTok",
+      "John Deere",
+      "OpenAI",
+      "Berkshire Hathaway Energy"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 17
+      },
+      {
+        "industry": "consulting",
+        "count": 6
+      },
+      {
+        "industry": "finance",
+        "count": 5
+      },
+      {
+        "industry": "healthcare",
+        "count": 3
+      },
+      {
+        "industry": "education",
+        "count": 2
+      }
+    ],
+    "role_id": "data",
+    "role_name": "Data Scientist / Analyst"
+  },
+  {
+    "job_count": 328,
     "sample_titles": [
       "Lead Site Reliability Engineer (GCP & Hybrid Cloud)",
-      "Director of Revenue Marketing",
+      "Head of Engineering & Infrastructure",
       "Senior Applied Science Manager, Amazon Sponsored Products & Brands",
       "Head of AI",
       "Assistant Professor: AI + Education",
@@ -297,22 +828,22 @@
     ],
     "preferred_skills": [
       {
-        "skill_id": "git",
+        "skill_id": "mcp",
         "count": 1
       },
       {
-        "skill_id": "mcp",
+        "skill_id": "git",
         "count": 1
       }
     ],
     "salary": {
-      "min": 13920,
-      "max": 2690000,
-      "median": 137141,
-      "avg": 198915,
-      "p25": 114791,
-      "p75": 199375,
-      "sample_size": 125
+      "min": 271.875,
+      "max": 1614000.0,
+      "median": 82284,
+      "avg": 120147,
+      "p25": 68874.9,
+      "p75": 119625.0,
+      "sample_size": 126
     },
     "experience": {
       "min_range": [
@@ -321,18 +852,18 @@
       ],
       "median_min": 8,
       "avg_min": 9.0,
-      "sample_size": 206
+      "sample_size": 207
     },
     "education": {
-      "unspecified": 174,
-      "bachelor": 87,
+      "unspecified": 207,
+      "bachelor": 88,
       "any": 18,
       "master": 10,
       "phd": 5
     },
     "work_mode": {
-      "hybrid": 137,
-      "unknown": 62,
+      "hybrid": 138,
+      "unknown": 95,
       "onsite": 58,
       "remote": 37
     },
@@ -346,7 +877,7 @@
     "top_industries": [
       {
         "industry": "internet",
-        "count": 191
+        "count": 192
       },
       {
         "industry": "healthcare",
@@ -369,68 +900,77 @@
     "role_name": "Engineering Leadership"
   },
   {
-    "job_count": 276,
+    "job_count": 107,
     "sample_titles": [
-      "Python Agentic AI/ML Engineer",
-      "Director of Engineering - AIDD Product Engineering",
-      "AI Engineer - AI/ML/LLM/GenAI",
-      "AI Engineer Software",
-      "AI Agent Engineer",
-      "Machine Learning Engineer (L4/L5) - Emerging Game Technologies",
-      "AI Engineer - Agentic and Generative AI",
-      "Machine Learning Engineer"
+      "AI Solution Architect",
+      "AI Architect Agentic & Generative AI",
+      "Solutions Engineer Intern - Computer Science or related major",
+      "AI Automation & Solutions Lead",
+      "Sr. UX Designer, AWS Applied AI Solutions",
+      "Customer Engineer II, Cloud AI, Retail, Google Cloud",
+      "Customer Engineer II, Cloud AI, Retail",
+      "AI Solutions Architect"
     ],
     "required_skills": [
       {
-        "skill_id": "python",
-        "count": 145
-      },
-      {
         "skill_id": "llm",
-        "count": 96
+        "count": 47
       },
       {
-        "skill_id": "machine_learning",
-        "count": 48
+        "skill_id": "python",
+        "count": 45
       },
       {
-        "skill_id": "openai_api",
-        "count": 46
-      },
-      {
-        "skill_id": "aws",
-        "count": 43
-      },
-      {
-        "skill_id": "pytorch",
-        "count": 42
-      },
-      {
-        "skill_id": "sql",
-        "count": 37
-      },
-      {
-        "skill_id": "rag",
-        "count": 30
+        "skill_id": "javascript",
+        "count": 21
       },
       {
         "skill_id": "generative_ai",
-        "count": 29
+        "count": 18
       },
       {
-        "skill_id": "tensorflow",
-        "count": 29
+        "skill_id": "openai_api",
+        "count": 16
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 16
+      },
+      {
+        "skill_id": "aws",
+        "count": 8
+      },
+      {
+        "skill_id": "rag",
+        "count": 7
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 7
+      },
+      {
+        "skill_id": "sql",
+        "count": 7
       }
     ],
-    "preferred_skills": [],
+    "preferred_skills": [
+      {
+        "skill_id": "agile",
+        "count": 3
+      },
+      {
+        "skill_id": "langchain",
+        "count": 1
+      }
+    ],
     "salary": {
-      "min": 7612,
-      "max": 1601041,
-      "median": 111771,
-      "avg": 131267,
-      "p25": 90624,
-      "p75": 135622,
-      "sample_size": 100
+      "min": 306.461125,
+      "max": 802343.75,
+      "median": 89734,
+      "avg": 103381,
+      "p25": 64524.90000000001,
+      "p75": 106031.1,
+      "sample_size": 36
     },
     "experience": {
       "min_range": [
@@ -438,201 +978,63 @@
         12
       ],
       "median_min": 5,
-      "avg_min": 5.1,
-      "sample_size": 149
+      "avg_min": 6.3,
+      "sample_size": 76
     },
     "education": {
-      "unspecified": 175,
-      "bachelor": 67,
-      "master": 16,
-      "any": 14,
-      "phd": 3,
-      "null": 1
+      "unspecified": 69,
+      "bachelor": 35,
+      "any": 3
     },
     "work_mode": {
-      "hybrid": 112,
-      "onsite": 65,
-      "remote": 61,
-      "unknown": 38
+      "hybrid": 68,
+      "unknown": 20,
+      "onsite": 11,
+      "remote": 8
     },
     "top_companies": [
       "OpenAI",
       "Anthropic",
-      "PayPal",
       "Cohere",
-      "Amazon Web Services"
+      "Google",
+      "NVIDIA"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 152
-      },
-      {
-        "industry": "healthcare",
-        "count": 28
-      },
-      {
-        "industry": "finance",
-        "count": 22
-      },
-      {
-        "industry": "consulting",
-        "count": 21
+        "count": 73
       },
       {
         "industry": "manufacturing",
-        "count": 14
+        "count": 3
+      },
+      {
+        "industry": "other",
+        "count": 3
+      },
+      {
+        "industry": "education",
+        "count": 2
+      },
+      {
+        "industry": "retail",
+        "count": 2
       }
     ],
-    "role_id": "ml_engineer",
-    "role_name": "ML/AI Engineer"
+    "role_id": "architect",
+    "role_name": "Solutions Architect"
   },
   {
-    "job_count": 262,
-    "sample_titles": [
-      "Senior Machine Learning Scientist, Payments",
-      "Applied Research - RL & Agents",
-      "Data Scientist Engineer",
-      "Principal Applied Scientist, Sponsored Products and Brands",
-      "AI Research Intern",
-      "Principal Applied Scientist, Advertiser Growth, Amazon Sponsored Products & Brands",
-      "Research Engineer/Scientist - Generative UI, Consumer Devices",
-      "Entry Level Engineers/Scientists/Chemists/Technicians"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "python",
-        "count": 125
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 82
-      },
-      {
-        "skill_id": "llm",
-        "count": 64
-      },
-      {
-        "skill_id": "sql",
-        "count": 50
-      },
-      {
-        "skill_id": "pytorch",
-        "count": 48
-      },
-      {
-        "skill_id": "deep_learning",
-        "count": 40
-      },
-      {
-        "skill_id": "data_analysis",
-        "count": 32
-      },
-      {
-        "skill_id": "reinforcement_learning",
-        "count": 27
-      },
-      {
-        "skill_id": "tensorflow",
-        "count": 25
-      },
-      {
-        "skill_id": "cpp",
-        "count": 18
-      }
-    ],
-    "preferred_skills": [
-      {
-        "skill_id": "nextjs",
-        "count": 1
-      },
-      {
-        "skill_id": "devops",
-        "count": 1
-      },
-      {
-        "skill_id": "anthropic_api",
-        "count": 1
-      },
-      {
-        "skill_id": "golang",
-        "count": 1
-      }
-    ],
-    "salary": {
-      "min": 7830,
-      "max": 513541,
-      "median": 146574,
-      "avg": 182353,
-      "p25": 107043,
-      "p75": 256770,
-      "sample_size": 125
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 5,
-      "avg_min": 4.5,
-      "sample_size": 114
-    },
-    "education": {
-      "unspecified": 90,
-      "bachelor": 72,
-      "phd": 54,
-      "master": 34,
-      "any": 12
-    },
-    "work_mode": {
-      "hybrid": 118,
-      "unknown": 80,
-      "onsite": 45,
-      "remote": 19
-    },
-    "top_companies": [
-      "OpenAI",
-      "Anthropic",
-      "Google DeepMind",
-      "Amazon.com",
-      "Cohere"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 194
-      },
-      {
-        "industry": "healthcare",
-        "count": 24
-      },
-      {
-        "industry": "finance",
-        "count": 11
-      },
-      {
-        "industry": "media",
-        "count": 6
-      },
-      {
-        "industry": "automotive",
-        "count": 6
-      }
-    ],
-    "role_id": "ml_scientist",
-    "role_name": "ML Scientist / Researcher"
-  },
-  {
-    "job_count": 96,
+    "job_count": 105,
     "sample_titles": [
       "Product Owner - Federal Health Systems",
       "Agent Product Manager",
       "Lead Product Manager - Gen AI Platform",
       "Sr. Product Manager - Technical, CS Intelligence, AWS Specialist and Partner Organization",
       "Senior Product Manager, SMB Hiring",
-      "Product Operations Manager",
       "Manager of Product Operations",
-      "AI Solutions & Automation Product Manager-Commercial"
+      "AI Solutions & Automation Product Manager-Commercial",
+      "Product Manager, Multi-Cloud Growth - Google"
     ],
     "required_skills": [
       {
@@ -691,12 +1093,12 @@
       }
     ],
     "salary": {
-      "min": 27500,
-      "max": 258020,
-      "median": 119729,
-      "avg": 123666,
-      "p25": 101468,
-      "p75": 142000,
+      "min": 24360.0,
+      "max": 154812.30000000002,
+      "median": 74140,
+      "avg": 75477,
+      "p25": 63018.600000000006,
+      "p75": 87331.20000000001,
       "sample_size": 65
     },
     "experience": {
@@ -709,28 +1111,28 @@
       "sample_size": 84
     },
     "education": {
-      "bachelor": 60,
-      "unspecified": 29,
+      "bachelor": 61,
+      "unspecified": 37,
       "any": 6,
       "master": 1
     },
     "work_mode": {
-      "unknown": 32,
+      "unknown": 41,
       "onsite": 31,
       "hybrid": 29,
       "remote": 4
     },
     "top_companies": [
       "Meta",
-      "OpenAI",
       "TikTok",
+      "OpenAI",
       "Anthropic",
       "Amazon Web Services"
     ],
     "top_industries": [
       {
         "industry": "internet",
-        "count": 75
+        "count": 76
       },
       {
         "industry": "healthcare",
@@ -745,7 +1147,7 @@
         "count": 3
       },
       {
-        "industry": "media",
+        "industry": "consulting",
         "count": 2
       }
     ],
@@ -753,132 +1155,7 @@
     "role_name": "Product Manager"
   },
   {
-    "job_count": 90,
-    "sample_titles": [
-      "AI Solution Architect",
-      "AI Architect Agentic & Generative AI",
-      "Solutions Engineer Intern - Computer Science or related major",
-      "AI Automation & Solutions Lead",
-      "Sr. UX Designer, AWS Applied AI Solutions",
-      "Customer Engineer II, Cloud AI, Retail, Google Cloud",
-      "Customer Engineer II, Cloud AI, Retail",
-      "AI Solutions Consultant"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "llm",
-        "count": 46
-      },
-      {
-        "skill_id": "python",
-        "count": 44
-      },
-      {
-        "skill_id": "javascript",
-        "count": 21
-      },
-      {
-        "skill_id": "generative_ai",
-        "count": 18
-      },
-      {
-        "skill_id": "openai_api",
-        "count": 16
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 16
-      },
-      {
-        "skill_id": "aws",
-        "count": 8
-      },
-      {
-        "skill_id": "rag",
-        "count": 7
-      },
-      {
-        "skill_id": "prompt_engineering",
-        "count": 7
-      },
-      {
-        "skill_id": "sql",
-        "count": 7
-      }
-    ],
-    "preferred_skills": [
-      {
-        "skill_id": "agile",
-        "count": 3
-      },
-      {
-        "skill_id": "langchain",
-        "count": 1
-      }
-    ],
-    "salary": {
-      "min": 21145,
-      "max": 1234375,
-      "median": 133291,
-      "avg": 164970,
-      "p25": 107541,
-      "p75": 167656,
-      "sample_size": 36
-    },
-    "experience": {
-      "min_range": [
-        0,
-        12
-      ],
-      "median_min": 5,
-      "avg_min": 6.3,
-      "sample_size": 75
-    },
-    "education": {
-      "unspecified": 52,
-      "bachelor": 35,
-      "any": 3
-    },
-    "work_mode": {
-      "hybrid": 67,
-      "onsite": 11,
-      "remote": 8,
-      "unknown": 4
-    },
-    "top_companies": [
-      "OpenAI",
-      "Anthropic",
-      "Google",
-      "Cohere",
-      "Amazon Web Services"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 72
-      },
-      {
-        "industry": "manufacturing",
-        "count": 3
-      },
-      {
-        "industry": "other",
-        "count": 3
-      },
-      {
-        "industry": "finance",
-        "count": 2
-      },
-      {
-        "industry": "education",
-        "count": 2
-      }
-    ],
-    "role_id": "architect",
-    "role_name": "Solutions Architect"
-  },
-  {
-    "job_count": 33,
+    "job_count": 43,
     "sample_titles": [
       "Director of AI Enablement",
       "Principal Indirect Selling Partner Enablement & Activation Lead, AWS Partner Core Enablement Shared Services-Foundations",
@@ -946,12 +1223,12 @@
       }
     ],
     "salary": {
-      "min": 104219,
-      "max": 1555729,
-      "median": 146166,
-      "avg": 234560,
-      "p25": 137422,
-      "p75": 175271,
+      "min": 62531.399999999994,
+      "max": 933437.3999999999,
+      "median": 87700,
+      "avg": 144333,
+      "p25": 82453.20000000001,
+      "p75": 118718.70000000001,
       "sample_size": 16
     },
     "experience": {
@@ -964,14 +1241,14 @@
       "sample_size": 30
     },
     "education": {
+      "unspecified": 25,
       "bachelor": 17,
-      "unspecified": 15,
       "null": 1
     },
     "work_mode": {
+      "unknown": 14,
       "hybrid": 14,
       "onsite": 11,
-      "unknown": 4,
       "remote": 3,
       "null": 1
     },
@@ -979,8 +1256,8 @@
       "OpenAI",
       "Anthropic",
       "Amazon Web Services",
-      "Google",
-      "Exa Capital Inc."
+      "GlobalFoundries",
+      "Google"
     ],
     "top_industries": [
       {
@@ -996,147 +1273,16 @@
     "role_name": "AI Sales / BD"
   },
   {
-    "job_count": 30,
+    "job_count": 33,
     "sample_titles": [
-      "Artificial Intelligence Intern",
-      "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
-      "Robot Learning Engineering Intern",
-      "AI Ads Intern — Viral Creative & Performance Marketing",
-      "Junior Designer",
-      "Product Management Summer 2026 Internship",
-      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships",
-      "Data Science Internship (Summer 2026)"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "python",
-        "count": 10
-      },
-      {
-        "skill_id": "sql",
-        "count": 3
-      },
-      {
-        "skill_id": "cpp",
-        "count": 2
-      },
-      {
-        "skill_id": "java",
-        "count": 2
-      },
-      {
-        "skill_id": "data_analysis",
-        "count": 2
-      },
-      {
-        "skill_id": "generative_ai",
-        "count": 2
-      },
-      {
-        "skill_id": "llm",
-        "count": 2
-      },
-      {
-        "skill_id": "pytorch",
-        "count": 2
-      },
-      {
-        "skill_id": "tensorflow",
-        "count": 2
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [
-      {
-        "skill_id": "azure",
-        "count": 2
-      },
-      {
-        "skill_id": "gcp",
-        "count": 2
-      },
-      {
-        "skill_id": "rag",
-        "count": 1
-      }
-    ],
-    "salary": {
-      "min": 2537,
-      "max": 187291,
-      "median": 44080,
-      "avg": 63155,
-      "p25": 23892,
-      "p75": 87000,
-      "sample_size": 19
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 0,
-      "avg_min": 2.1,
-      "sample_size": 19
-    },
-    "education": {
-      "bachelor": 13,
-      "unspecified": 7,
-      "any": 7,
-      "master": 2,
-      "phd": 1
-    },
-    "work_mode": {
-      "onsite": 15,
-      "hybrid": 9,
-      "unknown": 3,
-      "remote": 3
-    },
-    "top_companies": [
-      "Anthropic",
-      "Cohere",
-      "Honeywell",
-      "Agility Robotics",
-      "Rivian"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 11
-      },
-      {
-        "industry": "manufacturing",
-        "count": 6
-      },
-      {
-        "industry": "media",
-        "count": 3
-      },
-      {
-        "industry": "consulting",
-        "count": 2
-      },
-      {
-        "industry": "automotive",
-        "count": 2
-      }
-    ],
-    "role_id": "intern_newgrad",
-    "role_name": "Intern / New Grad"
-  },
-  {
-    "job_count": 26,
-    "sample_titles": [
-      "Autonomous Vehicle Operator, Santa Clara (12-Month Duration)",
-      "Autonomous Fleet Specialist",
       "Shuttle Attendant (Autonomous Vehicle Operator)",
       "Autonomous GSE Operator",
       "Autonomous vehicle Test Operator",
-      "Autonomous Vehicle Operator Supervisor",
       "Robotics and AI Co-op",
-      "Autonomous Vehicles - Training Manager"
+      "Autonomous Vehicles - Training Manager",
+      "Autonomous Vehicle Operator with CDL",
+      "Autonomous Vehicle Test Operator",
+      "Robotics Engineers"
     ],
     "required_skills": [
       {
@@ -1156,30 +1302,30 @@
         "count": 1
       },
       {
-        "skill_id": "pytorch",
-        "count": 1
-      },
-      {
-        "skill_id": "kubernetes",
-        "count": 1
-      },
-      {
         "skill_id": "deep_learning",
         "count": 1
       },
       {
         "skill_id": "rust",
         "count": 1
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 1
+      },
+      {
+        "skill_id": "kubernetes",
+        "count": 1
       }
     ],
     "preferred_skills": [],
     "salary": {
-      "min": 25520,
-      "max": 197960,
-      "median": 41234,
-      "avg": 64215,
-      "p25": 35243,
-      "p75": 44104,
+      "min": 15312.0,
+      "max": 118776.0,
+      "median": 24740,
+      "avg": 38529,
+      "p25": 21146.1,
+      "p75": 26462.7,
       "sample_size": 6
     },
     "experience": {
@@ -1193,26 +1339,30 @@
     },
     "education": {
       "any": 18,
-      "unspecified": 4,
-      "bachelor": 3,
+      "unspecified": 10,
+      "bachelor": 4,
       "master": 1
     },
     "work_mode": {
       "onsite": 23,
-      "unknown": 2,
+      "unknown": 9,
       "hybrid": 1
     },
     "top_companies": [
       "TSMG Holding",
-      "Kodiak Robotics, Inc.",
-      "Google DeepMind",
+      "Piaggio Fast Forward",
       "9 Mothers Defense",
-      "Nuro"
+      "Google DeepMind",
+      "Kodiak Robotics, Inc."
     ],
     "top_industries": [
       {
         "industry": "automotive",
         "count": 20
+      },
+      {
+        "industry": "other",
+        "count": 2
       },
       {
         "industry": "manufacturing",
@@ -1223,170 +1373,24 @@
         "count": 2
       },
       {
-        "industry": "other",
-        "count": 2
+        "industry": "healthcare",
+        "count": 1
       }
     ],
     "role_id": "autonomous",
     "role_name": "Autonomous Vehicles"
   },
   {
-    "job_count": 25,
-    "sample_titles": [
-      "Data Acquisition Engineer",
-      "Analytics Engineer 5 - Ads Reporting & Metric Standards",
-      "Data Engineer",
-      "Technical Program Manager, Google Cloud Analytics and Insights",
-      "Data Analyst - Entry Level",
-      "Manager, Product Analytics",
-      "Technical Data Analyst",
-      "Analytics Engineer, Finance"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "sql",
-        "count": 15
-      },
-      {
-        "skill_id": "python",
-        "count": 14
-      },
-      {
-        "skill_id": "data_analysis",
-        "count": 3
-      },
-      {
-        "skill_id": "llm",
-        "count": 2
-      },
-      {
-        "skill_id": "aws",
-        "count": 2
-      },
-      {
-        "skill_id": "java",
-        "count": 2
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 1
-      },
-      {
-        "skill_id": "git",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [
-      {
-        "skill_id": "kubernetes",
-        "count": 2
-      },
-      {
-        "skill_id": "react",
-        "count": 1
-      },
-      {
-        "skill_id": "typescript",
-        "count": 1
-      },
-      {
-        "skill_id": "generative_ai",
-        "count": 1
-      },
-      {
-        "skill_id": "agent_architecture",
-        "count": 1
-      },
-      {
-        "skill_id": "golang",
-        "count": 1
-      },
-      {
-        "skill_id": "gcp",
-        "count": 1
-      },
-      {
-        "skill_id": "azure",
-        "count": 1
-      },
-      {
-        "skill_id": "distributed_systems",
-        "count": 1
-      }
-    ],
-    "salary": {
-      "min": 48589,
-      "max": 270616,
-      "median": 112224,
-      "avg": 134123,
-      "p25": 96667,
-      "p75": 157083,
-      "sample_size": 12
-    },
-    "experience": {
-      "min_range": [
-        0,
-        12
-      ],
-      "median_min": 5,
-      "avg_min": 5.4,
-      "sample_size": 16
-    },
-    "education": {
-      "unspecified": 14,
-      "bachelor": 8,
-      "any": 2,
-      "master": 1
-    },
-    "work_mode": {
-      "hybrid": 12,
-      "unknown": 7,
-      "onsite": 5,
-      "remote": 1
-    },
-    "top_companies": [
-      "OpenAI",
-      "xAI",
-      "ABAKA AI",
-      "Avalon Healthcare Solutions",
-      "HomeVision"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 15
-      },
-      {
-        "industry": "finance",
-        "count": 3
-      },
-      {
-        "industry": "consulting",
-        "count": 2
-      },
-      {
-        "industry": "healthcare",
-        "count": 2
-      },
-      {
-        "industry": "retail",
-        "count": 1
-      }
-    ],
-    "role_id": "data",
-    "role_name": "Data Scientist / Analyst"
-  },
-  {
-    "job_count": 25,
+    "job_count": 28,
     "sample_titles": [
       "Sr. Design Technologist, Elevated Shopping",
-      "Payment Network Relationship Management and Strategy Consultant",
       "Senior Consultant (K12 Education Innovation)",
       "Fintech Strategy Management Consultant - AI",
       "Senior Risk Analyst, Sustainability Controls",
       "Finance Manager - Healthcare, Amazon One Medical",
+      "Payment Network Relationship Management and Strategy Consultant",
       "Strategic Risk Analyst",
-      "Product Eng & Open Source Dev & CloudNative Consultant"
+      "Product Consultant"
     ],
     "required_skills": [
       {
@@ -1425,12 +1429,12 @@
       }
     ],
     "salary": {
-      "min": 61604,
-      "max": 181250,
-      "median": 85824,
-      "avg": 98909,
-      "p25": 85803,
-      "p75": 114399,
+      "min": 36962.4,
+      "max": 108750.0,
+      "median": 51494,
+      "avg": 59345,
+      "p25": 51481.8,
+      "p75": 68639.4,
       "sample_size": 16
     },
     "experience": {
@@ -1445,11 +1449,11 @@
     "education": {
       "bachelor": 14,
       "any": 7,
-      "unspecified": 4
+      "unspecified": 7
     },
     "work_mode": {
       "onsite": 11,
-      "unknown": 6,
+      "unknown": 9,
       "hybrid": 6,
       "remote": 2
     },
@@ -1458,7 +1462,7 @@
       "Wells Fargo",
       "Amazon",
       "OpenAI",
-      "Sustainable Living Lab (SL2) Group"
+      "WSP"
     ],
     "top_industries": [
       {

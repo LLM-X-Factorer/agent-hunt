@@ -4,7 +4,7 @@
     "job_count": 799,
     "domestic_count": 799,
     "international_count": 0,
-    "avg_salary": 38228,
+    "avg_salary": 37406,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -33,7 +33,7 @@
     "job_count": 283,
     "domestic_count": 283,
     "international_count": 0,
-    "avg_salary": 39323,
+    "avg_salary": 38334,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -62,7 +62,7 @@
     "job_count": 186,
     "domestic_count": 186,
     "international_count": 0,
-    "avg_salary": 45910,
+    "avg_salary": 44320,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -91,7 +91,7 @@
     "job_count": 180,
     "domestic_count": 180,
     "international_count": 0,
-    "avg_salary": 37320,
+    "avg_salary": 36685,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -120,7 +120,7 @@
     "job_count": 149,
     "domestic_count": 149,
     "international_count": 0,
-    "avg_salary": 22369,
+    "avg_salary": 21680,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -236,7 +236,7 @@
     "job_count": 86,
     "domestic_count": 86,
     "international_count": 0,
-    "avg_salary": 29438,
+    "avg_salary": 27531,
     "top_skills": [
       {
         "skill_id": "llm",
@@ -280,11 +280,11 @@
         "count": 2
       },
       {
-        "skill_id": "react",
+        "skill_id": "python",
         "count": 2
       },
       {
-        "skill_id": "rag",
+        "skill_id": "react",
         "count": 2
       }
     ]
@@ -294,7 +294,7 @@
     "job_count": 23,
     "domestic_count": 23,
     "international_count": 0,
-    "avg_salary": 43982,
+    "avg_salary": 38566,
     "top_skills": [
       {
         "skill_id": "agent_architecture",
