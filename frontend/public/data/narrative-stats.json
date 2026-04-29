@@ -1,16 +1,16 @@
 {
   "totals": {
     "all_jobs": 8238,
-    "labeled_jobs": 6521
+    "labeled_jobs": 7732
   },
   "p1_market_basic": {
-    "domestic_ai_native": 1421,
-    "domestic_ai_augmented": 944,
-    "intl_ai_native": 2989,
-    "intl_ai_augmented": 1144,
-    "domestic_traditional_aug_total": 682,
+    "domestic_ai_native": 1518,
+    "domestic_ai_augmented": 947,
+    "intl_ai_native": 4122,
+    "intl_ai_augmented": 1145,
+    "domestic_traditional_aug_total": 685,
     "domestic_internet_aug_total": 197,
-    "domestic_traditional_to_internet_ratio": 3.46,
+    "domestic_traditional_to_internet_ratio": 3.48,
     "domestic_industry_breakdown": [
       {
         "industry": "internet",
@@ -26,7 +26,7 @@
       },
       {
         "industry": "healthcare",
-        "count": 87
+        "count": 88
       },
       {
         "industry": "finance",
@@ -42,11 +42,11 @@
       },
       {
         "industry": "consulting",
-        "count": 48
+        "count": 49
       },
       {
         "industry": "retail",
-        "count": 47
+        "count": 48
       },
       {
         "industry": "other",
@@ -84,19 +84,19 @@
       "sample_size": 1044
     },
     "intl_native": {
-      "median": 78600,
-      "sample_size": 816
+      "median": 78843,
+      "sample_size": 817
     },
     "domestic_augmented": {
-      "median": 23250,
-      "sample_size": 842
+      "median": 23000,
+      "sample_size": 843
     },
     "intl_augmented": {
       "median": 63904,
       "sample_size": 491
     },
-    "native_intl_to_domestic_ratio": 2.42,
-    "augmented_intl_to_domestic_ratio": 2.75
+    "native_intl_to_domestic_ratio": 2.43,
+    "augmented_intl_to_domestic_ratio": 2.78
   },
   "p5_ghost": {
     "intl_ghost_clusters": 30,

@@ -10,7 +10,7 @@
     },
     {
       "industry": "healthcare",
-      "job_count": 87,
+      "job_count": 88,
       "salary_sample_size": 77,
       "p25": 15000.0,
       "p50": 30000,
@@ -66,7 +66,7 @@
     },
     {
       "industry": "consulting",
-      "job_count": 48,
+      "job_count": 49,
       "salary_sample_size": 37,
       "p25": 12500.0,
       "p50": 25000,
@@ -82,8 +82,8 @@
     },
     {
       "industry": "retail",
-      "job_count": 47,
-      "salary_sample_size": 46,
+      "job_count": 48,
+      "salary_sample_size": 47,
       "p25": 9500.0,
       "p50": 15000,
       "p75": 18500.0
@@ -109,5 +109,5 @@
     "internet_sample_size": 191,
     "delta_pct": 20.0
   },
-  "total_jobs": 906
+  "total_jobs": 909
 }

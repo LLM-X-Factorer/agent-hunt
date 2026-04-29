@@ -44,17 +44,44 @@ logger = logging.getLogger(__name__)
 # Support / non-AI roles: these never count as ai_native even at AI-native
 # companies (HRBP at OpenAI is still HR, not AI engineering).
 NULL_TITLE_RE = re.compile(
+    # English support roles
     r"\b(hrbp|hris|hr |hr,|payroll|recruiter|recruiting|talent acquisition|"
+    r"talent partner|"
     r"chief financial|cfo|cmo|coo|treasurer|accountant|accounting|"
     r"office manager|admin|administrative|receptionist|"
     r"legal counsel|paralegal|"
     r"facilities|janitor|security guard|"
     r"content writer|content marketing|seo specialist|copywriter|"
-    r"social media manager|community manager|brand manager)\b"
-    r"|^(行政|前台|出纳|招聘|人事|财务|法务|会计|审计|秘书|内勤|品牌经理|"
-    r"市场专员|新媒体运营|文案|hr|hrbp|hrm|司机|保洁|保安|客服专员|"
-    r"行政经理|行政主管|行政助理|采购经理|供应链经理|物流经理|物流主管)$"
-    r"|前台|HR专员|HR经理|HR助理|HRBP",
+    r"social media manager|community manager|brand manager|"
+    r"business development|overseas sales|"
+    r"sales (manager|director|specialist|representative|engineer|associate)|"
+    r"account (manager|executive|director)|"
+    r"investor relations|public relations|"
+    r"marketing manager|marketing specialist|"
+    r"customer success manager|"
+    r"graphic designer|visual designer|ui designer|ux designer|"
+    r"product designer|designer$"
+    r")\b"
+    # Chinese support roles — note: \b doesn't work between Chinese chars,
+    # so use either start/end anchors or contains-style match.
+    r"|(?:^|[^a-zA-Z一-鿿])(?:"
+    r"hrbp|hr实习生|hr 实习生|hris|"
+    r"行政|前台|出纳|招聘|人事|财务|法务|会计|审计|秘书|内勤|"
+    r"销售|海外销售|渠道运营|渠道|商务经理|国际销售|生态销售|"
+    r"业务拓展|投资部|投资者关系|公关|品牌|营销|"
+    r"内容运营|内容审核|创意策划|"
+    r"投放|广告|seo|kol|达人|直播|"
+    r"采购|物流|供应链|内控|总账|薪酬|"
+    r"司机|保洁|保安|秘书|助理|助理实习生|"
+    r"客户投诉|客服专员|客户经理|"
+    r"项目经理|交付项目经理|"
+    r"高校合作|校园大使|"
+    r"ui设计|ux设计|视觉设计|平面设计|品牌设计|"
+    r"市场实习生|市场与内容|公共事务|公关专家"
+    r")(?=$|[^a-zA-Z一-鿿])"
+    # Plain Chinese title-anchored support roles
+    r"|^(?:行政|前台|出纳|招聘|人事|财务|法务|会计|审计|秘书|内勤|"
+    r"hr|hrbp|hrm|司机|保洁|保安|客服专员)",
     re.IGNORECASE,
 )
 
@@ -134,6 +161,57 @@ AI_NATIVE_COMPANIES = {
 }
 
 
+# Vendor platforms that already curate AI-native job listings — anything
+# at these vendors is an AI company, the only question is whether the title
+# describes an AI/product role or a support function.
+AI_NATIVE_VENDOR_PLATFORMS = {
+    "vendor_openai", "vendor_anthropic", "vendor_xai", "vendor_cohere",
+    "vendor_deepmind", "vendor_zhipuai", "vendor_minimax", "vendor_moonshot",
+    "vendor_baichuan",
+}
+
+# GitHub hiring repos pre-filter to AI/ML/Data categories at ingest time —
+# remaining NULL after first-pass rule are AI-relevant by construction.
+GITHUB_HIRING_PLATFORM = "community_github_hiring"
+
+# Vendor-internal AI product / engineering signals — when these show up in
+# titles at AI-native vendors, mark ai_native (covers MaaS / GLM / 推理 / 训练 etc.).
+AI_VENDOR_PRODUCT_RE = re.compile(
+    r"\b(maas|glm|deepseek|llama)\b|"
+    r"(大模型|推理|训练|算法|强化学习|后训练|预训练|基座模型|"
+    r"solutions architect|solution architect|解决方案|架构师|"
+    r"infra|sre|运维|训练框架|推理框架|"
+    r"ai native|ai\-native|api销售|api 销售|"
+    r"开发者|developer relations|生态|eco system|ecosystem)",
+    re.IGNORECASE,
+)
+
+# Non-AI engineering domains that sometimes leak through GitHub hiring's
+# "AI/ML/Data" category — pure mechanical / civil / geological / aerospace
+# work without ML, mark NULL.
+NON_AI_ENGINEERING_RE = re.compile(
+    r"\b("
+    r"gis intern|geographic information systems|geological|geophysics|"
+    r"nuclear (analysis|engineering|technician|operations)|"
+    r"mechanical engineer|civil engineer|structural engineer|"
+    r"chemical engineer|petroleum engineer|materials engineer|"
+    r"aerospace engineer|aeronautical|"
+    r"welding|surveyor|construction|"
+    r"engine controls|gas integrity|pipeline|"
+    r"electrical engineering tech|nuclear physics|"
+    r"protein analytics|laboratory technician"
+    r")\b",
+    re.IGNORECASE,
+)
+
+# Bioinformatics / computational biology — these are ai_augmented_traditional
+# (biology background + ML tools).
+BIO_AUGMENTED_RE = re.compile(
+    r"\b(bioinformatics|computational biology|drug discovery|genomics .*ml)\b",
+    re.IGNORECASE,
+)
+
+
 def is_ai_native_company(company: str | None) -> bool:
     if not company:
         return False
@@ -141,7 +219,11 @@ def is_ai_native_company(company: str | None) -> bool:
     return any(c == name or c.startswith(name + " ") or name in c for name in AI_NATIVE_COMPANIES)
 
 
-def classify(title: str | None, company: str | None) -> str | None:
+def classify(
+    title: str | None,
+    company: str | None,
+    platform_id: str | None = None,
+) -> str | None:
     """Return ai_native / ai_augmented_traditional / None.
 
     Order: explicit support-role kill → ai_native title → ai_augmented (skipped
@@ -155,7 +237,12 @@ def classify(title: str | None, company: str | None) -> str | None:
     if NULL_TITLE_RE.search(t):
         return None
 
-    ai_native_co = is_ai_native_company(company)
+    ai_native_co = is_ai_native_company(company) or platform_id in AI_NATIVE_VENDOR_PLATFORMS
+
+    # Bio + ML composite (always wins over native — even at AI companies it's
+    # really a biology role with ML).
+    if BIO_AUGMENTED_RE.search(t):
+        return "ai_augmented_traditional"
 
     if AI_NATIVE_TITLE_RE.search(t):
         return "ai_native"
@@ -165,16 +252,51 @@ def classify(title: str | None, company: str | None) -> str | None:
     if not ai_native_co and AI_AUGMENTED_TITLE_RE.search(t):
         return "ai_augmented_traditional"
 
-    # Company-based override: generic SE/PM titles at AI-native companies
-    # are ai_native (they're shipping the AI product even if the title is bland).
-    if ai_native_co:
-        if re.search(
-            r"\b(software engineer|backend|frontend|full.stack|fullstack|"
+    # Vendor-internal AI product / infra signals at AI-native vendors.
+    if ai_native_co and AI_VENDOR_PRODUCT_RE.search(t):
+        return "ai_native"
+
+    # Generic technical title at AI-native company → ai_native. Anyone shipping
+    # at OpenAI / 智谱 etc. is contributing to the AI product whether they're
+    # called "iOS Engineer" or "DBA". Note: no \b before Chinese tokens since
+    # word-boundary doesn't fire between CJK chars.
+    if ai_native_co and (
+        re.search(
+            r"\b(software engineer|backend|frontend|full.?stack|"
             r"systems engineer|infrastructure|platform|product manager|"
-            r"产品经理|工程师|开发|研发)\b",
-            t, re.IGNORECASE,
-        ):
+            r"ios engineer|android engineer|web engineer|mobile engineer|"
+            r"dba|sre|devops|security engineer|network engineer|"
+            r"qa engineer|test engineer|data engineer|database engineer|"
+            r"research engineer|reliability engineer|"
+            r"graduate engineer|engineering manager|principal engineer|staff engineer|"
+            r"architect)\b", t, re.IGNORECASE,
+        )
+        or re.search(
+            r"(产品经理|工程师|开发|研发|架构师|"
+            r"测试开发|数据开发|数据研发|数据分析师|数据专家|"
+            r"系统研发|应用研发|平台研发|基础设施|"
+            r"网络架构|服务器|网络|安全|风控|通信|"
+            r"前端|后端|全栈|爬虫|"
+            r"医疗|医学|"
+            r"产品研究员|产品实习生|技术内容|"
+            r"运营专家|平台运营|产品运营|"
+            r"aminer|kimi|glm|maas|"
+            r"科技平台|科研平台|"
+            r"技术支持|海外技术)", t, re.IGNORECASE,
+        )
+    ):
+        return "ai_native"
+
+    # GitHub hiring is pre-filtered to AI/ML/Data at ingest — anything left
+    # NULL but without a clear non-AI engineering signal should be ai_native.
+    # If the title carries an explicit AI keyword (even fused with a non-AI
+    # domain like "AI in Nuclear Physics"), the AI side wins.
+    if platform_id == GITHUB_HIRING_PLATFORM:
+        if re.search(r"\b(ai|ml|llm|aiml)\b", t, re.IGNORECASE):
             return "ai_native"
+        if NON_AI_ENGINEERING_RE.search(t):
+            return None
+        return "ai_native"
 
     return None
 
@@ -201,7 +323,7 @@ async def main():
     by_platform: dict[str, Counter] = {}
 
     for j in rows:
-        rt = classify(j.title, j.company_name)
+        rt = classify(j.title, j.company_name, j.platform_id)
         predictions[str(j.id)] = rt
         counter[rt] += 1
         by_platform.setdefault(j.platform_id, Counter())[rt] += 1
