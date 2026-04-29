@@ -137,14 +137,6 @@
       "jaccard_index": 0.22
     },
     {
-      "skill_a": "agent_architecture",
-      "skill_b": "rag",
-      "skill_a_name": "Agent Architecture",
-      "skill_b_name": "Retrieval-Augmented Generation",
-      "cooccurrence_count": 13,
-      "jaccard_index": 0.173
-    },
-    {
       "skill_a": "autogen",
       "skill_b": "langchain",
       "skill_a_name": "AutoGen",
@@ -159,6 +151,14 @@
       "skill_b_name": "Python",
       "cooccurrence_count": 13,
       "jaccard_index": 0.236
+    },
+    {
+      "skill_a": "agent_architecture",
+      "skill_b": "rag",
+      "skill_a_name": "Agent Architecture",
+      "skill_b_name": "Retrieval-Augmented Generation",
+      "cooccurrence_count": 13,
+      "jaccard_index": 0.173
     },
     {
       "skill_a": "python",

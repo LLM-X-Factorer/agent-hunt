@@ -33,7 +33,7 @@
         "p75": 173999,
         "min": 11600,
         "max": 1963541,
-        "sample_size": 233
+        "sample_size": 234
       },
       "gap_pct": 77.2,
       "sample_companies": [
@@ -254,11 +254,11 @@
           "count": 23
         },
         {
-          "level": "Director",
+          "level": "Product Manager 2",
           "count": 14
         },
         {
-          "level": "Product Manager 2",
+          "level": "Director",
           "count": 14
         },
         {
@@ -454,11 +454,11 @@
           "count": 18
         },
         {
-          "level": "IC5",
+          "level": "IC3",
           "count": 14
         },
         {
-          "level": "IC3",
+          "level": "IC5",
           "count": 14
         },
         {
@@ -704,11 +704,11 @@
           "count": 6
         },
         {
-          "level": "19",
+          "level": "20",
           "count": 2
         },
         {
-          "level": "20",
+          "level": "19",
           "count": 2
         }
       ]
@@ -754,15 +754,15 @@
           "count": 8
         },
         {
-          "level": "T9",
-          "count": 7
-        },
-        {
           "level": "T6",
           "count": 7
         },
         {
           "level": "T5",
+          "count": 7
+        },
+        {
+          "level": "T9",
           "count": 7
         }
       ]
@@ -800,11 +800,11 @@
           "count": 10
         },
         {
-          "level": "IC5",
+          "level": "IC3",
           "count": 9
         },
         {
-          "level": "IC3",
+          "level": "IC5",
           "count": 9
         }
       ]
@@ -964,11 +964,11 @@
           "count": 9
         },
         {
-          "level": "L3",
+          "level": "L6",
           "count": 8
         },
         {
-          "level": "L6",
+          "level": "L3",
           "count": 8
         },
         {
@@ -1078,15 +1078,11 @@
           "count": 5
         },
         {
-          "level": "T11",
-          "count": 2
-        },
-        {
-          "level": "T8",
-          "count": 2
-        },
-        {
           "level": "T12",
+          "count": 2
+        },
+        {
+          "level": "T5",
           "count": 2
         },
         {
@@ -1094,7 +1090,11 @@
           "count": 2
         },
         {
-          "level": "T5",
+          "level": "T11",
+          "count": 2
+        },
+        {
+          "level": "T8",
           "count": 2
         },
         {
@@ -1272,11 +1272,11 @@
           "count": 4
         },
         {
-          "level": "P8",
+          "level": "P7",
           "count": 2
         },
         {
-          "level": "P7",
+          "level": "P8",
           "count": 2
         }
       ]
@@ -1340,11 +1340,11 @@
           "count": 2
         },
         {
-          "level": "T10",
+          "level": "T8",
           "count": 1
         },
         {
-          "level": "T8",
+          "level": "T10",
           "count": 1
         }
       ]
@@ -1456,11 +1456,11 @@
       },
       "level_breakdown": [
         {
-          "level": "D6",
+          "level": "D5",
           "count": 1
         },
         {
-          "level": "D5",
+          "level": "D6",
           "count": 1
         }
       ]

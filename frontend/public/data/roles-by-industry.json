@@ -1,459 +1,6 @@
 {
   "data": {
     "domestic": {
-      "internet": {
-        "ai_engineer": {
-          "roleName": "AI/LLM 工程师",
-          "vacancyCount": 204,
-          "salaryMedian": 35000,
-          "salarySampleSize": 201,
-          "topRegions": [
-            "北京",
-            "上海",
-            "深圳",
-            "北京-海淀区",
-            "杭州"
-          ]
-        },
-        "product_manager": {
-          "roleName": "AI 产品经理",
-          "vacancyCount": 145,
-          "salaryMedian": 35416,
-          "salarySampleSize": 141,
-          "topRegions": [
-            "上海",
-            "北京",
-            "北京-海淀区",
-            "深圳",
-            "杭州"
-          ]
-        },
-        "ai_transformation": {
-          "roleName": "AI 转型/咨询",
-          "vacancyCount": 8,
-          "salaryMedian": 31250,
-          "salarySampleSize": 8,
-          "topRegions": [
-            "北京",
-            "杭州",
-            "上海",
-            "南京市",
-            "苏州"
-          ]
-        },
-        "leadership": {
-          "roleName": "AI 管理/战略",
-          "vacancyCount": 23,
-          "salaryMedian": 51250,
-          "salarySampleSize": 22,
-          "topRegions": [
-            "上海",
-            "北京",
-            "深圳",
-            "苏州",
-            "北京-海淀区"
-          ]
-        },
-        "sales_bd": {
-          "roleName": "AI 销售/商务",
-          "vacancyCount": 70,
-          "salaryMedian": 22500,
-          "salarySampleSize": 69,
-          "topRegions": [
-            "上海",
-            "北京",
-            "深圳",
-            "西安-经开区",
-            "广州"
-          ]
-        },
-        "risk_compliance": {
-          "roleName": "AI 风控/合规",
-          "vacancyCount": 5,
-          "salaryMedian": 15000,
-          "salarySampleSize": 5,
-          "topRegions": [
-            "杭州",
-            "深圳",
-            "北京",
-            "沈阳"
-          ]
-        },
-        "autonomous": {
-          "roleName": "自动驾驶/智能座舱",
-          "vacancyCount": 11,
-          "salaryMedian": 40000,
-          "salarySampleSize": 11,
-          "topRegions": [
-            "北京",
-            "杭州-余杭区",
-            "苏州",
-            "上海-虹口区",
-            "深圳"
-          ]
-        },
-        "smart_manufacturing": {
-          "roleName": "智能制造/工业AI",
-          "vacancyCount": 9,
-          "salaryMedian": 22500,
-          "salarySampleSize": 8,
-          "topRegions": [
-            "北京",
-            "深圳·南山区·科技园",
-            "上海",
-            "雄安新区-容城县",
-            "西安·雁塔区·电子城"
-          ]
-        },
-        "algorithm": {
-          "roleName": "算法工程师/研究员",
-          "vacancyCount": 40,
-          "salaryMedian": 56250,
-          "salarySampleSize": 38,
-          "topRegions": [
-            "北京",
-            "上海",
-            "深圳",
-            "Shenzhen, Nanshan District",
-            "上海-杨浦区"
-          ]
-        },
-        "operations": {
-          "roleName": "AI 运营/训练师",
-          "vacancyCount": 47,
-          "salaryMedian": 22500,
-          "salarySampleSize": 45,
-          "topRegions": [
-            "杭州",
-            "上海",
-            "北京",
-            "深圳",
-            "北京-海淀区"
-          ]
-        },
-        "education_ai": {
-          "roleName": "AI 教育",
-          "vacancyCount": 6,
-          "salaryMedian": 37500,
-          "salarySampleSize": 6,
-          "topRegions": [
-            "北京",
-            "上海",
-            "北京-石景山区"
-          ]
-        },
-        "medical_ai": {
-          "roleName": "医疗AI专岗",
-          "vacancyCount": 3,
-          "salaryMedian": 37500,
-          "salarySampleSize": 3,
-          "topRegions": [
-            "济南",
-            "北京",
-            "上海"
-          ],
-          "lowSample": true
-        },
-        "data": {
-          "roleName": "数据分析/数据科学",
-          "vacancyCount": 10,
-          "salaryMedian": 15000,
-          "salarySampleSize": 9,
-          "topRegions": [
-            "南京-鼓楼区",
-            "北京",
-            "深圳",
-            "深圳市",
-            "重庆·南岸区·南坪"
-          ]
-        },
-        "customer_service": {
-          "roleName": "智能客服",
-          "vacancyCount": 1,
-          "salaryMedian": 10500,
-          "salarySampleSize": 1,
-          "topRegions": [
-            "北京"
-          ],
-          "lowSample": true
-        }
-      },
-      "finance": {
-        "product_manager": {
-          "roleName": "AI 产品经理",
-          "vacancyCount": 32,
-          "salaryMedian": 36250,
-          "salarySampleSize": 30,
-          "topRegions": [
-            "深圳",
-            "上海",
-            "深圳-福田区",
-            "北京-昌平区",
-            "上海-徐汇区"
-          ]
-        },
-        "data": {
-          "roleName": "数据分析/数据科学",
-          "vacancyCount": 9,
-          "salaryMedian": 55000,
-          "salarySampleSize": 9,
-          "topRegions": [
-            "上海",
-            "宁波",
-            "北京",
-            "上海-浦东新区",
-            "深圳-南山区"
-          ]
-        },
-        "leadership": {
-          "roleName": "AI 管理/战略",
-          "vacancyCount": 13,
-          "salaryMedian": 87500,
-          "salarySampleSize": 12,
-          "topRegions": [
-            "深圳",
-            "北京-朝阳区",
-            "上海",
-            "上海-浦东新区",
-            "Shenzhen"
-          ]
-        },
-        "ai_engineer": {
-          "roleName": "AI/LLM 工程师",
-          "vacancyCount": 27,
-          "salaryMedian": 46875,
-          "salarySampleSize": 25,
-          "topRegions": [
-            "上海-浦东新区",
-            "赣州-章贡区",
-            "上海",
-            "杭州-滨江区",
-            "北京"
-          ]
-        },
-        "risk_compliance": {
-          "roleName": "AI 风控/合规",
-          "vacancyCount": 10,
-          "salaryMedian": 22500,
-          "salarySampleSize": 10,
-          "topRegions": [
-            "上海-浦东新区",
-            "广州",
-            "杭州",
-            "上海",
-            "深圳·龙岗区·布吉"
-          ]
-        },
-        "operations": {
-          "roleName": "AI 运营/训练师",
-          "vacancyCount": 8,
-          "salaryMedian": 22500,
-          "salarySampleSize": 7,
-          "topRegions": [
-            "深圳-福田区",
-            "自贡·大安区·龙井",
-            "北京",
-            "上海-浦东新区",
-            "上海"
-          ]
-        },
-        "algorithm": {
-          "roleName": "算法工程师/研究员",
-          "vacancyCount": 38,
-          "salaryMedian": 50000,
-          "salarySampleSize": 32,
-          "topRegions": [
-            "北京",
-            "北京-朝阳区",
-            "杭州",
-            "上海-浦东新区",
-            "Shenzhen, Nanshan District"
-          ]
-        },
-        "sales_bd": {
-          "roleName": "AI 销售/商务",
-          "vacancyCount": 5,
-          "salaryMedian": 22500,
-          "salarySampleSize": 5,
-          "topRegions": [
-            "上海",
-            "石家庄",
-            "北京",
-            "深圳市"
-          ]
-        },
-        "smart_manufacturing": {
-          "roleName": "智能制造/工业AI",
-          "vacancyCount": 1,
-          "salaryMedian": 55000,
-          "salarySampleSize": 1,
-          "topRegions": [
-            "上海-徐汇区"
-          ],
-          "lowSample": true
-        },
-        "customer_service": {
-          "roleName": "智能客服",
-          "vacancyCount": 1,
-          "salaryMedian": 25000,
-          "salarySampleSize": 1,
-          "topRegions": [
-            "北京-通州区"
-          ],
-          "lowSample": true
-        }
-      },
-      "manufacturing": {
-        "ai_transformation": {
-          "roleName": "AI 转型/咨询",
-          "vacancyCount": 17,
-          "salaryMedian": 45000,
-          "salarySampleSize": 17,
-          "topRegions": [
-            "青岛-崂山区",
-            "青岛",
-            "深圳-南山区",
-            "杭州-滨江区",
-            "西安-雁塔区"
-          ]
-        },
-        "smart_manufacturing": {
-          "roleName": "智能制造/工业AI",
-          "vacancyCount": 54,
-          "salaryMedian": 40000,
-          "salarySampleSize": 53,
-          "topRegions": [
-            "北京",
-            "苏州",
-            "上海",
-            "北京-海淀区",
-            "佛山"
-          ]
-        },
-        "leadership": {
-          "roleName": "AI 管理/战略",
-          "vacancyCount": 14,
-          "salaryMedian": 81250,
-          "salarySampleSize": 9,
-          "topRegions": [
-            "深圳",
-            "上海",
-            "深圳-南山区",
-            "Shanghai",
-            "北京"
-          ]
-        },
-        "ai_engineer": {
-          "roleName": "AI/LLM 工程师",
-          "vacancyCount": 59,
-          "salaryMedian": 35000,
-          "salarySampleSize": 55,
-          "topRegions": [
-            "重庆-九龙坡区",
-            "Shanghai",
-            "深圳",
-            "Hangzhou",
-            "北京-朝阳区"
-          ]
-        },
-        "product_manager": {
-          "roleName": "AI 产品经理",
-          "vacancyCount": 38,
-          "salaryMedian": 30000,
-          "salarySampleSize": 34,
-          "topRegions": [
-            "深圳",
-            "青岛",
-            "上海",
-            "西安-高新区",
-            "苏州-吴江区"
-          ]
-        },
-        "algorithm": {
-          "roleName": "算法工程师/研究员",
-          "vacancyCount": 11,
-          "salaryMedian": 47500,
-          "salarySampleSize": 10,
-          "topRegions": [
-            "杭州",
-            "杭州-滨江区",
-            "上海",
-            "上海-浦东新区",
-            "北京-朝阳区"
-          ]
-        },
-        "operations": {
-          "roleName": "AI 运营/训练师",
-          "vacancyCount": 8,
-          "salaryMedian": 22500,
-          "salarySampleSize": 8,
-          "topRegions": [
-            "深圳",
-            "合肥",
-            "合肥-高新区",
-            "宁波-余姚",
-            "深圳-南山区"
-          ]
-        },
-        "sales_bd": {
-          "roleName": "AI 销售/商务",
-          "vacancyCount": 7,
-          "salaryMedian": 20000,
-          "salarySampleSize": 5,
-          "topRegions": [
-            "Shanghai, Songjiang District",
-            "上海-浦东新区",
-            "淮安",
-            "北京",
-            "北京-通州区"
-          ]
-        },
-        "risk_compliance": {
-          "roleName": "AI 风控/合规",
-          "vacancyCount": 2,
-          "salaryMedian": 48125,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "上海-普陀区",
-            "北京"
-          ],
-          "lowSample": true
-        },
-        "data": {
-          "roleName": "数据分析/数据科学",
-          "vacancyCount": 2,
-          "salaryMedian": 23750,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "Hangzhou",
-            "武汉"
-          ],
-          "lowSample": true
-        },
-        "customer_service": {
-          "roleName": "智能客服",
-          "vacancyCount": 1,
-          "salaryMedian": 37500,
-          "salarySampleSize": 1,
-          "topRegions": [
-            "深圳"
-          ],
-          "lowSample": true
-        },
-        "autonomous": {
-          "roleName": "自动驾驶/智能座舱",
-          "vacancyCount": 5,
-          "salaryMedian": 27500,
-          "salarySampleSize": 5,
-          "topRegions": [
-            "青岛",
-            "上海-浦东新区",
-            "武汉-汉阳区",
-            "深圳",
-            "苏州-昆山"
-          ]
-        }
-      },
       "education": {
         "education_ai": {
           "roleName": "AI 教育",
@@ -513,9 +60,9 @@
           "topRegions": [
             "武汉-洪山区",
             "广州",
-            "Shenzhen",
             "深圳-南山区",
-            "北京-海淀区"
+            "北京-海淀区",
+            "Shenzhen"
           ]
         },
         "sales_bd": {
@@ -554,229 +101,181 @@
           "lowSample": true
         }
       },
-      "retail": {
-        "ai_transformation": {
-          "roleName": "AI 转型/咨询",
-          "vacancyCount": 8,
-          "salaryMedian": 31666,
-          "salarySampleSize": 8,
-          "topRegions": [
-            "杭州",
-            "广州-天河区",
-            "兰州-城关区",
-            "上海",
-            "厦门-思明区"
-          ]
-        },
+      "internet": {
         "ai_engineer": {
           "roleName": "AI/LLM 工程师",
-          "vacancyCount": 21,
-          "salaryMedian": 26250,
-          "salarySampleSize": 20,
+          "vacancyCount": 204,
+          "salaryMedian": 35000,
+          "salarySampleSize": 201,
           "topRegions": [
-            "深圳",
-            "广州",
+            "北京",
             "上海",
-            "杭州-滨江区",
-            "深圳市"
-          ]
-        },
-        "operations": {
-          "roleName": "AI 运营/训练师",
-          "vacancyCount": 13,
-          "salaryMedian": 17500,
-          "salarySampleSize": 13,
-          "topRegions": [
             "深圳",
-            "合肥",
-            "深圳市",
-            "武汉-洪山区",
-            "上海-长宁区"
+            "北京-海淀区",
+            "杭州"
           ]
         },
         "product_manager": {
           "roleName": "AI 产品经理",
+          "vacancyCount": 145,
+          "salaryMedian": 35416,
+          "salarySampleSize": 141,
+          "topRegions": [
+            "上海",
+            "北京",
+            "北京-海淀区",
+            "深圳",
+            "杭州"
+          ]
+        },
+        "leadership": {
+          "roleName": "AI 管理/战略",
+          "vacancyCount": 23,
+          "salaryMedian": 51250,
+          "salarySampleSize": 22,
+          "topRegions": [
+            "上海",
+            "北京",
+            "深圳",
+            "北京-海淀区",
+            "苏州"
+          ]
+        },
+        "sales_bd": {
+          "roleName": "AI 销售/商务",
+          "vacancyCount": 70,
+          "salaryMedian": 22500,
+          "salarySampleSize": 69,
+          "topRegions": [
+            "上海",
+            "北京",
+            "深圳",
+            "西安-经开区",
+            "广州"
+          ]
+        },
+        "risk_compliance": {
+          "roleName": "AI 风控/合规",
+          "vacancyCount": 5,
+          "salaryMedian": 15000,
+          "salarySampleSize": 5,
+          "topRegions": [
+            "杭州",
+            "深圳",
+            "北京",
+            "沈阳"
+          ]
+        },
+        "autonomous": {
+          "roleName": "自动驾驶/智能座舱",
           "vacancyCount": 11,
-          "salaryMedian": 30000,
+          "salaryMedian": 40000,
           "salarySampleSize": 11,
           "topRegions": [
-            "广州-海珠区",
-            "广州-天河区",
-            "上海-徐汇区",
-            "成都-双流区",
-            "上海-长宁区"
+            "北京",
+            "杭州-余杭区",
+            "苏州",
+            "上海-虹口区",
+            "深圳"
+          ]
+        },
+        "smart_manufacturing": {
+          "roleName": "智能制造/工业AI",
+          "vacancyCount": 9,
+          "salaryMedian": 22500,
+          "salarySampleSize": 8,
+          "topRegions": [
+            "北京",
+            "深圳·南山区·科技园",
+            "上海",
+            "雄安新区-容城县",
+            "西安·雁塔区·电子城"
+          ]
+        },
+        "operations": {
+          "roleName": "AI 运营/训练师",
+          "vacancyCount": 47,
+          "salaryMedian": 22500,
+          "salarySampleSize": 45,
+          "topRegions": [
+            "杭州",
+            "上海",
+            "北京",
+            "深圳",
+            "北京-海淀区"
+          ]
+        },
+        "algorithm": {
+          "roleName": "算法工程师/研究员",
+          "vacancyCount": 40,
+          "salaryMedian": 56250,
+          "salarySampleSize": 38,
+          "topRegions": [
+            "北京",
+            "上海",
+            "深圳",
+            "Shenzhen, Nanshan District",
+            "上海-杨浦区"
+          ]
+        },
+        "education_ai": {
+          "roleName": "AI 教育",
+          "vacancyCount": 6,
+          "salaryMedian": 37500,
+          "salarySampleSize": 6,
+          "topRegions": [
+            "北京",
+            "上海",
+            "北京-石景山区"
+          ]
+        },
+        "ai_transformation": {
+          "roleName": "AI 转型/咨询",
+          "vacancyCount": 8,
+          "salaryMedian": 31250,
+          "salarySampleSize": 8,
+          "topRegions": [
+            "北京",
+            "杭州",
+            "上海",
+            "南京市",
+            "苏州"
+          ]
+        },
+        "medical_ai": {
+          "roleName": "医疗AI专岗",
+          "vacancyCount": 3,
+          "salaryMedian": 37500,
+          "salarySampleSize": 3,
+          "topRegions": [
+            "济南",
+            "北京",
+            "上海"
+          ],
+          "lowSample": true
+        },
+        "data": {
+          "roleName": "数据分析/数据科学",
+          "vacancyCount": 10,
+          "salaryMedian": 15000,
+          "salarySampleSize": 9,
+          "topRegions": [
+            "南京-鼓楼区",
+            "北京",
+            "深圳",
+            "深圳市",
+            "重庆·南岸区·南坪"
           ]
         },
         "customer_service": {
           "roleName": "智能客服",
           "vacancyCount": 1,
-          "salaryMedian": 10000,
+          "salaryMedian": 10500,
           "salarySampleSize": 1,
           "topRegions": [
             "北京"
           ],
           "lowSample": true
-        },
-        "leadership": {
-          "roleName": "AI 管理/战略",
-          "vacancyCount": 6,
-          "salaryMedian": 27500,
-          "salarySampleSize": 6,
-          "topRegions": [
-            "深圳-南山区",
-            "杭州",
-            "杭州-滨江区",
-            "苏州",
-            "上海-青浦区"
-          ]
-        },
-        "algorithm": {
-          "roleName": "算法工程师/研究员",
-          "vacancyCount": 4,
-          "salaryMedian": 58750,
-          "salarySampleSize": 4,
-          "topRegions": [
-            "北京",
-            "郑州-金水区",
-            "深圳"
-          ],
-          "lowSample": true
-        }
-      },
-      "consulting": {
-        "ai_transformation": {
-          "roleName": "AI 转型/咨询",
-          "vacancyCount": 21,
-          "salaryMedian": 13333,
-          "salarySampleSize": 17,
-          "topRegions": [
-            "北京",
-            "上海",
-            "上海-黄浦区",
-            "恩施土家族苗族自治州·恩施市·金桂大道",
-            "北京-朝阳区"
-          ]
-        },
-        "education_ai": {
-          "roleName": "AI 教育",
-          "vacancyCount": 1,
-          "salaryMedian": 12500,
-          "salarySampleSize": 1,
-          "topRegions": [
-            "深圳-南山区"
-          ],
-          "lowSample": true
-        },
-        "leadership": {
-          "roleName": "AI 管理/战略",
-          "vacancyCount": 9,
-          "salaryMedian": 75000,
-          "salarySampleSize": 9,
-          "topRegions": [
-            "上海",
-            "上海-虹口区",
-            "北京-东城区",
-            "Shanghai",
-            "抚顺·新抚区·南站"
-          ]
-        },
-        "risk_compliance": {
-          "roleName": "AI 风控/合规",
-          "vacancyCount": 2,
-          "salaryMedian": 51666,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "广州-天河区",
-            "杭州"
-          ],
-          "lowSample": true
-        },
-        "operations": {
-          "roleName": "AI 运营/训练师",
-          "vacancyCount": 7,
-          "salaryMedian": 22500,
-          "salarySampleSize": 7,
-          "topRegions": [
-            "北京",
-            "杭州",
-            "上海",
-            "杭州-临平区",
-            "深圳"
-          ]
-        },
-        "sales_bd": {
-          "roleName": "AI 销售/商务",
-          "vacancyCount": 4,
-          "salaryMedian": 23000,
-          "salarySampleSize": 4,
-          "topRegions": [
-            "深圳",
-            "Shenzhen",
-            "上海-黄浦区",
-            "广州-黄埔区"
-          ],
-          "lowSample": true
-        },
-        "smart_manufacturing": {
-          "roleName": "智能制造/工业AI",
-          "vacancyCount": 3,
-          "salaryMedian": 50000,
-          "salarySampleSize": 3,
-          "topRegions": [
-            "上海",
-            "苏州-虎丘区",
-            "上海·徐汇区·漕河泾"
-          ],
-          "lowSample": true
-        },
-        "autonomous": {
-          "roleName": "自动驾驶/智能座舱",
-          "vacancyCount": 8,
-          "salaryMedian": 17500,
-          "salarySampleSize": 5,
-          "topRegions": [
-            "上海",
-            "上海-静安区",
-            "重庆-永川区",
-            "武汉-蔡甸区",
-            "沈阳-铁西区"
-          ]
-        },
-        "algorithm": {
-          "roleName": "算法工程师/研究员",
-          "vacancyCount": 4,
-          "salaryMedian": 22500,
-          "salarySampleSize": 3,
-          "topRegions": [
-            "北京"
-          ],
-          "lowSample": true
-        },
-        "product_manager": {
-          "roleName": "AI 产品经理",
-          "vacancyCount": 11,
-          "salaryMedian": 27500,
-          "salarySampleSize": 11,
-          "topRegions": [
-            "北京",
-            "南昌-青山湖区",
-            "广州",
-            "深圳-南山区",
-            "Shenzhen"
-          ]
-        },
-        "ai_engineer": {
-          "roleName": "AI/LLM 工程师",
-          "vacancyCount": 30,
-          "salaryMedian": 24750,
-          "salarySampleSize": 30,
-          "topRegions": [
-            "北京",
-            "深圳-龙岗区",
-            "杭州",
-            "深圳",
-            "Beijing"
-          ]
         }
       },
       "automotive": {
@@ -880,6 +379,142 @@
           "lowSample": true
         }
       },
+      "consulting": {
+        "ai_transformation": {
+          "roleName": "AI 转型/咨询",
+          "vacancyCount": 21,
+          "salaryMedian": 13333,
+          "salarySampleSize": 17,
+          "topRegions": [
+            "北京",
+            "上海-黄浦区",
+            "上海",
+            "恩施土家族苗族自治州·恩施市·金桂大道",
+            "北京-朝阳区"
+          ]
+        },
+        "education_ai": {
+          "roleName": "AI 教育",
+          "vacancyCount": 1,
+          "salaryMedian": 12500,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "深圳-南山区"
+          ],
+          "lowSample": true
+        },
+        "leadership": {
+          "roleName": "AI 管理/战略",
+          "vacancyCount": 9,
+          "salaryMedian": 75000,
+          "salarySampleSize": 9,
+          "topRegions": [
+            "上海",
+            "上海-虹口区",
+            "Shanghai",
+            "抚顺·新抚区·南站",
+            "深圳-龙华区"
+          ]
+        },
+        "risk_compliance": {
+          "roleName": "AI 风控/合规",
+          "vacancyCount": 2,
+          "salaryMedian": 51666,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "广州-天河区",
+            "杭州"
+          ],
+          "lowSample": true
+        },
+        "operations": {
+          "roleName": "AI 运营/训练师",
+          "vacancyCount": 7,
+          "salaryMedian": 22500,
+          "salarySampleSize": 7,
+          "topRegions": [
+            "北京",
+            "杭州",
+            "上海",
+            "杭州-临平区",
+            "深圳"
+          ]
+        },
+        "sales_bd": {
+          "roleName": "AI 销售/商务",
+          "vacancyCount": 4,
+          "salaryMedian": 23000,
+          "salarySampleSize": 4,
+          "topRegions": [
+            "Shenzhen",
+            "广州-黄埔区",
+            "深圳",
+            "上海-黄浦区"
+          ],
+          "lowSample": true
+        },
+        "smart_manufacturing": {
+          "roleName": "智能制造/工业AI",
+          "vacancyCount": 3,
+          "salaryMedian": 50000,
+          "salarySampleSize": 3,
+          "topRegions": [
+            "上海",
+            "苏州-虎丘区",
+            "上海·徐汇区·漕河泾"
+          ],
+          "lowSample": true
+        },
+        "autonomous": {
+          "roleName": "自动驾驶/智能座舱",
+          "vacancyCount": 8,
+          "salaryMedian": 17500,
+          "salarySampleSize": 5,
+          "topRegions": [
+            "上海",
+            "上海-静安区",
+            "重庆-永川区",
+            "武汉-蔡甸区",
+            "沈阳-铁西区"
+          ]
+        },
+        "algorithm": {
+          "roleName": "算法工程师/研究员",
+          "vacancyCount": 4,
+          "salaryMedian": 22500,
+          "salarySampleSize": 3,
+          "topRegions": [
+            "北京"
+          ],
+          "lowSample": true
+        },
+        "product_manager": {
+          "roleName": "AI 产品经理",
+          "vacancyCount": 11,
+          "salaryMedian": 27500,
+          "salarySampleSize": 11,
+          "topRegions": [
+            "北京",
+            "南昌-青山湖区",
+            "广州",
+            "深圳-南山区",
+            "Shenzhen"
+          ]
+        },
+        "ai_engineer": {
+          "roleName": "AI/LLM 工程师",
+          "vacancyCount": 30,
+          "salaryMedian": 24750,
+          "salarySampleSize": 30,
+          "topRegions": [
+            "北京",
+            "深圳-龙岗区",
+            "杭州",
+            "深圳",
+            "Beijing"
+          ]
+        }
+      },
       "healthcare": {
         "product_manager": {
           "roleName": "AI 产品经理",
@@ -913,8 +548,8 @@
           "salaryMedian": 20000,
           "salarySampleSize": 20,
           "topRegions": [
-            "北京",
             "深圳",
+            "北京",
             "呼和浩特-新城区",
             "成都-武侯区",
             "合肥"
@@ -1061,6 +696,157 @@
           "lowSample": true
         }
       },
+      "manufacturing": {
+        "smart_manufacturing": {
+          "roleName": "智能制造/工业AI",
+          "vacancyCount": 54,
+          "salaryMedian": 40000,
+          "salarySampleSize": 53,
+          "topRegions": [
+            "北京",
+            "苏州",
+            "上海",
+            "北京-海淀区",
+            "佛山"
+          ]
+        },
+        "leadership": {
+          "roleName": "AI 管理/战略",
+          "vacancyCount": 14,
+          "salaryMedian": 81250,
+          "salarySampleSize": 9,
+          "topRegions": [
+            "深圳",
+            "上海",
+            "深圳-南山区",
+            "Shanghai",
+            "北京"
+          ]
+        },
+        "ai_engineer": {
+          "roleName": "AI/LLM 工程师",
+          "vacancyCount": 59,
+          "salaryMedian": 35000,
+          "salarySampleSize": 55,
+          "topRegions": [
+            "重庆-九龙坡区",
+            "Shanghai",
+            "深圳",
+            "Hangzhou",
+            "北京-朝阳区"
+          ]
+        },
+        "product_manager": {
+          "roleName": "AI 产品经理",
+          "vacancyCount": 38,
+          "salaryMedian": 30000,
+          "salarySampleSize": 34,
+          "topRegions": [
+            "深圳",
+            "青岛",
+            "上海",
+            "西安-高新区",
+            "苏州-吴江区"
+          ]
+        },
+        "algorithm": {
+          "roleName": "算法工程师/研究员",
+          "vacancyCount": 11,
+          "salaryMedian": 47500,
+          "salarySampleSize": 10,
+          "topRegions": [
+            "杭州",
+            "杭州-滨江区",
+            "上海",
+            "上海-浦东新区",
+            "北京-朝阳区"
+          ]
+        },
+        "operations": {
+          "roleName": "AI 运营/训练师",
+          "vacancyCount": 8,
+          "salaryMedian": 22500,
+          "salarySampleSize": 8,
+          "topRegions": [
+            "深圳",
+            "合肥",
+            "合肥-高新区",
+            "宁波-余姚",
+            "深圳-南山区"
+          ]
+        },
+        "sales_bd": {
+          "roleName": "AI 销售/商务",
+          "vacancyCount": 7,
+          "salaryMedian": 20000,
+          "salarySampleSize": 5,
+          "topRegions": [
+            "Shanghai, Songjiang District",
+            "上海-浦东新区",
+            "淮安",
+            "北京",
+            "北京-通州区"
+          ]
+        },
+        "risk_compliance": {
+          "roleName": "AI 风控/合规",
+          "vacancyCount": 2,
+          "salaryMedian": 48125,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "上海-普陀区",
+            "北京"
+          ],
+          "lowSample": true
+        },
+        "ai_transformation": {
+          "roleName": "AI 转型/咨询",
+          "vacancyCount": 17,
+          "salaryMedian": 45000,
+          "salarySampleSize": 17,
+          "topRegions": [
+            "青岛-崂山区",
+            "深圳-南山区",
+            "青岛",
+            "西安-雁塔区",
+            "杭州"
+          ]
+        },
+        "data": {
+          "roleName": "数据分析/数据科学",
+          "vacancyCount": 2,
+          "salaryMedian": 23750,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "Hangzhou",
+            "武汉"
+          ],
+          "lowSample": true
+        },
+        "customer_service": {
+          "roleName": "智能客服",
+          "vacancyCount": 1,
+          "salaryMedian": 37500,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "深圳"
+          ],
+          "lowSample": true
+        },
+        "autonomous": {
+          "roleName": "自动驾驶/智能座舱",
+          "vacancyCount": 5,
+          "salaryMedian": 27500,
+          "salarySampleSize": 5,
+          "topRegions": [
+            "青岛",
+            "上海-浦东新区",
+            "武汉-汉阳区",
+            "深圳",
+            "苏州-昆山"
+          ]
+        }
+      },
       "media": {
         "operations": {
           "roleName": "AI 运营/训练师",
@@ -1141,6 +927,131 @@
           "salarySampleSize": 1,
           "topRegions": [
             "Chongqing, Nanan District, Nanping"
+          ],
+          "lowSample": true
+        }
+      },
+      "finance": {
+        "data": {
+          "roleName": "数据分析/数据科学",
+          "vacancyCount": 9,
+          "salaryMedian": 55000,
+          "salarySampleSize": 9,
+          "topRegions": [
+            "上海",
+            "宁波",
+            "上海-浦东新区",
+            "深圳-南山区",
+            "北京"
+          ]
+        },
+        "ai_engineer": {
+          "roleName": "AI/LLM 工程师",
+          "vacancyCount": 27,
+          "salaryMedian": 46875,
+          "salarySampleSize": 25,
+          "topRegions": [
+            "上海-浦东新区",
+            "赣州-章贡区",
+            "上海",
+            "北京",
+            "Shanghai"
+          ]
+        },
+        "leadership": {
+          "roleName": "AI 管理/战略",
+          "vacancyCount": 13,
+          "salaryMedian": 87500,
+          "salarySampleSize": 12,
+          "topRegions": [
+            "深圳",
+            "北京-朝阳区",
+            "上海",
+            "上海-浦东新区",
+            "Shenzhen"
+          ]
+        },
+        "product_manager": {
+          "roleName": "AI 产品经理",
+          "vacancyCount": 32,
+          "salaryMedian": 36250,
+          "salarySampleSize": 30,
+          "topRegions": [
+            "深圳",
+            "上海",
+            "深圳-福田区",
+            "北京-昌平区",
+            "上海-徐汇区"
+          ]
+        },
+        "risk_compliance": {
+          "roleName": "AI 风控/合规",
+          "vacancyCount": 10,
+          "salaryMedian": 22500,
+          "salarySampleSize": 10,
+          "topRegions": [
+            "上海-浦东新区",
+            "广州",
+            "杭州",
+            "上海",
+            "深圳·龙岗区·布吉"
+          ]
+        },
+        "operations": {
+          "roleName": "AI 运营/训练师",
+          "vacancyCount": 8,
+          "salaryMedian": 22500,
+          "salarySampleSize": 7,
+          "topRegions": [
+            "深圳-福田区",
+            "自贡·大安区·龙井",
+            "北京",
+            "上海-浦东新区",
+            "上海"
+          ]
+        },
+        "algorithm": {
+          "roleName": "算法工程师/研究员",
+          "vacancyCount": 38,
+          "salaryMedian": 50000,
+          "salarySampleSize": 32,
+          "topRegions": [
+            "北京",
+            "北京-朝阳区",
+            "杭州",
+            "上海-浦东新区",
+            "Shenzhen, Nanshan District"
+          ]
+        },
+        "sales_bd": {
+          "roleName": "AI 销售/商务",
+          "vacancyCount": 5,
+          "salaryMedian": 22500,
+          "salarySampleSize": 5,
+          "topRegions": [
+            "上海",
+            "北京",
+            "深圳市",
+            "石家庄"
+          ]
+        },
+        "smart_manufacturing": {
+          "roleName": "智能制造/工业AI",
+          "vacancyCount": 1,
+          "salaryMedian": 55000,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "上海-徐汇区"
+          ],
+          "lowSample": true
+        },
+        "customer_service": {
+          "roleName": "智能客服",
+          "vacancyCount": 1,
+          "salaryMedian": 25000,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "北京-通州区"
           ],
           "lowSample": true
         }
@@ -1244,10 +1155,10 @@
           "salarySampleSize": 7,
           "topRegions": [
             "上海",
-            "杭州",
             "无锡·锡山区",
             "深圳·龙华区",
-            "Shanghai, Qingpu District"
+            "Shanghai, Qingpu District",
+            "Shenzhen, Longgang District, Bantian"
           ]
         },
         "product_manager": {
@@ -1339,17 +1250,96 @@
           "lowSample": true
         }
       },
-      "government": {
-        "smart_manufacturing": {
-          "roleName": "智能制造/工业AI",
-          "vacancyCount": 1,
-          "salaryMedian": 47500,
-          "salarySampleSize": 1,
+      "retail": {
+        "operations": {
+          "roleName": "AI 运营/训练师",
+          "vacancyCount": 13,
+          "salaryMedian": 17500,
+          "salarySampleSize": 13,
           "topRegions": [
-            "广州"
+            "深圳",
+            "合肥",
+            "上海-长宁区",
+            "天津-西青区",
+            "宁波"
+          ]
+        },
+        "product_manager": {
+          "roleName": "AI 产品经理",
+          "vacancyCount": 11,
+          "salaryMedian": 30000,
+          "salarySampleSize": 11,
+          "topRegions": [
+            "广州-海珠区",
+            "广州-天河区",
+            "上海-徐汇区",
+            "成都-双流区",
+            "上海-长宁区"
+          ]
+        },
+        "ai_engineer": {
+          "roleName": "AI/LLM 工程师",
+          "vacancyCount": 21,
+          "salaryMedian": 26250,
+          "salarySampleSize": 20,
+          "topRegions": [
+            "深圳",
+            "广州",
+            "上海",
+            "杭州-滨江区",
+            "Shanghai, Jing'an District"
+          ]
+        },
+        "ai_transformation": {
+          "roleName": "AI 转型/咨询",
+          "vacancyCount": 8,
+          "salaryMedian": 31666,
+          "salarySampleSize": 8,
+          "topRegions": [
+            "杭州",
+            "兰州-城关区",
+            "上海",
+            "厦门-思明区",
+            "黔东南苗族侗族自治州·凯里市·民族风情园"
+          ]
+        },
+        "leadership": {
+          "roleName": "AI 管理/战略",
+          "vacancyCount": 6,
+          "salaryMedian": 27500,
+          "salarySampleSize": 6,
+          "topRegions": [
+            "深圳-南山区",
+            "杭州",
+            "杭州-滨江区",
+            "苏州",
+            "上海-青浦区"
+          ]
+        },
+        "algorithm": {
+          "roleName": "算法工程师/研究员",
+          "vacancyCount": 4,
+          "salaryMedian": 58750,
+          "salarySampleSize": 4,
+          "topRegions": [
+            "北京",
+            "郑州-金水区",
+            "深圳"
           ],
           "lowSample": true
         },
+        "customer_service": {
+          "roleName": "智能客服",
+          "vacancyCount": 1,
+          "salaryMedian": 10000,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "北京"
+          ],
+          "lowSample": true
+        }
+      },
+      "government": {
         "ai_transformation": {
           "roleName": "AI 转型/咨询",
           "vacancyCount": 1,
@@ -1390,6 +1380,16 @@
             "西安-未央区"
           ],
           "lowSample": true
+        },
+        "smart_manufacturing": {
+          "roleName": "智能制造/工业AI",
+          "vacancyCount": 1,
+          "salaryMedian": 47500,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "广州"
+          ],
+          "lowSample": true
         }
       }
     },
@@ -1406,19 +1406,6 @@
             "London, UK",
             "San Francisco, CA | Seattle, WA",
             "San Francisco, CA | New York City, NY | Seattle, WA"
-          ]
-        },
-        "data": {
-          "roleName": "Data Scientist / Analyst",
-          "vacancyCount": 17,
-          "salaryMedian": 153499,
-          "salarySampleSize": 7,
-          "topRegions": [
-            "San Francisco",
-            "United States",
-            "Silicon Valley, USA",
-            "US",
-            "London, UK"
           ]
         },
         "ml_engineer": {
@@ -1497,6 +1484,19 @@
             "Munich, Germany",
             "San Francisco, CA | New York City, NY",
             "San Francisco, CA or New York, NY"
+          ]
+        },
+        "data": {
+          "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 17,
+          "salaryMedian": 153499,
+          "salarySampleSize": 7,
+          "topRegions": [
+            "San Francisco",
+            "United States",
+            "US",
+            "London, UK",
+            "San Francisco, CA | Seattle, WA"
           ]
         },
         "intern_newgrad": {
@@ -1901,7 +1901,7 @@
             "NJ/NY",
             "USA",
             "New York, New York",
-            "Palo Alto, CA"
+            "Morristown, NJ"
           ]
         },
         "ml_scientist": {
@@ -1937,8 +1937,8 @@
           "salarySampleSize": 4,
           "topRegions": [
             "Scottsdale, Arizona",
-            "Lake Mary, FL",
-            "USA"
+            "USA",
+            "Lake Mary, FL"
           ]
         },
         "leadership": {
@@ -2092,102 +2092,6 @@
           "salarySampleSize": 0,
           "topRegions": [
             "Remote EST / CET"
-          ],
-          "lowSample": true
-        }
-      },
-      "other": {
-        "sde": {
-          "roleName": "Software Engineer",
-          "vacancyCount": 35,
-          "salaryMedian": 105729,
-          "salarySampleSize": 12,
-          "topRegions": [
-            "Austria or Remote EU Hours",
-            "NYC",
-            "San Francisco, CA",
-            "Remote (US Timezones)",
-            "San Francisco"
-          ]
-        },
-        "leadership": {
-          "roleName": "Engineering Leadership",
-          "vacancyCount": 4,
-          "salaryMedian": 39000,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "Hyderabad, India",
-            "Munich, Germany"
-          ],
-          "lowSample": true
-        },
-        "ml_engineer": {
-          "roleName": "ML/AI Engineer",
-          "vacancyCount": 14,
-          "salaryMedian": 120078,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "NYC",
-            "LATAM",
-            "London",
-            "The Netherlands",
-            "Remote (US Only)"
-          ]
-        },
-        "architect": {
-          "roleName": "Solutions Architect",
-          "vacancyCount": 3,
-          "salaryMedian": 73155,
-          "salarySampleSize": 2,
-          "topRegions": [
-            "Remote (Global)",
-            "Remote (India)",
-            "London, UK"
-          ],
-          "lowSample": true
-        },
-        "intern_newgrad": {
-          "roleName": "Intern / New Grad",
-          "vacancyCount": 6,
-          "salaryMedian": 187291,
-          "salarySampleSize": 1,
-          "topRegions": [
-            "Palo Alto, CA",
-            "Aptos, CA",
-            "NYC",
-            "Frisco, TX",
-            "Toronto, ON, Canada"
-          ]
-        },
-        "ml_scientist": {
-          "roleName": "ML Scientist / Researcher",
-          "vacancyCount": 3,
-          "salaryMedian": null,
-          "salarySampleSize": 0,
-          "topRegions": [
-            "London",
-            "Austin TX",
-            "Mountain View, CA"
-          ],
-          "lowSample": true
-        },
-        "autonomous": {
-          "roleName": "Autonomous Vehicles",
-          "vacancyCount": 2,
-          "salaryMedian": null,
-          "salarySampleSize": 0,
-          "topRegions": [
-            "Austin TX"
-          ],
-          "lowSample": true
-        },
-        "data": {
-          "roleName": "Data Scientist / Analyst",
-          "vacancyCount": 1,
-          "salaryMedian": null,
-          "salarySampleSize": 0,
-          "topRegions": [
-            "Tempe, AZ"
           ],
           "lowSample": true
         }
@@ -2383,6 +2287,102 @@
           "salarySampleSize": 0,
           "topRegions": [
             "Pittsburgh, PA"
+          ],
+          "lowSample": true
+        }
+      },
+      "other": {
+        "sde": {
+          "roleName": "Software Engineer",
+          "vacancyCount": 35,
+          "salaryMedian": 105729,
+          "salarySampleSize": 12,
+          "topRegions": [
+            "Austria or Remote EU Hours",
+            "NYC",
+            "San Francisco, CA",
+            "Remote (US Timezones)",
+            "San Francisco"
+          ]
+        },
+        "leadership": {
+          "roleName": "Engineering Leadership",
+          "vacancyCount": 4,
+          "salaryMedian": 39000,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "Hyderabad, India",
+            "Munich, Germany"
+          ],
+          "lowSample": true
+        },
+        "ml_engineer": {
+          "roleName": "ML/AI Engineer",
+          "vacancyCount": 14,
+          "salaryMedian": 120078,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "NYC",
+            "LATAM",
+            "London",
+            "The Netherlands",
+            "Remote (US Only)"
+          ]
+        },
+        "architect": {
+          "roleName": "Solutions Architect",
+          "vacancyCount": 3,
+          "salaryMedian": 73155,
+          "salarySampleSize": 2,
+          "topRegions": [
+            "Remote (Global)",
+            "Remote (India)",
+            "London, UK"
+          ],
+          "lowSample": true
+        },
+        "intern_newgrad": {
+          "roleName": "Intern / New Grad",
+          "vacancyCount": 6,
+          "salaryMedian": 187291,
+          "salarySampleSize": 1,
+          "topRegions": [
+            "Palo Alto, CA",
+            "Aptos, CA",
+            "NYC",
+            "Frisco, TX",
+            "Toronto, ON, Canada"
+          ]
+        },
+        "ml_scientist": {
+          "roleName": "ML Scientist / Researcher",
+          "vacancyCount": 3,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "London",
+            "Austin TX",
+            "Mountain View, CA"
+          ],
+          "lowSample": true
+        },
+        "autonomous": {
+          "roleName": "Autonomous Vehicles",
+          "vacancyCount": 2,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Austin TX"
+          ],
+          "lowSample": true
+        },
+        "data": {
+          "roleName": "Data Scientist / Analyst",
+          "vacancyCount": 1,
+          "salaryMedian": null,
+          "salarySampleSize": 0,
+          "topRegions": [
+            "Tempe, AZ"
           ],
           "lowSample": true
         }

@@ -1,51 +1,73 @@
 {
   "domestic": [
     {
-      "graduateFriendlyScore": 20.0,
+      "graduateFriendlyScore": 28.0,
       "totalJobs": 5,
       "campusJobCount": 1,
       "internshipJobCount": 1,
-      "freshJobCount": 1,
-      "freshSalaryMedian": 5000,
+      "freshJobCount": 2,
+      "freshSalaryMedian": 7500,
       "socialSalaryMedian": 25000,
       "roleId": "customer_service",
       "roleName": "智能客服"
     },
     {
-      "graduateFriendlyScore": 5.0,
-      "totalJobs": 20,
-      "campusJobCount": 1,
-      "internshipJobCount": 1,
-      "freshJobCount": 1,
-      "freshSalaryMedian": 10000,
-      "socialSalaryMedian": 27500,
-      "roleId": "risk_compliance",
-      "roleName": "AI 风控/合规"
+      "graduateFriendlyScore": 14.5,
+      "totalJobs": 173,
+      "campusJobCount": 21,
+      "internshipJobCount": 24,
+      "freshJobCount": 30,
+      "freshSalaryMedian": 15000,
+      "socialSalaryMedian": 52500,
+      "roleId": "algorithm",
+      "roleName": "算法工程师/研究员"
     },
     {
-      "graduateFriendlyScore": 4.2,
-      "totalJobs": 12,
+      "graduateFriendlyScore": 7.7,
+      "totalJobs": 531,
+      "campusJobCount": 35,
+      "internshipJobCount": 32,
+      "freshJobCount": 50,
+      "freshSalaryMedian": 11500,
+      "socialSalaryMedian": 35000,
+      "roleId": "ai_engineer",
+      "roleName": "AI/LLM 工程师"
+    },
+    {
+      "graduateFriendlyScore": 7.2,
+      "totalJobs": 155,
+      "campusJobCount": 7,
+      "internshipJobCount": 12,
+      "freshJobCount": 16,
+      "freshSalaryMedian": 7750,
+      "socialSalaryMedian": 23000,
+      "roleId": "operations",
+      "roleName": "AI 运营/训练师"
+    },
+    {
+      "graduateFriendlyScore": 7.1,
+      "totalJobs": 14,
       "campusJobCount": 0,
-      "internshipJobCount": 1,
-      "freshJobCount": 1,
+      "internshipJobCount": 2,
+      "freshJobCount": 2,
       "freshSalaryMedian": 2800,
       "socialSalaryMedian": 10000,
       "roleId": "medical_ai",
       "roleName": "医疗AI专岗"
     },
     {
-      "graduateFriendlyScore": 3.3,
-      "totalJobs": 437,
-      "campusJobCount": 9,
-      "internshipJobCount": 16,
-      "freshJobCount": 21,
-      "freshSalaryMedian": 10500,
-      "socialSalaryMedian": 35000,
-      "roleId": "ai_engineer",
-      "roleName": "AI/LLM 工程师"
+      "graduateFriendlyScore": 5.2,
+      "totalJobs": 27,
+      "campusJobCount": 1,
+      "internshipJobCount": 1,
+      "freshJobCount": 2,
+      "freshSalaryMedian": 9750,
+      "socialSalaryMedian": 27500,
+      "roleId": "risk_compliance",
+      "roleName": "AI 风控/合规"
     },
     {
-      "graduateFriendlyScore": 3.3,
+      "graduateFriendlyScore": 3.7,
       "totalJobs": 30,
       "campusJobCount": 0,
       "internshipJobCount": 1,
@@ -56,26 +78,37 @@
       "roleName": "AI 教育"
     },
     {
-      "graduateFriendlyScore": 2.7,
-      "totalJobs": 122,
+      "graduateFriendlyScore": 3.7,
+      "totalJobs": 130,
       "campusJobCount": 1,
-      "internshipJobCount": 4,
-      "freshJobCount": 6,
-      "freshSalaryMedian": 15000,
-      "socialSalaryMedian": 52500,
-      "roleId": "algorithm",
-      "roleName": "算法工程师/研究员"
+      "internshipJobCount": 1,
+      "freshJobCount": 10,
+      "freshSalaryMedian": 17500,
+      "socialSalaryMedian": 22500,
+      "roleId": "sales_bd",
+      "roleName": "AI 销售/商务"
+    },
+    {
+      "graduateFriendlyScore": 2.7,
+      "totalJobs": 41,
+      "campusJobCount": 1,
+      "internshipJobCount": 1,
+      "freshJobCount": 1,
+      "freshSalaryMedian": null,
+      "socialSalaryMedian": 35000,
+      "roleId": "data",
+      "roleName": "数据分析/数据科学"
     },
     {
       "graduateFriendlyScore": 2.0,
-      "totalJobs": 115,
-      "campusJobCount": 0,
-      "internshipJobCount": 2,
-      "freshJobCount": 5,
-      "freshSalaryMedian": 5500,
-      "socialSalaryMedian": 23000,
-      "roleId": "operations",
-      "roleName": "AI 运营/训练师"
+      "totalJobs": 342,
+      "campusJobCount": 5,
+      "internshipJobCount": 4,
+      "freshJobCount": 9,
+      "freshSalaryMedian": 22500,
+      "socialSalaryMedian": 32500,
+      "roleId": "product_manager",
+      "roleName": "AI 产品经理"
     },
     {
       "graduateFriendlyScore": 1.9,
@@ -89,6 +122,28 @@
       "roleName": "自动驾驶/智能座舱"
     },
     {
+      "graduateFriendlyScore": 1.8,
+      "totalJobs": 125,
+      "campusJobCount": 1,
+      "internshipJobCount": 2,
+      "freshJobCount": 4,
+      "freshSalaryMedian": 14500,
+      "socialSalaryMedian": 57500,
+      "roleId": "leadership",
+      "roleName": "AI 管理/战略"
+    },
+    {
+      "graduateFriendlyScore": 1.6,
+      "totalJobs": 82,
+      "campusJobCount": 0,
+      "internshipJobCount": 1,
+      "freshJobCount": 3,
+      "freshSalaryMedian": 8000,
+      "socialSalaryMedian": 36500,
+      "roleId": "smart_manufacturing",
+      "roleName": "智能制造/工业AI"
+    },
+    {
       "graduateFriendlyScore": 1.4,
       "totalJobs": 71,
       "campusJobCount": 0,
@@ -98,61 +153,6 @@
       "socialSalaryMedian": 37500,
       "roleId": "ai_transformation",
       "roleName": "AI 转型/咨询"
-    },
-    {
-      "graduateFriendlyScore": 1.4,
-      "totalJobs": 120,
-      "campusJobCount": 0,
-      "internshipJobCount": 0,
-      "freshJobCount": 4,
-      "freshSalaryMedian": 12500,
-      "socialSalaryMedian": 22500,
-      "roleId": "sales_bd",
-      "roleName": "AI 销售/商务"
-    },
-    {
-      "graduateFriendlyScore": 1.0,
-      "totalJobs": 301,
-      "campusJobCount": 2,
-      "internshipJobCount": 2,
-      "freshJobCount": 4,
-      "freshSalaryMedian": 19500,
-      "socialSalaryMedian": 32500,
-      "roleId": "product_manager",
-      "roleName": "AI 产品经理"
-    },
-    {
-      "graduateFriendlyScore": 0.6,
-      "totalJobs": 82,
-      "campusJobCount": 0,
-      "internshipJobCount": 1,
-      "freshJobCount": 1,
-      "freshSalaryMedian": 8000,
-      "socialSalaryMedian": 36500,
-      "roleId": "smart_manufacturing",
-      "roleName": "智能制造/工业AI"
-    },
-    {
-      "graduateFriendlyScore": 0.4,
-      "totalJobs": 27,
-      "campusJobCount": 0,
-      "internshipJobCount": 0,
-      "freshJobCount": 0,
-      "freshSalaryMedian": null,
-      "socialSalaryMedian": 35000,
-      "roleId": "data",
-      "roleName": "数据分析/数据科学"
-    },
-    {
-      "graduateFriendlyScore": 0.0,
-      "totalJobs": 117,
-      "campusJobCount": 0,
-      "internshipJobCount": 0,
-      "freshJobCount": 0,
-      "freshSalaryMedian": null,
-      "socialSalaryMedian": 57500,
-      "roleId": "leadership",
-      "roleName": "AI 管理/战略"
     }
   ],
   "international": [
@@ -227,9 +227,9 @@
       "totalJobs": 808,
       "campusJobCount": 133,
       "internshipJobCount": 81,
-      "freshJobCount": 149,
-      "freshSalaryMedian": 74703,
-      "socialSalaryMedian": 114791,
+      "freshJobCount": 148,
+      "freshSalaryMedian": 84583,
+      "socialSalaryMedian": 113281,
       "roleId": "sde",
       "roleName": "Software Engineer"
     },
