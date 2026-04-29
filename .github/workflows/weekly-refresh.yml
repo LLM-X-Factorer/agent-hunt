@@ -65,15 +65,21 @@ jobs:
       # ---------------------------------------------------------------
       # 1. Incremental collect — only no-anti-scrape sources
       # ---------------------------------------------------------------
+      # Collect steps have hard timeouts because cross-region DB latency
+      # (runner in US, Supabase in ap-southeast-2) makes per-row INSERT/UPDATE
+      # round-trips slow. continue-on-error so partial collection still
+      # flows downstream into the exports.
       - name: Collect HN Who is Hiring
         working-directory: backend
         run: .venv/bin/python scripts/collect_hn_wih.py
         continue-on-error: true
+        timeout-minutes: 8
 
       - name: Collect GitHub hiring repos
         working-directory: backend
         run: .venv/bin/python scripts/collect_github_hiring.py
         continue-on-error: true
+        timeout-minutes: 12
 
       # ---------------------------------------------------------------
       # 2. Rule-based role_type backfill (no LLM cost)
@@ -82,6 +88,7 @@ jobs:
         working-directory: backend
         run: .venv/bin/python scripts/backfill_role_type_rules.py --apply
         continue-on-error: true
+        timeout-minutes: 5
 
       # ---------------------------------------------------------------
       # 3. Regenerate every dependent JSON
