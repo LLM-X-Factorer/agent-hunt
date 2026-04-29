@@ -1,0 +1,223 @@
+{
+  "totals": {
+    "all_jobs": 8238,
+    "labeled_jobs": 5673
+  },
+  "p1_market_basic": {
+    "domestic_ai_native": 1372,
+    "domestic_ai_augmented": 939,
+    "intl_ai_native": 2195,
+    "intl_ai_augmented": 1144,
+    "domestic_traditional_aug_total": 677,
+    "domestic_internet_aug_total": 197,
+    "domestic_traditional_to_internet_ratio": 3.44,
+    "domestic_industry_breakdown": [
+      {
+        "industry": "internet",
+        "count": 197
+      },
+      {
+        "industry": "manufacturing",
+        "count": 148
+      },
+      {
+        "industry": "automotive",
+        "count": 108
+      },
+      {
+        "industry": "healthcare",
+        "count": 87
+      },
+      {
+        "industry": "media",
+        "count": 85
+      },
+      {
+        "industry": "finance",
+        "count": 84
+      },
+      {
+        "industry": "education",
+        "count": 59
+      },
+      {
+        "industry": "consulting",
+        "count": 48
+      },
+      {
+        "industry": "retail",
+        "count": 47
+      },
+      {
+        "industry": "other",
+        "count": 25
+      },
+      {
+        "industry": "energy",
+        "count": 6
+      },
+      {
+        "industry": "telecom",
+        "count": 5
+      },
+      {
+        "industry": "government",
+        "count": 2
+      }
+    ]
+  },
+  "p2_salary_premium": {
+    "premium_industries": [
+      "finance",
+      "healthcare",
+      "manufacturing"
+    ],
+    "premium_median": 30000,
+    "premium_sample_size": 285,
+    "internet_median": 25000,
+    "internet_sample_size": 191,
+    "premium_over_internet_pct": 20.0
+  },
+  "p4_cross_market": {
+    "domestic_native": {
+      "median": 32500,
+      "sample_size": 1044
+    },
+    "intl_native": {
+      "median": 128700,
+      "sample_size": 813
+    },
+    "domestic_augmented": {
+      "median": 23000,
+      "sample_size": 837
+    },
+    "intl_augmented": {
+      "median": 105729,
+      "sample_size": 489
+    },
+    "native_intl_to_domestic_ratio": 3.96,
+    "augmented_intl_to_domestic_ratio": 4.6
+  },
+  "p5_ghost": {
+    "intl_ghost_clusters": 30,
+    "intl_total_jobs": 5477,
+    "intl_ghost_pct": 0.55,
+    "domestic_ghost_clusters": 5,
+    "domestic_total_jobs": 2771,
+    "domestic_ghost_pct": 0.18,
+    "intl_to_domestic_ratio": 3.1,
+    "top_ghost_listings": [
+      {
+        "company": "Deloitte",
+        "title": "Full Stack Engineer",
+        "variant_count": 19,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "linkedin"
+        ]
+      },
+      {
+        "company": "Meta",
+        "title": "Product Manager",
+        "variant_count": 17,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "linkedin"
+        ]
+      },
+      {
+        "company": "Varsity Tutors, a Nerdy Company",
+        "title": "Probability Tutor",
+        "variant_count": 17,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "linkedin"
+        ]
+      },
+      {
+        "company": "OpenAI",
+        "title": "AI Deployment Engineer",
+        "variant_count": 14,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "vendor_openai"
+        ]
+      },
+      {
+        "company": "某北京大型互联网公司",
+        "title": "产品经理- AI /Digital/APP/小程序/SaaS系统（企业业务流程梳理）",
+        "variant_count": 10,
+        "markets": [
+          "domestic"
+        ],
+        "platforms": [
+          "liepin"
+        ]
+      },
+      {
+        "company": "OpenAI",
+        "title": "Forward Deployed Engineer",
+        "variant_count": 10,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "vendor_openai"
+        ]
+      },
+      {
+        "company": "Microsoft",
+        "title": "Research Intern",
+        "variant_count": 10,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "community_github_hiring"
+        ]
+      },
+      {
+        "company": "OpenAI",
+        "title": "Forward Deployed Software Engineer",
+        "variant_count": 9,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "vendor_openai"
+        ]
+      },
+      {
+        "company": "Amazon.com",
+        "title": "Software Development Engineer",
+        "variant_count": 8,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "indeed"
+        ]
+      },
+      {
+        "company": "ReminderMedia",
+        "title": "Digital Marketing Specialist",
+        "variant_count": 8,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "indeed",
+          "linkedin"
+        ]
+      }
+    ]
+  }
+}
