@@ -6,6 +6,8 @@ AI 职业市场全景分析平台。采集国内外招聘平台 JD，用 LLM 解
 ## Quick Start
 ```bash
 cp .env.example .env          # 填入 AH_OPENROUTER_API_KEY
+# Option A: cloud DB (生产口径) — 在 .env 设 AH_DATABASE_URL_OVERRIDE=postgresql://...
+# Option B: 本地 docker dev
 docker compose up -d           # PostgreSQL 16 (pgvector) + Redis 7
 cd backend && uv venv --python 3.11 .venv && uv pip install -e ".[dev]"
 .venv/bin/alembic upgrade head
@@ -15,7 +17,8 @@ cd backend && uv venv --python 3.11 .venv && uv pip install -e ".[dev]"
 ## Tech Stack
 - **Backend**: Python 3.11, FastAPI, SQLAlchemy 2.0 (async + asyncpg), Alembic, Celery
 - **LLM**: OpenRouter `deepseek/deepseek-v3.2-exp`（默认）via `openai` SDK 兼容协议。详细决策见 memory `project_architecture.md`
-- **DB**: PostgreSQL 16 + pgvector, Redis 7
+- **DB**: Supabase Postgres 17（生产）/ PostgreSQL 16 docker-compose（本地 dev）— 配置项 `AH_DATABASE_URL_OVERRIDE` 切换
+- **CI/CD**: GitHub Actions（`.github/workflows/weekly-refresh.yml` 周日 02:00 UTC export+deploy；`collect-data.yml` 手动触发数据采集）
 - **Lint/Test**: ruff, pytest + pytest-asyncio
 
 ## Project Structure
@@ -118,15 +121,22 @@ cd ../frontend && npm run build && npx wrangler pages deploy out --project-name 
 ## Current Status
 
 **数据规模（2026-04-30）**：
-- **Jobs**: 8634 总 / 8238 parsed / 5673 LLM-labeled with role_type
-  - by source: `platform` 3083（Boss / Liepin / Lagou / LinkedIn / Indeed）· `vendor_official` 2065（OpenAI 651 / Anthropic 451 / xAI 230 / Cohere 115 / DeepMind 82 / 国内 4 家创业公司 533）· `community_open` 3486（HN Who is Hiring 1365 + GitHub hiring 2121）
-  - by market: 国内 2762 / 海外 5476
+- **Jobs**: 9,287 总 / 8,238 parsed / 8,550 labeled (role_type)
+  - by source: `platform` 3083（Boss / Liepin / Lagou / LinkedIn / Indeed）· `vendor_official` 3114（OpenAI 651 / Anthropic 451 / xAI 230 / Cohere 115 / DeepMind 82 / 国内 4 家创业 533 / **腾讯 1049**）· `community_open` 3486（HN Who is Hiring 1365 + GitHub hiring 2121）
+  - by market: 国内 2,762 → ~3,800（含腾讯）/ 海外 5,476
   - median salary: 国内 27.5k / 海外 72.5k CNY/月（汇率换算后）
 - **SalaryReports**: 1392（全部 levels.fyi；international 1147 / domestic 245）
 - **ApplicantProfiles**: 718（全部 nowcoder）
-- **Skills**: 71 · **Industries**: 13 · **Platforms**: 17 · **Migrations**: 8
+- **Skills**: 71 · **Industries**: 13 · **Platforms**: 22 · **Migrations**: 8
 
-**已部署**：v0.9 叙事手册 + 修正薪资数据已上线 https://agent-hunt.pages.dev
+**已部署**：v0.10 上线 https://agent-hunt.pages.dev（Supabase 数据 + GitHub Actions 周更）
+
+### v0.10 进展（2026-04-30）
+- **云端化** —— 数据库迁 Supabase Postgres 17（ap-southeast-2），本地 docker-compose 仍是 dev 环境。`config.py` 加 `AH_DATABASE_URL_OVERRIDE` 字段一行切换
+- **GitHub Actions 周更** —— `weekly-refresh.yml` 每周日 02:00 UTC export+deploy（read-only，3min 跑完）；`collect-data.yml` 用户手动触发可选 hn / github / tencent / all
+- **腾讯 vendor collector** —— `careers.tencent.com` 公开 JSON API，1,049 条 AI 岗（domestic 1024 + intl 25），8 个关键词去重。`backfill_tencent_metadata.py` 解析 raw_content 自填 location/market/industry/experience（无 LLM 成本）
+- **完整 role_type backfill** —— 累计 rule-based 处理 2,873 条原 NULL：扩展 vendor 公司白名单（智谱/MiniMax/Moonshot/百川 + 腾讯 added later）+ AI vendor product regex（MaaS/GLM/大模型/推理）+ NON_AI_ENGINEERING 反向规则。labeled fraction 从 69% 提升到 92%。Manual SQL 修 7 条 corner case
+- **AI native 公司白名单** —— `is_ai_native_company()` + `AI_NATIVE_VENDOR_PLATFORMS` 跳过 ai_augmented 误判（智谱 「量化算法」 = model quantization 不是金融量化）
 
 ### v0.9 进展（2026-04-30）
 - **P0 叙事手册** —— 双轨入口首页 + 5 条论断页 + 通用 narrative-layout 组件 + business 视角的方法论 / 机制 / 反例三个 box
@@ -146,9 +156,9 @@ cd ../frontend && npm run build && npx wrangler pages deploy out --project-name 
 
 ### Phase 7+ 待办（详见 `docs/agent-hunt/next-tasks.md`）
 - **观察期** —— 等 aijobfit 业务方实际跑过 4 个验收 case（电气工程师 + 教育、教育 + PM、预期薪资达成概率、JD 总数同步）后看数据消费有没有新缺口
-- **OpenRouter 余额恢复后** —— 跑剩 1999 条 GitHub hiring LLM 解析（不影响 narrative 数据，主要拉高 labeled_jobs 比例）+ insights/report 切回 LLM 自动生成
-- **#12 后续** —— 国内 7 家大厂 LLM 厂商（字节 / 阿里 / 腾讯 / 百度 / 商汤 / 阶跃 / 零一）多用自建系统需 Playwright，ROI 低
-- **基础设施** —— skill_aliases 持续扩展、Chrome 扩展完善、Celery 定时采集
+- **OpenRouter 余额恢复后** —— `insights.json` / `report.json` 可切回 LLM 自动生成（v0.9 是 Claude 手写）。剩余非腾讯 NULL role_type 留给 LLM 后处理
+- **#12 国内剩 6 家大厂** —— 字节 / 阿里 / 百度 / 商汤 / 阶跃 / 零一万物。腾讯已完成（公开 JSON API），其余多为 SPA 反爬重，需 Playwright per-vendor。前置 = 业务有需求才做
+- **基础设施** —— skill_aliases 持续扩展、Chrome 扩展完善、跨 region DB 慢可考虑 Supabase region 迁 us-west（如果 cron 时间敏感）
 
 ### 已确认不可达数据源（不要再尝试）
 - **看准爆料板**（kanzhun.com）—— 平台已下线（`renderStatus: fail`），firm/wage 强制跳 Boss 登录
