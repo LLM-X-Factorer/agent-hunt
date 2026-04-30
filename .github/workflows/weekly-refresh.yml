@@ -52,8 +52,18 @@ jobs:
           uv pip install -e ".[dev]"
 
       # ---------------------------------------------------------------
-      # Regenerate every dependent JSON. All exports are read-only on
-      # the DB (in-memory aggregation) so they're fast even across
+      # Catch-up backfills before exports. These are rule-based,
+      # idempotent UPDATEs (no new rows, no LLM calls) so they're safe
+      # to run weekly even though most of the workflow is read-only.
+      # ---------------------------------------------------------------
+      - name: Backfill work_mode from location
+        working-directory: backend
+        run: .venv/bin/python scripts/backfill_work_mode_from_location.py --apply
+        timeout-minutes: 10
+
+      # ---------------------------------------------------------------
+      # Regenerate every dependent JSON. Exports are read-only on the
+      # DB (in-memory aggregation) so they're fast even across
       # ap-southeast-2 latency.
       # ---------------------------------------------------------------
       - name: Refresh API snapshots
