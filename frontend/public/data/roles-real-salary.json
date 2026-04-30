@@ -254,11 +254,11 @@
           "count": 23
         },
         {
-          "level": "Director",
+          "level": "Product Manager 2",
           "count": 14
         },
         {
-          "level": "Product Manager 2",
+          "level": "Director",
           "count": 14
         },
         {
@@ -266,11 +266,11 @@
           "count": 11
         },
         {
-          "level": "Associate Product Manager 1",
+          "level": "Associate Product Manager 2",
           "count": 10
         },
         {
-          "level": "Associate Product Manager 2",
+          "level": "Associate Product Manager 1",
           "count": 10
         },
         {
@@ -754,15 +754,15 @@
           "count": 8
         },
         {
+          "level": "T9",
+          "count": 7
+        },
+        {
           "level": "T5",
           "count": 7
         },
         {
           "level": "T6",
-          "count": 7
-        },
-        {
-          "level": "T9",
           "count": 7
         }
       ]
@@ -800,11 +800,11 @@
           "count": 10
         },
         {
-          "level": "IC5",
+          "level": "IC3",
           "count": 9
         },
         {
-          "level": "IC3",
+          "level": "IC5",
           "count": 9
         }
       ]
@@ -964,11 +964,11 @@
           "count": 9
         },
         {
-          "level": "L6",
+          "level": "L3",
           "count": 8
         },
         {
-          "level": "L3",
+          "level": "L6",
           "count": 8
         },
         {
@@ -1078,6 +1078,14 @@
           "count": 5
         },
         {
+          "level": "T11",
+          "count": 2
+        },
+        {
+          "level": "T8",
+          "count": 2
+        },
+        {
           "level": "T12",
           "count": 2
         },
@@ -1086,15 +1094,7 @@
           "count": 2
         },
         {
-          "level": "T8",
-          "count": 2
-        },
-        {
           "level": "T6",
-          "count": 2
-        },
-        {
-          "level": "T11",
           "count": 2
         },
         {
@@ -1192,7 +1192,7 @@
           "count": 4
         },
         {
-          "level": "15",
+          "level": "18",
           "count": 2
         },
         {
@@ -1200,7 +1200,7 @@
           "count": 2
         },
         {
-          "level": "18",
+          "level": "15",
           "count": 2
         },
         {
@@ -1340,11 +1340,11 @@
           "count": 2
         },
         {
-          "level": "T10",
+          "level": "T8",
           "count": 1
         },
         {
-          "level": "T8",
+          "level": "T10",
           "count": 1
         }
       ]

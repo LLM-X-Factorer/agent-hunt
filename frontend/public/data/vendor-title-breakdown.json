@@ -5,10 +5,10 @@
       "categories": {
         "core": 1048,
         "solutions": 1,
-        "customer": 0,
-        "applied": 0,
         "deploy": 0,
-        "fde": 0
+        "fde": 0,
+        "customer": 0,
+        "applied": 0
       },
       "client_facing_total": 1,
       "client_facing_pct": 0.1,
@@ -31,15 +31,6 @@
       "client_facing_total": 110,
       "client_facing_pct": 16.9,
       "samples": {
-        "customer": [
-          "Customer Success Manager, Ads Solutions",
-          "Demo Experience Engineer, Technical Success"
-        ],
-        "applied": [
-          "Research Engineer, Applied AI Engineering",
-          "Research Engineer, Retrieval & Search, Applied Engineering",
-          "Applied AI Engineer, Codex Core Agent"
-        ],
         "solutions": [
           "Solutions Engineer",
           "Solutions Engineer- Startups",
@@ -63,6 +54,15 @@
           "Platform Engineering Manager, Forward Deployed Engineering (FDE)",
           "Sourcer, Forward Deployed Engineering",
           "Manager, Forward Deployed Engineering"
+        ],
+        "customer": [
+          "Customer Success Manager, Ads Solutions",
+          "Demo Experience Engineer, Technical Success"
+        ],
+        "applied": [
+          "Research Engineer, Applied AI Engineering",
+          "Research Engineer, Retrieval & Search, Applied Engineering",
+          "Applied AI Engineer, Codex Core Agent"
         ]
       }
     },
@@ -79,22 +79,6 @@
       "client_facing_total": 61,
       "client_facing_pct": 13.5,
       "samples": {
-        "customer": [
-          "Customer Success Manager",
-          "Customer Success Manager, Beneficial Deployments, EMEA",
-          "Customer Success Manager, Digital Native Business",
-          "Customer Success Manager, Higher Education",
-          "Customer Success Manager, Industries",
-          "Customer Success Manager, Scaled"
-        ],
-        "applied": [
-          "Global Applied AI Architecture Lead, Beneficial Deployments",
-          "Applied AI Architect, Partnerships",
-          "Head of International Applied AI Architecture, Partnerships",
-          "Applied AI Architect",
-          "Applied AI Engineer, Enterprise Tech",
-          "Applied AI Architect, Enterprise Tech"
-        ],
         "solutions": [
           "Partner Solutions Architect, Applied AI",
           "Solutions Architect, National Security"
@@ -111,6 +95,22 @@
           "Forward Deployed Engineer, Applied AI",
           "Manager, Forward Deployed Engineering",
           "Manager of Forward Deployed Engineering"
+        ],
+        "customer": [
+          "Customer Success Manager",
+          "Customer Success Manager, Beneficial Deployments, EMEA",
+          "Customer Success Manager, Digital Native Business",
+          "Customer Success Manager, Higher Education",
+          "Customer Success Manager, Industries",
+          "Customer Success Manager, Scaled"
+        ],
+        "applied": [
+          "Global Applied AI Architecture Lead, Beneficial Deployments",
+          "Applied AI Architect, Partnerships",
+          "Head of International Applied AI Architecture, Partnerships",
+          "Applied AI Architect",
+          "Applied AI Engineer, Enterprise Tech",
+          "Applied AI Architect, Enterprise Tech"
         ]
       }
     },
@@ -118,11 +118,11 @@
       "total": 230,
       "categories": {
         "core": 230,
-        "customer": 0,
-        "applied": 0,
         "solutions": 0,
         "deploy": 0,
-        "fde": 0
+        "fde": 0,
+        "customer": 0,
+        "applied": 0
       },
       "client_facing_total": 0,
       "client_facing_pct": 0.0,
@@ -133,10 +133,10 @@
       "categories": {
         "core": 207,
         "fde": 1,
-        "customer": 0,
-        "applied": 0,
         "solutions": 0,
-        "deploy": 0
+        "deploy": 0,
+        "customer": 0,
+        "applied": 0
       },
       "client_facing_total": 1,
       "client_facing_pct": 0.5,
@@ -151,10 +151,10 @@
       "categories": {
         "core": 147,
         "solutions": 4,
-        "customer": 0,
-        "applied": 0,
         "deploy": 0,
-        "fde": 0
+        "fde": 0,
+        "customer": 0,
+        "applied": 0
       },
       "client_facing_total": 4,
       "client_facing_pct": 2.6,
@@ -171,11 +171,11 @@
       "total": 126,
       "categories": {
         "core": 126,
-        "customer": 0,
-        "applied": 0,
         "solutions": 0,
         "deploy": 0,
-        "fde": 0
+        "fde": 0,
+        "customer": 0,
+        "applied": 0
       },
       "client_facing_total": 0,
       "client_facing_pct": 0.0,
@@ -194,14 +194,6 @@
       "client_facing_total": 16,
       "client_facing_pct": 14.3,
       "samples": {
-        "customer": [
-          "Customer Success Manager"
-        ],
-        "applied": [
-          "Applied AI Engineer - Agentic Workflows",
-          "Applied AI Engineer – Agentic Workflows",
-          "Applied AI Engineer – Agentic Workflows (Korea)"
-        ],
         "solutions": [
           "Solutions Architect",
           "Solutions Architect - Public Sector"
@@ -214,6 +206,14 @@
           "Forward Deployed Engineer, Infrastructure Specialist",
           "Forward Deployed Engineer, Prompt Specialist",
           "Forward Deployed Engineer, Sovereign AI"
+        ],
+        "customer": [
+          "Customer Success Manager"
+        ],
+        "applied": [
+          "Applied AI Engineer - Agentic Workflows",
+          "Applied AI Engineer – Agentic Workflows",
+          "Applied AI Engineer – Agentic Workflows (Korea)"
         ]
       }
     },
@@ -222,10 +222,10 @@
       "categories": {
         "core": 79,
         "applied": 3,
-        "customer": 0,
         "solutions": 0,
         "deploy": 0,
-        "fde": 0
+        "fde": 0,
+        "customer": 0
       },
       "client_facing_total": 3,
       "client_facing_pct": 3.7,
@@ -241,11 +241,11 @@
       "total": 48,
       "categories": {
         "core": 48,
-        "customer": 0,
-        "applied": 0,
         "solutions": 0,
         "deploy": 0,
-        "fde": 0
+        "fde": 0,
+        "customer": 0,
+        "applied": 0
       },
       "client_facing_total": 0,
       "client_facing_pct": 0.0,
