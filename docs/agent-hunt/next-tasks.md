@@ -1,6 +1,6 @@
 # Agent Hunt — 跨会话任务清单
 
-> 最近更新：2026-04-30（v0.10 Supabase + GitHub Actions 已上线）
+> 最近更新：2026-05-01（v0.11 /roles 三轨上线，issue #18 P0 完结）
 > 本文档供新会话 onboarding 使用。每个任务包含「启动 prompt」（可直接复制粘贴给 Claude）+ 上下文 + ROI 评估。
 
 ## 全局上下文（每个新会话都需要的）
@@ -72,9 +72,37 @@ agent-hunt 这边等业务方实际跑过 4 个验收 case 后再决定是否补
 
 ---
 
+### 🟢 P1 — issue #18 P1（业务延伸，前置 = 业务方实际用 P0 反馈）
+
+**ROI**：⭐⭐⭐ — P0 落地后再做才知道业务方真要不要
+
+P0（27 角色画像页）已交付，业务方还没正式用过。先观察一段，看有没有以下场景被催：
+
+1. **跨角色对比视图** `/roles/compare?a=algorithm&b=ai_engineer` — 业务方原话：「算法工程师 vs 模型开发工程师」并排技能/薪资差异。如果就业班讲解时确实需要左右对比页面、而不是开两个 tab 反复切，做这个
+2. **每角色 `business_narrative` 字段** — "如果你想从 X 传统职业转，难度 Y，缺的技能 Z"，与就业班 4 主线（教育/医疗/金融/制造）课程衔接。需要先把课程 outline 定下再写描述
+
+**启动 prompt**：
+> agent-hunt 项目，做 issue #18 P1 — 跨角色对比视图 `/roles/compare?a=X&b=Y` + 每角色 `business_narrative` 字段。前置：业务方已用过 P0 + 提出明确的对比 / 业务话术需求。手写 27 条 business_narrative 加进 `backend/data/role_descriptions.json`，复用 `export_role_profiles.py` merge 链。compare 页用 client component 双 select + 重用 RoleCard 组件 + 横向对比 bar chart。
+
+---
+
+### 🟢 P1 — issue #18 P2（数据质量，重活）
+
+**ROI**：⭐⭐ — 拆 `other` 簇要扩 taxonomy + 重跑全量 LLM
+
+当前 `other` 簇：domestic 1347 / 3786 = 36% 没分类、海外 1443 / 5501 = 26% 没分类。下一轮拆细需要：
+1. 先看 `other` 簇内 sample_titles 的高频模式（手动看 50 条找 2-3 个子簇）
+2. 扩 `DOMESTIC_ROLES` / `INTERNATIONAL_ROLES` 正则规则（在 `analyze_roles.py`）
+3. 重跑 `analyze_roles.py` + `export_role_profiles.py`
+4. 给新增子簇手写 description 加进 `role_descriptions.json`
+
+**前置**：业务方反馈「这个 other 簇里有我学员关心的角色」才做，否则维持「混合簇 P2 拆细」标注就够。
+
+---
+
 ### 🟢 P1 — OpenRouter 余额恢复后
 
-`insights.json` / `report.json` 切回 LLM 自动生成（v0.9 是 Claude 手写）。每次 ~5 美金，可选。
+`insights.json` / `report.json` 切回 LLM 自动生成（v0.9-0.11 是 Claude 手写）。每次 ~5 美金，可选。
 
 剩余 NULL role_type ~480 条经多轮 rule-based + manual SQL 处理后基本是真支撑岗（HR/财务/法务等），LLM 跑也大概率打 null。**不需要再 LLM 解析**。
 
@@ -114,6 +142,12 @@ agent-hunt 这边等业务方实际跑过 4 个验收 case 后再决定是否补
 ---
 
 ## 已完成（最近）
+
+### v0.11（2026-05-01）— issue #18 P0 完结
+- **`/roles` 三轨升级**（PR #19 squash merge + 1 fix commit）—— 27 角色画像页（domestic 15 + intl 12）。手写 `backend/data/role_descriptions.json`（每条 6 字段：role_description / core_skills / vs_neighbor / narrative / who_fits / who_doesnt），不用 LLM
+- **数据 pipeline**：`backend/scripts/export_role_profiles.py` 纯文件 merge → `frontend/public/data/role-profiles.json`（27 条聚合 + 描述），加进 `weekly-refresh.yml` 跟 `analyze_roles` 后面
+- **前端**：列表页 useState 切换市场（**未用** Base UI Tabs primitive，没 CSS transition 时会两组卡片同时渲染）；详情页 server component + `generateStaticParams` 预渲染 27 路径，Recharts 客户端子组件
+- **首页**：双轨 → 三轨入口卡（叙事手册 / 按岗位探索 / 数据看板）+ 顶 nav 加 `/roles`
 
 ### v0.10（2026-04-30 晚）
 - **云端化** —— PostgreSQL 迁 Supabase（ap-southeast-2，free tier 28MB/500MB）。`config.py` 加 `AH_DATABASE_URL_OVERRIDE` 字段切换本地/云。本地 docker-compose 仍是 dev 环境

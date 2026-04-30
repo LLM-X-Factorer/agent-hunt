@@ -35,21 +35,25 @@ backend/
     database.py      # Async engine + session factory
     main.py          # FastAPI app with lifespan (auto seeds on startup)
   alembic/versions/  # 001 → 008 (add_job_source 是最新)
+  data/
+    role_descriptions.json   # 27 条手写角色描述（v0.11 加，喂 export_role_profiles）
   scripts/
     collect_*.py     # 数据采集 (vendor_ats / hn_wih / nowcoder_posts / levels_fyi / github_hiring / moka / feishu)
-    export_*.py      # 衍生 JSON 生成 (api_snapshots / market_data / real_salary / trends / roles_by_industry / roles_by_city / augmented_by_profession / graduate_friendly / quality_signals / applicant_profiles / industry_salary / vendor_title_breakdown / narrative_stats / narrative_examples)
+    export_*.py      # 衍生 JSON 生成 (api_snapshots / market_data / real_salary / trends / roles_by_industry / roles_by_city / role_profiles / augmented_by_profession / graduate_friendly / quality_signals / applicant_profiles / industry_salary / vendor_title_breakdown / narrative_stats / narrative_examples)
     analyze_roles.py # 角色聚类 (DOMESTIC_ROLES + INTERNATIONAL_ROLES taxonomies)
     backfill_*.py    # asyncio.wait_for 批量 LLM 模式
     generate_insights.py / generate_report.py — LLM 生成中文洞察文本（成本敏感时改手写）
   tests/
 frontend/            # Next.js 16 + Tailwind + shadcn/ui + Recharts
   src/app/
-    page.tsx         # 双轨入口首页
+    page.tsx         # 三轨入口首页（叙事 / 岗位 / 看板）
     narrative/       # 叙事手册 6 页（目录页 + p1-p5）— 业务人员用
+    roles/           # 岗位画像列表 (v0.11) + [market]/[roleId] 详情 SSG 27 路径
     skills/ salary/ gaps/ industry/ insights/ report/  # 数据看板（旧）— 深度查询
   src/components/
     narrative-layout.tsx + narrative-bits.tsx  # 论断页通用结构
-  public/data/       # 预导出静态 JSON（30+ 个，aijobfit 远程 fetch）
+  src/lib/roles.ts   # RoleProfile 类型 + Market label / fmtSalaryK helper
+  public/data/       # 预导出静态 JSON（30+ 个，aijobfit 远程 fetch；含 role-profiles.json）
 data/                # Seed data (platforms, skills, aliases, search_keywords) + cookies
 docs/
   README.md          # 文档索引
@@ -89,6 +93,7 @@ cd backend
 .venv/bin/python scripts/export_api_snapshots.py        # 12 个 API-mirror JSON
 .venv/bin/python scripts/export_market_data.py          # industry/cooccurrence × {dom, intl}
 .venv/bin/python scripts/analyze_roles.py               # roles-{domestic,international}.json
+.venv/bin/python scripts/export_role_profiles.py        # role-profiles.json (聚合 + 手写描述, /roles 页消费)
 .venv/bin/python scripts/export_real_salary.py          # roles-real-salary.json (含 levels.fyi)
 .venv/bin/python scripts/export_roles_by_city.py        # 角色 × 城市 tier × 薪资分布
 .venv/bin/python scripts/export_narrative_stats.py      # 5 论断核心数字
@@ -113,10 +118,12 @@ cd ../frontend && npm run build && npx wrangler pages deploy out --project-name 
 
 ## Frontend
 - Next.js 16 + Tailwind + shadcn/ui + Recharts，静态导出（`output: "export"`）→ Cloudflare Pages
-- **双轨架构**（v0.9）：
+- **三轨架构**（v0.11，2026-05-01 升级自 v0.9 双轨）：
   - 📖 **叙事手册** `/narrative` —— 6 页（目录 + p1~p5），业务人员讲解 / 招生用。每页 = 论断 + 关键数字 + 图表 + 真实 JD 例子 + 业务话术 + 适用边界
-  - 📊 **数据看板** —— 8 页（总览 / 报告 / 技能图谱 / 薪资分析 / 市场差异 / 行业分析 / 岗位画像）。深度查询 / 数据验证用
-- 角色聚类数据：`roles-domestic.json`（14 角色）、`roles-international.json`（11 角色）、`roles-by-city.json`（每角色 × 城市 tier × p25/p50/p75）
+  - 🧭 **岗位画像** `/roles` —— 27 角色簇（domestic 15 + intl 12）按 market tab 切。详情页 SSG 预渲染 27 路径，含 hero stats / narrative / Required vs Preferred 技能 bar / 适合谁 vs 不适合 / vs_neighbor 邻居对比 / 学历 / 工作模式 / 行业 / 薪资分位 / sample titles
+  - 📊 **数据看板** —— 7 页（报告 / 技能图谱 / 薪资分析 / 市场差异 / 行业分析 / 岗位画像 insights / 总览）。深度查询 / 数据验证用
+- 角色聚类数据：`roles-domestic.json`（15 角色）、`roles-international.json`（12 角色）、`role-profiles.json`（合并 + 手写描述，27 条）、`roles-by-city.json`（每角色 × 城市 tier × p25/p50/p75）
+- 手写角色描述源：`backend/data/role_descriptions.json`（27 条 × 6 字段：role_description / core_skills / vs_neighbor / narrative / who_fits / who_doesnt）。每条手写不用 LLM，`other` 簇标注「混合簇 · 下一轮 P2 拆细」
 
 ## Current Status
 
@@ -129,7 +136,13 @@ cd ../frontend && npm run build && npx wrangler pages deploy out --project-name 
 - **ApplicantProfiles**: 718（全部 nowcoder）
 - **Skills**: 71 · **Industries**: 13 · **Platforms**: 22 · **Migrations**: 8
 
-**已部署**：v0.10 上线 https://agent-hunt.pages.dev（Supabase 数据 + GitHub Actions 周更）
+**已部署**：v0.11 上线 https://agent-hunt.pages.dev（Supabase 数据 + GitHub Actions 周更 + 27 角色画像页）
+
+### v0.11 进展（2026-05-01）
+- **岗位画像 `/roles`（issue #18 P0 完结）** —— 三轨架构升级。手写 27 条角色描述（`backend/data/role_descriptions.json`：role_description / core_skills / vs_neighbor / narrative / who_fits / who_doesnt 六字段），不用 LLM。新建 `backend/scripts/export_role_profiles.py` 纯文件 merge → `frontend/public/data/role-profiles.json`，加进 `weekly-refresh.yml` export 链
+- **列表 + 详情双层** —— 列表页国内/海外按钮切换（`useState` + Tailwind，**未用** Base UI Tabs primitive，原因：Base UI 没 CSS transition 时不 unmount inactive panel，会两组卡片叠在一起）；详情页 server component + `generateStaticParams` 预渲染 27 路径，Recharts 客户端子组件渲 Required vs Preferred bar
+- **首页第三轨入口** —— 双轨入口卡升级到三轨：叙事手册 + 按岗位探索 + 数据看板。顶 nav 新增 `/roles`
+- **narrative 数字校对** —— 全部 27 条 narrative 中的数字 vs 实际 role aggregate 数据交叉校验，修了 6 处口径不一致（ai_engineer / product_manager 把全国中位当成岗位中位；sde / ml_scientist / ml_engineer 用了模糊 "65k+"；intl autonomous 取整精度）
 
 ### v0.10 进展（2026-04-30）
 - **云端化** —— 数据库迁 Supabase Postgres 17（ap-southeast-2），本地 docker-compose 仍是 dev 环境。`config.py` 加 `AH_DATABASE_URL_OVERRIDE` 字段一行切换
@@ -156,6 +169,8 @@ cd ../frontend && npm run build && npx wrangler pages deploy out --project-name 
 
 ### Phase 7+ 待办（详见 `docs/agent-hunt/next-tasks.md`）
 - **观察期** —— 等 aijobfit 业务方实际跑过 4 个验收 case（电气工程师 + 教育、教育 + PM、预期薪资达成概率、JD 总数同步）后看数据消费有没有新缺口
+- **issue #18 P1**（业务方场景延伸）—— 跨角色对比视图（`/roles/compare?a=algorithm&b=ai_engineer`）+ 每角色加 `business_narrative`（如何从传统职业转 / 难度 / 缺什么技能）与就业班课程衔接。前置 = 业务方实际用 P0 后再决定要不要补
+- **issue #18 P2**（数据质量）—— `other` 混合簇拆细：domestic 1347/3786 = 36%、intl 1443/5501 = 26% 没分类。下一轮 LLM 聚类时扩 `DOMESTIC_ROLES` / `INTERNATIONAL_ROLES` taxonomy
 - **OpenRouter 余额恢复后** —— `insights.json` / `report.json` 可切回 LLM 自动生成（v0.9 是 Claude 手写）。剩余非腾讯 NULL role_type 留给 LLM 后处理
 - **#12 国内剩 6 家大厂** —— 字节 / 阿里 / 百度 / 商汤 / 阶跃 / 零一万物。腾讯已完成（公开 JSON API），其余多为 SPA 反爬重，需 Playwright per-vendor。前置 = 业务有需求才做
 - **基础设施** —— skill_aliases 持续扩展、Chrome 扩展完善、跨 region DB 慢可考虑 Supabase region 迁 us-west（如果 cron 时间敏感）
