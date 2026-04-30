@@ -5,9 +5,9 @@
       "categories": {
         "core": 1048,
         "solutions": 1,
+        "customer": 0,
         "applied": 0,
         "deploy": 0,
-        "customer": 0,
         "fde": 0
       },
       "client_facing_total": 1,
@@ -31,6 +31,10 @@
       "client_facing_total": 110,
       "client_facing_pct": 16.9,
       "samples": {
+        "customer": [
+          "Customer Success Manager, Ads Solutions",
+          "Demo Experience Engineer, Technical Success"
+        ],
         "applied": [
           "Research Engineer, Applied AI Engineering",
           "Research Engineer, Retrieval & Search, Applied Engineering",
@@ -51,10 +55,6 @@
           "AI Deployment Manager",
           "AI Deployment Engineer",
           "Datacenter Networking Technician, AI Compute Deployment - Stargate"
-        ],
-        "customer": [
-          "Customer Success Manager, Ads Solutions",
-          "Demo Experience Engineer, Technical Success"
         ],
         "fde": [
           "Recruiter, Forward Deployed Engineering",
@@ -79,6 +79,14 @@
       "client_facing_total": 61,
       "client_facing_pct": 13.5,
       "samples": {
+        "customer": [
+          "Customer Success Manager",
+          "Customer Success Manager, Beneficial Deployments, EMEA",
+          "Customer Success Manager, Digital Native Business",
+          "Customer Success Manager, Higher Education",
+          "Customer Success Manager, Industries",
+          "Customer Success Manager, Scaled"
+        ],
         "applied": [
           "Global Applied AI Architecture Lead, Beneficial Deployments",
           "Applied AI Architect, Partnerships",
@@ -97,14 +105,6 @@
           "Software Engineer, Inference Deployment",
           "Technical Deployment Lead"
         ],
-        "customer": [
-          "Customer Success Manager",
-          "Customer Success Manager, Beneficial Deployments, EMEA",
-          "Customer Success Manager, Digital Native Business",
-          "Customer Success Manager, Higher Education",
-          "Customer Success Manager, Industries",
-          "Customer Success Manager, Scaled"
-        ],
         "fde": [
           "Forward Deployed Engineer",
           "Forward Deployed Engineer, Federal Civilian",
@@ -118,10 +118,10 @@
       "total": 230,
       "categories": {
         "core": 230,
+        "customer": 0,
         "applied": 0,
         "solutions": 0,
         "deploy": 0,
-        "customer": 0,
         "fde": 0
       },
       "client_facing_total": 0,
@@ -133,10 +133,10 @@
       "categories": {
         "core": 207,
         "fde": 1,
+        "customer": 0,
         "applied": 0,
         "solutions": 0,
-        "deploy": 0,
-        "customer": 0
+        "deploy": 0
       },
       "client_facing_total": 1,
       "client_facing_pct": 0.5,
@@ -151,9 +151,9 @@
       "categories": {
         "core": 147,
         "solutions": 4,
+        "customer": 0,
         "applied": 0,
         "deploy": 0,
-        "customer": 0,
         "fde": 0
       },
       "client_facing_total": 4,
@@ -171,10 +171,10 @@
       "total": 126,
       "categories": {
         "core": 126,
+        "customer": 0,
         "applied": 0,
         "solutions": 0,
         "deploy": 0,
-        "customer": 0,
         "fde": 0
       },
       "client_facing_total": 0,
@@ -194,6 +194,9 @@
       "client_facing_total": 16,
       "client_facing_pct": 14.3,
       "samples": {
+        "customer": [
+          "Customer Success Manager"
+        ],
         "applied": [
           "Applied AI Engineer - Agentic Workflows",
           "Applied AI Engineer – Agentic Workflows",
@@ -205,9 +208,6 @@
         ],
         "deploy": [
           "Enterprise Deployment Specialist"
-        ],
-        "customer": [
-          "Customer Success Manager"
         ],
         "fde": [
           "Forward Deployed Engineer, Agentic Platform",
@@ -222,9 +222,9 @@
       "categories": {
         "core": 79,
         "applied": 3,
+        "customer": 0,
         "solutions": 0,
         "deploy": 0,
-        "customer": 0,
         "fde": 0
       },
       "client_facing_total": 3,
@@ -241,10 +241,10 @@
       "total": 48,
       "categories": {
         "core": 48,
+        "customer": 0,
         "applied": 0,
         "solutions": 0,
         "deploy": 0,
-        "customer": 0,
         "fde": 0
       },
       "client_facing_total": 0,
