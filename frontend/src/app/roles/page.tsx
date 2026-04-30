@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { skillLabel } from "@/lib/labels";
 import {
   type Market,
@@ -21,6 +20,7 @@ export default function RolesPage() {
   const [profiles, setProfiles] = useState<RoleProfile[]>([]);
   const [skillNames, setSkillNames] = useState<SkillIdMap>({});
   const [loading, setLoading] = useState(true);
+  const [activeMarket, setActiveMarket] = useState<Market>("domestic");
 
   useEffect(() => {
     Promise.all([
@@ -41,6 +41,9 @@ export default function RolesPage() {
 
   if (loading) return <div className="text-center py-20 text-gray-400">加载中…</div>;
 
+  const visible = grouped[activeMarket];
+  const accent: "red" | "blue" = activeMarket === "domestic" ? "red" : "blue";
+
   return (
     <div className="space-y-6">
       <header className="space-y-2">
@@ -52,32 +55,52 @@ export default function RolesPage() {
         </p>
       </header>
 
-      <Tabs defaultValue="domestic">
-        <TabsList>
-          <TabsTrigger value="domestic">
-            国内 · {grouped.domestic.length} 角色
-          </TabsTrigger>
-          <TabsTrigger value="international">
-            海外 · {grouped.international.length} 角色
-          </TabsTrigger>
-        </TabsList>
+      <div className="inline-flex bg-gray-100 rounded-lg p-1 gap-1">
+        <MarketButton
+          active={activeMarket === "domestic"}
+          onClick={() => setActiveMarket("domestic")}
+          label={`国内 · ${grouped.domestic.length} 角色`}
+          activeColor="red"
+        />
+        <MarketButton
+          active={activeMarket === "international"}
+          onClick={() => setActiveMarket("international")}
+          label={`海外 · ${grouped.international.length} 角色`}
+          activeColor="blue"
+        />
+      </div>
 
-        <TabsContent value="domestic" className="mt-4">
-          <RoleGrid roles={grouped.domestic} skillNames={skillNames} accent="red" />
-        </TabsContent>
-        <TabsContent value="international" className="mt-4">
-          <RoleGrid
-            roles={grouped.international}
-            skillNames={skillNames}
-            accent="blue"
-          />
-        </TabsContent>
-      </Tabs>
+      <RoleGrid roles={visible} skillNames={skillNames} accent={accent} />
 
       <p className="text-xs text-gray-400 pt-2">
         薪资 = 月薪人民币口径（海外岗已用各币种汇率换算 ÷12 月化）。
       </p>
     </div>
+  );
+}
+
+function MarketButton({
+  active,
+  onClick,
+  label,
+  activeColor,
+}: {
+  active: boolean;
+  onClick: () => void;
+  label: string;
+  activeColor: "red" | "blue";
+}) {
+  const activeText = activeColor === "red" ? "text-red-700" : "text-blue-700";
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`px-4 py-1.5 text-sm rounded-md transition-colors ${
+        active ? `bg-white shadow-sm font-medium ${activeText}` : "text-gray-600 hover:text-gray-900"
+      }`}
+    >
+      {label}
+    </button>
   );
 }
 
