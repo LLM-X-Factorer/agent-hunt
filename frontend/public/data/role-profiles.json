@@ -1,0 +1,3348 @@
+[
+  {
+    "market": "domestic",
+    "job_count": 1347,
+    "sample_titles": [
+      "AI + 财经商业讲师",
+      "医药医疗行业大客户经理（AI产品）",
+      "智能无人车远程监控客服",
+      "精益生产经理",
+      "AI漫剧制作人",
+      "AI LLM Technical Support (English) - Volcengine MaaS",
+      "Automated Driving Test Driver",
+      "航空航天科研专家"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 41
+      },
+      {
+        "skill_id": "python",
+        "count": 10
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 9
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 7
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 6
+      },
+      {
+        "skill_id": "rag",
+        "count": 5
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 4
+      },
+      {
+        "skill_id": "java",
+        "count": 4
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 4
+      },
+      {
+        "skill_id": "fine_tuning",
+        "count": 4
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "sql",
+        "count": 2
+      },
+      {
+        "skill_id": "cpp",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 2580.0,
+      "max": 131250.0,
+      "median": 20000,
+      "avg": 24427,
+      "p25": 10500.0,
+      "p75": 30000.0,
+      "sample_size": 598
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 2.9,
+      "sample_size": 994
+    },
+    "education": {
+      "unspecified": 733,
+      "bachelor": 374,
+      "any": 189,
+      "master": 36,
+      "phd": 11,
+      "associate": 4
+    },
+    "work_mode": {
+      "onsite": 1235,
+      "unknown": 99,
+      "remote": 12,
+      "hybrid": 1
+    },
+    "top_companies": [
+      "腾讯",
+      "MiniMax",
+      "Moonshot AI",
+      "智谱AI",
+      "百川智能"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 648
+      },
+      {
+        "industry": "media",
+        "count": 97
+      },
+      {
+        "industry": "retail",
+        "count": 76
+      },
+      {
+        "industry": "manufacturing",
+        "count": 65
+      },
+      {
+        "industry": "consulting",
+        "count": 42
+      }
+    ],
+    "role_id": "other",
+    "role_name": "其他",
+    "role_description": "未匹配到任一明确规则的混合岗位——含跨界 AI（AI 财经讲师 / 漫剧制作）、传统岗带 AI 标签、垂直领域专家。",
+    "core_skills": [
+      "llm",
+      "python",
+      "agent_architecture"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": null,
+      "summary": "混合簇，建议下一轮 P2 拆细——top_industries / sample_titles 分散度高，没有清晰的 vs 对照。"
+    },
+    "narrative": "1347 条岗位的最大簇，但本质是「未匹配上其他规则」的剩余。sample title 跨度极大：从「AI 财经商业讲师」「医疗 AI 大客户经理」「智能无人车远程监控客服」到「AI 漫剧制作人」「Volcengine MaaS 技术支持」。top_companies 是腾讯 + 大模型公司，但行业分布从 internet 到 media、retail、manufacturing 都有。中位月薪 20k，对应这是各种长尾岗位的混合，参考价值在于看趋势——AI 标签正在向多种传统岗位渗透。建议 P2 阶段进一步拆出「AI 内容创作」「行业 AI 渗透」「AI 技术支持」等子簇。",
+    "who_fits": "目前看不出清晰画像；如果你的目标岗位在 sample_titles 里出现，可以进一步看具体 JD。",
+    "who_doesnt": "想找清晰画像 / 对标路径的人——建议先回到 ai_engineer / product_manager / operations 这种明确簇。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 734,
+    "sample_titles": [
+      "AI Agent平台研发工程师",
+      "AI Agent Engineer",
+      "AI Agent Application Engineer",
+      "跨境电商AI Agent 产品负责人",
+      "AI算法工程师（海外AI产品）",
+      "AI产品开发实习生（医疗大模型）",
+      "Perception LLM Engineer",
+      "AI 量化工程师"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 116
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 60
+      },
+      {
+        "skill_id": "python",
+        "count": 35
+      },
+      {
+        "skill_id": "rag",
+        "count": 23
+      },
+      {
+        "skill_id": "java",
+        "count": 19
+      },
+      {
+        "skill_id": "langchain",
+        "count": 14
+      },
+      {
+        "skill_id": "golang",
+        "count": 11
+      },
+      {
+        "skill_id": "multimodal_ai",
+        "count": 11
+      },
+      {
+        "skill_id": "autogen",
+        "count": 9
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 9
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "semantic_kernel",
+        "count": 2
+      },
+      {
+        "skill_id": "reinforcement_learning",
+        "count": 1
+      },
+      {
+        "skill_id": "huggingface",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 3850.0,
+      "max": 175000.0,
+      "median": 32500,
+      "avg": 38436,
+      "p25": 20000.0,
+      "p75": 50000.0,
+      "sample_size": 417
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 2.8,
+      "sample_size": 626
+    },
+    "education": {
+      "bachelor": 298,
+      "unspecified": 298,
+      "master": 78,
+      "any": 56,
+      "phd": 4
+    },
+    "work_mode": {
+      "onsite": 714,
+      "unknown": 18,
+      "remote": 2
+    },
+    "top_companies": [
+      "腾讯",
+      "MiniMax",
+      "智谱AI",
+      "Moonshot AI",
+      "百川智能"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 407
+      },
+      {
+        "industry": "manufacturing",
+        "count": 59
+      },
+      {
+        "industry": "automotive",
+        "count": 31
+      },
+      {
+        "industry": "consulting",
+        "count": 30
+      },
+      {
+        "industry": "finance",
+        "count": 27
+      }
+    ],
+    "role_id": "ai_engineer",
+    "role_name": "AI/LLM 工程师",
+    "role_description": "在 LLM 上面盖应用——用 Agent 框架、RAG、Prompt 工程把现成大模型接成产品，不是训模型也不是调研究。",
+    "core_skills": [
+      "llm",
+      "agent_architecture",
+      "python",
+      "rag",
+      "langchain"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "algorithm",
+      "summary": "用模型 vs 造模型——这岗写 model.invoke(prompt)，algorithm 写 loss.backward()。"
+    },
+    "narrative": "734 条岗位里，标题最高频的是「AI Agent 工程师 / Agent 平台研发」，腾讯、智谱、MiniMax、Moonshot、百川五家 top 公司挂的几乎全是 Agent + RAG 应用层的位置。这条线不要求你会训模型，但必须熟 LangChain / AutoGen 至少一套框架，能从 0 拉起一个能上线跑的 Agent 工作流；面试代码题往往是「设计一个多 Agent 协作流」而不是手撕 Transformer。中位月薪 32.5k、3 年经验中位入门，比国内整体 AI 岗位中位（27.5k）高一档，是工程实战门槛兑现溢价的位置。",
+    "who_fits": "之前做后端 / 全栈 / NLP 应用、半年内做过能写到简历的 Agent 或 RAG 项目、对 LLM 调用栈有手感的人。",
+    "who_doesnt": "完全没碰过 LLM 调用、只会传统 CRUD 后端的人——这条线现在岗多但卡简历的「AI 项目经验」门槛清晰，没产出物投了基本沉。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 439,
+    "sample_titles": [
+      "AI策略产品经理（LLM应用方向）",
+      "AIGC产品运营",
+      "AI Tutor产品经理",
+      "AI产品经理-AI教育工具",
+      "Product Manager - Intelligent Driving",
+      "AI教育产品总监",
+      "智能座舱产品经理",
+      "AI 产品经理（LLM 应用与 AI 工程方向）"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 17
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 9
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 2
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 2
+      },
+      {
+        "skill_id": "computer_vision",
+        "count": 2
+      },
+      {
+        "skill_id": "fine_tuning",
+        "count": 1
+      },
+      {
+        "skill_id": "function_calling",
+        "count": 1
+      },
+      {
+        "skill_id": "multi_agent",
+        "count": 1
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 1
+      },
+      {
+        "skill_id": "multimodal_ai",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "anthropic_api",
+        "count": 1
+      },
+      {
+        "skill_id": "gemini_api",
+        "count": 1
+      },
+      {
+        "skill_id": "rag",
+        "count": 1
+      },
+      {
+        "skill_id": "knowledge_graph",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 5500.0,
+      "max": 165000.0,
+      "median": 35000,
+      "avg": 39371,
+      "p25": 22500.0,
+      "p75": 45000.0,
+      "sample_size": 289
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 3.3,
+      "sample_size": 392
+    },
+    "education": {
+      "bachelor": 244,
+      "unspecified": 139,
+      "any": 40,
+      "master": 16
+    },
+    "work_mode": {
+      "onsite": 422,
+      "unknown": 17
+    },
+    "top_companies": [
+      "腾讯",
+      "字节跳动",
+      "某北京大型互联网公司",
+      "智谱AI",
+      "Moonshot AI"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 242
+      },
+      {
+        "industry": "manufacturing",
+        "count": 38
+      },
+      {
+        "industry": "finance",
+        "count": 32
+      },
+      {
+        "industry": "automotive",
+        "count": 18
+      },
+      {
+        "industry": "healthcare",
+        "count": 14
+      }
+    ],
+    "role_id": "product_manager",
+    "role_name": "AI 产品经理",
+    "role_description": "定 AI 产品方向、设计 Agent 流程、写 PRD，要求懂 LLM 能力边界——不要求会写代码但必须能拆 Prompt / 设评测指标。",
+    "core_skills": [
+      "llm",
+      "agent_architecture",
+      "prompt_engineering",
+      "data_analysis"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "operations",
+      "summary": "PM 决定「做什么」，运营负责「做出来跑通跑快」——PM 看商业 ROI，运营看 DAU / 调优指标。"
+    },
+    "narrative": "439 条岗位里，「AI 策略产品经理 / AI 产品经理 / 智能座舱 PM」是高频标题，top 公司是腾讯、字节、智谱、Moonshot。和传统互联网 PM 最大的差别是：必须能用 LLM 思维设计产品流程——什么任务该用大模型、什么任务该用规则、Prompt 怎么写、Agent 怎么编排、评测指标怎么设。中位月薪 35k、3 年经验中位，看简历卡的是「AI 项目从 0 到 1 的实操经验」，不是 PM 通用 SOP；这个中位甚至比 ai_engineer 的 32.5k 还高，反映 AI PM 在大模型公司里被定位为关键岗位。",
+    "who_fits": "互联网 PM 转型、有过 LLM 产品落地经验、能讲清楚一个 Agent 产品的功能边界 + 评测方式 + ROI 模型的人。",
+    "who_doesnt": "只懂传统 SaaS / 增长 PM 方法论、对 LLM 能力上限没手感的人——只会喊「智能化」但说不出技术约束的 PM 这两年很难拿到 offer。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 328,
+    "sample_titles": [
+      "Algorithm Intern (Industrial AI Direction)",
+      "Discovery Lab Analytical Automation Scientist",
+      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "自动驾驶算法工程师",
+      "LLM算法实习生（医疗大模型方向）",
+      "算法工程师",
+      "AI Algorithm Engineer (LLM Direction)",
+      "高级图像算法工程师"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 28
+      },
+      {
+        "skill_id": "python",
+        "count": 7
+      },
+      {
+        "skill_id": "nlp",
+        "count": 7
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 6
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 6
+      },
+      {
+        "skill_id": "fine_tuning",
+        "count": 5
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 5
+      },
+      {
+        "skill_id": "rag",
+        "count": 5
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 4
+      },
+      {
+        "skill_id": "deep_learning",
+        "count": 4
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 1500.0,
+      "max": 126667.0,
+      "median": 52500,
+      "avg": 52161,
+      "p25": 37500.0,
+      "p75": 65000.0,
+      "sample_size": 105
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 3.0,
+      "sample_size": 266
+    },
+    "education": {
+      "unspecified": 206,
+      "master": 61,
+      "bachelor": 44,
+      "phd": 9,
+      "any": 8
+    },
+    "work_mode": {
+      "onsite": 304,
+      "unknown": 23,
+      "remote": 1
+    },
+    "top_companies": [
+      "腾讯",
+      "智谱AI",
+      "MiniMax",
+      "百川智能",
+      "Moonshot AI"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 195
+      },
+      {
+        "industry": "finance",
+        "count": 38
+      },
+      {
+        "industry": "healthcare",
+        "count": 14
+      },
+      {
+        "industry": "manufacturing",
+        "count": 11
+      },
+      {
+        "industry": "automotive",
+        "count": 9
+      }
+    ],
+    "role_id": "algorithm",
+    "role_name": "算法工程师/研究员",
+    "role_description": "传统 ML/DL 训练岗位，做 pretrain / SFT / 视觉算法 / 自动驾驶算法，看重 PyTorch / TensorFlow 全链路工程。",
+    "core_skills": [
+      "pytorch",
+      "tensorflow",
+      "python",
+      "deep_learning",
+      "nlp"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ai_engineer",
+      "summary": "动模型权重 vs 拼模型应用——algorithm 改 loss / 调超参，ai_engineer 拼 prompt / 接 API。"
+    },
+    "narrative": "328 条岗位的 sample title 里，「自动驾驶算法 / 图像算法 / 算法工程师」占主流，公司多是腾讯、智谱、MiniMax、Moonshot、百川这种自有训练资源的大厂或大模型创业公司。技能信号清晰：PyTorch / TensorFlow 必须会一套，NLP / fine-tuning / RL 知识深度比 ai_engineer 这条线高一档。这是国内 AI 岗位里最像「研究 + 工程混合」的一条，初级岗依然要求「会训不只会调」，简历里没有论文 / 比赛 / 训练实战很难拿面试。",
+    "who_fits": "ML / DL 科班出身、有 paper 或竞赛 / 公开模型实战的人；硕博背景在这条线明显有优势。",
+    "who_doesnt": "只用过现成 API 没自己训过模型的人；这条线和 ai_engineer 看似都叫「AI 工程师」，但代码能力评估方式完全不同。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 197,
+    "sample_titles": [
+      "AI自动化运营",
+      "AI训练师 (智能客服方向)",
+      "智能客服训练师",
+      "MarTech营销技术专家",
+      "AI数据运营专家（ToB Agent方向）",
+      "智能客服运营",
+      "豆包AI大模型平台运营-火山方舟MaaS",
+      "AIGC运营专家"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 5
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 3
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 2
+      },
+      {
+        "skill_id": "nlp",
+        "count": 1
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "javascript",
+        "count": 1
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 1
+      },
+      {
+        "skill_id": "langchain",
+        "count": 1
+      },
+      {
+        "skill_id": "sql",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "autogen",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 3630.0,
+      "max": 125000.0,
+      "median": 22000,
+      "avg": 25906,
+      "p25": 12500.0,
+      "p75": 32500.0,
+      "sample_size": 111
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 2.9,
+      "sample_size": 150
+    },
+    "education": {
+      "bachelor": 88,
+      "unspecified": 85,
+      "any": 23,
+      "master": 1
+    },
+    "work_mode": {
+      "onsite": 182,
+      "unknown": 14,
+      "remote": 1
+    },
+    "top_companies": [
+      "腾讯",
+      "MiniMax",
+      "智谱AI",
+      "Moonshot AI",
+      "某知名公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 89
+      },
+      {
+        "industry": "media",
+        "count": 14
+      },
+      {
+        "industry": "retail",
+        "count": 13
+      },
+      {
+        "industry": "finance",
+        "count": 8
+      },
+      {
+        "industry": "manufacturing",
+        "count": 8
+      }
+    ],
+    "role_id": "operations",
+    "role_name": "AI 运营/训练师",
+    "role_description": "AI 产品上线后的增长 + 数据 + 标注 + Prompt 调优——MaaS 平台运营 / AI 训练师 / 智能客服训练都在这条线。",
+    "core_skills": [
+      "llm",
+      "data_analysis",
+      "prompt_engineering",
+      "agent_architecture"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "product_manager",
+      "summary": "拿到的是已上线产品 + 数据 vs 决定产品方向——这条线不参与 PRD，但 Prompt 与评测调优是核心。"
+    },
+    "narrative": "197 条岗位里，「AI 训练师 / AIGC 运营 / MaaS 平台运营 / 智能客服运营」是主流，腾讯、MiniMax、智谱、Moonshot 都在大量招。和传统互联网运营的核心差别：必须能调 Prompt、跑评测、看模型输出指标，不只是写文案投放。这条线对学历宽松、对工具熟练度要求高，是 AI 行业里入门门槛最低的非技术岗之一，但天花板也相对较低（中位 ~22.5k），适合做转型跳板而不是终点。",
+    "who_fits": "做过内容 / 数据运营、能熟练调 Prompt、对模型输出有「质量直觉」、愿意跑数据看指标的人。",
+    "who_doesnt": "只想写文案不想看数据、对工具上手有抵触的人——这条线天花板取决于你能不能把运营做出工程化感。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 152,
+    "sample_titles": [
+      "医疗AI产品销售",
+      "智能教育装备销售经理",
+      "企业AI BD岗",
+      "医疗AI大客户销售",
+      "医疗AI省区销售经理",
+      "Global Sales Director (MedTech / AI Healthcare)",
+      "BD总监（德系）",
+      "销售经理/主管（智慧医疗设备-base湖南）"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "tongyi_qianwen",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 5500.0,
+      "max": 157500.0,
+      "median": 22500,
+      "avg": 34786,
+      "p25": 15000.0,
+      "p75": 45000.0,
+      "sample_size": 116
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 3.7,
+      "sample_size": 140
+    },
+    "education": {
+      "bachelor": 71,
+      "any": 47,
+      "unspecified": 33,
+      "master": 1
+    },
+    "work_mode": {
+      "onsite": 141,
+      "unknown": 10,
+      "remote": 1
+    },
+    "top_companies": [
+      "腾讯",
+      "智谱AI",
+      "51WORLD",
+      "某杭州互联网上市公司",
+      "某合肥互联网上市公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 92
+      },
+      {
+        "industry": "healthcare",
+        "count": 20
+      },
+      {
+        "industry": "manufacturing",
+        "count": 7
+      },
+      {
+        "industry": "finance",
+        "count": 5
+      },
+      {
+        "industry": "education",
+        "count": 5
+      }
+    ],
+    "role_id": "sales_bd",
+    "role_name": "AI 销售/商务",
+    "role_description": "AI 行业销售 / BD，重点是医疗 AI / 教育 AI / 企业 AI 这种 ToB 大单——对应国内大模型公司在垂直行业的渠道下沉。",
+    "core_skills": [
+      "llm"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ai_transformation",
+      "summary": "拿单 vs 交付——sales_bd 签合同走渠道，ai_transformation 进客户做项目。"
+    },
+    "narrative": "152 条岗位里，「医疗 AI 销售 / 智能教育装备销售 / 企业 AI BD」占主流，top 公司腾讯、智谱、51WORLD 都在招。这条线的本质是「行业销售 + AI 概念加成」——客户买的是 AI 解决方案，但拿单核心仍是行业资源 + 大客户关系，所以 sample title 里大量出现「省区销售 / 大客户经理」。中位 22.5k 但 p75 到 45k，提成结构差异大，做得好和做得差能差一倍。",
+    "who_fits": "在医疗 / 教育 / 制造行业有过 ToB 销售经验、能讲清楚 AI 产品如何嵌入客户流程的人。",
+    "who_doesnt": "技术销售出身但没有具体行业资源的人——AI 概念是溢价加分项，不是核心拿单逻辑。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 144,
+    "sample_titles": [
+      "CEO-资方领投AI+Science",
+      "AI 智慧医疗技术负责人",
+      "Risk Control Director",
+      "AI架构师/技术负责人（LLM & Agent方向）",
+      "技术架构总监（AI数据/云数据/LLM）",
+      "AI技术负责人",
+      "大模型战略分析/投资专家",
+      "AI 产品技术负责人（电商直播方向）"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 6000.0,
+      "max": 175000.0,
+      "median": 48750,
+      "avg": 61144,
+      "p25": 34000.0,
+      "p75": 81250.0,
+      "sample_size": 104
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 5.3,
+      "sample_size": 136
+    },
+    "education": {
+      "bachelor": 75,
+      "unspecified": 29,
+      "any": 22,
+      "master": 12,
+      "phd": 6
+    },
+    "work_mode": {
+      "onsite": 143,
+      "unknown": 1
+    },
+    "top_companies": [
+      "腾讯",
+      "某知名公司",
+      "51WORLD",
+      "MiniMax",
+      "艾艾贴"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 42
+      },
+      {
+        "industry": "education",
+        "count": 21
+      },
+      {
+        "industry": "healthcare",
+        "count": 16
+      },
+      {
+        "industry": "manufacturing",
+        "count": 14
+      },
+      {
+        "industry": "finance",
+        "count": 13
+      }
+    ],
+    "role_id": "leadership",
+    "role_name": "AI 管理/战略",
+    "role_description": "AI 业务线 / 技术线管理岗——CTO / 技术总监 / AI 业务负责人，技术 IC 路径转管理或商业 leader 加 AI 标签。",
+    "core_skills": [
+      "llm",
+      "agent_architecture"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ai_transformation",
+      "summary": "管团队带 KPI vs 跑项目交方案——leadership 长期负责一条线，ai_transformation 项目制结束就走。"
+    },
+    "narrative": "144 条岗位里，标题分两类：一类是技术 leader（AI 架构师 / 技术总监 / CTO），一类是业务 leader（AI 智慧医疗负责人 / Risk Control Director）。中位月薪 48.75k，p75 到 81k——是国内本数据集里中位最高的一类岗位。5 年经验中位入门，但实际看简历卡的是带过团队 + 在某个细分赛道（医疗 / 教育 / 风控 / 大模型 infra）有过完整 P&L 经验的人。",
+    "who_fits": "在 AI 或某个垂直行业有 5 年以上经验、带过 5 人以上团队、能拿出可量化业务结果的人。",
+    "who_doesnt": "纯技术 IC 没有任何带人 / 带项目经验的人——这条线靠协调能力和行业沉淀，不靠代码量。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 101,
+    "sample_titles": [
+      "自动驾驶项目经理",
+      "自动驾驶安全员",
+      "智能座舱工程师",
+      "智能座舱测试",
+      "智能座舱测试工程师/测试专家",
+      "智能座舱系统工程师",
+      "智能座舱软件项目经理",
+      "智能座舱平台项目管理"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 6500.0,
+      "max": 150000.0,
+      "median": 26875,
+      "avg": 33939,
+      "p25": 17500.0,
+      "p75": 40000.0,
+      "sample_size": 90
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 3.9,
+      "sample_size": 101
+    },
+    "education": {
+      "bachelor": 72,
+      "any": 22,
+      "master": 5,
+      "unspecified": 2
+    },
+    "work_mode": {
+      "onsite": 101
+    },
+    "top_companies": [
+      "某知名公司",
+      "Baidu",
+      "梅赛德斯-奔驰",
+      "京东物流",
+      "埃尔科工程技术开发(上海)有限公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "automotive",
+        "count": 73
+      },
+      {
+        "industry": "internet",
+        "count": 13
+      },
+      {
+        "industry": "consulting",
+        "count": 8
+      },
+      {
+        "industry": "manufacturing",
+        "count": 5
+      },
+      {
+        "industry": "other",
+        "count": 1
+      }
+    ],
+    "role_id": "autonomous",
+    "role_name": "自动驾驶/智能座舱",
+    "role_description": "自动驾驶 / 智能座舱垂直工程岗——OEM 主机厂 + 一级供应商主导，技能要求和大模型应用层差异极大。",
+    "core_skills": [
+      "python",
+      "cpp",
+      "computer_vision",
+      "deep_learning"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "algorithm",
+      "summary": "车端 / 座舱专用栈 vs 通用算法栈——这条线的工程约束（实时性 / 安全 / 法规）和大模型岗完全不同。"
+    },
+    "narrative": "101 条岗位里，sample title 集中在「自动驾驶项目经理 / 安全员 / 智能座舱工程师 / 测试」，top 公司是百度、奔驰、京东物流和一些 Tier 1 工程公司。这是一条相对独立于大模型浪潮的赛道——automotive 行业占 73 条，明显汽车产业链导向。技能栈以 C++ / 视觉 / 嵌入式为主，和 ai_engineer 那条 LLM 应用线几乎不重叠。中位月薪 26.9k，5 年经验中位，是车产业升级的工程位子而不是 AI 风口位子。",
+    "who_fits": "汽车 / 嵌入式 / 视觉算法背景的人；有 C++ + ROS / SOA / AUTOSAR 实战经验更佳。",
+    "who_doesnt": "只懂大模型 / Agent 应用层、没碰过实时系统 / 嵌入式的人——这条线工程约束和 AI 应用层的开发节奏完全不同。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 83,
+    "sample_titles": [
+      "工业智能体首席专家",
+      "智能制造经理",
+      "智能制造设备维护技术员",
+      "智能制造专业大学讲师",
+      "智能制造工程师（具身智能）",
+      "新材料与智能制造科研专家",
+      "工业AI",
+      "智能制造高级数控"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 7500.0,
+      "max": 165000.0,
+      "median": 39000,
+      "avg": 44826,
+      "p25": 22500.0,
+      "p75": 60000.0,
+      "sample_size": 80
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 4.7,
+      "sample_size": 82
+    },
+    "education": {
+      "bachelor": 61,
+      "any": 16,
+      "master": 4,
+      "phd": 1,
+      "unspecified": 1
+    },
+    "work_mode": {
+      "onsite": 83
+    },
+    "top_companies": [
+      "某北京大型电子/半导体/集成电路公司",
+      "中控技术",
+      "某北京知名上市公司",
+      "某知名公司",
+      "某知名上市公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "manufacturing",
+        "count": 54
+      },
+      {
+        "industry": "internet",
+        "count": 10
+      },
+      {
+        "industry": "automotive",
+        "count": 7
+      },
+      {
+        "industry": "consulting",
+        "count": 3
+      },
+      {
+        "industry": "education",
+        "count": 2
+      }
+    ],
+    "role_id": "smart_manufacturing",
+    "role_name": "智能制造/工业AI",
+    "role_description": "智能制造 / 工业 AI 垂直岗——工厂数字化、产线优化、具身智能、工业大模型，制造业产业升级方向。",
+    "core_skills": [
+      "python",
+      "machine_learning",
+      "computer_vision"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "autonomous",
+      "summary": "工厂场景 vs 车端场景——smart_manufacturing 看 OT / PLC / MES 集成，autonomous 看车规级实时性。"
+    },
+    "narrative": "83 条岗位里，「智能制造经理 / 工程师 / 工业智能体首席专家」是高频标题，top 行业 manufacturing 占 54 条。中位月薪 39k，p75 到 60k——比 autonomous 高一档，是国内本数据集里被低估的一条线。技能信号偏少（required_skills 整体频次低）反映出这条线进入门槛取决于行业经验而不是工具栈，半导体 / 电子 / 重工业背景在这条线明显占优。",
+    "who_fits": "在制造业有过工厂 / 产线 / OT 系统经验、能把 AI 引入到 MES / PLC 链路的人。",
+    "who_doesnt": "纯互联网背景、没碰过工厂现场系统的人——这条线靠行业经验，AI 是产线效率工具而不是产品。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 82,
+    "sample_titles": [
+      "投资分析师/投资经理/副总裁（AI与先进制造赛道）",
+      "Data Analyst - LLM agentic AI",
+      "豆包AI大模型数据分析-火山方舟MaaS",
+      "AI 增强型临床统计编程",
+      "AI大数据分析师（电商）",
+      "Drug Discovery Biologist",
+      "AI增强型临床统计编程师",
+      "AI量化交易员"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "data_analysis",
+        "count": 4
+      },
+      {
+        "skill_id": "llm",
+        "count": 3
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 1
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 1
+      },
+      {
+        "skill_id": "sql",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "react",
+        "count": 1
+      },
+      {
+        "skill_id": "rag",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 7700.0,
+      "max": 150000.0,
+      "median": 35000,
+      "avg": 43918,
+      "p25": 15000.0,
+      "p75": 65000.0,
+      "sample_size": 25
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 2,
+      "avg_min": 2.6,
+      "sample_size": 66
+    },
+    "education": {
+      "unspecified": 55,
+      "bachelor": 17,
+      "phd": 5,
+      "any": 4,
+      "master": 1
+    },
+    "work_mode": {
+      "onsite": 77,
+      "unknown": 5
+    },
+    "top_companies": [
+      "腾讯",
+      "Moonshot AI",
+      "MiniMax",
+      "北京深度智耀科技有限公司",
+      "智谱AI"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 51
+      },
+      {
+        "industry": "finance",
+        "count": 9
+      },
+      {
+        "industry": "healthcare",
+        "count": 3
+      },
+      {
+        "industry": "other",
+        "count": 2
+      },
+      {
+        "industry": "manufacturing",
+        "count": 2
+      }
+    ],
+    "role_id": "data",
+    "role_name": "数据分析/数据科学",
+    "role_description": "数据分析 / 数据科学岗位——AI 大数据分析 / MaaS 数据运营 / AI 投资分析师，数据驱动决策导向。",
+    "core_skills": [
+      "data_analysis",
+      "llm",
+      "sql",
+      "python"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "operations",
+      "summary": "看数据出洞察 vs 执行运营 SOP——data 输出报告与策略，operations 跑日常运营动作。"
+    },
+    "narrative": "82 条岗位里，sample title 跨度大：从「AI 大数据分析师」「豆包大模型数据分析」到「投资分析师 AI 赛道」。top 公司腾讯、Moonshot、MiniMax、智谱表明大模型公司也在招传统数据分析岗。中位月薪 35k 但样本量小（25），p25 到 p75 跨度从 15k 到 65k 极大，反映出标题相同但实际能力要求差异极大——既有偏运营的 BI 分析，也有偏 ML 的数据科学家。",
+    "who_fits": "SQL / Python / 数据分析基本功扎实、在某个业务领域有数据驱动决策经验的人。",
+    "who_doesnt": "只会做仪表盘 BI、没建过模型 / 没有业务洞察输出能力的人——AI 公司招数据岗看「数据驱动决策」证据。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 73,
+    "sample_titles": [
+      "AIT (AI Business Transformation) Senior Specialist/Supervisor",
+      "AI交付经理PMO- AI客服（电商）方向",
+      "汽车行业IT战略与数字化转型高级经理",
+      "企业AI总监",
+      "AIT（AI业务改造）高级专员/主管",
+      "数字化转型总监",
+      "AI转型战略分析专家",
+      "供应链数字化转型专家"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      },
+      {
+        "skill_id": "devops",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 1980.0,
+      "max": 158333.0,
+      "median": 33333,
+      "avg": 40538,
+      "p25": 12500.0,
+      "p75": 47500.0,
+      "sample_size": 67
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 5.2,
+      "sample_size": 71
+    },
+    "education": {
+      "bachelor": 54,
+      "any": 10,
+      "master": 5,
+      "phd": 2,
+      "unspecified": 2
+    },
+    "work_mode": {
+      "onsite": 73
+    },
+    "top_companies": [
+      "田园东方投资",
+      "某知名公司",
+      "德勤Deloitte",
+      "某青岛家电上市公司",
+      "某世界500强上市公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "consulting",
+        "count": 21
+      },
+      {
+        "industry": "manufacturing",
+        "count": 17
+      },
+      {
+        "industry": "internet",
+        "count": 10
+      },
+      {
+        "industry": "retail",
+        "count": 8
+      },
+      {
+        "industry": "other",
+        "count": 7
+      }
+    ],
+    "role_id": "ai_transformation",
+    "role_name": "AI 转型/咨询",
+    "role_description": "AI 业务转型 / 数字化咨询岗——AIT (AI Business Transformation) 专员、企业 AI 总监、AI 交付经理。",
+    "core_skills": [
+      "prompt_engineering",
+      "agent_architecture",
+      "data_analysis"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "leadership",
+      "summary": "项目制咨询 vs 长期管理——ai_transformation 接外部 / 咨询单做交付，leadership 在内部带线。"
+    },
+    "narrative": "73 条岗位里，「AIT 高级专员 / AI 交付经理 / 数字化转型经理」是主流，top 公司是德勤这类咨询公司加上一些大型甲方。consulting + manufacturing 占前两位行业，反映出这条线本质是「咨询 + 制造业 / 传统行业 AI 落地」。中位月薪 33k，5 年经验中位——是国内传统咨询岗在 AI 时代的演化。",
+    "who_fits": "咨询 / IT 项目管理 / 数字化转型背景出身、有甲方接口 + 项目交付经验的人。",
+    "who_doesnt": "纯技术背景、没有客户对接 / PMO 经验的人——这条线靠咨询方法论和客户关系，技术深度不是核心。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 32,
+    "sample_titles": [
+      "交易风控岗",
+      "智能风控经理",
+      "采供内控专家（智能风控方向）",
+      "内控经理",
+      "平台风控策略产品",
+      "风控研发工程师（Go｜黑灰产对抗）",
+      "法务（IPR & 合规）",
+      "高级内控专家"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "sql",
+        "count": 6
+      },
+      {
+        "skill_id": "python",
+        "count": 5
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 4
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 4
+      },
+      {
+        "skill_id": "coze",
+        "count": 3
+      },
+      {
+        "skill_id": "dify",
+        "count": 3
+      },
+      {
+        "skill_id": "tongyi_qianwen",
+        "count": 3
+      },
+      {
+        "skill_id": "deepseek",
+        "count": 3
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 3
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 6500.0,
+      "max": 80000.0,
+      "median": 22500,
+      "avg": 31337,
+      "p25": 12500.0,
+      "p75": 46667.0,
+      "sample_size": 20
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 3.8,
+      "sample_size": 25
+    },
+    "education": {
+      "bachelor": 17,
+      "unspecified": 12,
+      "any": 3
+    },
+    "work_mode": {
+      "onsite": 28,
+      "unknown": 4
+    },
+    "top_companies": [
+      "腾讯",
+      "Moonshot AI",
+      "阿里云智能",
+      "MiniMax",
+      "智谱AI"
+    ],
+    "top_industries": [
+      {
+        "industry": "finance",
+        "count": 10
+      },
+      {
+        "industry": "internet",
+        "count": 10
+      },
+      {
+        "industry": "consulting",
+        "count": 2
+      },
+      {
+        "industry": "manufacturing",
+        "count": 2
+      },
+      {
+        "industry": "other",
+        "count": 1
+      }
+    ],
+    "role_id": "risk_compliance",
+    "role_name": "AI 风控/合规",
+    "role_description": "AI 风控 / 合规 / 内控岗——交易风控、采供内控、智能风控策略产品，金融与互联网风控的 AI 化方向。",
+    "core_skills": [
+      "sql",
+      "python",
+      "data_analysis",
+      "prompt_engineering"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "data",
+      "summary": "风控领域专精 vs 通用数据分析——risk_compliance 看欺诈识别 / 反洗钱规则，data 看业务通用指标。"
+    },
+    "narrative": "32 条岗位里，「智能风控经理 / 交易风控 / 内控经理」是主流，finance 和 internet 行业各 10 条。技能栈以 SQL + Python + 数据分析为主，加上 Coze / Dify 这类低代码 Agent 工具——反映出这条线在「策略产品 + Agent 自动化」的混合方向。中位月薪 22.5k，5 年经验中位，是垂直业务岗位在 AI 时代的演化版本，门槛取决于行业经验。",
+    "who_fits": "金融 / 互联网风控背景、熟规则引擎和数据分析、对 Coze / Dify 类工具感兴趣的人。",
+    "who_doesnt": "纯 AI 工程背景、没碰过具体风控业务规则的人——这条线靠业务规则积累，AI 是自动化工具。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 30,
+    "sample_titles": [
+      "AI高级人工智能教育讲师",
+      "人工智能教育推广员",
+      "AI教育产品主管",
+      "智能教育兼职教练",
+      "心理智能教育培训师",
+      "教育人工智能专员",
+      "AI智能教育校长",
+      "AI教育讲师"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 3600.0,
+      "max": 75000.0,
+      "median": 14750,
+      "avg": 21732,
+      "p25": 8000.0,
+      "p75": 30000.0,
+      "sample_size": 30
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 1,
+      "avg_min": 1.6,
+      "sample_size": 29
+    },
+    "education": {
+      "any": 15,
+      "bachelor": 9,
+      "master": 6
+    },
+    "work_mode": {
+      "onsite": 30
+    },
+    "top_companies": [
+      "某北京云计算/大数据公司",
+      "某北京互联网公司",
+      "某深圳政府/公共事业公司",
+      "九叁有方人工智能",
+      "景瀚(深圳)信息科技有限公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "education",
+        "count": 20
+      },
+      {
+        "industry": "internet",
+        "count": 6
+      },
+      {
+        "industry": "government",
+        "count": 3
+      },
+      {
+        "industry": "consulting",
+        "count": 1
+      }
+    ],
+    "role_id": "education_ai",
+    "role_name": "AI 教育",
+    "role_description": "AI 教育垂直岗——AI 教育讲师、AI 教育推广员、AI 教育产品主管，市场快速扩张但单价偏低。",
+    "core_skills": [
+      "llm"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "operations",
+      "summary": "教育内容输出 vs 通用 AI 运营——education_ai 主要做面向学习者的内容 / 课程，operations 做面向产品的运营。"
+    },
+    "narrative": "30 条岗位里，「AI 高级人工智能教育讲师 / 教育推广员 / 教育产品主管」是主流，education 行业占 20 条。中位月薪只有 14.75k，是国内所有 AI 岗里中位最低的一类——反映出 AI 教育市场虽热但供过于求、定价偏低。这条线学历要求宽松、经验门槛 1 年中位，是非技术背景转 AI 的低门槛入口，但天花板低、扩张快也意味着竞争压力大。",
+    "who_fits": "教育 / 培训背景、有内容输出能力、能把 AI 概念讲给非技术人群的人。",
+    "who_doesnt": "目标是做技术深度的人——这条线是销售 + 内容 + 教学组合岗，离技术核心远。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 14,
+    "sample_titles": [
+      "医疗AI产品助理",
+      "智能体HTA项目管理专员（循证医学/卫生技术评估方向）",
+      "Healthcare AI Project Assistant",
+      "医疗AI售前",
+      "中高级投标专员（医疗AI大模型/智慧医疗/医疗影像云）",
+      "理赔业务专家（寿险/财产险+LLM）",
+      "智慧医疗AI产品助理",
+      "医疗AI架构师/产品师"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 2800.0,
+      "max": 55000.0,
+      "median": 10000,
+      "avg": 19066,
+      "p25": 7000.0,
+      "p75": 37500.0,
+      "sample_size": 12
+    },
+    "experience": {
+      "min_range": [
+        0,
+        5
+      ],
+      "median_min": 3,
+      "avg_min": 2.3,
+      "sample_size": 11
+    },
+    "education": {
+      "bachelor": 5,
+      "any": 5,
+      "master": 2,
+      "unspecified": 2
+    },
+    "work_mode": {
+      "onsite": 14
+    },
+    "top_companies": [
+      "联众医疗IT服务",
+      "百川智能",
+      "SenseTime",
+      "广州市中维公益卫生技术评估研究所",
+      "智铭"
+    ],
+    "top_industries": [
+      {
+        "industry": "healthcare",
+        "count": 9
+      },
+      {
+        "industry": "internet",
+        "count": 3
+      }
+    ],
+    "role_id": "medical_ai",
+    "role_name": "医疗AI专岗",
+    "role_description": "医疗 AI 垂直岗——医疗 AI 产品助理 / 售前 / 投标 / 项目管理，医疗器械 + AI 影像 + 医院数字化方向。",
+    "core_skills": [
+      "llm"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "sales_bd",
+      "summary": "医疗内部岗 vs 销售拿单——medical_ai 多见售前 / 项目助理 / 投标，sales_bd 是签合同的角色。"
+    },
+    "narrative": "14 条岗位样本量小但信号清晰：「医疗 AI 产品助理 / 售前 / 投标专员 / 项目管理」是主流，healthcare 行业占 9 条。top 公司是联众医疗 IT、百川智能、SenseTime——医疗 IT 服务商 + 大模型公司 + 视觉 AI 公司三方夹击的赛道。中位月薪只有 10k，比 sales_bd 低不少，反映出这条线主要是「医疗系统内的售前 / 项目支持」位置而不是技术核心。",
+    "who_fits": "医疗背景或医疗销售支持背景、对医疗器械 / 影像 / 院信流程熟悉的人。",
+    "who_doesnt": "目标是做 AI 技术深度的人——这条线门槛是医疗行业知识，不是 AI 工具熟练度。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 5,
+    "sample_titles": [
+      "智能客服",
+      "智能客服系统专家",
+      "Java开发工程师（智能客服方向）",
+      "智能客服管培生"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "java",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 5000.0,
+      "max": 37500.0,
+      "median": 10500,
+      "avg": 17600,
+      "p25": 10000.0,
+      "p75": 25000.0,
+      "sample_size": 5
+    },
+    "experience": {
+      "min_range": [
+        0,
+        5
+      ],
+      "median_min": 1,
+      "avg_min": 2.2,
+      "sample_size": 5
+    },
+    "education": {
+      "bachelor": 3,
+      "any": 2
+    },
+    "work_mode": {
+      "onsite": 5
+    },
+    "top_companies": [
+      "京东",
+      "某知名智能硬件公司",
+      "阳光数智科技有限责任公司",
+      "圆通速递"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 1
+      },
+      {
+        "industry": "retail",
+        "count": 1
+      },
+      {
+        "industry": "manufacturing",
+        "count": 1
+      },
+      {
+        "industry": "finance",
+        "count": 1
+      },
+      {
+        "industry": "other",
+        "count": 1
+      }
+    ],
+    "role_id": "customer_service",
+    "role_name": "智能客服",
+    "role_description": "智能客服垂直岗——智能客服系统专家 / 训练 / 管培生，客服系统 AI 化方向，样本量极少。",
+    "core_skills": [
+      "java"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "operations",
+      "summary": "客服系统集成 vs 通用 AI 运营——customer_service 偏客服系统工程化，operations 偏通用 Prompt / 增长。"
+    },
+    "narrative": "5 条岗位样本量过小，参考性弱。sample title 是「智能客服 / 智能客服系统专家 / Java 智能客服开发」，公司是京东、圆通这类电商物流。中位月薪 10.5k，1 年经验中位——是个相对边缘的细分。本类目样本太小不足以做趋势判断，建议结合 operations 这条线和具体公司客服系统岗位看。",
+    "who_fits": "Java 后端 + 客服系统集成经验的人，或者愿意做客服系统训练的运营。",
+    "who_doesnt": "样本太小（5 条），不建议作为求职目标——优先考虑 operations 或 ai_engineer 路径。"
+  },
+  {
+    "market": "international",
+    "job_count": 1443,
+    "sample_titles": [
+      "Lead Technical Program Manager – AI and Data Management Controls",
+      "AI Tutor - Norwegian",
+      "Threat Collections Engineer",
+      "Forward Deployed Engineer, Agentic Platform",
+      "Office Coordinator",
+      "TPU Kernel Engineer",
+      "Member of Technical Staff, MLE",
+      "AI, Data foundation & Business Process Solution Lead"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 205
+      },
+      {
+        "skill_id": "sql",
+        "count": 115
+      },
+      {
+        "skill_id": "llm",
+        "count": 110
+      },
+      {
+        "skill_id": "typescript",
+        "count": 94
+      },
+      {
+        "skill_id": "react",
+        "count": 77
+      },
+      {
+        "skill_id": "aws",
+        "count": 61
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 50
+      },
+      {
+        "skill_id": "kubernetes",
+        "count": 44
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 39
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 35
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 0.0,
+      "max": 1125750.0,
+      "median": 65250,
+      "avg": 71884,
+      "p25": 30000.0,
+      "p75": 96040.5,
+      "sample_size": 488
+    },
+    "experience": {
+      "min_range": [
+        0,
+        15
+      ],
+      "median_min": 5,
+      "avg_min": 5.6,
+      "sample_size": 656
+    },
+    "education": {
+      "unspecified": 949,
+      "bachelor": 300,
+      "any": 134,
+      "master": 42,
+      "phd": 17,
+      "associate": 1
+    },
+    "work_mode": {
+      "onsite": 663,
+      "hybrid": 430,
+      "remote": 317,
+      "unknown": 33
+    },
+    "top_companies": [
+      "OpenAI",
+      "xAI",
+      "Anthropic",
+      "Cohere",
+      "Google DeepMind"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 878
+      },
+      {
+        "industry": "healthcare",
+        "count": 65
+      },
+      {
+        "industry": "finance",
+        "count": 50
+      },
+      {
+        "industry": "media",
+        "count": 41
+      },
+      {
+        "industry": "other",
+        "count": 37
+      }
+    ],
+    "role_id": "other",
+    "role_name": "Other",
+    "role_description": "未匹配到任一明确规则的混合岗位——含 TPM / Tutor / Threat Engineer / Forward Deployed / Office Coordinator 等长尾。",
+    "core_skills": [
+      "python",
+      "sql",
+      "llm",
+      "typescript",
+      "react"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": null,
+      "summary": "混合簇，建议下一轮 P2 拆细——top_industries / sample_titles 分散度高，没有清晰的 vs 对照。"
+    },
+    "narrative": "1443 条岗位是海外最大的簇，但本质是「未匹配上其他规则」的剩余。sample title 跨度极大：从「Lead Technical Program Manager AI Data」「AI Tutor Norwegian」「Threat Collections Engineer」「Forward Deployed Engineer Agentic Platform」「TPU Kernel Engineer」「Office Coordinator」都有。top 公司是 OpenAI、xAI、Anthropic、Cohere、DeepMind——头部 AI lab 的非典型岗位都在这。中位月薪 65k CNY/月，5 年经验中位。建议 P2 阶段进一步拆出「Forward Deployed」「TPU / Kernel」「AI Tutor」「Threat Engineer」等子簇。",
+    "who_fits": "目前看不出清晰画像；如果你的目标岗位在 sample_titles 里出现，可以进一步看具体 JD。",
+    "who_doesnt": "想找清晰画像 / 对标路径的人——建议先回到 sde / ml_engineer / ml_scientist 这种明确簇。"
+  },
+  {
+    "market": "international",
+    "job_count": 809,
+    "sample_titles": [
+      "Software Engineer, Human Data Interface",
+      "Software Engineer",
+      "Full Stack Engineer",
+      "Engineer I (Multiple Openings)",
+      "Staff / Senior Software Engineer, Inference",
+      "Agentic AI FW developer",
+      "Sr Principal Software Engineer - Agentic Platform and Experiences",
+      "Sr. ServiceNow Developer"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 236
+      },
+      {
+        "skill_id": "sql",
+        "count": 200
+      },
+      {
+        "skill_id": "react",
+        "count": 174
+      },
+      {
+        "skill_id": "typescript",
+        "count": 171
+      },
+      {
+        "skill_id": "aws",
+        "count": 123
+      },
+      {
+        "skill_id": "golang",
+        "count": 109
+      },
+      {
+        "skill_id": "kubernetes",
+        "count": 101
+      },
+      {
+        "skill_id": "distributed_systems",
+        "count": 96
+      },
+      {
+        "skill_id": "nodejs",
+        "count": 76
+      },
+      {
+        "skill_id": "java",
+        "count": 56
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "mlops",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 6960.0,
+      "max": 1178124.9,
+      "median": 67968,
+      "avg": 87267,
+      "p25": 50298.600000000006,
+      "p75": 106393.5,
+      "sample_size": 234
+    },
+    "experience": {
+      "min_range": [
+        0,
+        12
+      ],
+      "median_min": 5,
+      "avg_min": 5.2,
+      "sample_size": 222
+    },
+    "education": {
+      "unspecified": 664,
+      "bachelor": 107,
+      "any": 32,
+      "master": 5,
+      "phd": 1
+    },
+    "work_mode": {
+      "onsite": 420,
+      "hybrid": 224,
+      "remote": 146,
+      "unknown": 19
+    },
+    "top_companies": [
+      "OpenAI",
+      "Anthropic",
+      "Deloitte",
+      "Cohere",
+      "xAI"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 426
+      },
+      {
+        "industry": "healthcare",
+        "count": 49
+      },
+      {
+        "industry": "finance",
+        "count": 48
+      },
+      {
+        "industry": "other",
+        "count": 35
+      },
+      {
+        "industry": "manufacturing",
+        "count": 32
+      }
+    ],
+    "role_id": "sde",
+    "role_name": "Software Engineer",
+    "role_description": "通用软件工程师栈做 AI 平台 / 产品——前后端全干（React + TypeScript + Go + Python + K8s + AWS），AI 是应用域不是研究域。",
+    "core_skills": [
+      "python",
+      "typescript",
+      "react",
+      "aws",
+      "kubernetes"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ml_engineer",
+      "summary": "写产品 / 写基础设施 vs 调模型 / 跑 inference——OpenAI 同时招两类，SDE 这边还要写 React 前端。"
+    },
+    "narrative": "809 条岗位是海外最大的非 other 簇，top 公司 OpenAI、Anthropic、Cohere、xAI 加 Deloitte 这种咨询大厂。技能信号清晰：Python + SQL + React + TypeScript + Go + K8s + 分布式系统——典型的全栈或基础设施工程师栈。这条线的本质是「AI 公司的常规软件工程岗」，写 model 训练 / inference 平台、API 服务、内部工具、客户端 SDK。中位月薪约 68k CNY/月（汇率换算后），5 年经验中位，是海外 AI 公司里需求量最大、入口最宽的一条线。",
+    "who_fits": "全栈 / 后端 / 平台工程背景、英语能写代码注释和 PR review、有过分布式系统实战的人。",
+    "who_doesnt": "只会单一技能栈（比如纯前端不写后端）的人——海外 AI 公司同事少，期望工程师跨度更大。"
+  },
+  {
+    "market": "international",
+    "job_count": 790,
+    "sample_titles": [
+      "Senior Machine Learning Scientist, Payments",
+      "Data Scientist Engineer",
+      "Principal Applied Scientist, Sponsored Products and Brands",
+      "AI Research Intern",
+      "Research Engineer/Scientist - Generative UI, Consumer Devices",
+      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "AI Research & Agentic Engineer Hybrid",
+      "Principal Applied Scientist, Delivery Foundation Model"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 125
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 88
+      },
+      {
+        "skill_id": "llm",
+        "count": 64
+      },
+      {
+        "skill_id": "sql",
+        "count": 50
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 48
+      },
+      {
+        "skill_id": "deep_learning",
+        "count": 40
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 32
+      },
+      {
+        "skill_id": "reinforcement_learning",
+        "count": 27
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 25
+      },
+      {
+        "skill_id": "cpp",
+        "count": 18
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "devops",
+        "count": 1
+      },
+      {
+        "skill_id": "anthropic_api",
+        "count": 1
+      },
+      {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
+        "skill_id": "nextjs",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 4698.0,
+      "max": 308124.60000000003,
+      "median": 87944,
+      "avg": 111765,
+      "p25": 64875.0,
+      "p75": 154062.30000000002,
+      "sample_size": 125
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 4.4,
+      "sample_size": 117
+    },
+    "education": {
+      "unspecified": 592,
+      "bachelor": 78,
+      "phd": 69,
+      "master": 38,
+      "any": 13
+    },
+    "work_mode": {
+      "onsite": 617,
+      "hybrid": 122,
+      "remote": 40,
+      "unknown": 11
+    },
+    "top_companies": [
+      "OpenAI",
+      "Microsoft",
+      "Anthropic",
+      "ByteDance",
+      "TikTok"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 219
+      },
+      {
+        "industry": "healthcare",
+        "count": 25
+      },
+      {
+        "industry": "finance",
+        "count": 13
+      },
+      {
+        "industry": "media",
+        "count": 8
+      },
+      {
+        "industry": "automotive",
+        "count": 7
+      }
+    ],
+    "role_id": "ml_scientist",
+    "role_name": "ML Scientist / Researcher",
+    "role_description": "研究向 ML 岗位——做 pretrain / RL / 多模态 / Applied Scientist，输出是论文 / 模型权重 / benchmark，不是产品。",
+    "core_skills": [
+      "python",
+      "pytorch",
+      "machine_learning",
+      "deep_learning",
+      "reinforcement_learning"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ml_engineer",
+      "summary": "发论文 / 训新模型 vs 调 API / 部署 RAG——scientist 多 PhD 入场，engineer 工程实战路径。"
+    },
+    "narrative": "790 条岗位是海外第二大非 other 簇，top 公司 OpenAI、Microsoft、Anthropic、ByteDance、TikTok。sample title 充满「Senior ML Scientist」「Principal Applied Scientist」「Research Engineer」「Generative UI Research」。技能栈的 RL 和 deep_learning 占比明显高于 ml_engineer 这条线，反映出研究向工作的特征。海外这条线 PhD 比例极高，发表过顶会论文是硬通货。中位月薪约 88k CNY/月、p75 到 154k——是海外本数据集里中位最高的几条线之一，顶尖 lab 的 staff scientist 实际打到 200k+ CNY/月也不少见。",
+    "who_fits": "PhD / 顶会论文背景、能从问题定义到实验设计到论文写作端到端的人；尤其 LLM 训练 / RL / 多模态方向。",
+    "who_doesnt": "工程背景没有研究产出的人——海外 ML Scientist 高度依赖 publication 和 referral。"
+  },
+  {
+    "market": "international",
+    "job_count": 544,
+    "sample_titles": [
+      "Python Agentic AI/ML Engineer",
+      "Director of Engineering - AIDD Product Engineering",
+      "AI Engineer - AI/ML/LLM/GenAI",
+      "AI Engineer Software",
+      "AI Agent Engineer",
+      "Machine Learning Engineer (L4/L5) - Emerging Game Technologies",
+      "AI Engineer - Agentic and Generative AI",
+      "Machine Learning Engineer"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 146
+      },
+      {
+        "skill_id": "llm",
+        "count": 97
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 50
+      },
+      {
+        "skill_id": "openai_api",
+        "count": 47
+      },
+      {
+        "skill_id": "aws",
+        "count": 43
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 42
+      },
+      {
+        "skill_id": "sql",
+        "count": 37
+      },
+      {
+        "skill_id": "rag",
+        "count": 31
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 29
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 29
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 0.0,
+      "max": 960624.8999999999,
+      "median": 67062,
+      "avg": 78683,
+      "p25": 54374.7,
+      "p75": 79749.6,
+      "sample_size": 101
+    },
+    "experience": {
+      "min_range": [
+        0,
+        12
+      ],
+      "median_min": 5,
+      "avg_min": 5.0,
+      "sample_size": 152
+    },
+    "education": {
+      "unspecified": 430,
+      "bachelor": 72,
+      "master": 19,
+      "any": 14,
+      "phd": 8,
+      "null": 1
+    },
+    "work_mode": {
+      "onsite": 343,
+      "hybrid": 116,
+      "remote": 70,
+      "unknown": 15
+    },
+    "top_companies": [
+      "TikTok",
+      "OpenAI",
+      "ByteDance",
+      "Anthropic",
+      "Adobe"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 168
+      },
+      {
+        "industry": "healthcare",
+        "count": 28
+      },
+      {
+        "industry": "finance",
+        "count": 24
+      },
+      {
+        "industry": "consulting",
+        "count": 21
+      },
+      {
+        "industry": "manufacturing",
+        "count": 16
+      }
+    ],
+    "role_id": "ml_engineer",
+    "role_name": "ML/AI Engineer",
+    "role_description": "把模型变成产品——OpenAI API 调用、RAG 系统、模型部署到 AWS、上线监控；标题里有 LLM / Agentic / GenAI / AI Engineer。",
+    "core_skills": [
+      "python",
+      "llm",
+      "openai_api",
+      "aws",
+      "rag"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ml_scientist",
+      "summary": "用 API + 部署 vs 训模型 + 发论文——ml_engineer 上线服务，ml_scientist 写实验报告。"
+    },
+    "narrative": "544 条岗位的核心标题是「ML Engineer / AI Engineer / Python Agentic AI Engineer / LLM Engineer」。top 公司 TikTok、OpenAI、ByteDance、Anthropic、Adobe。这条线和 sde 最大区别是：必须懂 LLM / embedding / eval / RAG / vector DB——SDE 可以不懂这些。和 ml_scientist 最大区别是：用现成模型而不是训新模型，工程化 + 上线能力比研究深度更被看重。中位月薪约 67k CNY/月、5 年经验中位，和 sde 中位接近但 p75 偏低（80k vs 106k）——天花板靠你能不能把工程能力 + LLM 实战做出深度。",
+    "who_fits": "工程背景 + LLM 产品落地经验、能搭 RAG / 评测 pipeline、读得懂 paper 但不靠 paper 找工作的人。",
+    "who_doesnt": "传统后端但没碰过 LLM 应用栈的人——必须能讲清楚自己做过什么 LLM 产品 / 项目。"
+  },
+  {
+    "market": "international",
+    "job_count": 494,
+    "sample_titles": [
+      "Artificial Intelligence Intern",
+      "AI Business Analyst Intern 107277",
+      "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
+      "Robot Learning Engineering Intern",
+      "AI Ads Intern — Viral Creative & Performance Marketing",
+      "Junior Designer",
+      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships",
+      "Data Science Internship (Summer 2026)"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "python",
+        "count": 11
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 5
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 3
+      },
+      {
+        "skill_id": "sql",
+        "count": 3
+      },
+      {
+        "skill_id": "cpp",
+        "count": 2
+      },
+      {
+        "skill_id": "java",
+        "count": 2
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 2
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 2
+      },
+      {
+        "skill_id": "llm",
+        "count": 2
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "azure",
+        "count": 2
+      },
+      {
+        "skill_id": "gcp",
+        "count": 2
+      },
+      {
+        "skill_id": "rag",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 0.0,
+      "max": 112374.90000000001,
+      "median": 26448,
+      "avg": 34880,
+      "p25": 11832.0,
+      "p75": 38280.0,
+      "sample_size": 21
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 0,
+      "avg_min": 1.3,
+      "sample_size": 30
+    },
+    "education": {
+      "unspecified": 441,
+      "bachelor": 28,
+      "master": 13,
+      "any": 8,
+      "phd": 4
+    },
+    "work_mode": {
+      "onsite": 457,
+      "remote": 24,
+      "hybrid": 13
+    },
+    "top_companies": [
+      "Berkshire Hathaway Energy",
+      "TikTok",
+      "Tenstorrent",
+      "Honeywell",
+      "Anthropic"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 22
+      },
+      {
+        "industry": "manufacturing",
+        "count": 12
+      },
+      {
+        "industry": "finance",
+        "count": 6
+      },
+      {
+        "industry": "other",
+        "count": 6
+      },
+      {
+        "industry": "media",
+        "count": 5
+      }
+    ],
+    "role_id": "intern_newgrad",
+    "role_name": "Intern / New Grad",
+    "role_description": "实习 / 应届岗位池——大厂 Summer Intern / Entry-Level Engineer / Recent Grad；中位最低经验 0 年，技能门槛 Python + SQL 基础。",
+    "core_skills": [
+      "python",
+      "data_analysis",
+      "sql",
+      "machine_learning"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ml_engineer",
+      "summary": "唯一不要求经验的入口 vs 5 年中位经验——这条线看学校 / 实习背景，不是工作年限。"
+    },
+    "narrative": "494 条岗位是海外应届 / 实习专属池，sample title 充满「AI Intern」「Entry Level」「Recent Grad」「Summer 2026 Internship」。top 公司 Berkshire Hathaway Energy、TikTok、Tenstorrent、Honeywell、Anthropic——大厂 + 半导体 + 制造 + AI 实验室都有。技能要求 Python + SQL + 基础数据分析 + ML 概念入门，门槛在所有海外簇里最低。这是非 PhD 背景应届进 AI 行业的关键入口，但海外岗位通常对签证有要求，大量岗位限定 US Citizen / Green Card。",
+    "who_fits": "在校 / 应届、有大厂实习或学校项目背景、能搞定签证 / 工作授权的人。",
+    "who_doesnt": "已经工作 3 年以上的人——这条线机会多但定位是 entry-level，工作过的人投这条线被定位错。"
+  },
+  {
+    "market": "international",
+    "job_count": 384,
+    "sample_titles": [
+      "Analytics Engineer 5 - Ads Reporting & Metric Standards",
+      "Data Engineer",
+      "Technical Program Manager, Google Cloud Analytics and Insights",
+      "Data Analyst - Entry Level",
+      "Technical Data Analyst",
+      "Analytics Engineer, Finance",
+      "Entry Level Business Analyst / Data Analyst",
+      "Pricing and Market Analytics Intern"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "sql",
+        "count": 15
+      },
+      {
+        "skill_id": "python",
+        "count": 14
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 3
+      },
+      {
+        "skill_id": "java",
+        "count": 2
+      },
+      {
+        "skill_id": "llm",
+        "count": 2
+      },
+      {
+        "skill_id": "aws",
+        "count": 2
+      },
+      {
+        "skill_id": "git",
+        "count": 1
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "kubernetes",
+        "count": 2
+      },
+      {
+        "skill_id": "react",
+        "count": 1
+      },
+      {
+        "skill_id": "typescript",
+        "count": 1
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 1
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 1
+      },
+      {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
+        "skill_id": "gcp",
+        "count": 1
+      },
+      {
+        "skill_id": "azure",
+        "count": 1
+      },
+      {
+        "skill_id": "distributed_systems",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 0.0,
+      "max": 162369.90000000002,
+      "median": 62362,
+      "avg": 70622,
+      "p25": 48937.5,
+      "p75": 94250.1,
+      "sample_size": 14
+    },
+    "experience": {
+      "min_range": [
+        0,
+        12
+      ],
+      "median_min": 3,
+      "avg_min": 3.6,
+      "sample_size": 24
+    },
+    "education": {
+      "unspecified": 360,
+      "bachelor": 20,
+      "any": 2,
+      "master": 2
+    },
+    "work_mode": {
+      "onsite": 358,
+      "hybrid": 14,
+      "remote": 11,
+      "unknown": 1
+    },
+    "top_companies": [
+      "Royal Bank of Canada",
+      "TikTok",
+      "John Deere",
+      "OpenAI",
+      "TD Bank"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 17
+      },
+      {
+        "industry": "consulting",
+        "count": 6
+      },
+      {
+        "industry": "finance",
+        "count": 5
+      },
+      {
+        "industry": "healthcare",
+        "count": 3
+      },
+      {
+        "industry": "education",
+        "count": 2
+      }
+    ],
+    "role_id": "data",
+    "role_name": "Data Scientist / Analyst",
+    "role_description": "数据科学家 / 分析师 / 数据工程岗——SQL + Python 为底，覆盖 Analytics Engineer / Data Engineer / Technical Data Analyst。",
+    "core_skills": [
+      "sql",
+      "python",
+      "data_analysis"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ml_engineer",
+      "summary": "看数据建管道 vs 上模型上线——data 输出报表 / 数据资产，ml_engineer 输出模型服务。"
+    },
+    "narrative": "384 条岗位里 sample title 涵盖「Analytics Engineer」「Data Engineer」「Data Analyst Entry Level」「Technical Program Manager Analytics」。top 公司 RBC、TikTok、John Deere、OpenAI、TD Bank——金融 + 大厂 + AI 公司都需要数据岗。这条线在海外是稳定的「数据基础设施 + 业务分析」岗位，AI 浪潮没有改变它的本质，但很多 JD 现在加了「LLM-aware」要求（懂 prompt + 数据评测）。中位月薪 62k CNY/月，3 年经验中位。",
+    "who_fits": "SQL + Python 扎实、有过商业数据洞察输出经验、对 AI / LLM 有基础了解的人。",
+    "who_doesnt": "只会 BI 工具不写 SQL 的人；海外数据岗对查询能力要求高于国内。"
+  },
+  {
+    "market": "international",
+    "job_count": 329,
+    "sample_titles": [
+      "Lead Site Reliability Engineer (GCP & Hybrid Cloud)",
+      "Senior Applied Science Manager, Amazon Sponsored Products & Brands",
+      "Head of AI",
+      "Assistant Professor: AI + Education",
+      "Senior Vice President of Digital Transformation",
+      "Digital Transformation Executive",
+      "Director, Accounting Operations",
+      "Accounting Expert - Faculty / Professor of Accounting"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "aws",
+        "count": 27
+      },
+      {
+        "skill_id": "llm",
+        "count": 27
+      },
+      {
+        "skill_id": "react",
+        "count": 23
+      },
+      {
+        "skill_id": "python",
+        "count": 23
+      },
+      {
+        "skill_id": "sql",
+        "count": 22
+      },
+      {
+        "skill_id": "gcp",
+        "count": 19
+      },
+      {
+        "skill_id": "nodejs",
+        "count": 18
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 17
+      },
+      {
+        "skill_id": "nextjs",
+        "count": 14
+      },
+      {
+        "skill_id": "typescript",
+        "count": 14
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "mcp",
+        "count": 1
+      },
+      {
+        "skill_id": "git",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 271.875,
+      "max": 1614000.0,
+      "median": 82284,
+      "avg": 120147,
+      "p25": 68874.9,
+      "p75": 119625.0,
+      "sample_size": 126
+    },
+    "experience": {
+      "min_range": [
+        1,
+        20
+      ],
+      "median_min": 8,
+      "avg_min": 9.0,
+      "sample_size": 207
+    },
+    "education": {
+      "unspecified": 208,
+      "bachelor": 88,
+      "any": 18,
+      "master": 10,
+      "phd": 5
+    },
+    "work_mode": {
+      "hybrid": 138,
+      "onsite": 135,
+      "remote": 37,
+      "unknown": 19
+    },
+    "top_companies": [
+      "OpenAI",
+      "Anthropic",
+      "Google DeepMind",
+      "Amazon.com",
+      "Mind Friend"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 193
+      },
+      {
+        "industry": "healthcare",
+        "count": 26
+      },
+      {
+        "industry": "finance",
+        "count": 16
+      },
+      {
+        "industry": "media",
+        "count": 15
+      },
+      {
+        "industry": "education",
+        "count": 14
+      }
+    ],
+    "role_id": "leadership",
+    "role_name": "Engineering Leadership",
+    "role_description": "海外 AI 工程管理岗——EM / Director / Head of AI / SVP，技术 IC 转管理或商业 leader 加 AI 域，5+ 年经验门槛硬。",
+    "core_skills": [
+      "aws",
+      "llm",
+      "react",
+      "python",
+      "sql"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "architect",
+      "summary": "管团队 vs 设计方案——leadership 长期负责团队和 KPI，architect 是技术对外输出的方案设计角色。"
+    },
+    "narrative": "329 条岗位是海外 leadership 池，sample title 包含「Senior Applied Science Manager」「Head of AI」「SVP Digital Transformation」。top 公司 OpenAI、Anthropic、Google DeepMind、Amazon——头部 AI lab 的管理层都在招。中位月薪 82k CNY/月，p75 到 119k——是海外本数据集中位最高的几条线之一。8 年经验中位、9 年经验均值，明显高于 ml_engineer / sde 的 5 年中位。这条线既考察技术广度也考察跨团队协调和招聘能力。",
+    "who_fits": "在某条 AI 技术线（LLM / infra / safety / applied science）有 5 年以上 IC 经验、带过 5+ 人团队的人。",
+    "who_doesnt": "只有项目管理经验没有技术深度的人——海外 leadership 普遍是 IC 路径出来的，PM / Scrum master 路径很难直接对位。"
+  },
+  {
+    "market": "international",
+    "job_count": 108,
+    "sample_titles": [
+      "AI Solution Architect",
+      "AI Architect Agentic & Generative AI",
+      "Solutions Engineer Intern - Computer Science or related major",
+      "AI Automation & Solutions Lead",
+      "Sr. UX Designer, AWS Applied AI Solutions",
+      "Customer Engineer II, Cloud AI, Retail, Google Cloud",
+      "Customer Engineer II, Cloud AI, Retail",
+      "AI Solutions Architect"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 47
+      },
+      {
+        "skill_id": "python",
+        "count": 45
+      },
+      {
+        "skill_id": "javascript",
+        "count": 21
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 18
+      },
+      {
+        "skill_id": "openai_api",
+        "count": 16
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 16
+      },
+      {
+        "skill_id": "aws",
+        "count": 8
+      },
+      {
+        "skill_id": "rag",
+        "count": 7
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 7
+      },
+      {
+        "skill_id": "sql",
+        "count": 7
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "agile",
+        "count": 3
+      },
+      {
+        "skill_id": "langchain",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 306.461125,
+      "max": 802343.75,
+      "median": 89734,
+      "avg": 103381,
+      "p25": 64524.90000000001,
+      "p75": 106031.1,
+      "sample_size": 36
+    },
+    "experience": {
+      "min_range": [
+        0,
+        12
+      ],
+      "median_min": 5,
+      "avg_min": 6.3,
+      "sample_size": 76
+    },
+    "education": {
+      "unspecified": 70,
+      "bachelor": 35,
+      "any": 3
+    },
+    "work_mode": {
+      "hybrid": 69,
+      "onsite": 31,
+      "remote": 8
+    },
+    "top_companies": [
+      "OpenAI",
+      "Anthropic",
+      "Cohere",
+      "Google",
+      "NVIDIA"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 74
+      },
+      {
+        "industry": "manufacturing",
+        "count": 3
+      },
+      {
+        "industry": "other",
+        "count": 3
+      },
+      {
+        "industry": "education",
+        "count": 2
+      },
+      {
+        "industry": "retail",
+        "count": 2
+      }
+    ],
+    "role_id": "architect",
+    "role_name": "Solutions Architect",
+    "role_description": "AI 解决方案架构师——AI Solution Architect / Agentic Architect / GenAI Architect，对外输出技术方案，咨询 + 部署混合角色。",
+    "core_skills": [
+      "llm",
+      "python",
+      "openai_api",
+      "generative_ai",
+      "machine_learning"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ml_engineer",
+      "summary": "对外讲方案 + 跨方案集成 vs 单点系统实施——architect 站在客户和产品之间，ml_engineer 主要写代码。"
+    },
+    "narrative": "108 条岗位的 top 公司是 OpenAI、Anthropic、Cohere、Google、NVIDIA——大厂前线 + AI lab 都需要这条线，明显是 ToB / Enterprise AI 落地角色。技能栈 LLM + Python + JS + GenAI + OpenAI API + ML——比 ml_engineer 要求更广（前后端都要懂）但深度不如 ml_scientist。中位月薪 89k CNY/月，5 年经验中位。这条线在海外是连接客户 / 销售 / 工程的桥梁角色，技术沟通能力比纯代码能力更重要。",
+    "who_fits": "工程背景 + 客户对接经验、能讲清楚一个 AI 系统的端到端方案、英语沟通流利的人。",
+    "who_doesnt": "纯算法 / 纯前端 / 不擅长跨团队沟通的人——架构师角色需要在客户面前讲清楚选型理由和约束。"
+  },
+  {
+    "market": "international",
+    "job_count": 106,
+    "sample_titles": [
+      "Product Owner - Federal Health Systems",
+      "Agent Product Manager",
+      "Lead Product Manager - Gen AI Platform",
+      "Sr. Product Manager - Technical, CS Intelligence, AWS Specialist and Partner Organization",
+      "Senior Product Manager, SMB Hiring",
+      "Manager of Product Operations",
+      "AI Solutions & Automation Product Manager-Commercial",
+      "Product Manager"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "data_analysis",
+        "count": 26
+      },
+      {
+        "skill_id": "llm",
+        "count": 15
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 9
+      },
+      {
+        "skill_id": "rag",
+        "count": 5
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 4
+      },
+      {
+        "skill_id": "sql",
+        "count": 3
+      },
+      {
+        "skill_id": "fine_tuning",
+        "count": 3
+      },
+      {
+        "skill_id": "python",
+        "count": 3
+      },
+      {
+        "skill_id": "anthropic_api",
+        "count": 2
+      },
+      {
+        "skill_id": "openai_api",
+        "count": 2
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "java",
+        "count": 2
+      },
+      {
+        "skill_id": "microservices",
+        "count": 1
+      },
+      {
+        "skill_id": "kubernetes",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 24360.0,
+      "max": 154812.30000000002,
+      "median": 74140,
+      "avg": 75477,
+      "p25": 63018.600000000006,
+      "p75": 87331.20000000001,
+      "sample_size": 65
+    },
+    "experience": {
+      "min_range": [
+        0,
+        12
+      ],
+      "median_min": 5,
+      "avg_min": 5.5,
+      "sample_size": 84
+    },
+    "education": {
+      "bachelor": 61,
+      "unspecified": 38,
+      "any": 6,
+      "master": 1
+    },
+    "work_mode": {
+      "onsite": 55,
+      "hybrid": 29,
+      "unknown": 16,
+      "remote": 6
+    },
+    "top_companies": [
+      "Meta",
+      "TikTok",
+      "OpenAI",
+      "Anthropic",
+      "Amazon Web Services"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 77
+      },
+      {
+        "industry": "healthcare",
+        "count": 7
+      },
+      {
+        "industry": "finance",
+        "count": 5
+      },
+      {
+        "industry": "automotive",
+        "count": 3
+      },
+      {
+        "industry": "consulting",
+        "count": 2
+      }
+    ],
+    "role_id": "product_manager",
+    "role_name": "Product Manager",
+    "role_description": "海外 AI 产品经理——Agent Product Manager / GenAI Platform PM / Sr Product Manager Technical，技术 PM 偏多。",
+    "core_skills": [
+      "data_analysis",
+      "llm",
+      "generative_ai",
+      "rag",
+      "prompt_engineering"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "architect",
+      "summary": "决定产品方向和优先级 vs 设计技术方案落地——PM 写 spec，architect 提案技术方案。"
+    },
+    "narrative": "106 条岗位的 top 公司是 Meta、TikTok、OpenAI、Anthropic、AWS——海外 AI 头部公司全在招。sample title 包含「Agent Product Manager」「Lead PM Gen AI Platform」「Sr PM Technical CS Intelligence AWS」。和国内 PM 最大区别：海外 AI PM 普遍是「技术 PM」角色，要求能读 paper、懂 LLM 能力边界、能和 ML 工程师对话。中位月薪 74k CNY/月，5 年经验中位。这条线被 sde 挤压（OpenAI 数据上 SDE 远多于 PM），意味着海外 AI 公司更靠工程师驱动而非传统 PM。",
+    "who_fits": "技术背景 PM 出身、有过 LLM 产品落地经验、能用数据 + 用户研究双重证据撑产品决策的人。",
+    "who_doesnt": "纯商业 PM 没有技术背景的人——海外 AI 公司 PM 的技术准入门槛比传统 SaaS PM 高。"
+  },
+  {
+    "market": "international",
+    "job_count": 43,
+    "sample_titles": [
+      "AI Enablement Strategist – New College Graduate",
+      "Director of AI Enablement",
+      "Principal Indirect Selling Partner Enablement & Activation Lead, AWS Partner Core Enablement Shared Services-Foundations",
+      "Strategic Partner Development Lead, Quantum AI",
+      "Senior ProServe Sales Leader, North America, Healthcare and Life Sciences",
+      "Senior Leader, ProServe AI/GenAI/Agentic Specialists, Healthcare and Life Sciences",
+      "Infrastructure Partnership Delivery Lead – Stargate",
+      "Onboarding & Enablement Program Manager"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "generative_ai",
+        "count": 5
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 5
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 2
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "llm",
+        "count": 1
+      },
+      {
+        "skill_id": "sql",
+        "count": 1
+      },
+      {
+        "skill_id": "aws",
+        "count": 1
+      },
+      {
+        "skill_id": "gcp",
+        "count": 1
+      },
+      {
+        "skill_id": "azure",
+        "count": 1
+      },
+      {
+        "skill_id": "anthropic_api",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "openai_api",
+        "count": 1
+      },
+      {
+        "skill_id": "data_analysis",
+        "count": 1
+      },
+      {
+        "skill_id": "computer_vision",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 62531.399999999994,
+      "max": 933437.3999999999,
+      "median": 87700,
+      "avg": 144333,
+      "p25": 82453.20000000001,
+      "p75": 118718.70000000001,
+      "sample_size": 16
+    },
+    "experience": {
+      "min_range": [
+        2,
+        15
+      ],
+      "median_min": 7,
+      "avg_min": 8.0,
+      "sample_size": 30
+    },
+    "education": {
+      "unspecified": 25,
+      "bachelor": 17,
+      "null": 1
+    },
+    "work_mode": {
+      "onsite": 26,
+      "hybrid": 14,
+      "remote": 3
+    },
+    "top_companies": [
+      "OpenAI",
+      "Anthropic",
+      "Amazon Web Services",
+      "GlobalFoundries",
+      "Google"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 29
+      },
+      {
+        "industry": "healthcare",
+        "count": 4
+      }
+    ],
+    "role_id": "sales_bd",
+    "role_name": "AI Sales / BD",
+    "role_description": "海外 AI 销售 / 商务 / Enablement 岗——AI Enablement Strategist / Strategic Partner Lead / Sales Leader，AI 公司渠道 + ToB 拿单。",
+    "core_skills": [
+      "generative_ai",
+      "agent_architecture",
+      "prompt_engineering"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "architect",
+      "summary": "拿单 / 拓渠道 vs 设计方案——sales_bd 主要做商业关系，architect 输出技术方案配合销售。"
+    },
+    "narrative": "43 条岗位样本量较小但信号清晰：top 公司 OpenAI、Anthropic、AWS、Google——头部 AI 公司都在搭海外销售网络。sample title 包含「Director of AI Enablement」「Strategic Partner Development Lead Quantum AI」「Senior ProServe Sales Leader Healthcare」。中位月薪 87k CNY/月、p25 已到 82k——是海外本数据集薪资稳定较高的一类，反映出 AI 公司销售提成结构上限高。7 年经验中位、8 年经验均值。",
+    "who_fits": "Enterprise SaaS / Cloud Sales 背景、能讲清楚 AI 产品商业价值、有过 7 位数美元单子经验的人。",
+    "who_doesnt": "国内 ToB 销售经验直接迁移海外的人——海外 AI 销售对客户决策链 / 采购流程的理解和国内差别很大。"
+  },
+  {
+    "market": "international",
+    "job_count": 33,
+    "sample_titles": [
+      "Shuttle Attendant (Autonomous Vehicle Operator)",
+      "Autonomous GSE Operator",
+      "Autonomous vehicle Test Operator",
+      "Robotics and AI Co-op",
+      "Autonomous Vehicles - Training Manager",
+      "Autonomous Vehicle Operator with CDL",
+      "Autonomous Vehicle Test Operator",
+      "Autonomous Vehicle Operator Supervisor"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "machine_learning",
+        "count": 2
+      },
+      {
+        "skill_id": "python",
+        "count": 2
+      },
+      {
+        "skill_id": "computer_vision",
+        "count": 1
+      },
+      {
+        "skill_id": "cpp",
+        "count": 1
+      },
+      {
+        "skill_id": "deep_learning",
+        "count": 1
+      },
+      {
+        "skill_id": "rust",
+        "count": 1
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 1
+      },
+      {
+        "skill_id": "kubernetes",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 15312.0,
+      "max": 118776.0,
+      "median": 24740,
+      "avg": 38529,
+      "p25": 21146.1,
+      "p75": 26462.7,
+      "sample_size": 6
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 3.6,
+      "sample_size": 20
+    },
+    "education": {
+      "any": 18,
+      "unspecified": 10,
+      "bachelor": 4,
+      "master": 1
+    },
+    "work_mode": {
+      "onsite": 32,
+      "hybrid": 1
+    },
+    "top_companies": [
+      "TSMG Holding",
+      "Piaggio Fast Forward",
+      "9 Mothers Defense",
+      "Kodiak Robotics, Inc.",
+      "Google DeepMind"
+    ],
+    "top_industries": [
+      {
+        "industry": "automotive",
+        "count": 20
+      },
+      {
+        "industry": "manufacturing",
+        "count": 2
+      },
+      {
+        "industry": "other",
+        "count": 2
+      },
+      {
+        "industry": "internet",
+        "count": 2
+      },
+      {
+        "industry": "healthcare",
+        "count": 1
+      }
+    ],
+    "role_id": "autonomous",
+    "role_name": "Autonomous Vehicles",
+    "role_description": "海外自动驾驶垂直岗——Autonomous Vehicle Operator / Test Operator / Robotics AI Co-op，机器人 + 车两个细分混合。",
+    "core_skills": [
+      "python",
+      "machine_learning",
+      "computer_vision",
+      "cpp"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ml_scientist",
+      "summary": "车 / 机器人专用栈 vs 通用研究——这条线工程对接物理硬件，研究目标受成本和安全约束。"
+    },
+    "narrative": "33 条岗位样本量小，sample title 涵盖「Shuttle Attendant Autonomous Vehicle Operator」「Autonomous Vehicle Test Operator」「Robotics AI Co-op」。top 公司是 Kodiak Robotics、Piaggio Fast Forward、Google DeepMind。和国内 autonomous 这条线对比：海外更偏机器人 / Robotics 公司，国内更偏车厂智能座舱。中位月薪约 25k CNY/月——比 ml_engineer / ml_scientist 那条主流 AI 线低一大截，反映出这条线在海外 AI 薪资体系里偏中下，岗位标题里大量是「Vehicle Operator」「Test Operator」级别的运营 / 测试岗而不是核心算法研发。",
+    "who_fits": "Robotics / CV / RL 背景，有过实车 / 实物机器人项目经验的人。",
+    "who_doesnt": "纯 LLM / Agent 应用背景、没碰过物理硬件 + 实时系统的人——这条线工程门槛高、薪资不在最高档。"
+  },
+  {
+    "market": "international",
+    "job_count": 28,
+    "sample_titles": [
+      "Sr. Design Technologist, Elevated Shopping",
+      "Senior Consultant (K12 Education Innovation)",
+      "Fintech Strategy Management Consultant - AI",
+      "Senior Risk Analyst, Sustainability Controls",
+      "Finance Manager - Healthcare, Amazon One Medical",
+      "Payment Network Relationship Management and Strategy Consultant",
+      "Strategic Risk Analyst",
+      "Strategic Risk Analyst, Behavioral & Psychological Risk"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "data_analysis",
+        "count": 4
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 3
+      }
+    ],
+    "preferred_skills": [
+      {
+        "skill_id": "sql",
+        "count": 8
+      },
+      {
+        "skill_id": "python",
+        "count": 6
+      },
+      {
+        "skill_id": "cpp",
+        "count": 6
+      },
+      {
+        "skill_id": "csharp",
+        "count": 6
+      },
+      {
+        "skill_id": "java",
+        "count": 6
+      },
+      {
+        "skill_id": "agile",
+        "count": 1
+      }
+    ],
+    "salary": {
+      "min": 36962.4,
+      "max": 108750.0,
+      "median": 51494,
+      "avg": 59345,
+      "p25": 51481.8,
+      "p75": 68639.4,
+      "sample_size": 16
+    },
+    "experience": {
+      "min_range": [
+        4,
+        10
+      ],
+      "median_min": 7,
+      "avg_min": 6.5,
+      "sample_size": 22
+    },
+    "education": {
+      "bachelor": 14,
+      "any": 7,
+      "unspecified": 7
+    },
+    "work_mode": {
+      "onsite": 19,
+      "hybrid": 6,
+      "remote": 2,
+      "unknown": 1
+    },
+    "top_companies": [
+      "Amazon.com",
+      "Wells Fargo",
+      "Amazon",
+      "OpenAI",
+      "WSP"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 10
+      },
+      {
+        "industry": "healthcare",
+        "count": 6
+      },
+      {
+        "industry": "finance",
+        "count": 5
+      },
+      {
+        "industry": "retail",
+        "count": 2
+      },
+      {
+        "industry": "education",
+        "count": 1
+      }
+    ],
+    "role_id": "finance_ops",
+    "role_name": "Finance / Operations",
+    "role_description": "海外金融 / 运营垂直岗——Fintech Strategy Consultant / Senior Risk Analyst Sustainability / Finance Manager Healthcare AI。",
+    "core_skills": [
+      "data_analysis",
+      "generative_ai"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "data",
+      "summary": "金融 / 运营领域专精 vs 通用数据分析——finance_ops 看金融业务规则，data 看通用数据建模。"
+    },
+    "narrative": "28 条岗位样本量小但信号特别：sample title 是「Fintech Strategy Management Consultant AI」「Senior Risk Analyst Sustainability Controls」「Finance Manager Healthcare Amazon One Medical」——这是金融 / 运营业务岗加 AI 标签的混合层。top 公司 Amazon、Wells Fargo、OpenAI、WSP。中位月薪 51k CNY/月，7 年经验中位——这条线门槛主要是金融 / 业务领域积累，不是 AI 工具栈。",
+    "who_fits": "金融 / Operations / Risk / Compliance 背景，对 AI 有基础理解、能用 GenAI 改造工作流的人。",
+    "who_doesnt": "AI 技术深度路线的人——这条线本质是金融业务岗加 AI 加成，不是核心 AI 工程岗。"
+  }
+]

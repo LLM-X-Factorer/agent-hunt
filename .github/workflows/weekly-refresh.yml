@@ -75,7 +75,8 @@ jobs:
         working-directory: backend
         timeout-minutes: 15
         run: |
-          for s in export_market_data analyze_roles export_real_salary \
+          for s in export_market_data analyze_roles export_role_profiles \
+                  export_real_salary \
                   export_roles_by_industry export_roles_by_city \
                   export_augmented_by_profession export_industry_salary \
                   export_graduate_friendly export_quality_signals \
