@@ -163,17 +163,6 @@
         ]
       },
       {
-        "company": "某北京大型互联网公司",
-        "title": "产品经理- AI /Digital/APP/小程序/SaaS系统（企业业务流程梳理）",
-        "variant_count": 10,
-        "markets": [
-          "domestic"
-        ],
-        "platforms": [
-          "liepin"
-        ]
-      },
-      {
         "company": "OpenAI",
         "title": "Forward Deployed Engineer",
         "variant_count": 10,
@@ -182,6 +171,17 @@
         ],
         "platforms": [
           "vendor_openai"
+        ]
+      },
+      {
+        "company": "某北京大型互联网公司",
+        "title": "产品经理- AI /Digital/APP/小程序/SaaS系统（企业业务流程梳理）",
+        "variant_count": 10,
+        "markets": [
+          "domestic"
+        ],
+        "platforms": [
+          "liepin"
         ]
       },
       {
@@ -196,17 +196,6 @@
         ]
       },
       {
-        "company": "Amazon.com",
-        "title": "Software Development Engineer",
-        "variant_count": 8,
-        "markets": [
-          "international"
-        ],
-        "platforms": [
-          "indeed"
-        ]
-      },
-      {
         "company": "ReminderMedia",
         "title": "Digital Marketing Specialist",
         "variant_count": 8,
@@ -216,6 +205,17 @@
         "platforms": [
           "indeed",
           "linkedin"
+        ]
+      },
+      {
+        "company": "Amazon.com",
+        "title": "Software Development Engineer",
+        "variant_count": 8,
+        "markets": [
+          "international"
+        ],
+        "platforms": [
+          "indeed"
         ]
       }
     ]

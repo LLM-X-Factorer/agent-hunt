@@ -36,11 +36,11 @@
     "avg_salary": 42509,
     "top_skills": [
       {
-        "skill_id": "llm",
+        "skill_id": "python",
         "count": 37
       },
       {
-        "skill_id": "python",
+        "skill_id": "llm",
         "count": 37
       },
       {
@@ -185,11 +185,11 @@
         "count": 20
       },
       {
-        "skill_id": "llm",
+        "skill_id": "cpp",
         "count": 12
       },
       {
-        "skill_id": "cpp",
+        "skill_id": "llm",
         "count": 12
       },
       {
@@ -330,6 +330,10 @@
         "count": 4
       },
       {
+        "skill_id": "nlp",
+        "count": 2
+      },
+      {
         "skill_id": "react",
         "count": 2
       },
@@ -338,11 +342,7 @@
         "count": 2
       },
       {
-        "skill_id": "nlp",
-        "count": 2
-      },
-      {
-        "skill_id": "langchain",
+        "skill_id": "generative_ai",
         "count": 1
       }
     ]

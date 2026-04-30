@@ -2,14 +2,14 @@
   {
     "job_count": 1347,
     "sample_titles": [
-      "AI智能获客",
-      "AI仿真人剧导演",
-      "Project Leader (AD-SD)- Therapeutic Antibody Discovery",
-      "教研员",
-      "AI研究院院长",
-      "AI 团队 Leader - Agent 方向",
-      "AI Application Engineer (LLM/Agent Direction)",
-      "ComfyUI工作流设计师、AI动画设计师"
+      "AI + 财经商业讲师",
+      "医药医疗行业大客户经理（AI产品）",
+      "智能无人车远程监控客服",
+      "精益生产经理",
+      "AI漫剧制作人",
+      "AI LLM Technical Support (English) - Volcengine MaaS",
+      "Automated Driving Test Driver",
+      "航空航天科研专家"
     ],
     "required_skills": [
       {
@@ -37,7 +37,7 @@
         "count": 5
       },
       {
-        "skill_id": "pytorch",
+        "skill_id": "generative_ai",
         "count": 4
       },
       {
@@ -45,7 +45,7 @@
         "count": 4
       },
       {
-        "skill_id": "generative_ai",
+        "skill_id": "pytorch",
         "count": 4
       },
       {
@@ -90,11 +90,10 @@
       "associate": 4
     },
     "work_mode": {
-      "unknown": 1301,
-      "onsite": 32,
+      "onsite": 1235,
+      "unknown": 99,
       "remote": 12,
-      "hybrid": 1,
-      "null": 1
+      "hybrid": 1
     },
     "top_companies": [
       "腾讯",
@@ -131,14 +130,14 @@
   {
     "job_count": 734,
     "sample_titles": [
-      "AI Agent 产品经理",
-      "AI-Agent开发运营",
-      "AI Engineer-AI 开发工程师",
-      "AI产品开发",
-      "LLM Algorithm Engineer",
-      "Industrial AI LLM Algorithm Expert",
-      "AI智能体构建",
-      "AI Agent Development Engineer"
+      "AI Agent平台研发工程师",
+      "AI Agent Engineer",
+      "AI Agent Application Engineer",
+      "跨境电商AI Agent 产品负责人",
+      "AI算法工程师（海外AI产品）",
+      "AI产品开发实习生（医疗大模型）",
+      "Perception LLM Engineer",
+      "AI 量化工程师"
     ],
     "required_skills": [
       {
@@ -166,11 +165,11 @@
         "count": 14
       },
       {
-        "skill_id": "multimodal_ai",
+        "skill_id": "golang",
         "count": 11
       },
       {
-        "skill_id": "golang",
+        "skill_id": "multimodal_ai",
         "count": 11
       },
       {
@@ -222,8 +221,8 @@
       "phd": 4
     },
     "work_mode": {
-      "unknown": 708,
-      "onsite": 24,
+      "onsite": 714,
+      "unknown": 18,
       "remote": 2
     },
     "top_companies": [
@@ -261,14 +260,14 @@
   {
     "job_count": 439,
     "sample_titles": [
-      "AI LLM Product Manager",
-      "Product and Digital Manager",
-      "行业通用智能体产品经理（toB/toG）",
-      "AI产品经理（医疗MDT）",
-      "高级产品经理（AI方向）",
-      "AI产品经理",
-      "AI Product Manager (Smart Manufacturing)",
-      "AI Product Manager (LLM AIGC)"
+      "AI策略产品经理（LLM应用方向）",
+      "AIGC产品运营",
+      "AI Tutor产品经理",
+      "AI产品经理-AI教育工具",
+      "Product Manager - Intelligent Driving",
+      "AI教育产品总监",
+      "智能座舱产品经理",
+      "AI 产品经理（LLM 应用与 AI 工程方向）"
     ],
     "required_skills": [
       {
@@ -280,10 +279,6 @@
         "count": 9
       },
       {
-        "skill_id": "computer_vision",
-        "count": 2
-      },
-      {
         "skill_id": "data_analysis",
         "count": 2
       },
@@ -292,15 +287,19 @@
         "count": 2
       },
       {
+        "skill_id": "computer_vision",
+        "count": 2
+      },
+      {
+        "skill_id": "fine_tuning",
+        "count": 1
+      },
+      {
         "skill_id": "function_calling",
         "count": 1
       },
       {
         "skill_id": "multi_agent",
-        "count": 1
-      },
-      {
-        "skill_id": "fine_tuning",
         "count": 1
       },
       {
@@ -355,8 +354,8 @@
       "master": 16
     },
     "work_mode": {
-      "unknown": 436,
-      "onsite": 3
+      "onsite": 422,
+      "unknown": 17
     },
     "top_companies": [
       "腾讯",
@@ -393,14 +392,14 @@
   {
     "job_count": 328,
     "sample_titles": [
-      "工业AI算法专家",
       "Algorithm Intern (Industrial AI Direction)",
-      "Scientist - AI, Digital and Robotics",
-      "Plan& Control Algorithm Engineer 控制规划算法工程师",
-      "AI Drug Discovery Scientist",
       "Discovery Lab Analytical Automation Scientist",
-      "AI量化研究助理",
-      "券商AI量化研究岗"
+      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "自动驾驶算法工程师",
+      "LLM算法实习生（医疗大模型方向）",
+      "算法工程师",
+      "AI Algorithm Engineer (LLM Direction)",
+      "高级图像算法工程师"
     ],
     "required_skills": [
       {
@@ -416,12 +415,16 @@
         "count": 7
       },
       {
+        "skill_id": "pytorch",
+        "count": 6
+      },
+      {
         "skill_id": "tensorflow",
         "count": 6
       },
       {
-        "skill_id": "pytorch",
-        "count": 6
+        "skill_id": "fine_tuning",
+        "count": 5
       },
       {
         "skill_id": "machine_learning",
@@ -432,15 +435,11 @@
         "count": 5
       },
       {
-        "skill_id": "fine_tuning",
-        "count": 5
-      },
-      {
-        "skill_id": "deep_learning",
+        "skill_id": "prompt_engineering",
         "count": 4
       },
       {
-        "skill_id": "prompt_engineering",
+        "skill_id": "deep_learning",
         "count": 4
       }
     ],
@@ -471,8 +470,8 @@
       "any": 8
     },
     "work_mode": {
-      "unknown": 319,
-      "onsite": 8,
+      "onsite": 304,
+      "unknown": 23,
       "remote": 1
     },
     "top_companies": [
@@ -510,14 +509,14 @@
   {
     "job_count": 197,
     "sample_titles": [
-      "AIGC运营",
       "AI自动化运营",
-      "跨境电商运营总监",
-      "AIGC项目运营总监",
-      "AI Doubao Qwen Content Push (Financial Advisor)",
-      "金融大模型AI训练师",
-      "电商短视频内容运营（AI内容生成方向）",
-      "AI训练师 (智能客服方向)"
+      "AI训练师 (智能客服方向)",
+      "智能客服训练师",
+      "MarTech营销技术专家",
+      "AI数据运营专家（ToB Agent方向）",
+      "智能客服运营",
+      "豆包AI大模型平台运营-火山方舟MaaS",
+      "AIGC运营专家"
     ],
     "required_skills": [
       {
@@ -531,10 +530,6 @@
       {
         "skill_id": "agent_architecture",
         "count": 2
-      },
-      {
-        "skill_id": "tongyi_qianwen",
-        "count": 1
       },
       {
         "skill_id": "nlp",
@@ -558,6 +553,10 @@
       },
       {
         "skill_id": "langchain",
+        "count": 1
+      },
+      {
+        "skill_id": "sql",
         "count": 1
       }
     ],
@@ -592,8 +591,8 @@
       "master": 1
     },
     "work_mode": {
-      "unknown": 189,
-      "onsite": 7,
+      "onsite": 182,
+      "unknown": 14,
       "remote": 1
     },
     "top_companies": [
@@ -631,14 +630,14 @@
   {
     "job_count": 152,
     "sample_titles": [
-      "医疗器械销售代表-外周介入",
-      "医疗器械销售代表",
-      "AI Customer Acquisition / Private Domain Traffic Generation",
-      "医疗AI销售",
-      "National Sales Director (Industrial AI)",
       "医疗AI产品销售",
-      "医疗AI一体机销售",
-      "医疗器械销售代表-外周"
+      "智能教育装备销售经理",
+      "企业AI BD岗",
+      "医疗AI大客户销售",
+      "医疗AI省区销售经理",
+      "Global Sales Director (MedTech / AI Healthcare)",
+      "BD总监（德系）",
+      "销售经理/主管（智慧医疗设备-base湖南）"
     ],
     "required_skills": [
       {
@@ -676,16 +675,16 @@
       "master": 1
     },
     "work_mode": {
-      "unknown": 149,
-      "onsite": 2,
+      "onsite": 141,
+      "unknown": 10,
       "remote": 1
     },
     "top_companies": [
       "腾讯",
       "智谱AI",
       "51WORLD",
-      "某合肥互联网上市公司",
-      "某杭州互联网上市公司"
+      "某杭州互联网上市公司",
+      "某合肥互联网上市公司"
     ],
     "top_industries": [
       {
@@ -715,14 +714,14 @@
   {
     "job_count": 144,
     "sample_titles": [
-      "数字化总监（制造业、AI、跨国项目）",
-      "Head of Data Science/AI",
-      "投资部负责人",
-      "投资总监-医疗AI方向",
       "CEO-资方领投AI+Science",
       "AI 智慧医疗技术负责人",
       "Risk Control Director",
-      "AI短剧事业部总经理"
+      "AI架构师/技术负责人（LLM & Agent方向）",
+      "技术架构总监（AI数据/云数据/LLM）",
+      "AI技术负责人",
+      "大模型战略分析/投资专家",
+      "AI 产品技术负责人（电商直播方向）"
     ],
     "required_skills": [
       {
@@ -761,8 +760,8 @@
       "phd": 6
     },
     "work_mode": {
-      "unknown": 143,
-      "onsite": 1
+      "onsite": 143,
+      "unknown": 1
     },
     "top_companies": [
       "腾讯",
@@ -799,14 +798,14 @@
   {
     "job_count": 101,
     "sample_titles": [
-      "商业化副总裁(VP)/自动驾驶政企事业部总经理",
-      "ADAS Platform Software Engineer",
-      "智能座舱项目管理",
-      "智能座舱项目经理",
-      "L4自动驾驶测试",
-      "自动驾驶系统测试工程师",
-      "自动驾驶工程师",
-      "自动驾驶生态合作高级专家"
+      "自动驾驶项目经理",
+      "自动驾驶安全员",
+      "智能座舱工程师",
+      "智能座舱测试",
+      "智能座舱测试工程师/测试专家",
+      "智能座舱系统工程师",
+      "智能座舱软件项目经理",
+      "智能座舱平台项目管理"
     ],
     "required_skills": [
       {
@@ -840,8 +839,7 @@
       "unspecified": 2
     },
     "work_mode": {
-      "unknown": 99,
-      "onsite": 2
+      "onsite": 101
     },
     "top_companies": [
       "某知名公司",
@@ -878,14 +876,14 @@
   {
     "job_count": 83,
     "sample_titles": [
-      "AI与智能制造",
-      "工业AI技术营销经理（石化/化工/冶金／新能源方向）",
-      "IT总监-AI 智能制造方向",
-      "工业AI解决方案经理",
       "工业智能体首席专家",
-      "总裁助理-智能制造方向",
-      "总裁助理（智能制造方向）",
-      "智能制造专家"
+      "智能制造经理",
+      "智能制造设备维护技术员",
+      "智能制造专业大学讲师",
+      "智能制造工程师（具身智能）",
+      "新材料与智能制造科研专家",
+      "工业AI",
+      "智能制造高级数控"
     ],
     "required_skills": [
       {
@@ -920,15 +918,14 @@
       "unspecified": 1
     },
     "work_mode": {
-      "unknown": 80,
-      "onsite": 3
+      "onsite": 83
     },
     "top_companies": [
-      "中控技术",
       "某北京大型电子/半导体/集成电路公司",
+      "中控技术",
       "某北京知名上市公司",
       "某知名公司",
-      "某国内大型电子/半导体/集成电路公司"
+      "某知名上市公司"
     ],
     "top_industries": [
       {
@@ -948,7 +945,7 @@
         "count": 3
       },
       {
-        "industry": "other",
+        "industry": "education",
         "count": 2
       }
     ],
@@ -960,12 +957,12 @@
     "sample_titles": [
       "投资分析师/投资经理/副总裁（AI与先进制造赛道）",
       "Data Analyst - LLM agentic AI",
-      "AI量化投资经理助理",
-      "AI量化投资岗",
-      "工业 AI 数据分析师",
-      "AI量化交易员",
       "豆包AI大模型数据分析-火山方舟MaaS",
-      "AI 增强型临床统计编程"
+      "AI 增强型临床统计编程",
+      "AI大数据分析师（电商）",
+      "Drug Discovery Biologist",
+      "AI增强型临床统计编程师",
+      "AI量化交易员"
     ],
     "required_skills": [
       {
@@ -1028,13 +1025,13 @@
       "master": 1
     },
     "work_mode": {
-      "unknown": 80,
-      "onsite": 2
+      "onsite": 77,
+      "unknown": 5
     },
     "top_companies": [
       "腾讯",
-      "MiniMax",
       "Moonshot AI",
+      "MiniMax",
       "北京深度智耀科技有限公司",
       "智谱AI"
     ],
@@ -1066,14 +1063,14 @@
   {
     "job_count": 73,
     "sample_titles": [
-      "数字化转型规划咨询高级经理",
       "AIT (AI Business Transformation) Senior Specialist/Supervisor",
       "AI交付经理PMO- AI客服（电商）方向",
-      "电商 AI 流程建构师",
-      "数字化转型负责人",
       "汽车行业IT战略与数字化转型高级经理",
+      "企业AI总监",
+      "AIT（AI业务改造）高级专员/主管",
       "数字化转型总监",
-      "HR（数字化转型方向）"
+      "AI转型战略分析专家",
+      "供应链数字化转型专家"
     ],
     "required_skills": [
       {
@@ -1112,15 +1109,14 @@
       "unspecified": 2
     },
     "work_mode": {
-      "unknown": 72,
-      "onsite": 1
+      "onsite": 73
     },
     "top_companies": [
       "田园东方投资",
       "某知名公司",
       "德勤Deloitte",
       "某青岛家电上市公司",
-      "某北京IT服务公司"
+      "某世界500强上市公司"
     ],
     "top_industries": [
       {
@@ -1150,14 +1146,14 @@
   {
     "job_count": 32,
     "sample_titles": [
-      "后端开发-智能风控方向",
+      "交易风控岗",
       "智能风控经理",
-      "风控经理",
-      "信贷评审-风控中台（制造加工）",
-      "风控专员",
-      "风控管培生",
-      "风控专家",
-      "交易风控岗"
+      "采供内控专家（智能风控方向）",
+      "内控经理",
+      "平台风控策略产品",
+      "风控研发工程师（Go｜黑灰产对抗）",
+      "法务（IPR & 合规）",
+      "高级内控专家"
     ],
     "required_skills": [
       {
@@ -1169,16 +1165,12 @@
         "count": 5
       },
       {
-        "skill_id": "prompt_engineering",
-        "count": 4
-      },
-      {
         "skill_id": "data_analysis",
         "count": 4
       },
       {
-        "skill_id": "agent_architecture",
-        "count": 3
+        "skill_id": "prompt_engineering",
+        "count": 4
       },
       {
         "skill_id": "coze",
@@ -1194,6 +1186,10 @@
       },
       {
         "skill_id": "deepseek",
+        "count": 3
+      },
+      {
+        "skill_id": "agent_architecture",
         "count": 3
       },
       {
@@ -1226,15 +1222,15 @@
       "any": 3
     },
     "work_mode": {
-      "unknown": 30,
-      "onsite": 2
+      "onsite": 28,
+      "unknown": 4
     },
     "top_companies": [
       "腾讯",
       "Moonshot AI",
-      "某上海基金/证券/期货公司",
       "阿里云智能",
-      "MiniMax"
+      "MiniMax",
+      "智谱AI"
     ],
     "top_industries": [
       {
@@ -1264,14 +1260,14 @@
   {
     "job_count": 30,
     "sample_titles": [
-      "AI教育讲师",
-      "教育人工智能专员",
-      "智能教育产品交付与服务经理",
-      "AI+教育解决方案岗位",
-      "市场经理-”AI+教育“",
-      "AI技术人员-教育应用、AI讲师",
       "AI高级人工智能教育讲师",
-      "高职人工智能教育产品开发（产教融合）"
+      "人工智能教育推广员",
+      "AI教育产品主管",
+      "智能教育兼职教练",
+      "心理智能教育培训师",
+      "教育人工智能专员",
+      "AI智能教育校长",
+      "AI教育讲师"
     ],
     "required_skills": [
       {
@@ -1304,15 +1300,14 @@
       "master": 6
     },
     "work_mode": {
-      "unknown": 29,
-      "onsite": 1
+      "onsite": 30
     },
     "top_companies": [
       "某北京云计算/大数据公司",
-      "九叁有方人工智能",
-      "某深圳政府/公共事业公司",
       "某北京互联网公司",
-      "忆学记忆方法营"
+      "某深圳政府/公共事业公司",
+      "九叁有方人工智能",
+      "景瀚(深圳)信息科技有限公司"
     ],
     "top_industries": [
       {
@@ -1339,13 +1334,13 @@
     "job_count": 14,
     "sample_titles": [
       "医疗AI产品助理",
-      "医疗AI售前",
       "智能体HTA项目管理专员（循证医学/卫生技术评估方向）",
+      "Healthcare AI Project Assistant",
+      "医疗AI售前",
       "中高级投标专员（医疗AI大模型/智慧医疗/医疗影像云）",
       "理赔业务专家（寿险/财产险+LLM）",
       "智慧医疗AI产品助理",
-      "医疗AI架构师/产品师",
-      "智慧医疗-医学知识专家"
+      "医疗AI架构师/产品师"
     ],
     "required_skills": [
       {
@@ -1379,15 +1374,14 @@
       "unspecified": 2
     },
     "work_mode": {
-      "unknown": 13,
-      "onsite": 1
+      "onsite": 14
     },
     "top_companies": [
       "联众医疗IT服务",
       "百川智能",
       "SenseTime",
-      "某成都IT服务公司",
-      "广州市中维公益卫生技术评估研究所"
+      "广州市中维公益卫生技术评估研究所",
+      "智铭"
     ],
     "top_industries": [
       {
@@ -1405,9 +1399,9 @@
   {
     "job_count": 5,
     "sample_titles": [
+      "智能客服",
       "智能客服系统专家",
       "Java开发工程师（智能客服方向）",
-      "智能客服",
       "智能客服管培生"
     ],
     "required_skills": [
@@ -1440,8 +1434,7 @@
       "any": 2
     },
     "work_mode": {
-      "unknown": 3,
-      "onsite": 2
+      "onsite": 5
     },
     "top_companies": [
       "京东",
@@ -1451,6 +1444,14 @@
     ],
     "top_industries": [
       {
+        "industry": "internet",
+        "count": 1
+      },
+      {
+        "industry": "retail",
+        "count": 1
+      },
+      {
         "industry": "manufacturing",
         "count": 1
       },
@@ -1459,15 +1460,7 @@
         "count": 1
       },
       {
-        "industry": "internet",
-        "count": 1
-      },
-      {
         "industry": "other",
-        "count": 1
-      },
-      {
-        "industry": "retail",
         "count": 1
       }
     ],

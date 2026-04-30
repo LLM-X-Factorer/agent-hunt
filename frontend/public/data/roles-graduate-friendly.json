@@ -10,11 +10,11 @@
       "socialSalaryMedian": 25000,
       "topCampusCities": [
         {
-          "city": "郑州",
+          "city": "北京",
           "count": 1
         },
         {
-          "city": "北京",
+          "city": "郑州",
           "count": 1
         }
       ],
@@ -162,11 +162,11 @@
           "count": 3
         },
         {
-          "city": "西宁",
+          "city": "合肥",
           "count": 1
         },
         {
-          "city": "合肥",
+          "city": "Futian District",
           "count": 1
         }
       ],
@@ -197,10 +197,6 @@
           "count": 2
         },
         {
-          "city": "杭州",
-          "count": 1
-        },
-        {
           "city": "重庆",
           "count": 1
         },
@@ -214,6 +210,10 @@
         },
         {
           "city": "天津",
+          "count": 1
+        },
+        {
+          "city": "Shenzhen",
           "count": 1
         }
       ],
@@ -232,19 +232,7 @@
       "socialSalaryMedian": 22500,
       "topCampusCities": [
         {
-          "city": "Shenzhen",
-          "count": 1
-        },
-        {
-          "city": "成都",
-          "count": 1
-        },
-        {
           "city": "广州",
-          "count": 1
-        },
-        {
-          "city": "贵阳 观山湖",
           "count": 1
         },
         {
@@ -260,7 +248,19 @@
           "count": 1
         },
         {
-          "city": "重庆",
+          "city": "济南",
+          "count": 1
+        },
+        {
+          "city": "嘉兴",
+          "count": 1
+        },
+        {
+          "city": "石家庄",
+          "count": 1
+        },
+        {
+          "city": "Chengdu",
           "count": 1
         }
       ],
@@ -279,6 +279,10 @@
       "socialSalaryMedian": 37500,
       "topCampusCities": [
         {
+          "city": "新乡 红旗区",
+          "count": 1
+        },
+        {
           "city": "攀枝花",
           "count": 1
         },
@@ -288,10 +292,6 @@
         },
         {
           "city": "潍坊",
-          "count": 1
-        },
-        {
-          "city": "新乡 红旗区",
           "count": 1
         },
         {
@@ -384,11 +384,7 @@
       "socialSalaryMedian": 35000,
       "topCampusCities": [
         {
-          "city": "北京",
-          "count": 1
-        },
-        {
-          "city": "上海",
+          "city": "龙岩",
           "count": 1
         },
         {
@@ -396,7 +392,11 @@
           "count": 1
         },
         {
-          "city": "龙岩",
+          "city": "北京",
+          "count": 1
+        },
+        {
+          "city": "上海",
           "count": 1
         }
       ],
@@ -423,15 +423,15 @@
           "count": 1
         },
         {
-          "city": "上海",
-          "count": 1
-        },
-        {
           "city": "深圳",
           "count": 1
         },
         {
           "city": "Wuhan",
+          "count": 1
+        },
+        {
+          "city": "上海",
           "count": 1
         },
         {
@@ -466,11 +466,11 @@
           "count": 3
         },
         {
-          "city": "广州",
+          "city": "杭州",
           "count": 1
         },
         {
-          "city": "杭州",
+          "city": "广州",
           "count": 1
         }
       ],
@@ -714,6 +714,14 @@
           "count": 2
         },
         {
+          "city": "Gardena",
+          "count": 1
+        },
+        {
+          "city": "Los Angeles",
+          "count": 1
+        },
+        {
           "city": "Santa Clara",
           "count": 1
         },
@@ -727,14 +735,6 @@
         },
         {
           "city": "Huntsville",
-          "count": 1
-        },
-        {
-          "city": "Gardena",
-          "count": 1
-        },
-        {
-          "city": "Los Angeles",
           "count": 1
         }
       ],
@@ -871,11 +871,11 @@
           "count": 1
         },
         {
-          "city": "North America",
+          "city": "NYC",
           "count": 1
         },
         {
-          "city": "Palo Alto",
+          "city": "Charlotte",
           "count": 1
         }
       ],
@@ -984,11 +984,11 @@
           "count": 2
         },
         {
-          "city": "Washington",
+          "city": "Columbus",
           "count": 2
         },
         {
-          "city": "Columbus",
+          "city": "Washington",
           "count": 2
         },
         {

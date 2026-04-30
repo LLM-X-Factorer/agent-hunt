@@ -1,800 +1,5 @@
 {
   "p1_p2_industries": {
-    "education": [
-      {
-        "title": "Curriculum Growth Manager",
-        "company": "Code.org",
-        "location": "United States",
-        "salary_min": 58181,
-        "salary_max": 64646,
-        "salary_currency": "USD",
-        "salary_min_cny_monthly": 34908,
-        "salary_max_cny_monthly": 38787,
-        "experience_requirement": "3-5y",
-        "education": "any",
-        "work_mode": "remote",
-        "required_skills": [
-          "EdTech Sales",
-          "SaaS Sales",
-          "Enterprise Sales",
-          "Pipeline Management",
-          "Territory Management",
-          "School District Engagement",
-          "Institutional Sales",
-          "Multi-stakeholder Sales"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [
-          "Develop and execute a regional growth strategy aligned to annual adoption goals",
-          "Build and manage a pipeline of district opportunities from outreach through formal commitment",
-          "Identify and prioritize high-potential districts based on signals such as curriculum review cycles, policy developments, and funding availability"
-        ],
-        "base_profession": "教育销售/课程推广经理",
-        "platform_id": "linkedin",
-        "source_url": "https://www.linkedin.com/jobs/view/4384538694"
-      },
-      {
-        "title": "智能制造专业大学讲师",
-        "company": "大技狮科技",
-        "location": "广州",
-        "salary_min": 15000,
-        "salary_max": 25000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 15000,
-        "salary_max_cny_monthly": 25000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Smart Manufacturing"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [
-          "Deliver lectures on Smart Manufacturing"
-        ],
-        "base_profession": "教师",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/abdf80488da909ba0nRy09q0EVpZ.html"
-      },
-      {
-        "title": "人工智能/大数据教育课程产品经理",
-        "company": null,
-        "location": "北京",
-        "salary_min": 25000,
-        "salary_max": 40000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 25000,
-        "salary_max_cny_monthly": 40000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "AI",
-          "Big Data",
-          "Product Management",
-          "Curriculum Development"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "教育课程产品经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72473167.shtml"
-      },
-      {
-        "title": "AI教育业务合伙人",
-        "company": null,
-        "location": "西安",
-        "salary_min": 20000,
-        "salary_max": 50000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 50000,
-        "experience_requirement": "5y+",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "AI",
-          "Education",
-          "Business Development"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "教师",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/dc0bac587e5a807a03Fy396_EFFW.html"
-      },
-      {
-        "title": "AI教育讲师",
-        "company": "忆学记忆方法营",
-        "location": "武汉·江夏区·流芳",
-        "salary_min": 12000,
-        "salary_max": 24000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 12000,
-        "salary_max_cny_monthly": 24000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "AI concepts",
-          "Teaching"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "教师",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/97dd9919b4ef64ba0nV80ti7FFZT.html"
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Integration engineer-AI LLM",
-        "company": "某合肥大型整车制造公司",
-        "location": "合肥",
-        "salary_min": 21000,
-        "salary_max": 22000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 21000,
-        "salary_max_cny_monthly": 22000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "AI/ML",
-          "LLM",
-          "Computer Vision",
-          "Time Series Analysis",
-          "CAN",
-          "CAN FD",
-          "LIN",
-          "SOME/IP"
-        ],
-        "preferred_skills": [
-          "Automotive Software Development",
-          "German"
-        ],
-        "responsibilities": [
-          "设计并落地基于人工智能 / 机器学习（AI/ML）的自动化测试方案，覆盖功能测试、系统集成测试、回归测试等各类测试场景。",
-          "运用大语言模型 LLM、计算机视觉、时序数据分析等前沿 AI 技术，智能解析 CAN/LIN/ 车载以太网总线日志、测试报告、缺陷库，自动识别异常问题与潜在隐性风险。",
-          "开发智能测试调度与资源优化系统，实现任务动态分配、优先级预判、测试瓶颈预警。"
-        ],
-        "base_profession": "集成工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/74029103.shtml"
-      },
-      {
-        "title": "智能座舱主机DRE工程师",
-        "company": "上海犀重新能源汽车有限公司",
-        "location": "杭州-钱塘区",
-        "salary_min": 18000,
-        "salary_max": 25000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 18000,
-        "salary_max_cny_monthly": 25000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Smart Cockpit",
-          "Head Unit",
-          "DRE"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "汽车电子工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1978420045.shtml"
-      },
-      {
-        "title": "嵌入式软件开发工程师 (AI方向)",
-        "company": "博世汽车部件(苏州)有限公司",
-        "location": "苏州",
-        "salary_min": 15000,
-        "salary_max": 30000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 15000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": null,
-        "education": "master",
-        "work_mode": null,
-        "required_skills": [
-          "Embedded Software Development",
-          "AI"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "嵌入式软件开发工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1980564995.shtml"
-      },
-      {
-        "title": "智能座舱项目管理",
-        "company": null,
-        "location": "广州",
-        "salary_min": 15000,
-        "salary_max": 30000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 15000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Project Management",
-          "Smart Cockpit"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "项目管理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72123849.shtml"
-      },
-      {
-        "title": "自动驾驶测试工程师（LLM）",
-        "company": "小鹏汽车",
-        "location": "广州-天河区",
-        "salary_min": 18750,
-        "salary_max": 43750,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 18750,
-        "salary_max_cny_monthly": 43750,
-        "experience_requirement": "1-3y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "LLM",
-          "自动驾驶测试"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "测试工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1980799829.shtml"
-      }
-    ],
-    "healthcare": [
-      {
-        "title": "医疗AI战略项目总监(经理)",
-        "company": "某知名公司",
-        "location": "上海",
-        "salary_min": 30000,
-        "salary_max": 50000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 50000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Healthcare AI",
-          "Project Management",
-          "Strategy"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "医疗战略项目管理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72806845.shtml"
-      },
-      {
-        "title": "Python Backend Senior Developer (LLM, Pharma)",
-        "company": "Professional Technical Service Company",
-        "location": "Suzhou",
-        "salary_min": 29166,
-        "salary_max": 35000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 29166,
-        "salary_max_cny_monthly": 35000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Python",
-          "Backend Development",
-          "LLM"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "医药",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72916239.shtml"
-      },
-      {
-        "title": "医疗AI产品经理",
-        "company": "安图生物制药",
-        "location": "上海-浦东新区",
-        "salary_min": 20000,
-        "salary_max": 35000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 35000,
-        "experience_requirement": "3-5y",
-        "education": "master",
-        "work_mode": null,
-        "required_skills": [
-          "AI",
-          "Product Management",
-          "Healthcare Domain Knowledge"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "产品经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1980818037.shtml"
-      },
-      {
-        "title": "AI产品经理（医疗MDT）",
-        "company": null,
-        "location": "深圳",
-        "salary_min": 30000,
-        "salary_max": 50000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 50000,
-        "experience_requirement": "5y+",
-        "education": "master",
-        "work_mode": null,
-        "required_skills": [
-          "AI Product Management",
-          "Medical MDT"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "产品经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/73208607.shtml"
-      },
-      {
-        "title": "项目经理（支持 AI 产品交付）",
-        "company": "泰格医药",
-        "location": "上海",
-        "salary_min": 20000,
-        "salary_max": 30000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": "1-3y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Project Management",
-          "AI Product Delivery"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "项目经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1980960513.shtml"
-      }
-    ],
-    "internet": [
-      {
-        "title": "采供内控专家（智能风控方向）",
-        "company": "某杭州互联网上市公司",
-        "location": "北京",
-        "salary_min": 30000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Big Data",
-          "AI",
-          "Machine Learning",
-          "Internal Control",
-          "Risk Management",
-          "Data Analysis",
-          "AI Agent Development",
-          "Low-code Platforms"
-        ],
-        "preferred_skills": [
-          "Intelligent Risk Control System Development"
-        ],
-        "responsibilities": [
-          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过 AI 驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
-          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
-          "AI 能力在风控场景落地：结合业务需求，推动 AI 工具 / 模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
-        ],
-        "base_profession": "风控专家",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72808021.shtml"
-      },
-      {
-        "title": "采供内控专家（智能风控方向）",
-        "company": "阿里云智能",
-        "location": "杭州",
-        "salary_min": 10000,
-        "salary_max": 20000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 20000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Big Data",
-          "AI",
-          "Machine Learning",
-          "Internal Control",
-          "Risk Management",
-          "Data Analysis",
-          "AI Agent Building",
-          "Low-code Platform"
-        ],
-        "preferred_skills": [
-          "Intelligent Risk Control System Building"
-        ],
-        "responsibilities": [
-          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
-          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
-          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
-        ],
-        "base_profession": "风控专家",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1979617465.shtml"
-      },
-      {
-        "title": "采供内控专家（智能风控方向）",
-        "company": "某大型知名互联网公司",
-        "location": "杭州",
-        "salary_min": 30000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "AI Agent development",
-          "Low-code platforms",
-          "LLM understanding",
-          "LLM API integration",
-          "Prompt Engineering",
-          "SQL",
-          "Python"
-        ],
-        "preferred_skills": [
-          "Intelligent risk control system development"
-        ],
-        "responsibilities": [
-          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
-          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性。",
-          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）。"
-        ],
-        "base_profession": "风控专家",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/71553511.shtml"
-      },
-      {
-        "title": "智能风控产品经理",
-        "company": "网易集团",
-        "location": "杭州-滨江区",
-        "salary_min": 25000,
-        "salary_max": 45000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 25000,
-        "salary_max_cny_monthly": 45000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Enterprise Service Commercial Product Experience",
-          "Product Design"
-        ],
-        "preferred_skills": [
-          "Smart Risk Control Product Experience",
-          "Enterprise Service Product Experience"
-        ],
-        "responsibilities": [
-          "负责风控引擎相关产品模块，场景化解决方案等，负责产品规划、产品设计、产品包装等全流程产品工作",
-          "以客户价值为导向，洞察客户业务场景，洞察行业，通过功能设计/解决方案的创新设计，持续为客户输出高价值的产品服务",
-          "为销售赋能，通过定价方案/产品材料/官网等模块的持续迭代，支撑团队达成商业化目标"
-        ],
-        "base_profession": "产品经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1966330477.shtml"
-      },
-      {
-        "title": "医疗AI应用场景售前工程师(兼全国省代培训讲师)",
-        "company": "某成都IT服务公司",
-        "location": "成都",
-        "salary_min": 12000,
-        "salary_max": 18000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 12000,
-        "salary_max_cny_monthly": 18000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "AI",
-          "Healthcare IT",
-          "Presales",
-          "Training"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [
-          "负责医疗AI应用场景的售前支持",
-          "负责全国省代培训讲师工作"
-        ],
-        "base_profession": "售前工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72604009.shtml"
-      }
-    ],
-    "consulting": [
-      {
-        "title": "智能风控经理",
-        "company": "俊择(厦门)管理顾问有限公司",
-        "location": "广州-天河区",
-        "salary_min": 20000,
-        "salary_max": 40000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 40000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Risk Management Theory",
-          "Excel",
-          "Quantitative Statistical Analysis Software",
-          "Securities Market Regulations",
-          "Financial Regulations"
-        ],
-        "preferred_skills": [
-          "FRM",
-          "CFA",
-          "CPA",
-          "VBA",
-          "MATLAB",
-          "Python"
-        ],
-        "responsibilities": [
-          "参与制定公司市场风险管理政策和制度、流程",
-          "协助总部构建全面风险管理体系，组织构建市场风险管理系统，建立及运用风险量化模型，定期检视更新计量模型",
-          "组织日常市场风险监控工作，结合公司情况建立关键市场风险监控指标，分析内外部环境变化对公司整体及业务的影响，并进行检测、报告，跟踪处理业务风险事件"
-        ],
-        "base_profession": "金融风控经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1978318987.shtml"
-      },
-      {
-        "title": "AI Customer Acquisition / Private Domain Traffic Generation",
-        "company": "深圳市嘉天润信息咨询",
-        "location": "Shenzhen",
-        "salary_min": 17000,
-        "salary_max": 30000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 17000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "AI",
-          "Customer Acquisition",
-          "Private Domain Traffic"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [
-          "Utilize AI for customer acquisition",
-          "Generate leads through private domain traffic",
-          "Expand customer base"
-        ],
-        "base_profession": "销售",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/530a7504bf17ec510nZ52N69FFVQ.html"
-      },
-      {
-        "title": "AI Doubao Qwen Content Push (Financial Advisor)",
-        "company": "同登彼岸信息咨询",
-        "location": "杭州",
-        "salary_min": 11000,
-        "salary_max": 22000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 11000,
-        "salary_max_cny_monthly": 22000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "LLM",
-          "Doubao",
-          "Qwen",
-          "Financial Advisory"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "金融顾问",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/54af643d949c34df0nZ529i8F1tS.html"
-      },
-      {
-        "title": "PMO 项目管理专家",
-        "company": "某知名公司",
-        "location": "杭州",
-        "salary_min": 27000,
-        "salary_max": 45000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 27000,
-        "salary_max_cny_monthly": 45000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Digital Transformation",
-          "Supply Chain Optimization",
-          "Project Management"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "项目管理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72602665.shtml"
-      },
-      {
-        "title": "数字化专家 - 智能制造方向",
-        "company": "某知名公司",
-        "location": "上海",
-        "salary_min": 40000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 40000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "master",
-        "work_mode": null,
-        "required_skills": [
-          "Digital Transformation",
-          "Smart Manufacturing"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "制造工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/71671027.shtml"
-      }
-    ],
-    "manufacturing": [
-      {
-        "title": "AI系统测试工程师 （软件系统/LLM 芯 片验证方向）",
-        "company": null,
-        "location": "杭州",
-        "salary_min": 35000,
-        "salary_max": 55000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 35000,
-        "salary_max_cny_monthly": 55000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Linux system programming",
-          "IPC",
-          "mmap",
-          "DMA",
-          "BAR",
-          "PCIe",
-          "USB",
-          "User-mode driver interaction"
-        ],
-        "preferred_skills": [
-          "SoC bring-up",
-          "NPU bring-up",
-          "GPU bring-up",
-          "System verification",
-          "Transformer",
-          "LLM inference"
-        ],
-        "responsibilities": [
-          "负责整个 AI 加速芯片的软件系统级验证，覆盖从 Host 到 Device 的完整链路",
-          "基于 Linux 平台编写 验证框架与脚本（Python / Shell / C），通过 PCIe、USB 等通道与芯片交互",
-          "模拟 Android 端运行场景，完成 LLM 推理任务的数据发送、执行控制与结果验证"
-        ],
-        "base_profession": "测试工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/74567487.shtml"
-      },
-      {
-        "title": "机械制造与精密加工领域AI场景出题专家",
-        "company": "宿迁大超智能科技",
-        "location": "西安",
-        "salary_min": 26400,
-        "salary_max": 35200,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 26400,
-        "salary_max_cny_monthly": 35200,
-        "experience_requirement": "1-3y",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "AI",
-          "Mechanical Manufacturing",
-          "Precision Machining"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [
-          "设计和开发机械制造与精密加工领域的AI应用场景题目"
-        ],
-        "base_profession": "机械工程师",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/6a4cb0900d584d200nZ83dy1EFJV.html"
-      },
-      {
-        "title": "生产总监 (工厂数字化转型, 半导体行业)",
-        "company": "某大型半导体公司",
-        "location": "随州",
-        "salary_min": 20000,
-        "salary_max": 30000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [],
-        "preferred_skills": [],
-        "responsibilities": [
-          "负责工厂数字化转型"
-        ],
-        "base_profession": "生产总监",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/5d106df0fd94b86a0nZ52d6-FVFT.html"
-      },
-      {
-        "title": "工业AI 渠道总监 （具备管理与赋能）",
-        "company": "某中型工业AI与机器人视觉自动化设备公司",
-        "location": "广州",
-        "salary_min": 30000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Industrial AI",
-          "Robotics Vision",
-          "Automation Equipment",
-          "Management",
-          "Enablement"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "渠道总监",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/9a2eca72101c57520nZ83t--ElNZ.html"
-      },
-      {
-        "title": "数字化总监（制造业、AI、跨国项目）",
-        "company": null,
-        "location": "Shanghai",
-        "salary_min": 30000,
-        "salary_max": 55000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 55000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Manufacturing",
-          "AI",
-          "Cross-border Project Management"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "数字化总监",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/73443747.shtml"
-      }
-    ],
     "finance": [
       {
         "title": "智能风控平台产品",
@@ -807,7 +12,7 @@
         "salary_max_cny_monthly": 55000,
         "experience_requirement": "5y+",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "Requirement Analysis",
           "Product Design",
@@ -885,7 +90,7 @@
         "salary_max_cny_monthly": 35000,
         "experience_requirement": "5y+",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "Trade Finance",
           "Supply Chain Finance",
@@ -919,7 +124,7 @@
         "salary_max_cny_monthly": 66667,
         "experience_requirement": "5y+",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "Database",
           "Python",
@@ -949,7 +154,7 @@
         "salary_max_cny_monthly": 30000,
         "experience_requirement": "1-3y",
         "education": "master",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "AI",
           "Quantitative Trading",
@@ -965,116 +170,799 @@
         "source_url": "https://www.liepin.com/a/72578295.shtml"
       }
     ],
-    "retail": [
+    "consulting": [
       {
-        "title": "跨境电商运营主管（团队负责人 / AI 提效）",
-        "company": "天津创恒新际信息技术有限公司",
-        "location": "天津-西青区",
-        "salary_min": 8000,
-        "salary_max": 12000,
+        "title": "智能风控经理",
+        "company": "俊择(厦门)管理顾问有限公司",
+        "location": "广州-天河区",
+        "salary_min": 20000,
+        "salary_max": 40000,
         "salary_currency": "CNY",
-        "salary_min_cny_monthly": 8000,
-        "salary_max_cny_monthly": 12000,
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Risk Management Theory",
+          "Excel",
+          "Quantitative Statistical Analysis Software",
+          "Securities Market Regulations",
+          "Financial Regulations"
+        ],
+        "preferred_skills": [
+          "FRM",
+          "CFA",
+          "CPA",
+          "VBA",
+          "MATLAB",
+          "Python"
+        ],
+        "responsibilities": [
+          "参与制定公司市场风险管理政策和制度、流程",
+          "协助总部构建全面风险管理体系，组织构建市场风险管理系统，建立及运用风险量化模型，定期检视更新计量模型",
+          "组织日常市场风险监控工作，结合公司情况建立关键市场风险监控指标，分析内外部环境变化对公司整体及业务的影响，并进行检测、报告，跟踪处理业务风险事件"
+        ],
+        "base_profession": "金融风控经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978318987.shtml"
+      },
+      {
+        "title": "AI Customer Acquisition / Private Domain Traffic Generation",
+        "company": "深圳市嘉天润信息咨询",
+        "location": "Shenzhen",
+        "salary_min": 17000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 17000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Customer Acquisition",
+          "Private Domain Traffic"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Utilize AI for customer acquisition",
+          "Generate leads through private domain traffic",
+          "Expand customer base"
+        ],
+        "base_profession": "销售",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/530a7504bf17ec510nZ52N69FFVQ.html"
+      },
+      {
+        "title": "AI Doubao Qwen Content Push (Financial Advisor)",
+        "company": "同登彼岸信息咨询",
+        "location": "杭州",
+        "salary_min": 11000,
+        "salary_max": 22000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 11000,
+        "salary_max_cny_monthly": 22000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "LLM",
+          "Doubao",
+          "Qwen",
+          "Financial Advisory"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "金融顾问",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/54af643d949c34df0nZ529i8F1tS.html"
+      },
+      {
+        "title": "PMO 项目管理专家",
+        "company": "某知名公司",
+        "location": "杭州",
+        "salary_min": 27000,
+        "salary_max": 45000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 27000,
+        "salary_max_cny_monthly": 45000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Digital Transformation",
+          "Supply Chain Optimization",
+          "Project Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72602665.shtml"
+      },
+      {
+        "title": "数字化专家 - 智能制造方向",
+        "company": "某知名公司",
+        "location": "上海",
+        "salary_min": 40000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Digital Transformation",
+          "Smart Manufacturing"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "制造工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71671027.shtml"
+      }
+    ],
+    "education": [
+      {
+        "title": "Curriculum Growth Manager",
+        "company": "Code.org",
+        "location": "United States",
+        "salary_min": 58181,
+        "salary_max": 64646,
+        "salary_currency": "USD",
+        "salary_min_cny_monthly": 34908,
+        "salary_max_cny_monthly": 38787,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": "remote",
+        "required_skills": [
+          "EdTech Sales",
+          "SaaS Sales",
+          "Enterprise Sales",
+          "Pipeline Management",
+          "Territory Management",
+          "School District Engagement",
+          "Institutional Sales",
+          "Multi-stakeholder Sales"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Develop and execute a regional growth strategy aligned to annual adoption goals",
+          "Build and manage a pipeline of district opportunities from outreach through formal commitment",
+          "Identify and prioritize high-potential districts based on signals such as curriculum review cycles, policy developments, and funding availability"
+        ],
+        "base_profession": "教育销售/课程推广经理",
+        "platform_id": "linkedin",
+        "source_url": "https://www.linkedin.com/jobs/view/4384538694"
+      },
+      {
+        "title": "智能制造专业大学讲师",
+        "company": "大技狮科技",
+        "location": "广州",
+        "salary_min": 15000,
+        "salary_max": 25000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 25000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Smart Manufacturing"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Deliver lectures on Smart Manufacturing"
+        ],
+        "base_profession": "教师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/abdf80488da909ba0nRy09q0EVpZ.html"
+      },
+      {
+        "title": "人工智能/大数据教育课程产品经理",
+        "company": null,
+        "location": "北京",
+        "salary_min": 25000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 25000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Big Data",
+          "Product Management",
+          "Curriculum Development"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教育课程产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72473167.shtml"
+      },
+      {
+        "title": "AI教育业务合伙人",
+        "company": null,
+        "location": "西安",
+        "salary_min": 20000,
+        "salary_max": 50000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 50000,
+        "experience_requirement": "5y+",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Education",
+          "Business Development"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/dc0bac587e5a807a03Fy396_EFFW.html"
+      },
+      {
+        "title": "AI教育产品总监",
+        "company": "瑞森教育",
+        "location": "沈阳·和平区·十四纬路",
+        "salary_min": 20000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Product Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教育产品总监",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/98e7967c3290493303x-2Ni9EltT.html"
+      }
+    ],
+    "healthcare": [
+      {
+        "title": "医疗AI产品经理",
+        "company": "安图生物制药",
+        "location": "上海-浦东新区",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "3-5y",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Product Management",
+          "Healthcare Domain Knowledge"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980818037.shtml"
+      },
+      {
+        "title": "医疗AI战略项目总监(经理)",
+        "company": "某知名公司",
+        "location": "上海",
+        "salary_min": 30000,
+        "salary_max": 50000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 50000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Healthcare AI",
+          "Project Management",
+          "Strategy"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "医疗战略项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72806845.shtml"
+      },
+      {
+        "title": "Python Backend Senior Developer (LLM, Pharma)",
+        "company": "Professional Technical Service Company",
+        "location": "Suzhou",
+        "salary_min": 29166,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 29166,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Python",
+          "Backend Development",
+          "LLM"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "医药",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72916239.shtml"
+      },
+      {
+        "title": "AI产品经理（医疗MDT）",
+        "company": null,
+        "location": "深圳",
+        "salary_min": 30000,
+        "salary_max": 50000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 50000,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI Product Management",
+          "Medical MDT"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73208607.shtml"
+      },
+      {
+        "title": "项目经理（支持 AI 产品交付）",
+        "company": "泰格医药",
+        "location": "上海",
+        "salary_min": 20000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 30000,
         "experience_requirement": "1-3y",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
-          "E-commerce Operations",
+          "Project Management",
+          "AI Product Delivery"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980960513.shtml"
+      }
+    ],
+    "internet": [
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "阿里云智能",
+        "location": "杭州",
+        "salary_min": 10000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Big Data",
+          "AI",
+          "Machine Learning",
+          "Internal Control",
+          "Risk Management",
+          "Data Analysis",
+          "AI Agent Building",
+          "Low-code Platform"
+        ],
+        "preferred_skills": [
+          "Intelligent Risk Control System Building"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1979617465.shtml"
+      },
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "某杭州互联网上市公司",
+        "location": "北京",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Big Data",
+          "AI",
+          "Machine Learning",
+          "Internal Control",
+          "Risk Management",
+          "Data Analysis",
+          "AI Agent Development",
+          "Low-code Platforms"
+        ],
+        "preferred_skills": [
+          "Intelligent Risk Control System Development"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过 AI 驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+          "AI 能力在风控场景落地：结合业务需求，推动 AI 工具 / 模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72808021.shtml"
+      },
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "某大型知名互联网公司",
+        "location": "杭州",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI Agent development",
+          "Low-code platforms",
+          "LLM understanding",
+          "LLM API integration",
+          "Prompt Engineering",
+          "SQL",
+          "Python"
+        ],
+        "preferred_skills": [
+          "Intelligent risk control system development"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性。",
+          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）。"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71553511.shtml"
+      },
+      {
+        "title": "智能风控产品经理",
+        "company": "网易集团",
+        "location": "杭州-滨江区",
+        "salary_min": 25000,
+        "salary_max": 45000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 25000,
+        "salary_max_cny_monthly": 45000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Enterprise Service Commercial Product Experience",
+          "Product Design"
+        ],
+        "preferred_skills": [
+          "Smart Risk Control Product Experience",
+          "Enterprise Service Product Experience"
+        ],
+        "responsibilities": [
+          "负责风控引擎相关产品模块，场景化解决方案等，负责产品规划、产品设计、产品包装等全流程产品工作",
+          "以客户价值为导向，洞察客户业务场景，洞察行业，通过功能设计/解决方案的创新设计，持续为客户输出高价值的产品服务",
+          "为销售赋能，通过定价方案/产品材料/官网等模块的持续迭代，支撑团队达成商业化目标"
+        ],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1966330477.shtml"
+      },
+      {
+        "title": "医疗AI应用场景售前工程师(兼全国省代培训讲师)",
+        "company": "某成都IT服务公司",
+        "location": "成都",
+        "salary_min": 12000,
+        "salary_max": 18000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 12000,
+        "salary_max_cny_monthly": 18000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Healthcare IT",
+          "Presales",
+          "Training"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "负责医疗AI应用场景的售前支持",
+          "负责全国省代培训讲师工作"
+        ],
+        "base_profession": "售前工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72604009.shtml"
+      }
+    ],
+    "manufacturing": [
+      {
+        "title": "AI系统测试工程师 （软件系统/LLM 芯 片验证方向）",
+        "company": null,
+        "location": "杭州",
+        "salary_min": 35000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 35000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Linux system programming",
+          "IPC",
+          "mmap",
+          "DMA",
+          "BAR",
+          "PCIe",
+          "USB",
+          "User-mode driver interaction"
+        ],
+        "preferred_skills": [
+          "SoC bring-up",
+          "NPU bring-up",
+          "GPU bring-up",
+          "System verification",
+          "Transformer",
+          "LLM inference"
+        ],
+        "responsibilities": [
+          "负责整个 AI 加速芯片的软件系统级验证，覆盖从 Host 到 Device 的完整链路",
+          "基于 Linux 平台编写 验证框架与脚本（Python / Shell / C），通过 PCIe、USB 等通道与芯片交互",
+          "模拟 Android 端运行场景，完成 LLM 推理任务的数据发送、执行控制与结果验证"
+        ],
+        "base_profession": "测试工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74567487.shtml"
+      },
+      {
+        "title": "机械制造与精密加工领域AI场景出题专家",
+        "company": "宿迁大超智能科技",
+        "location": "西安",
+        "salary_min": 26400,
+        "salary_max": 35200,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 26400,
+        "salary_max_cny_monthly": 35200,
+        "experience_requirement": "1-3y",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Mechanical Manufacturing",
+          "Precision Machining"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "设计和开发机械制造与精密加工领域的AI应用场景题目"
+        ],
+        "base_profession": "机械工程师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/6a4cb0900d584d200nZ83dy1EFJV.html"
+      },
+      {
+        "title": "生产总监 (工厂数字化转型, 半导体行业)",
+        "company": "某大型半导体公司",
+        "location": "随州",
+        "salary_min": 20000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [
+          "负责工厂数字化转型"
+        ],
+        "base_profession": "生产总监",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/5d106df0fd94b86a0nZ52d6-FVFT.html"
+      },
+      {
+        "title": "工业AI 渠道总监 （具备管理与赋能）",
+        "company": "某中型工业AI与机器人视觉自动化设备公司",
+        "location": "广州",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Industrial AI",
+          "Robotics Vision",
+          "Automation Equipment",
+          "Management",
+          "Enablement"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "渠道总监",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/9a2eca72101c57520nZ83t--ElNZ.html"
+      },
+      {
+        "title": "数字化总监（制造业、AI、跨国项目）",
+        "company": null,
+        "location": "Shanghai",
+        "salary_min": 30000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Manufacturing",
+          "AI",
+          "Cross-border Project Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "数字化总监",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73443747.shtml"
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Integration engineer-AI LLM",
+        "company": "某合肥大型整车制造公司",
+        "location": "合肥",
+        "salary_min": 21000,
+        "salary_max": 22000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 21000,
+        "salary_max_cny_monthly": 22000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI/ML",
+          "LLM",
+          "Computer Vision",
+          "Time Series Analysis",
+          "CAN",
+          "CAN FD",
+          "LIN",
+          "SOME/IP"
+        ],
+        "preferred_skills": [
+          "Automotive Software Development",
+          "German"
+        ],
+        "responsibilities": [
+          "设计并落地基于人工智能 / 机器学习（AI/ML）的自动化测试方案，覆盖功能测试、系统集成测试、回归测试等各类测试场景。",
+          "运用大语言模型 LLM、计算机视觉、时序数据分析等前沿 AI 技术，智能解析 CAN/LIN/ 车载以太网总线日志、测试报告、缺陷库，自动识别异常问题与潜在隐性风险。",
+          "开发智能测试调度与资源优化系统，实现任务动态分配、优先级预判、测试瓶颈预警。"
+        ],
+        "base_profession": "集成工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74029103.shtml"
+      },
+      {
+        "title": "智能座舱主机DRE工程师",
+        "company": "上海犀重新能源汽车有限公司",
+        "location": "杭州-钱塘区",
+        "salary_min": 18000,
+        "salary_max": 25000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 18000,
+        "salary_max_cny_monthly": 25000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Smart Cockpit",
+          "Head Unit",
+          "DRE"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "汽车电子工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978420045.shtml"
+      },
+      {
+        "title": "智能座舱车型产品经理",
+        "company": "东风汽车",
+        "location": "武汉-蔡甸区",
+        "salary_min": 20000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "1-3y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Smart Cockpit",
+          "Product Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980808685.shtml"
+      },
+      {
+        "title": "嵌入式软件开发工程师 (AI方向)",
+        "company": "博世汽车部件(苏州)有限公司",
+        "location": "苏州",
+        "salary_min": 15000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": null,
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Embedded Software Development",
           "AI"
         ],
         "preferred_skills": [],
         "responsibilities": [],
-        "base_profession": "跨境电商运营",
+        "base_profession": "嵌入式软件开发工程师",
         "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1980534577.shtml"
+        "source_url": "https://www.liepin.com/job/1980564995.shtml"
       },
       {
-        "title": "AI Customer Service Supervisor (AI Trainer Transition)",
-        "company": "中淘家居",
-        "location": "常州·新北区·黄山路",
-        "salary_min": 8000,
-        "salary_max": 12000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 8000,
-        "salary_max_cny_monthly": 12000,
-        "experience_requirement": "3-5y",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "AI training",
-          "Customer Service Management"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "客服主管",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/098efec5baceb16b0nZ82Nq4FFdQ.html"
-      },
-      {
-        "title": "电商AI设计师",
-        "company": "杭州奥亦信息科技有限公司",
-        "location": "杭州-滨江区",
-        "salary_min": 8000,
-        "salary_max": 12000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 8000,
-        "salary_max_cny_monthly": 12000,
-        "experience_requirement": "3-5y",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "AI Design Tools",
-          "E-commerce Design"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "设计师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1981807647.shtml"
-      },
-      {
-        "title": "Financial AI Quantitative Analyst",
-        "company": "Shanxi Jinjinge Jewelry",
-        "location": "Liuzhou, China",
-        "salary_min": 12000,
-        "salary_max": 24000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 12000,
-        "salary_max_cny_monthly": 24000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "AI",
-          "Quantitative Analysis"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "量化分析师",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/32ad4dafc6ed6c460nZ42t29FFFX.html"
-      },
-      {
-        "title": "AIGC设计师（服装方向）",
-        "company": "有茂密声服",
-        "location": "深圳市",
+        "title": "智能座舱项目管理",
+        "company": null,
+        "location": "广州",
         "salary_min": 15000,
-        "salary_max": 20000,
+        "salary_max": 30000,
         "salary_currency": "CNY",
         "salary_min_cny_monthly": 15000,
-        "salary_max_cny_monthly": 20000,
-        "experience_requirement": null,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "3-5y",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
-          "AIGC",
-          "Fashion Design"
+          "Project Management",
+          "Smart Cockpit"
         ],
         "preferred_skills": [],
         "responsibilities": [],
-        "base_profession": "服装设计师",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/fc122846d5be8dd90nR82t-8GFVR.html"
+        "base_profession": "项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72123849.shtml"
       }
     ],
     "media": [
@@ -1089,7 +977,7 @@
         "salary_max_cny_monthly": 12000,
         "experience_requirement": "fresh",
         "education": "any",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [],
         "preferred_skills": [],
         "responsibilities": [
@@ -1110,7 +998,7 @@
         "salary_max_cny_monthly": 15000,
         "experience_requirement": "1-3y",
         "education": "any",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "Video Editing",
           "Scriptwriting"
@@ -1132,7 +1020,7 @@
         "salary_max_cny_monthly": 13000,
         "experience_requirement": "1-3y",
         "education": null,
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "AIGC",
           "video editing"
@@ -1142,27 +1030,6 @@
         "base_profession": "video editor",
         "platform_id": "liepin",
         "source_url": "https://www.liepin.com/a/74602813.shtml"
-      },
-      {
-        "title": "短剧/AI漫剧剪辑师-懂剧本",
-        "company": null,
-        "location": "深圳-龙华区",
-        "salary_min": 10000,
-        "salary_max": 15000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 15000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": null,
-        "required_skills": [
-          "剧本"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "剪辑师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/73856859.shtml"
       },
       {
         "title": "AI内容策划（AIGC精品横屏短剧方向）",
@@ -1175,7 +1042,7 @@
         "salary_max_cny_monthly": 20000,
         "experience_requirement": "3-5y",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "AIGC"
         ],
@@ -1184,6 +1051,303 @@
         "base_profession": "内容策划",
         "platform_id": "liepin",
         "source_url": "https://www.liepin.com/job/1981315085.shtml"
+      },
+      {
+        "title": "短剧/AI漫剧剪辑师-懂剧本",
+        "company": null,
+        "location": "深圳-龙华区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "剧本"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "剪辑师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73856859.shtml"
+      }
+    ],
+    "retail": [
+      {
+        "title": "AI Customer Service Supervisor (AI Trainer Transition)",
+        "company": "中淘家居",
+        "location": "常州·新北区·黄山路",
+        "salary_min": 8000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 8000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI training",
+          "Customer Service Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "客服主管",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/098efec5baceb16b0nZ82Nq4FFdQ.html"
+      },
+      {
+        "title": "Financial AI Quantitative Analyst",
+        "company": "Shanxi Jinjinge Jewelry",
+        "location": "Liuzhou, China",
+        "salary_min": 12000,
+        "salary_max": 24000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 12000,
+        "salary_max_cny_monthly": 24000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Quantitative Analysis"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "量化分析师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/32ad4dafc6ed6c460nZ42t29FFFX.html"
+      },
+      {
+        "title": "AIGC设计师（服装方向）",
+        "company": "有茂密声服",
+        "location": "深圳市",
+        "salary_min": 15000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": null,
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AIGC",
+          "Fashion Design"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "服装设计师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/fc122846d5be8dd90nR82t-8GFVR.html"
+      },
+      {
+        "title": "跨境电商运营主管（团队负责人 / AI 提效）",
+        "company": "天津创恒新际信息技术有限公司",
+        "location": "天津-西青区",
+        "salary_min": 8000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 8000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "1-3y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "E-commerce Operations",
+          "AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "跨境电商运营",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1980534577.shtml"
+      },
+      {
+        "title": "电商AI设计师",
+        "company": "杭州奥亦信息科技有限公司",
+        "location": "杭州-滨江区",
+        "salary_min": 8000,
+        "salary_max": 12000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 8000,
+        "salary_max_cny_monthly": 12000,
+        "experience_requirement": "3-5y",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI Design Tools",
+          "E-commerce Design"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "设计师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1981807647.shtml"
+      }
+    ],
+    "telecom": [
+      {
+        "title": "HR (Digital Transformation Direction)",
+        "company": "某500强上市企业",
+        "location": "西安",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Digital Transformation"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "人力资源",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71884469.shtml"
+      },
+      {
+        "title": "嵌入式软件工程师",
+        "company": "天翼交通科技有限公司",
+        "location": "苏州-相城区",
+        "salary_min": 20000,
+        "salary_max": 35000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "fresh",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "嵌入式软件工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978574851.shtml"
+      },
+      {
+        "title": "智能制造解决方案经理",
+        "company": "电信规划设计有限公司",
+        "location": "德阳·旌阳区·珠江西路",
+        "salary_min": 13000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 13000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "智能制造工程师",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/d51c1dc8ff464a9f0nR509-8GVVY.html"
+      }
+    ],
+    "energy": [
+      {
+        "title": "销售副总 (Industrial AI)",
+        "company": "某电力/热力/燃气/水务公司",
+        "location": "北京-朝阳区",
+        "salary_min": 50000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 50000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Industrial AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "销售",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73042315.shtml"
+      },
+      {
+        "title": "PMO（AI）",
+        "company": null,
+        "location": "上海",
+        "salary_min": 30000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/74641975.shtml"
+      },
+      {
+        "title": "智能制造高级经理",
+        "company": "某知名公司",
+        "location": "吉安",
+        "salary_min": 40000,
+        "salary_max": 55000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 55000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "智能制造工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/73429091.shtml"
+      },
+      {
+        "title": "数字化转型总监",
+        "company": "某国内能源上市公司",
+        "location": "苏州",
+        "salary_min": 40000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/70928679.shtml"
+      }
+    ],
+    "government": [
+      {
+        "title": "教育人工智能专员",
+        "company": "某深圳政府/公共事业公司",
+        "location": "深圳-罗湖区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "0-1y",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72891093.shtml"
       }
     ],
     "other": [
@@ -1198,7 +1362,7 @@
         "salary_max_cny_monthly": 40000,
         "experience_requirement": null,
         "education": "master",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "Product Management",
           "Digital Transformation",
@@ -1222,7 +1386,7 @@
         "salary_max_cny_monthly": 15000,
         "experience_requirement": "3-5y",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "AI",
           "Business Transformation"
@@ -1244,7 +1408,7 @@
         "salary_max_cny_monthly": 20000,
         "experience_requirement": "3-5y",
         "education": "any",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "Graphic Design",
           "AI Design Tools"
@@ -1266,7 +1430,7 @@
         "salary_max_cny_monthly": 40000,
         "experience_requirement": "fresh",
         "education": "master",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "AI"
         ],
@@ -1287,177 +1451,13 @@
         "salary_max_cny_monthly": 30000,
         "experience_requirement": "5y+",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [],
         "preferred_skills": [],
         "responsibilities": [],
         "base_profession": "智能制造工程师",
         "platform_id": "liepin",
         "source_url": "https://www.liepin.com/a/72457927.shtml"
-      }
-    ],
-    "energy": [
-      {
-        "title": "销售副总 (Industrial AI)",
-        "company": "某电力/热力/燃气/水务公司",
-        "location": "北京-朝阳区",
-        "salary_min": 50000,
-        "salary_max": 55000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 50000,
-        "salary_max_cny_monthly": 55000,
-        "experience_requirement": "5y+",
-        "education": "master",
-        "work_mode": null,
-        "required_skills": [
-          "Industrial AI"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "销售",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/73042315.shtml"
-      },
-      {
-        "title": "智能制造高级经理",
-        "company": "某知名公司",
-        "location": "吉安",
-        "salary_min": 40000,
-        "salary_max": 55000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 40000,
-        "salary_max_cny_monthly": 55000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "智能制造工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/73429091.shtml"
-      },
-      {
-        "title": "数字化转型总监",
-        "company": "某国内能源上市公司",
-        "location": "苏州",
-        "salary_min": 40000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 40000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "管理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/70928679.shtml"
-      },
-      {
-        "title": "PMO（AI）",
-        "company": null,
-        "location": "上海",
-        "salary_min": 30000,
-        "salary_max": 40000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 40000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "项目管理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/74641975.shtml"
-      }
-    ],
-    "telecom": [
-      {
-        "title": "HR (Digital Transformation Direction)",
-        "company": "某500强上市企业",
-        "location": "西安",
-        "salary_min": 20000,
-        "salary_max": 35000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 35000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [
-          "Digital Transformation"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "人力资源",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/71884469.shtml"
-      },
-      {
-        "title": "嵌入式软件工程师",
-        "company": "天翼交通科技有限公司",
-        "location": "苏州-相城区",
-        "salary_min": 20000,
-        "salary_max": 35000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 35000,
-        "experience_requirement": "fresh",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "嵌入式软件工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1978574851.shtml"
-      },
-      {
-        "title": "智能制造解决方案经理",
-        "company": "电信规划设计有限公司",
-        "location": "德阳·旌阳区·珠江西路",
-        "salary_min": 13000,
-        "salary_max": 20000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 13000,
-        "salary_max_cny_monthly": 20000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": null,
-        "required_skills": [],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "智能制造工程师",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/d51c1dc8ff464a9f0nR509-8GVVY.html"
-      }
-    ],
-    "government": [
-      {
-        "title": "教育人工智能专员",
-        "company": "某深圳政府/公共事业公司",
-        "location": "深圳-罗湖区",
-        "salary_min": 10000,
-        "salary_max": 15000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 15000,
-        "experience_requirement": "0-1y",
-        "education": "master",
-        "work_mode": null,
-        "required_skills": [
-          "AI"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "教师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72891093.shtml"
       }
     ]
   },
@@ -1753,7 +1753,7 @@
           "salary_max_cny_monthly": null,
           "experience_requirement": null,
           "education": "master",
-          "work_mode": null,
+          "work_mode": "onsite",
           "required_skills": [
             "deep learning",
             "transformers",
@@ -1791,7 +1791,7 @@
           "salary_max_cny_monthly": null,
           "experience_requirement": "1-3y",
           "education": null,
-          "work_mode": null,
+          "work_mode": "onsite",
           "required_skills": [
             "Machine Learning",
             "LLM",
@@ -1828,7 +1828,7 @@
           "salary_max_cny_monthly": null,
           "experience_requirement": "5y+",
           "education": null,
-          "work_mode": null,
+          "work_mode": "onsite",
           "required_skills": [
             "machine learning",
             "vector databases",
@@ -1859,7 +1859,7 @@
           "salary_max_cny_monthly": null,
           "experience_requirement": "5y+",
           "education": "bachelor",
-          "work_mode": null,
+          "work_mode": "onsite",
           "required_skills": [
             "chip design",
             "circuits",
@@ -2813,7 +2813,7 @@
         "salary_max_cny_monthly": 50000,
         "experience_requirement": "5y+",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "LLM",
           "Java",
@@ -2852,7 +2852,7 @@
         "salary_max_cny_monthly": 35000,
         "experience_requirement": "3-5y",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "HTML",
           "CSS",
@@ -2891,7 +2891,7 @@
         "salary_max_cny_monthly": 35000,
         "experience_requirement": "1-3y",
         "education": "any",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "AI Project Experience",
           "LLM Applications",
@@ -3222,7 +3222,7 @@
         "salary_max_cny_monthly": 22000,
         "experience_requirement": "3-5y",
         "education": "bachelor",
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "AI/ML",
           "LLM",
@@ -3298,7 +3298,7 @@
         "salary_max_cny_monthly": 101499,
         "experience_requirement": "3-5y",
         "education": null,
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "UX design",
           "Growth UX",
@@ -3337,7 +3337,7 @@
         "salary_max_cny_monthly": 100532,
         "experience_requirement": "3-5y",
         "education": null,
-        "work_mode": null,
+        "work_mode": "onsite",
         "required_skills": [
           "Creative Production",
           "Post-production",

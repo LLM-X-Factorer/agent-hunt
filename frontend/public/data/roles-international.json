@@ -81,10 +81,10 @@
       "associate": 1
     },
     "work_mode": {
-      "unknown": 490,
-      "hybrid": 427,
-      "remote": 285,
-      "onsite": 241
+      "onsite": 663,
+      "hybrid": 430,
+      "remote": 317,
+      "unknown": 33
     },
     "top_companies": [
       "OpenAI",
@@ -121,14 +121,14 @@
   {
     "job_count": 809,
     "sample_titles": [
-      "Senior Software Engineer, Agent Infrastructure",
       "Software Engineer, Human Data Interface",
       "Software Engineer",
       "Full Stack Engineer",
       "Engineer I (Multiple Openings)",
       "Staff / Senior Software Engineer, Inference",
       "Agentic AI FW developer",
-      "Sr Principal Software Engineer - Agentic Platform and Experiences"
+      "Sr Principal Software Engineer - Agentic Platform and Experiences",
+      "Sr. ServiceNow Developer"
     ],
     "required_skills": [
       {
@@ -204,17 +204,17 @@
       "phd": 1
     },
     "work_mode": {
-      "unknown": 275,
-      "hybrid": 222,
-      "onsite": 171,
-      "remote": 141
+      "onsite": 420,
+      "hybrid": 224,
+      "remote": 146,
+      "unknown": 19
     },
     "top_companies": [
       "OpenAI",
       "Anthropic",
       "Deloitte",
       "Cohere",
-      "Amazon.com"
+      "xAI"
     ],
     "top_industries": [
       {
@@ -244,14 +244,14 @@
   {
     "job_count": 790,
     "sample_titles": [
-      "Applied Scientist 1",
       "Senior Machine Learning Scientist, Payments",
       "Data Scientist Engineer",
       "Principal Applied Scientist, Sponsored Products and Brands",
       "AI Research Intern",
-      "Principal Applied Scientist, Advertiser Growth, Amazon Sponsored Products & Brands",
       "Research Engineer/Scientist - Generative UI, Consumer Devices",
-      "Entry Level Engineers/Scientists/Chemists/Technicians"
+      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "AI Research & Agentic Engineer Hybrid",
+      "Principal Applied Scientist, Delivery Foundation Model"
     ],
     "required_skills": [
       {
@@ -339,10 +339,10 @@
       "any": 13
     },
     "work_mode": {
-      "unknown": 603,
-      "hybrid": 119,
-      "onsite": 45,
-      "remote": 23
+      "onsite": 617,
+      "hybrid": 122,
+      "remote": 40,
+      "unknown": 11
     },
     "top_companies": [
       "OpenAI",
@@ -458,10 +458,10 @@
       "null": 1
     },
     "work_mode": {
-      "unknown": 302,
-      "hybrid": 113,
-      "onsite": 66,
-      "remote": 63
+      "onsite": 343,
+      "hybrid": 116,
+      "remote": 70,
+      "unknown": 15
     },
     "top_companies": [
       "TikTok",
@@ -502,10 +502,10 @@
       "AI Business Analyst Intern 107277",
       "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
       "Robot Learning Engineering Intern",
-      "Intern – Data Science - Operations Sustainment",
       "AI Ads Intern — Viral Creative & Performance Marketing",
       "Junior Designer",
-      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships"
+      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships",
+      "Data Science Internship (Summer 2026)"
     ],
     "required_skills": [
       {
@@ -533,15 +533,15 @@
         "count": 2
       },
       {
+        "skill_id": "pytorch",
+        "count": 2
+      },
+      {
         "skill_id": "generative_ai",
         "count": 2
       },
       {
         "skill_id": "llm",
-        "count": 2
-      },
-      {
-        "skill_id": "pytorch",
         "count": 2
       },
       {
@@ -589,17 +589,16 @@
       "phd": 4
     },
     "work_mode": {
-      "unknown": 465,
-      "onsite": 16,
-      "hybrid": 9,
-      "remote": 4
+      "onsite": 457,
+      "remote": 24,
+      "hybrid": 13
     },
     "top_companies": [
       "Berkshire Hathaway Energy",
       "TikTok",
       "Tenstorrent",
       "Honeywell",
-      "KLA"
+      "Anthropic"
     ],
     "top_industries": [
       {
@@ -633,10 +632,10 @@
       "Data Engineer",
       "Technical Program Manager, Google Cloud Analytics and Insights",
       "Data Analyst - Entry Level",
-      "Data Analyst - With Learning Material",
-      "Data Analyst",
-      "Business Analyst / Data Analyst Entry Level",
-      "Data Engineering Intern"
+      "Technical Data Analyst",
+      "Analytics Engineer, Finance",
+      "Entry Level Business Analyst / Data Analyst",
+      "Pricing and Market Analytics Intern"
     ],
     "required_skills": [
       {
@@ -735,10 +734,10 @@
       "master": 2
     },
     "work_mode": {
-      "unknown": 363,
-      "hybrid": 12,
-      "onsite": 7,
-      "remote": 2
+      "onsite": 358,
+      "hybrid": 14,
+      "remote": 11,
+      "unknown": 1
     },
     "top_companies": [
       "Royal Bank of Canada",
@@ -779,10 +778,10 @@
       "Senior Applied Science Manager, Amazon Sponsored Products & Brands",
       "Head of AI",
       "Assistant Professor: AI + Education",
-      "CAIO",
       "Senior Vice President of Digital Transformation",
       "Digital Transformation Executive",
-      "Director, Accounting Operations"
+      "Director, Accounting Operations",
+      "Accounting Expert - Faculty / Professor of Accounting"
     ],
     "required_skills": [
       {
@@ -863,9 +862,9 @@
     },
     "work_mode": {
       "hybrid": 138,
-      "unknown": 96,
-      "onsite": 58,
-      "remote": 37
+      "onsite": 135,
+      "remote": 37,
+      "unknown": 19
     },
     "top_companies": [
       "OpenAI",
@@ -987,9 +986,8 @@
       "any": 3
     },
     "work_mode": {
-      "hybrid": 68,
-      "unknown": 21,
-      "onsite": 11,
+      "hybrid": 69,
+      "onsite": 31,
       "remote": 8
     },
     "top_companies": [
@@ -1117,10 +1115,10 @@
       "master": 1
     },
     "work_mode": {
-      "unknown": 42,
-      "onsite": 31,
+      "onsite": 55,
       "hybrid": 29,
-      "remote": 4
+      "unknown": 16,
+      "remote": 6
     },
     "top_companies": [
       "Meta",
@@ -1161,10 +1159,10 @@
       "Director of AI Enablement",
       "Principal Indirect Selling Partner Enablement & Activation Lead, AWS Partner Core Enablement Shared Services-Foundations",
       "Strategic Partner Development Lead, Quantum AI",
-      "Sales Manager / Business Development Manager – AI Fitting Mirror",
       "Senior ProServe Sales Leader, North America, Healthcare and Life Sciences",
       "Senior Leader, ProServe AI/GenAI/Agentic Specialists, Healthcare and Life Sciences",
-      "Infrastructure Partnership Delivery Lead – Stargate"
+      "Infrastructure Partnership Delivery Lead – Stargate",
+      "Onboarding & Enablement Program Manager"
     ],
     "required_skills": [
       {
@@ -1214,11 +1212,11 @@
         "count": 1
       },
       {
-        "skill_id": "computer_vision",
+        "skill_id": "data_analysis",
         "count": 1
       },
       {
-        "skill_id": "data_analysis",
+        "skill_id": "computer_vision",
         "count": 1
       }
     ],
@@ -1246,11 +1244,9 @@
       "null": 1
     },
     "work_mode": {
-      "unknown": 14,
+      "onsite": 26,
       "hybrid": 14,
-      "onsite": 11,
-      "remote": 3,
-      "null": 1
+      "remote": 3
     },
     "top_companies": [
       "OpenAI",
@@ -1344,16 +1340,15 @@
       "master": 1
     },
     "work_mode": {
-      "onsite": 23,
-      "unknown": 9,
+      "onsite": 32,
       "hybrid": 1
     },
     "top_companies": [
       "TSMG Holding",
       "Piaggio Fast Forward",
-      "Google DeepMind",
       "9 Mothers Defense",
-      "Kodiak Robotics, Inc."
+      "Kodiak Robotics, Inc.",
+      "Google DeepMind"
     ],
     "top_industries": [
       {
@@ -1365,11 +1360,11 @@
         "count": 2
       },
       {
-        "industry": "internet",
+        "industry": "other",
         "count": 2
       },
       {
-        "industry": "other",
+        "industry": "internet",
         "count": 2
       },
       {
@@ -1452,10 +1447,10 @@
       "unspecified": 7
     },
     "work_mode": {
-      "onsite": 11,
-      "unknown": 9,
+      "onsite": 19,
       "hybrid": 6,
-      "remote": 2
+      "remote": 2,
+      "unknown": 1
     },
     "top_companies": [
       "Amazon.com",

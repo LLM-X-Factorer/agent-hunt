@@ -5,11 +5,10 @@
     "avg_salary": 34997,
     "median_salary": 27500,
     "work_mode": {
-      "onsite": 94,
+      "onsite": 3576,
       "remote": 17,
       "hybrid": 1,
-      "unknown": 3673,
-      "null": 1
+      "unknown": 192
     },
     "education": {
       "bachelor": 1442,
@@ -46,11 +45,10 @@
     "avg_salary": 87336,
     "median_salary": 72499,
     "work_mode": {
-      "onsite": 754,
-      "remote": 654,
-      "hybrid": 1317,
-      "unknown": 2773,
-      "null": 1,
+      "onsite": 3286,
+      "remote": 746,
+      "hybrid": 1335,
+      "unknown": 132,
       "mixed": 2
     },
     "education": {

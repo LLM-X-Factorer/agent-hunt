@@ -9,6 +9,14 @@
       "p75": 52500.0
     },
     {
+      "industry": "finance",
+      "job_count": 85,
+      "salary_sample_size": 82,
+      "p25": 22500.0,
+      "p50": 30000,
+      "p75": 50000.0
+    },
+    {
       "industry": "healthcare",
       "job_count": 88,
       "salary_sample_size": 77,
@@ -25,20 +33,20 @@
       "p75": 45000.0
     },
     {
-      "industry": "finance",
-      "job_count": 85,
-      "salary_sample_size": 82,
-      "p25": 22500.0,
-      "p50": 30000,
-      "p75": 50000.0
-    },
-    {
       "industry": "telecom",
       "job_count": 5,
       "salary_sample_size": 5,
       "p25": 16500.0,
       "p50": 27500,
       "p75": 27500.0
+    },
+    {
+      "industry": "consulting",
+      "job_count": 49,
+      "salary_sample_size": 37,
+      "p25": 12500.0,
+      "p50": 25000,
+      "p75": 50000.0
     },
     {
       "industry": "education",
@@ -49,14 +57,6 @@
       "p75": 36848.1
     },
     {
-      "industry": "automotive",
-      "job_count": 108,
-      "salary_sample_size": 96,
-      "p25": 17500.0,
-      "p50": 25000,
-      "p75": 37500.0
-    },
-    {
       "industry": "internet",
       "job_count": 201,
       "salary_sample_size": 191,
@@ -65,12 +65,12 @@
       "p75": 45000.0
     },
     {
-      "industry": "consulting",
-      "job_count": 49,
-      "salary_sample_size": 37,
-      "p25": 12500.0,
+      "industry": "automotive",
+      "job_count": 108,
+      "salary_sample_size": 96,
+      "p25": 17500.0,
       "p50": 25000,
-      "p75": 50000.0
+      "p75": 37500.0
     },
     {
       "industry": "other",

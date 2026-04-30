@@ -50,36 +50,12 @@
       "platform": "indeed"
     },
     {
-      "total": 115,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "vendor_cohere"
-    },
-    {
-      "total": 329,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "boss_zhipin"
-    },
-    {
       "total": 452,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_anthropic"
-    },
-    {
-      "total": 1971,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "liepin"
     },
     {
       "total": 488,
@@ -90,20 +66,36 @@
       "platform": "linkedin"
     },
     {
-      "total": 17,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "lagou"
-    },
-    {
       "total": 230,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_xai"
+    },
+    {
+      "total": 115,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_cohere"
+    },
+    {
+      "total": 1971,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "liepin"
+    },
+    {
+      "total": 329,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "boss_zhipin"
     },
     {
       "total": 653,
@@ -114,20 +106,20 @@
       "platform": "vendor_openai"
     },
     {
-      "total": 208,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "vendor_minimax"
-    },
-    {
       "total": 1049,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_tencent"
+    },
+    {
+      "total": 17,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "lagou"
     },
     {
       "total": 82,
@@ -160,6 +152,14 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_baichuan"
+    },
+    {
+      "total": 208,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_minimax"
     }
   ],
   "by_industry": [
@@ -220,20 +220,20 @@
       "industry": "manufacturing"
     },
     {
-      "total": 156,
-      "reposted": 23,
-      "repost_ratio": 0.147,
-      "closed": 0,
-      "avg_close_days": null,
-      "industry": "education"
-    },
-    {
       "total": 258,
       "reposted": 38,
       "repost_ratio": 0.147,
       "closed": 0,
       "avg_close_days": null,
       "industry": "consulting"
+    },
+    {
+      "total": 156,
+      "reposted": 23,
+      "repost_ratio": 0.147,
+      "closed": 0,
+      "avg_close_days": null,
+      "industry": "education"
     },
     {
       "total": 4185,
@@ -286,76 +286,12 @@
       "company": "GlobalFoundries"
     },
     {
-      "total": 18,
-      "reposted": 18,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Berkshire Hathaway Energy"
-    },
-    {
-      "total": 7,
-      "reposted": 7,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Coherent "
-    },
-    {
-      "total": 7,
-      "reposted": 7,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Tenstorrent"
-    },
-    {
-      "total": 8,
-      "reposted": 8,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Visa"
-    },
-    {
-      "total": 8,
-      "reposted": 8,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Cadence Design Systems"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Leidos"
-    },
-    {
       "total": 6,
       "reposted": 6,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
       "company": "Capital One"
-    },
-    {
-      "total": 8,
-      "reposted": 8,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Booz Allen"
-    },
-    {
-      "total": 11,
-      "reposted": 11,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "KLA"
     },
     {
       "total": 8,
@@ -374,36 +310,12 @@
       "company": "University of Chicago"
     },
     {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Cresta"
-    },
-    {
       "total": 8,
       "reposted": 8,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
       "company": "onsemi"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Invisible Technologies"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Autodesk"
     },
     {
       "total": 6,
@@ -422,52 +334,12 @@
       "company": "Fortive"
     },
     {
-      "total": 31,
-      "reposted": 31,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Royal Bank of Canada"
-    },
-    {
       "total": 6,
       "reposted": 6,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
       "company": "Peregrine"
-    },
-    {
-      "total": 7,
-      "reposted": 7,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Perle"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "WTW"
-    },
-    {
-      "total": 9,
-      "reposted": 9,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Invisible Technologies AI"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "PermitFlow"
     },
     {
       "total": 9,
@@ -515,39 +387,7 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Texas A&M University System"
-    },
-    {
-      "total": 8,
-      "reposted": 8,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "University of Arkansas"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
       "company": "WSP"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Applied Materials"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "John Deere"
     },
     {
       "total": 5,
@@ -619,23 +459,7 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "CACI"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
       "company": "Starbridge"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Lawrence Livermore National Laboratory (LLNL)"
     },
     {
       "total": 19,
@@ -659,14 +483,6 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "HomeVision"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
       "company": "Cloudflare"
     },
     {
@@ -676,6 +492,190 @@
       "closed": 0,
       "avg_close_days": null,
       "company": "eventfirst"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Beautiful.ai"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "John Deere"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Spacelift"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Atria Group"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Apple"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Foxglove"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Lawrence Livermore National Laboratory (LLNL)"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "SpruceID"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Visa"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Stellar Science"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "MixRank"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Freeform"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "PermitFlow"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Comulate"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Coder"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Perle"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Argonne National Laboratory"
+    },
+    {
+      "total": 11,
+      "reposted": 11,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "KLA"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "CACI"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Booz Allen"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "HomeVision"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "HNTB"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "NBCUniversal"
     }
   ],
   "top_ghost_listings": [
@@ -735,17 +735,6 @@
       ]
     },
     {
-      "company": "某北京大型互联网公司",
-      "title": "产品经理- AI /Digital/APP/小程序/SaaS系统（企业业务流程梳理）",
-      "variant_count": 10,
-      "markets": [
-        "domestic"
-      ],
-      "platforms": [
-        "liepin"
-      ]
-    },
-    {
       "company": "OpenAI",
       "title": "Forward Deployed Engineer",
       "variant_count": 10,
@@ -754,6 +743,17 @@
       ],
       "platforms": [
         "vendor_openai"
+      ]
+    },
+    {
+      "company": "某北京大型互联网公司",
+      "title": "产品经理- AI /Digital/APP/小程序/SaaS系统（企业业务流程梳理）",
+      "variant_count": 10,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
       ]
     },
     {
@@ -768,17 +768,6 @@
       ]
     },
     {
-      "company": "Amazon.com",
-      "title": "Software Development Engineer",
-      "variant_count": 8,
-      "markets": [
-        "international"
-      ],
-      "platforms": [
-        "indeed"
-      ]
-    },
-    {
       "company": "ReminderMedia",
       "title": "Digital Marketing Specialist",
       "variant_count": 8,
@@ -788,6 +777,17 @@
       "platforms": [
         "indeed",
         "linkedin"
+      ]
+    },
+    {
+      "company": "Amazon.com",
+      "title": "Software Development Engineer",
+      "variant_count": 8,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "indeed"
       ]
     },
     {
@@ -890,28 +890,6 @@
       ]
     },
     {
-      "company": "方正证券",
-      "title": "模型策略岗（LLM应用与数据分析）",
-      "variant_count": 5,
-      "markets": [
-        "domestic"
-      ],
-      "platforms": [
-        "liepin"
-      ]
-    },
-    {
-      "company": "某北京云计算/大数据公司",
-      "title": "催收产品策略专家（海外AI方向）",
-      "variant_count": 5,
-      "markets": [
-        "domestic"
-      ],
-      "platforms": [
-        "liepin"
-      ]
-    },
-    {
       "company": "TSMG Holding",
       "title": "Autonomous vehicle Test Operator",
       "variant_count": 5,
@@ -953,6 +931,17 @@
       ],
       "platforms": [
         "indeed"
+      ]
+    },
+    {
+      "company": "某北京云计算/大数据公司",
+      "title": "催收产品策略专家（海外AI方向）",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
       ]
     },
     {
@@ -1067,6 +1056,17 @@
       ]
     },
     {
+      "company": "方正证券",
+      "title": "模型策略岗（LLM应用与数据分析）",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
+      ]
+    },
+    {
       "company": "腾讯",
       "title": "高性能计算工程师",
       "variant_count": 5,
@@ -1106,12 +1106,6 @@
       "company": "Radar Labs",
       "total": 6,
       "ghost_jobs": 6,
-      "ghost_ratio": 1.0
-    },
-    {
-      "company": "方正证券",
-      "total": 5,
-      "ghost_jobs": 5,
       "ghost_ratio": 1.0
     },
     {
@@ -1158,6 +1152,12 @@
     },
     {
       "company": "Comulate",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "方正证券",
       "total": 5,
       "ghost_jobs": 5,
       "ghost_ratio": 1.0

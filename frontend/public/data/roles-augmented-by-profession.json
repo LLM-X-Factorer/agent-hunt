@@ -6,11 +6,11 @@
       "salarySampleSize": 42,
       "augmentSkills": [
         {
-          "skillId": "computer_vision",
+          "skillId": "llm",
           "count": 1
         },
         {
-          "skillId": "llm",
+          "skillId": "computer_vision",
           "count": 1
         }
       ],
@@ -37,14 +37,14 @@
         }
       ],
       "sampleTitles": [
-        "Product and Digital Manager",
-        "AI产品经理（医疗MDT）",
-        "AI产品经理",
-        "高级产品经理 (工业AI方向)",
-        "智能风控产品经理",
-        "医疗数据AI高级产品经理",
-        "产品经理-（AI 量化方向）",
-        "AI量化应用产品经理"
+        "Product Manager - Intelligent Driving",
+        "智能座舱产品经理",
+        "AI产品经理(医疗)",
+        "医疗AI产品经理",
+        "Senior Product Manager (Industrial AI)",
+        "AI产品经理 (金融大模型)",
+        "智能座舱车型产品经理",
+        "AI教育产品经理"
       ]
     },
     "教师": {
@@ -80,14 +80,14 @@
         }
       ],
       "sampleTitles": [
+        "智能制造专业大学讲师",
+        "AI高级人工智能教育讲师",
+        "人工智能教育推广员",
+        "区域合伙人（人工智能教育培训方向）",
         "AI教育讲师",
         "教研员",
         "教育人工智能专员",
-        "AI+教育解决方案岗位",
-        "智能制造专业大学讲师",
-        "AI教育合伙人",
-        "AI Education",
-        "AI教育业务合伙人"
+        "AI+教育解决方案岗位"
       ]
     },
     "测试工程师": {
@@ -127,14 +127,14 @@
         }
       ],
       "sampleTitles": [
+        "智能座舱测试",
+        "智能座舱测试工程师/测试专家",
+        "资深产品测试工程师",
         "自动驾驶系统测试工程师",
         "自动驾驶测试工程师",
         "高阶测试工程师 / 质量开发架构师（医疗 AI 方向）",
         "自动驾驶测试",
-        "智能座舱测试工程师",
-        "自动驾驶测试工程师（LLM）",
-        "自动驾驶测试工程师（行车+泊车）",
-        "测试工程师（自动驾驶）"
+        "智能座舱测试工程师"
       ]
     },
     "金融分析师": {
@@ -170,14 +170,14 @@
         }
       ],
       "sampleTitles": [
+        "助理研究员",
+        "Financial LLM Training Specialist",
+        "Financial LLM Evaluation Intern",
         "模型策略岗（LLM应用与数据分析）",
         "AI量化策略研究员",
         "AI智能金融新人",
         "AI量化投资岗",
-        "AI Artificial Intelligence Securities Finance Project Partner",
-        "AI经理",
-        "供应链金融贸易经理",
-        "助理研究员"
+        "AI Artificial Intelligence Securities Finance Project Partner"
       ]
     },
     "智能制造工程师": {
@@ -213,14 +213,14 @@
         }
       ],
       "sampleTitles": [
+        "智能制造工程师（具身智能）",
         "AI与智能制造",
         "智能制造高级经理",
         "智能制造工程师",
         "高级智能制造工程师",
         "智能制造解决方案经理",
         "智能制造工程师(AI方向)",
-        "AI Devops开发工程师-智能制造",
-        "汽车国企智能制造专业总师"
+        "AI Devops开发工程师-智能制造"
       ]
     },
     "销售总监": {
@@ -247,8 +247,8 @@
         }
       ],
       "sampleTitles": [
-        "National Sales Director (Industrial AI)",
         "Global Sales Director (MedTech / AI Healthcare)",
+        "National Sales Director (Industrial AI)",
         "自动驾驶芯片销售总监",
         "Regional Sales Director (Industrial AI)",
         "区域销售总监（工业人工智能方向）",
@@ -272,11 +272,11 @@
           "count": 2
         },
         {
-          "industry": "healthcare",
+          "industry": "retail",
           "count": 1
         },
         {
-          "industry": "retail",
+          "industry": "healthcare",
           "count": 1
         },
         {
@@ -285,14 +285,14 @@
         }
       ],
       "sampleTitles": [
-        "智能座舱项目经理",
         "自动驾驶项目经理",
+        "AI Project Management",
+        "智能座舱平台项目管理",
+        "智能座舱项目经理",
         "自动驾驶技术项目经理",
         "Smart Cockpit Project Manager",
         "自动驾驶系统项目经理",
-        "项目经理/软件实施顾问（智能制造MES）",
-        "项目经理（支持 AI 产品交付）",
-        "智能座舱软件项目经理"
+        "项目经理/软件实施顾问（智能制造MES）"
       ]
     },
     "销售经理": {
@@ -306,23 +306,23 @@
           "count": 12
         },
         {
-          "industry": "manufacturing",
+          "industry": "healthcare",
           "count": 3
         },
         {
-          "industry": "healthcare",
+          "industry": "manufacturing",
           "count": 3
         }
       ],
       "sampleTitles": [
+        "销售经理/主管（智慧医疗设备-base湖南）",
+        "高级医院销售经理",
+        "全国医疗AI一体机渠道销售经理",
         "销售经理（人工智能、教育方向）",
         "销售经理（智能制造行业）",
         "Sales Manager (Industrial AI Software)",
-        "全国医疗AI一体机渠道销售经理",
         "工业AI SaaS销售经理",
-        "智能教育产品院校销售经理",
-        "智能教育销售经理",
-        "销售经理(TV/Monitor/AIOT/AI视觉/智能座舱等市场）"
+        "智能教育产品院校销售经理"
       ]
     },
     "视频剪辑": {
@@ -345,14 +345,14 @@
         }
       ],
       "sampleTitles": [
-        "跨境电商AI视频剪辑",
         "AI漫剧-成片剪辑",
         "AI视频剪辑",
+        "AI短剧剪辑",
+        "AI漫剧剪辑",
+        "AI漫剧/短剧剪辑负责人",
+        "跨境电商AI视频剪辑",
         "AI短视频剪辑",
-        "短视频剪辑",
-        "AI微短剧/漫剧剪辑",
-        "ai剪辑助理",
-        "AI短剧剪辑"
+        "短视频剪辑"
       ]
     },
     "销售": {
@@ -383,9 +383,9 @@
         }
       ],
       "sampleTitles": [
+        "医疗AI产品销售",
         "AI Customer Acquisition / Private Domain Traffic Generation",
         "医疗AI销售",
-        "医疗AI产品销售",
         "医疗AI一体机销售",
         "医疗AI产品to B销售",
         "自动驾驶车辆销售",
@@ -419,28 +419,6 @@
         "公路/胶轮自动运输小车运控算法开发工程师"
       ]
     },
-    "量化研究员": {
-      "vacancyCount": 12,
-      "salaryMedian": 33750,
-      "salarySampleSize": 12,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 12
-        }
-      ],
-      "sampleTitles": [
-        "AI量化研究助理",
-        "券商AI量化研究岗",
-        "量化研究员（AI方向）",
-        "Quantitative Researcher (AI Direction)",
-        "AI量化研究员",
-        "AI量化研究员（量化交易）",
-        "AI Quantitative Research Analyst",
-        "AI Quantitative Researcher"
-      ]
-    },
     "平面设计师": {
       "vacancyCount": 12,
       "salaryMedian": 18750,
@@ -469,14 +447,36 @@
         }
       ],
       "sampleTitles": [
+        "平面设计+AI合成",
+        "平面设计",
+        "AI平面设计师",
         "营销平面AI设计师",
         "平面设计师（AI硬件方向）",
-        "平面设计",
         "高级平面设计师（AI生图经验）",
-        "平面设计+AI合成",
         "品牌平面设计（ai）",
-        "高级平面设计师",
-        "AI平面设计师"
+        "高级平面设计师"
+      ]
+    },
+    "量化研究员": {
+      "vacancyCount": 12,
+      "salaryMedian": 33750,
+      "salarySampleSize": 12,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 12
+        }
+      ],
+      "sampleTitles": [
+        "AI Quantitative Research Analyst",
+        "AI量化研究助理",
+        "券商AI量化研究岗",
+        "量化研究员（AI方向）",
+        "Quantitative Researcher (AI Direction)",
+        "AI量化研究员",
+        "AI量化研究员（量化交易）",
+        "AI Quantitative Researcher"
       ]
     },
     "视频剪辑师": {
@@ -501,10 +501,10 @@
       "sampleTitles": [
         "AI短剧剪辑师",
         "短视频剪辑师（AI创意/信息流广告）",
-        "AI视频剪辑师",
-        "AI 视频剪辑师",
         "AI漫剧剪辑师",
         "AI视频剪辑师（游戏PV方向）",
+        "AI视频剪辑师",
+        "AI 视频剪辑师",
         "短视频剪辑师",
         "AI短剧/漫剧剪辑师"
       ]
@@ -538,6 +538,89 @@
         "财务会计师",
         "会计经理/主管",
         "会计助理"
+      ]
+    },
+    "汽车工程师": {
+      "vacancyCount": 9,
+      "salaryMedian": 25000,
+      "salarySampleSize": 5,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 8
+        },
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能座舱工程师",
+        "智能座舱集成经理",
+        "智能座舱资深工程师（新能源重卡）",
+        "智能座舱功能工程师",
+        "智能座舱设计工程师",
+        "Section Lead, Autonomous Driving Toolchain & Platform",
+        "ADAS Group Leader",
+        "智能座舱产品工程师"
+      ]
+    },
+    "导演": {
+      "vacancyCount": 9,
+      "salaryMedian": 20000,
+      "salarySampleSize": 9,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 9
+        }
+      ],
+      "sampleTitles": [
+        "AI短视频导演",
+        "AI真人剧导演",
+        "AI真人导演/漫剧导演",
+        "AI导演",
+        "AI导演（漫剧方向）",
+        "AI仿真人导演"
+      ]
+    },
+    "视觉设计师": {
+      "vacancyCount": 9,
+      "salaryMedian": 15000,
+      "salarySampleSize": 9,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 3
+        },
+        {
+          "industry": "automotive",
+          "count": 2
+        },
+        {
+          "industry": "internet",
+          "count": 2
+        },
+        {
+          "industry": "education",
+          "count": 1
+        },
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI视觉设计师",
+        "AI电商视觉设计师",
+        "AI 视觉设计师",
+        "视觉设计（ComfyUI工程师）",
+        "视觉设计师",
+        "AI视觉设计师（汽车品牌创意方向）",
+        "AI产品视觉设计高级专家"
       ]
     },
     "制造工程师": {
@@ -574,89 +657,6 @@
         "智能制造工程师"
       ]
     },
-    "汽车工程师": {
-      "vacancyCount": 9,
-      "salaryMedian": 25000,
-      "salarySampleSize": 5,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 8
-        },
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能座舱集成经理",
-        "智能座舱工程师",
-        "智能座舱资深工程师（新能源重卡）",
-        "智能座舱功能工程师",
-        "智能座舱设计工程师",
-        "Section Lead, Autonomous Driving Toolchain & Platform",
-        "ADAS Group Leader",
-        "智能座舱产品工程师"
-      ]
-    },
-    "视觉设计师": {
-      "vacancyCount": 9,
-      "salaryMedian": 15000,
-      "salarySampleSize": 9,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "retail",
-          "count": 3
-        },
-        {
-          "industry": "automotive",
-          "count": 2
-        },
-        {
-          "industry": "internet",
-          "count": 2
-        },
-        {
-          "industry": "education",
-          "count": 1
-        },
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI 视觉设计师",
-        "视觉设计（ComfyUI工程师）",
-        "视觉设计师",
-        "AI电商视觉设计师",
-        "AI视觉设计师",
-        "AI视觉设计师（汽车品牌创意方向）",
-        "AI产品视觉设计高级专家"
-      ]
-    },
-    "导演": {
-      "vacancyCount": 9,
-      "salaryMedian": 20000,
-      "salarySampleSize": 9,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 9
-        }
-      ],
-      "sampleTitles": [
-        "AI短视频导演",
-        "AI真人导演/漫剧导演",
-        "AI真人剧导演",
-        "AI导演",
-        "AI导演（漫剧方向）",
-        "AI仿真人导演"
-      ]
-    },
     "咨询顾问": {
       "vacancyCount": 7,
       "salaryMedian": 40000,
@@ -677,12 +677,44 @@
         }
       ],
       "sampleTitles": [
+        "AI转型咨询专家-国际项目",
         "数字化转型规划咨询高级经理",
         "AI Consulting Consultant (Smart Manufacturing Direction)",
         "AI Consulting Consultant (Smart Manufacturing)",
-        "AI转型咨询专家-国际项目",
         "Consultant, AI Transformation",
         "Digital & AI Strategy Consultant"
+      ]
+    },
+    "设计师": {
+      "vacancyCount": 7,
+      "salaryMedian": 15000,
+      "salarySampleSize": 7,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 4
+        },
+        {
+          "industry": "media",
+          "count": 1
+        },
+        {
+          "industry": "other",
+          "count": 1
+        },
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "原画、插画、漫画、绘画、AI、3D设计师",
+        "ComfyUI Designer",
+        "Senior Designer (AI Experience)",
+        "电商AI设计师",
+        "AIGC设计师",
+        "跨境AI设计师"
       ]
     },
     "量化交易员": {
@@ -709,12 +741,12 @@
         }
       ],
       "sampleTitles": [
-        "AI Quantitative Trader",
-        "AI量化交易员",
         "AI智能EA黄金量化项目",
+        "AI量化交易员",
+        "AI智能量化交易合伙人",
         "AI Quantitative Gold Partner",
-        "外汇黄金智能AI量化策略",
-        "AI智能量化交易合伙人"
+        "AI Quantitative Trader",
+        "外汇黄金智能AI量化策略"
       ]
     },
     "客户经理": {
@@ -752,73 +784,6 @@
         "高阶大客户经理"
       ]
     },
-    "设计师": {
-      "vacancyCount": 7,
-      "salaryMedian": 15000,
-      "salarySampleSize": 7,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 4
-        },
-        {
-          "industry": "other",
-          "count": 1
-        },
-        {
-          "industry": "retail",
-          "count": 1
-        },
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "ComfyUI Designer",
-        "Senior Designer (AI Experience)",
-        "电商AI设计师",
-        "原画、插画、漫画、绘画、AI、3D设计师",
-        "AIGC设计师",
-        "跨境AI设计师"
-      ]
-    },
-    "项目管理": {
-      "vacancyCount": 6,
-      "salaryMedian": 35500,
-      "salarySampleSize": 6,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 2
-        },
-        {
-          "industry": "manufacturing",
-          "count": 1
-        },
-        {
-          "industry": "consulting",
-          "count": 1
-        },
-        {
-          "industry": "internet",
-          "count": 1
-        },
-        {
-          "industry": "energy",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能座舱项目管理",
-        "PMO 项目管理专家（含数字化转型/供应链优化要求）",
-        "PMO 项目管理专家",
-        "项目管理（智能座舱软件产品）",
-        "PMO（AI）"
-      ]
-    },
     "量化工程师": {
       "vacancyCount": 6,
       "salaryMedian": 52500,
@@ -835,11 +800,46 @@
         }
       ],
       "sampleTitles": [
-        "AI量化工程师",
         "AI 量化工程师",
-        "AI量化项目技术负责人 (TPM)",
         "AI 量化（策略落地）工程师",
-        "AI Quantitative Engineer (Finance)"
+        "AI量化项目技术负责人 (TPM)",
+        "AI Quantitative Engineer (Finance)",
+        "AI量化工程师"
+      ]
+    },
+    "项目管理": {
+      "vacancyCount": 6,
+      "salaryMedian": 35500,
+      "salarySampleSize": 6,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 2
+        },
+        {
+          "industry": "internet",
+          "count": 1
+        },
+        {
+          "industry": "energy",
+          "count": 1
+        },
+        {
+          "industry": "manufacturing",
+          "count": 1
+        },
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "项目管理（智能座舱软件产品）",
+        "PMO（AI）",
+        "智能座舱项目管理",
+        "PMO 项目管理专家（含数字化转型/供应链优化要求）",
+        "PMO 项目管理专家"
       ]
     },
     "金融风控": {
@@ -867,11 +867,11 @@
         }
       ],
       "sampleTitles": [
-        "信贷评审-风控中台（制造加工）",
         "交易风控岗",
+        "风控总监",
+        "信贷评审-风控中台（制造加工）",
         "风控专家（金融智能体）",
-        "信贷评审-风控中台（光伏、工建小B）",
-        "风控总监"
+        "信贷评审-风控中台（光伏、工建小B）"
       ]
     },
     "风控专家": {
@@ -888,7 +888,7 @@
           "count": 4
         },
         {
-          "skillId": "agent_architecture",
+          "skillId": "data_analysis",
           "count": 3
         },
         {
@@ -908,11 +908,11 @@
           "count": 3
         },
         {
-          "skillId": "data_analysis",
+          "skillId": "python",
           "count": 3
         },
         {
-          "skillId": "python",
+          "skillId": "agent_architecture",
           "count": 3
         },
         {
@@ -939,8 +939,8 @@
         }
       ],
       "sampleTitles": [
-        "风控专家",
-        "采供内控专家（智能风控方向）"
+        "采供内控专家（智能风控方向）",
+        "风控专家"
       ]
     },
     "金融销售": {
@@ -955,10 +955,10 @@
         }
       ],
       "sampleTitles": [
-        "AI Quant Institutional Sales",
         "AI智能金融销售",
         "金融企业贷AI机器人辅助",
-        "金融直客"
+        "金融直客",
+        "AI Quant Institutional Sales"
       ]
     },
     "汽车座舱应用开发": {
@@ -981,6 +981,67 @@
         "AI座舱应用开发负责人"
       ]
     },
+    "业务专员/主管": {
+      "vacancyCount": 4,
+      "salaryMedian": 12500,
+      "salarySampleSize": 4,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 3
+        },
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AIT（AI业务改造）高级专员/主管"
+      ]
+    },
+    "医疗产品经理": {
+      "vacancyCount": 4,
+      "salaryMedian": 57500,
+      "salarySampleSize": 3,
+      "augmentSkills": [
+        {
+          "skillId": "agent_architecture",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "Senior Product Manager - AI Agent (Healthcare)",
+        "市场产品总监/经理（智慧医疗GTM方向）",
+        "Product and Digital Manager",
+        "百川智能-医学策略产品专家（AI医疗产品方向）"
+      ]
+    },
+    "视频编导/制作": {
+      "vacancyCount": 4,
+      "salaryMedian": 11500,
+      "salarySampleSize": 4,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 3
+        },
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "文化宣传岗（视频编导/制作方向）"
+      ]
+    },
     "内容运营": {
       "vacancyCount": 4,
       "salaryMedian": 23750,
@@ -992,19 +1053,75 @@
           "count": 2
         },
         {
-          "industry": "manufacturing",
+          "industry": "media",
           "count": 1
         },
         {
-          "industry": "media",
+          "industry": "manufacturing",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "电商短视频内容运营（AI内容生成方向）",
         "短视频内容运营（AI 带货 / 达人孵化方向）",
-        "美区内容运营",
-        "内容运营（AI方向）"
+        "内容运营（AI方向）",
+        "电商短视频内容运营（AI内容生成方向）",
+        "美区内容运营"
+      ]
+    },
+    "剪辑师": {
+      "vacancyCount": 4,
+      "salaryMedian": 12500,
+      "salarySampleSize": 4,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 2
+        },
+        {
+          "industry": "media",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI剪辑师",
+        "短剧/AI漫剧剪辑师-懂剧本",
+        "剪辑师（AI）"
+      ]
+    },
+    "前端开发工程师": {
+      "vacancyCount": 4,
+      "salaryMedian": 30000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "KIMI前端开发工程师（主站方向）",
+        "前端开发工程师",
+        "高级前端开发工程师（AIGC 可视化方向）",
+        "百川智能-高级前端开发工程师（医疗方向）"
+      ]
+    },
+    "医疗销售": {
+      "vacancyCount": 4,
+      "salaryMedian": 43333,
+      "salarySampleSize": 4,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 4
+        }
+      ],
+      "sampleTitles": [
+        "AI医疗销售",
+        "AI Medical Sales (AI Medical System Products)",
+        "智慧医疗高级销售经理"
       ]
     },
     "教育": {
@@ -1055,95 +1172,19 @@
         "AI领域负责人（HR领域）"
       ]
     },
-    "医疗销售": {
-      "vacancyCount": 4,
-      "salaryMedian": 43333,
-      "salarySampleSize": 4,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 4
-        }
-      ],
-      "sampleTitles": [
-        "AI Medical Sales (AI Medical System Products)",
-        "AI医疗销售",
-        "智慧医疗高级销售经理"
-      ]
-    },
-    "业务专员/主管": {
-      "vacancyCount": 4,
-      "salaryMedian": 12500,
-      "salarySampleSize": 4,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 3
-        },
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AIT（AI业务改造）高级专员/主管"
-      ]
-    },
-    "医疗产品经理": {
-      "vacancyCount": 4,
-      "salaryMedian": 57500,
+    "客服": {
+      "vacancyCount": 3,
+      "salaryMedian": 5000,
       "salarySampleSize": 3,
-      "augmentSkills": [
-        {
-          "skillId": "agent_architecture",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "Senior Product Manager - AI Agent (Healthcare)",
-        "市场产品总监/经理（智慧医疗GTM方向）",
-        "Product and Digital Manager",
-        "百川智能-医学策略产品专家（AI医疗产品方向）"
-      ]
-    },
-    "剪辑师": {
-      "vacancyCount": 4,
-      "salaryMedian": 12500,
-      "salarySampleSize": 4,
       "augmentSkills": [],
       "topIndustries": [
         {
-          "industry": "media",
-          "count": 2
+          "industry": "automotive",
+          "count": 1
         },
         {
-          "industry": "retail",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "短剧/AI漫剧剪辑师-懂剧本",
-        "剪辑师（AI）",
-        "AI剪辑师"
-      ]
-    },
-    "视频编导/制作": {
-      "vacancyCount": 4,
-      "salaryMedian": 11500,
-      "salarySampleSize": 4,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 3
+          "industry": "consulting",
+          "count": 1
         },
         {
           "industry": "other",
@@ -1151,25 +1192,236 @@
         }
       ],
       "sampleTitles": [
-        "文化宣传岗（视频编导/制作方向）"
+        "智能无人车远程监控客服",
+        "智能客服训练师",
+        "智能客服管培生"
       ]
     },
-    "前端开发工程师": {
-      "vacancyCount": 4,
+    "制作人": {
+      "vacancyCount": 3,
       "salaryMedian": 30000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "AI漫剧制作人"
+      ]
+    },
+    "医疗产品助理": {
+      "vacancyCount": 3,
+      "salaryMedian": 4000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "医疗AI产品助理",
+        "智慧医疗AI产品助理"
+      ]
+    },
+    "教育产品总监": {
+      "vacancyCount": 3,
+      "salaryMedian": 30000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 2
+        },
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI教育产品总监",
+        "AI Education Product Director",
+        "AI教育产品区域总监"
+      ]
+    },
+    "法务": {
+      "vacancyCount": 3,
+      "salaryMedian": 43750,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
         {
           "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "法务AI应用专家",
+        "法务高级经理（AI行业）",
+        "法务BP经理"
+      ]
+    },
+    "供应链管理": {
+      "vacancyCount": 3,
+      "salaryMedian": 42500,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "供应链数字化转型专家",
+        "供应链AI转型流程重塑专家"
+      ]
+    },
+    "药物研发科学家": {
+      "vacancyCount": 3,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "Drug Discovery Biologist",
+        "AI Drug Discovery Scientist",
+        "Senior - Principal Scientist, Therapeutic Antibody Discovery"
+      ]
+    },
+    "系统工程师": {
+      "vacancyCount": 3,
+      "salaryMedian": 30000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        },
+        {
+          "industry": "automotive",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "高级前端开发工程师（AIGC 可视化方向）",
-        "百川智能-高级前端开发工程师（医疗方向）",
-        "KIMI前端开发工程师（主站方向）",
-        "前端开发工程师"
+        "智能座舱系统工程师",
+        "自动驾驶、ADAS系统工程师（泊车）",
+        "自动驾驶系统工程师"
+      ]
+    },
+    "临床统计编程师": {
+      "vacancyCount": 3,
+      "salaryMedian": 8000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "AI增强型临床统计编程师"
+      ]
+    },
+    "平面设计": {
+      "vacancyCount": 3,
+      "salaryMedian": 20500,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "平面设计+AI合成"
+      ]
+    },
+    "短视频编导": {
+      "vacancyCount": 3,
+      "salaryMedian": 8000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "AI短视频短剧编导剪辑专员",
+        "短视频编导（影视后期/AIGC方向）",
+        "AI 短视频编导"
+      ]
+    },
+    "催收策略专家": {
+      "vacancyCount": 3,
+      "salaryMedian": 37500,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "催收产品策略专家（海外AI方向）"
+      ]
+    },
+    "编剧": {
+      "vacancyCount": 3,
+      "salaryMedian": 19000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "AI 漫剧编剧",
+        "AI漫剧编剧",
+        "短剧编剧"
+      ]
+    },
+    "量化分析师": {
+      "vacancyCount": 3,
+      "salaryMedian": 18000,
+      "salarySampleSize": 3,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        },
+        {
+          "industry": "retail",
+          "count": 1
+        },
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI量化分析师",
+        "Financial AI Quantitative Analyst",
+        "AI Quant Partner (Factor Mining and Strategy Direction)"
       ]
     },
     "医疗器械销售代表": {
@@ -1247,68 +1499,6 @@
         "AI研发工程师（智慧医疗方向）"
       ]
     },
-    "客服": {
-      "vacancyCount": 3,
-      "salaryMedian": 5000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 1
-        },
-        {
-          "industry": "consulting",
-          "count": 1
-        },
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能无人车远程监控客服",
-        "智能客服训练师",
-        "智能客服管培生"
-      ]
-    },
-    "医疗产品助理": {
-      "vacancyCount": 3,
-      "salaryMedian": 4000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "医疗AI产品助理",
-        "智慧医疗AI产品助理"
-      ]
-    },
-    "教育产品总监": {
-      "vacancyCount": 3,
-      "salaryMedian": 30000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 2
-        },
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI Education Product Director",
-        "AI教育产品区域总监",
-        "AI教育产品总监"
-      ]
-    },
     "Java开发工程师": {
       "vacancyCount": 3,
       "salaryMedian": 20000,
@@ -1354,38 +1544,6 @@
         "Senior IT Business Analyst - AI"
       ]
     },
-    "催收策略专家": {
-      "vacancyCount": 3,
-      "salaryMedian": 37500,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "催收产品策略专家（海外AI方向）"
-      ]
-    },
-    "法务": {
-      "vacancyCount": 3,
-      "salaryMedian": 43750,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "法务AI应用专家",
-        "法务高级经理（AI行业）",
-        "法务BP经理"
-      ]
-    },
     "硬件工程师": {
       "vacancyCount": 3,
       "salaryMedian": 18750,
@@ -1423,27 +1581,6 @@
         "中高级投标专员（医疗AI大模型/智慧医疗/医疗影像云）"
       ]
     },
-    "系统工程师": {
-      "vacancyCount": 3,
-      "salaryMedian": 30000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        },
-        {
-          "industry": "automotive",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "自动驾驶、ADAS系统工程师（泊车）",
-        "自动驾驶系统工程师",
-        "智能座舱系统工程师"
-      ]
-    },
     "产品运营": {
       "vacancyCount": 3,
       "salaryMedian": 25000,
@@ -1459,22 +1596,6 @@
         "CPO治理及智能客服资深体验产品运营",
         "产品运营专家-智能客服",
         "产品运营专员（AI智能客服）"
-      ]
-    },
-    "供应链管理": {
-      "vacancyCount": 3,
-      "salaryMedian": 42500,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "供应链数字化转型专家",
-        "供应链AI转型流程重塑专家"
       ]
     },
     "产品总监": {
@@ -1503,55 +1624,6 @@
         "海外产品总监（智能座舱）"
       ]
     },
-    "药物研发科学家": {
-      "vacancyCount": 3,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "AI Drug Discovery Scientist",
-        "Drug Discovery Biologist",
-        "Senior - Principal Scientist, Therapeutic Antibody Discovery"
-      ]
-    },
-    "短视频编导": {
-      "vacancyCount": 3,
-      "salaryMedian": 8000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "短视频编导（影视后期/AIGC方向）",
-        "AI短视频短剧编导剪辑专员",
-        "AI 短视频编导"
-      ]
-    },
-    "平面设计": {
-      "vacancyCount": 3,
-      "salaryMedian": 20500,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "平面设计+AI合成"
-      ]
-    },
     "视频设计师": {
       "vacancyCount": 3,
       "salaryMedian": null,
@@ -1562,78 +1634,6 @@
         "AIGC品宣视频设计师",
         "视频创意内容设计师",
         "广告投放视频设计师"
-      ]
-    },
-    "编剧": {
-      "vacancyCount": 3,
-      "salaryMedian": 19000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "AI漫剧编剧",
-        "AI 漫剧编剧",
-        "短剧编剧"
-      ]
-    },
-    "制作人": {
-      "vacancyCount": 3,
-      "salaryMedian": 30000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "AI漫剧制作人"
-      ]
-    },
-    "量化分析师": {
-      "vacancyCount": 3,
-      "salaryMedian": 18000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "retail",
-          "count": 1
-        },
-        {
-          "industry": "finance",
-          "count": 1
-        },
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Financial AI Quantitative Analyst",
-        "AI Quant Partner (Factor Mining and Strategy Direction)",
-        "AI量化分析师"
-      ]
-    },
-    "临床统计编程师": {
-      "vacancyCount": 3,
-      "salaryMedian": 8000,
-      "salarySampleSize": 3,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "AI增强型临床统计编程师"
       ]
     },
     "投资分析师": {
@@ -1650,6 +1650,436 @@
       "sampleTitles": [
         "投资分析师/投资经理/副总裁（AI与先进制造赛道）",
         "百川智能-战略与投资部实习生"
+      ]
+    },
+    "科研管理": {
+      "vacancyCount": 2,
+      "salaryMedian": 37250,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        },
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "CEO-资方领投AI+Science",
+        "科研管理助理"
+      ]
+    },
+    "医疗技术负责人": {
+      "vacancyCount": 2,
+      "salaryMedian": 65000,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI 智慧医疗技术负责人"
+      ]
+    },
+    "风控总监": {
+      "vacancyCount": 2,
+      "salaryMedian": 84166,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Risk Control Director",
+        "风控总监"
+      ]
+    },
+    "司机": {
+      "vacancyCount": 2,
+      "salaryMedian": 7500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Automated Driving Test Driver",
+        "自动驾驶车辆测试员（司机）"
+      ]
+    },
+    "金融风控经理": {
+      "vacancyCount": 2,
+      "salaryMedian": 26250,
+      "salarySampleSize": 2,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 2
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        },
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能风控经理"
+      ]
+    },
+    "财务审计": {
+      "vacancyCount": 2,
+      "salaryMedian": 7500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 1
+        },
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "财务审计助理",
+        "财务审计"
+      ]
+    },
+    "生物医药研发": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI Scientist - Machine Learning for Biologics Discovery",
+        "Project Leader (AD-SD), Therapeutic Antibody Discovery"
+      ]
+    },
+    "新媒体运营": {
+      "vacancyCount": 2,
+      "salaryMedian": 15500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        },
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI新媒体运营",
+        "新媒体运营"
+      ]
+    },
+    "汽车微控制器应用工程师": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Sr Application Engineer- Automotive MCU"
+      ]
+    },
+    "催收产品策略专家": {
+      "vacancyCount": 2,
+      "salaryMedian": 42500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "催收产品策略专家（海外AI方向）"
+      ]
+    },
+    "汽车电子工程师": {
+      "vacancyCount": 2,
+      "salaryMedian": 55958,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI座舱应用架构师",
+        "智能座舱主机DRE工程师"
+      ]
+    },
+    "汽车座舱应用开发工程师": {
+      "vacancyCount": 2,
+      "salaryMedian": 72500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI座舱应用"
+      ]
+    },
+    "美工设计师": {
+      "vacancyCount": 2,
+      "salaryMedian": 10500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI电商美工设计师"
+      ]
+    },
+    "UI设计师": {
+      "vacancyCount": 2,
+      "salaryMedian": 40000,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI硬件产品UI设计师"
+      ]
+    },
+    "后端工程师": {
+      "vacancyCount": 2,
+      "salaryMedian": 25000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "后端工程师",
+        "资深后端工程师-商业化"
+      ]
+    },
+    "客服运营": {
+      "vacancyCount": 2,
+      "salaryMedian": 53263,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 1
+        },
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能客服运营负责人",
+        "客服运营专家（智能客服方向）"
+      ]
+    },
+    "文案策划": {
+      "vacancyCount": 2,
+      "salaryMedian": 7000,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        },
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Ai网文写手/文案策划",
+        "AI文案策划"
+      ]
+    },
+    "文案": {
+      "vacancyCount": 2,
+      "salaryMedian": 11500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        },
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "获客短视频文案/精准文案",
+        "AI应用文案"
+      ]
+    },
+    "视频导演": {
+      "vacancyCount": 2,
+      "salaryMedian": 12500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI短视频导演"
+      ]
+    },
+    "金融顾问": {
+      "vacancyCount": 2,
+      "salaryMedian": 18250,
+      "salarySampleSize": 2,
+      "augmentSkills": [
+        {
+          "skillId": "tongyi_qianwen",
+          "count": 2
+        },
+        {
+          "skillId": "llm",
+          "count": 2
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        },
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI-powered Financial Consultant & Sales Champion",
+        "AI Doubao Qwen Content Push (Financial Advisor)"
+      ]
+    },
+    "商业分析师": {
+      "vacancyCount": 2,
+      "salaryMedian": 30000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "资深商业分析师",
+        "智慧医疗-商业分析"
+      ]
+    },
+    "用户增长专家": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [],
+      "sampleTitles": [
+        "海外用户增长专家（投放方向）",
+        "用户增长专家（投放方向）"
+      ]
+    },
+    "服装设计师": {
+      "vacancyCount": 2,
+      "salaryMedian": 17500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 1
+        },
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AIGC设计师（服装方向）",
+        "AI服装设计师"
+      ]
+    },
+    "校长": {
+      "vacancyCount": 2,
+      "salaryMedian": 50000,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "AI智能教育校长",
+        "职业教育计算机 AI 培训取证方向校长"
       ]
     },
     "技术营销经理": {
@@ -1697,83 +2127,6 @@
       "sampleTitles": [
         "跨境电商运营总监",
         "跨境电商运营主管（团队负责人 / AI 提效）"
-      ]
-    },
-    "科研管理": {
-      "vacancyCount": 2,
-      "salaryMedian": 37250,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        },
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "CEO-资方领投AI+Science",
-        "科研管理助理"
-      ]
-    },
-    "金融风控经理": {
-      "vacancyCount": 2,
-      "salaryMedian": 26250,
-      "salarySampleSize": 2,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 2
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        },
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能风控经理"
-      ]
-    },
-    "金融顾问": {
-      "vacancyCount": 2,
-      "salaryMedian": 18250,
-      "salarySampleSize": 2,
-      "augmentSkills": [
-        {
-          "skillId": "llm",
-          "count": 2
-        },
-        {
-          "skillId": "tongyi_qianwen",
-          "count": 2
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        },
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI Doubao Qwen Content Push (Financial Advisor)",
-        "AI-powered Financial Consultant & Sales Champion"
       ]
     },
     "网络工程师": {
@@ -1836,36 +2189,6 @@
         "工业AI应用专家"
       ]
     },
-    "汽车微控制器应用工程师": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Sr Application Engineer- Automotive MCU"
-      ]
-    },
-    "医疗技术负责人": {
-      "vacancyCount": 2,
-      "salaryMedian": 65000,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI 智慧医疗技术负责人"
-      ]
-    },
     "总裁助理": {
       "vacancyCount": 2,
       "salaryMedian": 58333,
@@ -1917,22 +2240,6 @@
         "自动驾驶安全员"
       ]
     },
-    "风控总监": {
-      "vacancyCount": 2,
-      "salaryMedian": 84166,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Risk Control Director",
-        "风控总监"
-      ]
-    },
     "运营": {
       "vacancyCount": 2,
       "salaryMedian": 68750,
@@ -1951,22 +2258,6 @@
       "sampleTitles": [
         "智能客服运营负责人",
         "AI赋能运营-助力设计/客服等AI化转型"
-      ]
-    },
-    "司机": {
-      "vacancyCount": 2,
-      "salaryMedian": 7500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Automated Driving Test Driver",
-        "自动驾驶车辆测试员（司机）"
       ]
     },
     "运营总监": {
@@ -2023,26 +2314,6 @@
       ],
       "sampleTitles": [
         "产品运营专员(AI智能客服)"
-      ]
-    },
-    "客服运营": {
-      "vacancyCount": 2,
-      "salaryMedian": 53263,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        },
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "客服运营专家（智能客服方向）",
-        "智能客服运营负责人"
       ]
     },
     "招商经理": {
@@ -2114,26 +2385,6 @@
       "sampleTitles": [
         "高级解决方案专家(工业AI方向-油气/烟草)",
         "华东区解决方案专家-飞书（制造/AI方向）"
-      ]
-    },
-    "财务审计": {
-      "vacancyCount": 2,
-      "salaryMedian": 7500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        },
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "财务审计",
-        "财务审计助理"
       ]
     },
     "审计": {
@@ -2209,21 +2460,6 @@
         "智能制造中心总监"
       ]
     },
-    "汽车座舱应用开发工程师": {
-      "vacancyCount": 2,
-      "salaryMedian": 72500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI座舱应用"
-      ]
-    },
     "医生": {
       "vacancyCount": 2,
       "salaryMedian": 10000,
@@ -2280,26 +2516,6 @@
         "医疗AI全栈工程师（智能体方向）"
       ]
     },
-    "服装设计师": {
-      "vacancyCount": 2,
-      "salaryMedian": 17500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        },
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI服装设计师",
-        "AIGC设计师（服装方向）"
-      ]
-    },
     "教育管理": {
       "vacancyCount": 2,
       "salaryMedian": 24500,
@@ -2329,22 +2545,6 @@
       ],
       "sampleTitles": [
         "工业AI解决方案专家"
-      ]
-    },
-    "汽车电子工程师": {
-      "vacancyCount": 2,
-      "salaryMedian": 55958,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "智能座舱主机DRE工程师",
-        "AI座舱应用架构师"
       ]
     },
     "地产数字化负责人": {
@@ -2380,42 +2580,6 @@
       "sampleTitles": [
         "AIGC电商运营",
         "亚马逊运营"
-      ]
-    },
-    "生物医药研发": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI Scientist - Machine Learning for Biologics Discovery",
-        "Project Leader (AD-SD), Therapeutic Antibody Discovery"
-      ]
-    },
-    "催收产品策略专家": {
-      "vacancyCount": 2,
-      "salaryMedian": 42500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "催收产品策略专家（海外AI方向）"
       ]
     },
     "运营专员": {
@@ -2485,83 +2649,6 @@
         "资深智慧医疗售前/解决方案"
       ]
     },
-    "商业分析师": {
-      "vacancyCount": 2,
-      "salaryMedian": 30000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智慧医疗-商业分析",
-        "资深商业分析师"
-      ]
-    },
-    "美工设计师": {
-      "vacancyCount": 2,
-      "salaryMedian": 10500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI电商美工设计师"
-      ]
-    },
-    "UI设计师": {
-      "vacancyCount": 2,
-      "salaryMedian": 40000,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI硬件产品UI设计师"
-      ]
-    },
-    "后端工程师": {
-      "vacancyCount": 2,
-      "salaryMedian": 25000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "后端工程师",
-        "资深后端工程师-商业化"
-      ]
-    },
-    "视频导演": {
-      "vacancyCount": 2,
-      "salaryMedian": 12500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI短视频导演"
-      ]
-    },
     "动画和短视频制作": {
       "vacancyCount": 2,
       "salaryMedian": 16750,
@@ -2611,66 +2698,6 @@
         "AI美术资产（灵漫项目）"
       ]
     },
-    "新媒体运营": {
-      "vacancyCount": 2,
-      "salaryMedian": 15500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        },
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI新媒体运营",
-        "新媒体运营"
-      ]
-    },
-    "文案策划": {
-      "vacancyCount": 2,
-      "salaryMedian": 7000,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        },
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Ai网文写手/文案策划",
-        "AI文案策划"
-      ]
-    },
-    "文案": {
-      "vacancyCount": 2,
-      "salaryMedian": 11500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        },
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI应用文案",
-        "获客短视频文案/精准文案"
-      ]
-    },
     "编导剪辑运营": {
       "vacancyCount": 2,
       "salaryMedian": 9500,
@@ -2686,22 +2713,6 @@
         "编导剪辑运营（AI方向）"
       ]
     },
-    "校长": {
-      "vacancyCount": 2,
-      "salaryMedian": 50000,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "AI智能教育校长",
-        "职业教育计算机 AI 培训取证方向校长"
-      ]
-    },
     "文化运营": {
       "vacancyCount": 2,
       "salaryMedian": null,
@@ -2713,15 +2724,1123 @@
         "员工体验与文化运营实习生"
       ]
     },
-    "用户增长专家": {
-      "vacancyCount": 2,
+    "讲师": {
+      "vacancyCount": 1,
+      "salaryMedian": 42500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI + 财经商业讲师"
+      ]
+    },
+    "科学家": {
+      "vacancyCount": 1,
+      "salaryMedian": 45000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Discovery Lab Analytical Automation Scientist"
+      ]
+    },
+    "大客户经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 25000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "医药医疗行业大客户经理（AI产品）"
+      ]
+    },
+    "生产经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 16000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "精益生产经理"
+      ]
+    },
+    "工程师/科学家/化学家/技术员": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Entry Level Engineers/Scientists/Chemists/Technicians"
+      ]
+    },
+    "设备维护技术员": {
+      "vacancyCount": 1,
+      "salaryMedian": 8000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能制造设备维护技术员"
+      ]
+    },
+    "驾驶员": {
+      "vacancyCount": 1,
+      "salaryMedian": 7500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "自动驾驶安全员"
+      ]
+    },
+    "航空航天工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "航空航天科研专家"
+      ]
+    },
+    "电气工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "电网信息运行专业咨询顾问"
+      ]
+    },
+    "汽车行业战略与数字化转型经理": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "汽车行业IT战略与数字化转型高级经理"
+      ]
+    },
+    "金融谈判手": {
+      "vacancyCount": 1,
+      "salaryMedian": 7500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "金融谈判手"
+      ]
+    },
+    "卫生技术评估专员": {
+      "vacancyCount": 1,
+      "salaryMedian": 19500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能体HTA项目管理专员（循证医学/卫生技术评估方向）"
+      ]
+    },
+    "医疗产品专家": {
+      "vacancyCount": 1,
+      "salaryMedian": 50000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "医疗AI产品专家"
+      ]
+    },
+    "临床统计编程": {
+      "vacancyCount": 1,
+      "salaryMedian": 10500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI 增强型临床统计编程"
+      ]
+    },
+    "服务设计师": {
+      "vacancyCount": 1,
+      "salaryMedian": 50568,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Service Design Senior Associate"
+      ]
+    },
+    "酶工程研究员": {
+      "vacancyCount": 1,
+      "salaryMedian": 55000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI酶工程高级研究员"
+      ]
+    },
+    "材料与制造工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "新材料与智能制造科研专家"
+      ]
+    },
+    "投资专家": {
+      "vacancyCount": 1,
+      "salaryMedian": 37500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "大模型战略分析/投资专家"
+      ]
+    },
+    "数字化转型": {
+      "vacancyCount": 1,
+      "salaryMedian": 3850,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "RPA与AI应用实习生（数字化转型方向）"
+      ]
+    },
+    "客服主管": {
+      "vacancyCount": 1,
+      "salaryMedian": 10000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI Customer Service Supervisor (AI Trainer Transition)"
+      ]
+    },
+    "战略分析师": {
+      "vacancyCount": 1,
+      "salaryMedian": 70000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "telecom",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI转型战略分析专家"
+      ]
+    },
+    "流程专家": {
+      "vacancyCount": 1,
+      "salaryMedian": 45000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI转型流程重塑专家"
+      ]
+    },
+    "项目合伙人": {
+      "vacancyCount": 1,
+      "salaryMedian": 65000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI大健康项目合伙人"
+      ]
+    },
+    "联合创始人": {
+      "vacancyCount": 1,
+      "salaryMedian": 32500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI智能教育联合创始人"
+      ]
+    },
+    "建筑/工程设计": {
+      "vacancyCount": 1,
+      "salaryMedian": 45000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI转型总监"
+      ]
+    },
+    "IT服务管理专员": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "IT AI服务管理（高级）专员"
+      ]
+    },
+    "教育销售/课程推广经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 36848,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Curriculum Growth Manager"
+      ]
+    },
+    "项目管理经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 32500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "企业项目管理经理（酒店&AI）"
+      ]
+    },
+    "战略咨询": {
+      "vacancyCount": 1,
+      "salaryMedian": 65000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI战略咨询合伙人"
+      ]
+    },
+    "机器人工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Maintenance Engineer, Robot/机器人工程师"
+      ]
+    },
+    "机械/设备工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": 30000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Technical Project Manager"
+      ]
+    },
+    "金融信贷模型": {
+      "vacancyCount": 1,
+      "salaryMedian": 6160,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "agent_architecture",
+          "count": 1
+        },
+        {
+          "skillId": "llm",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Financial Credit Model Intern (Agent/LLM)"
+      ]
+    },
+    "遥感工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": 10000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "遥感应用算法工程师"
+      ]
+    },
+    "执业药师": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Python Developer"
+      ]
+    },
+    "建筑设计师": {
+      "vacancyCount": 1,
+      "salaryMedian": 14500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "建筑设计师 Architectural Designer"
+      ]
+    },
+    "后期制作/视效剪辑": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AIGC后期制作 / AIGC视效剪辑"
+      ]
+    },
+    "电商运营总监": {
+      "vacancyCount": 1,
+      "salaryMedian": 60000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "大宗商品电商平台运营总（AI大宗平台）"
+      ]
+    },
+    "医疗项目助理": {
+      "vacancyCount": 1,
+      "salaryMedian": 7000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Healthcare AI Project Assistant"
+      ]
+    },
+    "视觉设计": {
+      "vacancyCount": 1,
+      "salaryMedian": 25000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "品牌AI视觉设计"
+      ]
+    },
+    "营销策划": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI人工智能"
+      ]
+    },
+    "投资顾问": {
+      "vacancyCount": 1,
+      "salaryMedian": 30000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "投资顾问"
+      ]
+    },
+    "量化策略工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": 50000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI量化策略工程师"
+      ]
+    },
+    "招商专员": {
+      "vacancyCount": 1,
+      "salaryMedian": 20000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "招商专员（人工智能+教育）"
+      ]
+    },
+    "销售管理专员": {
+      "vacancyCount": 1,
+      "salaryMedian": 7000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "国际销管专员（中台）"
+      ]
+    },
+    "Video Editor": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "短剧/AI漫剧剪辑师-懂剧本"
+      ]
+    },
+    "运营经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 37500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "青少年AI教育资深运营经理"
+      ]
+    },
+    "摄影剪辑": {
+      "vacancyCount": 1,
+      "salaryMedian": 9500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI摄影剪辑"
+      ]
+    },
+    "审核员": {
+      "vacancyCount": 1,
+      "salaryMedian": 7500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI豆包推荐审核"
+      ]
+    },
+    "HRBP": {
+      "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
       "augmentSkills": [],
       "topIndustries": [],
       "sampleTitles": [
-        "海外用户增长专家（投放方向）",
-        "用户增长专家（投放方向）"
+        "HRBP"
+      ]
+    },
+    "药物研发": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Head of Computational Assisted Drug Design (CADD)"
+      ]
+    },
+    "运营剪辑专员": {
+      "vacancyCount": 1,
+      "salaryMedian": 4000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI漫剧&短剧运营剪辑专员"
+      ]
+    },
+    "医疗评估员": {
+      "vacancyCount": 1,
+      "salaryMedian": 16500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI医疗专业评估"
+      ]
+    },
+    "品牌管理专员": {
+      "vacancyCount": 1,
+      "salaryMedian": 24000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "energy",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "高级品牌管理专员（文案方向）"
+      ]
+    },
+    "制片人": {
+      "vacancyCount": 1,
+      "salaryMedian": 30000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI漫剧制片人"
+      ]
+    },
+    "编导": {
+      "vacancyCount": 1,
+      "salaryMedian": 11000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "漫剧编导（AI短视频方向）"
+      ]
+    },
+    "内容策划": {
+      "vacancyCount": 1,
+      "salaryMedian": 17500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI内容策划（AIGC精品横屏短剧方向）"
+      ]
+    },
+    "视频剪辑/运营": {
+      "vacancyCount": 1,
+      "salaryMedian": 4500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI短剧&漫剧运营剪辑专员"
+      ]
+    },
+    "编剧剪辑师": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "编剧剪辑师"
+      ]
+    },
+    "视频发布/内容运营": {
+      "vacancyCount": 1,
+      "salaryMedian": 9500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI小说/影视网剧/漫画推文线上矩阵视频发布"
+      ]
+    },
+    "教育教练": {
+      "vacancyCount": 1,
+      "salaryMedian": 3600,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能教育兼职教练"
+      ]
+    },
+    "移动开发工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [],
+      "sampleTitles": [
+        "鸿蒙 高级开发工程师（月之暗面）"
+      ]
+    },
+    "采购经理": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [],
+      "sampleTitles": [
+        "云资源采购经理"
+      ]
+    },
+    "安全攻防工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [],
+      "sampleTitles": [
+        "安全攻防工程师"
+      ]
+    },
+    "媒介商务运营": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [],
+      "sampleTitles": [
+        "达人媒介"
+      ]
+    },
+    "营销负责人": {
+      "vacancyCount": 1,
+      "salaryMedian": 40000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "retail",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能营销负责人"
+      ]
+    },
+    "制造经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 55000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能制造AI经理"
+      ]
+    },
+    "医疗器械销售": {
+      "vacancyCount": 1,
+      "salaryMedian": 22500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI医疗器械销售"
+      ]
+    },
+    "社群运营": {
+      "vacancyCount": 1,
+      "salaryMedian": 14500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "社群运营（AI教育方向）"
+      ]
+    },
+    "培训师": {
+      "vacancyCount": 1,
+      "salaryMedian": 6500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "education",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "心理智能教育培训师"
+      ]
+    },
+    "座舱工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": 10000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能座舱工程师"
+      ]
+    },
+    "商务经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 7500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "数字化转型商务经理"
+      ]
+    },
+    "量化合伙人": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI智能黄金EA量化合伙人"
+      ]
+    },
+    "教育专员": {
+      "vacancyCount": 1,
+      "salaryMedian": 12500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "government",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "教育人工智能专员"
+      ]
+    },
+    "证券销售": {
+      "vacancyCount": 1,
+      "salaryMedian": 10500,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "证券股票AI量化专员（业务开发销售方向）"
+      ]
+    },
+    "硬件产品经理": {
+      "vacancyCount": 1,
+      "salaryMedian": 16000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能座舱硬件产品经理"
       ]
     },
     "商业化/事业部管理": {
@@ -2844,21 +3963,6 @@
         "风控经理"
       ]
     },
-    "讲师": {
-      "vacancyCount": 1,
-      "salaryMedian": 42500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI + 财经商业讲师"
-      ]
-    },
     "控制规划算法工程师": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -2902,36 +4006,6 @@
       ],
       "sampleTitles": [
         "AI Drug Discovery Scientist"
-      ]
-    },
-    "科学家": {
-      "vacancyCount": 1,
-      "salaryMedian": 45000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Discovery Lab Analytical Automation Scientist"
-      ]
-    },
-    "大客户经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 25000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "医药医疗行业大客户经理（AI产品）"
       ]
     },
     "风控专员": {
@@ -2992,21 +4066,6 @@
       ],
       "sampleTitles": [
         "自动驾驶工程师"
-      ]
-    },
-    "生产经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 16000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "精益生产经理"
       ]
     },
     "生态合作专家": {
@@ -3114,21 +4173,6 @@
         "嵌入式软件工程师"
       ]
     },
-    "工程师/科学家/化学家/技术员": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Entry Level Engineers/Scientists/Chemists/Technicians"
-      ]
-    },
     "质量保障工程师": {
       "vacancyCount": 1,
       "salaryMedian": 75833,
@@ -3157,21 +4201,6 @@
       ],
       "sampleTitles": [
         "行政管理专家"
-      ]
-    },
-    "设备维护技术员": {
-      "vacancyCount": 1,
-      "salaryMedian": 8000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能制造设备维护技术员"
       ]
     },
     "汽车行业分析师": {
@@ -3249,21 +4278,6 @@
         "市场经理-”AI+教育“"
       ]
     },
-    "驾驶员": {
-      "vacancyCount": 1,
-      "salaryMedian": 7500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "自动驾驶安全员"
-      ]
-    },
     "自动驾驶工程师": {
       "vacancyCount": 1,
       "salaryMedian": 150000,
@@ -3277,51 +4291,6 @@
       ],
       "sampleTitles": [
         "感知负责人（自动驾驶）"
-      ]
-    },
-    "航空航天工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "航空航天科研专家"
-      ]
-    },
-    "电气工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "电网信息运行专业咨询顾问"
-      ]
-    },
-    "汽车行业战略与数字化转型经理": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "汽车行业IT战略与数字化转型高级经理"
       ]
     },
     "管理": {
@@ -3624,21 +4593,6 @@
         "AI智能制造系统实施顾问/产品经理"
       ]
     },
-    "金融谈判手": {
-      "vacancyCount": 1,
-      "salaryMedian": 7500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "金融谈判手"
-      ]
-    },
     "量化策略研究员": {
       "vacancyCount": 1,
       "salaryMedian": 55000,
@@ -3839,21 +4793,6 @@
         "AI智能体运营-金融服务方向"
       ]
     },
-    "卫生技术评估专员": {
-      "vacancyCount": 1,
-      "salaryMedian": 19500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能体HTA项目管理专员（循证医学/卫生技术评估方向）"
-      ]
-    },
     "医疗战略项目管理": {
       "vacancyCount": 1,
       "salaryMedian": 40000,
@@ -3884,21 +4823,6 @@
         "短视频编剧（AI+游戏类）"
       ]
     },
-    "医疗产品专家": {
-      "vacancyCount": 1,
-      "salaryMedian": 50000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "医疗AI产品专家"
-      ]
-    },
     "汽车工程": {
       "vacancyCount": 1,
       "salaryMedian": 45000,
@@ -3914,19 +4838,19 @@
         "ADAS Group Leader"
       ]
     },
-    "临床统计编程": {
+    "数据标注员": {
       "vacancyCount": 1,
-      "salaryMedian": 10500,
+      "salaryMedian": 8500,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
         {
-          "industry": "internet",
+          "industry": "finance",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "AI 增强型临床统计编程"
+        "医疗 AI 数据标注员"
       ]
     },
     "税务": {
@@ -3986,21 +4910,6 @@
       ],
       "sampleTitles": [
         "AIGC Artist / Cross-border E-commerce Graphic Designer"
-      ]
-    },
-    "服务设计师": {
-      "vacancyCount": 1,
-      "salaryMedian": 50568,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Service Design Senior Associate"
       ]
     },
     "导演/编导": {
@@ -4081,21 +4990,6 @@
       ],
       "sampleTitles": [
         "Biologics AI/ML负责人"
-      ]
-    },
-    "酶工程研究员": {
-      "vacancyCount": 1,
-      "salaryMedian": 55000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI酶工程高级研究员"
       ]
     },
     "产品工程师": {
@@ -4418,36 +5312,6 @@
         "工业AI 渠道总监 （具备管理与赋能）"
       ]
     },
-    "材料与制造工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "新材料与智能制造科研专家"
-      ]
-    },
-    "投资专家": {
-      "vacancyCount": 1,
-      "salaryMedian": 37500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "大模型战略分析/投资专家"
-      ]
-    },
     "金融产品经理": {
       "vacancyCount": 1,
       "salaryMedian": 45000,
@@ -4638,36 +5502,6 @@
         "制造业AI大模型专家"
       ]
     },
-    "数字化转型": {
-      "vacancyCount": 1,
-      "salaryMedian": 3850,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "RPA与AI应用实习生（数字化转型方向）"
-      ]
-    },
-    "客服主管": {
-      "vacancyCount": 1,
-      "salaryMedian": 10000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI Customer Service Supervisor (AI Trainer Transition)"
-      ]
-    },
     "GIS项目经理": {
       "vacancyCount": 1,
       "salaryMedian": 10000,
@@ -4788,21 +5622,6 @@
         "智能座舱产品体验工程师"
       ]
     },
-    "战略分析师": {
-      "vacancyCount": 1,
-      "salaryMedian": 70000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "telecom",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI转型战略分析专家"
-      ]
-    },
     "研发效能专家": {
       "vacancyCount": 1,
       "salaryMedian": 37500,
@@ -4853,51 +5672,6 @@
         "渠道经理"
       ]
     },
-    "流程专家": {
-      "vacancyCount": 1,
-      "salaryMedian": 45000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI转型流程重塑专家"
-      ]
-    },
-    "项目合伙人": {
-      "vacancyCount": 1,
-      "salaryMedian": 65000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI大健康项目合伙人"
-      ]
-    },
-    "联合创始人": {
-      "vacancyCount": 1,
-      "salaryMedian": 32500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI智能教育联合创始人"
-      ]
-    },
     "法务高级经理": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -4911,56 +5685,6 @@
       ],
       "sampleTitles": [
         "法务高级经理（AI行业）"
-      ]
-    },
-    "建筑/工程设计": {
-      "vacancyCount": 1,
-      "salaryMedian": 45000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI转型总监"
-      ]
-    },
-    "IT服务管理专员": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "IT AI服务管理（高级）专员"
-      ]
-    },
-    "教育销售/课程推广经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 36848,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Curriculum Growth Manager"
       ]
     },
     "项目工程师": {
@@ -4996,21 +5720,6 @@
       ],
       "sampleTitles": [
         "北京AI制药大模型公司CEO"
-      ]
-    },
-    "项目管理经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 32500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "企业项目管理经理（酒店&AI）"
       ]
     },
     "内控经理": {
@@ -5127,21 +5836,6 @@
         "高级/首席AI科学家，科学人工智能（大分子制药）"
       ]
     },
-    "战略咨询": {
-      "vacancyCount": 1,
-      "salaryMedian": 65000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI战略咨询合伙人"
-      ]
-    },
     "汽车座舱应用经理": {
       "vacancyCount": 1,
       "salaryMedian": 55000,
@@ -5185,36 +5879,6 @@
       ],
       "sampleTitles": [
         "Automotive IT & Connectivity Consultant (Security)"
-      ]
-    },
-    "机器人工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Maintenance Engineer, Robot/机器人工程师"
-      ]
-    },
-    "机械/设备工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": 30000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Technical Project Manager"
       ]
     },
     "财务专员": {
@@ -5275,30 +5939,6 @@
       ],
       "sampleTitles": [
         "ADAS System Architect"
-      ]
-    },
-    "金融信贷模型": {
-      "vacancyCount": 1,
-      "salaryMedian": 6160,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "agent_architecture",
-          "count": 1
-        },
-        {
-          "skillId": "llm",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Financial Credit Model Intern (Agent/LLM)"
       ]
     },
     "医疗合规分析师": {
@@ -5421,21 +6061,6 @@
         "负责人（港口航运场景应用研究中心 ）"
       ]
     },
-    "遥感工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": 10000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "遥感应用算法工程师"
-      ]
-    },
     "制药工程师": {
       "vacancyCount": 1,
       "salaryMedian": 50000,
@@ -5494,26 +6119,6 @@
       ],
       "sampleTitles": [
         "Internal Control Manager - Internal Control Automation & AI Strategist"
-      ]
-    },
-    "执业药师": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Python Developer"
       ]
     },
     "医学知识专家": {
@@ -5681,36 +6286,6 @@
         "养老智慧医疗人力资源总监"
       ]
     },
-    "建筑设计师": {
-      "vacancyCount": 1,
-      "salaryMedian": 14500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "建筑设计师 Architectural Designer"
-      ]
-    },
-    "后期制作/视效剪辑": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AIGC后期制作 / AIGC视效剪辑"
-      ]
-    },
     "电气设计师": {
       "vacancyCount": 1,
       "salaryMedian": 30000,
@@ -5739,21 +6314,6 @@
       ],
       "sampleTitles": [
         "集成开发工程师/经理（含AI应用）"
-      ]
-    },
-    "电商运营总监": {
-      "vacancyCount": 1,
-      "salaryMedian": 60000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "大宗商品电商平台运营总（AI大宗平台）"
       ]
     },
     "测试分析工程师": {
@@ -5786,66 +6346,6 @@
         "传感器硬件工程师（自动驾驶）"
       ]
     },
-    "医疗项目助理": {
-      "vacancyCount": 1,
-      "salaryMedian": 7000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Healthcare AI Project Assistant"
-      ]
-    },
-    "视觉设计": {
-      "vacancyCount": 1,
-      "salaryMedian": 25000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "品牌AI视觉设计"
-      ]
-    },
-    "投资顾问": {
-      "vacancyCount": 1,
-      "salaryMedian": 30000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "投资顾问"
-      ]
-    },
-    "量化策略工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": 50000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI量化策略工程师"
-      ]
-    },
     "自动化工程师": {
       "vacancyCount": 1,
       "salaryMedian": 12500,
@@ -5859,21 +6359,6 @@
       ],
       "sampleTitles": [
         "自动化工程师-AI数字化转型"
-      ]
-    },
-    "招商专员": {
-      "vacancyCount": 1,
-      "salaryMedian": 20000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "招商专员（人工智能+教育）"
       ]
     },
     "产品专家": {
@@ -5891,49 +6376,19 @@
         "智能座舱产品专家"
       ]
     },
-    "销售管理专员": {
+    "推广专员": {
       "vacancyCount": 1,
-      "salaryMedian": 7000,
+      "salaryMedian": 15000,
       "salarySampleSize": 1,
       "augmentSkills": [],
       "topIndustries": [
         {
-          "industry": "healthcare",
+          "industry": "internet",
           "count": 1
         }
       ],
       "sampleTitles": [
-        "国际销管专员（中台）"
-      ]
-    },
-    "Video Editor": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "短剧/AI漫剧剪辑师-懂剧本"
-      ]
-    },
-    "摄影剪辑": {
-      "vacancyCount": 1,
-      "salaryMedian": 9500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI摄影剪辑"
+        "AI量化交易推广专员"
       ]
     },
     "金融工程师": {
@@ -5996,6 +6451,21 @@
         "AI电商课程运营"
       ]
     },
+    "运营设计师": {
+      "vacancyCount": 1,
+      "salaryMedian": 17000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "AI运营设计师"
+      ]
+    },
     "品牌文案策划": {
       "vacancyCount": 1,
       "salaryMedian": 20000,
@@ -6009,21 +6479,6 @@
       ],
       "sampleTitles": [
         "资深品牌文案策划"
-      ]
-    },
-    "审核员": {
-      "vacancyCount": 1,
-      "salaryMedian": 7500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI豆包推荐审核"
       ]
     },
     "生物技术工程师": {
@@ -6041,16 +6496,6 @@
         "AI应用工程师"
       ]
     },
-    "HRBP": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [],
-      "sampleTitles": [
-        "HRBP"
-      ]
-    },
     "数字化转型总监": {
       "vacancyCount": 1,
       "salaryMedian": 40000,
@@ -6064,21 +6509,6 @@
       ],
       "sampleTitles": [
         "AI数字化转型总监"
-      ]
-    },
-    "药物研发": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Head of Computational Assisted Drug Design (CADD)"
       ]
     },
     "编辑": {
@@ -6141,36 +6571,6 @@
         "AI漫剧制作师/短剧制作/AI短视频制作"
       ]
     },
-    "运营剪辑专员": {
-      "vacancyCount": 1,
-      "salaryMedian": 4000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI漫剧&短剧运营剪辑专员"
-      ]
-    },
-    "医疗评估员": {
-      "vacancyCount": 1,
-      "salaryMedian": 16500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI医疗专业评估"
-      ]
-    },
     "平面设计/视觉设计经理": {
       "vacancyCount": 1,
       "salaryMedian": 17500,
@@ -6214,21 +6614,6 @@
       ],
       "sampleTitles": [
         "资深创意文案师"
-      ]
-    },
-    "品牌管理专员": {
-      "vacancyCount": 1,
-      "salaryMedian": 24000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "energy",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "高级品牌管理专员（文案方向）"
       ]
     },
     "编审": {
@@ -6321,21 +6706,6 @@
         "AI漫剧制作人"
       ]
     },
-    "制片人": {
-      "vacancyCount": 1,
-      "salaryMedian": 30000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI漫剧制片人"
-      ]
-    },
     "视频制作/内容创作": {
       "vacancyCount": 1,
       "salaryMedian": 22500,
@@ -6351,21 +6721,6 @@
         "AI短视频制作（真人短剧专属）"
       ]
     },
-    "编导": {
-      "vacancyCount": 1,
-      "salaryMedian": 11000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "漫剧编导（AI短视频方向）"
-      ]
-    },
     "短视频执行专员": {
       "vacancyCount": 1,
       "salaryMedian": 11000,
@@ -6379,36 +6734,6 @@
       ],
       "sampleTitles": [
         "Ai短视频执行专员"
-      ]
-    },
-    "内容策划": {
-      "vacancyCount": 1,
-      "salaryMedian": 17500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI内容策划（AIGC精品横屏短剧方向）"
-      ]
-    },
-    "视频剪辑/运营": {
-      "vacancyCount": 1,
-      "salaryMedian": 4500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI短剧&漫剧运营剪辑专员"
       ]
     },
     "导演/编剧/剪辑": {
@@ -6439,21 +6764,6 @@
       ],
       "sampleTitles": [
         "AIGC商家运营（B端方向）"
-      ]
-    },
-    "编剧剪辑师": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "编剧剪辑师"
       ]
     },
     "全栈工程师": {
@@ -6531,21 +6841,6 @@
         "创作者运营（AI方向）"
       ]
     },
-    "视频发布/内容运营": {
-      "vacancyCount": 1,
-      "salaryMedian": 9500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI小说/影视网剧/漫画推文线上矩阵视频发布"
-      ]
-    },
     "行政专员": {
       "vacancyCount": 1,
       "salaryMedian": 8500,
@@ -6576,171 +6871,6 @@
         "电商 AI 项目管理专家 PMO"
       ]
     },
-    "制造经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 55000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能制造AI经理"
-      ]
-    },
-    "医疗器械销售": {
-      "vacancyCount": 1,
-      "salaryMedian": 22500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI医疗器械销售"
-      ]
-    },
-    "社群运营": {
-      "vacancyCount": 1,
-      "salaryMedian": 14500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "社群运营（AI教育方向）"
-      ]
-    },
-    "培训师": {
-      "vacancyCount": 1,
-      "salaryMedian": 6500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "心理智能教育培训师"
-      ]
-    },
-    "座舱工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": 10000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能座舱工程师"
-      ]
-    },
-    "商务经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 7500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "数字化转型商务经理"
-      ]
-    },
-    "量化合伙人": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI智能黄金EA量化合伙人"
-      ]
-    },
-    "教育专员": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "government",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "教育人工智能专员"
-      ]
-    },
-    "证券销售": {
-      "vacancyCount": 1,
-      "salaryMedian": 10500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "证券股票AI量化专员（业务开发销售方向）"
-      ]
-    },
-    "硬件产品经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 16000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能座舱硬件产品经理"
-      ]
-    },
-    "数据标注员": {
-      "vacancyCount": 1,
-      "salaryMedian": 8500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "医疗 AI 数据标注员"
-      ]
-    },
     "流程效能专家": {
       "vacancyCount": 1,
       "salaryMedian": 20000,
@@ -6754,21 +6884,6 @@
       ],
       "sampleTitles": [
         "企业AI流程效能专家（兼职）"
-      ]
-    },
-    "推广专员": {
-      "vacancyCount": 1,
-      "salaryMedian": 15000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI量化交易推广专员"
       ]
     },
     "制造副总裁": {
@@ -6831,51 +6946,6 @@
         "交通解决方案专家"
       ]
     },
-    "营销策划": {
-      "vacancyCount": 1,
-      "salaryMedian": 12500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI人工智能"
-      ]
-    },
-    "运营经理": {
-      "vacancyCount": 1,
-      "salaryMedian": 37500,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "青少年AI教育资深运营经理"
-      ]
-    },
-    "教育教练": {
-      "vacancyCount": 1,
-      "salaryMedian": 3600,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "education",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能教育兼职教练"
-      ]
-    },
     "IT架构师": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -6906,21 +6976,6 @@
         "AI智能教育店长，规划师，督学，伴学师"
       ]
     },
-    "营销负责人": {
-      "vacancyCount": 1,
-      "salaryMedian": 40000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "retail",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能营销负责人"
-      ]
-    },
     "采购和供应链负责人": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -6949,21 +7004,6 @@
       ],
       "sampleTitles": [
         "智慧城市-BD"
-      ]
-    },
-    "运营设计师": {
-      "vacancyCount": 1,
-      "salaryMedian": 17000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "AI运营设计师"
       ]
     },
     "公关专家": {
@@ -7056,16 +7096,6 @@
         "广告设计实习生"
       ]
     },
-    "SRE运维工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [],
-      "sampleTitles": [
-        "SRE运维研发实习生"
-      ]
-    },
     "前端研发工程师": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -7076,24 +7106,14 @@
         "前端研发工程师（业务增长方向）"
       ]
     },
-    "移动开发工程师": {
+    "SRE运维工程师": {
       "vacancyCount": 1,
       "salaryMedian": null,
       "salarySampleSize": 0,
       "augmentSkills": [],
       "topIndustries": [],
       "sampleTitles": [
-        "鸿蒙 高级开发工程师（月之暗面）"
-      ]
-    },
-    "采购经理": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [],
-      "sampleTitles": [
-        "云资源采购经理"
+        "SRE运维研发实习生"
       ]
     },
     "支付产品经理": {
@@ -7116,16 +7136,6 @@
         "风控策略专员/高级专员（黑灰产对抗）"
       ]
     },
-    "安全攻防工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [],
-      "sampleTitles": [
-        "安全攻防工程师"
-      ]
-    },
     "iOS架构师": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -7134,16 +7144,6 @@
       "topIndustries": [],
       "sampleTitles": [
         "iOS Architect"
-      ]
-    },
-    "媒介商务运营": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [],
-      "sampleTitles": [
-        "达人媒介"
       ]
     }
   },
@@ -7238,13 +7238,13 @@
       ],
       "sampleTitles": [
         "Lead Engineer",
-        "Software Engineer, Internal Applications - Enterprise",
         "Full-Stack Software Engineer",
         "Software Engineer",
         "Senior/Staff Software Engineers",
         "Senior Engineer",
         "Senior Software Engineer (Backend)",
-        "Product Engineer"
+        "Product Engineer",
+        "Full Stack Software Engineer"
       ]
     },
     "产品经理": {
@@ -7323,11 +7323,11 @@
           "count": 1
         },
         {
-          "industry": "media",
+          "industry": "manufacturing",
           "count": 1
         },
         {
-          "industry": "manufacturing",
+          "industry": "media",
           "count": 1
         }
       ],
@@ -7335,11 +7335,11 @@
         "Product Owner - Federal Health Systems",
         "Product Manager",
         "Product Manager (Leadership)",
-        "Product Manager - HR Technology",
         "Sr Product Manager Tech , Last Mile Delivery Automation",
         "Product Manager: New Grad Accelerator",
         "Product Owner Research Materials and Logistics",
-        "Senior Product Manager"
+        "Senior Product Manager",
+        "Sr Product Manager Tech, Last Mile Delivery Automation"
       ]
     },
     "Security Engineer": {
@@ -7695,8 +7695,8 @@
         "Finance & Strategy, Deal Desk - Americas",
         "Strategic Finance Lead",
         "Finance & Strategy, GTM - Korea",
-        "Dispute Analyst",
-        "Finance Expert - Fixed Income"
+        "Finance Expert - Fixed Income",
+        "Macro Research Analyst"
       ]
     },
     "Account Executive": {
@@ -7735,11 +7735,11 @@
           "count": 2
         },
         {
-          "industry": "energy",
+          "industry": "telecom",
           "count": 1
         },
         {
-          "industry": "telecom",
+          "industry": "insurance",
           "count": 1
         }
       ],
@@ -7751,7 +7751,7 @@
         "Enterprise Account Executive, System Integrators",
         "Enterprise Account Executive, Federal Civilian Sales - Transport & Land",
         "Growth Account Executive, Startups",
-        "Senior Account Executive - Energy & Utilities"
+        "Strategic Account Executive - Telecommunications"
       ]
     },
     "Backend Engineer": {
@@ -7871,13 +7871,13 @@
       ],
       "sampleTitles": [
         "Head of Demand Generation",
-        "Social Marketing Lead",
         "Head of Customer Programs",
         "Customer Marketing Manager, Enterprise and Digital Natives",
         "Field Marketing Manager",
         "Head of Integrated Marketing",
         "Senior Marketing Events Manager, Partners",
-        "Segment Marketing Manager, Financial Services & Insurance"
+        "Segment Marketing Manager, Financial Services & Insurance",
+        "Partner Marketing Manager"
       ]
     },
     "Legal Counsel": {
@@ -8030,10 +8030,10 @@
         "Technical Recruiter",
         "Executive Sourcer, Business",
         "Sourcer, Forward Deployed Engineering",
-        "GTM Recruiter, APAC",
         "M&A Recruiter",
         "AI/ML Research Recruiter",
-        "Founding Technical Recruiter"
+        "Founding Technical Recruiter",
+        "GTM Recruiter, APAC"
       ]
     },
     "数字营销专员": {
@@ -8244,19 +8244,19 @@
           "count": 1
         },
         {
-          "industry": "finance",
+          "industry": "media",
           "count": 1
         },
         {
-          "industry": "media",
+          "industry": "finance",
           "count": 1
         }
       ],
       "sampleTitles": [
         "Technical Data Analyst",
+        "Senior Data Analyst / Analytics Engineer",
         "Data Analyst - Physical Infrastructure",
         "Senior Data Analyst- Fraud & AML",
-        "Senior Data Analyst / Analytics Engineer",
         "Data Analyst",
         "Data Analytics Intern - Summer 2026",
         "Database Operations & Reporting Intern",
@@ -8332,9 +8332,9 @@
         "Communications Manager, Research",
         "Internal Communications Manager, Policy",
         "Internal Communications Manager",
-        "Senior Manager, Society, Safety & Responsibility Communications",
         "Research Communications Manager",
         "Communications Manager",
+        "Senior Manager, Society, Safety & Responsibility Communications",
         "Policy Communications Manager"
       ]
     },
@@ -8415,50 +8415,6 @@
         "Creative Director"
       ]
     },
-    "Frontend Engineer": {
-      "vacancyCount": 6,
-      "salaryMedian": 20970,
-      "salarySampleSize": 2,
-      "augmentSkills": [
-        {
-          "skillId": "typescript",
-          "count": 4
-        },
-        {
-          "skillId": "react",
-          "count": 4
-        },
-        {
-          "skillId": "nextjs",
-          "count": 3
-        },
-        {
-          "skillId": "javascript",
-          "count": 2
-        },
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 5
-        },
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Frontend Engineer",
-        "Senior Staff Product Engineer, Frontend - B2B Applications",
-        "Frontend Engineer, Dotcom (Marketing)",
-        "Senior Frontend Engineer",
-        "Frontend Engineer (Contract)"
-      ]
-    },
     "财务经理": {
       "vacancyCount": 6,
       "salaryMedian": 51481,
@@ -8509,8 +8465,52 @@
         "Onboarding & Enablement Program Manager",
         "GRC Program Manager, US Government Compliance",
         "Program Manager - Quality & Training (Safety Operations)",
-        "Executive Business Partner Program Manager",
-        "GTM Onboarding Program Manager"
+        "GTM Onboarding Program Manager",
+        "Executive Business Partner Program Manager"
+      ]
+    },
+    "Frontend Engineer": {
+      "vacancyCount": 6,
+      "salaryMedian": 20970,
+      "salarySampleSize": 2,
+      "augmentSkills": [
+        {
+          "skillId": "typescript",
+          "count": 4
+        },
+        {
+          "skillId": "react",
+          "count": 4
+        },
+        {
+          "skillId": "nextjs",
+          "count": 3
+        },
+        {
+          "skillId": "javascript",
+          "count": 2
+        },
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 5
+        },
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Frontend Engineer",
+        "Frontend Engineer",
+        "Frontend Engineer (Contract)",
+        "Senior Staff Product Engineer, Frontend - B2B Applications",
+        "Frontend Engineer, Dotcom (Marketing)"
       ]
     },
     "市场营销": {
@@ -8588,9 +8588,9 @@
       "sampleTitles": [
         "Analytics Engineer 5 - Ads Reporting & Metric Standards",
         "Data Analyst - Entry Level",
+        "Technical Data Analyst",
         "Data Analyst",
-        "Client Data Analyst",
-        "Technical Data Analyst"
+        "Client Data Analyst"
       ]
     },
     "平面设计师": {
@@ -8649,10 +8649,10 @@
       ],
       "sampleTitles": [
         "Associate Project Manager",
-        "Executive Business Partner Program Manager",
         "Assistant Program Manager",
         "Project Manager - Healthcare",
-        "Program Manager, Partner Operations"
+        "Program Manager, Partner Operations",
+        "Executive Business Partner Program Manager"
       ]
     },
     "Strategy Consultant": {
@@ -9024,15 +9024,15 @@
           "count": 2
         },
         {
-          "skillId": "kubernetes",
-          "count": 2
-        },
-        {
           "skillId": "aws",
           "count": 2
         },
         {
           "skillId": "azure",
+          "count": 2
+        },
+        {
+          "skillId": "kubernetes",
           "count": 2
         },
         {
@@ -9056,8 +9056,8 @@
       ],
       "sampleTitles": [
         "Threat Collections Engineer",
-        "Security Engineer, Detection and Response",
-        "Enterprise Security Engineer"
+        "Enterprise Security Engineer",
+        "Security Engineer, Detection and Response"
       ]
     },
     "设计师": {
@@ -9220,15 +9220,15 @@
       "salarySampleSize": 1,
       "augmentSkills": [
         {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
           "skillId": "distributed_systems",
           "count": 1
         },
         {
           "skillId": "rust",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
           "count": 1
         }
       ],
@@ -9243,9 +9243,9 @@
         }
       ],
       "sampleTitles": [
-        "Engineering Manager, Financial Data Quality",
         "Engineering Manager (Data Platform)",
         "Head of Engineering & Infrastructure",
+        "Engineering Manager, Financial Data Quality",
         "Engineering Manager, Order Systems"
       ]
     },
@@ -9316,8 +9316,8 @@
       ],
       "sampleTitles": [
         "Field Marketing Lead, Industries - EMEA",
-        "Partner Marketing Lead, Growth",
         "Partner Marketing Lead - EMEA",
+        "Partner Marketing Lead, Growth",
         "Consumer Marketing Lead, Japan"
       ]
     },
@@ -9382,19 +9382,19 @@
           "count": 2
         },
         {
-          "skillId": "gcp",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
           "skillId": "git",
           "count": 1
         },
         {
           "skillId": "agent_architecture",
+          "count": 1
+        },
+        {
+          "skillId": "gcp",
+          "count": 1
+        },
+        {
+          "skillId": "aws",
           "count": 1
         }
       ],
@@ -9407,8 +9407,8 @@
       "sampleTitles": [
         "Fiber Documentation Engineer",
         "Network Engineer - AI/HPC",
-        "Network Engineer - Edge",
-        "Data Center Controls Network Engineer"
+        "Data Center Controls Network Engineer",
+        "Network Engineer - Edge"
       ]
     },
     "Quality Engineer": {
@@ -9697,8 +9697,8 @@
       ],
       "sampleTitles": [
         "Head of Secure Manufacturing and Stealth",
-        "Industrial Security Lead",
-        "Campus Security Manager"
+        "Campus Security Manager",
+        "Industrial Security Lead"
       ]
     },
     "设计技术专家": {
@@ -9766,52 +9766,6 @@
         "Senior Android Engineer"
       ]
     },
-    "IT Systems Engineer": {
-      "vacancyCount": 3,
-      "salaryMedian": 108749,
-      "salarySampleSize": 3,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 3
-        },
-        {
-          "skillId": "azure",
-          "count": 2
-        },
-        {
-          "skillId": "aws",
-          "count": 2
-        },
-        {
-          "skillId": "gcp",
-          "count": 2
-        },
-        {
-          "skillId": "ci_cd",
-          "count": 2
-        },
-        {
-          "skillId": "golang",
-          "count": 1
-        },
-        {
-          "skillId": "kubernetes",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "Senior IT Systems Engineer",
-        "IT Systems Engineer, Enterprise SaaS",
-        "IT Systems Engineer, Corporate Systems & Infrastructure"
-      ]
-    },
     "Strategic Sourcing Manager": {
       "vacancyCount": 3,
       "salaryMedian": null,
@@ -9825,8 +9779,8 @@
       ],
       "sampleTitles": [
         "Strategic Sourcing Manager, Memory Storage & CPUs",
-        "Human Data & Research Services Strategic Sourcing Manager (Operations & Analytics)",
-        "Strategic Sourcing Manager, High Speed Interconnects"
+        "Strategic Sourcing Manager, High Speed Interconnects",
+        "Human Data & Research Services Strategic Sourcing Manager (Operations & Analytics)"
       ]
     },
     "iOS Engineer": {
@@ -10156,6 +10110,52 @@
         "Manager, Sales Development - EMEA"
       ]
     },
+    "IT Systems Engineer": {
+      "vacancyCount": 3,
+      "salaryMedian": 108749,
+      "salarySampleSize": 3,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 3
+        },
+        {
+          "skillId": "ci_cd",
+          "count": 2
+        },
+        {
+          "skillId": "aws",
+          "count": 2
+        },
+        {
+          "skillId": "gcp",
+          "count": 2
+        },
+        {
+          "skillId": "azure",
+          "count": 2
+        },
+        {
+          "skillId": "golang",
+          "count": 1
+        },
+        {
+          "skillId": "kubernetes",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "IT Systems Engineer, Enterprise SaaS",
+        "IT Systems Engineer, Corporate Systems & Infrastructure",
+        "Senior IT Systems Engineer"
+      ]
+    },
     "Finance Manager": {
       "vacancyCount": 3,
       "salaryMedian": 122328,
@@ -10250,23 +10250,6 @@
         "Paint Shop Digitalization Co-op"
       ]
     },
-    "Hardware Engineer": {
-      "vacancyCount": 3,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 3
-        }
-      ],
-      "sampleTitles": [
-        "Reliability/DFX Engineer",
-        "Signal Integrity Engineer",
-        "Hardware Engineer"
-      ]
-    },
     "Account Director": {
       "vacancyCount": 3,
       "salaryMedian": null,
@@ -10291,6 +10274,23 @@
         "Account Director, Financial Services",
         "Account Director, Federal Partnerships",
         "Account Director, State and Local Government"
+      ]
+    },
+    "Hardware Engineer": {
+      "vacancyCount": 3,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 3
+        }
+      ],
+      "sampleTitles": [
+        "Signal Integrity Engineer",
+        "Hardware Engineer",
+        "Reliability/DFX Engineer"
       ]
     },
     "Investigator": {
@@ -10319,8 +10319,8 @@
       ],
       "sampleTitles": [
         "Abuse Investigator (CBRN)",
-        "Child Safety Investigator",
-        "Abuse Investigator"
+        "Abuse Investigator",
+        "Child Safety Investigator"
       ]
     },
     "Tutor": {
@@ -10512,38 +10512,6 @@
       ],
       "sampleTitles": [
         "Product Operations Project Intern (NA Creative Product Ops) - 2026 Start (BS/ MS)"
-      ]
-    },
-    "创意制作专家": {
-      "vacancyCount": 2,
-      "salaryMedian": 76800,
-      "salarySampleSize": 2,
-      "augmentSkills": [
-        {
-          "skillId": "anthropic_api",
-          "count": 3
-        },
-        {
-          "skillId": "openai_api",
-          "count": 2
-        },
-        {
-          "skillId": "generative_ai",
-          "count": 1
-        },
-        {
-          "skillId": "llm",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Creative Pipeline Specialist - Forward Deployed Engineering"
       ]
     },
     "供应链管理": {
@@ -11180,27 +11148,6 @@
         "Senior Manager, Direct Tax AI Systems and Operations"
       ]
     },
-    "Silicon Implementation Engineer": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Silicon Implementation Engineer, Front End",
-        "Physical Design Engineer"
-      ]
-    },
     "Sales/Client Partner": {
       "vacancyCount": 2,
       "salaryMedian": null,
@@ -11485,27 +11432,6 @@
         "Hospitality Manager"
       ]
     },
-    "Legal Operations Analyst": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "prompt_engineering",
-          "count": 2
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Senior Analyst, Legal Operations",
-        "Legal Operations Analyst"
-      ]
-    },
     "Events Manager": {
       "vacancyCount": 2,
       "salaryMedian": 104100,
@@ -11524,46 +11450,6 @@
       ],
       "sampleTitles": [
         "Events Manager"
-      ]
-    },
-    "Compensation & Benefits Specialist": {
-      "vacancyCount": 2,
-      "salaryMedian": 66106,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "data_analysis",
-          "count": 2
-        },
-        {
-          "skillId": "sql",
-          "count": 2
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Reward & Recognition (Compensation) Lead"
-      ]
-    },
-    "Motion Designer": {
-      "vacancyCount": 2,
-      "salaryMedian": 75500,
-      "salarySampleSize": 2,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Senior Motion Designer",
-        "Staff Motion Designer"
       ]
     },
     "Embedded Software Engineer": {
@@ -11589,22 +11475,6 @@
       "sampleTitles": [
         "Embedded SWE, Consumer Devices",
         "ASIC Firmware Engineer, Modeling"
-      ]
-    },
-    "Product Marketing": {
-      "vacancyCount": 2,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 2
-        }
-      ],
-      "sampleTitles": [
-        "Product Marketing Lead, Advertising",
-        "Product Marketing Lead, Privacy"
       ]
     },
     "创意设计师": {
@@ -11708,6 +11578,136 @@
       ],
       "sampleTitles": [
         "Probability Tutor"
+      ]
+    },
+    "创意制作专家": {
+      "vacancyCount": 2,
+      "salaryMedian": 76800,
+      "salarySampleSize": 2,
+      "augmentSkills": [
+        {
+          "skillId": "anthropic_api",
+          "count": 3
+        },
+        {
+          "skillId": "openai_api",
+          "count": 2
+        },
+        {
+          "skillId": "generative_ai",
+          "count": 1
+        },
+        {
+          "skillId": "llm",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Creative Pipeline Specialist - Forward Deployed Engineering"
+      ]
+    },
+    "Silicon Implementation Engineer": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Silicon Implementation Engineer, Front End",
+        "Physical Design Engineer"
+      ]
+    },
+    "Legal Operations Analyst": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "prompt_engineering",
+          "count": 2
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Senior Analyst, Legal Operations",
+        "Legal Operations Analyst"
+      ]
+    },
+    "Compensation & Benefits Specialist": {
+      "vacancyCount": 2,
+      "salaryMedian": 66106,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "data_analysis",
+          "count": 2
+        },
+        {
+          "skillId": "sql",
+          "count": 2
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Reward & Recognition (Compensation) Lead"
+      ]
+    },
+    "Motion Designer": {
+      "vacancyCount": 2,
+      "salaryMedian": 75500,
+      "salarySampleSize": 2,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Senior Motion Designer",
+        "Staff Motion Designer"
+      ]
+    },
+    "Product Marketing": {
+      "vacancyCount": 2,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 2
+        }
+      ],
+      "sampleTitles": [
+        "Product Marketing Lead, Advertising",
+        "Product Marketing Lead, Privacy"
       ]
     },
     "Business Intelligence Analyst": {
@@ -12251,58 +12251,6 @@
         "Technical Program Manager, Google Cloud Analytics and Insights"
       ]
     },
-    "电气工程师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        },
-        {
-          "skillId": "deep_learning",
-          "count": 1
-        },
-        {
-          "skillId": "pytorch",
-          "count": 1
-        },
-        {
-          "skillId": "tensorflow",
-          "count": 1
-        },
-        {
-          "skillId": "agent_architecture",
-          "count": 1
-        },
-        {
-          "skillId": "reinforcement_learning",
-          "count": 1
-        },
-        {
-          "skillId": "rag",
-          "count": 1
-        },
-        {
-          "skillId": "mlops",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "energy",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Junior Data Scientist – Energy AI & Optimization"
-      ]
-    },
     "营销策略师": {
       "vacancyCount": 1,
       "salaryMedian": 34800,
@@ -12614,34 +12562,6 @@
         "Digital Strategy & Innovation Lead"
       ]
     },
-    "医疗数据分析师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Healthcare Research Analytics Internship"
-      ]
-    },
     "企业战略投资经理": {
       "vacancyCount": 1,
       "salaryMedian": 55980,
@@ -12789,21 +12709,6 @@
       ],
       "sampleTitles": [
         "Part-Time Research Assistant - AI in Education Project"
-      ]
-    },
-    "智能制造架构师": {
-      "vacancyCount": 1,
-      "salaryMedian": 105000,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "consulting",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "智能制造架构师"
       ]
     },
     "临床药理学家": {
@@ -13260,26 +13165,6 @@
         "Chief Technology Officer (CTO)"
       ]
     },
-    "Communications Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Communications Insights and Measurements Analyst"
-      ]
-    },
     "金融合规分析师": {
       "vacancyCount": 1,
       "salaryMedian": 52287,
@@ -13688,26 +13573,6 @@
         "Head of Payer Relations"
       ]
     },
-    "HR Systems Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "git",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Workday Engineer"
-      ]
-    },
     "金融经理": {
       "vacancyCount": 1,
       "salaryMedian": 51481,
@@ -13808,21 +13673,6 @@
         "Chief of Staff"
       ]
     },
-    "IT管理": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "telecom",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Deputy Head of Digital Intelligence Transformation (IT Department)"
-      ]
-    },
     "Graphic & Multimedia Designer": {
       "vacancyCount": 1,
       "salaryMedian": 36612,
@@ -13875,21 +13725,6 @@
       ],
       "sampleTitles": [
         "Technical Implementation Manager"
-      ]
-    },
-    "动画设计师": {
-      "vacancyCount": 1,
-      "salaryMedian": 50012,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Motion Designer"
       ]
     },
     "创意总监/高级创意": {
@@ -14011,21 +13846,6 @@
         "Finance Systems Engineer, Revenue"
       ]
     },
-    "Sales Partner": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Client Partner"
-      ]
-    },
     "Construction Supervisor": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -14054,21 +13874,6 @@
       ],
       "sampleTitles": [
         "Senior Manager, People Compliance"
-      ]
-    },
-    "Business Operations Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "GTM Strategic Planning Manager"
       ]
     },
     "Environmental Engineer": {
@@ -14152,21 +13957,6 @@
         "Global Head of Benefits"
       ]
     },
-    "Legal Director": {
-      "vacancyCount": 1,
-      "salaryMedian": 92437,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Legal Director, Payments"
-      ]
-    },
     "Safety Specialist": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -14212,26 +14002,6 @@
         "Senior Facilities Operations Technician"
       ]
     },
-    "Sourcing Specialist": {
-      "vacancyCount": 1,
-      "salaryMedian": 37156,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Sourcing Specialist - Indirect"
-      ]
-    },
     "Compliance Program Manager": {
       "vacancyCount": 1,
       "salaryMedian": 67062,
@@ -14267,26 +14037,6 @@
         "Infrastructure Partnership Delivery Lead – Stargate"
       ]
     },
-    "UX Program Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": 80286,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior UX Program Manager"
-      ]
-    },
     "Employment Lawyer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -14315,26 +14065,6 @@
       ],
       "sampleTitles": [
         "Head of Data Center Delivery"
-      ]
-    },
-    "Marketing Operations": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Marketing Operations, Technology & Tools Lead"
       ]
     },
     "Datacenter Networking Technician": {
@@ -14370,21 +14100,6 @@
       ],
       "sampleTitles": [
         "Executive IT Support Lead"
-      ]
-    },
-    "Vendor Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Support Partner Manager"
       ]
     },
     "Physical Security Lead": {
@@ -14507,21 +14222,6 @@
         "AI量化策略研究员"
       ]
     },
-    "Operations Specialist": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "manufacturing",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Digital Operations Intern"
-      ]
-    },
     "Government Relations / Public Sector Consultant": {
       "vacancyCount": 1,
       "salaryMedian": 112374,
@@ -14639,21 +14339,6 @@
       ],
       "sampleTitles": [
         "Founding Docs Practice Lead"
-      ]
-    },
-    "Event Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Global Event Programs Lead"
       ]
     },
     "Content Producer": {
@@ -15015,36 +14700,6 @@
         "Business Development Executive"
       ]
     },
-    "Support Engineer, Designer, Software Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "anthropic_api",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Support Engineer, Designer, Software Engineer"
-      ]
-    },
-    "Media Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [],
-      "sampleTitles": [
-        "Media Ops & Analytics Intern"
-      ]
-    },
     "Software Engineer, Systems Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -15220,36 +14875,6 @@
         "DevOps / SRE (Cloud & Infrastructure)"
       ]
     },
-    "Marketing": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Head of Marketing"
-      ]
-    },
-    "Logistics Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Sr. Manager, Logistics - Data Center Operations"
-      ]
-    },
     "设计主管": {
       "vacancyCount": 1,
       "salaryMedian": 48153,
@@ -15423,26 +15048,6 @@
         "Founding Principal / Staff Full-Stack Engineer, Founding Full-Stack Engineer"
       ]
     },
-    "Tax Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Manager, US Tax Operations"
-      ]
-    },
     "QA Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -15518,26 +15123,6 @@
         "Head of People Science and Operations"
       ]
     },
-    "Sales Programs Lead": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Sales Programs Lead"
-      ]
-    },
     "Communications Lead": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -15586,36 +15171,6 @@
       ],
       "sampleTitles": [
         "Proposal Manager"
-      ]
-    },
-    "Business Development/Partnership Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Partner Manager, Growth"
-      ]
-    },
-    "Engineering Program Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Data Center Infrastructure Engineering Program Manager (Network and Whitespace)"
       ]
     },
     "Content Marketing Lead": {
@@ -15775,26 +15330,6 @@
         "Director, Revenue Accounting Operations - Program Management"
       ]
     },
-    "Financial Planning & Analysis (FP&A) Director": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "sql",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Director, Compute & Infrastructure FP&A"
-      ]
-    },
     "Public Policy Expert": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -15868,21 +15403,6 @@
       ],
       "sampleTitles": [
         "Customer Programs Manager, Customer Advisory Boards"
-      ]
-    },
-    "Policy Lead / Governance Specialist": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Human Rights & Responsible Deployment Lead (National Security)"
       ]
     },
     "Data Center Infrastructure Project Manager": {
@@ -15960,21 +15480,6 @@
         "Head of Enterprise Marketing Strategy & Analytics"
       ]
     },
-    "Optical Network Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Optical Network Engineer"
-      ]
-    },
     "Field Engineer": {
       "vacancyCount": 1,
       "salaryMedian": 97874,
@@ -15988,21 +15493,6 @@
       ],
       "sampleTitles": [
         "Field Services Engineer"
-      ]
-    },
-    "Psychologist": {
-      "vacancyCount": 1,
-      "salaryMedian": 78307,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Psychologist"
       ]
     },
     "Finance Systems Program Manager": {
@@ -16280,21 +15770,6 @@
         "Order Management"
       ]
     },
-    "Business Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "GTM Strategic Planning Analyst"
-      ]
-    },
     "Supply Chain Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -16419,21 +15894,6 @@
       ],
       "sampleTitles": [
         "Sales Strategy and Ops, EMEA"
-      ]
-    },
-    "Marketing/Communications Lead": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Visual Storytelling & Innovation Lead"
       ]
     },
     "Program Operations Manager": {
@@ -16718,21 +16178,6 @@
         "Sr. Payroll Manager"
       ]
     },
-    "Data Engineer, Backend Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Backend + Data Engineer"
-      ]
-    },
     "Revenue Manager": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -16884,21 +16329,6 @@
       ],
       "sampleTitles": [
         "Content Creator - Social Media"
-      ]
-    },
-    "HR": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "HR Intern"
       ]
     },
     "Finance Director / Accounting Director": {
@@ -17135,21 +16565,6 @@
         "Business Expert - Management Consulting"
       ]
     },
-    "Sales / Business Development": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "media",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Client Partner"
-      ]
-    },
     "Controls Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -17163,21 +16578,6 @@
       ],
       "sampleTitles": [
         "Controls Engineer"
-      ]
-    },
-    "Designer": {
-      "vacancyCount": 1,
-      "salaryMedian": 105125,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Exceptional Designer"
       ]
     },
     "Facilities Maintenance Technician": {
@@ -17228,42 +16628,6 @@
       ],
       "sampleTitles": [
         "Line Cook"
-      ]
-    },
-    "Cybersecurity Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": 97875,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "rust",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "gcp",
-          "count": 1
-        },
-        {
-          "skillId": "azure",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Detection & Response Engineer"
       ]
     },
     "Facilities Manager": {
@@ -17492,21 +16856,6 @@
         "Quantitative Finance Expert"
       ]
     },
-    "HR Specialist": {
-      "vacancyCount": 1,
-      "salaryMedian": 43681,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "People Operations Specialist"
-      ]
-    },
     "Data Center Operations Technician": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -17602,53 +16951,6 @@
         "Operations & Maintenance Technician"
       ]
     },
-    "Compliance Investigator": {
-      "vacancyCount": 1,
-      "salaryMedian": 49843,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior BSA/AML Investigator"
-      ]
-    },
-    "Network Security Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": 112374,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "aws",
-          "count": 1
-        },
-        {
-          "skillId": "gcp",
-          "count": 1
-        },
-        {
-          "skillId": "azure",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Network Security Engineer"
-      ]
-    },
     "Power Generation Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -17679,26 +16981,6 @@
         "Porter Supervisor"
       ]
     },
-    "Security Operations Center Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": 50749,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "cpp",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "SOC Manager"
-      ]
-    },
     "Human Resources Partner": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -17717,30 +16999,6 @@
       ],
       "sampleTitles": [
         "People Experience & Delivery Partner"
-      ]
-    },
-    "Safety Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "llm",
-          "count": 1
-        },
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Senior Analyst - Safety Operations (Child Safety)"
       ]
     },
     "Medical Device Engineer / Physician-Scientist": {
@@ -17828,64 +17086,6 @@
         "AI Tutor - Space Science Specialist"
       ]
     },
-    "UX Designer": {
-      "vacancyCount": 1,
-      "salaryMedian": 72499,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "UX Designer - Growth/Monetization"
-      ]
-    },
-    "HR Partner": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "People and Culture Partner"
-      ]
-    },
-    "HR Operations / Talent Management": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "sql",
-          "count": 1
-        },
-        {
-          "skillId": "javascript",
-          "count": 1
-        },
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Talent Management Operations Partner"
-      ]
-    },
     "Administrative Business Partner": {
       "vacancyCount": 1,
       "salaryMedian": 34638,
@@ -17899,21 +17099,6 @@
       ],
       "sampleTitles": [
         "Administrative Business Partner, Gemini"
-      ]
-    },
-    "Talent Acquisition Specialist": {
-      "vacancyCount": 1,
-      "salaryMedian": 48944,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Talent Insights and Engagement Specialist"
       ]
     },
     "产品工程师": {
@@ -17988,26 +17173,6 @@
         "Intermediate–Senior Node.js Developer (Sports Data + Generative AI)"
       ]
     },
-    "Business Operations / Strategy": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "llm",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Strategy & Operations, Support"
-      ]
-    },
     "Community Engagement Lead": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18066,36 +17231,6 @@
       ],
       "sampleTitles": [
         "Lead Quantitative Developer / Engineer"
-      ]
-    },
-    "Data Center Operations Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Datacenter Hardware Operations Lead"
-      ]
-    },
-    "IT Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "IT Solutions Engineer"
       ]
     },
     "Creative Director": {
@@ -18223,21 +17358,6 @@
         "Leave & Accommodation Case Manager"
       ]
     },
-    "Sourcing Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Strategic Sourcing Manager, DC Networking Infrastructure"
-      ]
-    },
     "Accounts Payable Manager": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18251,21 +17371,6 @@
       ],
       "sampleTitles": [
         "Accounts Payable Leader"
-      ]
-    },
-    "Hardware Verification Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Design Verification Engineer"
       ]
     },
     "UX Researcher": {
@@ -18350,26 +17455,6 @@
       ],
       "sampleTitles": [
         "Camera ISP Software Engineer, Consumer Devices"
-      ]
-    },
-    "Trust & Safety Operations Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "data_analysis",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Trust & Safety Operations Analyst, Ads"
       ]
     },
     "Supply Chain Operations Program Manager": {
@@ -18518,50 +17603,6 @@
         "Business Lead, Life Sciences"
       ]
     },
-    "Industrial Security Lead": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "cpp",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Industrial Security Lead"
-      ]
-    },
-    "Operating Systems Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "cpp",
-          "count": 1
-        },
-        {
-          "skillId": "rust",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Operating Systems Engineer"
-      ]
-    },
     "Learning and Development Specialist": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18623,21 +17664,6 @@
       ],
       "sampleTitles": [
         "Senior Legal Solutions Architect"
-      ]
-    },
-    "Cybersecurity Lead": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Global Detection and Response Lead"
       ]
     },
     "Financial Risk Manager/Compliance Manager": {
@@ -18760,21 +17786,6 @@
         "Associate General Counsel, Non-Profit"
       ]
     },
-    "Security Researcher": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Security Researcher"
-      ]
-    },
     "Finance Director": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -18838,36 +17849,6 @@
       ],
       "sampleTitles": [
         "OS / Device Lifecycle Engineer (Secure Boot / OTA / Identity)"
-      ]
-    },
-    "Global Mobility and Immigration Manager": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Head of Global Mobility and Immigration"
-      ]
-    },
-    "Marketing Science": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Advertising Marketing Science Lead"
       ]
     },
     "software engineer": {
@@ -19131,21 +18112,6 @@
       ],
       "sampleTitles": [
         "Director of Engineering (Player-Coach)"
-      ]
-    },
-    "Aerospace Engineer": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "automotive",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "iOS & Backend"
       ]
     },
     "材料工程师": {
@@ -19553,36 +18519,6 @@
         "Creative Producer"
       ]
     },
-    "社交媒体分析师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Social Media Analyst"
-      ]
-    },
-    "教学设计师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "internet",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Customer Education, Learning Experience & Curriculum Lead"
-      ]
-    },
     "Architect": {
       "vacancyCount": 1,
       "salaryMedian": 64524,
@@ -19617,16 +18553,6 @@
       ],
       "sampleTitles": [
         "Digital Transformation Architect"
-      ]
-    },
-    "人力资源分析师": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [],
-      "sampleTitles": [
-        "People Analytics Intern"
       ]
     },
     "Scientific Director": {
@@ -19834,6 +18760,1168 @@
         "C / GPU / AI dev workflows"
       ]
     },
+    "Marketing Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Summer Internship: Marketing Analytics Intern"
+      ]
+    },
+    "Systems Architect": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "flask",
+          "count": 1
+        },
+        {
+          "skillId": "devops",
+          "count": 1
+        },
+        {
+          "skillId": "docker",
+          "count": 1
+        },
+        {
+          "skillId": "aws",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "other",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Founding Product Engineer / Systems Architect"
+      ]
+    },
+    "Auditor": {
+      "vacancyCount": 1,
+      "salaryMedian": 0,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "State Street Audit Team - Integrated Audit Data Analyst"
+      ]
+    },
+    "Scientific Analyst/Developer": {
+      "vacancyCount": 1,
+      "salaryMedian": 60718,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "java",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        },
+        {
+          "skillId": "reinforcement_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "government",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Scientific Analyst/Developer"
+      ]
+    },
+    "电气工程师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        },
+        {
+          "skillId": "deep_learning",
+          "count": 1
+        },
+        {
+          "skillId": "pytorch",
+          "count": 1
+        },
+        {
+          "skillId": "tensorflow",
+          "count": 1
+        },
+        {
+          "skillId": "agent_architecture",
+          "count": 1
+        },
+        {
+          "skillId": "reinforcement_learning",
+          "count": 1
+        },
+        {
+          "skillId": "rag",
+          "count": 1
+        },
+        {
+          "skillId": "mlops",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "energy",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Junior Data Scientist – Energy AI & Optimization"
+      ]
+    },
+    "医疗数据分析师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "healthcare",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Healthcare Research Analytics Internship"
+      ]
+    },
+    "智能制造架构师": {
+      "vacancyCount": 1,
+      "salaryMedian": 105000,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "consulting",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "智能制造架构师"
+      ]
+    },
+    "Communications Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Communications Insights and Measurements Analyst"
+      ]
+    },
+    "HR Systems Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "git",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Workday Engineer"
+      ]
+    },
+    "IT管理": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "telecom",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Deputy Head of Digital Intelligence Transformation (IT Department)"
+      ]
+    },
+    "动画设计师": {
+      "vacancyCount": 1,
+      "salaryMedian": 50012,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Motion Designer"
+      ]
+    },
+    "Sales Partner": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Client Partner"
+      ]
+    },
+    "Business Operations Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "GTM Strategic Planning Manager"
+      ]
+    },
+    "Legal Director": {
+      "vacancyCount": 1,
+      "salaryMedian": 92437,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Legal Director, Payments"
+      ]
+    },
+    "Sourcing Specialist": {
+      "vacancyCount": 1,
+      "salaryMedian": 37156,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Sourcing Specialist - Indirect"
+      ]
+    },
+    "UX Program Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": 80286,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "machine_learning",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior UX Program Manager"
+      ]
+    },
+    "Marketing Operations": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Marketing Operations, Technology & Tools Lead"
+      ]
+    },
+    "Vendor Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Support Partner Manager"
+      ]
+    },
+    "Operations Specialist": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "manufacturing",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Digital Operations Intern"
+      ]
+    },
+    "Event Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Global Event Programs Lead"
+      ]
+    },
+    "Support Engineer, Designer, Software Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "anthropic_api",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Support Engineer, Designer, Software Engineer"
+      ]
+    },
+    "Marketing": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Head of Marketing"
+      ]
+    },
+    "Logistics Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Sr. Manager, Logistics - Data Center Operations"
+      ]
+    },
+    "Tax Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Manager, US Tax Operations"
+      ]
+    },
+    "Sales Programs Lead": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Sales Programs Lead"
+      ]
+    },
+    "Business Development/Partnership Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Partner Manager, Growth"
+      ]
+    },
+    "Engineering Program Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Data Center Infrastructure Engineering Program Manager (Network and Whitespace)"
+      ]
+    },
+    "Financial Planning & Analysis (FP&A) Director": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Director, Compute & Infrastructure FP&A"
+      ]
+    },
+    "Policy Lead / Governance Specialist": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Human Rights & Responsible Deployment Lead (National Security)"
+      ]
+    },
+    "Optical Network Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Optical Network Engineer"
+      ]
+    },
+    "Psychologist": {
+      "vacancyCount": 1,
+      "salaryMedian": 78307,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Psychologist"
+      ]
+    },
+    "Business Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "GTM Strategic Planning Analyst"
+      ]
+    },
+    "Marketing/Communications Lead": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Visual Storytelling & Innovation Lead"
+      ]
+    },
+    "Data Engineer, Backend Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "finance",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Backend + Data Engineer"
+      ]
+    },
+    "HR": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "HR Intern"
+      ]
+    },
+    "Sales / Business Development": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "media",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Client Partner"
+      ]
+    },
+    "Designer": {
+      "vacancyCount": 1,
+      "salaryMedian": 105125,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Exceptional Designer"
+      ]
+    },
+    "Cybersecurity Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": 97875,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "python",
+          "count": 1
+        },
+        {
+          "skillId": "rust",
+          "count": 1
+        },
+        {
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "gcp",
+          "count": 1
+        },
+        {
+          "skillId": "azure",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Detection & Response Engineer"
+      ]
+    },
+    "HR Specialist": {
+      "vacancyCount": 1,
+      "salaryMedian": 43681,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "People Operations Specialist"
+      ]
+    },
+    "Compliance Investigator": {
+      "vacancyCount": 1,
+      "salaryMedian": 49843,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior BSA/AML Investigator"
+      ]
+    },
+    "Network Security Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": 112374,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "aws",
+          "count": 1
+        },
+        {
+          "skillId": "gcp",
+          "count": 1
+        },
+        {
+          "skillId": "azure",
+          "count": 1
+        },
+        {
+          "skillId": "python",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Network Security Engineer"
+      ]
+    },
+    "Security Operations Center Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": 50749,
+      "salarySampleSize": 1,
+      "augmentSkills": [
+        {
+          "skillId": "cpp",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "SOC Manager"
+      ]
+    },
+    "Safety Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "llm",
+          "count": 1
+        },
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Senior Analyst - Safety Operations (Child Safety)"
+      ]
+    },
+    "UX Designer": {
+      "vacancyCount": 1,
+      "salaryMedian": 72499,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "UX Designer - Growth/Monetization"
+      ]
+    },
+    "HR Partner": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "People and Culture Partner"
+      ]
+    },
+    "HR Operations / Talent Management": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "sql",
+          "count": 1
+        },
+        {
+          "skillId": "javascript",
+          "count": 1
+        },
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Talent Management Operations Partner"
+      ]
+    },
+    "Talent Acquisition Specialist": {
+      "vacancyCount": 1,
+      "salaryMedian": 48944,
+      "salarySampleSize": 1,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Talent Insights and Engagement Specialist"
+      ]
+    },
+    "Business Operations / Strategy": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "llm",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Strategy & Operations, Support"
+      ]
+    },
+    "Data Center Operations Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Datacenter Hardware Operations Lead"
+      ]
+    },
+    "IT Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "IT Solutions Engineer"
+      ]
+    },
+    "Sourcing Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Strategic Sourcing Manager, DC Networking Infrastructure"
+      ]
+    },
+    "Hardware Verification Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Design Verification Engineer"
+      ]
+    },
+    "Trust & Safety Operations Analyst": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "data_analysis",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Trust & Safety Operations Analyst, Ads"
+      ]
+    },
+    "Industrial Security Lead": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "cpp",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Industrial Security Lead"
+      ]
+    },
+    "Operating Systems Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [
+        {
+          "skillId": "cpp",
+          "count": 1
+        },
+        {
+          "skillId": "rust",
+          "count": 1
+        }
+      ],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Operating Systems Engineer"
+      ]
+    },
+    "Cybersecurity Lead": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Global Detection and Response Lead"
+      ]
+    },
+    "Security Researcher": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Security Researcher"
+      ]
+    },
+    "Global Mobility and Immigration Manager": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Head of Global Mobility and Immigration"
+      ]
+    },
+    "Marketing Science": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Advertising Marketing Science Lead"
+      ]
+    },
+    "Aerospace Engineer": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "automotive",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "iOS & Backend"
+      ]
+    },
+    "社交媒体分析师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Social Media Analyst"
+      ]
+    },
+    "教学设计师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [
+        {
+          "industry": "internet",
+          "count": 1
+        }
+      ],
+      "sampleTitles": [
+        "Customer Education, Learning Experience & Curriculum Lead"
+      ]
+    },
+    "人力资源分析师": {
+      "vacancyCount": 1,
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [],
+      "sampleTitles": [
+        "People Analytics Intern"
+      ]
+    },
     "Fullstack Platform Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -20011,21 +20099,6 @@
         "Histopathology Imaging Data Science Intern"
       ]
     },
-    "Marketing Analyst": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "healthcare",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Summer Internship: Marketing Analytics Intern"
-      ]
-    },
     "Power Supply Engineer": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -20071,57 +20144,6 @@
         "Paint Shop Digitalization Developer Maintenance Planning Intern"
       ]
     },
-    "Systems Architect": {
-      "vacancyCount": 1,
-      "salaryMedian": null,
-      "salarySampleSize": 0,
-      "augmentSkills": [
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "flask",
-          "count": 1
-        },
-        {
-          "skillId": "devops",
-          "count": 1
-        },
-        {
-          "skillId": "docker",
-          "count": 1
-        },
-        {
-          "skillId": "aws",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "other",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "Founding Product Engineer / Systems Architect"
-      ]
-    },
-    "Auditor": {
-      "vacancyCount": 1,
-      "salaryMedian": 0,
-      "salarySampleSize": 1,
-      "augmentSkills": [],
-      "topIndustries": [
-        {
-          "industry": "finance",
-          "count": 1
-        }
-      ],
-      "sampleTitles": [
-        "State Street Audit Team - Integrated Audit Data Analyst"
-      ]
-    },
     "量化研究员": {
       "vacancyCount": 1,
       "salaryMedian": null,
@@ -20152,36 +20174,14 @@
         "Business Warehouse"
       ]
     },
-    "Scientific Analyst/Developer": {
+    "Media Analyst": {
       "vacancyCount": 1,
-      "salaryMedian": 60718,
-      "salarySampleSize": 1,
-      "augmentSkills": [
-        {
-          "skillId": "java",
-          "count": 1
-        },
-        {
-          "skillId": "python",
-          "count": 1
-        },
-        {
-          "skillId": "machine_learning",
-          "count": 1
-        },
-        {
-          "skillId": "reinforcement_learning",
-          "count": 1
-        }
-      ],
-      "topIndustries": [
-        {
-          "industry": "government",
-          "count": 1
-        }
-      ],
+      "salaryMedian": null,
+      "salarySampleSize": 0,
+      "augmentSkills": [],
+      "topIndustries": [],
       "sampleTitles": [
-        "Senior Scientific Analyst/Developer"
+        "Media Ops & Analytics Intern"
       ]
     }
   }
