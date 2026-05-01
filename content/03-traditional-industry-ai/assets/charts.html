@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<title>传统行业 AI 增强 — 数据图</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2937;
+  }
+  .panel {
+    width: 1280px;
+    height: 720px;
+    margin: 24px auto;
+    padding: 48px 64px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel--xhs {
+    width: 900px;
+    min-height: 900px;
+    height: auto;
+    padding: 56px 56px 64px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .panel--xhs h1 {
+    font-size: 42px;
+    line-height: 1.3;
+  }
+  .subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .chart-wrap {
+    flex: 1;
+    position: relative;
+    min-height: 0;
+  }
+  .footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .panel--xhs .footer { font-size: 14px; padding-top: 24px; }
+  .legend {
+    display: flex;
+    gap: 18px;
+    font-size: 13px;
+    color: #4b5563;
+    margin: -10px 0 10px;
+  }
+  .swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .jd-card {
+    border-left: 4px solid;
+    padding: 14px 18px;
+    border-radius: 8px;
+    background: #f9fafb;
+    margin-bottom: 14px;
+  }
+  .jd-card--med { border-left-color: #ef4444; background: #fef2f2; }
+  .jd-card--chip { border-left-color: #f59e0b; background: #fffbeb; }
+  .jd-card--auto { border-left-color: #3b82f6; background: #eff6ff; }
+  .jd-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .jd-meta {
+    color: #6b7280;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .jd-desc {
+    font-size: 14px;
+    color: #374151;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<!-- ──────────────── Chart 1: 行业分布柱状图（横屏） ──────────────── -->
+<div class="panel" id="panel-industry">
+  <h1>国内 AI 增强岗位 · 行业分布</h1>
+  <p class="subtitle">951 条国内 AI 增强岗 · 互联网 vs 传统行业 = 1 : 3.4</p>
+  <div class="legend">
+    <span><span class="swatch" style="background:#ef4444"></span>互联网</span>
+    <span><span class="swatch" style="background:#22c55e"></span>传统行业（10 个加起来 685 条）</span>
+    <span><span class="swatch" style="background:#9ca3af"></span>其他 / 政府 / 通信</span>
+  </div>
+  <div class="chart-wrap"><canvas id="chartIndustry"></canvas></div>
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11 · narrative-stats.json p1_market_basic</span>
+    <span>agent-hunt.pages.dev/narrative/p1</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 2: 3 条真实 JD 卡片合一（横屏） ──────────────── -->
+<div class="panel" id="panel-jds">
+  <h1>3 条真实 JD：不是新岗位，是老岗位 + AI 工具</h1>
+  <p class="subtitle">来自 Boss 直聘 / 猎聘公开页 · 国内 AI 增强岗代表样本</p>
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center; gap:0;">
+    <div class="jd-card jd-card--med">
+      <div class="jd-title">医疗AI产品经理 — 上海·安图生物</div>
+      <div class="jd-meta">20-35k／月 · 3-5 年经验 · 本科+</div>
+      <div class="jd-desc">原 PM 背景 + Healthcare 领域知识 + AI 工具应用。<strong>不是招会写 Python 的算法，是招懂医疗器械流程 + 知道 AI 能在流程哪里嵌入的产品经理。</strong></div>
+    </div>
+    <div class="jd-card jd-card--chip">
+      <div class="jd-title">AI 系统测试工程师 — 杭州·某 LLM 芯片厂</div>
+      <div class="jd-meta">35-55k／月 · 5 年+经验</div>
+      <div class="jd-desc">原 Linux 系统测试工程师栈 (IPC / DMA / PCIe / USB / 用户态驱动) 一个没少，<strong>叠加 LLM/Transformer 推理验证。</strong></div>
+    </div>
+    <div class="jd-card jd-card--auto">
+      <div class="jd-title">AI 集成工程师 — 合肥·某整车厂</div>
+      <div class="jd-meta">21-22k／月 · 3-5 年经验 · 汽车行业</div>
+      <div class="jd-desc">原车端集成工程师 (CAN / LIN / SOME/IP)，<strong>加 LLM/CV/时序分析自动解析总线日志识别异常。</strong></div>
+    </div>
+  </div>
+  <div class="footer">
+    <span>数据来源：narrative-examples.json · p1_p2_industries</span>
+    <span>agent-hunt.pages.dev/narrative/p1</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 3: 小红书竖版封面 ──────────────── -->
+<div class="panel panel--xhs" id="panel-xhs">
+  <h1>医生 / 工程师 / 会计：<br/>你比互联网程序员转 AI <span style="color:#dc2626;">更值钱</span></h1>
+  <p class="subtitle">951 条国内 AI 增强岗 · 传统行业是互联网的 3.4 倍</p>
+
+  <div style="margin-top:24px; padding:32px; background:#fef2f2; border-radius:14px;">
+    <div style="font-size:16px; color:#dc2626; font-weight:700; margin-bottom:12px;">❌ 所有 AI 课程在教</div>
+    <div style="font-size:24px; font-weight:600; color:#111827;">程序员怎么转 AI 程序员</div>
+  </div>
+
+  <div style="margin-top:20px; padding:32px; background:#f0fdf4; border-radius:14px;">
+    <div style="font-size:16px; color:#16a34a; font-weight:700; margin-bottom:12px;">✅ 所有 AI 增强岗在等</div>
+    <div style="font-size:24px; font-weight:600; color:#111827; line-height:1.5;">医生 + AI<br/>工程师 + AI<br/>会计 + AI</div>
+  </div>
+
+  <div style="margin-top:28px; padding:24px 28px; background:#fff7ed; border-radius:14px; border-left:5px solid #f97316;">
+    <div style="font-size:18px; line-height:1.7; color:#7c2d12;">
+      <strong>不是新岗位</strong><br/>
+      是<strong>老岗位 + AI 工具</strong><br/>
+      <span style="color:#9a3412;">业务知识他们没有，你的 AI 加成只需要补一层</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11 · 22 数据源 9,287 条 JD</span>
+    <span style="color:#6366f1; font-weight:600;">agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<script>
+const INDUSTRY_DATA = [
+  { name: "互联网", count: 201, type: "internet" },
+  { name: "制造业", count: 152, type: "traditional" },
+  { name: "汽车",   count: 108, type: "traditional" },
+  { name: "医疗",   count:  88, type: "traditional" },
+  { name: "金融",   count:  85, type: "traditional" },
+  { name: "媒体",   count:  85, type: "traditional" },
+  { name: "教育",   count:  59, type: "traditional" },
+  { name: "咨询",   count:  49, type: "traditional" },
+  { name: "零售",   count:  48, type: "traditional" },
+  { name: "其他",   count:  25, type: "other" },
+  { name: "能源",   count:   6, type: "other" },
+  { name: "通信",   count:   5, type: "other" },
+  { name: "政府",   count:   2, type: "other" },
+];
+const COLORS = {
+  internet: "#ef4444",
+  traditional: "#22c55e",
+  other: "#9ca3af",
+};
+
+new Chart(document.getElementById("chartIndustry"), {
+  type: "bar",
+  data: {
+    labels: INDUSTRY_DATA.map(d => d.name),
+    datasets: [{
+      data: INDUSTRY_DATA.map(d => d.count),
+      backgroundColor: INDUSTRY_DATA.map(d => COLORS[d.type]),
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: "y",
+    scales: {
+      x: { beginAtZero: true, ticks: { font: { size: 12 } }, grid: { color: "#e5e7eb" } },
+      y: { ticks: { font: { size: 13 } }, grid: { display: false } }
+    },
+    plugins: {
+      legend: { display: false },
+      tooltip: { enabled: false }
+    },
+    animation: {
+      onComplete: function() {
+        const ctx = this.ctx;
+        ctx.font = "bold 12px -apple-system, sans-serif";
+        ctx.textAlign = "left";
+        const meta = this.getDatasetMeta(0);
+        meta.data.forEach((bar, i) => {
+          const v = INDUSTRY_DATA[i].count;
+          ctx.fillStyle = COLORS[INDUSTRY_DATA[i].type];
+          ctx.fillText(`${v}`, bar.x + 4, bar.y + 4);
+        });
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>

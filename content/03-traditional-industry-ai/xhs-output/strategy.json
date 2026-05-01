@@ -1,0 +1,72 @@
+{
+  "titles": [
+    "医生 / 工程师 / 会计：你比互联网程序员转 AI 更值钱"
+  ],
+  "summary": "所有课程都在教转码——程序员怎么转 AI 程序员。\n所有岗位都在等懂业务的人——医生 / 工程师 / 会计 + AI。\n这是市场最大的认知错位。\n国内 AI 增强岗（传统岗位 + 要求会用 AI 工具）共 951 条。\n按行业拆开看。\n互联网：201 条\n制造业：152 条 / 汽车：108 条 / 医疗：88 条 / 金融：85 条 / 媒体：85 条\n教育：59 条 / 咨询：49 条 / 零售：48 条\n传统行业 10 个加起来 685 条 = 互联网的 3.4 倍。\n上海·医疗AI产品经理。\n20-35k，3-5 年经验，要求 PM 背景 + Healthcare + AI 工具。\n杭州·AI系统测试工程师。\n35-55k，5+ 年，原是测试工程师，加 LLM/Transformer 推理验证。\n合肥·AI 集成工程师。\n21-22k，3-5 年，原是车端集成工程师，加 LLM/CV/时序分析。\n不是新岗位。是老岗位 + AI 工具。\n互联网公司的 AI 程序员供给已经过载。\n每个程序员入职第一周都在用 Copilot。\n但医院里没人教医生怎么用 AI 看 CT。\n工厂里没人教",
+  "tags": [],
+  "cardPlan": [
+    {
+      "index": 0,
+      "type": "cover",
+      "title": "医生 / 工程师 / 会计：你比互联网程序员转 AI 更值钱",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 1,
+      "type": "content",
+      "title": "国内 AI 招聘市场最大的错位",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 2,
+      "type": "content",
+      "title": "数据：传统行业 AI 增强岗是互联网的 3.4 倍",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 3,
+      "type": "content",
+      "title": "真实 JD（来自 Boss / 猎聘公开页）",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 4,
+      "type": "content",
+      "title": "为什么传统行业更缺人？",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 5,
+      "type": "content",
+      "title": "你应该看哪条线？",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 6,
+      "type": "content",
+      "title": "但要诚实地说 3 件事",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 7,
+      "type": "content",
+      "title": "评论你的本职 + 想用 AI 做的事",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 8,
+      "type": "summary",
+      "title": "",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    }
+  ]
+}
