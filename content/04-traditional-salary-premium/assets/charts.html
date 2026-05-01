@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<title>转 AI 别去互联网 — 数据图</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2937;
+  }
+  .panel {
+    width: 1280px;
+    height: 720px;
+    margin: 24px auto;
+    padding: 48px 64px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel--xhs {
+    width: 900px;
+    min-height: 900px;
+    height: auto;
+    padding: 56px 56px 64px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .panel--xhs h1 {
+    font-size: 42px;
+    line-height: 1.3;
+  }
+  .subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .chart-wrap {
+    flex: 1;
+    position: relative;
+    min-height: 0;
+  }
+  .footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .panel--xhs .footer { font-size: 14px; padding-top: 24px; }
+  .legend {
+    display: flex;
+    gap: 18px;
+    font-size: 13px;
+    color: #4b5563;
+    margin: -10px 0 10px;
+  }
+  .swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .compare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    flex: 1;
+    align-items: stretch;
+  }
+  .compare-col {
+    border-radius: 14px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .compare-col--bank { background: #f0fdf4; border: 2px solid #22c55e; }
+  .compare-col--internet { background: #fef2f2; border: 2px solid #ef4444; }
+  .compare-label {
+    font-size: 13px;
+    color: #6b7280;
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .compare-company {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .compare-role {
+    font-size: 16px;
+    color: #4b5563;
+    margin-bottom: 18px;
+  }
+  .compare-salary {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1;
+  }
+  .compare-col--bank .compare-salary { color: #16a34a; }
+  .compare-col--internet .compare-salary { color: #dc2626; }
+  .compare-meta {
+    margin-top: 14px;
+    font-size: 13px;
+    color: #6b7280;
+  }
+  .jd-card {
+    border-left: 4px solid;
+    padding: 14px 18px;
+    border-radius: 8px;
+    background: #f9fafb;
+    margin-bottom: 14px;
+  }
+  .jd-card--med { border-left-color: #ef4444; background: #fef2f2; }
+  .jd-card--mfg { border-left-color: #f59e0b; background: #fffbeb; }
+  .jd-card--fin { border-left-color: #16a34a; background: #f0fdf4; }
+  .jd-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .jd-meta {
+    color: #6b7280;
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  .jd-desc {
+    font-size: 14px;
+    color: #374151;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<!-- ──────────────── Chart 1: 网商银行 vs 阿里云 单点对比（横屏） ──────────────── -->
+<div class="panel" id="panel-compare">
+  <h1>同岗位同城同经验，差出整整一档</h1>
+  <p class="subtitle">杭州 · 智能风控方向 · 5 年+ 经验 · 真实 JD</p>
+  <div class="compare-grid">
+    <div class="compare-col compare-col--bank">
+      <div class="compare-label">🏦 金融业</div>
+      <div class="compare-company">网商银行</div>
+      <div class="compare-role">智能风控平台产品</div>
+      <div class="compare-salary">¥40-55k</div>
+      <div class="compare-meta">月薪 · 来自猎聘公开 JD</div>
+    </div>
+    <div class="compare-col compare-col--internet">
+      <div class="compare-label">💻 互联网</div>
+      <div class="compare-company">阿里云智能</div>
+      <div class="compare-role">采供内控专家（智能风控方向）</div>
+      <div class="compare-salary">¥10-20k</div>
+      <div class="compare-meta">月薪 · 来自猎聘公开 JD</div>
+    </div>
+  </div>
+  <div style="text-align:center; margin-top:18px; font-size:18px; font-weight:600; color:#7c2d12;">
+    银行下限 ¥40k = 互联网上限 ¥20k × 2
+  </div>
+  <div class="footer">
+    <span>数据来源：narrative-examples.json · finance + internet 杭州·智能风控对比样本</span>
+    <span>agent-hunt.pages.dev/narrative/p2</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 2: 行业薪资中位数柱状图（横屏） ──────────────── -->
+<div class="panel" id="panel-salary">
+  <h1>国内 AI 增强岗 · 行业薪资中位数</h1>
+  <p class="subtitle">481 条有薪资 AI 增强岗 · 互联网在第 4 名 · 三强中位 30k</p>
+  <div class="legend">
+    <span><span class="swatch" style="background:#f59e0b"></span>三强（医疗 / 制造 / 金融）</span>
+    <span><span class="swatch" style="background:#ef4444"></span>互联网</span>
+    <span><span class="swatch" style="background:#9ca3af"></span>其他</span>
+  </div>
+  <div class="chart-wrap"><canvas id="chartSalary"></canvas></div>
+  <div class="footer">
+    <span>数据来源：industry-augmented-salary.json · 中位数 (p50)</span>
+    <span>agent-hunt.pages.dev/narrative/p2</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 3: 三强各 1 条 JD（横屏） ──────────────── -->
+<div class="panel" id="panel-jds">
+  <h1>三强各 1 条真实 JD：医疗 / 制造 / 金融</h1>
+  <p class="subtitle">数据来自 Boss / 猎聘公开页 · 不是抽象数字</p>
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center;">
+    <div class="jd-card jd-card--med">
+      <div class="jd-title">医疗：医疗 AI 产品经理 — 上海·安图生物</div>
+      <div class="jd-meta">20-35k／月 · 3-5 年 · 硕士</div>
+      <div class="jd-desc">原 PM 背景 + Healthcare 领域知识 + AI 工具应用。<strong>招的不是会写 Python 的算法，是懂医疗器械流程 + 知道 AI 能在流程哪里嵌入的产品经理。</strong></div>
+    </div>
+    <div class="jd-card jd-card--mfg">
+      <div class="jd-title">制造：AI 系统测试工程师 — 杭州·某 LLM 芯片厂</div>
+      <div class="jd-meta">35-55k／月 · 5 年+经验</div>
+      <div class="jd-desc">原 Linux 系统测试栈 (IPC / DMA / PCIe / USB / 用户态驱动) 一个没少，<strong>叠加 LLM/Transformer 推理验证。</strong></div>
+    </div>
+    <div class="jd-card jd-card--fin">
+      <div class="jd-title">金融：智能风控平台产品 — 杭州·网商银行</div>
+      <div class="jd-meta">40-55k／月 · 5 年+经验</div>
+      <div class="jd-desc">原 PM 背景 + 风控业务体系 + 信贷风控策略平台。<strong>风控业务知识是核心，AI 是嵌入风控产品的工具层。</strong></div>
+    </div>
+  </div>
+  <div class="footer">
+    <span>数据来源：narrative-examples.json · p1_p2_industries</span>
+    <span>agent-hunt.pages.dev/narrative/p2</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 4: 小红书竖版封面 ──────────────── -->
+<div class="panel panel--xhs" id="panel-xhs">
+  <h1>同岗位同城同经验<br/>银行 <span style="color:#16a34a;">¥40-55k</span><br/>互联网 <span style="color:#dc2626;">¥10-20k</span></h1>
+  <p class="subtitle">杭州 · 智能风控 · 5 年+ · 481 条 AI 增强岗 JD 数据</p>
+
+  <div style="margin-top:20px; padding:32px; background:#f0fdf4; border-radius:14px; border:2px solid #22c55e;">
+    <div style="font-size:15px; color:#16a34a; font-weight:700; margin-bottom:10px;">🏦 网商银行</div>
+    <div style="font-size:20px; color:#111827; margin-bottom:6px;">智能风控平台产品</div>
+    <div style="font-size:36px; font-weight:800; color:#16a34a;">¥40-55k</div>
+  </div>
+
+  <div style="margin-top:20px; padding:32px; background:#fef2f2; border-radius:14px; border:2px solid #ef4444;">
+    <div style="font-size:15px; color:#dc2626; font-weight:700; margin-bottom:10px;">💻 阿里云智能</div>
+    <div style="font-size:20px; color:#111827; margin-bottom:6px;">采供内控专家（智能风控方向）</div>
+    <div style="font-size:36px; font-weight:800; color:#dc2626;">¥10-20k</div>
+  </div>
+
+  <div style="margin-top:24px; padding:24px 28px; background:#fff7ed; border-radius:14px; border-left:5px solid #f97316;">
+    <div style="font-size:18px; line-height:1.7; color:#7c2d12;">
+      银行下限 ¥40k = 互联网上限 ¥20k <strong>× 2</strong><br/>
+      <span style="color:#9a3412;">「互联网 = 高薪」在 AI 增强方向被反转</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11</span>
+    <span style="color:#6366f1; font-weight:600;">agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<script>
+const SALARY_DATA = [
+  { name: "金融",   median: 30000, type: "premium" },
+  { name: "医疗",   median: 30000, type: "premium" },
+  { name: "制造",   median: 30000, type: "premium" },
+  { name: "互联网", median: 25000, type: "internet" },
+  { name: "汽车",   median: 25000, type: "other" },
+  { name: "教育",   median: 25000, type: "other" },
+  { name: "咨询",   median: 25000, type: "other" },
+  { name: "其他",   median: 18500, type: "other" },
+  { name: "零售",   median: 15000, type: "other" },
+  { name: "媒体",   median: 12500, type: "other" },
+];
+const COLORS = {
+  premium: "#f59e0b",
+  internet: "#ef4444",
+  other: "#9ca3af",
+};
+
+new Chart(document.getElementById("chartSalary"), {
+  type: "bar",
+  data: {
+    labels: SALARY_DATA.map(d => d.name),
+    datasets: [{
+      data: SALARY_DATA.map(d => d.median),
+      backgroundColor: SALARY_DATA.map(d => COLORS[d.type]),
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: "y",
+    scales: {
+      x: {
+        beginAtZero: true,
+        suggestedMax: 35000,
+        ticks: { callback: v => `¥${v / 1000}k`, font: { size: 12 } },
+        grid: { color: "#e5e7eb" }
+      },
+      y: { ticks: { font: { size: 14, weight: "bold" } }, grid: { display: false } }
+    },
+    plugins: {
+      legend: { display: false },
+      tooltip: { enabled: false }
+    },
+    animation: {
+      onComplete: function() {
+        const ctx = this.ctx;
+        ctx.font = "bold 13px -apple-system, sans-serif";
+        ctx.textAlign = "left";
+        const meta = this.getDatasetMeta(0);
+        meta.data.forEach((bar, i) => {
+          const v = SALARY_DATA[i].median;
+          ctx.fillStyle = COLORS[SALARY_DATA[i].type];
+          ctx.fillText(`¥${v / 1000}k`, bar.x + 4, bar.y + 4);
+        });
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
