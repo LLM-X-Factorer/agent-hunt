@@ -1,0 +1,72 @@
+{
+  "titles": [
+    "「海外 AI 比国内多挣 4-5 倍」是错的——汇率换算后只有 2.78×"
+  ],
+  "summary": "「海外 AI 工程师比国内多挣 4-5 倍」流传太久了。\n这个数字是错的。\n按汇率换算回 CNY 月薪后：\nAI 原生 2.42×，AI 增强 2.78×。\n那「4-5 倍」是怎么算出来的？\n国内 1,887 条 + 海外 1,308 条 LLM 标注岗位的薪资中位数。\n按汇率换算到 CNY/月。\nAI 原生岗（算法 / ML / LLM 工程师等）\n国内 ¥32.5k （n=1,044）。\n海外 ¥78.6k （n=817）。\n海外 / 国内 = 2.42×。\nAI 增强岗（医生 / 工程师 / 财务 + AI）\n国内 ¥23k （n=843）。\n海外 ¥63.9k （n=491）。\n海外 / 国内 = 2.78×。\n海外 JD 上写的是「USD / 年薪」（如 $120k/year）。\n国内 JD 上写的是「CNY / 月薪」（如 25k/月）。\n直接对比就是：\n$120k/year vs ¥25k/month → 看起来差 4.8×。\n实际换算（USD × 7.2 ÷ 12）：\n$120k/year = ¥7.2 万 / 月 → 差 2.88×。\n单位陷阱夸大了 1.7 倍。\nA",
+  "tags": [],
+  "cardPlan": [
+    {
+      "index": 0,
+      "type": "cover",
+      "title": "「海外 AI 比国内多挣 4-5 倍」是错的——汇率换算后只有 2.78×",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 1,
+      "type": "content",
+      "title": "「海外 AI 4-5 倍」是错的",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 2,
+      "type": "content",
+      "title": "真实数字",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 3,
+      "type": "content",
+      "title": "「4-5 倍」错在哪？",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 4,
+      "type": "content",
+      "title": "反直觉点：AI 增强比原生套利还大",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 5,
+      "type": "content",
+      "title": "但要诚实地说 3 件事",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 6,
+      "type": "content",
+      "title": "套利空间最大的是",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 7,
+      "type": "content",
+      "title": "评论你的本职 + 想去的城市",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 8,
+      "type": "summary",
+      "title": "",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    }
+  ]
+}
