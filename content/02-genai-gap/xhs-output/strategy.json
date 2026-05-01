@@ -2,7 +2,7 @@
   "titles": [
     "国内 AI 岗位 top 1 是 LLM，海外是 Python — 招的不是同一种人"
   ],
-  "summary": "国内 AI 岗位 JD 里出现率最高的技能。\nLLM（6.1%）\n海外呢？\nPython（4.2%）\n第一名都不是同一种东西。\n国内招的是会用大模型的人，海外招的是能建 AI 系统的人。\n国内前 5：\nLLM (6.1%) → Agent Architecture (2.4%) → Python (1.6%) → RAG (1.0%) → Prompt Engineering (0.9%)\n海外前 5：\nPython (4.2%) → LLM (2.5%) → Generative AI (2.3%) → SQL (1.8%) → Machine Learning (1.7%)\n国内全是「调模型的工具」。\n海外是「工程基础 + AI 概念」。\n海外 top 10 里有 Python / SQL / ML / AWS / PyTorch / GenAI。\n国内 top 10 里：除了 Python 排第 3（1.6%），SQL / ML / AWS / PyTorch / GenAI 一个都没进。\n不是国内程序员不会。\n是国内 JD 把工程基础当作「隐含技能」，只写 AI 关键词。\n海外",
+  "summary": "国内 AI 岗位 top 1 是 LLM（6.1%）。\n海外 AI 岗位 top 1 是 Python（4.2%）。\n9,287 条 JD 数据。\n国内招的是「会用 AI 的人」。\n海外招的是「能建 AI 系统的人」。\n国内前 5：\nLLM (6.1%) → Agent Architecture (2.4%) → Python (1.6%) → RAG (1.0%) → Prompt Engineering (0.9%)\n海外前 5：\nPython (4.2%) → LLM (2.5%) → Generative AI (2.3%) → SQL (1.8%) → Machine Learning (1.7%)\n国内全是「调模型的工具」。\n海外是「工程基础 + AI 概念」。\n海外 top 10 里有 Python / SQL / ML / AWS / PyTorch / GenAI。\n国内 top 10 里：除了 Python 排第 3（1.6%），SQL / ML / AWS / PyTorch / GenAI 一个都没进。\n不是国内程序员不会。\n是国内 JD 把工程基础当作「隐含技",
   "tags": [],
   "cardPlan": [
     {
@@ -50,7 +50,7 @@
     {
       "index": 6,
       "type": "content",
-      "title": "你在哪个频道上？",
+      "title": "评论你的技能栈 + 想去的市场",
       "bodyText": "",
       "layoutHint": "text-heavy"
     },
