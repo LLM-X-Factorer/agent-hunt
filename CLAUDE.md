@@ -194,8 +194,11 @@ AI 求职定位诊断 dashboard 已 spin off 为独立项目并上线 https://ai
 - **不要在本仓库实现诊断相关功能**
 
 ## Content（自媒体内容）
-- 目录：`content/{序号}-{选题slug}/`，每个选题下有 `thread.md` / `xiaohongshu.md` / `wechat.md` / `assets/`
+- 目录：`content/{序号}-{选题slug}/`，每个选题下有 `thread.md` / `xiaohongshu.md` / `xhs-cards.md` / `wechat.md` / `assets/` / `xhs-output/`
+- **状态（2026-05-01）**：7 篇全部交付完成 — 0 期引流 2 篇（#01 35 岁危机 / #02 国内外两种语言）+ 主线 5 篇（#03-#07，对应 narrative `/narrative/p1~p5`）。所有 thread 经 `/dbs-content` + `/dbs-hook` skill 同标准审核
+- 7 篇引流话术全部差异化（避免连读重复）：年限 / 想去市场 / AI 用法 / 期望薪资 / SWE+客户经验 / 想去城市 / 目标公司清单 — 详见 `content/README.md`
 - 数据洞察驱动内容，工具是内容的售后（不单独推广工具）
-- 发布顺序：X thread 先发试水 → 小红书图文 → 公众号长文
-- 引流闭环：评论留技能栈 → 免费 aijobfit 诊断 → 撞遮罩 → 加小助理微信
-- 选题队列见 `content/README.md`
+- 发布顺序：X thread 先发试水（工作日 9-10AM）→ 24h → 小红书图文（午 12-13）→ 公众号长文（晚 8-9）
+- 引流闭环：评论留具体信息（按各篇主题）→ aijobfit 免费诊断 → 撞遮罩 → 加小助理微信 → 激活码 `AIJOB-2026`
+- 待办：用户发布 #1 #2（issue #1 #2 仍 open）。**发布前不写新内容**，看反馈再决定 8+ 篇方向
+- 工作流详见 `content/README.md`（含 8 步标准化创作流程：拉数据 → thread v1 → /dbs-content 审核 → v2 → 同步 markdown → 图 → md2red → commit）

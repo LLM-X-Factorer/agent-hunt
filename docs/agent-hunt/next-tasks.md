@@ -1,6 +1,6 @@
 # Agent Hunt — 跨会话任务清单
 
-> 最近更新：2026-05-01（v0.11 /roles 三轨上线，issue #18 P0 完结）
+> 最近更新：2026-05-01（v0.11.1 内容沉淀 7 篇全部交付 / v0.11 /roles 三轨上线 / issue #18 P0 完结）
 > 本文档供新会话 onboarding 使用。每个任务包含「启动 prompt」（可直接复制粘贴给 Claude）+ 上下文 + ROI 评估。
 
 ## 全局上下文（每个新会话都需要的）
@@ -142,6 +142,13 @@ P0（27 角色画像页）已交付，业务方还没正式用过。先观察一
 ---
 
 ## 已完成（最近）
+
+### v0.11.1（2026-05-01）— 内容沉淀 7 篇全部交付
+
+- **0 期引流 2 篇 + 主线 5 篇全部完成** —— 对应 narrative `/narrative/p1~p5`。每篇含 thread / xiaohongshu / xhs-cards / wechat 4 markdown + 横版图 2-3 张 + 小红书卡 7-9 张
+- **dbs-content + dbs-hook 标准化为常态创作流程** —— 5 篇审核都发现常见问题（钩子先给答案没悬念、引流太常规没承诺即时小价值），skill 审核能在发布前避免这些容易自检漏掉的问题。新内容都按这套跑：拉数据 → thread v1 → /dbs-content 审核 → v2 → 同步其他 markdown → 图 → md2red → commit
+- **7 篇引流话术全部差异化矩阵**：年限 / 想去市场 / AI 用法 / 期望薪资 / SWE+客户经验 / 想去城市 / 目标公司清单。详见 `content/README.md` 表格
+- **状态**：用户发布 #1 #2 仍待办（issue 仍 open），创作 issue #20-#24 全部 close。**用户发布前不写新内容**，看反馈再决定 8+ 篇方向
 
 ### v0.11（2026-05-01）— issue #18 P0 完结
 - **`/roles` 三轨升级**（PR #19 squash merge + 1 fix commit）—— 27 角色画像页（domestic 15 + intl 12）。手写 `backend/data/role_descriptions.json`（每条 6 字段：role_description / core_skills / vs_neighbor / narrative / who_fits / who_doesnt），不用 LLM

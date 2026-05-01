@@ -39,3 +39,14 @@ tmp_*.txt
 
 # DB backups (potentially containing sensitive data)
 backups/
+
+# Claude Code local state (scheduled task lock, agent runtime)
+.claude/
+
+# Personal resumes / sensitive PII (per-user, never commit)
+docs/employee-resume/
+
+# Probe scripts — 一次性探查脚本，不可达数据源验证用
+# probe_jd_liveness.py 已 tracked（ghost listing 检测主流程），保留
+backend/scripts/probe_*.py
+!backend/scripts/probe_jd_liveness.py
