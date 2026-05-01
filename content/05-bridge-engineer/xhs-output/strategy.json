@@ -1,0 +1,72 @@
+{
+  "titles": [
+    "OpenAI 招的 110 个工程师不是写代码的——是「驻场客户公司把 LLM 落地」的桥梁角色"
+  ],
+  "summary": "是「派去客户公司驻场、把 LLM 落地到业务里」的桥梁角色。\n月薪 ¥10-12 万，5 年+ 经验。\nAnthropic 同样招 61 个。\n国内 LLM 课程零覆盖。\nForward Deployed Engineer。\nSolutions Engineer / Architect。\nApplied Engineer。\nDeployment / Implementation Engineer。\nCustomer / Technical Success Engineer。\n5 家 LLM 厂商招聘里：\n· OpenAI 651 条 / 110 条命中 = 16.9%\n· Anthropic 451 条 / 61 条命中 = 13.5%\n· xAI / Cohere / DeepMind 比例较低但都有。\n「Forward Deployed Engineer, Federal Civilian」\n月薪 ¥101-116k。\n要求：\n· 5 年+ Software Engineering 经验\n· LLM / Python / Prompt Engineering / Agent Dev",
+  "tags": [],
+  "cardPlan": [
+    {
+      "index": 0,
+      "type": "cover",
+      "title": "OpenAI 招的 110 个工程师不是写代码的——是「驻场客户公司把 LLM 落地」的桥梁角色",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 1,
+      "type": "content",
+      "title": "OpenAI 招的 110 个工程师不是写代码的",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 2,
+      "type": "content",
+      "title": "桥梁工程师 = 5 类 title",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 3,
+      "type": "content",
+      "title": "真实 JD：Anthropic Federal FDE",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 4,
+      "type": "content",
+      "title": "为什么 LLM 厂商需要这种岗？",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 5,
+      "type": "content",
+      "title": "但要诚实地说 2 件事",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 6,
+      "type": "content",
+      "title": "适合这条路的人画像",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 7,
+      "type": "content",
+      "title": "评论你的 SWE/MLE 经验年数 + 是否有客户对接经验",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 8,
+      "type": "summary",
+      "title": "",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    }
+  ]
+}

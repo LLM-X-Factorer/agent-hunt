@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<title>桥梁工程师 — 数据图</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2937;
+  }
+  .panel {
+    width: 1280px;
+    height: 720px;
+    margin: 24px auto;
+    padding: 48px 64px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel--xhs {
+    width: 900px;
+    min-height: 900px;
+    height: auto;
+    padding: 56px 56px 64px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .panel--xhs h1 {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+  .subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .chart-wrap {
+    flex: 1;
+    position: relative;
+    min-height: 0;
+  }
+  .footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .panel--xhs .footer { font-size: 14px; padding-top: 24px; }
+  .legend {
+    display: flex;
+    gap: 14px;
+    font-size: 13px;
+    color: #4b5563;
+    margin: -10px 0 10px;
+    flex-wrap: wrap;
+  }
+  .swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .jd-detail {
+    background: #eef2ff;
+    border-left: 6px solid #6366f1;
+    padding: 32px 36px;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .jd-company {
+    font-size: 14px;
+    color: #6366f1;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin-bottom: 6px;
+  }
+  .jd-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 8px;
+  }
+  .jd-salary {
+    font-size: 48px;
+    font-weight: 800;
+    color: #4f46e5;
+    margin-bottom: 24px;
+    line-height: 1;
+  }
+  .jd-section {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .jd-list {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #374151;
+  }
+  .jd-tag {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-bottom: 6px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ──────────────── Chart 1: 5 家 vendor 客户端工程师占比（横屏） ──────────────── -->
+<div class="panel" id="panel-vendor">
+  <h1>5 家 LLM 厂商 · 客户端「桥梁工程师」占比</h1>
+  <p class="subtitle">1,532 条 vendor_official 岗位 · OpenAI 16.9% / Anthropic 13.5% · 国内 LLM 课程零覆盖</p>
+  <div class="legend">
+    <span><span class="swatch" style="background:#6366f1"></span>Forward Deployed</span>
+    <span><span class="swatch" style="background:#8b5cf6"></span>Solutions Eng</span>
+    <span><span class="swatch" style="background:#a78bfa"></span>Applied</span>
+    <span><span class="swatch" style="background:#c084fc"></span>Deployment/Impl</span>
+    <span><span class="swatch" style="background:#e9d5ff"></span>Customer Eng/CS</span>
+    <span><span class="swatch" style="background:#d1d5db"></span>内部研发/其他</span>
+  </div>
+  <div class="chart-wrap"><canvas id="chartVendor"></canvas></div>
+  <div class="footer">
+    <span>数据来源：vendor-title-breakdown.json · title 正则分类</span>
+    <span>agent-hunt.pages.dev/narrative/p3</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 2: Anthropic Federal FDE JD 详情卡（横屏） ──────────────── -->
+<div class="panel" id="panel-jd">
+  <h1>真实 JD：不是写代码，不是写论文，是「驻场客户公司」</h1>
+  <p class="subtitle">来自 Anthropic 官方招聘页（Greenhouse ATS）· source 可在 narrative-examples.json 查到</p>
+  <div class="jd-detail">
+    <div class="jd-company">🟦 ANTHROPIC · SAN FRANCISCO / NEW YORK / WASHINGTON DC</div>
+    <div class="jd-title">Forward Deployed Engineer, Federal Civilian</div>
+    <div class="jd-salary">¥101-116k／月 <span style="font-size:18px;color:#6b7280;font-weight:500;">(US$169-193k／年)</span></div>
+
+    <div style="display:flex; gap:32px;">
+      <div style="flex:1;">
+        <div class="jd-section">硬性要求</div>
+        <div class="jd-list">
+          · 5 年+ Software Engineering<br/>
+          · LLM / Python / Prompt Engineering<br/>
+          · Customer-facing 经验<br/>
+          · US Federal Agency 经验
+        </div>
+      </div>
+      <div style="flex:1;">
+        <div class="jd-section">工作内容</div>
+        <div class="jd-list">
+          · Build production apps with Claude<br/>
+          · MCP servers / sub-agents / agent skills<br/>
+          · White glove deployment to federal gov<br/>
+          · 5 年 SWE + 客户沟通 + 解决方案三合一
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:20px; padding-top:18px; border-top:1px solid #c7d2fe;">
+      <span class="jd-tag">不是研究员</span>
+      <span class="jd-tag">不是 PM</span>
+      <span class="jd-tag">是工程师 + 客户沟通 + 解决方案三合一</span>
+    </div>
+  </div>
+  <div class="footer">
+    <span>数据来源：narrative-examples.json · vendor_anthropic.fde[0]</span>
+    <span>agent-hunt.pages.dev/narrative/p3</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 3: 小红书竖版封面 ──────────────── -->
+<div class="panel panel--xhs" id="panel-xhs">
+  <h1>OpenAI 招的<br/><span style="color:#dc2626;">110 个</span>工程师<br/>不是写代码的</h1>
+  <p class="subtitle">5 家 LLM 厂商 1,532 条招聘 JD · 国内 LLM 课程零覆盖</p>
+
+  <div style="margin-top:20px; padding:32px; background:#eef2ff; border-radius:14px; border:2px solid #6366f1;">
+    <div style="font-size:16px; color:#4f46e5; font-weight:700; margin-bottom:14px;">桥梁工程师</div>
+    <div style="font-size:24px; line-height:1.6; color:#111827;">
+      「派去客户公司驻场<br/>
+      把 LLM 落地到业务里」
+    </div>
+    <div style="margin-top:18px; font-size:30px; font-weight:800; color:#4f46e5;">¥10-12 万 / 月</div>
+    <div style="font-size:15px; color:#6b7280; margin-top:6px;">5 年+ 经验 · Anthropic Federal FDE 实例</div>
+  </div>
+
+  <div style="margin-top:24px; padding:24px 28px; background:#f0fdf4; border-radius:14px; border-left:5px solid #16a34a;">
+    <div style="font-size:16px; color:#15803d; font-weight:700; margin-bottom:10px;">5 家 LLM 厂商占比</div>
+    <div style="font-size:18px; line-height:1.9; color:#111827;">
+      OpenAI <strong>16.9%</strong>（110/651 条）<br/>
+      Anthropic <strong>13.5%</strong>（61/451 条）<br/>
+      xAI / Cohere / DeepMind 比例较低但都有
+    </div>
+  </div>
+
+  <div style="margin-top:24px; padding:24px 28px; background:#fff7ed; border-radius:14px; border-left:5px solid #f97316;">
+    <div style="font-size:18px; line-height:1.7; color:#7c2d12;">
+      <strong>OpenAI 在抄 Palantir 的剧本</strong><br/>
+      <span style="color:#9a3412;">中文圈零覆盖 · 现在加入还在窗口期</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11 · 1,532 条 vendor_official JD</span>
+    <span style="color:#6366f1; font-weight:600;">agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<script>
+const VENDOR_DATA = [
+  { name: "OpenAI",    fde: 40, solutions: 18, applied: 3,  deploy: 44, customer: 5,  core: 541, total: 651 },
+  { name: "Anthropic", fde: 7,  solutions: 2,  applied: 37, deploy: 6,  customer: 9,  core: 390, total: 451 },
+  { name: "xAI",       fde: 0,  solutions: 1,  applied: 0,  deploy: 1,  customer: 0,  core: 228, total: 230 },
+  { name: "Cohere",    fde: 0,  solutions: 4,  applied: 1,  deploy: 4,  customer: 0,  core: 106, total: 115 },
+  { name: "DeepMind",  fde: 0,  solutions: 0,  applied: 7,  deploy: 0,  customer: 0,  core: 75,  total: 82 },
+];
+
+new Chart(document.getElementById("chartVendor"), {
+  type: "bar",
+  data: {
+    labels: VENDOR_DATA.map(d => d.name),
+    datasets: [
+      { label: "Forward Deployed", data: VENDOR_DATA.map(d => d.fde),       backgroundColor: "#6366f1", stack: "a" },
+      { label: "Solutions Eng",    data: VENDOR_DATA.map(d => d.solutions), backgroundColor: "#8b5cf6", stack: "a" },
+      { label: "Applied",          data: VENDOR_DATA.map(d => d.applied),   backgroundColor: "#a78bfa", stack: "a" },
+      { label: "Deployment/Impl",  data: VENDOR_DATA.map(d => d.deploy),    backgroundColor: "#c084fc", stack: "a" },
+      { label: "Customer Eng/CS",  data: VENDOR_DATA.map(d => d.customer),  backgroundColor: "#e9d5ff", stack: "a" },
+      { label: "内部研发/其他",    data: VENDOR_DATA.map(d => d.core),      backgroundColor: "#d1d5db", stack: "a" },
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    scales: {
+      y: { beginAtZero: true, ticks: { font: { size: 12 } }, grid: { color: "#e5e7eb" } },
+      x: { ticks: { font: { size: 14, weight: "bold" } }, grid: { display: false } }
+    },
+    plugins: {
+      legend: { display: false },
+      tooltip: { enabled: false }
+    },
+    animation: {
+      onComplete: function() {
+        const ctx = this.ctx;
+        ctx.font = "bold 13px -apple-system, sans-serif";
+        ctx.textAlign = "center";
+        ctx.fillStyle = "#374151";
+        const meta = this.getDatasetMeta(0);
+        meta.data.forEach((bar, i) => {
+          const v = VENDOR_DATA[i];
+          const clientFacing = v.fde + v.solutions + v.applied + v.deploy + v.customer;
+          const pct = ((clientFacing / v.total) * 100).toFixed(1);
+          if (clientFacing > 0) {
+            ctx.fillText(`${pct}%`, bar.x, bar.y - 8);
+          }
+        });
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
