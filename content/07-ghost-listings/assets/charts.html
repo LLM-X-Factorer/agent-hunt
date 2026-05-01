@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<title>幽灵岗 — 数据图</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2937;
+  }
+  .panel {
+    width: 1280px;
+    height: 720px;
+    margin: 24px auto;
+    padding: 48px 64px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel--xhs {
+    width: 900px;
+    min-height: 900px;
+    height: auto;
+    padding: 56px 56px 64px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .panel--xhs h1 {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+  .subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .chart-wrap {
+    flex: 1;
+    position: relative;
+    min-height: 0;
+  }
+  .footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .panel--xhs .footer { font-size: 14px; padding-top: 24px; }
+  .discount-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .discount-num {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1;
+    width: 220px;
+    text-align: right;
+    margin-right: 24px;
+    color: #1f2937;
+  }
+  .discount-num--start { color: #6b7280; }
+  .discount-num--mid { color: #f97316; }
+  .discount-num--end { color: #16a34a; }
+  .discount-arrow {
+    font-size: 32px;
+    color: #6b7280;
+    margin-right: 24px;
+  }
+  .discount-label {
+    font-size: 18px;
+    color: #4b5563;
+    line-height: 1.5;
+    flex: 1;
+  }
+</style>
+</head>
+<body>
+
+<!-- ──────────────── Chart 1: 海外 vs 国内幽灵岗占比 + Top 6 公司柱状图 ──────────────── -->
+<div class="panel" id="panel-ghost">
+  <h1>海外幽灵岗集中度是国内 3 倍</h1>
+  <p class="subtitle">海外 LinkedIn 5,502 条 / 30 簇 = 0.55% · 国内 Boss 3,795 条 / 7 簇 = 0.18% · Top 6 重发清单</p>
+  <div class="chart-wrap"><canvas id="chartGhost"></canvas></div>
+  <div class="footer">
+    <span>数据来源：narrative-stats.json · p5_ghost · top_ghost_listings</span>
+    <span>agent-hunt.pages.dev/narrative/p5</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 2: 5000 → 2000 折扣推导 ──────────────── -->
+<div class="panel" id="panel-discount">
+  <h1>看到「5,000 个 active jobs」时打几折？</h1>
+  <p class="subtitle">海投实用预期管理：原始数字 → 真实可投岗位的两次折扣推导</p>
+
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center; padding: 0 40px;">
+    <div class="discount-step">
+      <div class="discount-num discount-num--start">5,000</div>
+      <div class="discount-arrow">→</div>
+      <div class="discount-label">原始 active jobs（LinkedIn 显示）</div>
+    </div>
+
+    <div style="margin-left: 100px; padding-left: 24px; border-left: 2px dashed #f97316; height: 36px; color: #f97316; font-size: 14px; display: flex; align-items: center;">
+      × 0.6 折扣（去掉幽灵岗 + 转发噪音）
+    </div>
+
+    <div class="discount-step">
+      <div class="discount-num discount-num--mid">3,000</div>
+      <div class="discount-arrow">→</div>
+      <div class="discount-label">独立真实岗位</div>
+    </div>
+
+    <div style="margin-left: 100px; padding-left: 24px; border-left: 2px dashed #f97316; height: 36px; color: #f97316; font-size: 14px; display: flex; align-items: center;">
+      × 0.7 折扣（考虑签证摩擦）
+    </div>
+
+    <div class="discount-step">
+      <div class="discount-num discount-num--end">2,100</div>
+      <div class="discount-arrow">→</div>
+      <div class="discount-label"><strong>能投的岗位（真实 hiring slot）</strong></div>
+    </div>
+  </div>
+
+  <div style="padding: 20px 24px; background: #fff7ed; border-radius: 12px; border-left: 5px solid #f97316;">
+    <div style="font-size: 18px; line-height: 1.7; color: #7c2d12;">
+      <strong>5,000 看上去多，实际能投的只有 2,000。</strong><br/>
+      <span style="color: #9a3412;">行动：精准投（5-10 家深投）+ 找 referral，而不是海投 100 家。</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>规则：0.6 (幽灵 + 转发) × 0.7 (签证摩擦) ≈ 40%</span>
+    <span>agent-hunt.pages.dev/narrative/p5</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 3: 小红书竖版封面 ──────────────── -->
+<div class="panel panel--xhs" id="panel-xhs">
+  <h1>Deloitte 一个 Full Stack 标题<br/>挂了 <span style="color:#dc2626;">19 次</span></h1>
+  <p class="subtitle">海外岗位数量 ≠ 真实 hiring slot · 9,287 条 JD 数据</p>
+
+  <div style="margin-top: 20px; padding: 28px; background: #fef2f2; border-radius: 14px; border: 2px solid #ef4444;">
+    <div style="font-size: 14px; color: #dc2626; font-weight: 700; margin-bottom: 12px;">Top 6 幽灵岗（按重发次数）</div>
+    <div style="font-size: 16px; line-height: 1.9; color: #111827;">
+      Deloitte「Full Stack Engineer」× <strong>19</strong><br/>
+      Meta「Product Manager」× <strong>17</strong><br/>
+      Varsity Tutors「Probability Tutor」× <strong>17</strong><br/>
+      OpenAI 三个 FDE 相关标题 × <strong>33</strong>（合计）<br/>
+      Microsoft「Research Intern」× <strong>10</strong><br/>
+      Amazon「SDE」× <strong>8</strong>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; padding: 24px; background: #eff6ff; border-radius: 14px;">
+    <div style="font-size: 14px; color: #2563eb; font-weight: 700; margin-bottom: 10px;">海外 vs 国内集中度</div>
+    <div style="font-size: 22px; line-height: 1.7; color: #111827;">
+      海外 <strong>0.55%</strong> · 国内 <strong>0.18%</strong><br/>
+      <span style="color: #2563eb; font-weight: 700;">海外是国内的 3.1 倍</span>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; padding: 24px; background: #fff7ed; border-radius: 14px; border-left: 5px solid #f97316;">
+    <div style="font-size: 16px; color: #4b5563; font-weight: 600; margin-bottom: 10px;">海投实用建议</div>
+    <div style="font-size: 18px; line-height: 1.7; color: #7c2d12;">
+      看到 5,000 个 active jobs<br/>
+      → × 0.6（去幽灵）→ 3,000<br/>
+      → × 0.7（签证）→ <strong>2,100 能投</strong>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11 · 22 数据源 9,287 条 JD</span>
+    <span style="color:#6366f1; font-weight:600;">agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<script>
+const GHOST_DATA = [
+  { name: "Deloitte「Full Stack Engineer」",      count: 19, market: "海外" },
+  { name: "Meta「Product Manager」",              count: 17, market: "海外" },
+  { name: "Varsity Tutors「Probability Tutor」",  count: 17, market: "海外" },
+  { name: "OpenAI 三个 FDE 相关",                 count: 33, market: "海外" },
+  { name: "Microsoft「Research Intern」",         count: 10, market: "海外" },
+  { name: "Amazon「SDE」",                        count: 8,  market: "海外" },
+];
+
+new Chart(document.getElementById("chartGhost"), {
+  type: "bar",
+  data: {
+    labels: GHOST_DATA.map(d => d.name),
+    datasets: [{
+      data: GHOST_DATA.map(d => d.count),
+      backgroundColor: "#dc2626",
+      borderRadius: 6,
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: "y",
+    scales: {
+      x: {
+        beginAtZero: true,
+        suggestedMax: 38,
+        ticks: { font: { size: 12 } },
+        grid: { color: "#e5e7eb" }
+      },
+      y: { ticks: { font: { size: 13 } }, grid: { display: false } }
+    },
+    plugins: {
+      legend: { display: false },
+      tooltip: { enabled: false }
+    },
+    animation: {
+      onComplete: function() {
+        const ctx = this.ctx;
+        ctx.font = "bold 14px -apple-system, sans-serif";
+        ctx.textAlign = "left";
+        ctx.fillStyle = "#dc2626";
+        const meta = this.getDatasetMeta(0);
+        meta.data.forEach((bar, i) => {
+          const v = GHOST_DATA[i].count;
+          ctx.fillText(`× ${v}`, bar.x + 6, bar.y + 4);
+        });
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "titles": [
+    "Deloitte 一个 Full Stack 挂了 19 次——海外岗位数量 ≠ 真实 hiring slot"
+  ],
+  "summary": "LinkedIn 上 Deloitte 一个「Full Stack Engineer」标题挂了 19 次。\nMeta 一个「Product Manager」挂了 17 次。\n海外岗位数量 ≠ 真实 hiring slot。\n「幽灵岗」= 同公司同 title 在采集窗口内出现 ≥ 5 次。\n海外：5,502 条 JD 里 30 个幽灵岗簇 = 0.55%。\n国内：3,795 条 JD 里 7 个幽灵岗簇 = 0.18%。\n海外集中度是国内 3.1 倍。\n按重复发布次数：\nDeloitte「Full Stack Engineer」× 19。\nMeta「Product Manager」× 17。\nVarsity Tutors「Probability Tutor」× 17。\nOpenAI 三个 FDE 相关标题 × 33（FDE 10 + FSE 9 + AI Deployment 14）。\nMicrosoft「Research Intern」× 10。\nAmazon「Software Development Engineer」× 8。\n5 / 6 在海外 LinkedIn / vendor",
+  "tags": [],
+  "cardPlan": [
+    {
+      "index": 0,
+      "type": "cover",
+      "title": "Deloitte 一个 Full Stack 挂了 19 次——海外岗位数量 ≠ 真实 hiring slot",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 1,
+      "type": "content",
+      "title": "Deloitte 一个标题挂了 19 次",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 2,
+      "type": "content",
+      "title": "数据：海外幽灵岗集中度是国内 3 倍",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 3,
+      "type": "content",
+      "title": "Top 6 幽灵岗清单",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 4,
+      "type": "content",
+      "title": "为什么海外幽灵岗这么多？",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 5,
+      "type": "content",
+      "title": "但要诚实地说 3 件事",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 6,
+      "type": "content",
+      "title": "海投实用建议",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 7,
+      "type": "content",
+      "title": "评论你打算投的海外目标公司（1-3 家）+ title",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    },
+    {
+      "index": 8,
+      "type": "summary",
+      "title": "",
+      "bodyText": "",
+      "layoutHint": "text-heavy"
+    }
+  ]
+}
