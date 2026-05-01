@@ -61,6 +61,10 @@ docs/
     domestic-scraping-strategy.md
     next-tasks.md    # 跨会话任务清单 + 启动 prompt
   employment-course/ # 就业班产品设计 v1.0
+  operations/        # 运营 / 业务方文档（v0.11.2 加）— 产品手册-运营版.md + 网站使用-图文版.md + screenshots/ + pdf/
+scripts/
+  build-docs-pdf.sh  # pandoc + Chrome headless 中文 PDF 流程（同时生成两份运营文档 PDF）
+  docs-pdf.css       # PDF 样式表（A4 + 中文字体 + 蓝色 accent）
 content/             # 自媒体内容 (thread / xiaohongshu / wechat + assets)
 ```
 
@@ -137,6 +141,15 @@ cd ../frontend && npm run build && npx wrangler pages deploy out --project-name 
 - **Skills**: 71 · **Industries**: 13 · **Platforms**: 22 · **Migrations**: 8
 
 **已部署**：v0.11 上线 https://agent-hunt.pages.dev（Supabase 数据 + GitHub Actions 周更 + 27 角色画像页）
+
+### v0.11.2 进展（2026-05-01）— 运营文档交付
+
+- **`docs/operations/` 新目录** —— 给运营 / 业务方读的产品文档。模仿 aijobfit 的 `docs/产品手册-运营版.md` + `docs/用户流程-图文版.md` 双文档结构
+- **`产品手册-运营版.md`**（11 页 PDF）—— 一句话定位（不是面向用户的产品 / 是内部叙事手册 + 数据自检工具）+ 数据来源 + 三轨用法 + 5 论断逐条解读（含话术 + 反例提醒）+ 27 角色清单 + 7 看板用法 + 典型场景 + 11 条常见误用
+- **`网站使用-图文版.md`**（31 页 PDF · 16 张 1280px desktop 截图）—— 每个页面长什么样 + 怎么读 + 速查表
+- **PDF 构建链** —— `scripts/build-docs-pdf.sh` + `scripts/docs-pdf.css`（pandoc + Chrome headless + A4 中文 CSS），从 aijobfit 抄过来调整路径。两份 PDF 同时生成
+- **截图采集** —— Playwright MCP 拍线上 https://agent-hunt.pages.dev，16 张 fullPage 1280×900 desktop 截图存 `docs/operations/screenshots/`
+- **关键差异 vs aijobfit 文档** —— 反复强调"Agent Hunt 不是面向求职者的产品"，没有漏斗 / 激活码 / 加微信内容；学员要诊断引到 aijobfit
 
 ### v0.11 进展（2026-05-01）
 - **岗位画像 `/roles`（issue #18 P0 完结）** —— 三轨架构升级。手写 27 条角色描述（`backend/data/role_descriptions.json`：role_description / core_skills / vs_neighbor / narrative / who_fits / who_doesnt 六字段），不用 LLM。新建 `backend/scripts/export_role_profiles.py` 纯文件 merge → `frontend/public/data/role-profiles.json`，加进 `weekly-refresh.yml` export 链

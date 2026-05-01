@@ -8,6 +8,7 @@
 docs/
 ├── README.md                    ← 你现在看的这个文件
 ├── agent-hunt/                  Agent Hunt 平台技术文档
+├── operations/                  运营 / 业务方文档（产品手册 + 网站使用图文版 + screenshots + PDF）
 ├── employment-course/           非程序员 AI 就业班产品文档（v1.0 设计阶段）
 └── legacy/                      旧课程归档（点头系统班 V7 等，仅供参考）
 ```
@@ -21,6 +22,21 @@ Agent Hunt 平台本身（数据采集、解析、分析）的技术决策与策
 | 文件 | 内容 |
 |---|---|
 | [domestic-scraping-strategy.md](agent-hunt/domestic-scraping-strategy.md) | 国内招聘平台采集策略（多层递进：手动 → 插件 → Playwright → API 逆向） |
+
+---
+
+## 📘 operations/ — 运营 / 业务方文档
+
+给运营 / 业务 / 销售 / 内容同学的产品手册。读完能讲清网站做什么、5 论断怎么用、27 角色怎么用、常见误用怎么避。
+
+| 文件 | 内容 |
+|---|---|
+| [产品手册-运营版.md](operations/产品手册-运营版.md) | 一句话定位 + 数据来源 + 三轨用法 + 5 论断逐条解读 + 话术 + 反例 + 11 条常见误用 |
+| [网站使用-图文版.md](operations/网站使用-图文版.md) | 16 张 desktop 截图 + 每页"怎么读" + 速查表 + 上线前自测清单 |
+| [pdf/](operations/pdf/) | 同名 PDF（11 页 + 31 页，pandoc + Chrome headless 生成） |
+| [screenshots/](operations/screenshots/) | 16 张线上截图（首页 / narrative 列表 + p1-p5 / roles 国内+海外 / role 详情 / 7 数据看板） |
+
+**重新生成 PDF**：`bash scripts/build-docs-pdf.sh`（改完 markdown 后跑一次）
 
 ---
 
