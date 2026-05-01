@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<title>国内外 AI 招聘说两种语言 — 数据图</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2937;
+  }
+  .panel {
+    width: 1280px;
+    height: 720px;
+    margin: 24px auto;
+    padding: 48px 64px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel--xhs {
+    width: 900px;
+    min-height: 900px;
+    height: auto;
+    padding: 56px 56px 64px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .panel--xhs h1 {
+    font-size: 42px;
+    line-height: 1.3;
+  }
+  .subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .chart-wrap {
+    flex: 1;
+    position: relative;
+    min-height: 0;
+  }
+  .footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .panel--xhs .footer { font-size: 14px; padding-top: 24px; }
+  .legend {
+    display: flex;
+    gap: 18px;
+    font-size: 13px;
+    color: #4b5563;
+    margin: -10px 0 10px;
+  }
+  .swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .top1-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    flex: 1;
+    align-items: stretch;
+  }
+  .top1-col {
+    background: #f9fafb;
+    border-radius: 14px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .top1-col--dom { background: #fef2f2; }
+  .top1-col--intl { background: #eff6ff; }
+  .top1-label {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 6px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .top1-skill {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .top1-pct {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111827;
+  }
+  .top1-desc {
+    margin-top: 18px;
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.6;
+  }
+  .top1-col--dom .top1-skill { color: #dc2626; }
+  .top1-col--intl .top1-skill { color: #2563eb; }
+</style>
+</head>
+<body>
+
+<!-- ──────────────── Chart 1: Top 1 单点冲击（横屏，给 thread 1/7） ──────────────── -->
+<div class="panel" id="panel-top1">
+  <h1>国内外 AI 招聘 Top 1 技能</h1>
+  <p class="subtitle">招聘 JD 里出现率最高的技能 · 国内 ≠ 海外，差的不是水平是招聘语言</p>
+  <div class="top1-grid">
+    <div class="top1-col top1-col--dom">
+      <div class="top1-label">国内 (3,786 条 JD)</div>
+      <div class="top1-skill">LLM</div>
+      <div class="top1-pct">6.1%</div>
+      <div class="top1-desc">国内招的是<br/><strong>「会用大模型的人」</strong></div>
+    </div>
+    <div class="top1-col top1-col--intl">
+      <div class="top1-label">海外 (5,501 条 JD)</div>
+      <div class="top1-skill">Python</div>
+      <div class="top1-pct">4.2%</div>
+      <div class="top1-desc">海外招的是<br/><strong>「能建 AI 系统的人」</strong></div>
+    </div>
+  </div>
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11 · 22 数据源 9,287 条 JD</span>
+    <span>agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 2: Top 10 双列对照（横屏） ──────────────── -->
+<div class="panel" id="panel-top10">
+  <h1>国内外 AI 招聘 Top 10 技能对照</h1>
+  <p class="subtitle">海外 top 10 工程基础（Python / SQL / ML / AWS / PyTorch / GenAI）齐全 · 国内 top 10 几乎全是「调模型工具」</p>
+  <div class="legend">
+    <span><span class="swatch" style="background:#dc2626"></span>国内</span>
+    <span><span class="swatch" style="background:#2563eb"></span>海外</span>
+    <span style="color:#9ca3af; margin-left:auto;">同位排名按出现率降序</span>
+  </div>
+  <div class="chart-wrap"><canvas id="chartTop10"></canvas></div>
+  <div class="footer">
+    <span>数据来源：cross-market-skills.json · top 10 by percentage</span>
+    <span>agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 3: 小红书竖版封面（900×1200, 3:4） ──────────────── -->
+<div class="panel panel--xhs" id="panel-xhs">
+  <h1>国内招<span style="color:#dc2626;">「会用 AI 的人」</span><br/>海外招<span style="color:#2563eb;">「能建 AI 的人」</span></h1>
+  <p class="subtitle">9,287 条 AI 岗位 JD · 第一名就不一样</p>
+  <div style="margin-top:16px; padding:32px; background:#fef2f2; border-radius:14px;">
+    <div style="font-size:16px; color:#dc2626; font-weight:700; margin-bottom:14px; letter-spacing: 0.05em;">🇨🇳 国内 TOP 5</div>
+    <div style="font-size:22px; line-height:2.0; color:#111827;">
+      <strong>LLM (6.1%)</strong> → Agent Architecture (2.4%)<br/>
+      → Python (1.6%) → RAG (1.0%)<br/>
+      → Prompt Engineering (0.9%)
+    </div>
+  </div>
+  <div style="margin-top:24px; padding:32px; background:#eff6ff; border-radius:14px;">
+    <div style="font-size:16px; color:#2563eb; font-weight:700; margin-bottom:14px; letter-spacing: 0.05em;">🌍 海外 TOP 5</div>
+    <div style="font-size:22px; line-height:2.0; color:#111827;">
+      <strong>Python (4.2%)</strong> → LLM (2.5%)<br/>
+      → Generative AI (2.3%) → SQL (1.8%)<br/>
+      → Machine Learning (1.7%)
+    </div>
+  </div>
+  <div style="margin-top:28px; padding:24px 28px; background:#fff7ed; border-radius:14px; border-left:5px solid #f97316;">
+    <div style="font-size:20px; line-height:1.8; color:#7c2d12;">
+      国内前 5 全是<strong>调模型的工具</strong><br/>
+      海外前 5 是<strong>工程基础 + AI 概念</strong>
+    </div>
+  </div>
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11</span>
+    <span style="color:#6366f1; font-weight:600;">agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<script>
+// Top 10 国内/海外（按 cross-market-skills.json）
+const TOP10 = [
+  { skill: "Python",            dom: 1.6, intl: 4.2 },
+  { skill: "LLM",               dom: 6.1, intl: 2.5 },
+  { skill: "Generative AI",     dom: 0.3, intl: 2.3 },
+  { skill: "SQL",               dom: 0.5, intl: 1.8 },
+  { skill: "Machine Learning",  dom: 0.5, intl: 1.7 },
+  { skill: "AWS",               dom: 0.1, intl: 1.7 },
+  { skill: "Prompt Engineering",dom: 0.9, intl: 1.5 },
+  { skill: "Data Analysis",     dom: 0.6, intl: 1.5 },
+  { skill: "PyTorch",           dom: 0.4, intl: 1.4 },
+  { skill: "Agent Architecture",dom: 2.4, intl: 1.3 },
+];
+
+new Chart(document.getElementById("chartTop10"), {
+  type: "bar",
+  data: {
+    labels: TOP10.map(d => d.skill),
+    datasets: [
+      { label: "国内", data: TOP10.map(d => d.dom), backgroundColor: "#dc2626", borderRadius: 6 },
+      { label: "海外", data: TOP10.map(d => d.intl), backgroundColor: "#2563eb", borderRadius: 6 },
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    indexAxis: "y",
+    scales: {
+      x: {
+        ticks: { callback: v => `${v}%`, font: { size: 12 } },
+        grid: { color: "#e5e7eb" },
+        beginAtZero: true,
+      },
+      y: { ticks: { font: { size: 13 } }, grid: { display: false } }
+    },
+    plugins: {
+      legend: { display: false },
+      tooltip: { enabled: false }
+    },
+    animation: {
+      onComplete: function() {
+        const ctx = this.ctx;
+        ctx.font = "bold 12px -apple-system, sans-serif";
+        ctx.textAlign = "left";
+        ctx.fillStyle = "#1f2937";
+        this.data.datasets.forEach((ds, dsi) => {
+          const meta = this.getDatasetMeta(dsi);
+          meta.data.forEach((bar, i) => {
+            const v = ds.data[i];
+            if (v > 0) {
+              ctx.fillStyle = dsi === 0 ? "#dc2626" : "#2563eb";
+              ctx.fillText(`${v}%`, bar.x + 4, bar.y + 4);
+            }
+          });
+        });
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
