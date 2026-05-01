@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<title>35 岁危机数据图</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  body {
+    margin: 0;
+    background: #f9fafb;
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: #1f2937;
+  }
+  .panel {
+    width: 1280px;
+    height: 720px;
+    margin: 24px auto;
+    padding: 48px 64px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  .panel--xhs {
+    width: 900px;
+    height: 1200px;
+    padding: 56px 56px 72px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.02em;
+  }
+  .panel--xhs h1 {
+    font-size: 44px;
+    line-height: 1.25;
+  }
+  .subtitle {
+    color: #6b7280;
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+  .chart-wrap {
+    flex: 1;
+    position: relative;
+    min-height: 0;
+  }
+  .footer {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #9ca3af;
+    display: flex;
+    justify-content: space-between;
+  }
+  .panel--xhs .footer { font-size: 14px; }
+  .legend {
+    display: flex;
+    gap: 18px;
+    font-size: 13px;
+    color: #4b5563;
+    margin: -10px 0 10px;
+  }
+  .swatch {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .acc-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 8px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ──────────────── Chart 1: 国内 + 国际经验段薪资（横屏 1280×720，给 X / 公众号用） ──────────────── -->
+<div class="panel" id="panel-a">
+  <h1>国内 AI 岗位经验段薪资 <span class="acc-tag">涨幅加速</span></h1>
+  <p class="subtitle">3,786 条国内 AI 岗位 JD · 月薪人民币 · agent-hunt v0.11（2026-05）</p>
+  <div class="legend">
+    <span><span class="swatch" style="background:#6366f1"></span>国内</span>
+    <span><span class="swatch" style="background:#a78bfa"></span>国际（参考）</span>
+  </div>
+  <div class="chart-wrap"><canvas id="chartA"></canvas></div>
+  <div class="footer">
+    <span>数据来源：22 个数据源 9,287 条 JD（主流招聘 + LLM 厂商 ATS + HN/GitHub）</span>
+    <span>agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 2: 涨幅曲线（横屏 1280×720） ──────────────── -->
+<div class="panel" id="panel-b">
+  <h1>涨幅 35% → 42% → <span style="color:#ef4444;">63%</span> · 加速</h1>
+  <p class="subtitle">国内 AI 岗位每跳一档，涨幅都比上一档大 · 5-10 年是 0-3 年涨幅的 5 倍多</p>
+  <div class="chart-wrap"><canvas id="chartB"></canvas></div>
+  <div class="footer">
+    <span>数据来源：cross-market-overview.json · domestic.experience_distribution</span>
+    <span>agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<!-- ──────────────── Chart 3: 小红书竖版封面（900×1200, 3:4） ──────────────── -->
+<div class="panel panel--xhs" id="panel-c">
+  <h1>35 岁危机？<br/>数据说：<span style="color:#ef4444;">假的</span></h1>
+  <p class="subtitle">3,786 条国内 AI 岗位 JD · 经验越多涨得越猛</p>
+  <div class="chart-wrap"><canvas id="chartC"></canvas></div>
+  <div style="margin-top:24px; padding:16px 20px; background:#f3f4f6; border-radius:12px; font-size:18px; line-height:1.7; color:#374151;">
+    <div>0-1 年 ¥23,367 → <strong>1-3 年 ¥31,556 (+35%)</strong></div>
+    <div>3-5 年 ¥44,709 (+42%) → <strong>5-10 年 ¥72,959 (+63%)</strong></div>
+  </div>
+  <div class="footer">
+    <span>数据来源：agent-hunt v0.11</span>
+    <span style="color:#6366f1; font-weight:600;">agent-hunt.pages.dev</span>
+  </div>
+</div>
+
+<script>
+const DOM_LABELS = ["0-1 年", "1-3 年", "3-5 年", "5-10 年"];
+const DOM_VALUES = [23367, 31556, 44709, 72959];
+const DOM_GROWTH = [null, 35, 42, 63];
+
+const INTL_LABELS = ["0-1 年", "1-3 年", "3-5 年", "5-10 年", "10+ 年"];
+const INTL_VALUES = [44978, 58970, 96299, 109131, 123601];
+
+const fmtK = v => `¥${Math.round(v / 1000)}k`;
+
+const baseOpts = {
+  responsive: true,
+  maintainAspectRatio: false,
+  scales: {
+    y: {
+      beginAtZero: true,
+      ticks: { callback: fmtK, font: { size: 13 } },
+      grid: { color: "#e5e7eb" }
+    },
+    x: { ticks: { font: { size: 14 } }, grid: { display: false } }
+  },
+  plugins: {
+    legend: { display: false },
+    tooltip: { enabled: false },
+    datalabels: { display: false }
+  }
+};
+
+// ─── Chart A: 国内 + 国际并排经验段薪资 ───
+new Chart(document.getElementById("chartA"), {
+  type: "bar",
+  data: {
+    labels: ["0-1 年", "1-3 年", "3-5 年", "5-10 年", "10+ 年"],
+    datasets: [
+      {
+        label: "国内",
+        data: [23367, 31556, 44709, 72959, null],
+        backgroundColor: "#6366f1",
+        borderRadius: 6,
+      },
+      {
+        label: "国际",
+        data: [44978, 58970, 96299, 109131, 123601],
+        backgroundColor: "#a78bfa",
+        borderRadius: 6,
+      }
+    ]
+  },
+  options: {
+    ...baseOpts,
+    plugins: {
+      ...baseOpts.plugins,
+      legend: { display: false }
+    }
+  }
+});
+
+// ─── Chart B: 国内涨幅曲线（柱+涨幅标注） ───
+new Chart(document.getElementById("chartB"), {
+  type: "bar",
+  data: {
+    labels: DOM_LABELS,
+    datasets: [{
+      label: "国内月薪",
+      data: DOM_VALUES,
+      backgroundColor: ["#c7d2fe", "#a5b4fc", "#818cf8", "#4f46e5"],
+      borderRadius: 8,
+    }]
+  },
+  options: {
+    ...baseOpts,
+    layout: { padding: { top: 36 } },
+    plugins: {
+      ...baseOpts.plugins,
+      tooltip: { enabled: false }
+    },
+    animation: {
+      onComplete: function() {
+        const ctx = this.ctx;
+        ctx.font = "bold 18px -apple-system, sans-serif";
+        ctx.textAlign = "center";
+        const meta = this.getDatasetMeta(0);
+        meta.data.forEach((bar, i) => {
+          const v = DOM_VALUES[i];
+          const g = DOM_GROWTH[i];
+          ctx.fillStyle = "#1f2937";
+          ctx.fillText(fmtK(v), bar.x, bar.y - 26);
+          if (g != null) {
+            ctx.fillStyle = i === DOM_GROWTH.length - 1 ? "#ef4444" : "#6b7280";
+            ctx.font = "bold 16px -apple-system, sans-serif";
+            ctx.fillText(`+${g}%`, bar.x, bar.y - 8);
+            ctx.font = "bold 18px -apple-system, sans-serif";
+          }
+        });
+      }
+    }
+  }
+});
+
+// ─── Chart C: 小红书竖版（同 Chart B 简化版） ───
+new Chart(document.getElementById("chartC"), {
+  type: "bar",
+  data: {
+    labels: DOM_LABELS,
+    datasets: [{
+      data: DOM_VALUES,
+      backgroundColor: ["#c7d2fe", "#a5b4fc", "#818cf8", "#4f46e5"],
+      borderRadius: 12,
+    }]
+  },
+  options: {
+    ...baseOpts,
+    layout: { padding: { top: 40 } },
+    scales: {
+      y: { ...baseOpts.scales.y, ticks: { callback: fmtK, font: { size: 16 } } },
+      x: { ...baseOpts.scales.x, ticks: { font: { size: 18, weight: "bold" } } }
+    },
+    animation: {
+      onComplete: function() {
+        const ctx = this.ctx;
+        ctx.font = "bold 22px -apple-system, sans-serif";
+        ctx.textAlign = "center";
+        const meta = this.getDatasetMeta(0);
+        meta.data.forEach((bar, i) => {
+          const v = DOM_VALUES[i];
+          const g = DOM_GROWTH[i];
+          ctx.fillStyle = "#1f2937";
+          ctx.fillText(fmtK(v), bar.x, bar.y - 32);
+          if (g != null) {
+            ctx.fillStyle = i === DOM_GROWTH.length - 1 ? "#ef4444" : "#9ca3af";
+            ctx.font = "bold 18px -apple-system, sans-serif";
+            ctx.fillText(`+${g}%`, bar.x, bar.y - 10);
+            ctx.font = "bold 22px -apple-system, sans-serif";
+          }
+        });
+      }
+    }
+  }
+});
+</script>
+
+</body>
+</html>
