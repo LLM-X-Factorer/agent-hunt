@@ -26,9 +26,23 @@ build() {
   printf "  → %s (%s)\n" "$out" "$(du -h "$out" | cut -f1)"
 }
 
+cn_name() {
+  case "$1" in
+    01-35-crisis)                    echo "01-35岁危机不成立" ;;
+    02-genai-gap)                    echo "02-国内外AI说两种语言" ;;
+    03-traditional-industry-ai)      echo "03-传统行业AI更值钱" ;;
+    04-traditional-salary-premium)   echo "04-银行40k互联网20k" ;;
+    05-bridge-engineer)              echo "05-OpenAI桥梁工程师" ;;
+    06-cross-market-arbitrage)       echo "06-海外AI真实2.78倍" ;;
+    07-ghost-listings)               echo "07-Deloitte幽灵岗" ;;
+    *)                               echo "$1" ;;
+  esac
+}
+
 for md in "$CONTENT_DIR"/0*/wechat.md; do
   slug="$(basename "$(dirname "$md")")"
-  build "$md" "$OUT_DIR/${slug}.pdf"
+  out_name="$(cn_name "$slug")"
+  build "$md" "$OUT_DIR/${out_name}.pdf"
 done
 
 echo ""
