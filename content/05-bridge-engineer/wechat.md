@@ -148,6 +148,50 @@ LLM 厂商在抄 Palantir 的剧本——现在加入还在窗口期。
 
 ---
 
+## 公众号发布补充字段（B 阶段产出 / issue #25）
+
+### 公众号标题（57 字，≤ 64 ✓）
+
+「OpenAI 招的 110 个工程师不是写代码的——LLM 厂商在抄 Palantir 的剧本，但中文圈零覆盖」
+
+### 摘要（≤ 120 字）
+
+> OpenAI 招的 110 个工程师里，17% 是『派去客户公司驻场把 LLM 落地』的桥梁角色。Anthropic / xAI / DeepMind 数据相同——LLM 厂商在抄 Palantir 验证 20 年的 Forward Deployed Engineer 剧本。但中文圈零覆盖。
+
+### 封面建议
+
+- 尺寸：900 × 383
+- 主标题：OpenAI 110 工程师不是写代码的
+- 副标题：LLM 厂商在抄 Palantir 的剧本
+- 视觉风格：5 家 vendor logo（OpenAI / Anthropic / xAI / Cohere / DeepMind）+ 桥梁岗占比柱状图
+
+### 阅读原文链接
+
+`https://agent-hunt.pages.dev/narrative/p3`
+
+### 文末引流模块（粘贴到公众号正文末尾）
+
+#### 关于这个项目
+
+> agent-hunt 是我做的一个 AI 职业市场全景分析项目——从 22 个数据源采集了 9,287 条 AI 相关岗位 JD，用大模型做结构化解析，提取技能要求 / 薪资范围 / 经验要求等。完整数据看板：[agent-hunt.pages.dev](https://agent-hunt.pages.dev)。代码开源：github.com/LLM-X-Factorer/agent-hunt。
+
+#### 给读者的福利（按账号留言权限二选一）
+
+**A 套 — 留言区版**：
+
+> 在留言里写「SWE/MLE 经验年数 + 是否有客户对接经验」（如：6 年后端 + 2 年 TAM 经验 / 4 年 ML + 无客户经验）。我用 agent-hunt 数据回你「5 家 vendor 里对口的桥梁岗 + 月薪 + 缺的 3 项关键技能」。前 30 个免费。
+
+**B 套 — 加微信版**：
+
+> 扫下方小助理二维码加好友 → 发送「SWE/MLE 年限 + 客户经验有/没有」→ 24h 内回 5 家 LLM 厂商对口岗 + 薪资 + JD 链接 + 技能差距。前 30 个免费。
+
+#### 二维码位
+
+- 小助理二维码（漏斗主入口）
+- 公众号关注二维码（吸粉）
+
+---
+
 ## 发布清单
 
 - [ ] 插入图 1（5 家 vendor 客户端工程师占比柱状图）在第一节
