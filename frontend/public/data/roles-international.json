@@ -3,13 +3,13 @@
     "job_count": 1443,
     "sample_titles": [
       "Lead Technical Program Manager – AI and Data Management Controls",
-      "AI Tutor - Norwegian",
       "Threat Collections Engineer",
-      "Forward Deployed Engineer, Agentic Platform",
-      "Office Coordinator",
-      "TPU Kernel Engineer",
-      "Member of Technical Staff, MLE",
-      "AI, Data foundation & Business Process Solution Lead"
+      "AI Tutor - Norwegian",
+      "Model Behavior Tutor - Wit & Conversation",
+      "AI Tutor - Hebrew",
+      "Product Marketing Lead, Claude Platform - Cloud",
+      "Sales Strategy and Ops, EMEA",
+      "Forward Deployed Engineer, Agentic Platform"
     ],
     "required_skills": [
       {
@@ -115,6 +115,52 @@
         "count": 37
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 56
+      },
+      {
+        "major": "linguistics",
+        "count": 30
+      },
+      {
+        "major": "cognitive science",
+        "count": 30
+      },
+      {
+        "major": "speech sciences",
+        "count": 29
+      },
+      {
+        "major": "Engineering",
+        "count": 26
+      }
+    ],
+    "majors_sample_size": 233,
+    "top_responsibilities": [
+      {
+        "text": "Work with technical staff to improve annotation tools for efficient audio workflows.",
+        "count": 29
+      },
+      {
+        "text": "Use proprietary software to provide labels, annotations, recordings, and inputs on projects involving multilingual audio clips, voice recordings, speech samples, and auditory elements in various languages.",
+        "count": 25
+      },
+      {
+        "text": "Support the delivery of high-quality curated audio data that ensures clear, natural spoken output, accurate representation of linguistic and prosodic details (such as intonation, rhythm, and accent), and professional audio standards.",
+        "count": 25
+      },
+      {
+        "text": "Collaborate with technical staff to develop tasks that improve AI's ability to handle speech modulation, accent variation, noise in real-world recordings, and multilingual audio processing.",
+        "count": 25
+      },
+      {
+        "text": "Support and ensure the delivery of high-quality curated data.",
+        "count": 14
+      }
+    ],
+    "responsibilities_sample_size": 1094,
     "role_id": "other",
     "role_name": "Other"
   },
@@ -122,13 +168,13 @@
     "job_count": 809,
     "sample_titles": [
       "Software Engineer, Human Data Interface",
-      "Software Engineer",
-      "Full Stack Engineer",
       "Engineer I (Multiple Openings)",
+      "Model Quality Software Engineer, Claude Code",
+      "Senior/Staff Backend Engineer",
       "Staff / Senior Software Engineer, Inference",
-      "Agentic AI FW developer",
-      "Sr Principal Software Engineer - Agentic Platform and Experiences",
-      "Sr. ServiceNow Developer"
+      "Software Engineer - Applied ML",
+      "Full Stack Engineer",
+      "Agentic AI FW developer"
     ],
     "required_skills": [
       {
@@ -238,20 +284,66 @@
         "count": 32
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 59
+      },
+      {
+        "major": "software engineering",
+        "count": 25
+      },
+      {
+        "major": "Engineering",
+        "count": 10
+      },
+      {
+        "major": "Computer Engineering",
+        "count": 4
+      },
+      {
+        "major": "Mathematics",
+        "count": 4
+      }
+    ],
+    "majors_sample_size": 71,
+    "top_responsibilities": [
+      {
+        "text": "Serve as the technical advocate for products, ensuring code integrity, feasibility, and alignment with business and customer goals. Lead requirement analysis, component design, development, unit testing, integrations, and support.",
+        "count": 10
+      },
+      {
+        "text": "Embrace and drive a culture of accountability for customer and business outcomes. Develop engineering solutions that solve complex problems with valuable outcomes, ensuring high-quality, lean designs and implementations.",
+        "count": 9
+      },
+      {
+        "text": "Develop lean engineering solutions through rapid, inexpensive experimentation to solve customer needs. Engage with customers and product teams before, during, and after delivery to ensure the right solution is delivered at the right time.",
+        "count": 9
+      },
+      {
+        "text": "Adopt a mindset that favors action and evidence over extensive planning. Utilize a leaning-forward approach to navigate complexity and uncertainty, delivering lean, supportable, and maintainable solutions.",
+        "count": 9
+      },
+      {
+        "text": "Work collaboratively with empowered, cross-functional teams including product management, experience, and delivery. Integrate diverse perspectives to make well-informed decisions that balance feasibility, viability, usability, and value. Foster a collaborative environment that enhances team synergy and innovation.",
+        "count": 9
+      }
+    ],
+    "responsibilities_sample_size": 582,
     "role_id": "sde",
     "role_name": "Software Engineer"
   },
   {
     "job_count": 790,
     "sample_titles": [
-      "Senior Machine Learning Scientist, Payments",
       "Data Scientist Engineer",
-      "Principal Applied Scientist, Sponsored Products and Brands",
-      "AI Research Intern",
-      "Research Engineer/Scientist - Generative UI, Consumer Devices",
-      "Entry Level Engineers/Scientists/Chemists/Technicians",
-      "AI Research & Agentic Engineer Hybrid",
-      "Principal Applied Scientist, Delivery Foundation Model"
+      "Senior Machine Learning Scientist, Payments",
+      "Research Engineer, Virtual Collaborator (Cowork)",
+      "Product Management, Research",
+      "Research Engineer, Economic Research",
+      "Research Engineer/Research Scientist, Audio",
+      "Research Scientist, Gemini Information Tasks",
+      "Research Economist, Economic Research"
     ],
     "required_skills": [
       {
@@ -297,15 +389,15 @@
     ],
     "preferred_skills": [
       {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
         "skill_id": "devops",
         "count": 1
       },
       {
         "skill_id": "anthropic_api",
-        "count": 1
-      },
-      {
-        "skill_id": "golang",
         "count": 1
       },
       {
@@ -373,6 +465,52 @@
         "count": 7
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 89
+      },
+      {
+        "major": "Machine Learning",
+        "count": 38
+      },
+      {
+        "major": "statistics",
+        "count": 28
+      },
+      {
+        "major": "mathematics",
+        "count": 27
+      },
+      {
+        "major": "Artificial Intelligence",
+        "count": 18
+      }
+    ],
+    "majors_sample_size": 121,
+    "top_responsibilities": [
+      {
+        "text": "Design and implement novel deep learning architectures combining a multitude of modalities, including image, video, and geospatial data.",
+        "count": 6
+      },
+      {
+        "text": "Solve computational problems to train foundation models on vast amounts of Amazon data and infer at Amazon scale, taking advantage of latest developments in hardware and deep learning libraries.",
+        "count": 6
+      },
+      {
+        "text": "Guide technical direction for specific research initiatives, ensuring robust performance in production environments.",
+        "count": 6
+      },
+      {
+        "text": "Mentor fellow scientists while maintaining strong individual technical contributions.",
+        "count": 6
+      },
+      {
+        "text": "Develop and implement novel foundation model architectures, working hands-on with data and our extensive training and evaluation infrastructure.",
+        "count": 6
+      }
+    ],
+    "responsibilities_sample_size": 255,
     "role_id": "ml_scientist",
     "role_name": "ML Scientist / Researcher"
   },
@@ -385,8 +523,8 @@
       "AI Engineer Software",
       "AI Agent Engineer",
       "Machine Learning Engineer (L4/L5) - Emerging Game Technologies",
-      "AI Engineer - Agentic and Generative AI",
-      "Machine Learning Engineer"
+      "Senior Machine Learning Engineer",
+      "AI Software Engineer"
     ],
     "required_skills": [
       {
@@ -492,20 +630,66 @@
         "count": 16
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 68
+      },
+      {
+        "major": "Data Science",
+        "count": 28
+      },
+      {
+        "major": "Engineering",
+        "count": 15
+      },
+      {
+        "major": "Statistics",
+        "count": 15
+      },
+      {
+        "major": "Machine Learning",
+        "count": 15
+      }
+    ],
+    "majors_sample_size": 79,
+    "top_responsibilities": [
+      {
+        "text": "Own account health, adoption velocity, and technical deployment",
+        "count": 8
+      },
+      {
+        "text": "Conduct technical enablement and configuration sessions",
+        "count": 8
+      },
+      {
+        "text": "Lead account level coordination across multiple workstreams",
+        "count": 8
+      },
+      {
+        "text": "Facilitate workshops on use case design and adoption best practices",
+        "count": 8
+      },
+      {
+        "text": "Serve as technical advisor for existing customer implementations",
+        "count": 8
+      }
+    ],
+    "responsibilities_sample_size": 250,
     "role_id": "ml_engineer",
     "role_name": "ML/AI Engineer"
   },
   {
     "job_count": 494,
     "sample_titles": [
+      "Product Sustainability Intern",
       "Artificial Intelligence Intern",
-      "AI Business Analyst Intern 107277",
+      "Senior International Payroll Specialist",
+      "Customer Quality Intern",
+      "Rackner AI Innovation Fellowship – Startup Accelerator Intern",
       "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
-      "Robot Learning Engineering Intern",
-      "AI Ads Intern — Viral Creative & Performance Marketing",
-      "Junior Designer",
-      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships",
-      "Data Science Internship (Summer 2026)"
+      "Intern Investment Management-MAS",
+      "Machine Learning Intern/Co-op"
     ],
     "required_skills": [
       {
@@ -517,12 +701,16 @@
         "count": 5
       },
       {
+        "skill_id": "sql",
+        "count": 3
+      },
+      {
         "skill_id": "machine_learning",
         "count": 3
       },
       {
-        "skill_id": "sql",
-        "count": 3
+        "skill_id": "tensorflow",
+        "count": 2
       },
       {
         "skill_id": "cpp",
@@ -542,10 +730,6 @@
       },
       {
         "skill_id": "llm",
-        "count": 2
-      },
-      {
-        "skill_id": "tensorflow",
         "count": 2
       }
     ],
@@ -595,9 +779,9 @@
     },
     "top_companies": [
       "Berkshire Hathaway Energy",
-      "TikTok",
       "Tenstorrent",
-      "Honeywell",
+      "TikTok",
+      "KLA",
       "Anthropic"
     ],
     "top_industries": [
@@ -622,20 +806,66 @@
         "count": 5
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 10
+      },
+      {
+        "major": "Robotics",
+        "count": 5
+      },
+      {
+        "major": "Machine Learning",
+        "count": 5
+      },
+      {
+        "major": "Data Science",
+        "count": 4
+      },
+      {
+        "major": "Economics",
+        "count": 3
+      }
+    ],
+    "majors_sample_size": 32,
+    "top_responsibilities": [
+      {
+        "text": "Optimize manufacturing processes",
+        "count": 2
+      },
+      {
+        "text": "Improve efficiency",
+        "count": 2
+      },
+      {
+        "text": "Ensure product quality",
+        "count": 2
+      },
+      {
+        "text": "Identify areas for improvement",
+        "count": 2
+      },
+      {
+        "text": "Implement solutions to enhance efficiency and productivity",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 31,
     "role_id": "intern_newgrad",
     "role_name": "Intern / New Grad"
   },
   {
     "job_count": 384,
     "sample_titles": [
-      "Analytics Engineer 5 - Ads Reporting & Metric Standards",
-      "Data Engineer",
+      "Client Data Analyst",
+      "Business Analytics Intern",
+      "Strategic Sales & Analytics Intern",
+      "Data Analyst Intern",
+      "Data Engineering Student Intern",
       "Technical Program Manager, Google Cloud Analytics and Insights",
-      "Data Analyst - Entry Level",
-      "Technical Data Analyst",
-      "Analytics Engineer, Finance",
-      "Entry Level Business Analyst / Data Analyst",
-      "Pricing and Market Analytics Intern"
+      "Analytics Engineer 5 - Ads Reporting & Metric Standards",
+      "Analytics & BI Intern"
     ],
     "required_skills": [
       {
@@ -677,6 +907,10 @@
         "count": 2
       },
       {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
         "skill_id": "react",
         "count": 1
       },
@@ -690,10 +924,6 @@
       },
       {
         "skill_id": "agent_architecture",
-        "count": 1
-      },
-      {
-        "skill_id": "golang",
         "count": 1
       },
       {
@@ -768,6 +998,52 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "Data Science",
+        "count": 7
+      },
+      {
+        "major": "Computer Science",
+        "count": 5
+      },
+      {
+        "major": "Statistics",
+        "count": 3
+      },
+      {
+        "major": "Management Information Systems",
+        "count": 3
+      },
+      {
+        "major": "Operations Research",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 13,
+    "top_responsibilities": [
+      {
+        "text": "Creates and maintains SQL scripts and stored procedures to support underwriting, pricing, and ad-hoc analyses.",
+        "count": 2
+      },
+      {
+        "text": "Analyzes structured and unstructured data models to provide actionable insights.",
+        "count": 2
+      },
+      {
+        "text": "Develops, implements, and maintains automated and scheduled data processes and workflows.",
+        "count": 2
+      },
+      {
+        "text": "Conducts data reconciliation to ensure accuracy, consistency, and integrity across systems.",
+        "count": 2
+      },
+      {
+        "text": "Builds, maintains, and enhances Tableau dashboards and models to support business reporting and decision-making.",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 25,
     "role_id": "data",
     "role_name": "Data Scientist / Analyst"
   },
@@ -775,13 +1051,13 @@
     "job_count": 329,
     "sample_titles": [
       "Lead Site Reliability Engineer (GCP & Hybrid Cloud)",
+      "Sales Director, Enterprise",
       "Senior Applied Science Manager, Amazon Sponsored Products & Brands",
+      "Senior Marketing Events Manager, Partners",
       "Head of AI",
+      "Postdoctoral Fellow",
       "Assistant Professor: AI + Education",
-      "Senior Vice President of Digital Transformation",
-      "Digital Transformation Executive",
-      "Director, Accounting Operations",
-      "Accounting Expert - Faculty / Professor of Accounting"
+      "Technical Program Manager, AI Delivery for Public Sector & Defence"
     ],
     "required_skills": [
       {
@@ -895,20 +1171,66 @@
         "count": 14
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 22
+      },
+      {
+        "major": "Accounting",
+        "count": 11
+      },
+      {
+        "major": "Finance",
+        "count": 10
+      },
+      {
+        "major": "Engineering",
+        "count": 9
+      },
+      {
+        "major": "Business",
+        "count": 7
+      }
+    ],
+    "majors_sample_size": 53,
+    "top_responsibilities": [
+      {
+        "text": "Support the development of company culture",
+        "count": 6
+      },
+      {
+        "text": "Win customers — Run pilots, shape pricing, and validate retention + expansion",
+        "count": 5
+      },
+      {
+        "text": "Build the product — Work with FutureSight's product/engineering pod to launch V1",
+        "count": 5
+      },
+      {
+        "text": "Build your team — Hire your founding team and set the cultural foundation",
+        "count": 5
+      },
+      {
+        "text": "Support recruitment and onboarding",
+        "count": 5
+      }
+    ],
+    "responsibilities_sample_size": 283,
     "role_id": "leadership",
     "role_name": "Engineering Leadership"
   },
   {
     "job_count": 108,
     "sample_titles": [
+      "Manager of Solutions Architecture, Applied AI (Industries)",
+      "Manager of Applied AI Architecture, Industries",
+      "Solutions Architect - Public Sector",
+      "Partner Solutions Architect, Applied AI",
       "AI Solution Architect",
-      "AI Architect Agentic & Generative AI",
       "Solutions Engineer Intern - Computer Science or related major",
-      "AI Automation & Solutions Lead",
-      "Sr. UX Designer, AWS Applied AI Solutions",
-      "Customer Engineer II, Cloud AI, Retail, Google Cloud",
-      "Customer Engineer II, Cloud AI, Retail",
-      "AI Solutions Architect"
+      "AI Architect Agentic & Generative AI",
+      "Solutions Architect"
     ],
     "required_skills": [
       {
@@ -928,11 +1250,11 @@
         "count": 18
       },
       {
-        "skill_id": "openai_api",
+        "skill_id": "machine_learning",
         "count": 16
       },
       {
-        "skill_id": "machine_learning",
+        "skill_id": "openai_api",
         "count": 16
       },
       {
@@ -940,11 +1262,11 @@
         "count": 8
       },
       {
-        "skill_id": "rag",
+        "skill_id": "prompt_engineering",
         "count": 7
       },
       {
-        "skill_id": "prompt_engineering",
+        "skill_id": "rag",
         "count": 7
       },
       {
@@ -1019,20 +1341,66 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "machine learning",
+        "count": 11
+      },
+      {
+        "major": "data science",
+        "count": 11
+      },
+      {
+        "major": "Computer Science",
+        "count": 8
+      },
+      {
+        "major": "Engineering",
+        "count": 5
+      },
+      {
+        "major": "Mathematics",
+        "count": 4
+      }
+    ],
+    "majors_sample_size": 19,
+    "top_responsibilities": [
+      {
+        "text": "Create and maintain documentation, guides, and FAQs",
+        "count": 9
+      },
+      {
+        "text": "Build and present demos, scope use cases, recommend architecture patterns",
+        "count": 8
+      },
+      {
+        "text": "Develop and nurture strong customer relationships",
+        "count": 8
+      },
+      {
+        "text": "Serve as first line of defense for security and compliance questions",
+        "count": 8
+      },
+      {
+        "text": "Serve as primary technical advisor to enterprise customers throughout Claude adoption journey",
+        "count": 8
+      }
+    ],
+    "responsibilities_sample_size": 89,
     "role_id": "architect",
     "role_name": "Solutions Architect"
   },
   {
     "job_count": 106,
     "sample_titles": [
+      "Product Manager, Monetization",
+      "Product Manager, Consumer",
+      "Product Manager, Multi-Cloud Growth",
+      "Product Manager, API Growth",
       "Product Owner - Federal Health Systems",
       "Agent Product Manager",
       "Lead Product Manager - Gen AI Platform",
-      "Sr. Product Manager - Technical, CS Intelligence, AWS Specialist and Partner Organization",
-      "Senior Product Manager, SMB Hiring",
-      "Manager of Product Operations",
-      "AI Solutions & Automation Product Manager-Commercial",
-      "Product Manager"
+      "AI Product Manager"
     ],
     "required_skills": [
       {
@@ -1145,24 +1513,70 @@
         "count": 3
       },
       {
-        "industry": "consulting",
+        "industry": "manufacturing",
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 39
+      },
+      {
+        "major": "Engineering",
+        "count": 25
+      },
+      {
+        "major": "Analytics",
+        "count": 15
+      },
+      {
+        "major": "Mathematics",
+        "count": 15
+      },
+      {
+        "major": "Physics",
+        "count": 15
+      }
+    ],
+    "majors_sample_size": 50,
+    "top_responsibilities": [
+      {
+        "text": "Gather and analyze user research and market analysis to inform product decisions and influence the wider product organization",
+        "count": 6
+      },
+      {
+        "text": "Maximize efficiency in a constantly evolving environment where the process is fluid and creative solutions are the norm",
+        "count": 6
+      },
+      {
+        "text": "Influence strategy and progress across partner functions, enhancing collaboration and resolving divergent goals",
+        "count": 5
+      },
+      {
+        "text": "Support the growth of other PMs and cross-functional team members by providing mentorship and coaching",
+        "count": 5
+      },
+      {
+        "text": "Plan, initiate, and manage information technology projects for web-based products, applications, and platforms",
+        "count": 5
+      }
+    ],
+    "responsibilities_sample_size": 92,
     "role_id": "product_manager",
     "role_name": "Product Manager"
   },
   {
     "job_count": 43,
     "sample_titles": [
+      "Partner Marketing Lead - EMEA",
+      "Partner Enablement Lead, System Integrators",
       "AI Enablement Strategist – New College Graduate",
+      "Technical Enablement Lead, Claude Code",
+      "Strategic Partner Development Lead, Quantum AI",
       "Director of AI Enablement",
       "Principal Indirect Selling Partner Enablement & Activation Lead, AWS Partner Core Enablement Shared Services-Foundations",
-      "Strategic Partner Development Lead, Quantum AI",
-      "Senior ProServe Sales Leader, North America, Healthcare and Life Sciences",
-      "Senior Leader, ProServe AI/GenAI/Agentic Specialists, Healthcare and Life Sciences",
-      "Infrastructure Partnership Delivery Lead – Stargate",
-      "Onboarding & Enablement Program Manager"
+      "Senior Sales & Agency Manager"
     ],
     "required_skills": [
       {
@@ -1178,18 +1592,6 @@
         "count": 2
       },
       {
-        "skill_id": "python",
-        "count": 1
-      },
-      {
-        "skill_id": "llm",
-        "count": 1
-      },
-      {
-        "skill_id": "sql",
-        "count": 1
-      },
-      {
         "skill_id": "aws",
         "count": 1
       },
@@ -1203,6 +1605,18 @@
       },
       {
         "skill_id": "anthropic_api",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "sql",
+        "count": 1
+      },
+      {
+        "skill_id": "llm",
         "count": 1
       }
     ],
@@ -1265,20 +1679,66 @@
         "count": 4
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 5
+      },
+      {
+        "major": "Engineering",
+        "count": 5
+      },
+      {
+        "major": "Biomedical",
+        "count": 3
+      },
+      {
+        "major": "Mathematics",
+        "count": 2
+      },
+      {
+        "major": "MD",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 5,
+    "top_responsibilities": [
+      {
+        "text": "Define and lead the execution of strategic partnerships, identifying and prioritizing opportunities that drive significant business growth and competitive advantage.",
+        "count": 3
+      },
+      {
+        "text": "Develop and cultivate deep relationships with key partners, serving as a trusted advisor and ensuring alignment on strategic objectives.",
+        "count": 3
+      },
+      {
+        "text": "Negotiate and structure complex partnership agreements, ensuring favorable terms and conditions.",
+        "count": 3
+      },
+      {
+        "text": "Oversee the integration and implementation of partnerships, collaborating with cross-functional teams (Product, Engineering, Marketing, Legal) to ensure successful launch and ongoing operations.",
+        "count": 3
+      },
+      {
+        "text": "Monitor, analyze, and optimize partnership performance, identifying areas for improvement and growth to achieve strategic goals.",
+        "count": 3
+      }
+    ],
+    "responsibilities_sample_size": 33,
     "role_id": "sales_bd",
     "role_name": "AI Sales / BD"
   },
   {
     "job_count": 33,
     "sample_titles": [
-      "Shuttle Attendant (Autonomous Vehicle Operator)",
-      "Autonomous GSE Operator",
-      "Autonomous vehicle Test Operator",
       "Robotics and AI Co-op",
+      "Robotics Intern",
+      "Autonomous vehicle Test Operator",
+      "Autonomous Vehicle Operator, Santa Clara (12-Month Duration)",
+      "Shuttle Attendant (Autonomous Vehicle Operator)",
       "Autonomous Vehicles - Training Manager",
-      "Autonomous Vehicle Operator with CDL",
-      "Autonomous Vehicle Test Operator",
-      "Autonomous Vehicle Operator Supervisor"
+      "Autonomous GSE Operator",
+      "Autonomous Vehicle Operator with CDL"
     ],
     "required_skills": [
       {
@@ -1298,11 +1758,11 @@
         "count": 1
       },
       {
-        "skill_id": "deep_learning",
+        "skill_id": "rust",
         "count": 1
       },
       {
-        "skill_id": "rust",
+        "skill_id": "deep_learning",
         "count": 1
       },
       {
@@ -1356,11 +1816,11 @@
         "count": 20
       },
       {
-        "industry": "manufacturing",
+        "industry": "other",
         "count": 2
       },
       {
-        "industry": "other",
+        "industry": "manufacturing",
         "count": 2
       },
       {
@@ -1372,6 +1832,52 @@
         "count": 1
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 2
+      },
+      {
+        "major": "Engineering",
+        "count": 2
+      },
+      {
+        "major": "Robotics",
+        "count": 2
+      },
+      {
+        "major": "Customer Science",
+        "count": 1
+      },
+      {
+        "major": "AI",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 3,
+    "top_responsibilities": [
+      {
+        "text": "Test other aspects of autonomous vehicles",
+        "count": 7
+      },
+      {
+        "text": "Complete timely and detailed ride reports for operations and engineering teams",
+        "count": 7
+      },
+      {
+        "text": "Perform software monitoring and logging responsibilities",
+        "count": 5
+      },
+      {
+        "text": "Maintain high standard of safety, inside and outside of the vehicle",
+        "count": 5
+      },
+      {
+        "text": "Operate/Drive autonomous vehicles on both defined and undefined routes, including a variety of environmental conditions",
+        "count": 4
+      }
+    ],
+    "responsibilities_sample_size": 25,
     "role_id": "autonomous",
     "role_name": "Autonomous Vehicles"
   },
@@ -1380,12 +1886,12 @@
     "sample_titles": [
       "Sr. Design Technologist, Elevated Shopping",
       "Senior Consultant (K12 Education Innovation)",
+      "Finance Manager - Healthcare, Amazon One Medical",
+      "Strategic Risk Analyst, Behavioral & Psychological Risk",
       "Fintech Strategy Management Consultant - AI",
       "Senior Risk Analyst, Sustainability Controls",
-      "Finance Manager - Healthcare, Amazon One Medical",
       "Payment Network Relationship Management and Strategy Consultant",
-      "Strategic Risk Analyst",
-      "Strategic Risk Analyst, Behavioral & Psychological Risk"
+      "Strategic Risk Analyst"
     ],
     "required_skills": [
       {
@@ -1481,6 +1987,52 @@
         "count": 1
       }
     ],
+    "top_majors": [
+      {
+        "major": "finance",
+        "count": 6
+      },
+      {
+        "major": "accounting",
+        "count": 6
+      },
+      {
+        "major": "business",
+        "count": 3
+      },
+      {
+        "major": "economics",
+        "count": 3
+      },
+      {
+        "major": "engineering",
+        "count": 3
+      }
+    ],
+    "majors_sample_size": 6,
+    "top_responsibilities": [
+      {
+        "text": "Partner with Business Intelligence, Science and FinTech to implement data driven reporting, and driver-based forecasting solutions utilizing internal systems and AI tools.",
+        "count": 6
+      },
+      {
+        "text": "Partner with the business and finance leaders to develop long-term strategies and new initiatives to delight our customers.",
+        "count": 5
+      },
+      {
+        "text": "Own and update detailed Medicare finance drivers weekly, monthly, and quarterly business review metrics across the senior health value based care business.",
+        "count": 5
+      },
+      {
+        "text": "Support and enhance relationships with business and product leaders at the payment networks",
+        "count": 5
+      },
+      {
+        "text": "Understand the product and business roadmaps for Payment Network partners and provide guidance to merchant services product and business leaders",
+        "count": 5
+      }
+    ],
+    "responsibilities_sample_size": 24,
     "role_id": "finance_ops",
     "role_name": "Finance / Operations"
   }

@@ -10,6 +10,16 @@ export interface IndustryCount {
   count: number;
 }
 
+export interface MajorCount {
+  major: string;
+  count: number;
+}
+
+export interface ResponsibilityCount {
+  text: string;
+  count: number;
+}
+
 export interface RoleSalary {
   min: number;
   max: number;
@@ -52,6 +62,10 @@ export interface RoleProfile {
   work_mode: Record<string, number>;
   top_companies: string[];
   top_industries: IndustryCount[];
+  top_majors: MajorCount[];
+  majors_sample_size: number;
+  top_responsibilities: ResponsibilityCount[];
+  responsibilities_sample_size: number;
 }
 
 export const WORK_MODE_LABELS: Record<string, string> = {

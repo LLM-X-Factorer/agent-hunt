@@ -3,14 +3,14 @@
     "market": "domestic",
     "job_count": 1347,
     "sample_titles": [
+      "AI Project Manager",
+      "税务专员/助理",
       "AI + 财经商业讲师",
       "医药医疗行业大客户经理（AI产品）",
       "智能无人车远程监控客服",
       "精益生产经理",
       "AI漫剧制作人",
-      "AI LLM Technical Support (English) - Volcengine MaaS",
-      "Automated Driving Test Driver",
-      "航空航天科研专家"
+      "AI LLM Technical Support (English) - Volcengine MaaS"
     ],
     "required_skills": [
       {
@@ -38,11 +38,11 @@
         "count": 5
       },
       {
-        "skill_id": "generative_ai",
+        "skill_id": "java",
         "count": 4
       },
       {
-        "skill_id": "java",
+        "skill_id": "generative_ai",
         "count": 4
       },
       {
@@ -125,6 +125,52 @@
         "count": 42
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 34
+      },
+      {
+        "major": "人工智能",
+        "count": 17
+      },
+      {
+        "major": "计算机科学",
+        "count": 13
+      },
+      {
+        "major": "数学",
+        "count": 10
+      },
+      {
+        "major": "软件工程",
+        "count": 9
+      }
+    ],
+    "majors_sample_size": 92,
+    "top_responsibilities": [
+      {
+        "text": "探索科学前沿，攻关产业关键问题，产出重大科技成果，促进成果产业化应用。",
+        "count": 2
+      },
+      {
+        "text": "积极参与高水平科研团队的组建与凝聚，吸引和汇聚海内外优秀青年人才。",
+        "count": 2
+      },
+      {
+        "text": "坚持立德树人根本任务，学科功底深厚，有稳定的研究方向，具备指导研究生的水平和能力。",
+        "count": 2
+      },
+      {
+        "text": "构建国际合作网络，促进国际学术交流，组织或参与高水平国际学术会议推动，提升学术影响力。",
+        "count": 2
+      },
+      {
+        "text": "远程监控无人车运行",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 42,
     "role_id": "other",
     "role_name": "其他",
     "role_description": "未匹配到任一明确规则的混合岗位——含跨界 AI（AI 财经讲师 / 漫剧制作）、传统岗带 AI 标签、垂直领域专家。",
@@ -146,13 +192,13 @@
     "job_count": 734,
     "sample_titles": [
       "AI Agent平台研发工程师",
+      "AI前端开发工程师（Agent）",
       "AI Agent Engineer",
       "AI Agent Application Engineer",
-      "跨境电商AI Agent 产品负责人",
       "AI算法工程师（海外AI产品）",
-      "AI产品开发实习生（医疗大模型）",
-      "Perception LLM Engineer",
-      "AI 量化工程师"
+      "跨境电商AI Agent 产品负责人",
+      "AI Senior Engineer",
+      "AI Product Manager (AI Agent, Content Growth)"
     ],
     "required_skills": [
       {
@@ -269,6 +315,52 @@
         "count": 27
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 30
+      },
+      {
+        "major": "人工智能",
+        "count": 21
+      },
+      {
+        "major": "软件工程",
+        "count": 19
+      },
+      {
+        "major": "计算机科学",
+        "count": 11
+      },
+      {
+        "major": "数学",
+        "count": 7
+      }
+    ],
+    "majors_sample_size": 50,
+    "top_responsibilities": [
+      {
+        "text": "以LLM作为核心组件，参与构建具备“思考、调用、执行”能力的后端业务系统，将产品需求与思维链转化为稳定、可扩展的 Agentic Workflow（智能体工作流）。",
+        "count": 2
+      },
+      {
+        "text": "负责 AI Agent 的编排与工程化落地，包括模型调用、工具调用（Tool-calling）、多步推理、状态管理与异常处理，保障复杂业务流程的稳定执行。",
+        "count": 2
+      },
+      {
+        "text": "参与模型接入、推理服务、RAG 与数据处理等核心模块建设，推动 AI 能力在真实业务场景中的规模化应用。",
+        "count": 2
+      },
+      {
+        "text": "针对高并发、高可靠场景，对 AI 系统进行性能优化与工程治理，包括流式响应、异步调度、缓存策略与成本控制。",
+        "count": 2
+      },
+      {
+        "text": "与产品、前端、算法及平台团队协作，持续优化 AI 系统的研发效率与交付质量，在复杂问题中独立推进模块级方案落地。",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 50,
     "role_id": "ai_engineer",
     "role_name": "AI/LLM 工程师",
     "role_description": "在 LLM 上面盖应用——用 Agent 框架、RAG、Prompt 工程把现成大模型接成产品，不是训模型也不是调研究。",
@@ -291,14 +383,14 @@
     "market": "domestic",
     "job_count": 439,
     "sample_titles": [
+      "AI Product Manager",
       "AI策略产品经理（LLM应用方向）",
       "AIGC产品运营",
       "AI Tutor产品经理",
       "AI产品经理-AI教育工具",
-      "Product Manager - Intelligent Driving",
-      "AI教育产品总监",
-      "智能座舱产品经理",
-      "AI 产品经理（LLM 应用与 AI 工程方向）"
+      "医疗AI产品专家",
+      "Sr. AI Product Manager",
+      "Product Manager - Intelligent Driving"
     ],
     "required_skills": [
       {
@@ -322,11 +414,11 @@
         "count": 2
       },
       {
-        "skill_id": "fine_tuning",
+        "skill_id": "function_calling",
         "count": 1
       },
       {
-        "skill_id": "function_calling",
+        "skill_id": "fine_tuning",
         "count": 1
       },
       {
@@ -417,6 +509,52 @@
         "count": 14
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 7
+      },
+      {
+        "major": "人工智能",
+        "count": 4
+      },
+      {
+        "major": "软件工程",
+        "count": 3
+      },
+      {
+        "major": "信息管理",
+        "count": 3
+      },
+      {
+        "major": "数学",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 10,
+    "top_responsibilities": [
+      {
+        "text": "Responsible for product planning and strategy of AI content generation products in marketing video scenarios (e-commerce, advertising), identifying user needs, and exploring new opportunities brought by AI technology.",
+        "count": 1
+      },
+      {
+        "text": "Based on user creation paths and video scenarios, optimize AI Agent workflows, generation effects, and user experience to improve the efficiency and quality of vertical video production.",
+        "count": 1
+      },
+      {
+        "text": "Build marketing video evaluation sets, quantify AI-generated content effects, define iteration directions, and provide data support for product optimization and strategy adjustments.",
+        "count": 1
+      },
+      {
+        "text": "Collaborate closely with commercialization, operations, R&D, and other teams to transform AI technical capabilities into implementable product features and promote rapid product iteration and application in the market.",
+        "count": 1
+      },
+      {
+        "text": "主导 AI agent/工作流设计，包括 LLM 调用、context 工程、Agent 架构与工具调用链路，构建可扩展的生成式系统",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 6,
     "role_id": "product_manager",
     "role_name": "AI 产品经理",
     "role_description": "定 AI 产品方向、设计 Agent 流程、写 PRD，要求懂 LLM 能力边界——不要求会写代码但必须能拆 Prompt / 设评测指标。",
@@ -442,10 +580,10 @@
       "Discovery Lab Analytical Automation Scientist",
       "Entry Level Engineers/Scientists/Chemists/Technicians",
       "自动驾驶算法工程师",
+      "模型策略岗（LLM应用与数据分析）",
       "LLM算法实习生（医疗大模型方向）",
       "算法工程师",
-      "AI Algorithm Engineer (LLM Direction)",
-      "高级图像算法工程师"
+      "AI Algorithm Engineer (LLM Direction)"
     ],
     "required_skills": [
       {
@@ -469,15 +607,15 @@
         "count": 6
       },
       {
+        "skill_id": "rag",
+        "count": 5
+      },
+      {
         "skill_id": "fine_tuning",
         "count": 5
       },
       {
         "skill_id": "machine_learning",
-        "count": 5
-      },
-      {
-        "skill_id": "rag",
         "count": 5
       },
       {
@@ -549,6 +687,52 @@
         "count": 9
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 21
+      },
+      {
+        "major": "人工智能",
+        "count": 18
+      },
+      {
+        "major": "计算机科学",
+        "count": 11
+      },
+      {
+        "major": "数学",
+        "count": 10
+      },
+      {
+        "major": "自动化",
+        "count": 10
+      }
+    ],
+    "majors_sample_size": 40,
+    "top_responsibilities": [
+      {
+        "text": "基于阿里云百炼、Coze（扣子）、Dify等平台，设计并配置零售金融场景的AI智能体（Agent），实现智能营销、投教陪伴、自动化运营等场景落地。",
+        "count": 2
+      },
+      {
+        "text": "负责提示词工程（Prompt Engineering），编写并迭代高质量的System Prompt及工作流逻辑，利用CoT、ReAct等技巧提升模型在复杂金融任务中的准确率与合规性。",
+        "count": 2
+      },
+      {
+        "text": "结合业务需求，灵活调用平台插件与知识库（RAG），优化Agent的多轮对话体验与任务执行效率。",
+        "count": 2
+      },
+      {
+        "text": "利用 Trino 和 Spark SQL 进行高效数据提取：直接从公司海量数据仓库中查询用户行为、交易记录及交互日志，为模型策略制定提供精准的数据支撑，无需依赖他人取数。",
+        "count": 2
+      },
+      {
+        "text": "深度数据分析与洞察：对提取的数据进行清洗与分析，挖掘用户潜在需求与行为特征，将其转化为LLM的“上下文信息”或“微调数据”，反哺模型策略迭代。",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 15,
     "role_id": "algorithm",
     "role_name": "算法工程师/研究员",
     "role_description": "传统 ML/DL 训练岗位，做 pretrain / SFT / 视觉算法 / 自动驾驶算法，看重 PyTorch / TensorFlow 全链路工程。",
@@ -575,10 +759,10 @@
       "AI训练师 (智能客服方向)",
       "智能客服训练师",
       "MarTech营销技术专家",
+      "数据中心甲方经理 / 资深资产运营经理 (AI IDC方向)",
+      "AIGC新媒体运营策划",
       "AI数据运营专家（ToB Agent方向）",
-      "智能客服运营",
-      "豆包AI大模型平台运营-火山方舟MaaS",
-      "AIGC运营专家"
+      "AIGC内容运营"
     ],
     "required_skills": [
       {
@@ -686,6 +870,52 @@
         "count": 8
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 2
+      },
+      {
+        "major": "软件工程",
+        "count": 1
+      },
+      {
+        "major": "数据科学",
+        "count": 1
+      },
+      {
+        "major": "数字营销",
+        "count": 1
+      },
+      {
+        "major": "心理学",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 4,
+    "top_responsibilities": [
+      {
+        "text": "Improve e-commerce efficiency using AI tools",
+        "count": 1
+      },
+      {
+        "text": "深入理解市场业务目标与用户旅程，规划并制定CDP、AI营销自动化、AIGC及AI Agent智能体的技术发展路线图。",
+        "count": 1
+      },
+      {
+        "text": "作为市场部与技术中台/研发部门/外部团队的核心接口，精准转译业务需求为技术方案与产品定义，确保技术投资与营销战略对齐。",
+        "count": 1
+      },
+      {
+        "text": "主导CDP平台的选型、定制开发与持续运营，构建统一、实时、可行动的客户数据资产，为个性化营销与智能决策提供底座。",
+        "count": 1
+      },
+      {
+        "text": "设计并实施基于规则与AI模型的营销自动化工作流（如客户分群触达、动态内容优化、跨渠道旅程编排），提升规模化营销的精准度与效率。",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 9,
     "role_id": "operations",
     "role_name": "AI 运营/训练师",
     "role_description": "AI 产品上线后的增长 + 数据 + 标注 + Prompt 调优——MaaS 平台运营 / AI 训练师 / 智能客服训练都在这条线。",
@@ -709,12 +939,12 @@
     "sample_titles": [
       "医疗AI产品销售",
       "智能教育装备销售经理",
+      "Global Sales Director (MedTech / AI Healthcare)",
       "企业AI BD岗",
+      "AI Medical Sales (AI Medical System Products)",
       "医疗AI大客户销售",
       "医疗AI省区销售经理",
-      "Global Sales Director (MedTech / AI Healthcare)",
-      "BD总监（德系）",
-      "销售经理/主管（智慧医疗设备-base湖南）"
+      "Luxury BD Director"
     ],
     "required_skills": [
       {
@@ -785,6 +1015,52 @@
         "count": 5
       }
     ],
+    "top_majors": [
+      {
+        "major": "市场营销",
+        "count": 2
+      },
+      {
+        "major": "计算机科学",
+        "count": 1
+      },
+      {
+        "major": "工程",
+        "count": 1
+      },
+      {
+        "major": "商业",
+        "count": 1
+      },
+      {
+        "major": "technical",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 5,
+    "top_responsibilities": [
+      {
+        "text": "Sell AI products",
+        "count": 1
+      },
+      {
+        "text": "Utilize AI for customer acquisition",
+        "count": 1
+      },
+      {
+        "text": "Generate leads through private domain traffic",
+        "count": 1
+      },
+      {
+        "text": "Expand customer base",
+        "count": 1
+      },
+      {
+        "text": "负责医疗AI一体机产品的渠道销售",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 5,
     "role_id": "sales_bd",
     "role_name": "AI 销售/商务",
     "role_description": "AI 行业销售 / BD，重点是医疗 AI / 教育 AI / 企业 AI 这种 ToB 大单——对应国内大模型公司在垂直行业的渠道下沉。",
@@ -806,11 +1082,11 @@
       "CEO-资方领投AI+Science",
       "AI 智慧医疗技术负责人",
       "Risk Control Director",
+      "Associate Director, Product Management (AI)",
       "AI架构师/技术负责人（LLM & Agent方向）",
       "技术架构总监（AI数据/云数据/LLM）",
       "AI技术负责人",
-      "大模型战略分析/投资专家",
-      "AI 产品技术负责人（电商直播方向）"
+      "Director of AI Application Technology"
     ],
     "required_skills": [
       {
@@ -881,6 +1157,32 @@
         "count": 13
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 2
+      },
+      {
+        "major": "人工智能",
+        "count": 1
+      },
+      {
+        "major": "机器学习",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 2,
+    "top_responsibilities": [
+      {
+        "text": "Factor Mining",
+        "count": 1
+      },
+      {
+        "text": "Quantitative Strategy Development",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 1,
     "role_id": "leadership",
     "role_name": "AI 管理/战略",
     "role_description": "AI 业务线 / 技术线管理岗——CTO / 技术总监 / AI 业务负责人，技术 IC 路径转管理或商业 leader 加 AI 标签。",
@@ -902,11 +1204,11 @@
     "sample_titles": [
       "自动驾驶项目经理",
       "自动驾驶安全员",
+      "智能座舱项目管理",
       "智能座舱工程师",
       "智能座舱测试",
       "智能座舱测试工程师/测试专家",
       "智能座舱系统工程师",
-      "智能座舱软件项目经理",
       "智能座舱平台项目管理"
     ],
     "required_skills": [
@@ -946,9 +1248,9 @@
     "top_companies": [
       "某知名公司",
       "Baidu",
+      "埃尔科工程技术开发(上海)有限公司",
       "梅赛德斯-奔驰",
-      "京东物流",
-      "埃尔科工程技术开发(上海)有限公司"
+      "京东物流"
     ],
     "top_industries": [
       {
@@ -972,6 +1274,19 @@
         "count": 1
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "Conducting tests of autonomous vehicles",
+        "count": 1
+      },
+      {
+        "text": "Driving autonomous vehicles for testing purposes",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 1,
     "role_id": "autonomous",
     "role_name": "自动驾驶/智能座舱",
     "role_description": "自动驾驶 / 智能座舱垂直工程岗——OEM 主机厂 + 一级供应商主导，技能要求和大模型应用层差异极大。",
@@ -997,10 +1312,10 @@
       "智能制造经理",
       "智能制造设备维护技术员",
       "智能制造专业大学讲师",
+      "智能制造总监",
       "智能制造工程师（具身智能）",
       "新材料与智能制造科研专家",
-      "工业AI",
-      "智能制造高级数控"
+      "工业AI"
     ],
     "required_skills": [
       {
@@ -1066,6 +1381,40 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "机械",
+        "count": 1
+      },
+      {
+        "major": "自动化",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 1,
+    "top_responsibilities": [
+      {
+        "text": "Deliver lectures on Smart Manufacturing",
+        "count": 1
+      },
+      {
+        "text": "探索科学前沿，攻关产业关键问题，产出重大科技成果，促进成果产业化应用。",
+        "count": 1
+      },
+      {
+        "text": "积极参与高水平科研团队的组建与凝聚，吸引和汇聚海内外优秀青年人才。",
+        "count": 1
+      },
+      {
+        "text": "坚持立德树人根本任务，学科功底深厚，有稳定的研究方向，具备指导研究生的水平和能力。",
+        "count": 1
+      },
+      {
+        "text": "构建国际合作网络，促进国际学术交流，组织或参与高水平国际学术会议推动，提升学术影响力。",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 2,
     "role_id": "smart_manufacturing",
     "role_name": "智能制造/工业AI",
     "role_description": "智能制造 / 工业 AI 垂直岗——工厂数字化、产线优化、具身智能、工业大模型，制造业产业升级方向。",
@@ -1188,6 +1537,52 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "统计学",
+        "count": 2
+      },
+      {
+        "major": "计算机",
+        "count": 2
+      },
+      {
+        "major": "数据科学",
+        "count": 1
+      },
+      {
+        "major": "数学",
+        "count": 1
+      },
+      {
+        "major": "Statistics",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 3,
+    "top_responsibilities": [
+      {
+        "text": "聚焦产品解决方案全流程，搭建适配多领域、多场景的数据分析体系，输出数据洞察支撑方案设计与商业化落地决策",
+        "count": 1
+      },
+      {
+        "text": "对外联动业务拓展部门，同步业务需求与数据诉求，通过需求拆解、数据建模、效果分析，助力方案沟通、价值验证及项目验收，提升方案转化效率",
+        "count": 1
+      },
+      {
+        "text": "对内协同产品、研发团队，输出LLM商业化数据分析报告支撑产品迭代优化，同步项目数据进度、交付数据标准，保障解决方案数据链路通畅与落地成效",
+        "count": 1
+      },
+      {
+        "text": "Design and prototype agent-assisted analytics solutions that enhance the analysis development lifecycle (ADLC), automation, and large-scale analytics enablement.",
+        "count": 1
+      },
+      {
+        "text": "Apply statistical analysis, data mining, and experimentation to solve high-impact, system-level problems with real-world constraints in logistics operations and business processes.",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 2,
     "role_id": "data",
     "role_name": "数据分析/数据科学",
     "role_description": "数据分析 / 数据科学岗位——AI 大数据分析 / MaaS 数据运营 / AI 投资分析师，数据驱动决策导向。",
@@ -1209,14 +1604,14 @@
     "market": "domestic",
     "job_count": 73,
     "sample_titles": [
+      "业务系统与AI转型负责人",
       "AIT (AI Business Transformation) Senior Specialist/Supervisor",
       "AI交付经理PMO- AI客服（电商）方向",
-      "汽车行业IT战略与数字化转型高级经理",
       "企业AI总监",
-      "AIT（AI业务改造）高级专员/主管",
-      "数字化转型总监",
-      "AI转型战略分析专家",
-      "供应链数字化转型专家"
+      "汽车行业IT战略与数字化转型高级经理",
+      "供应链数字化转型专家",
+      "企业AI科学家",
+      "AIT（AI业务改造）高级专员/主管"
     ],
     "required_skills": [
       {
@@ -1286,6 +1681,31 @@
         "count": 7
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "Deeply investigate business units (research, marketing, operations, back-office), analyze SOPs, and identify high-frequency, low-efficiency, high-labor-cost processes.",
+        "count": 1
+      },
+      {
+        "text": "Develop custom LLM Agents for departments using mainstream LLMs (e.g., Kimi, Wenxin, Qwen) and low-code workflow platforms (e.g., Coze, Dify).",
+        "count": 1
+      },
+      {
+        "text": "Clean, classify, and vectorize unstructured data (e.g., tourism research reports, proposals, operation manuals) to build a domain-specific digital knowledge base.",
+        "count": 1
+      },
+      {
+        "text": "Establish and promote internal AI usage guidelines, conduct training, and ensure seamless adoption of AI tools by business line employees.",
+        "count": 1
+      },
+      {
+        "text": "Regularly calculate efficiency benefits from AI tool implementation and propose further cost reduction strategies.",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 4,
     "role_id": "ai_transformation",
     "role_name": "AI 转型/咨询",
     "role_description": "AI 业务转型 / 数字化咨询岗——AIT (AI Business Transformation) 专员、企业 AI 总监、AI 交付经理。",
@@ -1309,11 +1729,11 @@
       "交易风控岗",
       "智能风控经理",
       "采供内控专家（智能风控方向）",
-      "内控经理",
-      "平台风控策略产品",
-      "风控研发工程师（Go｜黑灰产对抗）",
+      "AI Risk Officer(零售银行业务，一道防线)",
       "法务（IPR & 合规）",
-      "高级内控专家"
+      "内控经理",
+      "高级内控专家",
+      "平台风控策略产品"
     ],
     "required_skills": [
       {
@@ -1389,8 +1809,8 @@
       "腾讯",
       "Moonshot AI",
       "阿里云智能",
-      "MiniMax",
-      "智谱AI"
+      "智谱AI",
+      "MiniMax"
     ],
     "top_industries": [
       {
@@ -1414,6 +1834,52 @@
         "count": 1
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 4
+      },
+      {
+        "major": "统计",
+        "count": 3
+      },
+      {
+        "major": "数学",
+        "count": 2
+      },
+      {
+        "major": "金融",
+        "count": 2
+      },
+      {
+        "major": "数理",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 6,
+    "top_responsibilities": [
+      {
+        "text": "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+        "count": 3
+      },
+      {
+        "text": "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+        "count": 3
+      },
+      {
+        "text": "持续跟踪AI产品上线后的效果，收集用户反馈，进行数据分析，不断优化产品功能和用户体验。",
+        "count": 3
+      },
+      {
+        "text": "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；",
+        "count": 2
+      },
+      {
+        "text": "评估并集成AI工具链（如LLM、AutoML、NLP模型等），优化数据处理流程（例：非结构化文本解析、异常检测自动化）；",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 8,
     "role_id": "risk_compliance",
     "role_name": "AI 风控/合规",
     "role_description": "AI 风控 / 合规 / 内控岗——交易风控、采供内控、智能风控策略产品，金融与互联网风控的 AI 化方向。",
@@ -1436,13 +1902,13 @@
     "job_count": 30,
     "sample_titles": [
       "AI高级人工智能教育讲师",
+      "AI智能教育",
       "人工智能教育推广员",
-      "AI教育产品主管",
-      "智能教育兼职教练",
       "心理智能教育培训师",
+      "AI教育讲师",
       "教育人工智能专员",
-      "AI智能教育校长",
-      "AI教育讲师"
+      "智能教育产品交付与服务经理",
+      "市场经理-”AI+教育“"
     ],
     "required_skills": [
       {
@@ -1479,9 +1945,9 @@
     },
     "top_companies": [
       "某北京云计算/大数据公司",
-      "某北京互联网公司",
-      "某深圳政府/公共事业公司",
       "九叁有方人工智能",
+      "某深圳政府/公共事业公司",
+      "某北京互联网公司",
       "景瀚(深圳)信息科技有限公司"
     ],
     "top_industries": [
@@ -1502,6 +1968,27 @@
         "count": 1
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "负责门店运营管理",
+        "count": 1
+      },
+      {
+        "text": "负责教育规划与课程设计",
+        "count": 1
+      },
+      {
+        "text": "负责学生学习督导",
+        "count": 1
+      },
+      {
+        "text": "负责学生学习陪伴与辅导",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 1,
     "role_id": "education_ai",
     "role_name": "AI 教育",
     "role_description": "AI 教育垂直岗——AI 教育讲师、AI 教育推广员、AI 教育产品主管，市场快速扩张但单价偏低。",
@@ -1525,9 +2012,9 @@
       "Healthcare AI Project Assistant",
       "医疗AI售前",
       "中高级投标专员（医疗AI大模型/智慧医疗/医疗影像云）",
-      "理赔业务专家（寿险/财产险+LLM）",
       "智慧医疗AI产品助理",
-      "医疗AI架构师/产品师"
+      "医疗AI架构师/产品师",
+      "智慧医疗-医学知识专家"
     ],
     "required_skills": [
       {
@@ -1580,6 +2067,27 @@
         "count": 3
       }
     ],
+    "top_majors": [
+      {
+        "major": "循证医学",
+        "count": 1
+      },
+      {
+        "major": "卫生技术评估",
+        "count": 1
+      },
+      {
+        "major": "医学",
+        "count": 1
+      },
+      {
+        "major": "肿瘤科",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 3,
+    "top_responsibilities": [],
+    "responsibilities_sample_size": 0,
     "role_id": "medical_ai",
     "role_name": "医疗AI专岗",
     "role_description": "医疗 AI 垂直岗——医疗 AI 产品助理 / 售前 / 投标 / 项目管理，医疗器械 + AI 影像 + 医院数字化方向。",
@@ -1647,10 +2155,6 @@
         "count": 1
       },
       {
-        "industry": "retail",
-        "count": 1
-      },
-      {
         "industry": "manufacturing",
         "count": 1
       },
@@ -1661,8 +2165,16 @@
       {
         "industry": "other",
         "count": 1
+      },
+      {
+        "industry": "retail",
+        "count": 1
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [],
+    "responsibilities_sample_size": 0,
     "role_id": "customer_service",
     "role_name": "智能客服",
     "role_description": "智能客服垂直岗——智能客服系统专家 / 训练 / 管培生，客服系统 AI 化方向，样本量极少。",
@@ -1682,13 +2194,13 @@
     "job_count": 1443,
     "sample_titles": [
       "Lead Technical Program Manager – AI and Data Management Controls",
-      "AI Tutor - Norwegian",
       "Threat Collections Engineer",
-      "Forward Deployed Engineer, Agentic Platform",
-      "Office Coordinator",
-      "TPU Kernel Engineer",
-      "Member of Technical Staff, MLE",
-      "AI, Data foundation & Business Process Solution Lead"
+      "AI Tutor - Norwegian",
+      "Model Behavior Tutor - Wit & Conversation",
+      "AI Tutor - Hebrew",
+      "Product Marketing Lead, Claude Platform - Cloud",
+      "Sales Strategy and Ops, EMEA",
+      "Forward Deployed Engineer, Agentic Platform"
     ],
     "required_skills": [
       {
@@ -1794,6 +2306,52 @@
         "count": 37
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 56
+      },
+      {
+        "major": "linguistics",
+        "count": 30
+      },
+      {
+        "major": "cognitive science",
+        "count": 30
+      },
+      {
+        "major": "speech sciences",
+        "count": 29
+      },
+      {
+        "major": "Engineering",
+        "count": 26
+      }
+    ],
+    "majors_sample_size": 233,
+    "top_responsibilities": [
+      {
+        "text": "Work with technical staff to improve annotation tools for efficient audio workflows.",
+        "count": 29
+      },
+      {
+        "text": "Use proprietary software to provide labels, annotations, recordings, and inputs on projects involving multilingual audio clips, voice recordings, speech samples, and auditory elements in various languages.",
+        "count": 25
+      },
+      {
+        "text": "Support the delivery of high-quality curated audio data that ensures clear, natural spoken output, accurate representation of linguistic and prosodic details (such as intonation, rhythm, and accent), and professional audio standards.",
+        "count": 25
+      },
+      {
+        "text": "Collaborate with technical staff to develop tasks that improve AI's ability to handle speech modulation, accent variation, noise in real-world recordings, and multilingual audio processing.",
+        "count": 25
+      },
+      {
+        "text": "Support and ensure the delivery of high-quality curated data.",
+        "count": 14
+      }
+    ],
+    "responsibilities_sample_size": 1094,
     "role_id": "other",
     "role_name": "Other",
     "role_description": "未匹配到任一明确规则的混合岗位——含 TPM / Tutor / Threat Engineer / Forward Deployed / Office Coordinator 等长尾。",
@@ -1817,13 +2375,13 @@
     "job_count": 809,
     "sample_titles": [
       "Software Engineer, Human Data Interface",
-      "Software Engineer",
-      "Full Stack Engineer",
       "Engineer I (Multiple Openings)",
+      "Model Quality Software Engineer, Claude Code",
+      "Senior/Staff Backend Engineer",
       "Staff / Senior Software Engineer, Inference",
-      "Agentic AI FW developer",
-      "Sr Principal Software Engineer - Agentic Platform and Experiences",
-      "Sr. ServiceNow Developer"
+      "Software Engineer - Applied ML",
+      "Full Stack Engineer",
+      "Agentic AI FW developer"
     ],
     "required_skills": [
       {
@@ -1933,6 +2491,52 @@
         "count": 32
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 59
+      },
+      {
+        "major": "software engineering",
+        "count": 25
+      },
+      {
+        "major": "Engineering",
+        "count": 10
+      },
+      {
+        "major": "Computer Engineering",
+        "count": 4
+      },
+      {
+        "major": "Mathematics",
+        "count": 4
+      }
+    ],
+    "majors_sample_size": 71,
+    "top_responsibilities": [
+      {
+        "text": "Serve as the technical advocate for products, ensuring code integrity, feasibility, and alignment with business and customer goals. Lead requirement analysis, component design, development, unit testing, integrations, and support.",
+        "count": 10
+      },
+      {
+        "text": "Embrace and drive a culture of accountability for customer and business outcomes. Develop engineering solutions that solve complex problems with valuable outcomes, ensuring high-quality, lean designs and implementations.",
+        "count": 9
+      },
+      {
+        "text": "Develop lean engineering solutions through rapid, inexpensive experimentation to solve customer needs. Engage with customers and product teams before, during, and after delivery to ensure the right solution is delivered at the right time.",
+        "count": 9
+      },
+      {
+        "text": "Adopt a mindset that favors action and evidence over extensive planning. Utilize a leaning-forward approach to navigate complexity and uncertainty, delivering lean, supportable, and maintainable solutions.",
+        "count": 9
+      },
+      {
+        "text": "Work collaboratively with empowered, cross-functional teams including product management, experience, and delivery. Integrate diverse perspectives to make well-informed decisions that balance feasibility, viability, usability, and value. Foster a collaborative environment that enhances team synergy and innovation.",
+        "count": 9
+      }
+    ],
+    "responsibilities_sample_size": 582,
     "role_id": "sde",
     "role_name": "Software Engineer",
     "role_description": "通用软件工程师栈做 AI 平台 / 产品——前后端全干（React + TypeScript + Go + Python + K8s + AWS），AI 是应用域不是研究域。",
@@ -1955,14 +2559,14 @@
     "market": "international",
     "job_count": 790,
     "sample_titles": [
-      "Senior Machine Learning Scientist, Payments",
       "Data Scientist Engineer",
-      "Principal Applied Scientist, Sponsored Products and Brands",
-      "AI Research Intern",
-      "Research Engineer/Scientist - Generative UI, Consumer Devices",
-      "Entry Level Engineers/Scientists/Chemists/Technicians",
-      "AI Research & Agentic Engineer Hybrid",
-      "Principal Applied Scientist, Delivery Foundation Model"
+      "Senior Machine Learning Scientist, Payments",
+      "Research Engineer, Virtual Collaborator (Cowork)",
+      "Product Management, Research",
+      "Research Engineer, Economic Research",
+      "Research Engineer/Research Scientist, Audio",
+      "Research Scientist, Gemini Information Tasks",
+      "Research Economist, Economic Research"
     ],
     "required_skills": [
       {
@@ -2008,15 +2612,15 @@
     ],
     "preferred_skills": [
       {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
         "skill_id": "devops",
         "count": 1
       },
       {
         "skill_id": "anthropic_api",
-        "count": 1
-      },
-      {
-        "skill_id": "golang",
         "count": 1
       },
       {
@@ -2084,6 +2688,52 @@
         "count": 7
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 89
+      },
+      {
+        "major": "Machine Learning",
+        "count": 38
+      },
+      {
+        "major": "statistics",
+        "count": 28
+      },
+      {
+        "major": "mathematics",
+        "count": 27
+      },
+      {
+        "major": "Artificial Intelligence",
+        "count": 18
+      }
+    ],
+    "majors_sample_size": 121,
+    "top_responsibilities": [
+      {
+        "text": "Design and implement novel deep learning architectures combining a multitude of modalities, including image, video, and geospatial data.",
+        "count": 6
+      },
+      {
+        "text": "Solve computational problems to train foundation models on vast amounts of Amazon data and infer at Amazon scale, taking advantage of latest developments in hardware and deep learning libraries.",
+        "count": 6
+      },
+      {
+        "text": "Guide technical direction for specific research initiatives, ensuring robust performance in production environments.",
+        "count": 6
+      },
+      {
+        "text": "Mentor fellow scientists while maintaining strong individual technical contributions.",
+        "count": 6
+      },
+      {
+        "text": "Develop and implement novel foundation model architectures, working hands-on with data and our extensive training and evaluation infrastructure.",
+        "count": 6
+      }
+    ],
+    "responsibilities_sample_size": 255,
     "role_id": "ml_scientist",
     "role_name": "ML Scientist / Researcher",
     "role_description": "研究向 ML 岗位——做 pretrain / RL / 多模态 / Applied Scientist，输出是论文 / 模型权重 / benchmark，不是产品。",
@@ -2112,8 +2762,8 @@
       "AI Engineer Software",
       "AI Agent Engineer",
       "Machine Learning Engineer (L4/L5) - Emerging Game Technologies",
-      "AI Engineer - Agentic and Generative AI",
-      "Machine Learning Engineer"
+      "Senior Machine Learning Engineer",
+      "AI Software Engineer"
     ],
     "required_skills": [
       {
@@ -2219,6 +2869,52 @@
         "count": 16
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 68
+      },
+      {
+        "major": "Data Science",
+        "count": 28
+      },
+      {
+        "major": "Engineering",
+        "count": 15
+      },
+      {
+        "major": "Statistics",
+        "count": 15
+      },
+      {
+        "major": "Machine Learning",
+        "count": 15
+      }
+    ],
+    "majors_sample_size": 79,
+    "top_responsibilities": [
+      {
+        "text": "Own account health, adoption velocity, and technical deployment",
+        "count": 8
+      },
+      {
+        "text": "Conduct technical enablement and configuration sessions",
+        "count": 8
+      },
+      {
+        "text": "Lead account level coordination across multiple workstreams",
+        "count": 8
+      },
+      {
+        "text": "Facilitate workshops on use case design and adoption best practices",
+        "count": 8
+      },
+      {
+        "text": "Serve as technical advisor for existing customer implementations",
+        "count": 8
+      }
+    ],
+    "responsibilities_sample_size": 250,
     "role_id": "ml_engineer",
     "role_name": "ML/AI Engineer",
     "role_description": "把模型变成产品——OpenAI API 调用、RAG 系统、模型部署到 AWS、上线监控；标题里有 LLM / Agentic / GenAI / AI Engineer。",
@@ -2241,14 +2937,14 @@
     "market": "international",
     "job_count": 494,
     "sample_titles": [
+      "Product Sustainability Intern",
       "Artificial Intelligence Intern",
-      "AI Business Analyst Intern 107277",
+      "Senior International Payroll Specialist",
+      "Customer Quality Intern",
+      "Rackner AI Innovation Fellowship – Startup Accelerator Intern",
       "Manufacturing & Industrial Engineering - Recent Grad/Full Time",
-      "Robot Learning Engineering Intern",
-      "AI Ads Intern — Viral Creative & Performance Marketing",
-      "Junior Designer",
-      "Artificial Intelligence, Machine Learning & Data Science - Summer 2026 Internships",
-      "Data Science Internship (Summer 2026)"
+      "Intern Investment Management-MAS",
+      "Machine Learning Intern/Co-op"
     ],
     "required_skills": [
       {
@@ -2260,12 +2956,16 @@
         "count": 5
       },
       {
+        "skill_id": "sql",
+        "count": 3
+      },
+      {
         "skill_id": "machine_learning",
         "count": 3
       },
       {
-        "skill_id": "sql",
-        "count": 3
+        "skill_id": "tensorflow",
+        "count": 2
       },
       {
         "skill_id": "cpp",
@@ -2285,10 +2985,6 @@
       },
       {
         "skill_id": "llm",
-        "count": 2
-      },
-      {
-        "skill_id": "tensorflow",
         "count": 2
       }
     ],
@@ -2338,9 +3034,9 @@
     },
     "top_companies": [
       "Berkshire Hathaway Energy",
-      "TikTok",
       "Tenstorrent",
-      "Honeywell",
+      "TikTok",
+      "KLA",
       "Anthropic"
     ],
     "top_industries": [
@@ -2365,6 +3061,52 @@
         "count": 5
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 10
+      },
+      {
+        "major": "Robotics",
+        "count": 5
+      },
+      {
+        "major": "Machine Learning",
+        "count": 5
+      },
+      {
+        "major": "Data Science",
+        "count": 4
+      },
+      {
+        "major": "Economics",
+        "count": 3
+      }
+    ],
+    "majors_sample_size": 32,
+    "top_responsibilities": [
+      {
+        "text": "Optimize manufacturing processes",
+        "count": 2
+      },
+      {
+        "text": "Improve efficiency",
+        "count": 2
+      },
+      {
+        "text": "Ensure product quality",
+        "count": 2
+      },
+      {
+        "text": "Identify areas for improvement",
+        "count": 2
+      },
+      {
+        "text": "Implement solutions to enhance efficiency and productivity",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 31,
     "role_id": "intern_newgrad",
     "role_name": "Intern / New Grad",
     "role_description": "实习 / 应届岗位池——大厂 Summer Intern / Entry-Level Engineer / Recent Grad；中位最低经验 0 年，技能门槛 Python + SQL 基础。",
@@ -2386,14 +3128,14 @@
     "market": "international",
     "job_count": 384,
     "sample_titles": [
-      "Analytics Engineer 5 - Ads Reporting & Metric Standards",
-      "Data Engineer",
+      "Client Data Analyst",
+      "Business Analytics Intern",
+      "Strategic Sales & Analytics Intern",
+      "Data Analyst Intern",
+      "Data Engineering Student Intern",
       "Technical Program Manager, Google Cloud Analytics and Insights",
-      "Data Analyst - Entry Level",
-      "Technical Data Analyst",
-      "Analytics Engineer, Finance",
-      "Entry Level Business Analyst / Data Analyst",
-      "Pricing and Market Analytics Intern"
+      "Analytics Engineer 5 - Ads Reporting & Metric Standards",
+      "Analytics & BI Intern"
     ],
     "required_skills": [
       {
@@ -2435,6 +3177,10 @@
         "count": 2
       },
       {
+        "skill_id": "golang",
+        "count": 1
+      },
+      {
         "skill_id": "react",
         "count": 1
       },
@@ -2448,10 +3194,6 @@
       },
       {
         "skill_id": "agent_architecture",
-        "count": 1
-      },
-      {
-        "skill_id": "golang",
         "count": 1
       },
       {
@@ -2526,6 +3268,52 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "Data Science",
+        "count": 7
+      },
+      {
+        "major": "Computer Science",
+        "count": 5
+      },
+      {
+        "major": "Statistics",
+        "count": 3
+      },
+      {
+        "major": "Management Information Systems",
+        "count": 3
+      },
+      {
+        "major": "Operations Research",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 13,
+    "top_responsibilities": [
+      {
+        "text": "Creates and maintains SQL scripts and stored procedures to support underwriting, pricing, and ad-hoc analyses.",
+        "count": 2
+      },
+      {
+        "text": "Analyzes structured and unstructured data models to provide actionable insights.",
+        "count": 2
+      },
+      {
+        "text": "Develops, implements, and maintains automated and scheduled data processes and workflows.",
+        "count": 2
+      },
+      {
+        "text": "Conducts data reconciliation to ensure accuracy, consistency, and integrity across systems.",
+        "count": 2
+      },
+      {
+        "text": "Builds, maintains, and enhances Tableau dashboards and models to support business reporting and decision-making.",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 25,
     "role_id": "data",
     "role_name": "Data Scientist / Analyst",
     "role_description": "数据科学家 / 分析师 / 数据工程岗——SQL + Python 为底，覆盖 Analytics Engineer / Data Engineer / Technical Data Analyst。",
@@ -2547,13 +3335,13 @@
     "job_count": 329,
     "sample_titles": [
       "Lead Site Reliability Engineer (GCP & Hybrid Cloud)",
+      "Sales Director, Enterprise",
       "Senior Applied Science Manager, Amazon Sponsored Products & Brands",
+      "Senior Marketing Events Manager, Partners",
       "Head of AI",
+      "Postdoctoral Fellow",
       "Assistant Professor: AI + Education",
-      "Senior Vice President of Digital Transformation",
-      "Digital Transformation Executive",
-      "Director, Accounting Operations",
-      "Accounting Expert - Faculty / Professor of Accounting"
+      "Technical Program Manager, AI Delivery for Public Sector & Defence"
     ],
     "required_skills": [
       {
@@ -2667,6 +3455,52 @@
         "count": 14
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 22
+      },
+      {
+        "major": "Accounting",
+        "count": 11
+      },
+      {
+        "major": "Finance",
+        "count": 10
+      },
+      {
+        "major": "Engineering",
+        "count": 9
+      },
+      {
+        "major": "Business",
+        "count": 7
+      }
+    ],
+    "majors_sample_size": 53,
+    "top_responsibilities": [
+      {
+        "text": "Support the development of company culture",
+        "count": 6
+      },
+      {
+        "text": "Win customers — Run pilots, shape pricing, and validate retention + expansion",
+        "count": 5
+      },
+      {
+        "text": "Build the product — Work with FutureSight's product/engineering pod to launch V1",
+        "count": 5
+      },
+      {
+        "text": "Build your team — Hire your founding team and set the cultural foundation",
+        "count": 5
+      },
+      {
+        "text": "Support recruitment and onboarding",
+        "count": 5
+      }
+    ],
+    "responsibilities_sample_size": 283,
     "role_id": "leadership",
     "role_name": "Engineering Leadership",
     "role_description": "海外 AI 工程管理岗——EM / Director / Head of AI / SVP，技术 IC 转管理或商业 leader 加 AI 域，5+ 年经验门槛硬。",
@@ -2689,14 +3523,14 @@
     "market": "international",
     "job_count": 108,
     "sample_titles": [
+      "Manager of Solutions Architecture, Applied AI (Industries)",
+      "Manager of Applied AI Architecture, Industries",
+      "Solutions Architect - Public Sector",
+      "Partner Solutions Architect, Applied AI",
       "AI Solution Architect",
-      "AI Architect Agentic & Generative AI",
       "Solutions Engineer Intern - Computer Science or related major",
-      "AI Automation & Solutions Lead",
-      "Sr. UX Designer, AWS Applied AI Solutions",
-      "Customer Engineer II, Cloud AI, Retail, Google Cloud",
-      "Customer Engineer II, Cloud AI, Retail",
-      "AI Solutions Architect"
+      "AI Architect Agentic & Generative AI",
+      "Solutions Architect"
     ],
     "required_skills": [
       {
@@ -2716,11 +3550,11 @@
         "count": 18
       },
       {
-        "skill_id": "openai_api",
+        "skill_id": "machine_learning",
         "count": 16
       },
       {
-        "skill_id": "machine_learning",
+        "skill_id": "openai_api",
         "count": 16
       },
       {
@@ -2728,11 +3562,11 @@
         "count": 8
       },
       {
-        "skill_id": "rag",
+        "skill_id": "prompt_engineering",
         "count": 7
       },
       {
-        "skill_id": "prompt_engineering",
+        "skill_id": "rag",
         "count": 7
       },
       {
@@ -2807,6 +3641,52 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "machine learning",
+        "count": 11
+      },
+      {
+        "major": "data science",
+        "count": 11
+      },
+      {
+        "major": "Computer Science",
+        "count": 8
+      },
+      {
+        "major": "Engineering",
+        "count": 5
+      },
+      {
+        "major": "Mathematics",
+        "count": 4
+      }
+    ],
+    "majors_sample_size": 19,
+    "top_responsibilities": [
+      {
+        "text": "Create and maintain documentation, guides, and FAQs",
+        "count": 9
+      },
+      {
+        "text": "Build and present demos, scope use cases, recommend architecture patterns",
+        "count": 8
+      },
+      {
+        "text": "Develop and nurture strong customer relationships",
+        "count": 8
+      },
+      {
+        "text": "Serve as first line of defense for security and compliance questions",
+        "count": 8
+      },
+      {
+        "text": "Serve as primary technical advisor to enterprise customers throughout Claude adoption journey",
+        "count": 8
+      }
+    ],
+    "responsibilities_sample_size": 89,
     "role_id": "architect",
     "role_name": "Solutions Architect",
     "role_description": "AI 解决方案架构师——AI Solution Architect / Agentic Architect / GenAI Architect，对外输出技术方案，咨询 + 部署混合角色。",
@@ -2829,14 +3709,14 @@
     "market": "international",
     "job_count": 106,
     "sample_titles": [
+      "Product Manager, Monetization",
+      "Product Manager, Consumer",
+      "Product Manager, Multi-Cloud Growth",
+      "Product Manager, API Growth",
       "Product Owner - Federal Health Systems",
       "Agent Product Manager",
       "Lead Product Manager - Gen AI Platform",
-      "Sr. Product Manager - Technical, CS Intelligence, AWS Specialist and Partner Organization",
-      "Senior Product Manager, SMB Hiring",
-      "Manager of Product Operations",
-      "AI Solutions & Automation Product Manager-Commercial",
-      "Product Manager"
+      "AI Product Manager"
     ],
     "required_skills": [
       {
@@ -2949,10 +3829,56 @@
         "count": 3
       },
       {
-        "industry": "consulting",
+        "industry": "manufacturing",
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "computer science",
+        "count": 39
+      },
+      {
+        "major": "Engineering",
+        "count": 25
+      },
+      {
+        "major": "Analytics",
+        "count": 15
+      },
+      {
+        "major": "Mathematics",
+        "count": 15
+      },
+      {
+        "major": "Physics",
+        "count": 15
+      }
+    ],
+    "majors_sample_size": 50,
+    "top_responsibilities": [
+      {
+        "text": "Gather and analyze user research and market analysis to inform product decisions and influence the wider product organization",
+        "count": 6
+      },
+      {
+        "text": "Maximize efficiency in a constantly evolving environment where the process is fluid and creative solutions are the norm",
+        "count": 6
+      },
+      {
+        "text": "Influence strategy and progress across partner functions, enhancing collaboration and resolving divergent goals",
+        "count": 5
+      },
+      {
+        "text": "Support the growth of other PMs and cross-functional team members by providing mentorship and coaching",
+        "count": 5
+      },
+      {
+        "text": "Plan, initiate, and manage information technology projects for web-based products, applications, and platforms",
+        "count": 5
+      }
+    ],
+    "responsibilities_sample_size": 92,
     "role_id": "product_manager",
     "role_name": "Product Manager",
     "role_description": "海外 AI 产品经理——Agent Product Manager / GenAI Platform PM / Sr Product Manager Technical，技术 PM 偏多。",
@@ -2975,14 +3901,14 @@
     "market": "international",
     "job_count": 43,
     "sample_titles": [
+      "Partner Marketing Lead - EMEA",
+      "Partner Enablement Lead, System Integrators",
       "AI Enablement Strategist – New College Graduate",
+      "Technical Enablement Lead, Claude Code",
+      "Strategic Partner Development Lead, Quantum AI",
       "Director of AI Enablement",
       "Principal Indirect Selling Partner Enablement & Activation Lead, AWS Partner Core Enablement Shared Services-Foundations",
-      "Strategic Partner Development Lead, Quantum AI",
-      "Senior ProServe Sales Leader, North America, Healthcare and Life Sciences",
-      "Senior Leader, ProServe AI/GenAI/Agentic Specialists, Healthcare and Life Sciences",
-      "Infrastructure Partnership Delivery Lead – Stargate",
-      "Onboarding & Enablement Program Manager"
+      "Senior Sales & Agency Manager"
     ],
     "required_skills": [
       {
@@ -2998,18 +3924,6 @@
         "count": 2
       },
       {
-        "skill_id": "python",
-        "count": 1
-      },
-      {
-        "skill_id": "llm",
-        "count": 1
-      },
-      {
-        "skill_id": "sql",
-        "count": 1
-      },
-      {
         "skill_id": "aws",
         "count": 1
       },
@@ -3023,6 +3937,18 @@
       },
       {
         "skill_id": "anthropic_api",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "sql",
+        "count": 1
+      },
+      {
+        "skill_id": "llm",
         "count": 1
       }
     ],
@@ -3085,6 +4011,52 @@
         "count": 4
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 5
+      },
+      {
+        "major": "Engineering",
+        "count": 5
+      },
+      {
+        "major": "Biomedical",
+        "count": 3
+      },
+      {
+        "major": "Mathematics",
+        "count": 2
+      },
+      {
+        "major": "MD",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 5,
+    "top_responsibilities": [
+      {
+        "text": "Define and lead the execution of strategic partnerships, identifying and prioritizing opportunities that drive significant business growth and competitive advantage.",
+        "count": 3
+      },
+      {
+        "text": "Develop and cultivate deep relationships with key partners, serving as a trusted advisor and ensuring alignment on strategic objectives.",
+        "count": 3
+      },
+      {
+        "text": "Negotiate and structure complex partnership agreements, ensuring favorable terms and conditions.",
+        "count": 3
+      },
+      {
+        "text": "Oversee the integration and implementation of partnerships, collaborating with cross-functional teams (Product, Engineering, Marketing, Legal) to ensure successful launch and ongoing operations.",
+        "count": 3
+      },
+      {
+        "text": "Monitor, analyze, and optimize partnership performance, identifying areas for improvement and growth to achieve strategic goals.",
+        "count": 3
+      }
+    ],
+    "responsibilities_sample_size": 33,
     "role_id": "sales_bd",
     "role_name": "AI Sales / BD",
     "role_description": "海外 AI 销售 / 商务 / Enablement 岗——AI Enablement Strategist / Strategic Partner Lead / Sales Leader，AI 公司渠道 + ToB 拿单。",
@@ -3105,14 +4077,14 @@
     "market": "international",
     "job_count": 33,
     "sample_titles": [
-      "Shuttle Attendant (Autonomous Vehicle Operator)",
-      "Autonomous GSE Operator",
-      "Autonomous vehicle Test Operator",
       "Robotics and AI Co-op",
+      "Robotics Intern",
+      "Autonomous vehicle Test Operator",
+      "Autonomous Vehicle Operator, Santa Clara (12-Month Duration)",
+      "Shuttle Attendant (Autonomous Vehicle Operator)",
       "Autonomous Vehicles - Training Manager",
-      "Autonomous Vehicle Operator with CDL",
-      "Autonomous Vehicle Test Operator",
-      "Autonomous Vehicle Operator Supervisor"
+      "Autonomous GSE Operator",
+      "Autonomous Vehicle Operator with CDL"
     ],
     "required_skills": [
       {
@@ -3132,11 +4104,11 @@
         "count": 1
       },
       {
-        "skill_id": "deep_learning",
+        "skill_id": "rust",
         "count": 1
       },
       {
-        "skill_id": "rust",
+        "skill_id": "deep_learning",
         "count": 1
       },
       {
@@ -3190,11 +4162,11 @@
         "count": 20
       },
       {
-        "industry": "manufacturing",
+        "industry": "other",
         "count": 2
       },
       {
-        "industry": "other",
+        "industry": "manufacturing",
         "count": 2
       },
       {
@@ -3206,6 +4178,52 @@
         "count": 1
       }
     ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 2
+      },
+      {
+        "major": "Engineering",
+        "count": 2
+      },
+      {
+        "major": "Robotics",
+        "count": 2
+      },
+      {
+        "major": "Customer Science",
+        "count": 1
+      },
+      {
+        "major": "AI",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 3,
+    "top_responsibilities": [
+      {
+        "text": "Test other aspects of autonomous vehicles",
+        "count": 7
+      },
+      {
+        "text": "Complete timely and detailed ride reports for operations and engineering teams",
+        "count": 7
+      },
+      {
+        "text": "Perform software monitoring and logging responsibilities",
+        "count": 5
+      },
+      {
+        "text": "Maintain high standard of safety, inside and outside of the vehicle",
+        "count": 5
+      },
+      {
+        "text": "Operate/Drive autonomous vehicles on both defined and undefined routes, including a variety of environmental conditions",
+        "count": 4
+      }
+    ],
+    "responsibilities_sample_size": 25,
     "role_id": "autonomous",
     "role_name": "Autonomous Vehicles",
     "role_description": "海外自动驾驶垂直岗——Autonomous Vehicle Operator / Test Operator / Robotics AI Co-op，机器人 + 车两个细分混合。",
@@ -3229,12 +4247,12 @@
     "sample_titles": [
       "Sr. Design Technologist, Elevated Shopping",
       "Senior Consultant (K12 Education Innovation)",
+      "Finance Manager - Healthcare, Amazon One Medical",
+      "Strategic Risk Analyst, Behavioral & Psychological Risk",
       "Fintech Strategy Management Consultant - AI",
       "Senior Risk Analyst, Sustainability Controls",
-      "Finance Manager - Healthcare, Amazon One Medical",
       "Payment Network Relationship Management and Strategy Consultant",
-      "Strategic Risk Analyst",
-      "Strategic Risk Analyst, Behavioral & Psychological Risk"
+      "Strategic Risk Analyst"
     ],
     "required_skills": [
       {
@@ -3330,6 +4348,52 @@
         "count": 1
       }
     ],
+    "top_majors": [
+      {
+        "major": "finance",
+        "count": 6
+      },
+      {
+        "major": "accounting",
+        "count": 6
+      },
+      {
+        "major": "business",
+        "count": 3
+      },
+      {
+        "major": "economics",
+        "count": 3
+      },
+      {
+        "major": "engineering",
+        "count": 3
+      }
+    ],
+    "majors_sample_size": 6,
+    "top_responsibilities": [
+      {
+        "text": "Partner with Business Intelligence, Science and FinTech to implement data driven reporting, and driver-based forecasting solutions utilizing internal systems and AI tools.",
+        "count": 6
+      },
+      {
+        "text": "Partner with the business and finance leaders to develop long-term strategies and new initiatives to delight our customers.",
+        "count": 5
+      },
+      {
+        "text": "Own and update detailed Medicare finance drivers weekly, monthly, and quarterly business review metrics across the senior health value based care business.",
+        "count": 5
+      },
+      {
+        "text": "Support and enhance relationships with business and product leaders at the payment networks",
+        "count": 5
+      },
+      {
+        "text": "Understand the product and business roadmaps for Payment Network partners and provide guidance to merchant services product and business leaders",
+        "count": 5
+      }
+    ],
+    "responsibilities_sample_size": 24,
     "role_id": "finance_ops",
     "role_name": "Finance / Operations",
     "role_description": "海外金融 / 运营垂直岗——Fintech Strategy Consultant / Senior Risk Analyst Sustainability / Finance Manager Healthcare AI。",

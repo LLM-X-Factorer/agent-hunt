@@ -2,14 +2,14 @@
   {
     "job_count": 1347,
     "sample_titles": [
+      "AI Project Manager",
+      "税务专员/助理",
       "AI + 财经商业讲师",
       "医药医疗行业大客户经理（AI产品）",
       "智能无人车远程监控客服",
       "精益生产经理",
       "AI漫剧制作人",
-      "AI LLM Technical Support (English) - Volcengine MaaS",
-      "Automated Driving Test Driver",
-      "航空航天科研专家"
+      "AI LLM Technical Support (English) - Volcengine MaaS"
     ],
     "required_skills": [
       {
@@ -37,11 +37,11 @@
         "count": 5
       },
       {
-        "skill_id": "generative_ai",
+        "skill_id": "java",
         "count": 4
       },
       {
-        "skill_id": "java",
+        "skill_id": "generative_ai",
         "count": 4
       },
       {
@@ -124,6 +124,52 @@
         "count": 42
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 34
+      },
+      {
+        "major": "人工智能",
+        "count": 17
+      },
+      {
+        "major": "计算机科学",
+        "count": 13
+      },
+      {
+        "major": "数学",
+        "count": 10
+      },
+      {
+        "major": "软件工程",
+        "count": 9
+      }
+    ],
+    "majors_sample_size": 92,
+    "top_responsibilities": [
+      {
+        "text": "探索科学前沿，攻关产业关键问题，产出重大科技成果，促进成果产业化应用。",
+        "count": 2
+      },
+      {
+        "text": "积极参与高水平科研团队的组建与凝聚，吸引和汇聚海内外优秀青年人才。",
+        "count": 2
+      },
+      {
+        "text": "坚持立德树人根本任务，学科功底深厚，有稳定的研究方向，具备指导研究生的水平和能力。",
+        "count": 2
+      },
+      {
+        "text": "构建国际合作网络，促进国际学术交流，组织或参与高水平国际学术会议推动，提升学术影响力。",
+        "count": 2
+      },
+      {
+        "text": "远程监控无人车运行",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 42,
     "role_id": "other",
     "role_name": "其他"
   },
@@ -131,13 +177,13 @@
     "job_count": 734,
     "sample_titles": [
       "AI Agent平台研发工程师",
+      "AI前端开发工程师（Agent）",
       "AI Agent Engineer",
       "AI Agent Application Engineer",
-      "跨境电商AI Agent 产品负责人",
       "AI算法工程师（海外AI产品）",
-      "AI产品开发实习生（医疗大模型）",
-      "Perception LLM Engineer",
-      "AI 量化工程师"
+      "跨境电商AI Agent 产品负责人",
+      "AI Senior Engineer",
+      "AI Product Manager (AI Agent, Content Growth)"
     ],
     "required_skills": [
       {
@@ -254,20 +300,66 @@
         "count": 27
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 30
+      },
+      {
+        "major": "人工智能",
+        "count": 21
+      },
+      {
+        "major": "软件工程",
+        "count": 19
+      },
+      {
+        "major": "计算机科学",
+        "count": 11
+      },
+      {
+        "major": "数学",
+        "count": 7
+      }
+    ],
+    "majors_sample_size": 50,
+    "top_responsibilities": [
+      {
+        "text": "以LLM作为核心组件，参与构建具备“思考、调用、执行”能力的后端业务系统，将产品需求与思维链转化为稳定、可扩展的 Agentic Workflow（智能体工作流）。",
+        "count": 2
+      },
+      {
+        "text": "负责 AI Agent 的编排与工程化落地，包括模型调用、工具调用（Tool-calling）、多步推理、状态管理与异常处理，保障复杂业务流程的稳定执行。",
+        "count": 2
+      },
+      {
+        "text": "参与模型接入、推理服务、RAG 与数据处理等核心模块建设，推动 AI 能力在真实业务场景中的规模化应用。",
+        "count": 2
+      },
+      {
+        "text": "针对高并发、高可靠场景，对 AI 系统进行性能优化与工程治理，包括流式响应、异步调度、缓存策略与成本控制。",
+        "count": 2
+      },
+      {
+        "text": "与产品、前端、算法及平台团队协作，持续优化 AI 系统的研发效率与交付质量，在复杂问题中独立推进模块级方案落地。",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 50,
     "role_id": "ai_engineer",
     "role_name": "AI/LLM 工程师"
   },
   {
     "job_count": 439,
     "sample_titles": [
+      "AI Product Manager",
       "AI策略产品经理（LLM应用方向）",
       "AIGC产品运营",
       "AI Tutor产品经理",
       "AI产品经理-AI教育工具",
-      "Product Manager - Intelligent Driving",
-      "AI教育产品总监",
-      "智能座舱产品经理",
-      "AI 产品经理（LLM 应用与 AI 工程方向）"
+      "医疗AI产品专家",
+      "Sr. AI Product Manager",
+      "Product Manager - Intelligent Driving"
     ],
     "required_skills": [
       {
@@ -291,11 +383,11 @@
         "count": 2
       },
       {
-        "skill_id": "fine_tuning",
+        "skill_id": "function_calling",
         "count": 1
       },
       {
-        "skill_id": "function_calling",
+        "skill_id": "fine_tuning",
         "count": 1
       },
       {
@@ -386,6 +478,52 @@
         "count": 14
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 7
+      },
+      {
+        "major": "人工智能",
+        "count": 4
+      },
+      {
+        "major": "软件工程",
+        "count": 3
+      },
+      {
+        "major": "信息管理",
+        "count": 3
+      },
+      {
+        "major": "数学",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 10,
+    "top_responsibilities": [
+      {
+        "text": "Responsible for product planning and strategy of AI content generation products in marketing video scenarios (e-commerce, advertising), identifying user needs, and exploring new opportunities brought by AI technology.",
+        "count": 1
+      },
+      {
+        "text": "Based on user creation paths and video scenarios, optimize AI Agent workflows, generation effects, and user experience to improve the efficiency and quality of vertical video production.",
+        "count": 1
+      },
+      {
+        "text": "Build marketing video evaluation sets, quantify AI-generated content effects, define iteration directions, and provide data support for product optimization and strategy adjustments.",
+        "count": 1
+      },
+      {
+        "text": "Collaborate closely with commercialization, operations, R&D, and other teams to transform AI technical capabilities into implementable product features and promote rapid product iteration and application in the market.",
+        "count": 1
+      },
+      {
+        "text": "主导 AI agent/工作流设计，包括 LLM 调用、context 工程、Agent 架构与工具调用链路，构建可扩展的生成式系统",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 6,
     "role_id": "product_manager",
     "role_name": "AI 产品经理"
   },
@@ -396,10 +534,10 @@
       "Discovery Lab Analytical Automation Scientist",
       "Entry Level Engineers/Scientists/Chemists/Technicians",
       "自动驾驶算法工程师",
+      "模型策略岗（LLM应用与数据分析）",
       "LLM算法实习生（医疗大模型方向）",
       "算法工程师",
-      "AI Algorithm Engineer (LLM Direction)",
-      "高级图像算法工程师"
+      "AI Algorithm Engineer (LLM Direction)"
     ],
     "required_skills": [
       {
@@ -423,15 +561,15 @@
         "count": 6
       },
       {
+        "skill_id": "rag",
+        "count": 5
+      },
+      {
         "skill_id": "fine_tuning",
         "count": 5
       },
       {
         "skill_id": "machine_learning",
-        "count": 5
-      },
-      {
-        "skill_id": "rag",
         "count": 5
       },
       {
@@ -503,6 +641,52 @@
         "count": 9
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 21
+      },
+      {
+        "major": "人工智能",
+        "count": 18
+      },
+      {
+        "major": "计算机科学",
+        "count": 11
+      },
+      {
+        "major": "数学",
+        "count": 10
+      },
+      {
+        "major": "自动化",
+        "count": 10
+      }
+    ],
+    "majors_sample_size": 40,
+    "top_responsibilities": [
+      {
+        "text": "基于阿里云百炼、Coze（扣子）、Dify等平台，设计并配置零售金融场景的AI智能体（Agent），实现智能营销、投教陪伴、自动化运营等场景落地。",
+        "count": 2
+      },
+      {
+        "text": "负责提示词工程（Prompt Engineering），编写并迭代高质量的System Prompt及工作流逻辑，利用CoT、ReAct等技巧提升模型在复杂金融任务中的准确率与合规性。",
+        "count": 2
+      },
+      {
+        "text": "结合业务需求，灵活调用平台插件与知识库（RAG），优化Agent的多轮对话体验与任务执行效率。",
+        "count": 2
+      },
+      {
+        "text": "利用 Trino 和 Spark SQL 进行高效数据提取：直接从公司海量数据仓库中查询用户行为、交易记录及交互日志，为模型策略制定提供精准的数据支撑，无需依赖他人取数。",
+        "count": 2
+      },
+      {
+        "text": "深度数据分析与洞察：对提取的数据进行清洗与分析，挖掘用户潜在需求与行为特征，将其转化为LLM的“上下文信息”或“微调数据”，反哺模型策略迭代。",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 15,
     "role_id": "algorithm",
     "role_name": "算法工程师/研究员"
   },
@@ -513,10 +697,10 @@
       "AI训练师 (智能客服方向)",
       "智能客服训练师",
       "MarTech营销技术专家",
+      "数据中心甲方经理 / 资深资产运营经理 (AI IDC方向)",
+      "AIGC新媒体运营策划",
       "AI数据运营专家（ToB Agent方向）",
-      "智能客服运营",
-      "豆包AI大模型平台运营-火山方舟MaaS",
-      "AIGC运营专家"
+      "AIGC内容运营"
     ],
     "required_skills": [
       {
@@ -624,6 +808,52 @@
         "count": 8
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 2
+      },
+      {
+        "major": "软件工程",
+        "count": 1
+      },
+      {
+        "major": "数据科学",
+        "count": 1
+      },
+      {
+        "major": "数字营销",
+        "count": 1
+      },
+      {
+        "major": "心理学",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 4,
+    "top_responsibilities": [
+      {
+        "text": "Improve e-commerce efficiency using AI tools",
+        "count": 1
+      },
+      {
+        "text": "深入理解市场业务目标与用户旅程，规划并制定CDP、AI营销自动化、AIGC及AI Agent智能体的技术发展路线图。",
+        "count": 1
+      },
+      {
+        "text": "作为市场部与技术中台/研发部门/外部团队的核心接口，精准转译业务需求为技术方案与产品定义，确保技术投资与营销战略对齐。",
+        "count": 1
+      },
+      {
+        "text": "主导CDP平台的选型、定制开发与持续运营，构建统一、实时、可行动的客户数据资产，为个性化营销与智能决策提供底座。",
+        "count": 1
+      },
+      {
+        "text": "设计并实施基于规则与AI模型的营销自动化工作流（如客户分群触达、动态内容优化、跨渠道旅程编排），提升规模化营销的精准度与效率。",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 9,
     "role_id": "operations",
     "role_name": "AI 运营/训练师"
   },
@@ -632,12 +862,12 @@
     "sample_titles": [
       "医疗AI产品销售",
       "智能教育装备销售经理",
+      "Global Sales Director (MedTech / AI Healthcare)",
       "企业AI BD岗",
+      "AI Medical Sales (AI Medical System Products)",
       "医疗AI大客户销售",
       "医疗AI省区销售经理",
-      "Global Sales Director (MedTech / AI Healthcare)",
-      "BD总监（德系）",
-      "销售经理/主管（智慧医疗设备-base湖南）"
+      "Luxury BD Director"
     ],
     "required_skills": [
       {
@@ -708,6 +938,52 @@
         "count": 5
       }
     ],
+    "top_majors": [
+      {
+        "major": "市场营销",
+        "count": 2
+      },
+      {
+        "major": "计算机科学",
+        "count": 1
+      },
+      {
+        "major": "工程",
+        "count": 1
+      },
+      {
+        "major": "商业",
+        "count": 1
+      },
+      {
+        "major": "technical",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 5,
+    "top_responsibilities": [
+      {
+        "text": "Sell AI products",
+        "count": 1
+      },
+      {
+        "text": "Utilize AI for customer acquisition",
+        "count": 1
+      },
+      {
+        "text": "Generate leads through private domain traffic",
+        "count": 1
+      },
+      {
+        "text": "Expand customer base",
+        "count": 1
+      },
+      {
+        "text": "负责医疗AI一体机产品的渠道销售",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 5,
     "role_id": "sales_bd",
     "role_name": "AI 销售/商务"
   },
@@ -717,11 +993,11 @@
       "CEO-资方领投AI+Science",
       "AI 智慧医疗技术负责人",
       "Risk Control Director",
+      "Associate Director, Product Management (AI)",
       "AI架构师/技术负责人（LLM & Agent方向）",
       "技术架构总监（AI数据/云数据/LLM）",
       "AI技术负责人",
-      "大模型战略分析/投资专家",
-      "AI 产品技术负责人（电商直播方向）"
+      "Director of AI Application Technology"
     ],
     "required_skills": [
       {
@@ -792,6 +1068,32 @@
         "count": 13
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 2
+      },
+      {
+        "major": "人工智能",
+        "count": 1
+      },
+      {
+        "major": "机器学习",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 2,
+    "top_responsibilities": [
+      {
+        "text": "Factor Mining",
+        "count": 1
+      },
+      {
+        "text": "Quantitative Strategy Development",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 1,
     "role_id": "leadership",
     "role_name": "AI 管理/战略"
   },
@@ -800,11 +1102,11 @@
     "sample_titles": [
       "自动驾驶项目经理",
       "自动驾驶安全员",
+      "智能座舱项目管理",
       "智能座舱工程师",
       "智能座舱测试",
       "智能座舱测试工程师/测试专家",
       "智能座舱系统工程师",
-      "智能座舱软件项目经理",
       "智能座舱平台项目管理"
     ],
     "required_skills": [
@@ -844,9 +1146,9 @@
     "top_companies": [
       "某知名公司",
       "Baidu",
+      "埃尔科工程技术开发(上海)有限公司",
       "梅赛德斯-奔驰",
-      "京东物流",
-      "埃尔科工程技术开发(上海)有限公司"
+      "京东物流"
     ],
     "top_industries": [
       {
@@ -870,6 +1172,19 @@
         "count": 1
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "Conducting tests of autonomous vehicles",
+        "count": 1
+      },
+      {
+        "text": "Driving autonomous vehicles for testing purposes",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 1,
     "role_id": "autonomous",
     "role_name": "自动驾驶/智能座舱"
   },
@@ -880,10 +1195,10 @@
       "智能制造经理",
       "智能制造设备维护技术员",
       "智能制造专业大学讲师",
+      "智能制造总监",
       "智能制造工程师（具身智能）",
       "新材料与智能制造科研专家",
-      "工业AI",
-      "智能制造高级数控"
+      "工业AI"
     ],
     "required_skills": [
       {
@@ -949,6 +1264,40 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "机械",
+        "count": 1
+      },
+      {
+        "major": "自动化",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 1,
+    "top_responsibilities": [
+      {
+        "text": "Deliver lectures on Smart Manufacturing",
+        "count": 1
+      },
+      {
+        "text": "探索科学前沿，攻关产业关键问题，产出重大科技成果，促进成果产业化应用。",
+        "count": 1
+      },
+      {
+        "text": "积极参与高水平科研团队的组建与凝聚，吸引和汇聚海内外优秀青年人才。",
+        "count": 1
+      },
+      {
+        "text": "坚持立德树人根本任务，学科功底深厚，有稳定的研究方向，具备指导研究生的水平和能力。",
+        "count": 1
+      },
+      {
+        "text": "构建国际合作网络，促进国际学术交流，组织或参与高水平国际学术会议推动，提升学术影响力。",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 2,
     "role_id": "smart_manufacturing",
     "role_name": "智能制造/工业AI"
   },
@@ -1057,20 +1406,66 @@
         "count": 2
       }
     ],
+    "top_majors": [
+      {
+        "major": "统计学",
+        "count": 2
+      },
+      {
+        "major": "计算机",
+        "count": 2
+      },
+      {
+        "major": "数据科学",
+        "count": 1
+      },
+      {
+        "major": "数学",
+        "count": 1
+      },
+      {
+        "major": "Statistics",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 3,
+    "top_responsibilities": [
+      {
+        "text": "聚焦产品解决方案全流程，搭建适配多领域、多场景的数据分析体系，输出数据洞察支撑方案设计与商业化落地决策",
+        "count": 1
+      },
+      {
+        "text": "对外联动业务拓展部门，同步业务需求与数据诉求，通过需求拆解、数据建模、效果分析，助力方案沟通、价值验证及项目验收，提升方案转化效率",
+        "count": 1
+      },
+      {
+        "text": "对内协同产品、研发团队，输出LLM商业化数据分析报告支撑产品迭代优化，同步项目数据进度、交付数据标准，保障解决方案数据链路通畅与落地成效",
+        "count": 1
+      },
+      {
+        "text": "Design and prototype agent-assisted analytics solutions that enhance the analysis development lifecycle (ADLC), automation, and large-scale analytics enablement.",
+        "count": 1
+      },
+      {
+        "text": "Apply statistical analysis, data mining, and experimentation to solve high-impact, system-level problems with real-world constraints in logistics operations and business processes.",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 2,
     "role_id": "data",
     "role_name": "数据分析/数据科学"
   },
   {
     "job_count": 73,
     "sample_titles": [
+      "业务系统与AI转型负责人",
       "AIT (AI Business Transformation) Senior Specialist/Supervisor",
       "AI交付经理PMO- AI客服（电商）方向",
-      "汽车行业IT战略与数字化转型高级经理",
       "企业AI总监",
-      "AIT（AI业务改造）高级专员/主管",
-      "数字化转型总监",
-      "AI转型战略分析专家",
-      "供应链数字化转型专家"
+      "汽车行业IT战略与数字化转型高级经理",
+      "供应链数字化转型专家",
+      "企业AI科学家",
+      "AIT（AI业务改造）高级专员/主管"
     ],
     "required_skills": [
       {
@@ -1140,6 +1535,31 @@
         "count": 7
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "Deeply investigate business units (research, marketing, operations, back-office), analyze SOPs, and identify high-frequency, low-efficiency, high-labor-cost processes.",
+        "count": 1
+      },
+      {
+        "text": "Develop custom LLM Agents for departments using mainstream LLMs (e.g., Kimi, Wenxin, Qwen) and low-code workflow platforms (e.g., Coze, Dify).",
+        "count": 1
+      },
+      {
+        "text": "Clean, classify, and vectorize unstructured data (e.g., tourism research reports, proposals, operation manuals) to build a domain-specific digital knowledge base.",
+        "count": 1
+      },
+      {
+        "text": "Establish and promote internal AI usage guidelines, conduct training, and ensure seamless adoption of AI tools by business line employees.",
+        "count": 1
+      },
+      {
+        "text": "Regularly calculate efficiency benefits from AI tool implementation and propose further cost reduction strategies.",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 4,
     "role_id": "ai_transformation",
     "role_name": "AI 转型/咨询"
   },
@@ -1149,11 +1569,11 @@
       "交易风控岗",
       "智能风控经理",
       "采供内控专家（智能风控方向）",
-      "内控经理",
-      "平台风控策略产品",
-      "风控研发工程师（Go｜黑灰产对抗）",
+      "AI Risk Officer(零售银行业务，一道防线)",
       "法务（IPR & 合规）",
-      "高级内控专家"
+      "内控经理",
+      "高级内控专家",
+      "平台风控策略产品"
     ],
     "required_skills": [
       {
@@ -1229,8 +1649,8 @@
       "腾讯",
       "Moonshot AI",
       "阿里云智能",
-      "MiniMax",
-      "智谱AI"
+      "智谱AI",
+      "MiniMax"
     ],
     "top_industries": [
       {
@@ -1254,6 +1674,52 @@
         "count": 1
       }
     ],
+    "top_majors": [
+      {
+        "major": "计算机",
+        "count": 4
+      },
+      {
+        "major": "统计",
+        "count": 3
+      },
+      {
+        "major": "数学",
+        "count": 2
+      },
+      {
+        "major": "金融",
+        "count": 2
+      },
+      {
+        "major": "数理",
+        "count": 2
+      }
+    ],
+    "majors_sample_size": 6,
+    "top_responsibilities": [
+      {
+        "text": "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+        "count": 3
+      },
+      {
+        "text": "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+        "count": 3
+      },
+      {
+        "text": "持续跟踪AI产品上线后的效果，收集用户反馈，进行数据分析，不断优化产品功能和用户体验。",
+        "count": 3
+      },
+      {
+        "text": "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；",
+        "count": 2
+      },
+      {
+        "text": "评估并集成AI工具链（如LLM、AutoML、NLP模型等），优化数据处理流程（例：非结构化文本解析、异常检测自动化）；",
+        "count": 2
+      }
+    ],
+    "responsibilities_sample_size": 8,
     "role_id": "risk_compliance",
     "role_name": "AI 风控/合规"
   },
@@ -1261,13 +1727,13 @@
     "job_count": 30,
     "sample_titles": [
       "AI高级人工智能教育讲师",
+      "AI智能教育",
       "人工智能教育推广员",
-      "AI教育产品主管",
-      "智能教育兼职教练",
       "心理智能教育培训师",
+      "AI教育讲师",
       "教育人工智能专员",
-      "AI智能教育校长",
-      "AI教育讲师"
+      "智能教育产品交付与服务经理",
+      "市场经理-”AI+教育“"
     ],
     "required_skills": [
       {
@@ -1304,9 +1770,9 @@
     },
     "top_companies": [
       "某北京云计算/大数据公司",
-      "某北京互联网公司",
-      "某深圳政府/公共事业公司",
       "九叁有方人工智能",
+      "某深圳政府/公共事业公司",
+      "某北京互联网公司",
       "景瀚(深圳)信息科技有限公司"
     ],
     "top_industries": [
@@ -1327,6 +1793,27 @@
         "count": 1
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "负责门店运营管理",
+        "count": 1
+      },
+      {
+        "text": "负责教育规划与课程设计",
+        "count": 1
+      },
+      {
+        "text": "负责学生学习督导",
+        "count": 1
+      },
+      {
+        "text": "负责学生学习陪伴与辅导",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 1,
     "role_id": "education_ai",
     "role_name": "AI 教育"
   },
@@ -1338,9 +1825,9 @@
       "Healthcare AI Project Assistant",
       "医疗AI售前",
       "中高级投标专员（医疗AI大模型/智慧医疗/医疗影像云）",
-      "理赔业务专家（寿险/财产险+LLM）",
       "智慧医疗AI产品助理",
-      "医疗AI架构师/产品师"
+      "医疗AI架构师/产品师",
+      "智慧医疗-医学知识专家"
     ],
     "required_skills": [
       {
@@ -1393,6 +1880,27 @@
         "count": 3
       }
     ],
+    "top_majors": [
+      {
+        "major": "循证医学",
+        "count": 1
+      },
+      {
+        "major": "卫生技术评估",
+        "count": 1
+      },
+      {
+        "major": "医学",
+        "count": 1
+      },
+      {
+        "major": "肿瘤科",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 3,
+    "top_responsibilities": [],
+    "responsibilities_sample_size": 0,
     "role_id": "medical_ai",
     "role_name": "医疗AI专岗"
   },
@@ -1448,10 +1956,6 @@
         "count": 1
       },
       {
-        "industry": "retail",
-        "count": 1
-      },
-      {
         "industry": "manufacturing",
         "count": 1
       },
@@ -1462,8 +1966,16 @@
       {
         "industry": "other",
         "count": 1
+      },
+      {
+        "industry": "retail",
+        "count": 1
       }
     ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [],
+    "responsibilities_sample_size": 0,
     "role_id": "customer_service",
     "role_name": "智能客服"
   }

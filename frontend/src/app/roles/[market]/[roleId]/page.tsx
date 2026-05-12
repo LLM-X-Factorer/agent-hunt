@@ -160,6 +160,98 @@ export default async function RoleDetailPage({
         </CardContent>
       </Card>
 
+      {/* 硬性要求：学历 + 专业 + 高频职责 */}
+      <Card>
+        <CardHeader className="pb-3">
+          <CardTitle className="text-base">硬性要求</CardTitle>
+          <p className="text-xs text-gray-500 pt-1">
+            JD 明确写出来的卡控项（学历 / 专业方向）+ 实际工作内容（职责短语原文）
+          </p>
+        </CardHeader>
+        <CardContent className="space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <div className="flex items-baseline justify-between mb-3">
+                <h3 className="text-sm font-medium text-gray-800">学历分布</h3>
+                <span className="text-[11px] text-gray-400 tabular-nums">
+                  {totalEdu} 条样本
+                </span>
+              </div>
+              <div className="space-y-2">
+                {eduEntries.map(([k, v]) => {
+                  const pct = (v / totalEdu) * 100;
+                  return (
+                    <DistRow
+                      key={k}
+                      label={EDU_LABELS[k] || k}
+                      value={v}
+                      pct={pct}
+                      accent={accent}
+                    />
+                  );
+                })}
+              </div>
+            </div>
+
+            <div>
+              <div className="flex items-baseline justify-between mb-3">
+                <h3 className="text-sm font-medium text-gray-800">高频专业 top 5</h3>
+                <span className="text-[11px] text-gray-400 tabular-nums">
+                  {role.majors_sample_size} 条 JD 提到专业
+                </span>
+              </div>
+              {role.top_majors.length > 0 ? (
+                <div className="space-y-2">
+                  {role.top_majors.map((m) => {
+                    const pct = (m.count / role.majors_sample_size) * 100;
+                    return (
+                      <DistRow
+                        key={m.major}
+                        label={m.major}
+                        value={m.count}
+                        pct={pct}
+                        accent={accent}
+                      />
+                    );
+                  })}
+                </div>
+              ) : (
+                <p className="text-xs text-gray-400">该角色簇 JD 中未明确写专业方向。</p>
+              )}
+              <p className="text-[11px] text-gray-400 mt-3">
+                同义词暂未合并（如「计算机」/「Computer Science」分开计），看趋势用。
+              </p>
+            </div>
+          </div>
+
+          <div className="pt-1">
+            <div className="flex items-baseline justify-between mb-3">
+              <h3 className="text-sm font-medium text-gray-800">高频职责短语 top 5</h3>
+              <span className="text-[11px] text-gray-400 tabular-nums">
+                {role.responsibilities_sample_size} 条 JD 写出了职责
+              </span>
+            </div>
+            {role.top_responsibilities.length > 0 ? (
+              <ul className="space-y-2.5">
+                {role.top_responsibilities.map((r, i) => (
+                  <li key={i} className="flex gap-3 text-sm text-gray-700 leading-relaxed">
+                    <span className={`shrink-0 text-xs tabular-nums px-1.5 py-0.5 rounded ${accentBg} ${accentText} font-medium h-fit mt-0.5`}>
+                      ×{r.count}
+                    </span>
+                    <span>{r.text}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-xs text-gray-400">该角色簇职责数据稀疏。</p>
+            )}
+            <p className="text-[11px] text-gray-400 mt-3">
+              直接取 JD 中职责描述原文做简单计数，重复频次反映这岗位日常做什么。
+            </p>
+          </div>
+        </CardContent>
+      </Card>
+
       {/* Core skills + Skills chart */}
       <Card>
         <CardHeader className="pb-3">
@@ -246,36 +338,20 @@ export default async function RoleDetailPage({
         </Card>
       )}
 
-      {/* Distribution cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <Card>
-          <CardHeader className="pb-2"><CardTitle className="text-base">学历要求</CardTitle></CardHeader>
-          <CardContent>
-            <div className="space-y-2">
-              {eduEntries.map(([k, v]) => {
-                const pct = (v / totalEdu) * 100;
-                return (
-                  <DistRow key={k} label={EDU_LABELS[k] || k} value={v} pct={pct} accent={accent} />
-                );
-              })}
-            </div>
-          </CardContent>
-        </Card>
-
-        <Card>
-          <CardHeader className="pb-2"><CardTitle className="text-base">工作模式</CardTitle></CardHeader>
-          <CardContent>
-            <div className="space-y-2">
-              {wmEntries.map(([k, v]) => {
-                const pct = (v / totalWm) * 100;
-                return (
-                  <DistRow key={k} label={WORK_MODE_LABELS[k] || k} value={v} pct={pct} accent={accent} />
-                );
-              })}
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      {/* Distribution: work_mode (学历已挪到「硬性要求」section) */}
+      <Card>
+        <CardHeader className="pb-2"><CardTitle className="text-base">工作模式</CardTitle></CardHeader>
+        <CardContent>
+          <div className="space-y-2">
+            {wmEntries.map(([k, v]) => {
+              const pct = (v / totalWm) * 100;
+              return (
+                <DistRow key={k} label={WORK_MODE_LABELS[k] || k} value={v} pct={pct} accent={accent} />
+              );
+            })}
+          </div>
+        </CardContent>
+      </Card>
 
       {/* Companies + Industries + Sample titles */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">

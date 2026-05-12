@@ -146,6 +146,13 @@ def build_role_profile(jobs: list[Job]) -> dict:
     work_modes: Counter = Counter()
     sample_titles: list[str] = []
     industries: Counter = Counter()
+    # v0.12 B1: 硬性要求 — 学历分布 / 高频专业 / 高频职责
+    major_counter: Counter = Counter()
+    # original-cased majors keyed by their lowercased form for display
+    major_display: dict[str, str] = {}
+    responsibility_counter: Counter = Counter()
+    majors_sample_size = 0
+    responsibilities_sample_size = 0
 
     seen_titles = set()
     for j in jobs:
@@ -181,6 +188,22 @@ def build_role_profile(jobs: list[Job]) -> dict:
             if len(sample_titles) < 8:
                 sample_titles.append(j.title)
 
+        # v0.12 B1: majors / responsibilities aggregation
+        majors = [m.strip() for m in (j.major_requirement or []) if m and m.strip()]
+        if majors:
+            majors_sample_size += 1
+            for m in majors:
+                key = m.lower()
+                major_counter[key] += 1
+                # keep the first-seen original-case form for display
+                major_display.setdefault(key, m)
+
+        resps = [r.strip() for r in (j.responsibilities or []) if r and r.strip()]
+        if resps:
+            responsibilities_sample_size += 1
+            for r in resps:
+                responsibility_counter[r] += 1
+
     # Remove preferred skills that are also in required (show only the delta)
     preferred_only = Counter()
     for sid, cnt in preferred_skills.items():
@@ -207,6 +230,17 @@ def build_role_profile(jobs: list[Job]) -> dict:
             {"industry": ind, "count": cnt}
             for ind, cnt in industries.most_common(5)
         ],
+        # v0.12 B1: 硬性要求
+        "top_majors": [
+            {"major": major_display[k], "count": c}
+            for k, c in major_counter.most_common(5)
+        ],
+        "majors_sample_size": majors_sample_size,
+        "top_responsibilities": [
+            {"text": t, "count": c}
+            for t, c in responsibility_counter.most_common(5)
+        ],
+        "responsibilities_sample_size": responsibilities_sample_size,
     }
 
     if salaries:
