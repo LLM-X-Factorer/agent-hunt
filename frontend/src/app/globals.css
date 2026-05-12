@@ -127,4 +127,65 @@
   html {
     @apply font-sans;
   }
+
+  /* Minimal long-form prose styles for /learn markdown content. */
+  .learn-prose h1 {
+    @apply text-2xl font-bold mt-10 mb-4 leading-tight;
+  }
+  .learn-prose h2 {
+    @apply text-xl font-bold mt-8 mb-3 leading-snug;
+  }
+  .learn-prose h3 {
+    @apply text-lg font-semibold mt-6 mb-2;
+  }
+  .learn-prose p {
+    @apply my-4 leading-7;
+  }
+  .learn-prose ul,
+  .learn-prose ol {
+    @apply my-4 pl-6 space-y-1.5;
+  }
+  .learn-prose ul {
+    @apply list-disc;
+  }
+  .learn-prose ol {
+    @apply list-decimal;
+  }
+  .learn-prose li {
+    @apply leading-7;
+  }
+  .learn-prose strong {
+    @apply font-semibold text-gray-900;
+  }
+  .learn-prose a {
+    @apply text-indigo-600 underline underline-offset-2 hover:text-indigo-800;
+  }
+  .learn-prose code {
+    @apply bg-gray-100 text-gray-800 px-1.5 py-0.5 rounded text-[13px] font-mono;
+  }
+  .learn-prose pre {
+    @apply bg-gray-50 border rounded-lg p-4 overflow-x-auto my-4 text-[13px] leading-6;
+  }
+  .learn-prose pre code {
+    @apply bg-transparent p-0;
+  }
+  .learn-prose blockquote {
+    @apply border-l-4 border-indigo-200 bg-indigo-50/40 pl-4 py-2 my-4 text-gray-700 italic;
+  }
+  .learn-prose blockquote p {
+    @apply my-0;
+  }
+  .learn-prose table {
+    @apply w-full border-collapse my-4 text-sm;
+  }
+  .learn-prose th,
+  .learn-prose td {
+    @apply border border-gray-200 px-3 py-2;
+  }
+  .learn-prose th {
+    @apply bg-gray-50 font-semibold text-left;
+  }
+  .learn-prose hr {
+    @apply my-8 border-gray-200;
+  }
 }

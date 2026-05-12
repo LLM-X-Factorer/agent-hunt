@@ -133,6 +133,28 @@ export default function Home() {
         </Link>
       </div>
 
+      <Link
+        href="/learn"
+        className="block max-w-5xl mx-auto group"
+      >
+        <div className="border border-gray-200 rounded-xl px-5 py-4 bg-gradient-to-r from-emerald-50/40 via-amber-50/40 to-indigo-50/40 hover:border-gray-300 hover:shadow-sm transition-all flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <span className="text-2xl">📚</span>
+            <div>
+              <div className="text-sm font-semibold text-gray-800">
+                课本 /learn —— 6 岁能懂的 AI 招聘科普
+              </div>
+              <div className="text-xs text-gray-500">
+                三层课本：入门 · 职业百科 · 转岗路径。给完全没接触过 AI 招聘的人打地基用。
+              </div>
+            </div>
+          </div>
+          <span className="text-sm text-gray-500 group-hover:text-gray-700 shrink-0">
+            从入门读起 →
+          </span>
+        </div>
+      </Link>
+
       <div className="text-center text-xs text-gray-400 max-w-2xl mx-auto pt-4">
         本站定位 = 内部叙事手册（业务人员讲解市场用）+ 数据自检工具。
         数据源 = 国内外主流招聘平台 + LLM 厂商官方 ATS + 社区招聘帖（HN / GitHub）+ levels.fyi 真实薪酬。
