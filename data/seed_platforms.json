@@ -255,6 +255,21 @@
     "is_enabled": true
   },
   {
+    "id": "vendor_bytedance",
+    "name": "字节跳动 官方招聘",
+    "market": "domestic",
+    "url": "https://jobs.bytedance.com",
+    "language": "zh",
+    "tier": 1,
+    "scrape_difficulty": 2,
+    "data_quality": "high",
+    "refresh_rate": "daily",
+    "has_salary_data": false,
+    "has_company_size": true,
+    "collector_class": "ByteDanceJobsCollector",
+    "is_enabled": true
+  },
+  {
     "id": "vendor_minimax",
     "name": "MiniMax 官方招聘",
     "market": "domestic",

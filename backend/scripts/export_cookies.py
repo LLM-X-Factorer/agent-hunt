@@ -22,11 +22,20 @@ PLATFORMS = {
         "url": "https://www.zhipin.com/web/user/?ka=header-login",
         "cookie_file": "boss_cookies.json",
         "verify_url": "https://www.zhipin.com/web/geek/job?query=AI&city=100010000",
+        # cookie name that only exists after successful login (geek session token)
+        "auth_cookie": "wt2",
     },
     "lagou": {
         "url": "https://passport.lagou.com/login/login.html",
         "cookie_file": "lagou_cookies.json",
         "verify_url": "https://www.lagou.com/wn/zhaopin?kd=AI",
+        "auth_cookie": "_putrc",
+    },
+    "liepin": {
+        "url": "https://passport.liepin.com/h5login",
+        "cookie_file": "liepin_cookies.json",
+        "verify_url": "https://www.liepin.com/zhaopin/?key=AI",
+        "auth_cookie": "__uuid",
     },
 }
 
@@ -54,18 +63,49 @@ async def main(platform_id: str):
         )
         page = await context.new_page()
 
-        print(f"\n{'='*60}")
-        print(f"  Platform: {platform_id}")
-        print(f"  Opening: {config['url']}")
-        print(f"  Cookie will be saved to: {cookie_path}")
-        print(f"{'='*60}")
-        print("\n  1. Log in manually in the browser window")
-        print("  2. After login succeeds, come back here and press Enter")
-        print()
+        print(f"\n{'='*60}", flush=True)
+        print(f"  Platform: {platform_id}", flush=True)
+        print(f"  Opening: {config['url']}", flush=True)
+        print(f"  Cookie will be saved to: {cookie_path}", flush=True)
+        print(f"{'='*60}", flush=True)
+        print("\n  Log in manually in the browser window.", flush=True)
+        print(
+            "  Script will auto-detect login completion via cookie %r."
+            % config["auth_cookie"],
+            flush=True,
+        )
+        print("  Timeout: 4 minutes.", flush=True)
+        print("", flush=True)
 
         await page.goto(config["url"], wait_until="domcontentloaded")
 
-        input("  >>> Press Enter after you have logged in... ")
+        # Poll for the auth cookie. No stdin required.
+        auth_name = config["auth_cookie"]
+        max_wait = 240  # seconds
+        interval = 3
+        elapsed = 0
+        found = False
+        while elapsed < max_wait:
+            cookies = await context.cookies()
+            names = {c["name"] for c in cookies}
+            if auth_name in names:
+                found = True
+                break
+            await asyncio.sleep(interval)
+            elapsed += interval
+            print(
+                f"  ... waiting for {auth_name} cookie ({elapsed}s/{max_wait}s)",
+                flush=True,
+            )
+
+        if not found:
+            print(
+                f"  ✗ Timeout — {auth_name} cookie never appeared. "
+                "Login may not have completed.",
+                flush=True,
+            )
+            await browser.close()
+            sys.exit(2)
 
         cookies = await context.cookies()
         cookie_data = {"cookies": cookies}
@@ -74,14 +114,17 @@ async def main(platform_id: str):
         cookie_path.write_text(
             json.dumps(cookie_data, ensure_ascii=False, indent=2), encoding="utf-8"
         )
-        print(f"\n  Saved {len(cookies)} cookies to {cookie_path}")
+        print(
+            f"\n  ✓ Detected {auth_name} — saved {len(cookies)} cookies to {cookie_path}",
+            flush=True,
+        )
 
         # Verify by navigating to search page
-        print(f"  Verifying login at {config['verify_url']}...")
+        print(f"  Verifying login at {config['verify_url']}...", flush=True)
         await page.goto(config["verify_url"], wait_until="domcontentloaded")
         await page.wait_for_timeout(3000)
         title = await page.title()
-        print(f"  Page title: {title}")
+        print(f"  Page title: {title}", flush=True)
 
         await browser.close()
 

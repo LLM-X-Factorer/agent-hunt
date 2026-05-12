@@ -1,7 +1,7 @@
 [
   {
     "market": "domestic",
-    "job_count": 1347,
+    "job_count": 2121,
     "sample_titles": [
       "AI Project Manager",
       "税务专员/助理",
@@ -83,7 +83,7 @@
       "sample_size": 994
     },
     "education": {
-      "unspecified": 733,
+      "unspecified": 1507,
       "bachelor": 374,
       "any": 189,
       "master": 36,
@@ -92,16 +92,16 @@
     },
     "work_mode": {
       "onsite": 1235,
-      "unknown": 99,
+      "unknown": 873,
       "remote": 12,
       "hybrid": 1
     },
     "top_companies": [
+      "字节跳动",
       "腾讯",
       "MiniMax",
       "Moonshot AI",
-      "智谱AI",
-      "百川智能"
+      "智谱AI"
     ],
     "top_industries": [
       {
@@ -150,27 +150,27 @@
     "majors_sample_size": 92,
     "top_responsibilities": [
       {
-        "text": "负责图形兼容性分析以及疑难问题的分析定位工作",
-        "count": 8
+        "text": "团队介绍：字节跳动Seed团队成立于2023年，致力于寻找通用智能的新方法，追求智能上限，为科技和社会发展作出贡献。\nSeed团队在AI领域拥有长期愿景与决心，团队研究方向涵盖MLLM、GenMedia、AI for Science、机器人等，在中国、新加坡、美国等地设有实验室和岗位。目前，团队已推出业界领先的通用大模型以及前沿的多模态能力，支持豆包、即梦、TRAE等超过50个应用场景，并通过火山引擎开放给企业客户。第三方数据显示，豆包App用户量在中国市场排名第一，豆包大模型日均Token调用量行业领先。",
+        "count": 24
       },
       {
-        "text": "超大规模LLM性能工程： 主导并规划千亿参数级大模型的极致性能优化技术路线。负责 PagedAttention、连续批处理等核心调度策略的深度定制与生产级架构设计，负责 vLLM/TensorRT-LLM 等主流推理框架的内核级优化与落地",
-        "count": 6
+        "text": "打造全感知可兜底的技术体系，保障端侧整体体验和稳定性",
+        "count": 15
       },
       {
-        "text": "低比特与稀疏模型优化： 牵头 INT4/FP8/AWQ 等前沿低比特量化技术的工业级系统化落地，平衡精度与计算效率。并设计面向 MoE 模型的分布式调度、路由、显存管理及跨卡通信的优化方案",
-        "count": 6
+        "text": "负责LLM在端侧的部署、应用和创新，助力打造更好的策略模型，提升应用效果。",
+        "count": 15
       },
       {
-        "text": "统一与多模态架构： 定义并设计一套具备长期扩展性的统一 AI 推理引擎架构，以支撑自回归生成任务，并前瞻性地解决多模态大模型（如视觉-语言模型）的协同推理部署挑战",
-        "count": 6
+        "text": "团队介绍：字节跳动推荐架构团队，负责字节跳动旗下相关产品的推荐系统架构的设计和开发，保障系统稳定和高可用；负责在线服务、离线数据流性能优化，解决系统瓶颈，降低成本开销；抽象系统通用组件和服务，建设推荐中台、数据中台，支撑新产品快速孵化以及为ToB赋能。",
+        "count": 13
       },
       {
-        "text": "异构算力与国产化适配： 主导推理引擎在国产AI芯片（如昇腾、海光、天数等）平台上的战略级移植、生态适配与性能优化。对 HCCL/NCCL 等通信原语进行深度优化和定制，实现跨异构架构的算力自主可控",
-        "count": 6
+        "text": "深入理解电商行业，洞察商家&达人需求和痛点，与技术、运营等团队紧密合作，推进推荐策略迭代、落地。",
+        "count": 12
       }
     ],
-    "responsibilities_sample_size": 731,
+    "responsibilities_sample_size": 1505,
     "role_id": "other",
     "role_name": "其他",
     "role_description": "未匹配到任一明确规则的混合岗位——含跨界 AI（AI 财经讲师 / 漫剧制作）、传统岗带 AI 标签、垂直领域专家。",
@@ -189,7 +189,7 @@
   },
   {
     "market": "domestic",
-    "job_count": 734,
+    "job_count": 1538,
     "sample_titles": [
       "AI Agent平台研发工程师",
       "AI前端开发工程师（Agent）",
@@ -275,23 +275,23 @@
       "sample_size": 626
     },
     "education": {
+      "unspecified": 1102,
       "bachelor": 298,
-      "unspecified": 298,
       "master": 78,
       "any": 56,
       "phd": 4
     },
     "work_mode": {
+      "unknown": 822,
       "onsite": 714,
-      "unknown": 18,
       "remote": 2
     },
     "top_companies": [
+      "字节跳动",
       "腾讯",
       "MiniMax",
       "智谱AI",
-      "Moonshot AI",
-      "百川智能"
+      "Moonshot AI"
     ],
     "top_industries": [
       {
@@ -340,27 +340,27 @@
     "majors_sample_size": 50,
     "top_responsibilities": [
       {
+        "text": "团队介绍：字节跳动Seed团队成立于2023年，致力于寻找通用智能的新方法，追求智能上限，为科技和社会发展作出贡献。\nSeed团队在AI领域拥有长期愿景与决心，团队研究方向涵盖MLLM、GenMedia、AI for Science、机器人等，在中国、新加坡、美国等地设有实验室和岗位。目前，团队已推出业界领先的通用大模型以及前沿的多模态能力，支持豆包、即梦、TRAE等超过50个应用场景，并通过火山引擎开放给企业客户。第三方数据显示，豆包App用户量在中国市场排名第一，豆包大模型日均Token调用量行业领先。",
+        "count": 21
+      },
+      {
+        "text": "跟踪GPGPU/NPU行业最新动态、产品与技术架构，分析公司内部业务系统需求，结合自研芯片架构，输出系统软硬件协同设计方案",
+        "count": 15
+      },
+      {
+        "text": "团队介绍：TRAE（The Real AI Engineer），是字节跳动旗下的AI编程产品，一个能理解需求、调动工具、独立完成开发任务的AI开发工程师，为用户提供端到端生成真实软件的服务。TRAE是当前国内受到广泛欢迎的AI编程产品之一，也是业界首个端到端AI软件开发Agent产品，可覆盖简单到复杂全场景。我们正在寻找充满热情、富有创造力的人才。期待你的加入，与我们共同重塑开发范式，定义未来开发的形态。",
+        "count": 15
+      },
+      {
         "text": "关注 AGI 前沿技术进展，技术驱动产品与体验进步",
         "count": 9
       },
       {
         "text": "研究各领域高质量数据的自动化合成方法，建设高效的线上数据飞轮链路",
         "count": 9
-      },
-      {
-        "text": "支持主流GPU和异构AI芯片，优化大模型推理性能，打造极致性能成本优势",
-        "count": 6
-      },
-      {
-        "text": "定义、开发全球领先的 AI Agent / AI APP",
-        "count": 5
-      },
-      {
-        "text": "参与产品讨论，基于技术对产品提出改进建议",
-        "count": 5
       }
     ],
-    "responsibilities_sample_size": 346,
+    "responsibilities_sample_size": 1150,
     "role_id": "ai_engineer",
     "role_name": "AI/LLM 工程师",
     "role_description": "在 LLM 上面盖应用——用 Agent 框架、RAG、Prompt 工程把现成大模型接成产品，不是训模型也不是调研究。",
@@ -381,7 +381,186 @@
   },
   {
     "market": "domestic",
-    "job_count": 439,
+    "job_count": 1054,
+    "sample_titles": [
+      "Algorithm Intern (Industrial AI Direction)",
+      "Discovery Lab Analytical Automation Scientist",
+      "Entry Level Engineers/Scientists/Chemists/Technicians",
+      "自动驾驶算法工程师",
+      "模型策略岗（LLM应用与数据分析）",
+      "LLM算法实习生（医疗大模型方向）",
+      "算法工程师",
+      "AI Algorithm Engineer (LLM Direction)"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "llm",
+        "count": 28
+      },
+      {
+        "skill_id": "python",
+        "count": 7
+      },
+      {
+        "skill_id": "nlp",
+        "count": 7
+      },
+      {
+        "skill_id": "pytorch",
+        "count": 6
+      },
+      {
+        "skill_id": "tensorflow",
+        "count": 6
+      },
+      {
+        "skill_id": "rag",
+        "count": 5
+      },
+      {
+        "skill_id": "fine_tuning",
+        "count": 5
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 5
+      },
+      {
+        "skill_id": "prompt_engineering",
+        "count": 4
+      },
+      {
+        "skill_id": "deep_learning",
+        "count": 4
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 1500.0,
+      "max": 126667.0,
+      "median": 52500,
+      "avg": 52161,
+      "p25": 37500.0,
+      "p75": 65000.0,
+      "sample_size": 105
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 3,
+      "avg_min": 3.0,
+      "sample_size": 266
+    },
+    "education": {
+      "unspecified": 932,
+      "master": 61,
+      "bachelor": 44,
+      "phd": 9,
+      "any": 8
+    },
+    "work_mode": {
+      "unknown": 749,
+      "onsite": 304,
+      "remote": 1
+    },
+    "top_companies": [
+      "字节跳动",
+      "腾讯",
+      "智谱AI",
+      "MiniMax",
+      "Moonshot AI"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 195
+      },
+      {
+        "industry": "finance",
+        "count": 38
+      },
+      {
+        "industry": "healthcare",
+        "count": 14
+      },
+      {
+        "industry": "manufacturing",
+        "count": 11
+      },
+      {
+        "industry": "automotive",
+        "count": 9
+      }
+    ],
+    "top_majors": [
+      {
+        "major": "Computer Science",
+        "count": 33
+      },
+      {
+        "major": "Artificial Intelligence",
+        "count": 20
+      },
+      {
+        "major": "Mathematics",
+        "count": 11
+      },
+      {
+        "major": "Automation / 自动化",
+        "count": 11
+      },
+      {
+        "major": "Machine Learning",
+        "count": 7
+      }
+    ],
+    "majors_sample_size": 40,
+    "top_responsibilities": [
+      {
+        "text": "团队介绍：字节跳动Seed团队成立于2023年，致力于寻找通用智能的新方法，追求智能上限，为科技和社会发展作出贡献。\nSeed团队在AI领域拥有长期愿景与决心，团队研究方向涵盖MLLM、GenMedia、AI for Science、机器人等，在中国、新加坡、美国等地设有实验室和岗位。目前，团队已推出业界领先的通用大模型以及前沿的多模态能力，支持豆包、即梦、TRAE等超过50个应用场景，并通过火山引擎开放给企业客户。第三方数据显示，豆包App用户量在中国市场排名第一，豆包大模型日均Token调用量行业领先。",
+        "count": 19
+      },
+      {
+        "text": "团队介绍：火山方舟是火山引擎推出的一站式大模型服务平台，是中国大模型市场产品和份额领跑者。平台提供模型推理、评测、精调等全流程服务。方舟搭载了豆包及业界主流大模型，提供丰富的插件生态和AI应用开发服务，并通过稳定可靠的安全互信方案、专业的算法技术服务，全方位保障企业级AI应用落地。",
+        "count": 14
+      },
+      {
+        "text": "深入理解用户行为，结合数据挖掘等技术，优化用户创作和浏览等体验。",
+        "count": 14
+      },
+      {
+        "text": "和产品、运营团队紧密合作，通过对产品和用户的深入理解和分析，制定算法策略促进抖音生态的长期繁荣发展。",
+        "count": 13
+      },
+      {
+        "text": "深入理解业务和机器学习技术，优化模型&策略，持续提升推荐效果",
+        "count": 12
+      }
+    ],
+    "responsibilities_sample_size": 944,
+    "role_id": "algorithm",
+    "role_name": "算法工程师/研究员",
+    "role_description": "传统 ML/DL 训练岗位，做 pretrain / SFT / 视觉算法 / 自动驾驶算法，看重 PyTorch / TensorFlow 全链路工程。",
+    "core_skills": [
+      "pytorch",
+      "tensorflow",
+      "python",
+      "deep_learning",
+      "nlp"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "ai_engineer",
+      "summary": "动模型权重 vs 拼模型应用——algorithm 改 loss / 调超参，ai_engineer 拼 prompt / 接 API。"
+    },
+    "narrative": "328 条岗位的 sample title 里，「自动驾驶算法 / 图像算法 / 算法工程师」占主流，公司多是腾讯、智谱、MiniMax、Moonshot、百川这种自有训练资源的大厂或大模型创业公司。技能信号清晰：PyTorch / TensorFlow 必须会一套，NLP / fine-tuning / RL 知识深度比 ai_engineer 这条线高一档。这是国内 AI 岗位里最像「研究 + 工程混合」的一条，初级岗依然要求「会训不只会调」，简历里没有论文 / 比赛 / 训练实战很难拿面试。",
+    "who_fits": "ML / DL 科班出身、有 paper 或竞赛 / 公开模型实战的人；硕博背景在这条线明显有优势。",
+    "who_doesnt": "只用过现成 API 没自己训过模型的人；这条线和 ai_engineer 看似都叫「AI 工程师」，但代码能力评估方式完全不同。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 849,
     "sample_titles": [
       "AI Product Manager",
       "AI策略产品经理（LLM应用方向）",
@@ -471,18 +650,18 @@
       "sample_size": 392
     },
     "education": {
+      "unspecified": 549,
       "bachelor": 244,
-      "unspecified": 139,
       "any": 40,
       "master": 16
     },
     "work_mode": {
-      "onsite": 422,
-      "unknown": 17
+      "unknown": 427,
+      "onsite": 422
     },
     "top_companies": [
-      "腾讯",
       "字节跳动",
+      "腾讯",
       "某北京大型互联网公司",
       "智谱AI",
       "Moonshot AI"
@@ -534,27 +713,27 @@
     "majors_sample_size": 10,
     "top_responsibilities": [
       {
-        "text": "负责面向海外市场的AI或云计算产品的全生命周期管理，包括需求洞察、产品规划、功能设计、跨团队协同与上线迭代",
-        "count": 2
+        "text": "团队介绍：火山方舟是火山引擎推出的一站式大模型服务平台，是中国大模型市场产品和份额领跑者。平台提供模型推理、评测、精调等全流程服务。方舟搭载了豆包及业界主流大模型，提供丰富的插件生态和AI应用开发服务，并通过稳定可靠的安全互信方案、专业的算法技术服务，全方位保障企业级AI应用落地。",
+        "count": 26
       },
       {
-        "text": "深入中东、东南亚等地区开展客户访谈、竞品分析与市场调研，精准提炼本地化需求并转化为产品方案",
-        "count": 2
+        "text": "海外本地化策略迭代，能够针对不同国家用户需求和商家经营差异制定相应优化策略。",
+        "count": 6
       },
       {
-        "text": "与国际销售、交付、及技术团队紧密协作，确保产品在不同区域的顺利落地、高效使用与持续优化",
-        "count": 2
+        "text": "协调跨部门合作沟通，负责从需求调研到上线全流程，确保项目进度和效果。",
+        "count": 6
       },
       {
-        "text": "跟踪全球AI伦理、数据合规、隐私保护等政策动态，确保产品设计符合当地法规要求",
-        "count": 2
+        "text": "团队介绍：AI数据与安全团队为Seed基座模型及AI原生应用提供跨模态数据服务，覆盖数据生产全流程，包含模型评估标准的制定、数据规模化生产、数据飞轮搭建，不断提升数据质量，支持模型快速迭代。\n团队由产品经理、数据工程、数据运营等跨职能人才组成，并通过与Seed研究员、行业专家、全球顶尖数据供应商紧密合作，从真实场景中收集反馈并分析模型表现数据，解决AI前沿突破过程中的复杂数据问题，推动模型性能与用户体验的双重提升。我们既是帮助模型技术迭代的一线贡献者，也是模型和AI产品的一手用户。",
+        "count": 6
       },
       {
-        "text": "深入理解中东本地政企客户的业务场景与合规要求，识别并管理项目执行中的技术、资源与地缘政治风险，将AI/云技术能力转化为高价值交付成果",
-        "count": 2
+        "text": "在各领域、各场景制定火山方舟的解决方案，并进行商业化落地",
+        "count": 6
       }
     ],
-    "responsibilities_sample_size": 145,
+    "responsibilities_sample_size": 555,
     "role_id": "product_manager",
     "role_name": "AI 产品经理",
     "role_description": "定 AI 产品方向、设计 Agent 流程、写 PRD，要求懂 LLM 能力边界——不要求会写代码但必须能拆 Prompt / 设评测指标。",
@@ -574,186 +753,7 @@
   },
   {
     "market": "domestic",
-    "job_count": 328,
-    "sample_titles": [
-      "Algorithm Intern (Industrial AI Direction)",
-      "Discovery Lab Analytical Automation Scientist",
-      "Entry Level Engineers/Scientists/Chemists/Technicians",
-      "自动驾驶算法工程师",
-      "模型策略岗（LLM应用与数据分析）",
-      "LLM算法实习生（医疗大模型方向）",
-      "算法工程师",
-      "AI Algorithm Engineer (LLM Direction)"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "llm",
-        "count": 28
-      },
-      {
-        "skill_id": "python",
-        "count": 7
-      },
-      {
-        "skill_id": "nlp",
-        "count": 7
-      },
-      {
-        "skill_id": "pytorch",
-        "count": 6
-      },
-      {
-        "skill_id": "tensorflow",
-        "count": 6
-      },
-      {
-        "skill_id": "rag",
-        "count": 5
-      },
-      {
-        "skill_id": "fine_tuning",
-        "count": 5
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 5
-      },
-      {
-        "skill_id": "prompt_engineering",
-        "count": 4
-      },
-      {
-        "skill_id": "deep_learning",
-        "count": 4
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 1500.0,
-      "max": 126667.0,
-      "median": 52500,
-      "avg": 52161,
-      "p25": 37500.0,
-      "p75": 65000.0,
-      "sample_size": 105
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 3,
-      "avg_min": 3.0,
-      "sample_size": 266
-    },
-    "education": {
-      "unspecified": 206,
-      "master": 61,
-      "bachelor": 44,
-      "phd": 9,
-      "any": 8
-    },
-    "work_mode": {
-      "onsite": 304,
-      "unknown": 23,
-      "remote": 1
-    },
-    "top_companies": [
-      "腾讯",
-      "智谱AI",
-      "MiniMax",
-      "Moonshot AI",
-      "百川智能"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 195
-      },
-      {
-        "industry": "finance",
-        "count": 38
-      },
-      {
-        "industry": "healthcare",
-        "count": 14
-      },
-      {
-        "industry": "manufacturing",
-        "count": 11
-      },
-      {
-        "industry": "automotive",
-        "count": 9
-      }
-    ],
-    "top_majors": [
-      {
-        "major": "Computer Science",
-        "count": 33
-      },
-      {
-        "major": "Artificial Intelligence",
-        "count": 20
-      },
-      {
-        "major": "Mathematics",
-        "count": 11
-      },
-      {
-        "major": "Automation / 自动化",
-        "count": 11
-      },
-      {
-        "major": "Machine Learning",
-        "count": 7
-      }
-    ],
-    "majors_sample_size": 40,
-    "top_responsibilities": [
-      {
-        "text": "独立或与其他研究员合作进行前沿领域研究",
-        "count": 5
-      },
-      {
-        "text": "与团队成员紧密协作，共同解决复杂的跨领域技术难题",
-        "count": 4
-      },
-      {
-        "text": "研发最前沿的语音生成大模型，进行最极致的优化，推动技术产品化落地",
-        "count": 4
-      },
-      {
-        "text": "探索语音大模型架构创新，主导生成效果与效率的最前沿实验",
-        "count": 4
-      },
-      {
-        "text": "拓展语音技术应用场景，探索AI音频在不同场景下的颠覆式应用",
-        "count": 4
-      }
-    ],
-    "responsibilities_sample_size": 218,
-    "role_id": "algorithm",
-    "role_name": "算法工程师/研究员",
-    "role_description": "传统 ML/DL 训练岗位，做 pretrain / SFT / 视觉算法 / 自动驾驶算法，看重 PyTorch / TensorFlow 全链路工程。",
-    "core_skills": [
-      "pytorch",
-      "tensorflow",
-      "python",
-      "deep_learning",
-      "nlp"
-    ],
-    "vs_neighbor": {
-      "neighbor_id": "ai_engineer",
-      "summary": "动模型权重 vs 拼模型应用——algorithm 改 loss / 调超参，ai_engineer 拼 prompt / 接 API。"
-    },
-    "narrative": "328 条岗位的 sample title 里，「自动驾驶算法 / 图像算法 / 算法工程师」占主流，公司多是腾讯、智谱、MiniMax、Moonshot、百川这种自有训练资源的大厂或大模型创业公司。技能信号清晰：PyTorch / TensorFlow 必须会一套，NLP / fine-tuning / RL 知识深度比 ai_engineer 这条线高一档。这是国内 AI 岗位里最像「研究 + 工程混合」的一条，初级岗依然要求「会训不只会调」，简历里没有论文 / 比赛 / 训练实战很难拿面试。",
-    "who_fits": "ML / DL 科班出身、有 paper 或竞赛 / 公开模型实战的人；硕博背景在这条线明显有优势。",
-    "who_doesnt": "只用过现成 API 没自己训过模型的人；这条线和 ai_engineer 看似都叫「AI 工程师」，但代码能力评估方式完全不同。"
-  },
-  {
-    "market": "domestic",
-    "job_count": 197,
+    "job_count": 475,
     "sample_titles": [
       "AI自动化运营",
       "AI训练师 (智能客服方向)",
@@ -831,22 +831,22 @@
       "sample_size": 150
     },
     "education": {
+      "unspecified": 363,
       "bachelor": 88,
-      "unspecified": 85,
       "any": 23,
       "master": 1
     },
     "work_mode": {
+      "unknown": 292,
       "onsite": 182,
-      "unknown": 14,
       "remote": 1
     },
     "top_companies": [
+      "字节跳动",
       "腾讯",
       "MiniMax",
       "智谱AI",
-      "Moonshot AI",
-      "某知名公司"
+      "Moonshot AI"
     ],
     "top_industries": [
       {
@@ -895,27 +895,27 @@
     "majors_sample_size": 4,
     "top_responsibilities": [
       {
-        "text": "设计“让工作更美好”的瞬间： 策划并落地内部活动（节日、团建、周年庆等）",
-        "count": 2
+        "text": "团队介绍：火山方舟是火山引擎推出的一站式大模型服务平台，是中国大模型市场产品和份额领跑者。平台提供模型推理、评测、精调等全流程服务。方舟搭载了豆包及业界主流大模型，提供丰富的插件生态和AI应用开发服务，并通过稳定可靠的安全互信方案、专业的算法技术服务，全方位保障企业级AI应用落地。",
+        "count": 8
       },
       {
-        "text": "营造只有我们才有的“味道”： 负责办公环境的氛围营造、文化周边的创意落地",
-        "count": 2
+        "text": "团队介绍：AI 数据与安全团队为 Seed 基座模型及 AI 原生应用提供跨模态数据服务，覆盖数据生产全流程，包含模型评估标准的制定、数据规模化生产、数据飞轮搭建，不断提升数据质量，支持模型快速迭代。\n团队由产品经理、数据工程、数据运营等跨职能人才组成，并通过与 Seed 研究员、行业专家、全球顶尖数据供应商紧密合作，从真实场景中收集反馈并分析模型表现数据，解决 AI 前沿突破过程中的复杂数据问题，推动模型性能与用户体验的双重提升。我们既是帮助模型技术迭代的一线贡献者，也是模型和 AI 产品的一手用户。",
+        "count": 5
       },
       {
-        "text": "极简执行，智慧运营： 希望你能用AI工具秒出海报，写出有趣的通告，剪辑活动回顾",
-        "count": 2
+        "text": "解决业务方研发同学的算力资源、帮助研发的模型测试和上线、稳定性响应和问题解决",
+        "count": 4
       },
       {
-        "text": "做团队的“粘合剂”： 维护员工沟通渠道，收集大家的建议与反馈",
-        "count": 2
+        "text": "负责抖音电商Feed推荐策略，极致优化推荐效率和用户体验，为流量规模的持续增长、GMV提升负责",
+        "count": 4
       },
       {
-        "text": "负责AI产品相关技术内容创作，能拆解AI Agent技术原理，输出产品在开发场景的最佳实践内容，确保内容专业准确、逻辑清晰",
-        "count": 2
+        "text": "深入理解电商行业，洞察商家&达人需求和痛点，与技术、运营等团队紧密合作，推进推荐策略迭代、落地。",
+        "count": 4
       }
     ],
-    "responsibilities_sample_size": 89,
+    "responsibilities_sample_size": 367,
     "role_id": "operations",
     "role_name": "AI 运营/训练师",
     "role_description": "AI 产品上线后的增长 + 数据 + 标注 + Prompt 调优——MaaS 平台运营 / AI 训练师 / 智能客服训练都在这条线。",
@@ -935,7 +935,7 @@
   },
   {
     "market": "domestic",
-    "job_count": 152,
+    "job_count": 176,
     "sample_titles": [
       "医疗AI产品销售",
       "智能教育装备销售经理",
@@ -977,21 +977,21 @@
     },
     "education": {
       "bachelor": 71,
+      "unspecified": 57,
       "any": 47,
-      "unspecified": 33,
       "master": 1
     },
     "work_mode": {
       "onsite": 141,
-      "unknown": 10,
+      "unknown": 34,
       "remote": 1
     },
     "top_companies": [
+      "字节跳动",
       "腾讯",
       "智谱AI",
       "51WORLD",
-      "某杭州互联网上市公司",
-      "某合肥互联网上市公司"
+      "某杭州互联网上市公司"
     ],
     "top_industries": [
       {
@@ -1040,27 +1040,27 @@
     "majors_sample_size": 5,
     "top_responsibilities": [
       {
-        "text": "Be responsible for the sales and marketing of Zhipu AI's overseas MaaS API.",
-        "count": 4
+        "text": "紧密联动业务团队及数据分析部门，优化销售流程、系统、工具，管理策略和战略规划等。",
+        "count": 14
       },
       {
-        "text": "Develop sales strategies, collaborate with internal and external partners to achieve performance targets.",
-        "count": 4
+        "text": "推进双方在技术、产品和商务等多层面的沟通，全局掌控项目节点与节奏，并推进项目落地",
+        "count": 9
       },
       {
-        "text": "Research industry trends, analyze customer needs, and distill replicable business scenarios.",
-        "count": 4
+        "text": "体系化的数据化的业务思路，能够根据销售过程管理数据分析，发现业务问题，提出改进方案，制定业务策略和规划，优化业务模型；协助业务团队建立可执行、可追溯的动作",
+        "count": 8
       },
       {
-        "text": "聚焦销售，有坚定的执行力，达成公司制定的目标任务和KPI考核目标",
-        "count": 4
+        "text": "对计收数字负责，协同产品和解决方案，在某行业拓展的标杆客户落地、客户覆盖数",
+        "count": 7
       },
       {
-        "text": "面向教育行业，新客户的开拓及存量客户的深耕，挖掘行业需求，落地可复制推广的AI+教育场景",
-        "count": 2
+        "text": "对现有合作伙伴进行业务支持及管理，提供产品和解决方案的培训赋能，协调内部资源在合作伙伴的项目上给与支持，促成合作伙伴与最终客户的业务合作",
+        "count": 5
       }
     ],
-    "responsibilities_sample_size": 36,
+    "responsibilities_sample_size": 60,
     "role_id": "sales_bd",
     "role_name": "AI 销售/商务",
     "role_description": "AI 行业销售 / BD，重点是医疗 AI / 教育 AI / 企业 AI 这种 ToB 大单——对应国内大模型公司在垂直行业的渠道下沉。",
@@ -1077,7 +1077,7 @@
   },
   {
     "market": "domestic",
-    "job_count": 144,
+    "job_count": 170,
     "sample_titles": [
       "CEO-资方领投AI+Science",
       "AI 智慧医疗技术负责人",
@@ -1119,21 +1119,21 @@
     },
     "education": {
       "bachelor": 75,
-      "unspecified": 29,
+      "unspecified": 55,
       "any": 22,
       "master": 12,
       "phd": 6
     },
     "work_mode": {
       "onsite": 143,
-      "unknown": 1
+      "unknown": 27
     },
     "top_companies": [
+      "字节跳动",
       "腾讯",
       "某知名公司",
       "51WORLD",
-      "MiniMax",
-      "艾艾贴"
+      "MiniMax"
     ],
     "top_industries": [
       {
@@ -1174,27 +1174,27 @@
     "majors_sample_size": 2,
     "top_responsibilities": [
       {
+        "text": "关注和研究业务流量平衡问题，帮助管理层平衡业务增长与用户体验，从战略保证业务可持续性发展",
+        "count": 3
+      },
+      {
+        "text": "从整体生态、用户视角、业务视角综合进行流量调控策略设计，联动多业务和产品、推荐等团队，协作推进项目落地",
+        "count": 3
+      },
+      {
+        "text": "对接相关业务团队，对业务中的关键问题开展专项分析，协调复杂项目，产出策略并推动落地。",
+        "count": 3
+      },
+      {
         "text": "分析海内外 AI 领域的发展方向，产品机会和探索商业模式，输出深入的分析报告",
         "count": 2
       },
       {
         "text": "监测市场行业数据、竞争对手动态，对重点产品情况进行深入分析，结合腾讯业务现状协助业务寻找提升的潜在机会点",
         "count": 2
-      },
-      {
-        "text": "统筹和监督AI产品相关用户研究项目的执行流程，确保用户研究项目产出有价值/可落地结论",
-        "count": 2
-      },
-      {
-        "text": "通过内部业务数据/用户调研/专家访谈等多种调研手段对业务关注的问题进行系统性研究并形成可落地结论，驱动产品用户增长和留存提升",
-        "count": 2
-      },
-      {
-        "text": "能够深刻洞察广告产品与推荐算法能力发展变迁过程与节奏，识别产品与技术应用机会点，跟踪竞品发展态势和能力动向，为公司高层及产品&技术团队提供洞察分析、制定各类产品策略&技术应用策略",
-        "count": 2
       }
     ],
-    "responsibilities_sample_size": 28,
+    "responsibilities_sample_size": 54,
     "role_id": "leadership",
     "role_name": "AI 管理/战略",
     "role_description": "AI 业务线 / 技术线管理岗——CTO / 技术总监 / AI 业务负责人，技术 IC 路径转管理或商业 leader 加 AI 标签。",
@@ -1212,16 +1212,185 @@
   },
   {
     "market": "domestic",
-    "job_count": 101,
+    "job_count": 164,
     "sample_titles": [
-      "自动驾驶项目经理",
+      "投资分析师/投资经理/副总裁（AI与先进制造赛道）",
+      "Data Analyst - LLM agentic AI",
+      "豆包AI大模型数据分析-火山方舟MaaS",
+      "AI 增强型临床统计编程",
+      "AI大数据分析师（电商）",
+      "Drug Discovery Biologist",
+      "AI增强型临床统计编程师",
+      "AI量化交易员"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "data_analysis",
+        "count": 4
+      },
+      {
+        "skill_id": "llm",
+        "count": 3
+      },
+      {
+        "skill_id": "agent_architecture",
+        "count": 1
+      },
+      {
+        "skill_id": "machine_learning",
+        "count": 1
+      },
+      {
+        "skill_id": "sql",
+        "count": 1
+      },
+      {
+        "skill_id": "python",
+        "count": 1
+      },
+      {
+        "skill_id": "react",
+        "count": 1
+      },
+      {
+        "skill_id": "rag",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 7700.0,
+      "max": 150000.0,
+      "median": 35000,
+      "avg": 43918,
+      "p25": 15000.0,
+      "p75": 65000.0,
+      "sample_size": 25
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 2,
+      "avg_min": 2.6,
+      "sample_size": 66
+    },
+    "education": {
+      "unspecified": 137,
+      "bachelor": 17,
+      "phd": 5,
+      "any": 4,
+      "master": 1
+    },
+    "work_mode": {
+      "unknown": 87,
+      "onsite": 77
+    },
+    "top_companies": [
+      "字节跳动",
+      "腾讯",
+      "MiniMax",
+      "Moonshot AI",
+      "北京深度智耀科技有限公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "internet",
+        "count": 51
+      },
+      {
+        "industry": "finance",
+        "count": 9
+      },
+      {
+        "industry": "healthcare",
+        "count": 3
+      },
+      {
+        "industry": "other",
+        "count": 2
+      },
+      {
+        "industry": "manufacturing",
+        "count": 2
+      }
+    ],
+    "top_majors": [
+      {
+        "major": "Statistics",
+        "count": 3
+      },
+      {
+        "major": "Computer Science",
+        "count": 3
+      },
+      {
+        "major": "Mathematics",
+        "count": 2
+      },
+      {
+        "major": "Data Science",
+        "count": 1
+      },
+      {
+        "major": "Engineering",
+        "count": 1
+      }
+    ],
+    "majors_sample_size": 3,
+    "top_responsibilities": [
+      {
+        "text": "使用因果推断、机器学习等技术，主动挖掘流量、产品、运营、策略等方面存在的机会点",
+        "count": 5
+      },
+      {
+        "text": "与跨职能团队高效沟通，推动策略应用落地并持续进行优化。",
+        "count": 5
+      },
+      {
+        "text": "聚焦产品解决方案全流程，搭建适配多领域、多场景的数据分析体系，输出数据洞察支撑方案设计与商业化落地决策",
+        "count": 4
+      },
+      {
+        "text": "对外联动业务拓展部门，同步业务需求与数据诉求，通过需求拆解、数据建模、效果分析，助力方案沟通、价值验证及项目验收，提升方案转化效率",
+        "count": 4
+      },
+      {
+        "text": "负责TikTok直播相关的数据分析工作，方向包括观看体验优化、主播生态、公会经营、推荐效果等",
+        "count": 4
+      }
+    ],
+    "responsibilities_sample_size": 139,
+    "role_id": "data",
+    "role_name": "数据分析/数据科学",
+    "role_description": "数据分析 / 数据科学岗位——AI 大数据分析 / MaaS 数据运营 / AI 投资分析师，数据驱动决策导向。",
+    "core_skills": [
+      "data_analysis",
+      "llm",
+      "sql",
+      "python"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "operations",
+      "summary": "看数据出洞察 vs 执行运营 SOP——data 输出报告与策略，operations 跑日常运营动作。"
+    },
+    "narrative": "82 条岗位里，sample title 跨度大：从「AI 大数据分析师」「豆包大模型数据分析」到「投资分析师 AI 赛道」。top 公司腾讯、Moonshot、MiniMax、智谱表明大模型公司也在招传统数据分析岗。中位月薪 35k 但样本量小（25），p25 到 p75 跨度从 15k 到 65k 极大，反映出标题相同但实际能力要求差异极大——既有偏运营的 BI 分析，也有偏 ML 的数据科学家。",
+    "who_fits": "SQL / Python / 数据分析基本功扎实、在某个业务领域有数据驱动决策经验的人。",
+    "who_doesnt": "只会做仪表盘 BI、没建过模型 / 没有业务洞察输出能力的人——AI 公司招数据岗看「数据驱动决策」证据。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 107,
+    "sample_titles": [
       "自动驾驶安全员",
       "智能座舱项目管理",
       "智能座舱工程师",
       "智能座舱测试",
       "智能座舱测试工程师/测试专家",
       "智能座舱系统工程师",
-      "智能座舱平台项目管理"
+      "智能座舱平台项目管理",
+      "智能座舱软件项目经理"
     ],
     "required_skills": [
       {
@@ -1251,18 +1420,19 @@
     "education": {
       "bachelor": 72,
       "any": 22,
-      "master": 5,
-      "unspecified": 2
+      "unspecified": 8,
+      "master": 5
     },
     "work_mode": {
-      "onsite": 101
+      "onsite": 101,
+      "unknown": 6
     },
     "top_companies": [
       "某知名公司",
+      "字节跳动",
       "Baidu",
       "埃尔科工程技术开发(上海)有限公司",
-      "梅赛德斯-奔驰",
-      "京东物流"
+      "梅赛德斯-奔驰"
     ],
     "top_industries": [
       {
@@ -1310,7 +1480,7 @@
         "count": 2
       }
     ],
-    "responsibilities_sample_size": 3,
+    "responsibilities_sample_size": 9,
     "role_id": "autonomous",
     "role_name": "自动驾驶/智能座舱",
     "role_description": "自动驾驶 / 智能座舱垂直工程岗——OEM 主机厂 + 一级供应商主导，技能要求和大模型应用层差异极大。",
@@ -1327,6 +1497,129 @@
     "narrative": "101 条岗位里，sample title 集中在「自动驾驶项目经理 / 安全员 / 智能座舱工程师 / 测试」，top 公司是百度、奔驰、京东物流和一些 Tier 1 工程公司。这是一条相对独立于大模型浪潮的赛道——automotive 行业占 73 条，明显汽车产业链导向。技能栈以 C++ / 视觉 / 嵌入式为主，和 ai_engineer 那条 LLM 应用线几乎不重叠。中位月薪 26.9k，5 年经验中位，是车产业升级的工程位子而不是 AI 风口位子。",
     "who_fits": "汽车 / 嵌入式 / 视觉算法背景的人；有 C++ + ROS / SOA / AUTOSAR 实战经验更佳。",
     "who_doesnt": "只懂大模型 / Agent 应用层、没碰过实时系统 / 嵌入式的人——这条线工程约束和 AI 应用层的开发节奏完全不同。"
+  },
+  {
+    "market": "domestic",
+    "job_count": 87,
+    "sample_titles": [
+      "业务系统与AI转型负责人",
+      "AIT (AI Business Transformation) Senior Specialist/Supervisor",
+      "AI交付经理PMO- AI客服（电商）方向",
+      "企业AI总监",
+      "汽车行业IT战略与数字化转型高级经理",
+      "供应链数字化转型专家",
+      "企业AI科学家",
+      "AIT（AI业务改造）高级专员/主管"
+    ],
+    "required_skills": [
+      {
+        "skill_id": "prompt_engineering",
+        "count": 1
+      },
+      {
+        "skill_id": "devops",
+        "count": 1
+      }
+    ],
+    "preferred_skills": [],
+    "salary": {
+      "min": 1980.0,
+      "max": 158333.0,
+      "median": 33333,
+      "avg": 40538,
+      "p25": 12500.0,
+      "p75": 47500.0,
+      "sample_size": 67
+    },
+    "experience": {
+      "min_range": [
+        0,
+        10
+      ],
+      "median_min": 5,
+      "avg_min": 5.2,
+      "sample_size": 71
+    },
+    "education": {
+      "bachelor": 54,
+      "unspecified": 16,
+      "any": 10,
+      "master": 5,
+      "phd": 2
+    },
+    "work_mode": {
+      "onsite": 73,
+      "unknown": 14
+    },
+    "top_companies": [
+      "字节跳动",
+      "田园东方投资",
+      "某知名公司",
+      "德勤Deloitte",
+      "某青岛家电上市公司"
+    ],
+    "top_industries": [
+      {
+        "industry": "consulting",
+        "count": 21
+      },
+      {
+        "industry": "manufacturing",
+        "count": 17
+      },
+      {
+        "industry": "internet",
+        "count": 10
+      },
+      {
+        "industry": "retail",
+        "count": 8
+      },
+      {
+        "industry": "other",
+        "count": 7
+      }
+    ],
+    "top_majors": [],
+    "majors_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "团队介绍：火山方舟是火山引擎推出的一站式大模型服务平台，是中国大模型市场产品和份额领跑者。平台提供模型推理、评测、精调等全流程服务。方舟搭载了豆包及业界主流大模型，提供丰富的插件生态和AI应用开发服务，并通过稳定可靠的安全互信方案、专业的算法技术服务，全方位保障企业级AI应用落地。",
+        "count": 6
+      },
+      {
+        "text": "项目全周期管理：\n1）负责项目的规划、执行与交付，确保项目按既定目标推进，把控关键里程碑（如数据准备、模型训练、上线部署等）；\n2）协调跨团队（算法、工程、Infra等）合作，识别潜在风险并推动解决，保障项目按时高质量交付；\n3）深入理解机器学习开发全流程（数据准备→模型训练→部署推理），能够识别关键技术风险并推动解决",
+        "count": 4
+      },
+      {
+        "text": "AI资源与运维管理：\n1）熟悉并能够管理GPU/CPU、存储等计算资源，优化分配策略，平衡效率与成本；\n2）熟悉多地域/多机房的服务部署与容灾方案，协助提升资源利用率和运维效率",
+        "count": 4
+      },
+      {
+        "text": "流程与协作优化：\n1）建立项目管理的标准化方法论，通过工具链优化和流程改进提升团队工作效率；\n2）跟踪项目进展，定期输出关键指标（如资源使用率、项目里程碑达成率等）。",
+        "count": 4
+      },
+      {
+        "text": "AI转型全周期服务：基于飞书开发套件产品（飞书Apaas、飞书Aily、飞书妙搭等），为企业提供从产品Onboarding到业务痛点场景挖掘再到AI场景设计以及效果回收的全周期服务，解决客户在AI转型中“场景难识别、落地难、价值难量化”的问题，让客户将AI产品与场景真正用起来",
+        "count": 3
+      }
+    ],
+    "responsibilities_sample_size": 20,
+    "role_id": "ai_transformation",
+    "role_name": "AI 转型/咨询",
+    "role_description": "AI 业务转型 / 数字化咨询岗——AIT (AI Business Transformation) 专员、企业 AI 总监、AI 交付经理。",
+    "core_skills": [
+      "prompt_engineering",
+      "agent_architecture",
+      "data_analysis"
+    ],
+    "vs_neighbor": {
+      "neighbor_id": "leadership",
+      "summary": "项目制咨询 vs 长期管理——ai_transformation 接外部 / 咨询单做交付，leadership 在内部带线。"
+    },
+    "narrative": "73 条岗位里，「AIT 高级专员 / AI 交付经理 / 数字化转型经理」是主流，top 公司是德勤这类咨询公司加上一些大型甲方。consulting + manufacturing 占前两位行业，反映出这条线本质是「咨询 + 制造业 / 传统行业 AI 落地」。中位月薪 33k，5 年经验中位——是国内传统咨询岗在 AI 时代的演化。",
+    "who_fits": "咨询 / IT 项目管理 / 数字化转型背景出身、有甲方接口 + 项目交付经验的人。",
+    "who_doesnt": "纯技术背景、没有客户对接 / PMO 经验的人——这条线靠咨询方法论和客户关系，技术深度不是核心。"
   },
   {
     "market": "domestic",
@@ -1457,298 +1750,7 @@
   },
   {
     "market": "domestic",
-    "job_count": 82,
-    "sample_titles": [
-      "投资分析师/投资经理/副总裁（AI与先进制造赛道）",
-      "Data Analyst - LLM agentic AI",
-      "豆包AI大模型数据分析-火山方舟MaaS",
-      "AI 增强型临床统计编程",
-      "AI大数据分析师（电商）",
-      "Drug Discovery Biologist",
-      "AI增强型临床统计编程师",
-      "AI量化交易员"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "data_analysis",
-        "count": 4
-      },
-      {
-        "skill_id": "llm",
-        "count": 3
-      },
-      {
-        "skill_id": "agent_architecture",
-        "count": 1
-      },
-      {
-        "skill_id": "machine_learning",
-        "count": 1
-      },
-      {
-        "skill_id": "sql",
-        "count": 1
-      },
-      {
-        "skill_id": "python",
-        "count": 1
-      },
-      {
-        "skill_id": "react",
-        "count": 1
-      },
-      {
-        "skill_id": "rag",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 7700.0,
-      "max": 150000.0,
-      "median": 35000,
-      "avg": 43918,
-      "p25": 15000.0,
-      "p75": 65000.0,
-      "sample_size": 25
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 2,
-      "avg_min": 2.6,
-      "sample_size": 66
-    },
-    "education": {
-      "unspecified": 55,
-      "bachelor": 17,
-      "phd": 5,
-      "any": 4,
-      "master": 1
-    },
-    "work_mode": {
-      "onsite": 77,
-      "unknown": 5
-    },
-    "top_companies": [
-      "腾讯",
-      "MiniMax",
-      "Moonshot AI",
-      "北京深度智耀科技有限公司",
-      "智谱AI"
-    ],
-    "top_industries": [
-      {
-        "industry": "internet",
-        "count": 51
-      },
-      {
-        "industry": "finance",
-        "count": 9
-      },
-      {
-        "industry": "healthcare",
-        "count": 3
-      },
-      {
-        "industry": "other",
-        "count": 2
-      },
-      {
-        "industry": "manufacturing",
-        "count": 2
-      }
-    ],
-    "top_majors": [
-      {
-        "major": "Statistics",
-        "count": 3
-      },
-      {
-        "major": "Computer Science",
-        "count": 3
-      },
-      {
-        "major": "Mathematics",
-        "count": 2
-      },
-      {
-        "major": "Data Science",
-        "count": 1
-      },
-      {
-        "major": "Engineering",
-        "count": 1
-      }
-    ],
-    "majors_sample_size": 3,
-    "top_responsibilities": [
-      {
-        "text": "负责数据库内核模块的架构设计和特性开发",
-        "count": 3
-      },
-      {
-        "text": "持续优化云原生、主备、分布式架构下的性能、吞吐和时延",
-        "count": 3
-      },
-      {
-        "text": "参与面向HTAP的SQL引擎开发，包括不限于查询优化器、并行执行、向量引擎的设计与优化",
-        "count": 3
-      },
-      {
-        "text": "参与共享存储架构、高可用架构、日志系统的开发，包括不限于物理复制、WAL、备份恢复的设计与优化",
-        "count": 3
-      },
-      {
-        "text": "负责线上数据库实例内核相关根因诊断和问题修复",
-        "count": 3
-      }
-    ],
-    "responsibilities_sample_size": 57,
-    "role_id": "data",
-    "role_name": "数据分析/数据科学",
-    "role_description": "数据分析 / 数据科学岗位——AI 大数据分析 / MaaS 数据运营 / AI 投资分析师，数据驱动决策导向。",
-    "core_skills": [
-      "data_analysis",
-      "llm",
-      "sql",
-      "python"
-    ],
-    "vs_neighbor": {
-      "neighbor_id": "operations",
-      "summary": "看数据出洞察 vs 执行运营 SOP——data 输出报告与策略，operations 跑日常运营动作。"
-    },
-    "narrative": "82 条岗位里，sample title 跨度大：从「AI 大数据分析师」「豆包大模型数据分析」到「投资分析师 AI 赛道」。top 公司腾讯、Moonshot、MiniMax、智谱表明大模型公司也在招传统数据分析岗。中位月薪 35k 但样本量小（25），p25 到 p75 跨度从 15k 到 65k 极大，反映出标题相同但实际能力要求差异极大——既有偏运营的 BI 分析，也有偏 ML 的数据科学家。",
-    "who_fits": "SQL / Python / 数据分析基本功扎实、在某个业务领域有数据驱动决策经验的人。",
-    "who_doesnt": "只会做仪表盘 BI、没建过模型 / 没有业务洞察输出能力的人——AI 公司招数据岗看「数据驱动决策」证据。"
-  },
-  {
-    "market": "domestic",
-    "job_count": 73,
-    "sample_titles": [
-      "业务系统与AI转型负责人",
-      "AIT (AI Business Transformation) Senior Specialist/Supervisor",
-      "AI交付经理PMO- AI客服（电商）方向",
-      "企业AI总监",
-      "汽车行业IT战略与数字化转型高级经理",
-      "供应链数字化转型专家",
-      "企业AI科学家",
-      "AIT（AI业务改造）高级专员/主管"
-    ],
-    "required_skills": [
-      {
-        "skill_id": "prompt_engineering",
-        "count": 1
-      },
-      {
-        "skill_id": "devops",
-        "count": 1
-      }
-    ],
-    "preferred_skills": [],
-    "salary": {
-      "min": 1980.0,
-      "max": 158333.0,
-      "median": 33333,
-      "avg": 40538,
-      "p25": 12500.0,
-      "p75": 47500.0,
-      "sample_size": 67
-    },
-    "experience": {
-      "min_range": [
-        0,
-        10
-      ],
-      "median_min": 5,
-      "avg_min": 5.2,
-      "sample_size": 71
-    },
-    "education": {
-      "bachelor": 54,
-      "any": 10,
-      "master": 5,
-      "phd": 2,
-      "unspecified": 2
-    },
-    "work_mode": {
-      "onsite": 73
-    },
-    "top_companies": [
-      "田园东方投资",
-      "某知名公司",
-      "德勤Deloitte",
-      "某青岛家电上市公司",
-      "某世界500强上市公司"
-    ],
-    "top_industries": [
-      {
-        "industry": "consulting",
-        "count": 21
-      },
-      {
-        "industry": "manufacturing",
-        "count": 17
-      },
-      {
-        "industry": "internet",
-        "count": 10
-      },
-      {
-        "industry": "retail",
-        "count": 8
-      },
-      {
-        "industry": "other",
-        "count": 7
-      }
-    ],
-    "top_majors": [],
-    "majors_sample_size": 0,
-    "top_responsibilities": [
-      {
-        "text": "Deeply investigate business units (research, marketing, operations, back-office), analyze SOPs, and identify high-frequency, low-efficiency, high-labor-cost processes.",
-        "count": 1
-      },
-      {
-        "text": "Develop custom LLM Agents for departments using mainstream LLMs (e.g., Kimi, Wenxin, Qwen) and low-code workflow platforms (e.g., Coze, Dify).",
-        "count": 1
-      },
-      {
-        "text": "Clean, classify, and vectorize unstructured data (e.g., tourism research reports, proposals, operation manuals) to build a domain-specific digital knowledge base.",
-        "count": 1
-      },
-      {
-        "text": "Establish and promote internal AI usage guidelines, conduct training, and ensure seamless adoption of AI tools by business line employees.",
-        "count": 1
-      },
-      {
-        "text": "Regularly calculate efficiency benefits from AI tool implementation and propose further cost reduction strategies.",
-        "count": 1
-      }
-    ],
-    "responsibilities_sample_size": 6,
-    "role_id": "ai_transformation",
-    "role_name": "AI 转型/咨询",
-    "role_description": "AI 业务转型 / 数字化咨询岗——AIT (AI Business Transformation) 专员、企业 AI 总监、AI 交付经理。",
-    "core_skills": [
-      "prompt_engineering",
-      "agent_architecture",
-      "data_analysis"
-    ],
-    "vs_neighbor": {
-      "neighbor_id": "leadership",
-      "summary": "项目制咨询 vs 长期管理——ai_transformation 接外部 / 咨询单做交付，leadership 在内部带线。"
-    },
-    "narrative": "73 条岗位里，「AIT 高级专员 / AI 交付经理 / 数字化转型经理」是主流，top 公司是德勤这类咨询公司加上一些大型甲方。consulting + manufacturing 占前两位行业，反映出这条线本质是「咨询 + 制造业 / 传统行业 AI 落地」。中位月薪 33k，5 年经验中位——是国内传统咨询岗在 AI 时代的演化。",
-    "who_fits": "咨询 / IT 项目管理 / 数字化转型背景出身、有甲方接口 + 项目交付经验的人。",
-    "who_doesnt": "纯技术背景、没有客户对接 / PMO 经验的人——这条线靠咨询方法论和客户关系，技术深度不是核心。"
-  },
-  {
-    "market": "domestic",
-    "job_count": 32,
+    "job_count": 55,
     "sample_titles": [
       "交易风控岗",
       "智能风控经理",
@@ -1821,20 +1823,20 @@
       "sample_size": 25
     },
     "education": {
+      "unspecified": 35,
       "bachelor": 17,
-      "unspecified": 12,
       "any": 3
     },
     "work_mode": {
       "onsite": 28,
-      "unknown": 4
+      "unknown": 27
     },
     "top_companies": [
+      "字节跳动",
       "腾讯",
       "Moonshot AI",
       "阿里云智能",
-      "某上海基金/证券/期货公司",
-      "智谱AI"
+      "某上海基金/证券/期货公司"
     ],
     "top_industries": [
       {
@@ -1903,7 +1905,7 @@
         "count": 2
       }
     ],
-    "responsibilities_sample_size": 19,
+    "responsibilities_sample_size": 42,
     "role_id": "risk_compliance",
     "role_name": "AI 风控/合规",
     "role_description": "AI 风控 / 合规 / 内控岗——交易风控、采供内控、智能风控策略产品，金融与互联网风控的 AI 化方向。",
@@ -2149,12 +2151,15 @@
   },
   {
     "market": "domestic",
-    "job_count": 5,
+    "job_count": 8,
     "sample_titles": [
       "智能客服",
       "智能客服系统专家",
       "Java开发工程师（智能客服方向）",
-      "智能客服管培生"
+      "智能客服管培生",
+      "测试开发专家（智能客服LLM方向）-TikTok",
+      "后端研发工程师-智能客服（深圳）",
+      "AI智能客服产品-抖音电商"
     ],
     "required_skills": [
       {
@@ -2183,12 +2188,15 @@
     },
     "education": {
       "bachelor": 3,
+      "unspecified": 3,
       "any": 2
     },
     "work_mode": {
-      "onsite": 5
+      "onsite": 5,
+      "unknown": 3
     },
     "top_companies": [
+      "字节跳动",
       "京东",
       "某知名智能硬件公司",
       "阳光数智科技有限责任公司",
@@ -2218,8 +2226,29 @@
     ],
     "top_majors": [],
     "majors_sample_size": 0,
-    "top_responsibilities": [],
-    "responsibilities_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "团队介绍：TikTok是一个覆盖150个国家和地区的国际短视频平台，我们希望通过TikTok发现真实、有趣的瞬间，让生活更美好。TikTok 在全球各地设有办公室，全球总部位于洛杉矶和新加坡，办公地点还包括纽约、伦敦、都柏林、巴黎、柏林、迪拜、雅加达、首尔和东京等多个城市。\n\nTikTok研发团队，旨在实现TikTok业务的研发工作，搭建及维护业界领先的产品。加入我们，你能接触到包括用户增长、社交、直播、电商C端、内容创造、内容消费等核心业务场景，支持产品在全球赛道上高速发展；也能接触到包括服务架构、基础技术等方向上的技术挑战，保障业务持续高质量、高效率、且安全地为用户服务；同时还能为不同业务场景提供全面的技术解决方案，优化各项产品指标及用户体验。 \n在这里， 有大牛带队与大家一同不断探索前沿， 突破想象空间。 在这里，你的每一行代码都将服务亿万用户。在这里，团队专业且纯粹，合作氛围平等且轻松。目前在北京，上海，杭州、广州、深圳分别开放多个岗位机会。",
+        "count": 1
+      },
+      {
+        "text": "负责TikTok智能客服平台产品客户端和服务端质量保障工作，整体负责核心模块质量体系建设",
+        "count": 1
+      },
+      {
+        "text": "构建智能客服大模型相关质量体系，参与变更管控、自动化测试、LLM评测、LLM安全等质效专项",
+        "count": 1
+      },
+      {
+        "text": "对项目中的质量问题进行跟进、追查及定位，并针对通用性问题进行优化改进，提高整体质量和效率",
+        "count": 1
+      },
+      {
+        "text": "质量保障相关工具开发维护，改进现有工具效率、扩展性与稳定性，通过公司内外前瞻技术调研和应用，推动适合的技术应用于质量改进",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 3,
     "role_id": "customer_service",
     "role_name": "智能客服",
     "role_description": "智能客服垂直岗——智能客服系统专家 / 训练 / 管培生，客服系统 AI 化方向，样本量极少。",
