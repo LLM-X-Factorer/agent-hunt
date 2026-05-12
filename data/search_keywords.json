@@ -1,5 +1,79 @@
 {
-  "_description": "Search keyword matrix for multi-industry AI job collection. Each entry has platform targets and keywords.",
+  "_description": "Search keyword matrix. `categories` is the AI matrix (default). `traditional_categories_v012` is the traditional profession matrix added in v0.12 #34 — iterate explicitly with `batch_collect.py --traditional`.",
+  "traditional_categories_v012": [
+    {
+      "name": "传统 · 电气工程师",
+      "profession_slug": "electrical_engineer",
+      "keywords": [
+        "电气工程师", "电气设计工程师", "电力工程师", "强电工程师", "弱电工程师",
+        "Electrical Engineer", "Power Engineer"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    },
+    {
+      "name": "传统 · 机械工程师",
+      "profession_slug": "mechanical_engineer",
+      "keywords": [
+        "机械工程师", "机械设计工程师", "机械结构工程师", "机械制造工程师",
+        "Mechanical Engineer", "Mechanical Design Engineer"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    },
+    {
+      "name": "传统 · 土木工程师",
+      "profession_slug": "civil_engineer",
+      "keywords": [
+        "土木工程师", "结构工程师", "建筑工程师", "施工员", "造价工程师",
+        "Civil Engineer", "Structural Engineer", "Construction Engineer"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    },
+    {
+      "name": "传统 · 化工工程师",
+      "profession_slug": "chemical_engineer",
+      "keywords": [
+        "化工工程师", "化学工程师", "工艺工程师", "化工设计工程师",
+        "Chemical Engineer", "Process Engineer"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    },
+    {
+      "name": "传统 · 会计",
+      "profession_slug": "accountant",
+      "keywords": [
+        "会计", "总账会计", "成本会计", "财务", "审计", "出纳",
+        "Accountant", "Bookkeeper", "Auditor"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    },
+    {
+      "name": "传统 · 金融分析师",
+      "profession_slug": "financial_analyst",
+      "keywords": [
+        "金融分析师", "投资分析师", "证券分析师", "研究员", "行业研究员",
+        "Financial Analyst", "Investment Analyst", "Equity Analyst", "Research Analyst"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    },
+    {
+      "name": "传统 · 教师",
+      "profession_slug": "teacher",
+      "keywords": [
+        "教师", "老师", "中学教师", "高中教师", "讲师", "辅导老师", "学科教师",
+        "Teacher", "Instructor", "Educator", "Lecturer"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    },
+    {
+      "name": "传统 · 销售",
+      "profession_slug": "sales",
+      "keywords": [
+        "销售", "销售代表", "销售经理", "客户经理", "大客户经理", "BD",
+        "Sales", "Sales Representative", "Account Manager", "Business Development"
+      ],
+      "platforms": ["liepin", "boss_zhipin", "lagou", "linkedin", "indeed"]
+    }
+  ],
   "categories": [
     {
       "name": "AI Agent 核心",

@@ -9,7 +9,8 @@ from app.database import Base
 from app.models import *  # noqa: F401,F403 — ensure models are registered
 
 config = context.config
-config.set_main_option("sqlalchemy.url", settings.database_url_sync)
+# Escape % for configparser interpolation (URL-encoded passwords contain %23/%24/etc).
+config.set_main_option("sqlalchemy.url", settings.database_url_sync.replace("%", "%%"))
 
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)

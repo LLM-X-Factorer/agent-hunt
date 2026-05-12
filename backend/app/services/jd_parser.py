@@ -34,10 +34,17 @@ SYSTEM_PROMPT = """\
    "fresh"(应届/在校/0 经验), "0-1y"(0-1 年), "1-3y", "3-5y", "5y+"
 10. internship_friendly: 是否接受实习生 / 在校生（true/false/null）
 11. is_campus: 是否明确标注"校招"/"校园招聘"/"应届生招聘"（true/false/null）
-12. role_type: 岗位是 AI 原生还是 AI 增强型传统岗位
+12. role_type: 岗位的 AI 相关性，三选一
     - "ai_native": 算法/ML/LLM 工程师、AI 产品、AI Agent 开发、AI 销售等以 AI 为主体的岗位
     - "ai_augmented_traditional": 主体是传统专业（电气/医疗/金融/制造/会计...）但要求 AI 技能。例如「电气工程师 + 深度学习」「医疗影像分析师」「智能制造工艺工程师」「量化研究员」
-13. base_profession: 仅当 role_type = "ai_augmented_traditional" 时填写传统岗位名（如"电气工程师"、"医生"、"会计"、"金融分析师"、"机械工程师"）；ai_native 时填 null
+    - "non_ai_traditional": 完全传统岗位，JD 中没有任何 AI / 机器学习 / 大模型 / 数据科学相关技能要求。例如普通会计 / 普通中学教师 / 普通土木工程师
+13. base_profession: 当 role_type = "ai_augmented_traditional" 或 "non_ai_traditional" 时填写传统岗位名（如"电气工程师"、"医生"、"会计"、"金融分析师"、"机械工程师"、"教师"）；ai_native 时填 null
+14. major_requirement: 学术专业方向硬性要求。array of 原始专业名，保留 JD 中出现的中英文原文，不合并同义词。
+    - 例：JD 写"计算机、电子工程、数学等相关专业" → ["计算机", "电子工程", "数学"]
+    - 例：JD 写"Computer Science or related field" → ["Computer Science"]
+    - 仅包含 JD 明确出现的专业，不要从职位推断
+    - 学历词（本科及以上 / Bachelor's / Master's）不进这个字段，那是 education
+    - 专业不限 / 无要求 → []
 
 严格输出以下 JSON，不要添加任何额外文字：
 {
@@ -61,8 +68,9 @@ SYSTEM_PROMPT = """\
   "experience_requirement": "fresh | 0-1y | 1-3y | 3-5y | 5y+ | null",
   "internship_friendly": "bool | null",
   "is_campus": "bool | null",
-  "role_type": "ai_native | ai_augmented_traditional | null",
-  "base_profession": "string | null"
+  "role_type": "ai_native | ai_augmented_traditional | non_ai_traditional | null",
+  "base_profession": "string | null",
+  "major_requirement": ["string"]
 }"""
 
 
@@ -102,6 +110,7 @@ async def parse_job_by_id(db: AsyncSession, job_id) -> Job:
         job.is_campus = parsed.is_campus
         job.role_type = parsed.role_type
         job.base_profession = parsed.base_profession
+        job.major_requirement = parsed.major_requirement
         job.parse_status = "parsed"
 
         from datetime import datetime, timezone

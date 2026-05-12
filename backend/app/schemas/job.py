@@ -89,6 +89,7 @@ class JobDetail(BaseModel):
     required_skills: list[str] | None
     preferred_skills: list[str] | None
     responsibilities: list[str] | None
+    major_requirement: list[str] | None
 
     collected_at: datetime.datetime
     parsed_at: datetime.datetime | None
@@ -147,6 +148,7 @@ class ParsedJD(BaseModel):
     required_skills: list[str] = Field(default_factory=list)
     preferred_skills: list[str] = Field(default_factory=list)
     responsibilities: list[str] = Field(default_factory=list)
+    major_requirement: list[str] = Field(default_factory=list)
     language: str = "zh"
 
     # --- Issue #11: graduate / campus signals ---
@@ -157,6 +159,12 @@ class ParsedJD(BaseModel):
     # --- Issue #10: AI native vs AI augmented ---
     role_type: str | None = None  # ai_native | ai_augmented_traditional
     base_profession: str | None = None
+
+
+class MajorRequirement(BaseModel):
+    """Slim output for backfill_major_requirement.py — only majors, no re-parse."""
+
+    majors: list[str] = Field(default_factory=list)
 
 
 class QualityLabels(BaseModel):

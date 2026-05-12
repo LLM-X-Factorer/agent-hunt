@@ -19,7 +19,7 @@ from statistics import median
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from sqlalchemy import select
+from sqlalchemy import or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import async_session
@@ -236,8 +236,17 @@ async def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     async with async_session() as db:
+        # v0.12 A3: exclude non_ai_traditional from AI role clustering.
+        # NULL role_type is kept (jobs not yet labeled still cluster).
         result = await db.execute(
-            select(Job).where(Job.parse_status == "parsed", Job.title.isnot(None))
+            select(Job).where(
+                Job.parse_status == "parsed",
+                Job.title.isnot(None),
+                or_(
+                    Job.role_type.is_(None),
+                    Job.role_type != "non_ai_traditional",
+                ),
+            )
         )
         all_jobs = result.scalars().all()
         logger.info("Total parsed jobs with title: %d", len(all_jobs))

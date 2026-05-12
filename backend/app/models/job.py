@@ -69,9 +69,10 @@ class Job(Base):
     internship_friendly: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
     is_campus: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
 
-    # --- Issue #10: AI native vs AI augmented traditional ---
+    # --- Issue #10 (extended in #35 / v0.12 A3) ---
     # "ai_native" — algo / LLM eng / AI PM / AI sales etc.
     # "ai_augmented_traditional" — electrical eng + DL, medical imaging, quant, etc.
+    # "non_ai_traditional" — pure traditional roles, no AI skills required (v0.12: /professions JDs)
     role_type: Mapped[str | None] = mapped_column(String(30), nullable=True, index=True)
     # Filled only when role_type == "ai_augmented_traditional".
     # Examples: "电气工程师", "医生", "会计", "金融分析师".
@@ -86,6 +87,13 @@ class Job(Base):
         ARRAY(String), nullable=True
     )
     responsibilities: Mapped[list[str] | None] = mapped_column(
+        ARRAY(String), nullable=True
+    )
+    # --- v0.12 A1: 专业方向硬性要求 ---
+    # 原始专业名 array，保留中英文原文，不合并同义词。
+    # 例: ["计算机科学", "电子工程", "数学"] 或 ["Computer Science", "Mathematics"]
+    # 专业不限 → []
+    major_requirement: Mapped[list[str] | None] = mapped_column(
         ARRAY(String), nullable=True
     )
 

@@ -72,15 +72,21 @@ class Settings(BaseSettings):
     def redis_url(self) -> str:
         return f"redis://{self.redis_host}:{self.redis_port}/{self.redis_db}"
 
-    # --- LLM provider (OpenRouter, OpenAI-compatible) ---
-    # OpenRouter exposes GLM / Kimi / Gemini / etc. behind one API key.
-    # Switch model with AH_LLM_MODEL — examples:
-    #   z-ai/glm-5.1
-    #   moonshotai/kimi-k2.6
-    #   google/gemini-2.5-flash
-    openrouter_api_key: str = ""
-    llm_model: str = "z-ai/glm-5.1"
-    llm_base_url: str = "https://openrouter.ai/api/v1"
+    # --- LLM provider (OpenAI-compatible) ---
+    # Two-key system so we can switch hosts without renaming env vars:
+    #   AH_LLM_API_KEY     — preferred (provider-agnostic name)
+    #   AH_OPENROUTER_API_KEY — legacy fallback (kept so existing .env works)
+    # Examples:
+    #   DeepSeek direct: AH_LLM_BASE_URL=https://api.deepseek.com, AH_LLM_MODEL=deepseek-chat
+    #   OpenRouter:      AH_LLM_BASE_URL=https://openrouter.ai/api/v1, AH_LLM_MODEL=deepseek/deepseek-v3.2-exp
+    llm_api_key: str = ""
+    openrouter_api_key: str = ""  # legacy
+    llm_model: str = "deepseek-chat"
+    llm_base_url: str = "https://api.deepseek.com"
+
+    @property
+    def effective_llm_api_key(self) -> str:
+        return self.llm_api_key or self.openrouter_api_key
 
     # Legacy Gemini settings — kept for compare_llm_providers.py only.
     gemini_api_key: str = ""
