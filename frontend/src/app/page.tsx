@@ -40,7 +40,7 @@ export default function Home() {
         )}
       </header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
         <Link href="/narrative" className="group">
           <Card className="h-full transition-all group-hover:border-indigo-300 group-hover:shadow-md">
             <CardContent className="p-6 space-y-3">
@@ -79,6 +79,28 @@ export default function Home() {
               <div className="pt-1">
                 <span className="text-sm font-medium text-amber-600 group-hover:text-amber-800">
                   按岗位定位自己 →
+                </span>
+              </div>
+            </CardContent>
+          </Card>
+        </Link>
+
+        <Link href="/professions" className="group">
+          <Card className="h-full transition-all group-hover:border-purple-300 group-hover:shadow-md">
+            <CardContent className="p-6 space-y-3">
+              <div className="text-3xl">🛠️</div>
+              <h2 className="text-xl font-bold">探索你的传统职业</h2>
+              <p className="text-sm text-gray-600 leading-relaxed">
+                <strong>8 个传统职业 × AI 转型路径</strong>（工程线 4 + 商科 2 + 服务 2），回答业务方反复问的「我是 X 怎么转 AI」。
+              </p>
+              <div className="text-xs text-gray-500 space-y-1 pt-2 border-t">
+                <p>· 电气 / 机械 / 土木 / 化工</p>
+                <p>· 会计 / 金融分析师</p>
+                <p>· 教师 / 销售</p>
+              </div>
+              <div className="pt-1">
+                <span className="text-sm font-medium text-purple-600 group-hover:text-purple-800">
+                  按职业看 AI 转型路径 →
                 </span>
               </div>
             </CardContent>

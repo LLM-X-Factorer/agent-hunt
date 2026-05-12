@@ -1,0 +1,146 @@
+[
+  {
+    "profession_id": "electrical",
+    "cn_name": "电气工程师",
+    "en_name": "Electrical Engineer",
+    "category": "engineering",
+    "one_liner": "强电 / 弱电 / 控制系统 — 工业制造和能源行业的主力技术岗，AI 转型走「智能制造 + 工业 AI 算法」线",
+    "description": "电气工程师横跨电力 / 制造 / 半导体 / 新能源四个细分行业，主业是电气系统设计、PLC / 控制算法、嵌入式硬件 + 上位机。和 AI 接轨最自然的两条路：① 工业现场数据采集 + 异常检测建模（智能制造方向）；② 自动驾驶 / 机器人系统中的电气 + 算法融合岗位。这条线的 AI 转型不在写 LLM 应用，而在「把已有的电气 / 控制经验 + 数据采集能力嫁接到 AI 建模流程」。",
+    "responsibilities": [
+      "电气控制系统设计 / 选型 / 调试",
+      "PLC / 上位机 / SCADA 编程",
+      "现场设备数据采集 + 故障诊断",
+      "电气安全规范 + 验收 / 调试报告"
+    ],
+    "pathway_summary": "保守路径 = 留在原行业（制造 / 半导体 / 新能源）+ 加 AI 算法 skill，转「工业 AI 算法工程师 / 智能制造工程师」。激进路径 = 转汽车 / 机器人公司做「自动驾驶硬件 + 算法」混合岗。两条都不需要扔掉电气底子，反而是把硬件经验当成简历差异化点。",
+    "who_should_pivot": "在制造业 / 自动化公司有 3+ 年现场经验、对 Python + 数据建模有兴趣、不排斥多学一门「调模型」技能的人。半导体 / 新能源行业内部转 AI 岗位通道最顺。",
+    "who_shouldnt_pivot": "只想做纯硬件设计、对软件 / 数据 / Python 抵触的人 — AI 工业线最起码要会读 Python 数据脚本和理解评测指标，否则简历会被卡在最初阶段。",
+    "aliases": ["电气工程师", "Electrical Engineer", "电气", "Electrical"]
+  },
+  {
+    "profession_id": "mechanical",
+    "cn_name": "机械工程师",
+    "en_name": "Mechanical Engineer",
+    "category": "engineering",
+    "one_liner": "机械设计 / 制造工艺 / 结构仿真 — 汽车 / 机器人 / 工业自动化里被 AI 改写最快的岗位之一",
+    "description": "机械工程师传统覆盖产品设计（CAD / SolidWorks）、制造工艺、结构强度仿真（CAE）、产线落地。AI 在这个赛道的入口非常具体：① 汽车 / 机器人公司大量招「机械 + AI 算法」复合岗（智能座舱机械结构 / 自动驾驶机械集成）；② 智能制造公司把「机械 + Python 数据采集 + AI 异常检测」打包成一条线；③ 仿真 + ML 替代部分有限元计算的新方向。数据上 17 条样本主要落在自动驾驶机械工程师 + 智能制造工程师两个子类。",
+    "responsibilities": [
+      "机械结构设计 / 选型 / 公差分析",
+      "CAE 仿真（强度 / 振动 / 热）",
+      "工艺 + 产线落地 + DFM",
+      "项目跨部门协调（电气 / 软件 / 制造）"
+    ],
+    "pathway_summary": "最顺路径 = 加入汽车 / 机器人 / 自动驾驶公司的机械团队，岗位本身已是「机械 + 算法」融合岗，不需要彻底重学。次顺路径 = 转智能制造，做产线数据 + AI 检测 / 优化建模岗。机械底子 + AI skill 在简历上是稀缺组合，特别是仿真 + ML 这种交叉方向。",
+    "who_should_pivot": "在汽车 / 机器人 / 工业自动化行业 3+ 年、做过结构设计 + 项目交付、能学 Python + 基础 ML 的人。半导体 / 智能制造行业转入门槛最低。",
+    "who_shouldnt_pivot": "只做纯机械设计 + 不愿学软件的人。AI 增强机械岗位本质要求是「能用数据语言和软件 / 算法同事沟通」，纯硬件思维很难融入。",
+    "aliases": ["机械工程师", "Mechanical Engineer", "机械", "Mechanical", "汽车工程师", "机械设计工程师"]
+  },
+  {
+    "profession_id": "civil",
+    "cn_name": "土木工程师",
+    "en_name": "Civil Engineer",
+    "category": "engineering",
+    "one_liner": "建筑 / 结构 / 施工 — AI 渗透最慢、但 BIM + AI 视觉检测在大型基建项目里开始爆发",
+    "description": "土木工程师传统覆盖结构设计、施工组织、施工监理、工程造价。AI 转型在土木线是慢车道：BIM（建筑信息模型）+ AI 视觉检测（钢筋 / 裂缝识别）+ 项目 AI 风险预警是已有方向，但岗位数远少于其他工程线。当前 agent-hunt 数据样本仅 1 条 — 国内 AI 增强土木岗位仍处于早期，建议关注头部基建 / 设计院（中建 / 中铁 / 中交）+ 大型设计软件公司（Bentley / Autodesk）的内部 AI 团队。",
+    "responsibilities": [
+      "结构设计 / 计算 / 校核",
+      "施工组织设计 + 进度 + 质量管控",
+      "BIM 建模 + 多专业协同",
+      "工程造价 / 招投标"
+    ],
+    "pathway_summary": "三个可走方向：① BIM + AI 智能设计岗（在设计院内部 AI 团队 / 大型软件公司）；② 智慧工地视觉检测（中建 / 中铁系工程局 + 安全监管）；③ 转岩土 / 桥隧 + AI 风险预警（基建央企）。当下样本量不足以给出明确画像，建议先内推 + 行业头部公司官网直接关注岗位变动。",
+    "who_should_pivot": "在大型设计院 / 工程局有 5+ 年项目经验、对 BIM 系统熟悉、能花 6 个月学 Python + 基础 CV / ML 的人。",
+    "who_shouldnt_pivot": "纯施工现场出身、对软件系统接触少、依赖经验直觉做决策的人。AI 在土木的入口几乎全在「数字化 + 软件 + 数据驱动」，这个跨度比制造业大一档。",
+    "aliases": ["土木工程师", "结构工程师", "Civil Engineer", "土建工程师"]
+  },
+  {
+    "profession_id": "chemical",
+    "cn_name": "化工工程师",
+    "en_name": "Chemical Engineer",
+    "category": "engineering",
+    "one_liner": "化学工艺 / 反应器 / 制药生产 — AI for Science（AI 制药 / 材料）赛道正在开放岗位",
+    "description": "化工工程师传统在石化 / 制药 / 材料 / 食品工业做工艺设计 + 反应器优化 + 生产 + QC。AI 转型最热的入口是 AI for Science：AI 辅助药物设计 / AI 材料发现 / 智能化工生产优化。海外这条线（Drug Discovery / Bio AI）已经很成熟，国内集中在 AI 制药创业公司（晶泰 / 英矽智能 / 百图生科 / 望石 / 西湖欧米） + 大厂材料组（华为 / 字节跳动 AI Drug）。当前 agent-hunt 数据 0 条样本 — 国内 AI 增强化工 / AI 制药岗位需要直接 target 这些公司。",
+    "responsibilities": [
+      "工艺流程设计 / 反应器选型 / 优化",
+      "生产 + QC + 安全 + 环保",
+      "实验设计 + 数据分析 + 中试放大",
+      "工程造价 / 项目交付 / 合规"
+    ],
+    "pathway_summary": "化工 + AI 是 cross-disciplinary 路径，但岗位真实存在：AI 药物发现 / AI 材料 / 工艺数字孪生 / 智能制造优化都是入口。需要补 Python + 基础 ML + 领域内 AI 论文阅读能力。建议关注 AI 制药头部 + 字节 Drug Discovery + 华为材料团队 + 高校 AI for Science 实验室合作岗。",
+    "who_should_pivot": "化工 / 制药 / 材料硕博 + 实验室数据底子 + 愿意学 Python + 论文阅读能力的人。AI for Science 的招聘门槛对学历更高，但对纯 ML 经验更宽容。",
+    "who_shouldnt_pivot": "只做工厂现场工艺 / QC、对计算机 / 论文方法论抵触的人。AI for Science 的工作流核心是「设计实验 + 数据分析 + 文献验证」，不是工厂级现场调优。",
+    "aliases": ["化工工程师", "Chemical Engineer", "工艺工程师", "化学工程师", "制药工程师"]
+  },
+  {
+    "profession_id": "accountant",
+    "cn_name": "会计",
+    "en_name": "Accountant",
+    "category": "business",
+    "one_liner": "记账 / 报表 / 税务 / 审计 — AI 渗透「报表自动生成 + 审计辅助」最快，事务所内部 AI 工具最先落地",
+    "description": "会计 / 审计岗传统在事务所 + 企业财务部做记账、报表、税务申报、审计取证。AI 在这条线的入口比看上去清晰：① 四大 / 内审团队的 AI 审计工具岗（Audit AI / Risk AI）；② 企业财务团队的 RPA + AI 自动化岗（应收应付 / 报销 / 凭证 OCR）；③ 财税 SaaS 公司的产品 / 运营岗（金蝶 / 用友 / 慧算账 + AI）。当前 15 条样本主要在「AI 财务分析师 / 智能财税运营」两类，仍以企业内部 + SaaS 为主。",
+    "responsibilities": [
+      "记账 + 凭证 + 报表",
+      "税务申报 + 税务筹划",
+      "审计 + 内控 + 合规",
+      "成本核算 + 预算 + 财务分析"
+    ],
+    "pathway_summary": "三个可走方向：① 四大 / 头部内审做 Audit AI / Risk AI 工具实施岗；② 企业财务 + RPA + AI 自动化路径（OCR / 凭证 / 报销）；③ 转财税 SaaS 公司产品 / 运营。第三条对会计 + AI 工具双背景需求最直接，门槛比写代码低，但需要补 SQL + 基础 Python 数据脚本。",
+    "who_should_pivot": "四大 / 大企业财务背景 3+ 年、有 ERP / Excel 高级技能、对 RPA 工具有接触的人。CPA / ACCA 持证 + AI 财税 SaaS 经验在简历上有差异化。",
+    "who_shouldnt_pivot": "只做纯凭证 / 纯出纳、对软件 / 数据库 / 流程优化抵触的人。AI 在会计的入口都建立在「能把记账逻辑 → 流程 → 数据库设计」的认知翻译上，纯记账经验不直接迁移。",
+    "aliases": ["会计", "Accountant", "审计", "财务"]
+  },
+  {
+    "profession_id": "finance",
+    "cn_name": "金融分析师",
+    "en_name": "Financial Analyst",
+    "category": "business",
+    "one_liner": "估值 / 风控 / 量化 / 投研 — AI 在金融的最大入口，国内大模型公司 + 头部券商 + 量化私募都在抢这类人",
+    "description": "金融分析师横跨投行 / 券商 / 基金 / 量化 / 银行风控五个细分。AI 转型在这条线非常成熟：① 量化研究员 / 量化算法（私募 + 头部券商）；② 投研 AI 工具（用大模型读研报 / 财报）；③ 风控建模 + AI 反欺诈（银行 + 互联网金融）；④ AI 投顾产品（券商 + 财富管理）。61 条样本主要在量化研究 / AI 投研 / AI 风控三类。这条线对学历要求高（硕博常见）+ Python / SQL / 统计基础必备。",
+    "responsibilities": [
+      "建模 + 估值 + 投资分析",
+      "财报 / 研报阅读 + 行业研究",
+      "风控 + 反欺诈 + 信用建模",
+      "量化策略开发 + 回测 / 调优"
+    ],
+    "pathway_summary": "最直接 = 量化研究员（私募 / 券商自营），起薪国内 AI 岗位顶档，但对 Python + 统计 + 微观结构理解要求高。次直接 = AI 投研工具岗位（让大模型读研报 / 财报），对算法要求低对金融领域知识要求高。再次 = AI 风控 + 反欺诈建模，互联网金融 + 银行系都在招，对建模流程熟悉度要求最高。",
+    "who_should_pivot": "金融硕士 + Python / SQL 基础 + 1-3 年券商 / 银行 / 基金经验的人。CFA / FRM 持证 + 量化项目经验在量化岗位最有差异化。",
+    "who_shouldnt_pivot": "纯销售型金融岗（理财顾问 / 客户经理）、对编程抵触的人。AI 在金融的所有入口都强 Python + 数据，纯客户关系经验在 AI 金融岗不加分。",
+    "aliases": ["金融分析师", "Financial Analyst", "量化研究员", "量化分析师", "量化交易员"]
+  },
+  {
+    "profession_id": "teacher",
+    "cn_name": "教师",
+    "en_name": "Teacher",
+    "category": "service",
+    "one_liner": "课堂 / 备课 / 教研 / 评估 — AI 转型最容易切入的传统职业之一，「内容 + 调优」路径门槛最低",
+    "description": "教师有现成的「讲清楚一件事」+ 「设计学习路径」+ 「评估反馈」三套能力。AI 转型走两条路最顺：① 内容 + 调优型岗位（AI 训练师 / Prompt 工程师 / 评测样本设计），适合 K12 / 培训机构经验；② 教育 AI 公司的产品 / 解决方案岗（高途 / 学而思 / 网易 + AI），适合教研团队 + 想做产品的人。45 条样本主要在 AI 训练师 + 教育 AI 产品 + AI 内容运营三类。这条线对学历宽松、对工具熟练度 + 学习能力要求高。",
+    "responsibilities": [
+      "备课 / 设计教学方案",
+      "课堂讲授 / 引导讨论",
+      "作业批改 / 评估学习效果",
+      "教研活动 / 课程改进"
+    ],
+    "pathway_summary": "最顺路径 = 走 AI 训练师 / Prompt 工程师 / 评测样本设计，把课堂经验直接转成「评测怎么设计 + 错误样本怎么收集 + 改进路径怎么走」的工程化能力。次顺 = 转 AI 教育产品（PM / 解决方案），需要补一些产品 / 数据 skill 但不需要会写代码。",
+    "who_should_pivot": "对 AI 工具有兴趣、愿意从「我讲学生听」切换到「数据 / 评测倒推产品改进」方法论的人；想跳出 K12 体制内但保留「教学和内容」核心能力的人。",
+    "who_shouldnt_pivot": "想保留「权威讲解 + 单向输出」教学模式的人 — AI 训练师 / 内容运营本质是反向工作：从用户反馈 + 数据 + 模型输出倒推怎么改产品，不再是「我决定怎么讲」。",
+    "aliases": ["教师", "老师", "Teacher", "Educator"]
+  },
+  {
+    "profession_id": "sales",
+    "cn_name": "销售",
+    "en_name": "Sales",
+    "category": "service",
+    "one_liner": "拿单 / 客户关系 / 渠道 — AI 行业销售 / AI ToB BD 在国内大模型公司 + AI SaaS 大量招",
+    "description": "销售岗在 AI 行业的位置和传统 ToB 销售有连续性 — 拿单核心仍是行业资源 + 大客户关系，但需要把「AI 解决方案如何嵌入客户流程」讲清楚。99 条样本主要分布在：① 国内大模型公司的医疗 AI / 教育 AI / 企业 AI 销售（智谱 / MiniMax / Moonshot / 腾讯）；② AI SaaS / 工具型销售（Coze / Dify / 飞书 AI 等）；③ 海外 SaaS Account Executive / Sales Director 岗位（OpenAI / Anthropic 国内 BD）。中位月薪 22.5k 但 p75 到 45k，提成结构差异大。",
+    "responsibilities": [
+      "客户拓展 + 行业资源积累",
+      "需求挖掘 + 方案沟通",
+      "招投标 + 合同谈判 + 回款",
+      "客户关系维护 + 续约 / 二销"
+    ],
+    "pathway_summary": "传统 ToB 销售（医疗 / 教育 / 金融 / 制造行业）转 AI 销售最顺 — 不需要换行业，只需要补「AI 解决方案如何在客户流程中产生 ROI」的话术 + 能 demo AI 产品基础功能。次顺 = AI SaaS / 工具型销售，对产品 demo 能力要求高，对行业资源要求低，适合年轻销售。",
+    "who_should_pivot": "在医疗 / 教育 / 金融 / 制造行业有过 ToB 销售经验、能讲清楚 AI 产品如何嵌入客户流程、能用 AI 产品本身做 demo 的人。",
+    "who_shouldnt_pivot": "纯技术销售出身但没有具体行业资源的人 — AI 概念是溢价加分项，不是核心拿单逻辑。客户买的是 ROI，不是 AI 标签。",
+    "aliases": ["销售", "销售经理", "销售总监", "Sales Executive", "Sales Director", "Sales", "Account Executive", "BD", "商务"]
+  }
+]
