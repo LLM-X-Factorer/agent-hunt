@@ -1,0 +1,119 @@
+{
+  "_note": "Manual CN/EN synonym map. Keys = canonical display name (used in UI). Values = list of variant strings to merge into the key. Matching is case-insensitive on the variant side. Add new groups as new top_majors show up in role-profiles.json that obviously duplicate existing slots.",
+
+  "Computer Science": [
+    "computer science",
+    "computer sciences",
+    "cs",
+    "计算机",
+    "计算机科学",
+    "计算机科学与技术",
+    "计科",
+    "计算机及相关",
+    "计算机相关"
+  ],
+  "Software Engineering": [
+    "software engineering",
+    "软件工程"
+  ],
+  "Computer Engineering": [
+    "computer engineering",
+    "计算机工程"
+  ],
+  "Electronic Engineering": [
+    "electronic engineering",
+    "electrical engineering",
+    "ee",
+    "电子工程",
+    "电子信息工程",
+    "电子信息",
+    "电气工程"
+  ],
+  "Artificial Intelligence": [
+    "artificial intelligence",
+    "ai",
+    "人工智能",
+    "智能科学",
+    "智能科学与技术"
+  ],
+  "Machine Learning": [
+    "machine learning",
+    "ml",
+    "机器学习"
+  ],
+  "Data Science": [
+    "data science",
+    "数据科学",
+    "data science and engineering"
+  ],
+  "Mathematics": [
+    "mathematics",
+    "math",
+    "applied mathematics",
+    "数学",
+    "应用数学",
+    "数学与应用数学"
+  ],
+  "Statistics": [
+    "statistics",
+    "stats",
+    "统计学",
+    "统计"
+  ],
+  "Physics": [
+    "physics",
+    "物理",
+    "物理学",
+    "应用物理"
+  ],
+  "Automation / 自动化": [
+    "automation",
+    "自动化",
+    "自动化控制",
+    "自动控制"
+  ],
+  "Robotics": [
+    "robotics",
+    "机器人",
+    "机器人工程",
+    "机器人科学与工程"
+  ],
+  "Linguistics": [
+    "linguistics",
+    "语言学",
+    "应用语言学"
+  ],
+  "Cognitive Science": [
+    "cognitive science",
+    "认知科学"
+  ],
+  "Speech Sciences": [
+    "speech sciences",
+    "speech science",
+    "语音科学"
+  ],
+  "Finance": [
+    "finance",
+    "金融",
+    "金融学"
+  ],
+  "Accounting": [
+    "accounting",
+    "会计",
+    "会计学"
+  ],
+  "Analytics": [
+    "analytics",
+    "分析学"
+  ],
+  "Engineering": [
+    "engineering",
+    "工程",
+    "工程学"
+  ],
+  "Business": [
+    "business",
+    "工商管理",
+    "商科"
+  ]
+}

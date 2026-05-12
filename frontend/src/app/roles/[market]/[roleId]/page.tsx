@@ -101,6 +101,14 @@ export default async function RoleDetailPage({
     .sort((a, b) => b[1] - a[1]);
   const totalWm = wmEntries.reduce((s, [, v]) => s + v, 0);
 
+  // Hard-requirements coverage signals — used to gate disclaimer banners
+  const respPct = role.job_count
+    ? (role.responsibilities_sample_size / role.job_count) * 100
+    : 0;
+  const majorsPct = role.job_count
+    ? (role.majors_sample_size / role.job_count) * 100
+    : 0;
+
   return (
     <div className="space-y-8">
       <nav className="text-xs text-gray-500">
@@ -197,7 +205,7 @@ export default async function RoleDetailPage({
               <div className="flex items-baseline justify-between mb-3">
                 <h3 className="text-sm font-medium text-gray-800">高频专业 top 5</h3>
                 <span className="text-[11px] text-gray-400 tabular-nums">
-                  {role.majors_sample_size} 条 JD 提到专业
+                  {role.majors_sample_size} / {role.job_count} 条 JD 提到（{majorsPct.toFixed(0)}%）
                 </span>
               </div>
               {role.top_majors.length > 0 ? (
@@ -218,8 +226,13 @@ export default async function RoleDetailPage({
               ) : (
                 <p className="text-xs text-gray-400">该角色簇 JD 中未明确写专业方向。</p>
               )}
-              <p className="text-[11px] text-gray-400 mt-3">
-                同义词暂未合并（如「计算机」/「Computer Science」分开计），看趋势用。
+              {majorsPct < 10 && role.top_majors.length > 0 && (
+                <p className="text-[11px] text-amber-700 bg-amber-50 border border-amber-200 rounded px-2 py-1.5 mt-3">
+                  仅 {majorsPct.toFixed(1)}% JD 写明专业要求 — 大多数 JD 不卡专业，这岗对专业相对宽松
+                </p>
+              )}
+              <p className="text-[11px] text-gray-400 mt-2">
+                CN/EN 同义词已合并（如「计算机」/「Computer Science」/「计算机科学」 → Computer Science）
               </p>
             </div>
           </div>
@@ -228,25 +241,39 @@ export default async function RoleDetailPage({
             <div className="flex items-baseline justify-between mb-3">
               <h3 className="text-sm font-medium text-gray-800">高频职责短语 top 5</h3>
               <span className="text-[11px] text-gray-400 tabular-nums">
-                {role.responsibilities_sample_size} 条 JD 写出了职责
+                {role.responsibilities_sample_size} / {role.job_count} 条 JD 写出职责（{respPct.toFixed(0)}%）
               </span>
             </div>
             {role.top_responsibilities.length > 0 ? (
-              <ul className="space-y-2.5">
-                {role.top_responsibilities.map((r, i) => (
-                  <li key={i} className="flex gap-3 text-sm text-gray-700 leading-relaxed">
-                    <span className={`shrink-0 text-xs tabular-nums px-1.5 py-0.5 rounded ${accentBg} ${accentText} font-medium h-fit mt-0.5`}>
-                      ×{r.count}
-                    </span>
-                    <span>{r.text}</span>
-                  </li>
-                ))}
-              </ul>
+              <>
+                <ul className="space-y-2.5">
+                  {role.top_responsibilities.map((r, i) => (
+                    <li key={i} className="flex gap-3 text-sm text-gray-700 leading-relaxed">
+                      <span className={`shrink-0 text-xs tabular-nums px-1.5 py-0.5 rounded ${accentBg} ${accentText} font-medium h-fit mt-0.5`}>
+                        ×{r.count}
+                      </span>
+                      <span>{r.text}</span>
+                    </li>
+                  ))}
+                </ul>
+                {respPct < 10 && (
+                  <p className="text-[11px] text-amber-700 bg-amber-50 border border-amber-200 rounded px-2 py-1.5 mt-3">
+                    样本量小（仅 {respPct.toFixed(1)}% JD 有职责文字），下面更像 JD 示例而非高频共识。该角色的 JD 多为列表页快照，缺正文
+                  </p>
+                )}
+                {respPct >= 10 && respPct < 30 && (
+                  <p className="text-[11px] text-yellow-700 bg-yellow-50 border border-yellow-200 rounded px-2 py-1.5 mt-3">
+                    样本中等（{respPct.toFixed(0)}% JD 有职责文字），下面是部分高频共识，仍有代表性
+                  </p>
+                )}
+              </>
             ) : (
-              <p className="text-xs text-gray-400">该角色簇职责数据稀疏。</p>
+              <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded px-2 py-1.5">
+                本角色簇 JD 中无职责描述文字 — 多为招聘网站列表页快照，未抓到正文
+              </p>
             )}
-            <p className="text-[11px] text-gray-400 mt-3">
-              直接取 JD 中职责描述原文做简单计数，重复频次反映这岗位日常做什么。
+            <p className="text-[11px] text-gray-400 mt-2">
+              直接取 JD 中职责描述原文做简单计数，重复频次反映这岗位日常做什么
             </p>
           </div>
         </CardContent>

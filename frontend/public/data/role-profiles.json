@@ -127,50 +127,50 @@
     ],
     "top_majors": [
       {
-        "major": "计算机",
-        "count": 34
+        "major": "Computer Science",
+        "count": 59
       },
       {
-        "major": "人工智能",
-        "count": 17
+        "major": "Artificial Intelligence",
+        "count": 24
       },
       {
-        "major": "计算机科学",
-        "count": 13
-      },
-      {
-        "major": "数学",
+        "major": "Mathematics",
         "count": 10
       },
       {
-        "major": "软件工程",
+        "major": "Software Engineering",
         "count": 9
+      },
+      {
+        "major": "Engineering",
+        "count": 8
       }
     ],
     "majors_sample_size": 92,
     "top_responsibilities": [
       {
-        "text": "探索科学前沿，攻关产业关键问题，产出重大科技成果，促进成果产业化应用。",
-        "count": 2
+        "text": "负责图形兼容性分析以及疑难问题的分析定位工作",
+        "count": 8
       },
       {
-        "text": "积极参与高水平科研团队的组建与凝聚，吸引和汇聚海内外优秀青年人才。",
-        "count": 2
+        "text": "超大规模LLM性能工程： 主导并规划千亿参数级大模型的极致性能优化技术路线。负责 PagedAttention、连续批处理等核心调度策略的深度定制与生产级架构设计，负责 vLLM/TensorRT-LLM 等主流推理框架的内核级优化与落地",
+        "count": 6
       },
       {
-        "text": "坚持立德树人根本任务，学科功底深厚，有稳定的研究方向，具备指导研究生的水平和能力。",
-        "count": 2
+        "text": "低比特与稀疏模型优化： 牵头 INT4/FP8/AWQ 等前沿低比特量化技术的工业级系统化落地，平衡精度与计算效率。并设计面向 MoE 模型的分布式调度、路由、显存管理及跨卡通信的优化方案",
+        "count": 6
       },
       {
-        "text": "构建国际合作网络，促进国际学术交流，组织或参与高水平国际学术会议推动，提升学术影响力。",
-        "count": 2
+        "text": "统一与多模态架构： 定义并设计一套具备长期扩展性的统一 AI 推理引擎架构，以支撑自回归生成任务，并前瞻性地解决多模态大模型（如视觉-语言模型）的协同推理部署挑战",
+        "count": 6
       },
       {
-        "text": "远程监控无人车运行",
-        "count": 1
+        "text": "异构算力与国产化适配： 主导推理引擎在国产AI芯片（如昇腾、海光、天数等）平台上的战略级移植、生态适配与性能优化。对 HCCL/NCCL 等通信原语进行深度优化和定制，实现跨异构架构的算力自主可控",
+        "count": 6
       }
     ],
-    "responsibilities_sample_size": 42,
+    "responsibilities_sample_size": 731,
     "role_id": "other",
     "role_name": "其他",
     "role_description": "未匹配到任一明确规则的混合岗位——含跨界 AI（AI 财经讲师 / 漫剧制作）、传统岗带 AI 标签、垂直领域专家。",
@@ -317,50 +317,50 @@
     ],
     "top_majors": [
       {
-        "major": "计算机",
-        "count": 30
+        "major": "Computer Science",
+        "count": 44
       },
       {
-        "major": "人工智能",
-        "count": 21
+        "major": "Artificial Intelligence",
+        "count": 24
       },
       {
-        "major": "软件工程",
+        "major": "Software Engineering",
         "count": 19
       },
       {
-        "major": "计算机科学",
-        "count": 11
+        "major": "Mathematics",
+        "count": 8
       },
       {
-        "major": "数学",
-        "count": 7
+        "major": "Electronic Engineering",
+        "count": 6
       }
     ],
     "majors_sample_size": 50,
     "top_responsibilities": [
       {
-        "text": "以LLM作为核心组件，参与构建具备“思考、调用、执行”能力的后端业务系统，将产品需求与思维链转化为稳定、可扩展的 Agentic Workflow（智能体工作流）。",
-        "count": 2
+        "text": "关注 AGI 前沿技术进展，技术驱动产品与体验进步",
+        "count": 9
       },
       {
-        "text": "负责 AI Agent 的编排与工程化落地，包括模型调用、工具调用（Tool-calling）、多步推理、状态管理与异常处理，保障复杂业务流程的稳定执行。",
-        "count": 2
+        "text": "研究各领域高质量数据的自动化合成方法，建设高效的线上数据飞轮链路",
+        "count": 9
       },
       {
-        "text": "参与模型接入、推理服务、RAG 与数据处理等核心模块建设，推动 AI 能力在真实业务场景中的规模化应用。",
-        "count": 2
+        "text": "支持主流GPU和异构AI芯片，优化大模型推理性能，打造极致性能成本优势",
+        "count": 6
       },
       {
-        "text": "针对高并发、高可靠场景，对 AI 系统进行性能优化与工程治理，包括流式响应、异步调度、缓存策略与成本控制。",
-        "count": 2
+        "text": "定义、开发全球领先的 AI Agent / AI APP",
+        "count": 5
       },
       {
-        "text": "与产品、前端、算法及平台团队协作，持续优化 AI 系统的研发效率与交付质量，在复杂问题中独立推进模块级方案落地。",
-        "count": 2
+        "text": "参与产品讨论，基于技术对产品提出改进建议",
+        "count": 5
       }
     ],
-    "responsibilities_sample_size": 50,
+    "responsibilities_sample_size": 346,
     "role_id": "ai_engineer",
     "role_name": "AI/LLM 工程师",
     "role_description": "在 LLM 上面盖应用——用 Agent 框架、RAG、Prompt 工程把现成大模型接成产品，不是训模型也不是调研究。",
@@ -511,15 +511,15 @@
     ],
     "top_majors": [
       {
-        "major": "计算机",
-        "count": 7
+        "major": "Computer Science",
+        "count": 9
       },
       {
-        "major": "人工智能",
+        "major": "Artificial Intelligence",
         "count": 4
       },
       {
-        "major": "软件工程",
+        "major": "Software Engineering",
         "count": 3
       },
       {
@@ -527,34 +527,34 @@
         "count": 3
       },
       {
-        "major": "数学",
+        "major": "Mathematics",
         "count": 2
       }
     ],
     "majors_sample_size": 10,
     "top_responsibilities": [
       {
-        "text": "Responsible for product planning and strategy of AI content generation products in marketing video scenarios (e-commerce, advertising), identifying user needs, and exploring new opportunities brought by AI technology.",
-        "count": 1
+        "text": "负责面向海外市场的AI或云计算产品的全生命周期管理，包括需求洞察、产品规划、功能设计、跨团队协同与上线迭代",
+        "count": 2
       },
       {
-        "text": "Based on user creation paths and video scenarios, optimize AI Agent workflows, generation effects, and user experience to improve the efficiency and quality of vertical video production.",
-        "count": 1
+        "text": "深入中东、东南亚等地区开展客户访谈、竞品分析与市场调研，精准提炼本地化需求并转化为产品方案",
+        "count": 2
       },
       {
-        "text": "Build marketing video evaluation sets, quantify AI-generated content effects, define iteration directions, and provide data support for product optimization and strategy adjustments.",
-        "count": 1
+        "text": "与国际销售、交付、及技术团队紧密协作，确保产品在不同区域的顺利落地、高效使用与持续优化",
+        "count": 2
       },
       {
-        "text": "Collaborate closely with commercialization, operations, R&D, and other teams to transform AI technical capabilities into implementable product features and promote rapid product iteration and application in the market.",
-        "count": 1
+        "text": "跟踪全球AI伦理、数据合规、隐私保护等政策动态，确保产品设计符合当地法规要求",
+        "count": 2
       },
       {
-        "text": "主导 AI agent/工作流设计，包括 LLM 调用、context 工程、Agent 架构与工具调用链路，构建可扩展的生成式系统",
-        "count": 1
+        "text": "深入理解中东本地政企客户的业务场景与合规要求，识别并管理项目执行中的技术、资源与地缘政治风险，将AI/云技术能力转化为高价值交付成果",
+        "count": 2
       }
     ],
-    "responsibilities_sample_size": 6,
+    "responsibilities_sample_size": 145,
     "role_id": "product_manager",
     "role_name": "AI 产品经理",
     "role_description": "定 AI 产品方向、设计 Agent 流程、写 PRD，要求懂 LLM 能力边界——不要求会写代码但必须能拆 Prompt / 设评测指标。",
@@ -662,8 +662,8 @@
       "腾讯",
       "智谱AI",
       "MiniMax",
-      "百川智能",
-      "Moonshot AI"
+      "Moonshot AI",
+      "百川智能"
     ],
     "top_industries": [
       {
@@ -689,50 +689,50 @@
     ],
     "top_majors": [
       {
-        "major": "计算机",
-        "count": 21
+        "major": "Computer Science",
+        "count": 33
       },
       {
-        "major": "人工智能",
-        "count": 18
+        "major": "Artificial Intelligence",
+        "count": 20
       },
       {
-        "major": "计算机科学",
+        "major": "Mathematics",
         "count": 11
       },
       {
-        "major": "数学",
-        "count": 10
+        "major": "Automation / 自动化",
+        "count": 11
       },
       {
-        "major": "自动化",
-        "count": 10
+        "major": "Machine Learning",
+        "count": 7
       }
     ],
     "majors_sample_size": 40,
     "top_responsibilities": [
       {
-        "text": "基于阿里云百炼、Coze（扣子）、Dify等平台，设计并配置零售金融场景的AI智能体（Agent），实现智能营销、投教陪伴、自动化运营等场景落地。",
-        "count": 2
+        "text": "独立或与其他研究员合作进行前沿领域研究",
+        "count": 5
       },
       {
-        "text": "负责提示词工程（Prompt Engineering），编写并迭代高质量的System Prompt及工作流逻辑，利用CoT、ReAct等技巧提升模型在复杂金融任务中的准确率与合规性。",
-        "count": 2
+        "text": "与团队成员紧密协作，共同解决复杂的跨领域技术难题",
+        "count": 4
       },
       {
-        "text": "结合业务需求，灵活调用平台插件与知识库（RAG），优化Agent的多轮对话体验与任务执行效率。",
-        "count": 2
+        "text": "研发最前沿的语音生成大模型，进行最极致的优化，推动技术产品化落地",
+        "count": 4
       },
       {
-        "text": "利用 Trino 和 Spark SQL 进行高效数据提取：直接从公司海量数据仓库中查询用户行为、交易记录及交互日志，为模型策略制定提供精准的数据支撑，无需依赖他人取数。",
-        "count": 2
+        "text": "探索语音大模型架构创新，主导生成效果与效率的最前沿实验",
+        "count": 4
       },
       {
-        "text": "深度数据分析与洞察：对提取的数据进行清洗与分析，挖掘用户潜在需求与行为特征，将其转化为LLM的“上下文信息”或“微调数据”，反哺模型策略迭代。",
-        "count": 2
+        "text": "拓展语音技术应用场景，探索AI音频在不同场景下的颠覆式应用",
+        "count": 4
       }
     ],
-    "responsibilities_sample_size": 15,
+    "responsibilities_sample_size": 218,
     "role_id": "algorithm",
     "role_name": "算法工程师/研究员",
     "role_description": "传统 ML/DL 训练岗位，做 pretrain / SFT / 视觉算法 / 自动驾驶算法，看重 PyTorch / TensorFlow 全链路工程。",
@@ -872,15 +872,15 @@
     ],
     "top_majors": [
       {
-        "major": "计算机",
+        "major": "Computer Science",
         "count": 2
       },
       {
-        "major": "软件工程",
+        "major": "Software Engineering",
         "count": 1
       },
       {
-        "major": "数据科学",
+        "major": "Data Science",
         "count": 1
       },
       {
@@ -895,27 +895,27 @@
     "majors_sample_size": 4,
     "top_responsibilities": [
       {
-        "text": "Improve e-commerce efficiency using AI tools",
-        "count": 1
+        "text": "设计“让工作更美好”的瞬间： 策划并落地内部活动（节日、团建、周年庆等）",
+        "count": 2
       },
       {
-        "text": "深入理解市场业务目标与用户旅程，规划并制定CDP、AI营销自动化、AIGC及AI Agent智能体的技术发展路线图。",
-        "count": 1
+        "text": "营造只有我们才有的“味道”： 负责办公环境的氛围营造、文化周边的创意落地",
+        "count": 2
       },
       {
-        "text": "作为市场部与技术中台/研发部门/外部团队的核心接口，精准转译业务需求为技术方案与产品定义，确保技术投资与营销战略对齐。",
-        "count": 1
+        "text": "极简执行，智慧运营： 希望你能用AI工具秒出海报，写出有趣的通告，剪辑活动回顾",
+        "count": 2
       },
       {
-        "text": "主导CDP平台的选型、定制开发与持续运营，构建统一、实时、可行动的客户数据资产，为个性化营销与智能决策提供底座。",
-        "count": 1
+        "text": "做团队的“粘合剂”： 维护员工沟通渠道，收集大家的建议与反馈",
+        "count": 2
       },
       {
-        "text": "设计并实施基于规则与AI模型的营销自动化工作流（如客户分群触达、动态内容优化、跨渠道旅程编排），提升规模化营销的精准度与效率。",
-        "count": 1
+        "text": "负责AI产品相关技术内容创作，能拆解AI Agent技术原理，输出产品在开发场景的最佳实践内容，确保内容专业准确、逻辑清晰",
+        "count": 2
       }
     ],
-    "responsibilities_sample_size": 9,
+    "responsibilities_sample_size": 89,
     "role_id": "operations",
     "role_name": "AI 运营/训练师",
     "role_description": "AI 产品上线后的增长 + 数据 + 标注 + Prompt 调优——MaaS 平台运营 / AI 训练师 / 智能客服训练都在这条线。",
@@ -1021,46 +1021,46 @@
         "count": 2
       },
       {
-        "major": "计算机科学",
+        "major": "Computer Science",
+        "count": 2
+      },
+      {
+        "major": "Engineering",
+        "count": 2
+      },
+      {
+        "major": "技术专业",
         "count": 1
       },
       {
-        "major": "工程",
-        "count": 1
-      },
-      {
-        "major": "商业",
-        "count": 1
-      },
-      {
-        "major": "technical",
+        "major": "商务管理",
         "count": 1
       }
     ],
     "majors_sample_size": 5,
     "top_responsibilities": [
       {
-        "text": "Sell AI products",
-        "count": 1
+        "text": "Be responsible for the sales and marketing of Zhipu AI's overseas MaaS API.",
+        "count": 4
       },
       {
-        "text": "Utilize AI for customer acquisition",
-        "count": 1
+        "text": "Develop sales strategies, collaborate with internal and external partners to achieve performance targets.",
+        "count": 4
       },
       {
-        "text": "Generate leads through private domain traffic",
-        "count": 1
+        "text": "Research industry trends, analyze customer needs, and distill replicable business scenarios.",
+        "count": 4
       },
       {
-        "text": "Expand customer base",
-        "count": 1
+        "text": "聚焦销售，有坚定的执行力，达成公司制定的目标任务和KPI考核目标",
+        "count": 4
       },
       {
-        "text": "负责医疗AI一体机产品的渠道销售",
-        "count": 1
+        "text": "面向教育行业，新客户的开拓及存量客户的深耕，挖掘行业需求，落地可复制推广的AI+教育场景",
+        "count": 2
       }
     ],
-    "responsibilities_sample_size": 5,
+    "responsibilities_sample_size": 36,
     "role_id": "sales_bd",
     "role_name": "AI 销售/商务",
     "role_description": "AI 行业销售 / BD，重点是医疗 AI / 教育 AI / 企业 AI 这种 ToB 大单——对应国内大模型公司在垂直行业的渠道下沉。",
@@ -1159,30 +1159,42 @@
     ],
     "top_majors": [
       {
-        "major": "计算机",
+        "major": "Computer Science",
         "count": 2
       },
       {
-        "major": "人工智能",
+        "major": "Artificial Intelligence",
         "count": 1
       },
       {
-        "major": "机器学习",
+        "major": "Machine Learning",
         "count": 1
       }
     ],
     "majors_sample_size": 2,
     "top_responsibilities": [
       {
-        "text": "Factor Mining",
-        "count": 1
+        "text": "分析海内外 AI 领域的发展方向，产品机会和探索商业模式，输出深入的分析报告",
+        "count": 2
       },
       {
-        "text": "Quantitative Strategy Development",
-        "count": 1
+        "text": "监测市场行业数据、竞争对手动态，对重点产品情况进行深入分析，结合腾讯业务现状协助业务寻找提升的潜在机会点",
+        "count": 2
+      },
+      {
+        "text": "统筹和监督AI产品相关用户研究项目的执行流程，确保用户研究项目产出有价值/可落地结论",
+        "count": 2
+      },
+      {
+        "text": "通过内部业务数据/用户调研/专家访谈等多种调研手段对业务关注的问题进行系统性研究并形成可落地结论，驱动产品用户增长和留存提升",
+        "count": 2
+      },
+      {
+        "text": "能够深刻洞察广告产品与推荐算法能力发展变迁过程与节奏，识别产品与技术应用机会点，跟踪竞品发展态势和能力动向，为公司高层及产品&技术团队提供洞察分析、制定各类产品策略&技术应用策略",
+        "count": 2
       }
     ],
-    "responsibilities_sample_size": 1,
+    "responsibilities_sample_size": 28,
     "role_id": "leadership",
     "role_name": "AI 管理/战略",
     "role_description": "AI 业务线 / 技术线管理岗——CTO / 技术总监 / AI 业务负责人，技术 IC 路径转管理或商业 leader 加 AI 标签。",
@@ -1278,15 +1290,27 @@
     "majors_sample_size": 0,
     "top_responsibilities": [
       {
-        "text": "Conducting tests of autonomous vehicles",
-        "count": 1
+        "text": "数据飞轮构建：主导座舱多模态大模型（VLM/LLM）的数据飞轮架构设计，构建涵盖自动抓取、智能清洗、高质量合成（Synthetic Data）及自动化评估的全链路管线",
+        "count": 2
       },
       {
-        "text": "Driving autonomous vehicles for testing purposes",
-        "count": 1
+        "text": "数据策略研发：深度参与模型后训练（SFT/DPO）策略，通过数据实验挖掘“黄金样本”，解决座舱场景下语音、视觉、车辆信号等多模态对齐的疑难杂症",
+        "count": 2
+      },
+      {
+        "text": "合成数据创新：探索利用大模型进行数据合成与增强（SDG），解决长尾场景（Corner Cases）数据稀缺问题，从源头提升模型的泛化能力",
+        "count": 2
+      },
+      {
+        "text": "大规模算力优化：基于 Ray/Spark 等框架，优化万亿级 Token 的处理效率，挑战多模态超大规模数据的计算瓶颈",
+        "count": 2
+      },
+      {
+        "text": "质量度量体系：建立数据与模型效果的强关联指标，通过自动化评测闭环，量化每一批次数据对模型“智商”的贡献",
+        "count": 2
       }
     ],
-    "responsibilities_sample_size": 1,
+    "responsibilities_sample_size": 3,
     "role_id": "autonomous",
     "role_name": "自动驾驶/智能座舱",
     "role_description": "自动驾驶 / 智能座舱垂直工程岗——OEM 主机厂 + 一级供应商主导，技能要求和大模型应用层差异极大。",
@@ -1387,7 +1411,7 @@
         "count": 1
       },
       {
-        "major": "自动化",
+        "major": "Automation / 自动化",
         "count": 1
       }
     ],
@@ -1414,7 +1438,7 @@
         "count": 1
       }
     ],
-    "responsibilities_sample_size": 2,
+    "responsibilities_sample_size": 3,
     "role_id": "smart_manufacturing",
     "role_name": "智能制造/工业AI",
     "role_description": "智能制造 / 工业 AI 垂直岗——工厂数字化、产线优化、具身智能、工业大模型，制造业产业升级方向。",
@@ -1510,8 +1534,8 @@
     },
     "top_companies": [
       "腾讯",
-      "Moonshot AI",
       "MiniMax",
+      "Moonshot AI",
       "北京深度智耀科技有限公司",
       "智谱AI"
     ],
@@ -1539,50 +1563,50 @@
     ],
     "top_majors": [
       {
-        "major": "统计学",
-        "count": 2
-      },
-      {
-        "major": "计算机",
-        "count": 2
-      },
-      {
-        "major": "数据科学",
-        "count": 1
-      },
-      {
-        "major": "数学",
-        "count": 1
-      },
-      {
         "major": "Statistics",
+        "count": 3
+      },
+      {
+        "major": "Computer Science",
+        "count": 3
+      },
+      {
+        "major": "Mathematics",
+        "count": 2
+      },
+      {
+        "major": "Data Science",
+        "count": 1
+      },
+      {
+        "major": "Engineering",
         "count": 1
       }
     ],
     "majors_sample_size": 3,
     "top_responsibilities": [
       {
-        "text": "聚焦产品解决方案全流程，搭建适配多领域、多场景的数据分析体系，输出数据洞察支撑方案设计与商业化落地决策",
-        "count": 1
+        "text": "负责数据库内核模块的架构设计和特性开发",
+        "count": 3
       },
       {
-        "text": "对外联动业务拓展部门，同步业务需求与数据诉求，通过需求拆解、数据建模、效果分析，助力方案沟通、价值验证及项目验收，提升方案转化效率",
-        "count": 1
+        "text": "持续优化云原生、主备、分布式架构下的性能、吞吐和时延",
+        "count": 3
       },
       {
-        "text": "对内协同产品、研发团队，输出LLM商业化数据分析报告支撑产品迭代优化，同步项目数据进度、交付数据标准，保障解决方案数据链路通畅与落地成效",
-        "count": 1
+        "text": "参与面向HTAP的SQL引擎开发，包括不限于查询优化器、并行执行、向量引擎的设计与优化",
+        "count": 3
       },
       {
-        "text": "Design and prototype agent-assisted analytics solutions that enhance the analysis development lifecycle (ADLC), automation, and large-scale analytics enablement.",
-        "count": 1
+        "text": "参与共享存储架构、高可用架构、日志系统的开发，包括不限于物理复制、WAL、备份恢复的设计与优化",
+        "count": 3
       },
       {
-        "text": "Apply statistical analysis, data mining, and experimentation to solve high-impact, system-level problems with real-world constraints in logistics operations and business processes.",
-        "count": 1
+        "text": "负责线上数据库实例内核相关根因诊断和问题修复",
+        "count": 3
       }
     ],
-    "responsibilities_sample_size": 2,
+    "responsibilities_sample_size": 57,
     "role_id": "data",
     "role_name": "数据分析/数据科学",
     "role_description": "数据分析 / 数据科学岗位——AI 大数据分析 / MaaS 数据运营 / AI 投资分析师，数据驱动决策导向。",
@@ -1705,7 +1729,7 @@
         "count": 1
       }
     ],
-    "responsibilities_sample_size": 4,
+    "responsibilities_sample_size": 6,
     "role_id": "ai_transformation",
     "role_name": "AI 转型/咨询",
     "role_description": "AI 业务转型 / 数字化咨询岗——AIT (AI Business Transformation) 专员、企业 AI 总监、AI 交付经理。",
@@ -1730,10 +1754,10 @@
       "智能风控经理",
       "采供内控专家（智能风控方向）",
       "AI Risk Officer(零售银行业务，一道防线)",
-      "法务（IPR & 合规）",
-      "内控经理",
-      "高级内控专家",
-      "平台风控策略产品"
+      "后端开发-智能风控方向",
+      "信贷评审-风控中台（制造加工）",
+      "风控专员",
+      "风控管培生"
     ],
     "required_skills": [
       {
@@ -1809,8 +1833,8 @@
       "腾讯",
       "Moonshot AI",
       "阿里云智能",
-      "智谱AI",
-      "MiniMax"
+      "某上海基金/证券/期货公司",
+      "智谱AI"
     ],
     "top_industries": [
       {
@@ -1836,19 +1860,19 @@
     ],
     "top_majors": [
       {
-        "major": "计算机",
+        "major": "Statistics",
         "count": 4
       },
       {
-        "major": "统计",
+        "major": "Computer Science",
+        "count": 4
+      },
+      {
+        "major": "Mathematics",
         "count": 3
       },
       {
-        "major": "数学",
-        "count": 2
-      },
-      {
-        "major": "金融",
+        "major": "Finance",
         "count": 2
       },
       {
@@ -1879,7 +1903,7 @@
         "count": 2
       }
     ],
-    "responsibilities_sample_size": 8,
+    "responsibilities_sample_size": 19,
     "role_id": "risk_compliance",
     "role_name": "AI 风控/合规",
     "role_description": "AI 风控 / 合规 / 内控岗——交易风控、采供内控、智能风控策略产品，金融与互联网风控的 AI 化方向。",
@@ -2086,8 +2110,29 @@
       }
     ],
     "majors_sample_size": 3,
-    "top_responsibilities": [],
-    "responsibilities_sample_size": 0,
+    "top_responsibilities": [
+      {
+        "text": "参与肿瘤科相关医学内容的评测、审核与标注工作",
+        "count": 1
+      },
+      {
+        "text": "基于病例信息、检查结果、诊疗建议或问答内容，对医学准确性、逻辑性及规范性进行评估",
+        "count": 1
+      },
+      {
+        "text": "对肿瘤相关内容输出专业反馈，协助优化医学内容质量",
+        "count": 1
+      },
+      {
+        "text": "按照项目标准完成任务，并参与规则校准及质量复核",
+        "count": 1
+      },
+      {
+        "text": "协同算法团队制定数据策略，跟进数据生产& 数据质量评估，助力模型效果提升",
+        "count": 1
+      }
+    ],
+    "responsibilities_sample_size": 2,
     "role_id": "medical_ai",
     "role_name": "医疗AI专岗",
     "role_description": "医疗 AI 垂直岗——医疗 AI 产品助理 / 售前 / 投标 / 项目管理，医疗器械 + AI 影像 + 医院数字化方向。",
@@ -2309,23 +2354,23 @@
     "top_majors": [
       {
         "major": "Computer Science",
-        "count": 56
+        "count": 59
       },
       {
-        "major": "linguistics",
+        "major": "Linguistics",
         "count": 30
       },
       {
-        "major": "cognitive science",
+        "major": "Cognitive Science",
         "count": 30
       },
       {
-        "major": "speech sciences",
+        "major": "Speech Sciences",
         "count": 29
       },
       {
         "major": "Engineering",
-        "count": 26
+        "count": 27
       }
     ],
     "majors_sample_size": 233,
@@ -2493,11 +2538,11 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 59
+        "major": "Computer Science",
+        "count": 61
       },
       {
-        "major": "software engineering",
+        "major": "Software Engineering",
         "count": 25
       },
       {
@@ -2505,12 +2550,12 @@
         "count": 10
       },
       {
-        "major": "Computer Engineering",
-        "count": 4
+        "major": "Mathematics",
+        "count": 5
       },
       {
-        "major": "Mathematics",
-        "count": 4
+        "major": "Electronic Engineering",
+        "count": 5
       }
     ],
     "majors_sample_size": 71,
@@ -2690,24 +2735,24 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 89
+        "major": "Computer Science",
+        "count": 88
       },
       {
         "major": "Machine Learning",
-        "count": 38
+        "count": 41
       },
       {
-        "major": "statistics",
-        "count": 28
+        "major": "Mathematics",
+        "count": 30
       },
       {
-        "major": "mathematics",
-        "count": 27
+        "major": "Statistics",
+        "count": 29
       },
       {
         "major": "Artificial Intelligence",
-        "count": 18
+        "count": 21
       }
     ],
     "majors_sample_size": 121,
@@ -2871,12 +2916,16 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 68
+        "major": "Computer Science",
+        "count": 69
       },
       {
         "major": "Data Science",
         "count": 28
+      },
+      {
+        "major": "Artificial Intelligence",
+        "count": 24
       },
       {
         "major": "Engineering",
@@ -2884,10 +2933,6 @@
       },
       {
         "major": "Statistics",
-        "count": 15
-      },
-      {
-        "major": "Machine Learning",
         "count": 15
       }
     ],
@@ -3064,7 +3109,7 @@
     "top_majors": [
       {
         "major": "Computer Science",
-        "count": 10
+        "count": 11
       },
       {
         "major": "Robotics",
@@ -3278,16 +3323,16 @@
         "count": 5
       },
       {
+        "major": "Mathematics",
+        "count": 3
+      },
+      {
         "major": "Statistics",
         "count": 3
       },
       {
         "major": "Management Information Systems",
         "count": 3
-      },
-      {
-        "major": "Operations Research",
-        "count": 2
       }
     ],
     "majors_sample_size": 13,
@@ -3643,11 +3688,11 @@
     ],
     "top_majors": [
       {
-        "major": "machine learning",
+        "major": "Machine Learning",
         "count": 11
       },
       {
-        "major": "data science",
+        "major": "Data Science",
         "count": 11
       },
       {
@@ -3835,8 +3880,8 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 39
+        "major": "Computer Science",
+        "count": 42
       },
       {
         "major": "Engineering",
@@ -4196,7 +4241,7 @@
         "count": 1
       },
       {
-        "major": "AI",
+        "major": "Artificial Intelligence",
         "count": 1
       }
     ],
@@ -4350,15 +4395,15 @@
     ],
     "top_majors": [
       {
-        "major": "finance",
+        "major": "Finance",
         "count": 6
       },
       {
-        "major": "accounting",
+        "major": "Accounting",
         "count": 6
       },
       {
-        "major": "business",
+        "major": "Business",
         "count": 3
       },
       {
@@ -4366,7 +4411,7 @@
         "count": 3
       },
       {
-        "major": "engineering",
+        "major": "Engineering",
         "count": 3
       }
     ],

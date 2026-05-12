@@ -31,6 +31,39 @@ logger = logging.getLogger(__name__)
 
 OUTPUT_DIR = Path(__file__).resolve().parent.parent.parent / "frontend" / "public" / "data"
 
+# v0.12 B1 follow-up: CN/EN synonym merging for major_requirement
+MAJOR_ALIASES_FILE = Path(__file__).resolve().parent.parent / "data" / "major_aliases.json"
+
+
+def load_major_alias_map() -> dict[str, str]:
+    """Returns lowercase-variant → canonical display name."""
+    if not MAJOR_ALIASES_FILE.exists():
+        return {}
+    raw = json.loads(MAJOR_ALIASES_FILE.read_text(encoding="utf-8"))
+    alias_map: dict[str, str] = {}
+    for canonical, variants in raw.items():
+        if canonical.startswith("_"):
+            continue
+        alias_map[canonical.lower()] = canonical
+        for v in variants:
+            alias_map[v.lower().strip()] = canonical
+    return alias_map
+
+
+MAJOR_ALIASES = load_major_alias_map()
+
+
+def canonicalize_major(raw: str) -> str:
+    """Map a raw major string to its canonical form via the alias dict.
+
+    Unknown majors pass through unchanged (still merged case-insensitively
+    by the caller's lowercase keying).
+    """
+    if not raw:
+        return raw
+    key = raw.lower().strip()
+    return MAJOR_ALIASES.get(key, raw.strip())
+
 # ── Role classification rules ──────────────────────────────────────
 # Each rule: (role_id, display_name_cn, display_name_en, title_regex_pattern)
 # Order matters — first match wins.
@@ -189,13 +222,19 @@ def build_role_profile(jobs: list[Job]) -> dict:
                 sample_titles.append(j.title)
 
         # v0.12 B1: majors / responsibilities aggregation
-        majors = [m.strip() for m in (j.major_requirement or []) if m and m.strip()]
+        # canonicalize via alias dict so "计算机" / "computer science" / "CS"
+        # all merge into "Computer Science"
+        majors = [
+            canonicalize_major(m) for m in (j.major_requirement or []) if m and m.strip()
+        ]
+        # de-dupe within a single JD (some JDs list both "计算机" and "Computer Science")
+        majors = list(dict.fromkeys(majors))
         if majors:
             majors_sample_size += 1
             for m in majors:
                 key = m.lower()
                 major_counter[key] += 1
-                # keep the first-seen original-case form for display
+                # canonical form already has nice casing — use it for display
                 major_display.setdefault(key, m)
 
         resps = [r.strip() for r in (j.responsibilities or []) if r and r.strip()]

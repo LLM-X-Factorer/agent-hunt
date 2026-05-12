@@ -167,6 +167,12 @@ class MajorRequirement(BaseModel):
     majors: list[str] = Field(default_factory=list)
 
 
+class ResponsibilitiesOnly(BaseModel):
+    """Slim output for backfill_responsibilities.py — only responsibilities."""
+
+    responsibilities: list[str] = Field(default_factory=list)
+
+
 class QualityLabels(BaseModel):
     """Slimmed-down output used by backfill_quality_labels.py.
 

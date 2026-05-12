@@ -118,23 +118,23 @@
     "top_majors": [
       {
         "major": "Computer Science",
-        "count": 56
+        "count": 59
       },
       {
-        "major": "linguistics",
+        "major": "Linguistics",
         "count": 30
       },
       {
-        "major": "cognitive science",
+        "major": "Cognitive Science",
         "count": 30
       },
       {
-        "major": "speech sciences",
+        "major": "Speech Sciences",
         "count": 29
       },
       {
         "major": "Engineering",
-        "count": 26
+        "count": 27
       }
     ],
     "majors_sample_size": 233,
@@ -286,11 +286,11 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 59
+        "major": "Computer Science",
+        "count": 61
       },
       {
-        "major": "software engineering",
+        "major": "Software Engineering",
         "count": 25
       },
       {
@@ -298,12 +298,12 @@
         "count": 10
       },
       {
-        "major": "Computer Engineering",
-        "count": 4
+        "major": "Mathematics",
+        "count": 5
       },
       {
-        "major": "Mathematics",
-        "count": 4
+        "major": "Electronic Engineering",
+        "count": 5
       }
     ],
     "majors_sample_size": 71,
@@ -467,24 +467,24 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 89
+        "major": "Computer Science",
+        "count": 88
       },
       {
         "major": "Machine Learning",
-        "count": 38
+        "count": 41
       },
       {
-        "major": "statistics",
-        "count": 28
+        "major": "Mathematics",
+        "count": 30
       },
       {
-        "major": "mathematics",
-        "count": 27
+        "major": "Statistics",
+        "count": 29
       },
       {
         "major": "Artificial Intelligence",
-        "count": 18
+        "count": 21
       }
     ],
     "majors_sample_size": 121,
@@ -632,12 +632,16 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 68
+        "major": "Computer Science",
+        "count": 69
       },
       {
         "major": "Data Science",
         "count": 28
+      },
+      {
+        "major": "Artificial Intelligence",
+        "count": 24
       },
       {
         "major": "Engineering",
@@ -645,10 +649,6 @@
       },
       {
         "major": "Statistics",
-        "count": 15
-      },
-      {
-        "major": "Machine Learning",
         "count": 15
       }
     ],
@@ -809,7 +809,7 @@
     "top_majors": [
       {
         "major": "Computer Science",
-        "count": 10
+        "count": 11
       },
       {
         "major": "Robotics",
@@ -1008,16 +1008,16 @@
         "count": 5
       },
       {
+        "major": "Mathematics",
+        "count": 3
+      },
+      {
         "major": "Statistics",
         "count": 3
       },
       {
         "major": "Management Information Systems",
         "count": 3
-      },
-      {
-        "major": "Operations Research",
-        "count": 2
       }
     ],
     "majors_sample_size": 13,
@@ -1343,11 +1343,11 @@
     ],
     "top_majors": [
       {
-        "major": "machine learning",
+        "major": "Machine Learning",
         "count": 11
       },
       {
-        "major": "data science",
+        "major": "Data Science",
         "count": 11
       },
       {
@@ -1519,8 +1519,8 @@
     ],
     "top_majors": [
       {
-        "major": "computer science",
-        "count": 39
+        "major": "Computer Science",
+        "count": 42
       },
       {
         "major": "Engineering",
@@ -1850,7 +1850,7 @@
         "count": 1
       },
       {
-        "major": "AI",
+        "major": "Artificial Intelligence",
         "count": 1
       }
     ],
@@ -1989,15 +1989,15 @@
     ],
     "top_majors": [
       {
-        "major": "finance",
+        "major": "Finance",
         "count": 6
       },
       {
-        "major": "accounting",
+        "major": "Accounting",
         "count": 6
       },
       {
-        "major": "business",
+        "major": "Business",
         "count": 3
       },
       {
@@ -2005,7 +2005,7 @@
         "count": 3
       },
       {
-        "major": "engineering",
+        "major": "Engineering",
         "count": 3
       }
     ],
