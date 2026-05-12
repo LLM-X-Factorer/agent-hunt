@@ -1,6 +1,6 @@
 # Agent Hunt — 跨会话任务清单
 
-> 最近更新：2026-05-01（v0.11.1 内容沉淀 7 篇全部交付 / v0.11 /roles 三轨上线 / issue #18 P0 完结）
+> 最近更新：2026-05-13（v0.12 C `/learn` 28 篇内容齐全 + role narrative 数字回填 / v0.12 B2+B3 五轨上线 / v0.12 B1+ ByteDance +3170 JD）
 > 本文档供新会话 onboarding 使用。每个任务包含「启动 prompt」（可直接复制粘贴给 Claude）+ 上下文 + ROI 评估。
 
 ## 全局上下文（每个新会话都需要的）
@@ -142,6 +142,26 @@ P0（27 角色画像页）已交付，业务方还没正式用过。先观察一
 ---
 
 ## 已完成（最近）
+
+### v0.12 C（2026-05-13 晚）— /learn 内容完结 + role narrative 数字回填
+
+- **`/learn` 28 篇全部交付** — issue #39 内容生产部分完结：Lv1 入门 5/5 + Lv2 职业百科 16/16（AI 岗 5 + 传统职业 8 + AI 岗补 3）+ Lv3 转岗路径 7/7 = 28 篇（原目标 20）。等业务方读完反馈 OK 再 close
+- **role_descriptions.json 数字回填**（commit 7fd24e3） — 9 处国内角色 narrative 开头「N 条」是 pre-ByteDance 数字，回填到 post-ByteDance（ai_engineer 734→1538 / algorithm 328→1054 / product_manager 439→849 / operations 197→475 / sales_bd 152→176 / leadership 144→170 / data 82→164 / risk_compliance 32→55 / other 1347→2121）。regex 替换仅改开头数字保留余下手写内容
+- **内链审计零 404** — 28 篇文章 51 个唯一内链全部 200
+- **关键写作约定（值得记住）**：每篇用不同生活类比开头（菜市场 / 拖拉机 / 发电厂 / 装电 / 老电工 / 老木匠 / 守桥老师傅 / 翻译家 / 外交官 / 驯兽师 …）+ 必带「不适合谁」reality check + 数字必须从 frontend/public/data/*.json 拉 + 诚实劝退（prompt-engineer 篇警示 LLM 标注员陷阱、finance-to-quant 篇标 12 周成功率 30%）
+
+### v0.12 B3（2026-05-13）— /learn 课本骨架 (#38 close, commit 4455d04)
+
+- 第五轨 `/learn` 课本骨架，三层结构（Lv1 / Lv2 / Lv3）+ 数据契约（gray-matter frontmatter + lib/learn.ts 文件扫描）+ 3 个 SSG 路由 + `.learn-prose` CSS 长文样式
+
+### v0.12 B2（2026-05-13）— /professions 上线 (#37 close, commit 750200a)
+
+- 第四轨 `/professions`，回答业务方「我是 X 怎么转 AI」。8 个传统职业（工程线 4 + 商科 2 + 服务 2）。A1 半数据 ship 方案（用 ai_augmented_traditional JD 反向聚合 + sample 量分层 disclaimer）
+
+### v0.12 B1+（2026-05-12）— ByteDance + 硬性要求 section (#36 close)
+
+- `/roles/[id]` 加「硬性要求」section + `major_requirement` backfill + `non_ai_traditional` enum + ByteDance vendor collector（公开 API + CDP re-enrich，+3170 JD）
+- **#34 阻塞已查明**：Boss/Liepin 反爬升级到「浏览器指纹 + 行为检测」双层，大规模采集事实上不可行
 
 ### v0.11.1（2026-05-01）— 内容沉淀 7 篇全部交付
 
