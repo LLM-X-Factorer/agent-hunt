@@ -183,7 +183,7 @@
       "neighbor_id": null,
       "summary": "混合簇，建议下一轮 P2 拆细——top_industries / sample_titles 分散度高，没有清晰的 vs 对照。"
     },
-    "narrative": "1347 条岗位的最大簇，但本质是「未匹配上其他规则」的剩余。sample title 跨度极大：从「AI 财经商业讲师」「医疗 AI 大客户经理」「智能无人车远程监控客服」到「AI 漫剧制作人」「Volcengine MaaS 技术支持」。top_companies 是腾讯 + 大模型公司，但行业分布从 internet 到 media、retail、manufacturing 都有。中位月薪 20k，对应这是各种长尾岗位的混合，参考价值在于看趋势——AI 标签正在向多种传统岗位渗透。建议 P2 阶段进一步拆出「AI 内容创作」「行业 AI 渗透」「AI 技术支持」等子簇。",
+    "narrative": "2121 条岗位的最大簇，但本质是「未匹配上其他规则」的剩余。sample title 跨度极大：从「AI 财经商业讲师」「医疗 AI 大客户经理」「智能无人车远程监控客服」到「AI 漫剧制作人」「Volcengine MaaS 技术支持」。top_companies 是腾讯 + 大模型公司，但行业分布从 internet 到 media、retail、manufacturing 都有。中位月薪 20k，对应这是各种长尾岗位的混合，参考价值在于看趋势——AI 标签正在向多种传统岗位渗透。建议 P2 阶段进一步拆出「AI 内容创作」「行业 AI 渗透」「AI 技术支持」等子簇。",
     "who_fits": "目前看不出清晰画像；如果你的目标岗位在 sample_titles 里出现，可以进一步看具体 JD。",
     "who_doesnt": "想找清晰画像 / 对标路径的人——建议先回到 ai_engineer / product_manager / operations 这种明确簇。"
   },
@@ -375,7 +375,7 @@
       "neighbor_id": "algorithm",
       "summary": "用模型 vs 造模型——这岗写 model.invoke(prompt)，algorithm 写 loss.backward()。"
     },
-    "narrative": "734 条岗位里，标题最高频的是「AI Agent 工程师 / Agent 平台研发」，腾讯、智谱、MiniMax、Moonshot、百川五家 top 公司挂的几乎全是 Agent + RAG 应用层的位置。这条线不要求你会训模型，但必须熟 LangChain / AutoGen 至少一套框架，能从 0 拉起一个能上线跑的 Agent 工作流；面试代码题往往是「设计一个多 Agent 协作流」而不是手撕 Transformer。中位月薪 32.5k、3 年经验中位入门，比国内整体 AI 岗位中位（27.5k）高一档，是工程实战门槛兑现溢价的位置。",
+    "narrative": "1538 条岗位里，标题最高频的是「AI Agent 工程师 / Agent 平台研发」，腾讯、智谱、MiniMax、Moonshot、百川五家 top 公司挂的几乎全是 Agent + RAG 应用层的位置。这条线不要求你会训模型，但必须熟 LangChain / AutoGen 至少一套框架，能从 0 拉起一个能上线跑的 Agent 工作流；面试代码题往往是「设计一个多 Agent 协作流」而不是手撕 Transformer。中位月薪 32.5k、3 年经验中位入门，比国内整体 AI 岗位中位（27.5k）高一档，是工程实战门槛兑现溢价的位置。",
     "who_fits": "之前做后端 / 全栈 / NLP 应用、半年内做过能写到简历的 Agent 或 RAG 项目、对 LLM 调用栈有手感的人。",
     "who_doesnt": "完全没碰过 LLM 调用、只会传统 CRUD 后端的人——这条线现在岗多但卡简历的「AI 项目经验」门槛清晰，没产出物投了基本沉。"
   },
@@ -554,7 +554,7 @@
       "neighbor_id": "ai_engineer",
       "summary": "动模型权重 vs 拼模型应用——algorithm 改 loss / 调超参，ai_engineer 拼 prompt / 接 API。"
     },
-    "narrative": "328 条岗位的 sample title 里，「自动驾驶算法 / 图像算法 / 算法工程师」占主流，公司多是腾讯、智谱、MiniMax、Moonshot、百川这种自有训练资源的大厂或大模型创业公司。技能信号清晰：PyTorch / TensorFlow 必须会一套，NLP / fine-tuning / RL 知识深度比 ai_engineer 这条线高一档。这是国内 AI 岗位里最像「研究 + 工程混合」的一条，初级岗依然要求「会训不只会调」，简历里没有论文 / 比赛 / 训练实战很难拿面试。",
+    "narrative": "1054 条岗位的 sample title 里，「自动驾驶算法 / 图像算法 / 算法工程师」占主流，公司多是腾讯、智谱、MiniMax、Moonshot、百川这种自有训练资源的大厂或大模型创业公司。技能信号清晰：PyTorch / TensorFlow 必须会一套，NLP / fine-tuning / RL 知识深度比 ai_engineer 这条线高一档。这是国内 AI 岗位里最像「研究 + 工程混合」的一条，初级岗依然要求「会训不只会调」，简历里没有论文 / 比赛 / 训练实战很难拿面试。",
     "who_fits": "ML / DL 科班出身、有 paper 或竞赛 / 公开模型实战的人；硕博背景在这条线明显有优势。",
     "who_doesnt": "只用过现成 API 没自己训过模型的人；这条线和 ai_engineer 看似都叫「AI 工程师」，但代码能力评估方式完全不同。"
   },
@@ -747,7 +747,7 @@
       "neighbor_id": "operations",
       "summary": "PM 决定「做什么」，运营负责「做出来跑通跑快」——PM 看商业 ROI，运营看 DAU / 调优指标。"
     },
-    "narrative": "439 条岗位里，「AI 策略产品经理 / AI 产品经理 / 智能座舱 PM」是高频标题，top 公司是腾讯、字节、智谱、Moonshot。和传统互联网 PM 最大的差别是：必须能用 LLM 思维设计产品流程——什么任务该用大模型、什么任务该用规则、Prompt 怎么写、Agent 怎么编排、评测指标怎么设。中位月薪 35k、3 年经验中位，看简历卡的是「AI 项目从 0 到 1 的实操经验」，不是 PM 通用 SOP；这个中位甚至比 ai_engineer 的 32.5k 还高，反映 AI PM 在大模型公司里被定位为关键岗位。",
+    "narrative": "849 条岗位里，「AI 策略产品经理 / AI 产品经理 / 智能座舱 PM」是高频标题，top 公司是腾讯、字节、智谱、Moonshot。和传统互联网 PM 最大的差别是：必须能用 LLM 思维设计产品流程——什么任务该用大模型、什么任务该用规则、Prompt 怎么写、Agent 怎么编排、评测指标怎么设。中位月薪 35k、3 年经验中位，看简历卡的是「AI 项目从 0 到 1 的实操经验」，不是 PM 通用 SOP；这个中位甚至比 ai_engineer 的 32.5k 还高，反映 AI PM 在大模型公司里被定位为关键岗位。",
     "who_fits": "互联网 PM 转型、有过 LLM 产品落地经验、能讲清楚一个 Agent 产品的功能边界 + 评测方式 + ROI 模型的人。",
     "who_doesnt": "只懂传统 SaaS / 增长 PM 方法论、对 LLM 能力上限没手感的人——只会喊「智能化」但说不出技术约束的 PM 这两年很难拿到 offer。"
   },
@@ -929,7 +929,7 @@
       "neighbor_id": "product_manager",
       "summary": "拿到的是已上线产品 + 数据 vs 决定产品方向——这条线不参与 PRD，但 Prompt 与评测调优是核心。"
     },
-    "narrative": "197 条岗位里，「AI 训练师 / AIGC 运营 / MaaS 平台运营 / 智能客服运营」是主流，腾讯、MiniMax、智谱、Moonshot 都在大量招。和传统互联网运营的核心差别：必须能调 Prompt、跑评测、看模型输出指标，不只是写文案投放。这条线对学历宽松、对工具熟练度要求高，是 AI 行业里入门门槛最低的非技术岗之一，但天花板也相对较低（中位 ~22.5k），适合做转型跳板而不是终点。",
+    "narrative": "475 条岗位里，「AI 训练师 / AIGC 运营 / MaaS 平台运营 / 智能客服运营」是主流，腾讯、MiniMax、智谱、Moonshot 都在大量招。和传统互联网运营的核心差别：必须能调 Prompt、跑评测、看模型输出指标，不只是写文案投放。这条线对学历宽松、对工具熟练度要求高，是 AI 行业里入门门槛最低的非技术岗之一，但天花板也相对较低（中位 ~22.5k），适合做转型跳板而不是终点。",
     "who_fits": "做过内容 / 数据运营、能熟练调 Prompt、对模型输出有「质量直觉」、愿意跑数据看指标的人。",
     "who_doesnt": "只想写文案不想看数据、对工具上手有抵触的人——这条线天花板取决于你能不能把运营做出工程化感。"
   },
@@ -1071,7 +1071,7 @@
       "neighbor_id": "ai_transformation",
       "summary": "拿单 vs 交付——sales_bd 签合同走渠道，ai_transformation 进客户做项目。"
     },
-    "narrative": "152 条岗位里，「医疗 AI 销售 / 智能教育装备销售 / 企业 AI BD」占主流，top 公司腾讯、智谱、51WORLD 都在招。这条线的本质是「行业销售 + AI 概念加成」——客户买的是 AI 解决方案，但拿单核心仍是行业资源 + 大客户关系，所以 sample title 里大量出现「省区销售 / 大客户经理」。中位 22.5k 但 p75 到 45k，提成结构差异大，做得好和做得差能差一倍。",
+    "narrative": "176 条岗位里，「医疗 AI 销售 / 智能教育装备销售 / 企业 AI BD」占主流，top 公司腾讯、智谱、51WORLD 都在招。这条线的本质是「行业销售 + AI 概念加成」——客户买的是 AI 解决方案，但拿单核心仍是行业资源 + 大客户关系，所以 sample title 里大量出现「省区销售 / 大客户经理」。中位 22.5k 但 p75 到 45k，提成结构差异大，做得好和做得差能差一倍。",
     "who_fits": "在医疗 / 教育 / 制造行业有过 ToB 销售经验、能讲清楚 AI 产品如何嵌入客户流程的人。",
     "who_doesnt": "技术销售出身但没有具体行业资源的人——AI 概念是溢价加分项，不是核心拿单逻辑。"
   },
@@ -1206,7 +1206,7 @@
       "neighbor_id": "ai_transformation",
       "summary": "管团队带 KPI vs 跑项目交方案——leadership 长期负责一条线，ai_transformation 项目制结束就走。"
     },
-    "narrative": "144 条岗位里，标题分两类：一类是技术 leader（AI 架构师 / 技术总监 / CTO），一类是业务 leader（AI 智慧医疗负责人 / Risk Control Director）。中位月薪 48.75k，p75 到 81k——是国内本数据集里中位最高的一类岗位。5 年经验中位入门，但实际看简历卡的是带过团队 + 在某个细分赛道（医疗 / 教育 / 风控 / 大模型 infra）有过完整 P&L 经验的人。",
+    "narrative": "170 条岗位里，标题分两类：一类是技术 leader（AI 架构师 / 技术总监 / CTO），一类是业务 leader（AI 智慧医疗负责人 / Risk Control Director）。中位月薪 48.75k，p75 到 81k——是国内本数据集里中位最高的一类岗位。5 年经验中位入门，但实际看简历卡的是带过团队 + 在某个细分赛道（医疗 / 教育 / 风控 / 大模型 infra）有过完整 P&L 经验的人。",
     "who_fits": "在 AI 或某个垂直行业有 5 年以上经验、带过 5 人以上团队、能拿出可量化业务结果的人。",
     "who_doesnt": "纯技术 IC 没有任何带人 / 带项目经验的人——这条线靠协调能力和行业沉淀，不靠代码量。"
   },
@@ -1375,7 +1375,7 @@
       "neighbor_id": "operations",
       "summary": "看数据出洞察 vs 执行运营 SOP——data 输出报告与策略，operations 跑日常运营动作。"
     },
-    "narrative": "82 条岗位里，sample title 跨度大：从「AI 大数据分析师」「豆包大模型数据分析」到「投资分析师 AI 赛道」。top 公司腾讯、Moonshot、MiniMax、智谱表明大模型公司也在招传统数据分析岗。中位月薪 35k 但样本量小（25），p25 到 p75 跨度从 15k 到 65k 极大，反映出标题相同但实际能力要求差异极大——既有偏运营的 BI 分析，也有偏 ML 的数据科学家。",
+    "narrative": "164 条岗位里，sample title 跨度大：从「AI 大数据分析师」「豆包大模型数据分析」到「投资分析师 AI 赛道」。top 公司腾讯、Moonshot、MiniMax、智谱表明大模型公司也在招传统数据分析岗。中位月薪 35k 但样本量小（25），p25 到 p75 跨度从 15k 到 65k 极大，反映出标题相同但实际能力要求差异极大——既有偏运营的 BI 分析，也有偏 ML 的数据科学家。",
     "who_fits": "SQL / Python / 数据分析基本功扎实、在某个业务领域有数据驱动决策经验的人。",
     "who_doesnt": "只会做仪表盘 BI、没建过模型 / 没有业务洞察输出能力的人——AI 公司招数据岗看「数据驱动决策」证据。"
   },
@@ -1919,7 +1919,7 @@
       "neighbor_id": "data",
       "summary": "风控领域专精 vs 通用数据分析——risk_compliance 看欺诈识别 / 反洗钱规则，data 看业务通用指标。"
     },
-    "narrative": "32 条岗位里，「智能风控经理 / 交易风控 / 内控经理」是主流，finance 和 internet 行业各 10 条。技能栈以 SQL + Python + 数据分析为主，加上 Coze / Dify 这类低代码 Agent 工具——反映出这条线在「策略产品 + Agent 自动化」的混合方向。中位月薪 22.5k，5 年经验中位，是垂直业务岗位在 AI 时代的演化版本，门槛取决于行业经验。",
+    "narrative": "55 条岗位里，「智能风控经理 / 交易风控 / 内控经理」是主流，finance 和 internet 行业各 10 条。技能栈以 SQL + Python + 数据分析为主，加上 Coze / Dify 这类低代码 Agent 工具——反映出这条线在「策略产品 + Agent 自动化」的混合方向。中位月薪 22.5k，5 年经验中位，是垂直业务岗位在 AI 时代的演化版本，门槛取决于行业经验。",
     "who_fits": "金融 / 互联网风控背景、熟规则引擎和数据分析、对 Coze / Dify 类工具感兴趣的人。",
     "who_doesnt": "纯 AI 工程背景、没碰过具体风控业务规则的人——这条线靠业务规则积累，AI 是自动化工具。"
   },
