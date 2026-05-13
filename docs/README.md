@@ -22,6 +22,8 @@ Agent Hunt 平台本身（数据采集、解析、分析）的技术决策与策
 | 文件 | 内容 |
 |---|---|
 | [domestic-scraping-strategy.md](agent-hunt/domestic-scraping-strategy.md) | 国内招聘平台采集策略（多层递进：手动 → 插件 → Playwright → API 逆向） |
+| [next-tasks.md](agent-hunt/next-tasks.md) | 跨会话任务清单 + 启动 prompt，每阶段完成后更新 |
+| v012-b1-handoff.md / v012-b2-handoff.md / v012-c-handoff.md | v0.12 各阶段交接 prompt（B1 硬性要求 / B2 professions / C 学习内容） |
 
 ---
 
@@ -31,12 +33,14 @@ Agent Hunt 平台本身（数据采集、解析、分析）的技术决策与策
 
 | 文件 | 内容 |
 |---|---|
-| [产品手册-运营版.md](operations/产品手册-运营版.md) | 一句话定位 + 数据来源 + 三轨用法 + 5 论断逐条解读 + 话术 + 反例 + 11 条常见误用 |
+| [产品手册-运营版.md](operations/产品手册-运营版.md) | 一句话定位 + 数据来源 + 五轨用法 + 5 论断逐条解读 + 话术 + 反例 + 11 条常见误用 |
 | [网站使用-图文版.md](operations/网站使用-图文版.md) | 16 张 desktop 截图 + 每页"怎么读" + 速查表 + 上线前自测清单 |
 | [pdf/](operations/pdf/) | 同名 PDF（11 页 + 31 页，pandoc + Chrome headless 生成） |
 | [screenshots/](operations/screenshots/) | 16 张线上截图（首页 / narrative 列表 + p1-p5 / roles 国内+海外 / role 详情 / 7 数据看板） |
 
 **重新生成 PDF**：`bash scripts/build-docs-pdf.sh`（改完 markdown 后跑一次）
+
+⚠️ **现状（2026-05-13）**：截图与文案仍是 v0.11 三轨时期。v0.12 已升级到五轨（加 /professions + /learn），运营文档下次更新需补这两轨的章节 + 截图。
 
 ---
 

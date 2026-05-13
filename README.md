@@ -6,9 +6,16 @@
 
 ## 这是什么
 
-Agent Hunt 采集国内外主流招聘平台的 AI 相关岗位 JD，通过 Gemini API 进行结构化解析（含行业分类），生成**技能图谱**、**跨市场对比**、**行业 AI 渗透分析**和**个性化学习路径**。
+Agent Hunt 采集国内外主流招聘平台的 AI 相关岗位 JD，通过 OpenRouter（默认 `deepseek/deepseek-v3.2-exp`）进行结构化解析（含行业 / role_type / 传统职业分类），生成**叙事手册（5 论断）**、**27 角色画像**、**8 传统职业 AI 转型路径**、**28 篇课本**和**7 数据看板**。
 
 不靠猜，靠数据。不看单一市场，看全球。不看单一行业，看全景。
+
+**五轨结构（v0.12 C，2026-05-13）**：
+- 📖 `/narrative` 5 论断 + 真实 JD 例子
+- 🧭 `/roles` 27 角色簇（domestic 15 + intl 12）
+- 🧱 `/professions` 8 传统职业 → AI 转型路径
+- 📚 `/learn` 三层课本 28 篇（入门 5 + 职业百科 16 + 转岗路径 7）
+- 📊 数据看板 7 页（深度查询）
 
 ## 为什么需要这个
 
@@ -32,9 +39,9 @@ Agent Hunt 解决的问题：**用真实 JD 数据，消除信息差**。
 | 国际 | Wellfound、Glassdoor | Tier 2 |
 | 远程 | RemoteOK、We Work Remotely | Tier 3 |
 
-### AI 驱动的 JD 解析
-- Gemini API 驱动的中英双语 JD 结构化解析
-- 自动提取：技能要求、薪资范围、经验门槛、工作模式
+### LLM 驱动的 JD 解析
+- OpenRouter (`deepseek/deepseek-v3.2-exp`) 驱动的中英双语 JD 结构化解析（v0.9 起从 Gemini 切换，原因：OpenRouter 上 Gemini ToS 全失败）
+- 自动提取：技能要求、薪资范围、经验门槛、工作模式、行业、role_type、传统职业
 - 多语言技能归一化（大模型 = LLM、朗链 = LangChain）
 
 ### 跨市场对比分析（核心差异化）
@@ -55,7 +62,10 @@ Agent Hunt 解决的问题：**用真实 JD 数据，消除信息差**。
 
 ## 国内就业市场分析
 
-> 基于 1513 条国内 JD 的岗位聚类分析。数据来源：Boss直聘、猎聘、拉勾。
+> ⚠️ 下面的角色画像数字是 v0.7 / v0.8 时期快照（约 1500 条 JD），仅作产品方向示意。
+> **最新数据（含 ByteDance + Tencent 共 ~6900 条国内 parsed JD）请看在线 [/roles](https://agent-hunt.pages.dev/roles) 27 角色页**或 `frontend/public/data/role-profiles.json`。
+
+> 基于 1513 条国内 JD 的岗位聚类分析（v0.7 快照）。数据来源：Boss直聘、猎聘、拉勾。
 > 按 job title 关键词聚类为 14 种典型角色，覆盖率 82%。
 
 ### 国内岗位全景
@@ -165,7 +175,10 @@ Agent Hunt 解决的问题：**用真实 JD 数据，消除信息差**。
 
 ## 海外就业市场分析
 
-> 基于 507 条海外 JD 的岗位聚类分析。数据来源：LinkedIn、Indeed。
+> ⚠️ 下面的角色画像数字是 v0.7 / v0.8 时期快照（约 500 条 JD），仅作产品方向示意。
+> **最新数据（含 vendor ATS + HN WIH + GitHub hiring 共 ~5500 条海外 parsed JD）请看在线 [/roles](https://agent-hunt.pages.dev/roles) 27 角色页**。
+
+> 基于 507 条海外 JD 的岗位聚类分析（v0.7 快照）。数据来源：LinkedIn、Indeed。
 > 按 job title 关键词聚类为 11 种典型角色，覆盖率 84%。
 
 ### 海外岗位全景
@@ -288,11 +301,12 @@ Agent Hunt 解决的问题：**用真实 JD 数据，消除信息差**。
 
 | 层 | 技术 |
 |---|---|
-| 后端 | Python 3.11 · FastAPI · SQLAlchemy 2.0 (async) · Celery |
-| 前端 | Next.js 16 · Tailwind · shadcn/ui · Recharts · Cloudflare Pages |
-| AI | Gemini API (gemini-2.5-flash) · pgvector · 多语言技能归一化 |
-| 数据采集 | Playwright · Chrome Extension · 策略模式 + 注册表模式 |
-| 基础设施 | PostgreSQL 16 · Redis 7 · Docker Compose |
+| 后端 | Python 3.11 · FastAPI · SQLAlchemy 2.0 (async + asyncpg) · Celery |
+| 前端 | Next.js 16 · Tailwind · shadcn/ui · Recharts · Cloudflare Pages（静态导出） |
+| LLM | **OpenRouter `deepseek/deepseek-v3.2-exp`**（默认）via `openai` SDK · 多语言技能归一化 |
+| 数据采集 | Playwright · 公开 JSON API（Tencent / ByteDance / HN / GitHub）· vendor ATS（Greenhouse + Ashby）· Chrome Extension（辅助手动）· 策略模式 + 注册表模式 |
+| 基础设施 | **生产 = Supabase Postgres 17（ap-southeast-2）** · 本地 dev = Docker Compose PostgreSQL 16 · Redis 7 |
+| CI/CD | **GitHub Actions**：`weekly-refresh.yml` 周日 02:00 UTC export+deploy + `collect-data.yml` 手动 trigger |
 
 ## 项目结构
 
@@ -357,8 +371,8 @@ git clone <repo-url>
 cd agent-hunt
 
 # 1. 启动基础设施
-cp .env.example .env          # 填入 Gemini API Key
-docker compose up -d
+cp .env.example .env          # 填入 AH_OPENROUTER_API_KEY（生产用 Supabase 时设 AH_DATABASE_URL_OVERRIDE）
+docker compose up -d           # 仅本地 dev 用
 
 # 2. 安装后端依赖
 cd backend && uv venv --python 3.11 .venv && uv pip install -e ".[dev]"
@@ -384,7 +398,7 @@ GET  /health                              — 健康检查
 POST /api/v1/jobs/import                  — 导入单条 JD
 POST /api/v1/jobs/import/batch            — 批量导入（最多 100 条）
 POST /api/v1/jobs/collect                 — 触发平台采集（采集 → 导入 → 自动解析）
-POST /api/v1/jobs/parse/batch             — 批量 Gemini 解析
+POST /api/v1/jobs/parse/batch             — 批量 LLM 解析
 GET  /api/v1/jobs                         — 职位列表（分页 + 筛选）
 GET  /api/v1/jobs/{id}                    — 职位详情
 POST /api/v1/jobs/{id}/parse              — 单条解析
@@ -452,36 +466,42 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 ## 项目状态
 
-积极开发中 — **v0.8 数据扩张完成**（5980 jobs / 1392 salary reports / 718 applicant profiles），就业班产品设计完成，衍生产品 aijobfit 已 spin off
+**v0.12 C 完结（2026-05-13）**：五轨上线 — 叙事手册 5 论断 + 27 角色画像 + 8 传统职业 → AI 转型 + 28 篇课本 + 7 数据看板。完全云端化（Supabase + GitHub Actions 周更）。
 
-**在线体验：https://agent-hunt.pages.dev**（v0.7 数据，v0.8 待重新部署）
+**数据规模（截至 2026-05-13）**：~9,690 jobs 总（含 ByteDance +3170）/ 1392 salary reports / 718 applicant profiles / 23 platforms。median salary: 国内 27.5k / 海外 72.5k CNY/月。
 
-> 🗺️ **后续任务清单与启动 prompt** → [`docs/agent-hunt/next-tasks.md`](docs/agent-hunt/next-tasks.md)
+**在线体验：https://agent-hunt.pages.dev**（v0.12 C 已部署）
+
+> 🗺️ **跨会话任务清单与启动 prompt** → [`docs/agent-hunt/next-tasks.md`](docs/agent-hunt/next-tasks.md)
+> 📋 **技术决策与项目细则** → [`CLAUDE.md`](CLAUDE.md)
+> 🧠 **历史进展时间线** → memory `project_status.md`
 
 | Phase | 内容 | 状态 |
 |---|---|---|
-| 1 | 数据采集管道 + 5 平台采集器（LinkedIn/Indeed/猎聘/Boss直聘/拉勾） | **已完成** ✅ |
-| 2 | 跨市场分析引擎（技能归一化、薪资分析、技能共现） | **已完成** ✅ |
-| 3 | 前端 7 页 + AI 洞察 + 岗位画像 + 学习路径 | **已完成** ✅ |
-| 4 | 行业维度扩展（13 行业分类 + 关键词矩阵 + 行业分析页面） | **已完成** ✅ |
-| 5 | AI 洞察报告 + 跨行业数据扩充（2370 条 JD） | **已完成** ✅ |
-| 6 | 角色聚类分析 + 分市场独立分析 + SCI 评分模型 | **已完成** ✅ |
-| v0.7 | JD 解析提速 8 倍（async + 并发）+ AIGC 关键词扩充 + 712 条解析完 | **已完成** ✅ |
-| **v0.8** | **数据源大扩张**：vendor ATS（OpenAI/Anthropic/xAI/Cohere/DeepMind 1532）+ HN Who is Hiring（1365）+ nowcoder applicant profiles（718）+ levels.fyi CN 大厂薪资爆料（1392，含 13 家国内大厂） | **已完成** ✅ |
-| 7 | 待办：GitHub hiring repos / 一亩三分地 / 国内 LLM 厂商 / AI 原生标签 / 月度快照定时任务 | **进行中** 🚀 |
+| 1-6 | 数据采集 + 跨市场分析 + 前端 7 页 + 行业扩展 + AI 洞察报告 + 角色聚类 | **已完成** ✅ |
+| v0.7-v0.8 | JD 解析提速 + 数据源大扩张（vendor ATS 1532 + HN WIH 1365 + nowcoder 718 + levels.fyi 1392） | **已完成** ✅ |
+| v0.9 | 叙事手册 5 论断 + currency normalization 防呆（salary_mid_cny_monthly） | **已完成** ✅ |
+| v0.10 | 云端化（Supabase Postgres 17 + GitHub Actions）+ 腾讯 vendor 1049 + role_type backfill 92% labeled | **已完成** ✅ |
+| v0.11 | `/roles` 27 角色画像（手写 6 字段 × 27）+ 三轨架构 + 数据切片 + 运营文档 | **已完成** ✅ |
+| **v0.12 B1+** | ByteDance vendor +3170 + 「硬性要求」section + `non_ai_traditional` enum | **已完成** ✅ |
+| **v0.12 B2** | 第四轨 `/professions` 8 传统职业 → AI 转型路径 | **已完成** ✅ |
+| **v0.12 B3+C** | 第五轨 `/learn` 三层课本（28 篇）+ 课本内容生产 | **已完成** ✅ |
+| 7+ | 观察期：等 aijobfit + 就业班业务方反馈再补 issue #18 P1 / P2 / 国内剩 5 大厂 | **进行中** 🚀 |
 | — | 就业班产品设计 v1.0（4 主线矩阵 + 12 周陪跑 + 30×3800 商业模型） | **已完成** ✅ |
-| — | 衍生产品 [aijobfit](https://github.com/LLM-X-Factorer/aijobfit)（免费 AI 求职定位诊断 + 加微信漏斗） | **v0.1 已上线** 🚀 |
-| — | 内容运营：基于数据洞察的自媒体内容（X/小红书/公众号） | **进行中** 🚀 |
+| — | 衍生产品 [aijobfit](https://github.com/LLM-X-Factorer/aijobfit)（免费 AI 求职定位诊断 + 加微信漏斗） | **已上线** 🚀 |
+| — | 内容运营：基于数据洞察的自媒体内容（7 篇全部交付，等用户发布） | **等发布** 🚀 |
 
 ### 已确认不可达数据源
 
-下面 3 个数据源已 spike 失败，**不要再尝试**（详见 next-tasks.md）：
+下面 5 个数据源已 spike 失败，**不要再尝试**（详见 next-tasks.md）：
 
 | 数据源 | 状态 | 原因 |
 |---|---|---|
 | 看准爆料板（kanzhun.com） | 死 | 平台已下线（renderStatus: fail），firm/wage 强制跳 Boss 登录 |
 | OfferShow 公开 API | 浅 | search_salary_list 仅返回校招清单元数据，逐条字段在 VIP + PDF 后面 |
-| 脉脉工资 | 难 | 反爬重 + 强登录，issue #15 也标「放后期」 |
+| 脉脉工资 | 难 | 反爬重 + 强登录 |
+| 一亩三分地 | 浅 | CF 可过，但 fid=237 工资板积分门槛 200，匿名拿不到 candidate 画像 |
+| **Boss/Liepin 大规模采集（#34）** | **死** | **反爬升级到浏览器指纹 + 行为检测双层，CDP attach 撑不过 ~20 条 sequential，Liepin 触发 SMS** |
 
 ### 衍生产品：AIJobFit
 
@@ -503,7 +523,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 - [x] 种子数据（50 技能 + 100+ 别名映射 + 10 个平台元数据）
 - [x] 配置管理（pydantic-settings + .env.example）
 - [x] 手动导入服务（JSON 导入 + 去重）
-- [x] JD 解析服务（Gemini API 中英双语结构化解析）
+- [x] JD 解析服务（LLM 中英双语结构化解析；最初 Gemini API，v0.9 起切 OpenRouter）
 - [x] REST API（import / collect / list / detail / parse / batch-parse / platforms）
 - [x] BaseCollector 抽象类 + CollectorRegistry 注册表
 - [x] 采集 API 端点（`POST /api/v1/jobs/collect`，采集 → 导入 → 自动解析）
@@ -517,7 +537,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 - [x] Boss直聘 Playwright 采集器（Cookie + 薪资字体解密）
 - [x] 拉勾 Playwright 采集器（Cookie + 滑块验证绕过）
 - [x] Cookie 导出工具（`scripts/export_cookies.py`）
-- [x] 全部 JD 已 Gemini 结构化解析（含行业分类）
+- [x] 全部 JD 已 LLM 结构化解析（含行业分类）
 
 ### Phase 2 完成总结
 
@@ -543,7 +563,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 **前端 Dashboard ✅** （Next.js 16 + Tailwind + shadcn/ui + Recharts）
 - [x] 5 个页面：总览、技能图谱、薪资分析、市场差异、岗位画像
 - [x] 中文界面 + Cloudflare Pages 静态部署
-- [x] Gemini AI 生成的市场洞察（每页顶部）
+- [x] LLM 生成的市场洞察（每页顶部）
 - [x] JD 样本展示（点击技能查看真实 JD 摘要）
 - [x] 3 个岗位画像（国内/国际/远程）
 - [x] 4 条学习路径推荐（Python 转型、前端转型、应届生、出海）
@@ -553,7 +573,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 **行业维度扩展 ✅**
 - [x] Job 模型新增 `industry` 字段 + Alembic 迁移 002
-- [x] Gemini 解析自动识别 12 个行业（互联网/金融/医疗/制造/汽车/零售/教育/媒体/咨询/能源/通信/政府）
+- [x] LLM 解析自动识别 12 个行业（互联网/金融/医疗/制造/汽车/零售/教育/媒体/咨询/能源/通信/政府）
 - [x] 499 条 JD 重新解析并标注行业
 - [x] 行业分析 API 端点（`/analysis/industry/overview`、`/analysis/industry/salary`）
 - [x] 前端行业分析页面（行业岗位分布图 + 薪资对比 + 行业卡片）
@@ -564,7 +584,7 @@ Layer 4: 移动端 API 抓包（反爬可能更弱）
 
 **AI 洞察报告 + 数据扩充 ✅**
 - [x] 跨行业关键词矩阵采集（50+ 关键词），数据从 521 → 2370 条 JD
-- [x] AI 市场洞察报告（`/report` 页面，Gemini 生成 5 个章节）
+- [x] AI 市场洞察报告（`/report` 页面，LLM 生成 5 个章节）
   - 全景概览、行业深度分析、跨界求职指南、趋势判断、核心发现
 - [x] 报告生成脚本（`scripts/generate_report.py`）
 - [x] 前端 8 个页面全部上线
