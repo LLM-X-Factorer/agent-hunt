@@ -1,5 +1,139 @@
 {
   "p1_p2_industries": {
+    "consulting": [
+      {
+        "title": "智能风控经理",
+        "company": "俊择(厦门)管理顾问有限公司",
+        "location": "广州-天河区",
+        "salary_min": 20000,
+        "salary_max": 40000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Risk Management Theory",
+          "Excel",
+          "Quantitative Statistical Analysis Software",
+          "Securities Market Regulations",
+          "Financial Regulations"
+        ],
+        "preferred_skills": [
+          "FRM",
+          "CFA",
+          "CPA",
+          "VBA",
+          "MATLAB",
+          "Python"
+        ],
+        "responsibilities": [
+          "参与制定公司市场风险管理政策和制度、流程",
+          "协助总部构建全面风险管理体系，组织构建市场风险管理系统，建立及运用风险量化模型，定期检视更新计量模型",
+          "组织日常市场风险监控工作，结合公司情况建立关键市场风险监控指标，分析内外部环境变化对公司整体及业务的影响，并进行检测、报告，跟踪处理业务风险事件"
+        ],
+        "base_profession": "金融风控经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1978318987.shtml"
+      },
+      {
+        "title": "AI Customer Acquisition / Private Domain Traffic Generation",
+        "company": "深圳市嘉天润信息咨询",
+        "location": "Shenzhen",
+        "salary_min": 17000,
+        "salary_max": 30000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 17000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Customer Acquisition",
+          "Private Domain Traffic"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "Utilize AI for customer acquisition",
+          "Generate leads through private domain traffic",
+          "Expand customer base"
+        ],
+        "base_profession": "销售",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/530a7504bf17ec510nZ52N69FFVQ.html"
+      },
+      {
+        "title": "AI Doubao Qwen Content Push (Financial Advisor)",
+        "company": "同登彼岸信息咨询",
+        "location": "杭州",
+        "salary_min": 11000,
+        "salary_max": 22000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 11000,
+        "salary_max_cny_monthly": 22000,
+        "experience_requirement": "fresh",
+        "education": "any",
+        "work_mode": "onsite",
+        "required_skills": [
+          "LLM",
+          "Doubao",
+          "Qwen",
+          "Financial Advisory"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "金融顾问",
+        "platform_id": "boss_zhipin",
+        "source_url": "https://www.zhipin.com/job_detail/54af643d949c34df0nZ529i8F1tS.html"
+      },
+      {
+        "title": "PMO 项目管理专家",
+        "company": "某知名公司",
+        "location": "杭州",
+        "salary_min": 27000,
+        "salary_max": 45000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 27000,
+        "salary_max_cny_monthly": 45000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Digital Transformation",
+          "Supply Chain Optimization",
+          "Project Management"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "项目管理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72602665.shtml"
+      },
+      {
+        "title": "数字化专家 - 智能制造方向",
+        "company": "某知名公司",
+        "location": "上海",
+        "salary_min": 40000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 40000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Digital Transformation",
+          "Smart Manufacturing"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "制造工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71671027.shtml"
+      }
+    ],
     "finance": [
       {
         "title": "智能风控平台产品",
@@ -170,140 +304,6 @@
         "source_url": "https://www.liepin.com/a/72578295.shtml"
       }
     ],
-    "consulting": [
-      {
-        "title": "智能风控经理",
-        "company": "俊择(厦门)管理顾问有限公司",
-        "location": "广州-天河区",
-        "salary_min": 20000,
-        "salary_max": 40000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 40000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Risk Management Theory",
-          "Excel",
-          "Quantitative Statistical Analysis Software",
-          "Securities Market Regulations",
-          "Financial Regulations"
-        ],
-        "preferred_skills": [
-          "FRM",
-          "CFA",
-          "CPA",
-          "VBA",
-          "MATLAB",
-          "Python"
-        ],
-        "responsibilities": [
-          "参与制定公司市场风险管理政策和制度、流程",
-          "协助总部构建全面风险管理体系，组织构建市场风险管理系统，建立及运用风险量化模型，定期检视更新计量模型",
-          "组织日常市场风险监控工作，结合公司情况建立关键市场风险监控指标，分析内外部环境变化对公司整体及业务的影响，并进行检测、报告，跟踪处理业务风险事件"
-        ],
-        "base_profession": "金融风控经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1978318987.shtml"
-      },
-      {
-        "title": "AI Customer Acquisition / Private Domain Traffic Generation",
-        "company": "深圳市嘉天润信息咨询",
-        "location": "Shenzhen",
-        "salary_min": 17000,
-        "salary_max": 30000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 17000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": "onsite",
-        "required_skills": [
-          "AI",
-          "Customer Acquisition",
-          "Private Domain Traffic"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [
-          "Utilize AI for customer acquisition",
-          "Generate leads through private domain traffic",
-          "Expand customer base"
-        ],
-        "base_profession": "销售",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/530a7504bf17ec510nZ52N69FFVQ.html"
-      },
-      {
-        "title": "AI Doubao Qwen Content Push (Financial Advisor)",
-        "company": "同登彼岸信息咨询",
-        "location": "杭州",
-        "salary_min": 11000,
-        "salary_max": 22000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 11000,
-        "salary_max_cny_monthly": 22000,
-        "experience_requirement": "fresh",
-        "education": "any",
-        "work_mode": "onsite",
-        "required_skills": [
-          "LLM",
-          "Doubao",
-          "Qwen",
-          "Financial Advisory"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "金融顾问",
-        "platform_id": "boss_zhipin",
-        "source_url": "https://www.zhipin.com/job_detail/54af643d949c34df0nZ529i8F1tS.html"
-      },
-      {
-        "title": "PMO 项目管理专家",
-        "company": "某知名公司",
-        "location": "杭州",
-        "salary_min": 27000,
-        "salary_max": 45000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 27000,
-        "salary_max_cny_monthly": 45000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Digital Transformation",
-          "Supply Chain Optimization",
-          "Project Management"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "项目管理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72602665.shtml"
-      },
-      {
-        "title": "数字化专家 - 智能制造方向",
-        "company": "某知名公司",
-        "location": "上海",
-        "salary_min": 40000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 40000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "master",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Digital Transformation",
-          "Smart Manufacturing"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "制造工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/71671027.shtml"
-      }
-    ],
     "education": [
       {
         "title": "Curriculum Growth Manager",
@@ -430,6 +430,165 @@
         "source_url": "https://www.zhipin.com/job_detail/98e7967c3290493303x-2Ni9EltT.html"
       }
     ],
+    "internet": [
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "阿里云智能",
+        "location": "杭州",
+        "salary_min": 10000,
+        "salary_max": 20000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 20000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Big Data",
+          "AI",
+          "Machine Learning",
+          "Internal Control",
+          "Risk Management",
+          "Data Analysis",
+          "AI Agent Building",
+          "Low-code Platform"
+        ],
+        "preferred_skills": [
+          "Intelligent Risk Control System Building"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1979617465.shtml"
+      },
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "某杭州互联网上市公司",
+        "location": "北京",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Big Data",
+          "AI",
+          "Machine Learning",
+          "Internal Control",
+          "Risk Management",
+          "Data Analysis",
+          "AI Agent Development",
+          "Low-code Platforms"
+        ],
+        "preferred_skills": [
+          "Intelligent Risk Control System Development"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过 AI 驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
+          "AI 能力在风控场景落地：结合业务需求，推动 AI 工具 / 模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72808021.shtml"
+      },
+      {
+        "title": "采供内控专家（智能风控方向）",
+        "company": "某大型知名互联网公司",
+        "location": "杭州",
+        "salary_min": 30000,
+        "salary_max": 60000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 30000,
+        "salary_max_cny_monthly": 60000,
+        "experience_requirement": "5y+",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI Agent development",
+          "Low-code platforms",
+          "LLM understanding",
+          "LLM API integration",
+          "Prompt Engineering",
+          "SQL",
+          "Python"
+        ],
+        "preferred_skills": [
+          "Intelligent risk control system development"
+        ],
+        "responsibilities": [
+          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
+          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性。",
+          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）。"
+        ],
+        "base_profession": "风控专家",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/71553511.shtml"
+      },
+      {
+        "title": "医疗AI应用场景售前工程师(兼全国省代培训讲师)",
+        "company": "某成都IT服务公司",
+        "location": "成都",
+        "salary_min": 12000,
+        "salary_max": 18000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 12000,
+        "salary_max_cny_monthly": 18000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI",
+          "Healthcare IT",
+          "Presales",
+          "Training"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [
+          "负责医疗AI应用场景的售前支持",
+          "负责全国省代培训讲师工作"
+        ],
+        "base_profession": "售前工程师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72604009.shtml"
+      },
+      {
+        "title": "智能风控产品经理",
+        "company": "网易集团",
+        "location": "杭州-滨江区",
+        "salary_min": 25000,
+        "salary_max": 45000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 25000,
+        "salary_max_cny_monthly": 45000,
+        "experience_requirement": "3-5y",
+        "education": "bachelor",
+        "work_mode": "onsite",
+        "required_skills": [
+          "Enterprise Service Commercial Product Experience",
+          "Product Design"
+        ],
+        "preferred_skills": [
+          "Smart Risk Control Product Experience",
+          "Enterprise Service Product Experience"
+        ],
+        "responsibilities": [
+          "负责风控引擎相关产品模块，场景化解决方案等，负责产品规划、产品设计、产品包装等全流程产品工作",
+          "以客户价值为导向，洞察客户业务场景，洞察行业，通过功能设计/解决方案的创新设计，持续为客户输出高价值的产品服务",
+          "为销售赋能，通过定价方案/产品材料/官网等模块的持续迭代，支撑团队达成商业化目标"
+        ],
+        "base_profession": "产品经理",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/job/1966330477.shtml"
+      }
+    ],
     "healthcare": [
       {
         "title": "医疗AI产品经理",
@@ -543,165 +702,6 @@
         "base_profession": "项目经理",
         "platform_id": "liepin",
         "source_url": "https://www.liepin.com/job/1980960513.shtml"
-      }
-    ],
-    "internet": [
-      {
-        "title": "采供内控专家（智能风控方向）",
-        "company": "阿里云智能",
-        "location": "杭州",
-        "salary_min": 10000,
-        "salary_max": 20000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 20000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Big Data",
-          "AI",
-          "Machine Learning",
-          "Internal Control",
-          "Risk Management",
-          "Data Analysis",
-          "AI Agent Building",
-          "Low-code Platform"
-        ],
-        "preferred_skills": [
-          "Intelligent Risk Control System Building"
-        ],
-        "responsibilities": [
-          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
-          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
-          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
-        ],
-        "base_profession": "风控专家",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1979617465.shtml"
-      },
-      {
-        "title": "采供内控专家（智能风控方向）",
-        "company": "某杭州互联网上市公司",
-        "location": "北京",
-        "salary_min": 30000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Big Data",
-          "AI",
-          "Machine Learning",
-          "Internal Control",
-          "Risk Management",
-          "Data Analysis",
-          "AI Agent Development",
-          "Low-code Platforms"
-        ],
-        "preferred_skills": [
-          "Intelligent Risk Control System Development"
-        ],
-        "responsibilities": [
-          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过 AI 驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
-          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性；",
-          "AI 能力在风控场景落地：结合业务需求，推动 AI 工具 / 模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）；"
-        ],
-        "base_profession": "风控专家",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72808021.shtml"
-      },
-      {
-        "title": "采供内控专家（智能风控方向）",
-        "company": "某大型知名互联网公司",
-        "location": "杭州",
-        "salary_min": 30000,
-        "salary_max": 60000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 30000,
-        "salary_max_cny_monthly": 60000,
-        "experience_requirement": "5y+",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "AI Agent development",
-          "Low-code platforms",
-          "LLM understanding",
-          "LLM API integration",
-          "Prompt Engineering",
-          "SQL",
-          "Python"
-        ],
-        "preferred_skills": [
-          "Intelligent risk control system development"
-        ],
-        "responsibilities": [
-          "运用大数据、人工智能、机器学习等能力和工具，通过数据驱动和智能化手段，构建智能化风险体系，通过AI驱动数据沉淀、分析与决策闭环，提升业务风险识别与防控效果。",
-          "数据沉淀与治理：梳理风险相关业务流程与数据口径，推动数据采集、清洗、标注，建立可复用的数据资产（指标、标签、特征、样本集等），持续提升数据可用性。",
-          "AI能力在风控场景落地：结合业务需求，推动AI工具/模型在风险识别、预警、稽核等场景的产品化落地（如智能辅助、自动化分流、风险提示等）。"
-        ],
-        "base_profession": "风控专家",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/71553511.shtml"
-      },
-      {
-        "title": "智能风控产品经理",
-        "company": "网易集团",
-        "location": "杭州-滨江区",
-        "salary_min": 25000,
-        "salary_max": 45000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 25000,
-        "salary_max_cny_monthly": 45000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "Enterprise Service Commercial Product Experience",
-          "Product Design"
-        ],
-        "preferred_skills": [
-          "Smart Risk Control Product Experience",
-          "Enterprise Service Product Experience"
-        ],
-        "responsibilities": [
-          "负责风控引擎相关产品模块，场景化解决方案等，负责产品规划、产品设计、产品包装等全流程产品工作",
-          "以客户价值为导向，洞察客户业务场景，洞察行业，通过功能设计/解决方案的创新设计，持续为客户输出高价值的产品服务",
-          "为销售赋能，通过定价方案/产品材料/官网等模块的持续迭代，支撑团队达成商业化目标"
-        ],
-        "base_profession": "产品经理",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1966330477.shtml"
-      },
-      {
-        "title": "医疗AI应用场景售前工程师(兼全国省代培训讲师)",
-        "company": "某成都IT服务公司",
-        "location": "成都",
-        "salary_min": 12000,
-        "salary_max": 18000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 12000,
-        "salary_max_cny_monthly": 18000,
-        "experience_requirement": "3-5y",
-        "education": "bachelor",
-        "work_mode": "onsite",
-        "required_skills": [
-          "AI",
-          "Healthcare IT",
-          "Presales",
-          "Training"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [
-          "负责医疗AI应用场景的售前支持",
-          "负责全国省代培训讲师工作"
-        ],
-        "base_profession": "售前工程师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72604009.shtml"
       }
     ],
     "manufacturing": [
@@ -899,26 +899,26 @@
         "source_url": "https://www.liepin.com/job/1978420045.shtml"
       },
       {
-        "title": "智能座舱车型产品经理",
-        "company": "东风汽车",
-        "location": "武汉-蔡甸区",
-        "salary_min": 20000,
-        "salary_max": 40000,
+        "title": "智能座舱项目管理",
+        "company": null,
+        "location": "广州",
+        "salary_min": 15000,
+        "salary_max": 30000,
         "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 40000,
-        "experience_requirement": "1-3y",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 30000,
+        "experience_requirement": "3-5y",
         "education": "bachelor",
         "work_mode": "onsite",
         "required_skills": [
-          "Smart Cockpit",
-          "Product Management"
+          "Project Management",
+          "Smart Cockpit"
         ],
         "preferred_skills": [],
         "responsibilities": [],
-        "base_profession": "产品经理",
+        "base_profession": "项目管理",
         "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/job/1980808685.shtml"
+        "source_url": "https://www.liepin.com/a/72123849.shtml"
       },
       {
         "title": "嵌入式软件开发工程师 (AI方向)",
@@ -943,26 +943,26 @@
         "source_url": "https://www.liepin.com/job/1980564995.shtml"
       },
       {
-        "title": "智能座舱项目管理",
-        "company": null,
-        "location": "广州",
-        "salary_min": 15000,
-        "salary_max": 30000,
+        "title": "智能座舱车型产品经理",
+        "company": "东风汽车",
+        "location": "武汉-蔡甸区",
+        "salary_min": 20000,
+        "salary_max": 40000,
         "salary_currency": "CNY",
-        "salary_min_cny_monthly": 15000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": "3-5y",
+        "salary_min_cny_monthly": 20000,
+        "salary_max_cny_monthly": 40000,
+        "experience_requirement": "1-3y",
         "education": "bachelor",
         "work_mode": "onsite",
         "required_skills": [
-          "Project Management",
-          "Smart Cockpit"
+          "Smart Cockpit",
+          "Product Management"
         ],
         "preferred_skills": [],
         "responsibilities": [],
-        "base_profession": "项目管理",
+        "base_profession": "产品经理",
         "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72123849.shtml"
+        "source_url": "https://www.liepin.com/job/1980808685.shtml"
       }
     ],
     "media": [
@@ -1327,29 +1327,6 @@
         "source_url": "https://www.liepin.com/a/70928679.shtml"
       }
     ],
-    "government": [
-      {
-        "title": "教育人工智能专员",
-        "company": "某深圳政府/公共事业公司",
-        "location": "深圳-罗湖区",
-        "salary_min": 10000,
-        "salary_max": 15000,
-        "salary_currency": "CNY",
-        "salary_min_cny_monthly": 10000,
-        "salary_max_cny_monthly": 15000,
-        "experience_requirement": "0-1y",
-        "education": "master",
-        "work_mode": "onsite",
-        "required_skills": [
-          "AI"
-        ],
-        "preferred_skills": [],
-        "responsibilities": [],
-        "base_profession": "教师",
-        "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72891093.shtml"
-      }
-    ],
     "other": [
       {
         "title": "区域地产数字化产品负责人（AI转型）",
@@ -1441,23 +1418,46 @@
         "source_url": "https://www.liepin.com/a/72274869.shtml"
       },
       {
-        "title": "智能制造工程师",
-        "company": "某成都学术/科研公司",
-        "location": "成都-双流区",
-        "salary_min": 20000,
-        "salary_max": 30000,
+        "title": "自动驾驶测试工程师",
+        "company": "京东物流",
+        "location": "北京-大兴区",
+        "salary_min": 15000,
+        "salary_max": 35000,
         "salary_currency": "CNY",
-        "salary_min_cny_monthly": 20000,
-        "salary_max_cny_monthly": 30000,
-        "experience_requirement": "5y+",
+        "salary_min_cny_monthly": 15000,
+        "salary_max_cny_monthly": 35000,
+        "experience_requirement": "3-5y",
         "education": "bachelor",
         "work_mode": "onsite",
         "required_skills": [],
         "preferred_skills": [],
         "responsibilities": [],
-        "base_profession": "智能制造工程师",
+        "base_profession": "测试工程师",
         "platform_id": "liepin",
-        "source_url": "https://www.liepin.com/a/72457927.shtml"
+        "source_url": "https://www.liepin.com/job/1978282401.shtml"
+      }
+    ],
+    "government": [
+      {
+        "title": "教育人工智能专员",
+        "company": "某深圳政府/公共事业公司",
+        "location": "深圳-罗湖区",
+        "salary_min": 10000,
+        "salary_max": 15000,
+        "salary_currency": "CNY",
+        "salary_min_cny_monthly": 10000,
+        "salary_max_cny_monthly": 15000,
+        "experience_requirement": "0-1y",
+        "education": "master",
+        "work_mode": "onsite",
+        "required_skills": [
+          "AI"
+        ],
+        "preferred_skills": [],
+        "responsibilities": [],
+        "base_profession": "教师",
+        "platform_id": "liepin",
+        "source_url": "https://www.liepin.com/a/72891093.shtml"
       }
     ]
   },
@@ -1645,38 +1645,6 @@
           "source_url": "https://jobs.ashbyhq.com/openai/2004c873-d6e3-41b7-96e2-12fd9faec7a4"
         },
         {
-          "title": "Solutions Engineer",
-          "company": "OpenAI",
-          "location": "Munich, Germany",
-          "salary_min": null,
-          "salary_max": null,
-          "salary_currency": null,
-          "salary_min_cny_monthly": null,
-          "salary_max_cny_monthly": null,
-          "experience_requirement": "5y+",
-          "education": null,
-          "work_mode": "hybrid",
-          "required_skills": [
-            "ChatGPT",
-            "OpenAI API",
-            "LLM",
-            "Python",
-            "Javascript",
-            "REST API",
-            "Generative AI",
-            "ML"
-          ],
-          "preferred_skills": [],
-          "responsibilities": [
-            "Deliver exceptional pre-sales customer experience by providing technical expertise and answering product, API, and LLM-related questions.",
-            "Demonstrate how ChatGPT and OpenAI API meet business needs and deliver value through demos, scoping use cases, and recommending architecture patterns.",
-            "Create and maintain documentation, guides, and FAQs related to pre-sales questions and requirements."
-          ],
-          "base_profession": null,
-          "platform_id": "vendor_openai",
-          "source_url": "https://jobs.ashbyhq.com/openai/e4ed893a-539d-482b-b41a-a6b0225de8ca"
-        },
-        {
           "title": "Solutions Engineer, Large Enterprise",
           "company": "OpenAI",
           "location": "Munich, Germany",
@@ -1739,6 +1707,38 @@
           "base_profession": null,
           "platform_id": "vendor_openai",
           "source_url": "https://jobs.ashbyhq.com/openai/f2794e39-9c8f-4590-ba4d-3fa19a0e61f4"
+        },
+        {
+          "title": "Solutions Engineer",
+          "company": "OpenAI",
+          "location": "Munich, Germany",
+          "salary_min": null,
+          "salary_max": null,
+          "salary_currency": null,
+          "salary_min_cny_monthly": null,
+          "salary_max_cny_monthly": null,
+          "experience_requirement": "5y+",
+          "education": null,
+          "work_mode": "hybrid",
+          "required_skills": [
+            "ChatGPT",
+            "OpenAI API",
+            "LLM",
+            "Python",
+            "Javascript",
+            "REST API",
+            "Generative AI",
+            "ML"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Deliver exceptional pre-sales customer experience by providing technical expertise and answering product, API, and LLM-related questions.",
+            "Demonstrate how ChatGPT and OpenAI API meet business needs and deliver value through demos, scoping use cases, and recommending architecture patterns.",
+            "Create and maintain documentation, guides, and FAQs related to pre-sales questions and requirements."
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_openai",
+          "source_url": "https://jobs.ashbyhq.com/openai/e4ed893a-539d-482b-b41a-a6b0225de8ca"
         }
       ],
       "applied": [
@@ -2425,6 +2425,38 @@
           "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5117652008"
         },
         {
+          "title": "Applied AI Architect, Security",
+          "company": "Anthropic",
+          "location": "New York City, NY; Seattle, WA; San Francisco, CA",
+          "salary_min": 145000,
+          "salary_max": 190312,
+          "salary_currency": "USD",
+          "salary_min_cny_monthly": 87000,
+          "salary_max_cny_monthly": 114187,
+          "experience_requirement": "5y+",
+          "education": "bachelor",
+          "work_mode": "hybrid",
+          "required_skills": [
+            "enterprise security",
+            "cloud architecture",
+            "AWS",
+            "Azure",
+            "GCP",
+            "network security",
+            "identity and access management",
+            "encryption"
+          ],
+          "preferred_skills": [],
+          "responsibilities": [
+            "Serve as primary security and compliance expert during customer engagements",
+            "Partner with CISOs, security architects, and compliance teams at financial services and insurance companies",
+            "Lead technical deep-dives on network architecture, data residency, API security, authentication/authorization, audit logging, and integration patterns"
+          ],
+          "base_profession": null,
+          "platform_id": "vendor_anthropic",
+          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5101433008"
+        },
+        {
           "title": "Applied AI Architect, Public Sector",
           "company": "Anthropic",
           "location": "London, UK",
@@ -2462,38 +2494,6 @@
           "base_profession": null,
           "platform_id": "vendor_anthropic",
           "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5194007008"
-        },
-        {
-          "title": "Applied AI Architect, Security",
-          "company": "Anthropic",
-          "location": "New York City, NY; Seattle, WA; San Francisco, CA",
-          "salary_min": 145000,
-          "salary_max": 190312,
-          "salary_currency": "USD",
-          "salary_min_cny_monthly": 87000,
-          "salary_max_cny_monthly": 114187,
-          "experience_requirement": "5y+",
-          "education": "bachelor",
-          "work_mode": "hybrid",
-          "required_skills": [
-            "enterprise security",
-            "cloud architecture",
-            "AWS",
-            "Azure",
-            "GCP",
-            "network security",
-            "identity and access management",
-            "encryption"
-          ],
-          "preferred_skills": [],
-          "responsibilities": [
-            "Serve as primary security and compliance expert during customer engagements",
-            "Partner with CISOs, security architects, and compliance teams at financial services and insurance companies",
-            "Lead technical deep-dives on network architecture, data residency, API security, authentication/authorization, audit logging, and integration patterns"
-          ],
-          "base_profession": null,
-          "platform_id": "vendor_anthropic",
-          "source_url": "https://job-boards.greenhouse.io/anthropic/jobs/5101433008"
         }
       ],
       "deploy": [

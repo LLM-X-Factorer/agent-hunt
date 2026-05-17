@@ -454,11 +454,11 @@
           "count": 18
         },
         {
-          "level": "IC3",
+          "level": "IC5",
           "count": 14
         },
         {
-          "level": "IC5",
+          "level": "IC3",
           "count": 14
         },
         {
@@ -704,11 +704,11 @@
           "count": 6
         },
         {
-          "level": "19",
+          "level": "20",
           "count": 2
         },
         {
-          "level": "20",
+          "level": "19",
           "count": 2
         }
       ]
@@ -754,7 +754,7 @@
           "count": 8
         },
         {
-          "level": "T5",
+          "level": "T9",
           "count": 7
         },
         {
@@ -762,7 +762,7 @@
           "count": 7
         },
         {
-          "level": "T9",
+          "level": "T5",
           "count": 7
         }
       ]
@@ -964,11 +964,11 @@
           "count": 9
         },
         {
-          "level": "L3",
+          "level": "L6",
           "count": 8
         },
         {
-          "level": "L6",
+          "level": "L3",
           "count": 8
         },
         {
@@ -1078,7 +1078,15 @@
           "count": 5
         },
         {
+          "level": "T8",
+          "count": 2
+        },
+        {
           "level": "T6",
+          "count": 2
+        },
+        {
+          "level": "T11",
           "count": 2
         },
         {
@@ -1087,14 +1095,6 @@
         },
         {
           "level": "T12",
-          "count": 2
-        },
-        {
-          "level": "T8",
-          "count": 2
-        },
-        {
-          "level": "T11",
           "count": 2
         },
         {
@@ -1192,11 +1192,11 @@
           "count": 4
         },
         {
-          "level": "18",
+          "level": "15",
           "count": 2
         },
         {
-          "level": "15",
+          "level": "18",
           "count": 2
         },
         {
@@ -1340,11 +1340,11 @@
           "count": 2
         },
         {
-          "level": "T8",
+          "level": "T10",
           "count": 1
         },
         {
-          "level": "T10",
+          "level": "T8",
           "count": 1
         }
       ]

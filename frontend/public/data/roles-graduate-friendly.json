@@ -1,8 +1,8 @@
 {
   "domestic": [
     {
-      "graduateFriendlyScore": 28.0,
-      "totalJobs": 5,
+      "graduateFriendlyScore": 17.5,
+      "totalJobs": 8,
       "campusJobCount": 1,
       "internshipJobCount": 1,
       "freshJobCount": 2,
@@ -10,11 +10,11 @@
       "socialSalaryMedian": 25000,
       "topCampusCities": [
         {
-          "city": "北京",
+          "city": "郑州",
           "count": 1
         },
         {
-          "city": "郑州",
+          "city": "北京",
           "count": 1
         }
       ],
@@ -59,53 +59,6 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 7.5,
-      "totalJobs": 328,
-      "campusJobCount": 18,
-      "internshipJobCount": 26,
-      "freshJobCount": 32,
-      "freshSalaryMedian": 30000,
-      "socialSalaryMedian": 52500,
-      "topCampusCities": [
-        {
-          "city": "北京",
-          "count": 16
-        },
-        {
-          "city": "上海",
-          "count": 11
-        },
-        {
-          "city": "深圳",
-          "count": 3
-        },
-        {
-          "city": "Wuxi",
-          "count": 1
-        },
-        {
-          "city": "Binhu District",
-          "count": 1
-        },
-        {
-          "city": "Lihu",
-          "count": 1
-        },
-        {
-          "city": "Guangzhou",
-          "count": 1
-        },
-        {
-          "city": "Nansha District",
-          "count": 1
-        }
-      ],
-      "roleId": "algorithm",
-      "roleName": "算法工程师/研究员",
-      "applicantSignalCount": 21,
-      "applicantOfferCount": 16
-    },
-    {
       "graduateFriendlyScore": 7.1,
       "totalJobs": 14,
       "campusJobCount": 0,
@@ -129,102 +82,8 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 6.6,
-      "totalJobs": 734,
-      "campusJobCount": 34,
-      "internshipJobCount": 41,
-      "freshJobCount": 66,
-      "freshSalaryMedian": 17500,
-      "socialSalaryMedian": 32500,
-      "topCampusCities": [
-        {
-          "city": "北京",
-          "count": 30
-        },
-        {
-          "city": "上海",
-          "count": 28
-        },
-        {
-          "city": "深圳",
-          "count": 8
-        },
-        {
-          "city": "Shenzhen",
-          "count": 7
-        },
-        {
-          "city": "Shanghai",
-          "count": 4
-        },
-        {
-          "city": "杭州",
-          "count": 3
-        },
-        {
-          "city": "合肥",
-          "count": 1
-        },
-        {
-          "city": "Futian District",
-          "count": 1
-        }
-      ],
-      "roleId": "ai_engineer",
-      "roleName": "AI/LLM 工程师",
-      "applicantSignalCount": 7,
-      "applicantOfferCount": 2
-    },
-    {
-      "graduateFriendlyScore": 6.3,
-      "totalJobs": 197,
-      "campusJobCount": 7,
-      "internshipJobCount": 12,
-      "freshJobCount": 18,
-      "freshSalaryMedian": 11250,
-      "socialSalaryMedian": 22500,
-      "topCampusCities": [
-        {
-          "city": "上海",
-          "count": 6
-        },
-        {
-          "city": "北京",
-          "count": 3
-        },
-        {
-          "city": "深圳",
-          "count": 2
-        },
-        {
-          "city": "重庆",
-          "count": 1
-        },
-        {
-          "city": "沈阳-于洪区",
-          "count": 1
-        },
-        {
-          "city": "长沙-芙蓉区",
-          "count": 1
-        },
-        {
-          "city": "天津",
-          "count": 1
-        },
-        {
-          "city": "Shenzhen",
-          "count": 1
-        }
-      ],
-      "roleId": "operations",
-      "roleName": "AI 运营/训练师",
-      "applicantSignalCount": 16,
-      "applicantOfferCount": 8
-    },
-    {
-      "graduateFriendlyScore": 4.9,
-      "totalJobs": 152,
+      "graduateFriendlyScore": 4.2,
+      "totalJobs": 176,
       "campusJobCount": 1,
       "internshipJobCount": 2,
       "freshJobCount": 15,
@@ -252,15 +111,15 @@
           "count": 1
         },
         {
-          "city": "嘉兴",
+          "city": "深圳",
           "count": 1
         },
         {
-          "city": "石家庄",
+          "city": "Shenzhen",
           "count": 1
         },
         {
-          "city": "Chengdu",
+          "city": "成都",
           "count": 1
         }
       ],
@@ -270,8 +129,8 @@
       "applicantOfferCount": 3
     },
     {
-      "graduateFriendlyScore": 4.7,
-      "totalJobs": 73,
+      "graduateFriendlyScore": 3.9,
+      "totalJobs": 87,
       "campusJobCount": 0,
       "internshipJobCount": 2,
       "freshJobCount": 8,
@@ -317,23 +176,51 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 4.4,
-      "totalJobs": 32,
-      "campusJobCount": 1,
-      "internshipJobCount": 1,
-      "freshJobCount": 2,
-      "freshSalaryMedian": 9750,
-      "socialSalaryMedian": 27500,
+      "graduateFriendlyScore": 3.2,
+      "totalJobs": 1538,
+      "campusJobCount": 34,
+      "internshipJobCount": 41,
+      "freshJobCount": 66,
+      "freshSalaryMedian": 17500,
+      "socialSalaryMedian": 32500,
       "topCampusCities": [
         {
+          "city": "北京",
+          "count": 30
+        },
+        {
+          "city": "上海",
+          "count": 28
+        },
+        {
           "city": "深圳",
-          "count": 2
+          "count": 8
+        },
+        {
+          "city": "Shenzhen",
+          "count": 7
+        },
+        {
+          "city": "Shanghai",
+          "count": 4
+        },
+        {
+          "city": "杭州",
+          "count": 3
+        },
+        {
+          "city": "合肥",
+          "count": 1
+        },
+        {
+          "city": "Futian District",
+          "count": 1
         }
       ],
-      "roleId": "risk_compliance",
-      "roleName": "AI 风控/合规",
-      "applicantSignalCount": 0,
-      "applicantOfferCount": 0
+      "roleId": "ai_engineer",
+      "roleName": "AI/LLM 工程师",
+      "applicantSignalCount": 7,
+      "applicantOfferCount": 2
     },
     {
       "graduateFriendlyScore": 3.0,
@@ -357,15 +244,15 @@
           "count": 1
         },
         {
+          "city": "郑州",
+          "count": 1
+        },
+        {
           "city": "杭州",
           "count": 1
         },
         {
           "city": "宜昌-点军区",
-          "count": 1
-        },
-        {
-          "city": "郑州",
           "count": 1
         }
       ],
@@ -375,39 +262,121 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 2.3,
-      "totalJobs": 82,
-      "campusJobCount": 1,
-      "internshipJobCount": 1,
-      "freshJobCount": 3,
-      "freshSalaryMedian": 11350,
-      "socialSalaryMedian": 35000,
+      "graduateFriendlyScore": 2.6,
+      "totalJobs": 475,
+      "campusJobCount": 7,
+      "internshipJobCount": 12,
+      "freshJobCount": 18,
+      "freshSalaryMedian": 11250,
+      "socialSalaryMedian": 22500,
       "topCampusCities": [
         {
-          "city": "龙岩",
-          "count": 1
-        },
-        {
-          "city": "重庆 南岸区",
-          "count": 1
+          "city": "上海",
+          "count": 6
         },
         {
           "city": "北京",
+          "count": 3
+        },
+        {
+          "city": "深圳",
+          "count": 2
+        },
+        {
+          "city": "重庆",
           "count": 1
         },
         {
-          "city": "上海",
+          "city": "沈阳-于洪区",
+          "count": 1
+        },
+        {
+          "city": "长沙-芙蓉区",
+          "count": 1
+        },
+        {
+          "city": "天津",
+          "count": 1
+        },
+        {
+          "city": "珠海-横琴新",
           "count": 1
         }
       ],
-      "roleId": "data",
-      "roleName": "数据分析/数据科学",
-      "applicantSignalCount": 3,
-      "applicantOfferCount": 3
+      "roleId": "operations",
+      "roleName": "AI 运营/训练师",
+      "applicantSignalCount": 16,
+      "applicantOfferCount": 8
     },
     {
-      "graduateFriendlyScore": 2.2,
-      "totalJobs": 144,
+      "graduateFriendlyScore": 2.5,
+      "totalJobs": 55,
+      "campusJobCount": 1,
+      "internshipJobCount": 1,
+      "freshJobCount": 2,
+      "freshSalaryMedian": 9750,
+      "socialSalaryMedian": 27500,
+      "topCampusCities": [
+        {
+          "city": "深圳",
+          "count": 2
+        }
+      ],
+      "roleId": "risk_compliance",
+      "roleName": "AI 风控/合规",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
+    },
+    {
+      "graduateFriendlyScore": 2.3,
+      "totalJobs": 1054,
+      "campusJobCount": 18,
+      "internshipJobCount": 26,
+      "freshJobCount": 32,
+      "freshSalaryMedian": 30000,
+      "socialSalaryMedian": 52500,
+      "topCampusCities": [
+        {
+          "city": "北京",
+          "count": 16
+        },
+        {
+          "city": "上海",
+          "count": 11
+        },
+        {
+          "city": "深圳",
+          "count": 3
+        },
+        {
+          "city": "Wuxi",
+          "count": 1
+        },
+        {
+          "city": "Binhu District",
+          "count": 1
+        },
+        {
+          "city": "Lihu",
+          "count": 1
+        },
+        {
+          "city": "Guangzhou",
+          "count": 1
+        },
+        {
+          "city": "Nansha District",
+          "count": 1
+        }
+      ],
+      "roleId": "algorithm",
+      "roleName": "算法工程师/研究员",
+      "applicantSignalCount": 21,
+      "applicantOfferCount": 16
+    },
+    {
+      "graduateFriendlyScore": 1.8,
+      "totalJobs": 170,
       "campusJobCount": 1,
       "internshipJobCount": 2,
       "freshJobCount": 6,
@@ -427,15 +396,15 @@
           "count": 1
         },
         {
+          "city": "泰安市 岱岳",
+          "count": 1
+        },
+        {
           "city": "Wuhan",
           "count": 1
         },
         {
           "city": "上海",
-          "count": 1
-        },
-        {
-          "city": "泰安市 岱岳",
           "count": 1
         }
       ],
@@ -445,8 +414,66 @@
       "applicantOfferCount": 0
     },
     {
-      "graduateFriendlyScore": 2.1,
-      "totalJobs": 439,
+      "graduateFriendlyScore": 1.8,
+      "totalJobs": 107,
+      "campusJobCount": 1,
+      "internshipJobCount": 1,
+      "freshJobCount": 3,
+      "freshSalaryMedian": 15000,
+      "socialSalaryMedian": 27500,
+      "topCampusCities": [
+        {
+          "city": "深圳",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        },
+        {
+          "city": "上海",
+          "count": 1
+        }
+      ],
+      "roleId": "autonomous",
+      "roleName": "自动驾驶/智能座舱",
+      "applicantSignalCount": 0,
+      "applicantOfferCount": 0
+    },
+    {
+      "graduateFriendlyScore": 1.2,
+      "totalJobs": 164,
+      "campusJobCount": 1,
+      "internshipJobCount": 1,
+      "freshJobCount": 3,
+      "freshSalaryMedian": 11350,
+      "socialSalaryMedian": 35000,
+      "topCampusCities": [
+        {
+          "city": "重庆 南岸区",
+          "count": 1
+        },
+        {
+          "city": "北京",
+          "count": 1
+        },
+        {
+          "city": "上海",
+          "count": 1
+        },
+        {
+          "city": "龙岩",
+          "count": 1
+        }
+      ],
+      "roleId": "data",
+      "roleName": "数据分析/数据科学",
+      "applicantSignalCount": 3,
+      "applicantOfferCount": 3
+    },
+    {
+      "graduateFriendlyScore": 1.1,
+      "totalJobs": 849,
       "campusJobCount": 5,
       "internshipJobCount": 5,
       "freshJobCount": 13,
@@ -478,33 +505,6 @@
       "roleName": "AI 产品经理",
       "applicantSignalCount": 32,
       "applicantOfferCount": 16
-    },
-    {
-      "graduateFriendlyScore": 1.9,
-      "totalJobs": 101,
-      "campusJobCount": 1,
-      "internshipJobCount": 1,
-      "freshJobCount": 3,
-      "freshSalaryMedian": 15000,
-      "socialSalaryMedian": 27500,
-      "topCampusCities": [
-        {
-          "city": "深圳",
-          "count": 1
-        },
-        {
-          "city": "北京",
-          "count": 1
-        },
-        {
-          "city": "上海",
-          "count": 1
-        }
-      ],
-      "roleId": "autonomous",
-      "roleName": "自动驾驶/智能座舱",
-      "applicantSignalCount": 0,
-      "applicantOfferCount": 0
     }
   ],
   "international": [
@@ -542,11 +542,11 @@
           "count": 15
         },
         {
-          "city": "San Francisco",
+          "city": "Palo Alto",
           "count": 14
         },
         {
-          "city": "Palo Alto",
+          "city": "New York",
           "count": 14
         }
       ],
@@ -804,11 +804,11 @@
           "count": 15
         },
         {
-          "city": "Seattle",
+          "city": "Toronto",
           "count": 12
         },
         {
-          "city": "Toronto",
+          "city": "Seattle",
           "count": 12
         },
         {

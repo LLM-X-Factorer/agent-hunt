@@ -169,20 +169,20 @@
       "jaccard_index": 0.211
     },
     {
-      "skill_a": "fine_tuning",
-      "skill_b": "llm",
-      "skill_a_name": "Fine-tuning",
-      "skill_b_name": "Large Language Models",
-      "cooccurrence_count": 12,
-      "jaccard_index": 0.115
-    },
-    {
       "skill_a": "python",
       "skill_b": "react",
       "skill_a_name": "Python",
       "skill_b_name": "React",
       "cooccurrence_count": 12,
       "jaccard_index": 0.214
+    },
+    {
+      "skill_a": "fine_tuning",
+      "skill_b": "llm",
+      "skill_a_name": "Fine-tuning",
+      "skill_b_name": "Large Language Models",
+      "cooccurrence_count": 12,
+      "jaccard_index": 0.115
     },
     {
       "skill_a": "llm",

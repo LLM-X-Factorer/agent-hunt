@@ -1,12 +1,20 @@
 {
   "overall": {
-    "total": 9690,
-    "reposted": 3468,
-    "repost_ratio": 0.358,
+    "total": 12860,
+    "reposted": 3508,
+    "repost_ratio": 0.273,
     "closed": 0,
     "avg_close_days": null
   },
   "by_market": [
+    {
+      "total": 6965,
+      "reposted": 40,
+      "repost_ratio": 0.006,
+      "closed": 0,
+      "avg_close_days": null,
+      "market": "domestic"
+    },
     {
       "total": 5502,
       "reposted": 3179,
@@ -14,14 +22,6 @@
       "closed": 0,
       "avg_close_days": null,
       "market": "international"
-    },
-    {
-      "total": 3795,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "market": "domestic"
     }
   ],
   "by_platform": [
@@ -42,12 +42,20 @@
       "platform": "community_github_hiring"
     },
     {
-      "total": 278,
+      "total": 3170,
+      "reposted": 40,
+      "repost_ratio": 0.013,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_bytedance"
+    },
+    {
+      "total": 1971,
       "reposted": 0,
       "repost_ratio": 0.0,
       "closed": 0,
       "avg_close_days": null,
-      "platform": "indeed"
+      "platform": "liepin"
     },
     {
       "total": 452,
@@ -56,6 +64,14 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_anthropic"
+    },
+    {
+      "total": 278,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "indeed"
     },
     {
       "total": 488,
@@ -82,14 +98,6 @@
       "platform": "vendor_cohere"
     },
     {
-      "total": 1971,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "liepin"
-    },
-    {
       "total": 329,
       "reposted": 0,
       "repost_ratio": 0.0,
@@ -104,6 +112,14 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_openai"
+    },
+    {
+      "total": 82,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_deepmind"
     },
     {
       "total": 1049,
@@ -122,22 +138,6 @@
       "platform": "lagou"
     },
     {
-      "total": 82,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "vendor_deepmind"
-    },
-    {
-      "total": 126,
-      "reposted": 0,
-      "repost_ratio": 0.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "platform": "vendor_moonshot"
-    },
-    {
       "total": 151,
       "reposted": 0,
       "repost_ratio": 0.0,
@@ -152,6 +152,14 @@
       "closed": 0,
       "avg_close_days": null,
       "platform": "vendor_baichuan"
+    },
+    {
+      "total": 126,
+      "reposted": 0,
+      "repost_ratio": 0.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "platform": "vendor_moonshot"
     },
     {
       "total": 208,
@@ -278,28 +286,12 @@
   ],
   "top_reposting_companies": [
     {
-      "total": 7,
-      "reposted": 7,
+      "total": 10,
+      "reposted": 10,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "GlobalFoundries"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Capital One"
-    },
-    {
-      "total": 8,
-      "reposted": 8,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "USM Business Systems"
+      "company": "JP Morgan Chase"
     },
     {
       "total": 11,
@@ -307,63 +299,15 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "University of Chicago"
+      "company": "KLA"
     },
     {
-      "total": 8,
-      "reposted": 8,
+      "total": 7,
+      "reposted": 7,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "onsemi"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Jobs for Humanity"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Fortive"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Peregrine"
-    },
-    {
-      "total": 9,
-      "reposted": 9,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "X Development"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Susquehanna International Group (SIG)"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "University of Rochester"
+      "company": "Westinghouse Electric Company"
     },
     {
       "total": 6,
@@ -374,12 +318,12 @@
       "company": "University of Texas - Austin"
     },
     {
-      "total": 10,
-      "reposted": 10,
+      "total": 6,
+      "reposted": 6,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "JP Morgan Chase"
+      "company": "Prairie View A&M University"
     },
     {
       "total": 5,
@@ -387,7 +331,183 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "WSP"
+      "company": "Stellar Science"
+    },
+    {
+      "total": 7,
+      "reposted": 7,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "GlobalFoundries"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "eventfirst"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Freeform"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Lantern"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Coder"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Comulate"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "PermitFlow"
+    },
+    {
+      "total": 31,
+      "reposted": 31,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Royal Bank of Canada"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Capital One"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Peregrine"
+    },
+    {
+      "total": 11,
+      "reposted": 11,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "University of Chicago"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Spacelift"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Radar Labs"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Neon Health"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Fortive"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Temporal Technologies"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "USM Business Systems"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "RINSE"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Jobs for Humanity"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "onsemi"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Beautiful.ai"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Susquehanna International Group (SIG)"
     },
     {
       "total": 5,
@@ -406,36 +526,12 @@
       "company": "Skydio"
     },
     {
-      "total": 5,
-      "reposted": 5,
+      "total": 9,
+      "reposted": 9,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Temporal Technologies"
-    },
-    {
-      "total": 7,
-      "reposted": 7,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Westinghouse Electric Company"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "RINSE"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Neon Health"
+      "company": "X Development"
     },
     {
       "total": 6,
@@ -443,7 +539,39 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Radar Labs"
+      "company": "University of Rochester"
+    },
+    {
+      "total": 5,
+      "reposted": 5,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "WSP"
+    },
+    {
+      "total": 19,
+      "reposted": 19,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Pennsylvania State University"
+    },
+    {
+      "total": 6,
+      "reposted": 6,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "SpruceID"
+    },
+    {
+      "total": 8,
+      "reposted": 8,
+      "repost_ratio": 1.0,
+      "closed": 0,
+      "avg_close_days": null,
+      "company": "Robert Bosch Venture Capital"
     },
     {
       "total": 5,
@@ -462,14 +590,6 @@
       "company": "Starbridge"
     },
     {
-      "total": 19,
-      "reposted": 19,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Pennsylvania State University"
-    },
-    {
       "total": 8,
       "reposted": 8,
       "repost_ratio": 1.0,
@@ -486,22 +606,6 @@
       "company": "Cloudflare"
     },
     {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "eventfirst"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Beautiful.ai"
-    },
-    {
       "total": 6,
       "reposted": 6,
       "repost_ratio": 1.0,
@@ -515,7 +619,7 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Spacelift"
+      "company": "Foxglove"
     },
     {
       "total": 7,
@@ -534,12 +638,12 @@
       "company": "Apple"
     },
     {
-      "total": 5,
-      "reposted": 5,
+      "total": 8,
+      "reposted": 8,
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Foxglove"
+      "company": "Visa"
     },
     {
       "total": 6,
@@ -555,23 +659,7 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "SpruceID"
-    },
-    {
-      "total": 8,
-      "reposted": 8,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Visa"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Stellar Science"
+      "company": "HomeVision"
     },
     {
       "total": 5,
@@ -587,31 +675,7 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Freeform"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "PermitFlow"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Comulate"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Coder"
+      "company": "HNTB"
     },
     {
       "total": 7,
@@ -619,63 +683,7 @@
       "repost_ratio": 1.0,
       "closed": 0,
       "avg_close_days": null,
-      "company": "Perle"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Argonne National Laboratory"
-    },
-    {
-      "total": 11,
-      "reposted": 11,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "KLA"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "CACI"
-    },
-    {
-      "total": 8,
-      "reposted": 8,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "Booz Allen"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "HomeVision"
-    },
-    {
-      "total": 5,
-      "reposted": 5,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "HNTB"
-    },
-    {
-      "total": 6,
-      "reposted": 6,
-      "repost_ratio": 1.0,
-      "closed": 0,
-      "avg_close_days": null,
-      "company": "NBCUniversal"
+      "company": "Tenstorrent"
     }
   ],
   "top_ghost_listings": [
@@ -721,6 +729,17 @@
       ],
       "platforms": [
         "vendor_openai"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "推荐算法工程师-抖音",
+      "variant_count": 12,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
       ]
     },
     {
@@ -824,17 +843,6 @@
       ]
     },
     {
-      "company": "字节跳动",
-      "title": "AI搜索推荐产品解决方案架构师",
-      "variant_count": 6,
-      "markets": [
-        "domestic"
-      ],
-      "platforms": [
-        "liepin"
-      ]
-    },
-    {
       "company": "Amazon.com",
       "title": "Finance Manager - Healthcare, Amazon One Medical",
       "variant_count": 6,
@@ -843,6 +851,17 @@
       ],
       "platforms": [
         "indeed"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "AI搜索推荐产品解决方案架构师",
+      "variant_count": 6,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
       ]
     },
     {
@@ -879,19 +898,52 @@
       ]
     },
     {
-      "company": "PayPal",
-      "title": "Senior Machine Learning Engineer",
-      "variant_count": 5,
+      "company": "字节跳动",
+      "title": "泛互行业解决方案架构师-火山引擎",
+      "variant_count": 6,
       "markets": [
-        "international"
+        "domestic"
       ],
       "platforms": [
-        "linkedin"
+        "vendor_bytedance"
       ]
     },
     {
-      "company": "TSMG Holding",
-      "title": "Autonomous vehicle Test Operator",
+      "company": "字节跳动",
+      "title": "豆包大模型算法工程师-火山方舟",
+      "variant_count": 6,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "AI产品经理-抖音电商",
+      "variant_count": 6,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "推荐算法工程师-国际电商",
+      "variant_count": 6,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "PayPal",
+      "title": "Senior Machine Learning Engineer",
       "variant_count": 5,
       "markets": [
         "international"
@@ -923,19 +975,19 @@
       ]
     },
     {
-      "company": "Warner Bros. Discovery",
-      "title": "Senior Level Designer",
+      "company": "TSMG Holding",
+      "title": "Autonomous vehicle Test Operator",
       "variant_count": 5,
       "markets": [
         "international"
       ],
       "platforms": [
-        "indeed"
+        "linkedin"
       ]
     },
     {
-      "company": "某北京云计算/大数据公司",
-      "title": "催收产品策略专家（海外AI方向）",
+      "company": "方正证券",
+      "title": "模型策略岗（LLM应用与数据分析）",
       "variant_count": 5,
       "markets": [
         "domestic"
@@ -945,8 +997,19 @@
       ]
     },
     {
-      "company": "Wells Fargo",
-      "title": "Payment Network Relationship Management and Strategy Consultant",
+      "company": "eventfirst",
+      "title": "Senior Full-Stack Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "Warner Bros. Discovery",
+      "title": "Senior Level Designer",
       "variant_count": 5,
       "markets": [
         "international"
@@ -968,6 +1031,39 @@
       ]
     },
     {
+      "company": "Freeform",
+      "title": "Software Engineers",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "数据库产品经理-基础设施",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "某北京云计算/大数据公司",
+      "title": "催收产品策略专家（海外AI方向）",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "liepin"
+      ]
+    },
+    {
       "company": "xAI",
       "title": "Client Partner",
       "variant_count": 5,
@@ -979,41 +1075,19 @@
       ]
     },
     {
-      "company": "PrairieLearn",
-      "title": "Full-Stack Software Engineer",
+      "company": "Wells Fargo",
+      "title": "Payment Network Relationship Management and Strategy Consultant",
       "variant_count": 5,
       "markets": [
         "international"
       ],
       "platforms": [
-        "community_hn_wih"
+        "indeed"
       ]
     },
     {
-      "company": "RINSE",
-      "title": "Software Engineer",
-      "variant_count": 5,
-      "markets": [
-        "international"
-      ],
-      "platforms": [
-        "community_hn_wih"
-      ]
-    },
-    {
-      "company": "Neon Health",
-      "title": "Senior Backend Engineer",
-      "variant_count": 5,
-      "markets": [
-        "international"
-      ],
-      "platforms": [
-        "community_hn_wih"
-      ]
-    },
-    {
-      "company": "eventfirst",
-      "title": "Senior Full-Stack Engineer",
+      "company": "Comulate",
+      "title": "Senior Engineer",
       "variant_count": 5,
       "markets": [
         "international"
@@ -1034,8 +1108,8 @@
       ]
     },
     {
-      "company": "Freeform",
-      "title": "Software Engineers",
+      "company": "Neon Health",
+      "title": "Senior Backend Engineer",
       "variant_count": 5,
       "markets": [
         "international"
@@ -1045,8 +1119,8 @@
       ]
     },
     {
-      "company": "Comulate",
-      "title": "Senior Engineer",
+      "company": "RINSE",
+      "title": "Software Engineer",
       "variant_count": 5,
       "markets": [
         "international"
@@ -1056,14 +1130,47 @@
       ]
     },
     {
-      "company": "方正证券",
-      "title": "模型策略岗（LLM应用与数据分析）",
+      "company": "字节跳动",
+      "title": "系统软件架构师/工程师（网络/IO）-AI芯片",
       "variant_count": 5,
       "markets": [
         "domestic"
       ],
       "platforms": [
-        "liepin"
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "PrairieLearn",
+      "title": "Full-Stack Software Engineer",
+      "variant_count": 5,
+      "markets": [
+        "international"
+      ],
+      "platforms": [
+        "community_hn_wih"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "硬件加速算子实现研发工程师-AI工具链",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "腾讯",
+      "title": "大模型训练框架研发工程师-强化学习/精调/蒸馏方向",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_tencent"
       ]
     },
     {
@@ -1078,14 +1185,58 @@
       ]
     },
     {
-      "company": "腾讯",
-      "title": "大模型训练框架研发工程师-强化学习/精调/蒸馏方向",
+      "company": "字节跳动",
+      "title": "AI芯片系统软件架构师/工程师",
       "variant_count": 5,
       "markets": [
         "domestic"
       ],
       "platforms": [
-        "vendor_tencent"
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "AI Agent研发工程师-开发者服务",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "交换机软件工程师",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "AI芯片系统软件架构师/工程师-平台软件",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
+      ]
+    },
+    {
+      "company": "字节跳动",
+      "title": "渠道销售经理-火山引擎",
+      "variant_count": 5,
+      "markets": [
+        "domestic"
+      ],
+      "platforms": [
+        "vendor_bytedance"
       ]
     }
   ],
@@ -1109,25 +1260,7 @@
       "ghost_ratio": 1.0
     },
     {
-      "company": "Warner Bros. Discovery",
-      "total": 5,
-      "ghost_jobs": 5,
-      "ghost_ratio": 1.0
-    },
-    {
-      "company": "PrairieLearn",
-      "total": 5,
-      "ghost_jobs": 5,
-      "ghost_ratio": 1.0
-    },
-    {
-      "company": "RINSE",
-      "total": 5,
-      "ghost_jobs": 5,
-      "ghost_ratio": 1.0
-    },
-    {
-      "company": "Neon Health",
+      "company": "方正证券",
       "total": 5,
       "ghost_jobs": 5,
       "ghost_ratio": 1.0
@@ -1139,7 +1272,7 @@
       "ghost_ratio": 1.0
     },
     {
-      "company": "Spacelift",
+      "company": "Warner Bros. Discovery",
       "total": 5,
       "ghost_jobs": 5,
       "ghost_ratio": 1.0
@@ -1157,7 +1290,25 @@
       "ghost_ratio": 1.0
     },
     {
-      "company": "方正证券",
+      "company": "Spacelift",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "Neon Health",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "RINSE",
+      "total": 5,
+      "ghost_jobs": 5,
+      "ghost_ratio": 1.0
+    },
+    {
+      "company": "PrairieLearn",
       "total": 5,
       "ghost_jobs": 5,
       "ghost_ratio": 1.0
@@ -1235,12 +1386,6 @@
       "ghost_ratio": 0.25
     },
     {
-      "company": "字节跳动",
-      "total": 27,
-      "ghost_jobs": 6,
-      "ghost_ratio": 0.222
-    },
-    {
       "company": "Microsoft",
       "total": 71,
       "ghost_jobs": 10,
@@ -1251,6 +1396,12 @@
       "total": 654,
       "ghost_jobs": 47,
       "ghost_ratio": 0.072
+    },
+    {
+      "company": "字节跳动",
+      "total": 3197,
+      "ghost_jobs": 107,
+      "ghost_ratio": 0.033
     },
     {
       "company": "Anthropic",

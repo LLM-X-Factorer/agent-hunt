@@ -193,11 +193,11 @@
         "count": 12
       },
       {
-        "skill_id": "pytorch",
+        "skill_id": "machine_learning",
         "count": 9
       },
       {
-        "skill_id": "machine_learning",
+        "skill_id": "pytorch",
         "count": 9
       }
     ]
@@ -218,11 +218,11 @@
         "count": 17
       },
       {
-        "skill_id": "typescript",
+        "skill_id": "sql",
         "count": 16
       },
       {
-        "skill_id": "sql",
+        "skill_id": "typescript",
         "count": 16
       },
       {
@@ -243,11 +243,11 @@
         "count": 43
       },
       {
-        "skill_id": "react",
+        "skill_id": "typescript",
         "count": 28
       },
       {
-        "skill_id": "typescript",
+        "skill_id": "react",
         "count": 28
       },
       {
@@ -280,11 +280,11 @@
         "count": 10
       },
       {
-        "skill_id": "sql",
+        "skill_id": "react",
         "count": 10
       },
       {
-        "skill_id": "react",
+        "skill_id": "nodejs",
         "count": 10
       }
     ]
@@ -309,41 +309,12 @@
         "count": 8
       },
       {
-        "skill_id": "react",
+        "skill_id": "golang",
         "count": 5
       },
       {
         "skill_id": "aws",
         "count": 5
-      }
-    ]
-  },
-  {
-    "industry": "telecom",
-    "job_count": 25,
-    "domestic_count": 19,
-    "international_count": 6,
-    "avg_salary": 31587,
-    "top_skills": [
-      {
-        "skill_id": "llm",
-        "count": 4
-      },
-      {
-        "skill_id": "nlp",
-        "count": 2
-      },
-      {
-        "skill_id": "react",
-        "count": 2
-      },
-      {
-        "skill_id": "python",
-        "count": 2
-      },
-      {
-        "skill_id": "generative_ai",
-        "count": 1
       }
     ]
   },
@@ -373,6 +344,35 @@
       {
         "skill_id": "nextjs",
         "count": 4
+      }
+    ]
+  },
+  {
+    "industry": "telecom",
+    "job_count": 25,
+    "domestic_count": 19,
+    "international_count": 6,
+    "avg_salary": 31587,
+    "top_skills": [
+      {
+        "skill_id": "llm",
+        "count": 4
+      },
+      {
+        "skill_id": "nlp",
+        "count": 2
+      },
+      {
+        "skill_id": "react",
+        "count": 2
+      },
+      {
+        "skill_id": "python",
+        "count": 2
+      },
+      {
+        "skill_id": "generative_ai",
+        "count": 1
       }
     ]
   },

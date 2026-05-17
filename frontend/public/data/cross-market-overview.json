@@ -1,11 +1,11 @@
 {
   "domestic": {
     "market": "domestic",
-    "total_jobs": 3786,
+    "total_jobs": 6956,
     "avg_salary": 34997,
     "median_salary": 27500,
     "work_mode": {
-      "onsite": 3576,
+      "onsite": 6746,
       "remote": 17,
       "hybrid": 1,
       "unknown": 192
@@ -14,7 +14,7 @@
       "bachelor": 1442,
       "master": 228,
       "phd": 38,
-      "any_or_unspecified": 2078
+      "any_or_unspecified": 5248
     },
     "experience_distribution": [
       {

@@ -214,15 +214,15 @@
         "count": 12
       },
       {
-        "skill_id": "sql",
-        "count": 10
-      },
-      {
         "skill_id": "react",
         "count": 10
       },
       {
         "skill_id": "nodejs",
+        "count": 10
+      },
+      {
+        "skill_id": "sql",
         "count": 10
       },
       {
@@ -247,11 +247,11 @@
         "count": 17
       },
       {
-        "skill_id": "typescript",
+        "skill_id": "sql",
         "count": 16
       },
       {
-        "skill_id": "sql",
+        "skill_id": "typescript",
         "count": 16
       },
       {
@@ -276,11 +276,11 @@
         "count": 12
       },
       {
-        "skill_id": "pytorch",
+        "skill_id": "machine_learning",
         "count": 9
       },
       {
-        "skill_id": "machine_learning",
+        "skill_id": "pytorch",
         "count": 9
       },
       {
@@ -309,7 +309,7 @@
         "count": 8
       },
       {
-        "skill_id": "react",
+        "skill_id": "golang",
         "count": 5
       },
       {
@@ -355,11 +355,11 @@
     "avg_salary": null,
     "top_skills": [
       {
-        "skill_id": "generative_ai",
+        "skill_id": "nlp",
         "count": 1
       },
       {
-        "skill_id": "nlp",
+        "skill_id": "generative_ai",
         "count": 1
       },
       {

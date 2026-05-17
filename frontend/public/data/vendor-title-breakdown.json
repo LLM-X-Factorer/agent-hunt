@@ -1,14 +1,32 @@
 {
   "by_vendor": {
+    "vendor_bytedance": {
+      "total": 3170,
+      "categories": {
+        "core": 3166,
+        "fde": 4,
+        "solutions": 0,
+        "customer": 0,
+        "applied": 0,
+        "deploy": 0
+      },
+      "client_facing_total": 4,
+      "client_facing_pct": 0.1,
+      "samples": {
+        "fde": [
+          "豆包AI大模型FDE（Forward Deployed Engineer）-火山方舟MaaS"
+        ]
+      }
+    },
     "vendor_tencent": {
       "total": 1049,
       "categories": {
         "core": 1048,
         "solutions": 1,
-        "applied": 0,
-        "deploy": 0,
         "customer": 0,
-        "fde": 0
+        "fde": 0,
+        "applied": 0,
+        "deploy": 0
       },
       "client_facing_total": 1,
       "client_facing_pct": 0.1,
@@ -22,47 +40,47 @@
       "total": 651,
       "categories": {
         "core": 541,
-        "deploy": 44,
         "fde": 40,
-        "solutions": 18,
         "customer": 5,
+        "deploy": 44,
+        "solutions": 18,
         "applied": 3
       },
       "client_facing_total": 110,
       "client_facing_pct": 16.9,
       "samples": {
-        "applied": [
-          "Research Engineer, Applied AI Engineering",
-          "Research Engineer, Retrieval & Search, Applied Engineering",
-          "Applied AI Engineer, Codex Core Agent"
-        ],
-        "deploy": [
-          "Manager, AI Deployment Engineering - Health & Life Sciences",
-          "AI Deployment Manager - Core Ecosystem, EDU",
-          "AI Deployment Manager - Pilots",
-          "AI Deployment Manager",
-          "AI Deployment Engineer",
-          "Datacenter Networking Technician, AI Compute Deployment - Stargate"
-        ],
         "solutions": [
           "Solutions Engineer",
-          "Solutions Engineer- Startups",
           "Solutions Engineer, Pre-Sales",
           "Solutions Engineer, Healthcare & Life Sciences",
           "Solutions Engineer, Large Enterprise",
-          "Solutions Engineer, Core Digital Native"
+          "Solutions Engineer, Financial Services",
+          "Solutions Engineer, Core Digital Natives"
         ],
         "customer": [
           "Customer Success Manager, Ads Solutions",
           "Demo Experience Engineer, Technical Success"
         ],
         "fde": [
-          "Recruiter, Forward Deployed Engineering",
-          "Forward Deployed Engineer, Gov",
+          "Manager, Forward Deployed Engineering",
           "Forward Deployed Engineer",
-          "Platform Engineering Manager, Forward Deployed Engineering (FDE)",
-          "Sourcer, Forward Deployed Engineering",
-          "Manager, Forward Deployed Engineering"
+          "Technical Deployment Lead, Forward Deployed Engineering",
+          "Forward Deployed Software Engineer",
+          "Recruiter, Forward Deployed Engineering",
+          "Forward Deployed Engineer (FDE), Financial Services"
+        ],
+        "applied": [
+          "Research Engineer, Retrieval & Search, Applied Engineering",
+          "Applied AI Engineer, Codex Core Agent",
+          "Research Engineer, Applied AI Engineering"
+        ],
+        "deploy": [
+          "Technical Program Manager, Partnership Site Deployment - Stargate",
+          "AI Deployment Engineer",
+          "AI Deployment Engineer, Public Sector - Federal Civilian",
+          "Partner AI Deployment Engineer",
+          "AI Deployment Manager",
+          "Manager, AI Deployment Engineering - Health & Life Sciences"
         ]
       }
     },
@@ -71,46 +89,46 @@
       "categories": {
         "core": 390,
         "applied": 37,
-        "customer": 9,
-        "fde": 7,
+        "solutions": 2,
         "deploy": 6,
-        "solutions": 2
+        "customer": 9,
+        "fde": 7
       },
       "client_facing_total": 61,
       "client_facing_pct": 13.5,
       "samples": {
-        "applied": [
-          "Global Applied AI Architecture Lead, Beneficial Deployments",
-          "Applied AI Architect, Partnerships",
-          "Head of International Applied AI Architecture, Partnerships",
-          "Applied AI Architect",
-          "Applied AI Engineer, Enterprise Tech",
-          "Applied AI Architect, Enterprise Tech"
-        ],
-        "deploy": [
-          "Cluster Deployment Engineer",
-          "Security Technology Deployment Specialist",
-          "Software Engineer, Inference Deployment",
-          "Technical Deployment Lead"
-        ],
         "solutions": [
           "Partner Solutions Architect, Applied AI",
           "Solutions Architect, National Security"
         ],
         "customer": [
+          "Strategic Customer Success Manager",
           "Customer Success Manager",
+          "Customer Success Manager, Higher Education",
           "Customer Success Manager, Beneficial Deployments, EMEA",
           "Customer Success Manager, Digital Native Business",
-          "Customer Success Manager, Higher Education",
-          "Customer Success Manager, Industries",
           "Customer Success Manager, Scaled"
         ],
         "fde": [
           "Forward Deployed Engineer",
-          "Forward Deployed Engineer, Federal Civilian",
           "Forward Deployed Engineer, Applied AI",
+          "Forward Deployed Engineer, Federal Civilian",
           "Manager, Forward Deployed Engineering",
           "Manager of Forward Deployed Engineering"
+        ],
+        "applied": [
+          "Manager of Solutions Architecture, Applied AI (Industries)",
+          "Manager of Applied AI Architecture, Industries",
+          "Global Applied AI Architecture Lead, Beneficial Deployments",
+          "Applied AI Architect, Partnerships",
+          "Head of International Applied AI Architecture, Partnerships",
+          "Applied AI Architect"
+        ],
+        "deploy": [
+          "Security Technology Deployment Specialist",
+          "Software Engineer, Inference Deployment",
+          "Technical Deployment Lead",
+          "Cluster Deployment Engineer"
         ]
       }
     },
@@ -118,11 +136,11 @@
       "total": 230,
       "categories": {
         "core": 230,
-        "applied": 0,
-        "deploy": 0,
         "solutions": 0,
         "customer": 0,
-        "fde": 0
+        "fde": 0,
+        "applied": 0,
+        "deploy": 0
       },
       "client_facing_total": 0,
       "client_facing_pct": 0.0,
@@ -133,10 +151,10 @@
       "categories": {
         "core": 207,
         "fde": 1,
-        "applied": 0,
-        "deploy": 0,
         "solutions": 0,
-        "customer": 0
+        "customer": 0,
+        "applied": 0,
+        "deploy": 0
       },
       "client_facing_total": 1,
       "client_facing_pct": 0.5,
@@ -151,18 +169,18 @@
       "categories": {
         "core": 147,
         "solutions": 4,
-        "applied": 0,
-        "deploy": 0,
         "customer": 0,
-        "fde": 0
+        "fde": 0,
+        "applied": 0,
+        "deploy": 0
       },
       "client_facing_total": 4,
       "client_facing_pct": 2.6,
       "samples": {
         "solutions": [
           "Solutions Architect-Southeast Asia",
-          "Solutions Architect -Malaysia",
           "Solutions Architect -Middle East",
+          "Solutions Architect -Malaysia",
           "Solutions Architect - America"
         ]
       }
@@ -171,11 +189,11 @@
       "total": 126,
       "categories": {
         "core": 126,
-        "applied": 0,
-        "deploy": 0,
         "solutions": 0,
         "customer": 0,
-        "fde": 0
+        "fde": 0,
+        "applied": 0,
+        "deploy": 0
       },
       "client_facing_total": 0,
       "client_facing_pct": 0.0,
@@ -184,8 +202,8 @@
     "vendor_cohere": {
       "total": 112,
       "categories": {
-        "fde": 7,
         "core": 96,
+        "fde": 7,
         "solutions": 4,
         "deploy": 1,
         "applied": 3,
@@ -194,17 +212,9 @@
       "client_facing_total": 16,
       "client_facing_pct": 14.3,
       "samples": {
-        "applied": [
-          "Applied AI Engineer - Agentic Workflows",
-          "Applied AI Engineer – Agentic Workflows",
-          "Applied AI Engineer – Agentic Workflows (Korea)"
-        ],
-        "deploy": [
-          "Enterprise Deployment Specialist"
-        ],
         "solutions": [
-          "Solutions Architect",
-          "Solutions Architect - Public Sector"
+          "Solutions Architect - Public Sector",
+          "Solutions Architect"
         ],
         "customer": [
           "Customer Success Manager"
@@ -214,6 +224,14 @@
           "Forward Deployed Engineer, Infrastructure Specialist",
           "Forward Deployed Engineer, Prompt Specialist",
           "Forward Deployed Engineer, Sovereign AI"
+        ],
+        "applied": [
+          "Applied AI Engineer - Agentic Workflows",
+          "Applied AI Engineer – Agentic Workflows",
+          "Applied AI Engineer – Agentic Workflows (Korea)"
+        ],
+        "deploy": [
+          "Enterprise Deployment Specialist"
         ]
       }
     },
@@ -222,10 +240,10 @@
       "categories": {
         "core": 79,
         "applied": 3,
-        "deploy": 0,
         "solutions": 0,
         "customer": 0,
-        "fde": 0
+        "fde": 0,
+        "deploy": 0
       },
       "client_facing_total": 3,
       "client_facing_pct": 3.7,
@@ -241,11 +259,11 @@
       "total": 48,
       "categories": {
         "core": 48,
-        "applied": 0,
-        "deploy": 0,
         "solutions": 0,
         "customer": 0,
-        "fde": 0
+        "fde": 0,
+        "applied": 0,
+        "deploy": 0
       },
       "client_facing_total": 0,
       "client_facing_pct": 0.0,
@@ -253,9 +271,9 @@
     }
   },
   "summary": {
-    "total_vendors": 10,
-    "total_jobs": 3108,
-    "total_client_facing": 196,
-    "client_facing_pct": 6.3
+    "total_vendors": 11,
+    "total_jobs": 6278,
+    "total_client_facing": 200,
+    "client_facing_pct": 3.2
   }
 }

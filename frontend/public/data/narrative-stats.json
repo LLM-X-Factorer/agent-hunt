@@ -1,6 +1,6 @@
 {
   "totals": {
-    "all_jobs": 9287,
+    "all_jobs": 12457,
     "labeled_jobs": 8550
   },
   "p1_market_basic": {
@@ -102,10 +102,10 @@
     "intl_ghost_clusters": 30,
     "intl_total_jobs": 5502,
     "intl_ghost_pct": 0.55,
-    "domestic_ghost_clusters": 7,
-    "domestic_total_jobs": 3795,
-    "domestic_ghost_pct": 0.18,
-    "intl_to_domestic_ratio": 3.1,
+    "domestic_ghost_clusters": 20,
+    "domestic_total_jobs": 6965,
+    "domestic_ghost_pct": 0.29,
+    "intl_to_domestic_ratio": 1.9,
     "top_ghost_listings": [
       {
         "company": "Deloitte",
@@ -149,6 +149,17 @@
         ],
         "platforms": [
           "vendor_openai"
+        ]
+      },
+      {
+        "company": "字节跳动",
+        "title": "推荐算法工程师-抖音",
+        "variant_count": 12,
+        "markets": [
+          "domestic"
+        ],
+        "platforms": [
+          "vendor_bytedance"
         ]
       },
       {
@@ -205,17 +216,6 @@
         "platforms": [
           "indeed",
           "linkedin"
-        ]
-      },
-      {
-        "company": "Amazon.com",
-        "title": "Software Development Engineer",
-        "variant_count": 8,
-        "markets": [
-          "international"
-        ],
-        "platforms": [
-          "indeed"
         ]
       }
     ]

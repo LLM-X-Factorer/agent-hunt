@@ -4,121 +4,121 @@
       "skill_id": "llm",
       "canonical_name": "Large Language Models",
       "count": 231,
-      "percentage": 6.1
+      "percentage": 3.3
     },
     {
       "skill_id": "agent_architecture",
       "canonical_name": "Agent Architecture",
       "count": 90,
-      "percentage": 2.4
+      "percentage": 1.3
     },
     {
       "skill_id": "python",
       "canonical_name": "Python",
       "count": 61,
-      "percentage": 1.6
+      "percentage": 0.9
     },
     {
       "skill_id": "rag",
       "canonical_name": "Retrieval-Augmented Generation",
       "count": 37,
-      "percentage": 1.0
+      "percentage": 0.5
     },
     {
       "skill_id": "prompt_engineering",
       "canonical_name": "Prompt Engineering",
       "count": 34,
-      "percentage": 0.9
+      "percentage": 0.5
     },
     {
       "skill_id": "java",
       "canonical_name": "Java",
       "count": 27,
-      "percentage": 0.7
+      "percentage": 0.4
     },
     {
       "skill_id": "data_analysis",
       "canonical_name": "Data Analysis",
       "count": 24,
-      "percentage": 0.6
+      "percentage": 0.3
     },
     {
       "skill_id": "langchain",
       "canonical_name": "LangChain",
       "count": 24,
-      "percentage": 0.6
+      "percentage": 0.3
     },
     {
       "skill_id": "machine_learning",
       "canonical_name": "Machine Learning",
       "count": 19,
-      "percentage": 0.5
+      "percentage": 0.3
     },
     {
       "skill_id": "sql",
       "canonical_name": "SQL",
       "count": 18,
-      "percentage": 0.5
+      "percentage": 0.3
     },
     {
       "skill_id": "pytorch",
       "canonical_name": "PyTorch",
       "count": 17,
-      "percentage": 0.4
+      "percentage": 0.2
     },
     {
       "skill_id": "multimodal_ai",
       "canonical_name": "Multimodal AI",
       "count": 17,
-      "percentage": 0.4
+      "percentage": 0.2
     },
     {
       "skill_id": "nlp",
       "canonical_name": "Natural Language Processing",
       "count": 16,
-      "percentage": 0.4
+      "percentage": 0.2
     },
     {
       "skill_id": "golang",
       "canonical_name": "Go",
       "count": 14,
-      "percentage": 0.4
+      "percentage": 0.2
     },
     {
       "skill_id": "fine_tuning",
       "canonical_name": "Fine-tuning",
       "count": 14,
-      "percentage": 0.4
+      "percentage": 0.2
     },
     {
       "skill_id": "react",
       "canonical_name": "React",
       "count": 13,
-      "percentage": 0.3
+      "percentage": 0.2
     },
     {
       "skill_id": "autogen",
       "canonical_name": "AutoGen",
       "count": 13,
-      "percentage": 0.3
+      "percentage": 0.2
     },
     {
       "skill_id": "tongyi_qianwen",
       "canonical_name": "Tongyi Qianwen",
       "count": 13,
-      "percentage": 0.3
+      "percentage": 0.2
     },
     {
       "skill_id": "generative_ai",
       "canonical_name": "Generative AI",
       "count": 11,
-      "percentage": 0.3
+      "percentage": 0.2
     },
     {
       "skill_id": "llamaindex",
       "canonical_name": "LlamaIndex",
       "count": 11,
-      "percentage": 0.3
+      "percentage": 0.2
     }
   ],
   "international_top": [
@@ -245,23 +245,13 @@
   ],
   "skill_gaps": [
     {
-      "skill_id": "llm",
-      "canonical_name": "Large Language Models",
-      "domestic_count": 231,
-      "international_count": 135,
-      "domestic_pct": 6.1,
-      "international_pct": 2.5,
-      "gap": 3.6,
-      "dominant_market": "domestic"
-    },
-    {
       "skill_id": "python",
       "canonical_name": "Python",
       "domestic_count": 61,
       "international_count": 231,
-      "domestic_pct": 1.6,
+      "domestic_pct": 0.9,
       "international_pct": 4.2,
-      "gap": 2.6,
+      "gap": 3.3,
       "dominant_market": "international"
     },
     {
@@ -269,9 +259,9 @@
       "canonical_name": "Generative AI",
       "domestic_count": 11,
       "international_count": 128,
-      "domestic_pct": 0.3,
+      "domestic_pct": 0.2,
       "international_pct": 2.3,
-      "gap": 2.0,
+      "gap": 2.1,
       "dominant_market": "international"
     },
     {
@@ -279,9 +269,9 @@
       "canonical_name": "AWS",
       "domestic_count": 2,
       "international_count": 92,
-      "domestic_pct": 0.1,
+      "domestic_pct": 0.0,
       "international_pct": 1.7,
-      "gap": 1.6,
+      "gap": 1.7,
       "dominant_market": "international"
     },
     {
@@ -289,9 +279,9 @@
       "canonical_name": "SQL",
       "domestic_count": 18,
       "international_count": 100,
-      "domestic_pct": 0.5,
+      "domestic_pct": 0.3,
       "international_pct": 1.8,
-      "gap": 1.3,
+      "gap": 1.5,
       "dominant_market": "international"
     },
     {
@@ -299,9 +289,9 @@
       "canonical_name": "Machine Learning",
       "domestic_count": 19,
       "international_count": 95,
-      "domestic_pct": 0.5,
+      "domestic_pct": 0.3,
       "international_pct": 1.7,
-      "gap": 1.2,
+      "gap": 1.4,
       "dominant_market": "international"
     },
     {
@@ -309,39 +299,9 @@
       "canonical_name": "Google Cloud",
       "domestic_count": 3,
       "international_count": 71,
-      "domestic_pct": 0.1,
+      "domestic_pct": 0.0,
       "international_pct": 1.3,
-      "gap": 1.2,
-      "dominant_market": "international"
-    },
-    {
-      "skill_id": "agent_architecture",
-      "canonical_name": "Agent Architecture",
-      "domestic_count": 90,
-      "international_count": 70,
-      "domestic_pct": 2.4,
-      "international_pct": 1.3,
-      "gap": 1.1,
-      "dominant_market": "domestic"
-    },
-    {
-      "skill_id": "azure",
-      "canonical_name": "Azure",
-      "domestic_count": 3,
-      "international_count": 67,
-      "domestic_pct": 0.1,
-      "international_pct": 1.2,
-      "gap": 1.1,
-      "dominant_market": "international"
-    },
-    {
-      "skill_id": "pytorch",
-      "canonical_name": "PyTorch",
-      "domestic_count": 17,
-      "international_count": 76,
-      "domestic_pct": 0.4,
-      "international_pct": 1.4,
-      "gap": 1.0,
+      "gap": 1.3,
       "dominant_market": "international"
     },
     {
@@ -349,9 +309,39 @@
       "canonical_name": "Data Analysis",
       "domestic_count": 24,
       "international_count": 83,
-      "domestic_pct": 0.6,
+      "domestic_pct": 0.3,
       "international_pct": 1.5,
-      "gap": 0.9,
+      "gap": 1.2,
+      "dominant_market": "international"
+    },
+    {
+      "skill_id": "pytorch",
+      "canonical_name": "PyTorch",
+      "domestic_count": 17,
+      "international_count": 76,
+      "domestic_pct": 0.2,
+      "international_pct": 1.4,
+      "gap": 1.2,
+      "dominant_market": "international"
+    },
+    {
+      "skill_id": "azure",
+      "canonical_name": "Azure",
+      "domestic_count": 3,
+      "international_count": 67,
+      "domestic_pct": 0.0,
+      "international_pct": 1.2,
+      "gap": 1.2,
+      "dominant_market": "international"
+    },
+    {
+      "skill_id": "prompt_engineering",
+      "canonical_name": "Prompt Engineering",
+      "domestic_count": 34,
+      "international_count": 84,
+      "domestic_pct": 0.5,
+      "international_pct": 1.5,
+      "gap": 1.0,
       "dominant_market": "international"
     },
     {
@@ -359,9 +349,49 @@
       "canonical_name": "OpenAI API",
       "domestic_count": 7,
       "international_count": 60,
-      "domestic_pct": 0.2,
+      "domestic_pct": 0.1,
       "international_pct": 1.1,
+      "gap": 1.0,
+      "dominant_market": "international"
+    },
+    {
+      "skill_id": "java",
+      "canonical_name": "Java",
+      "domestic_count": 27,
+      "international_count": 71,
+      "domestic_pct": 0.4,
+      "international_pct": 1.3,
       "gap": 0.9,
+      "dominant_market": "international"
+    },
+    {
+      "skill_id": "llm",
+      "canonical_name": "Large Language Models",
+      "domestic_count": 231,
+      "international_count": 135,
+      "domestic_pct": 3.3,
+      "international_pct": 2.5,
+      "gap": 0.8,
+      "dominant_market": "domestic"
+    },
+    {
+      "skill_id": "tensorflow",
+      "canonical_name": "TensorFlow",
+      "domestic_count": 10,
+      "international_count": 52,
+      "domestic_pct": 0.1,
+      "international_pct": 0.9,
+      "gap": 0.8,
+      "dominant_market": "international"
+    },
+    {
+      "skill_id": "cpp",
+      "canonical_name": "C++",
+      "domestic_count": 10,
+      "international_count": 51,
+      "domestic_pct": 0.1,
+      "international_pct": 0.9,
+      "gap": 0.8,
       "dominant_market": "international"
     },
     {
@@ -369,6 +399,16 @@
       "canonical_name": "Anthropic API",
       "domestic_count": 7,
       "international_count": 48,
+      "domestic_pct": 0.1,
+      "international_pct": 0.9,
+      "gap": 0.8,
+      "dominant_market": "international"
+    },
+    {
+      "skill_id": "react",
+      "canonical_name": "React",
+      "domestic_count": 13,
+      "international_count": 49,
       "domestic_pct": 0.2,
       "international_pct": 0.9,
       "gap": 0.7,
@@ -402,46 +442,6 @@
       "domestic_pct": 0.0,
       "international_pct": 0.7,
       "gap": 0.7,
-      "dominant_market": "international"
-    },
-    {
-      "skill_id": "prompt_engineering",
-      "canonical_name": "Prompt Engineering",
-      "domestic_count": 34,
-      "international_count": 84,
-      "domestic_pct": 0.9,
-      "international_pct": 1.5,
-      "gap": 0.6,
-      "dominant_market": "international"
-    },
-    {
-      "skill_id": "java",
-      "canonical_name": "Java",
-      "domestic_count": 27,
-      "international_count": 71,
-      "domestic_pct": 0.7,
-      "international_pct": 1.3,
-      "gap": 0.6,
-      "dominant_market": "international"
-    },
-    {
-      "skill_id": "tensorflow",
-      "canonical_name": "TensorFlow",
-      "domestic_count": 10,
-      "international_count": 52,
-      "domestic_pct": 0.3,
-      "international_pct": 0.9,
-      "gap": 0.6,
-      "dominant_market": "international"
-    },
-    {
-      "skill_id": "react",
-      "canonical_name": "React",
-      "domestic_count": 13,
-      "international_count": 49,
-      "domestic_pct": 0.3,
-      "international_pct": 0.9,
-      "gap": 0.6,
       "dominant_market": "international"
     }
   ]
